@@ -60,36 +60,48 @@ async function carregarNoticias() {
 
 // Gera uma URL de imagem aleatória baseada no conteúdo da notícia
 function gerarImagemAleatoria(noticia) {
-    // Use imagens locais ou confiáveis em vez de depender de APIs externas
+    // URLs de imagens diretas de CDN (mais confiáveis)
     const imagens = [
-        'https://i.imgur.com/HmBuTEe.jpg', // Console de jogos
-        'https://i.imgur.com/6dZQBEn.jpg', // Controle de videogame
-        'https://i.imgur.com/9tGRUkx.jpg', // Tela de jogo
-        'https://i.imgur.com/xSIK4M5.jpg', // PC gaming
-        'https://i.imgur.com/VS9wVB9.jpg', // RPG
-        'https://i.imgur.com/UobKQUt.jpg', // FPS
-        'https://i.imgur.com/NK2gQVg.jpg', // Jogador
-        'https://i.imgur.com/HOnO0nf.jpg'  // Card game
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121611/games/console_game_a7bqxp.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121611/games/controller_vnjzhj.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/gaming_pc_ibjsxo.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/rpg_game_xwpwl9.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/fps_game_thzbgk.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/gamer_k3t8tf.jpg',
+        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/card_game_fk8tbh.jpg'
     ];
     
-    // Categoria determina a imagem (para ser mais previsível)
-    const categoria = determinarCategoria(noticia);
+    // Garantir que sempre retorne pelo menos uma imagem padrão
+    // se por algum motivo a lógica abaixo falhar
+    let imagemIndex = 0;
     
-    switch(categoria) {
-        case 'consoles':
-            return (noticia.titulo.toLowerCase().includes('nintendo') || 
-                    noticia.titulo.toLowerCase().includes('switch')) ? 
-                   imagens[0] : imagens[1];
-        case 'jogos':
-            return (noticia.titulo.toLowerCase().includes('rpg') || 
-                    noticia.titulo.toLowerCase().includes('role')) ? 
-                   imagens[4] : imagens[2];
-        case 'esports':
-            return imagens[6];
-        default:
-            // Número aleatório para outras categorias
-            return imagens[Math.floor(Math.random() * imagens.length)];
+    try {
+        // Categoria determina a imagem (para ser mais previsível)
+        const categoria = determinarCategoria(noticia);
+        const tituloLower = (noticia.titulo || '').toLowerCase();
+        
+        switch(categoria) {
+            case 'consoles':
+                imagemIndex = (tituloLower.includes('nintendo') || 
+                        tituloLower.includes('switch')) ? 0 : 1;
+                break;
+            case 'jogos':
+                imagemIndex = (tituloLower.includes('rpg') || 
+                        tituloLower.includes('role')) ? 4 : 2;
+                break;
+            case 'esports':
+                imagemIndex = 6;
+                break;
+            default:
+                // Número aleatório para outras categorias
+                imagemIndex = Math.floor(Math.random() * imagens.length);
+        }
+    } catch (e) {
+        console.error('Erro ao determinar imagem:', e);
     }
+    
+    return imagens[imagemIndex];
 }
 
 // Função para exibir as notícias filtradas na página
@@ -117,7 +129,7 @@ function exibirNoticias() {
         html += `
             <article data-categoria="${noticia.categoria}">
                 <div class="article-img">
-                    <img src="${noticia.imagem}" alt="${noticia.titulo}" onerror="this.src='https://i.imgur.com/HmBuTEe.jpg';">
+                    <img src="${noticia.imagem}" alt="${noticia.titulo}" onerror="this.src='https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg'">
                 </div>
                 <div class="article-content">
                     <span class="fonte-badge">${fonte}</span>
@@ -140,13 +152,19 @@ function abrirDetalhes(noticiaJSON) {
     const modal = document.createElement('div');
     modal.className = 'modal-detalhes';
     
+    // Trata a fonte indefinida
+    const fonte = noticia.fonte || 'GameNews';
+    
+    // Usa a imagem já definida ou uma imagem padrão
+    const imagem = noticia.imagem || 'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg';
+    
     modal.innerHTML = `
         <div class="modal-content">
             <span class="fechar-modal">&times;</span>
             <h2>${noticia.titulo}</h2>
-            <p class="fonte-data">Fonte: ${noticia.fonte} | Data: 25 de abril de 2025</p>
+            <p class="fonte-data">Fonte: ${fonte} | Data: 25 de abril de 2025</p>
             <div class="modal-img">
-                <img src="${noticia.imagem}" alt="${noticia.titulo}">
+                <img src="${imagem}" alt="${noticia.titulo}" onerror="this.src='https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg'">
             </div>
             <div class="modal-texto">
                 <p>${noticia.descricao}</p>
@@ -296,6 +314,30 @@ function configurarFiltrosFonte() {
     });
     
     filtroFontes.innerHTML = html;
+}
+
+// Configurar destaque também precisa ser atualizado para lidar com links fictícios
+function configurarDestaque(destaque) {
+    // Seleciona a primeira notícia como destaque
+    const noticiaDestaque = todasNoticias[0];
+    
+    // Verifica se o link é fictício
+    const linkOriginal = noticiaDestaque.link;
+    const isLinkFicticio = linkOriginal.includes('exemplo.com');
+    const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
+    const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
+    const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticiaDestaque))}')"` : '';
+    
+    // Trata a fonte indefinida
+    const fonte = noticiaDestaque.fonte || 'GameNews';
+    
+    destaque.innerHTML = `
+        <div class="destaque-content">
+            <h2>${noticiaDestaque.titulo}</h2>
+            <p>${noticiaDestaque.descricao}</p>
+            <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler notícia completa</a>
+        </div>
+    `;
 }
 
 // Iniciar o carregamento de notícias
