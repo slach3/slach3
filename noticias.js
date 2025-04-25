@@ -1,4 +1,4 @@
-// Atualizado em: 2025-04-25 16:24:29
+// Atualizado em: 2025-04-25 21:31:43
 const noticias = [
     {
         "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
@@ -57,24 +57,31 @@ const noticias = [
         "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Square Enix parece estar preparando algo relacionado a NieR Automata, em atualização misteriosa no site",
+        "titulo": "Ladrões roubaram iPhone e 2 TB de dados dele; saiba o que fazer para se proteger",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/nier-2/139441/news/square-enix-parece-estar-preparando-algo-relacionado-a-nier-automata-em-atualizacao-misteriosa-no-si",
-        "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-is-teasing-something-nier-related-again-in-a-cry_t648.280.png",
+        "link": "https://br.ign.com/iphone/139448/news/ladroes-roubaram-iphone-e-2-tb-de-dados-dele-saiba-o-que-fazer-para-se-proteger",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-04-25-170430991_8c6j.280.jpg",
         "fonte": "IGN Brasil"
     },
     {
-        "titulo": "The Line, maior canteiro de obras do mundo, tem progresso impressionante revelado por imagens áereas",
+        "titulo": "\"Ele está desesperado para não perder outro amigo\": elenco de Classe dos Heróis Fracos revela motivações dos personagens na 2ª temporada",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/tech/139437/news/the-line-maior-canteiro-de-obras-do-mundo-tem-progresso-impressionante-revelado-por-imagens-aereas",
-        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qqe7.280.jpg",
+        "link": "https://br.ign.com/weak-hero-class/139439/feature/ele-esta-desesperado-para-nao-perder-outro-amigo-elenco-de-classe-dos-herois-fracos-revela-motivacoe",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-15_yfec.280.jpg",
         "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "By choosing not to replace Oblivion Remastered's soundtrack, Bethesda made the allegations against composer Jeremy Soule everyone else's problem",
+        "descricao": "NewsOblivion's soundtrack is a core part of its identity, but it's also tainted by association.",
+        "link": "https://www.pcgamer.com/games/the-elder-scrolls/by-choosing-not-to-replace-oblivion-remastereds-soundtrack-bethesda-made-the-allegations-against-composer-jeremy-soule-everyone-elses-problem/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/uFDK5MHpRBXm9SHx5KLbae.jpg",
+        "fonte": "PC Gamer"
     },
     {
         "titulo": "Modders somehow cranked out a VR mod for Oblivion Remastered mere hours after its surprise launch",
         "descricao": "newsIt's like you're really there, stabbing the rats.",
         "link": "https://www.pcgamer.com/games/the-elder-scrolls/modders-somehow-cranked-out-a-vr-mod-for-oblivion-remastered-mere-hours-after-its-surprise-launch/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/vk7Vb5Pyr9vagGh3ApacAC.jpg",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/TX2HhYnf5Um9mSMqHVvC9C.jpg",
         "fonte": "PC Gamer"
     },
     {
@@ -99,14 +106,14 @@ const noticias = [
         "fonte": "PC Gamer"
     },
     {
-        "titulo": "Hugo Martin isn't messing around as he unveils Doom: The Dark Age's new Cosmic Realm: 'Bear witness to the cyclopean architecture of this Lovecraftian dimension!'",
+        "titulo": "Hugo Martin isn't messing around as he unveils Doom: The Dark Age's new Cosmic Realm: 'Bear witness to the cyclopean architecture of this Lovecraft...",
         "descricao": "newsEasy on there, Hugo.",
         "link": "https://www.pcgamer.com/games/fps/hugo-martin-isnt-messing-around-as-he-unveils-doom-the-dark-ages-new-cosmic-realm-bear-witness-to-the-cyclopean-architecture-of-this-lovecraftian-dimension/",
         "imagem": "https://cdn.mos.cms.futurecdn.net/Lf5YyPjrwScd23nhCFxcHR.jpg",
         "fonte": "PC Gamer"
     },
     {
-        "titulo": "Apple and Meta have been fined a total of €700,000,000 for non-compliance with the EU Digital Markets Act. Which, in their billion-dollar world, is just chump change",
+        "titulo": "Apple and Meta have been fined a total of €700,000,000 for non-compliance with the EU Digital Markets Act. Which, in their billion-dollar world, is...",
         "descricao": "NewsWill they even notice?",
         "link": "https://www.pcgamer.com/hardware/apple-and-meta-have-been-fined-a-total-of-eur700-000-000-for-non-compliance-with-the-eu-digital-markets-act-which-in-their-billion-dollar-world-is-just-chump-change/",
         "imagem": "https://cdn.mos.cms.futurecdn.net/KzutSCfxmZd6BFVnR2wn7R.jpg",
@@ -127,10 +134,73 @@ const noticias = [
         "fonte": "PC Gamer"
     },
     {
-        "titulo": "Metaphor: ReFantazio did surprisingly well on PC, says director, and that the number of desktop-based JRPG enjoyers is on the rise: 'The trend is evident'",
-        "descricao": "newsKatsura Hashino was impressed with Metaphor's PC sales.",
-        "link": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-did-surprisingly-well-on-pc-says-director-and-that-the-number-of-desktop-based-jrpg-enjoyers-is-on-the-rise-the-trend-is-evident/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/Y9LbpBUhKaksu2o9ALfobi.jpg",
-        "fonte": "PC Gamer"
+        "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501245-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/24/24192438758015.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Nuuvem Select de Easter Egg Game Festival traz promoção de 2 jogos por um preço especial",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501249-nuuvem-select-de-easter-egg-game-festival-traz-promocao-de-2-jogos-por-um-preco-especial.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/25/25121939814119.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Após aumento de preço, PS Plus perderá GTA 5 e mais 21 jogos em maio! Confira a lista",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501237-apos-aumento-de-preco-ps-plus-perdera-gta-5-e-mais-21-jogos-em-maio-confira-a-lista.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/24/24112317059130.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Steam recebe 7 jogos grátis nesta semana! Veja lista e resgate",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501222-steam-recebe-7-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/23/23174404810036.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "PlayStation tem jogos para PS4 e PS5 com até 90% OFF; aproveite!",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501244-playstation-tem-jogos-para-ps4-e-ps5-com-ate-90-off-aproveite.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/24/24175303321005.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Jogos do Switch 2 por até R$ 500: O que explica lançamentos tão caros da Nintendo?",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501242-jogos-do-switch-2-por-ate-r-500-o-que-explica-lancamentos-tao-caros-da-nintendo.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/24/24155813860014.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Xbox Game Pass recebe um dos melhores jogos do ano! Conheça Clair Obscur Expedition 33",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501223-xbox-game-pass-recebe-um-dos-melhores-jogos-do-ano-conheca-clair-obscur-expedition-33.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/23/23092310546041.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Roblox anuncia grande mudança em seus preços e meta ambiciosa: ser dono de 10% do mercado de jogos",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501226-roblox-anuncia-grande-mudanca-em-seus-precos-e-meta-ambiciosa-ser-dono-de-10-do-mercado-de-jogos.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/23/23113319772256.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Prime Gaming recebe última lista com os jogos gratuitos de abril! Veja como resgatar",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501230-prime-gaming-recebe-ultima-lista-com-os-jogos-gratuitos-de-abril-veja-como-resgatar.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/23/23183152611035.jpg?ims=96x88",
+        "fonte": "TecMundo"
+    },
+    {
+        "titulo": "Xbox: jogos de Xbox One e Series S|X com até 90% de desconto",
+        "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+        "link": "https://www.tecmundo.com.br/voxel/501232-xbox-jogos-de-xbox-one-e-series-sx-com-ate-90-de-desconto.htm",
+        "imagem": "https://tm.ibxk.com.br/2025/04/23/23185730395050.jpg?ims=96x88",
+        "fonte": "TecMundo"
     }
 ];
