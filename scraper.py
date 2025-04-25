@@ -358,6 +358,16 @@ def coletar_e_salvar_noticias():
     except Exception as e:
         logging.error(f"Falha completa no processamento do TecMundo: {e}")
     
+    # Adicionar uma notícia com timestamp específico para confirmar visualmente a atualização
+    agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    todas_noticias.insert(0, {
+        "titulo": f"[ATUALIZAÇÃO: {agora}] Teste de atualização automática do sistema",
+        "descricao": "Esta notícia foi gerada automaticamente para confirmar que o sistema de atualização automática está funcionando corretamente.",
+        "link": "https://github.com/slach3/slach3",
+        "imagem": "images/fallback.html",
+        "fonte": "GameNews"
+    })
+    
     # Tratamento para imagens faltantes e duplicados
     noticias_filtradas = []
     titulos_adicionados = set()
@@ -381,45 +391,57 @@ def coletar_e_salvar_noticias():
         noticias_filtradas.append(noticia)
     
     # Se não conseguir coletar notícias, usa exemplos
-    if not noticias_filtradas:
-        logging.warning("Não foi possível coletar notícias, usando exemplos.")
-        noticias_filtradas = [
+    if len(noticias_filtradas) <= 1:  # Só tem a notícia de teste que inserimos
+        logging.warning("Não foi possível coletar notícias suficientes, usando exemplos.")
+        
+        # Adiciona a notícia de teste novamente para garantir
+        agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        noticias_filtradas = [{
+            "titulo": f"[ATUALIZAÇÃO: {agora}] Teste de atualização automática do sistema",
+            "descricao": "Esta notícia foi gerada automaticamente para confirmar que o sistema de atualização automática está funcionando corretamente.",
+            "link": "https://github.com/slach3/slach3",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        }]
+        
+        # Adiciona notícias de exemplo
+        noticias_filtradas.extend([
             {
-                "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
+                "titulo": f"GTA VI recebe data oficial de lançamento e novo trailer",
                 "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
                 "link": "https://exemplo.com/gta6",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": "Nintendo revela novo console sucessor do Switch",
+                "titulo": f"Nintendo revela novo console sucessor do Switch",
                 "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
                 "link": "https://exemplo.com/switch2",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
+                "titulo": f"Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
                 "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
                 "link": "https://exemplo.com/eldenring-dlc",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
+                "titulo": f"Microsoft anuncia aquisição de mais um estúdio de jogos",
                 "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
                 "link": "https://exemplo.com/microsoft-aquisicao",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": "Novo jogo da série God of War é anunciado para PS5",
+                "titulo": f"Novo jogo da série God of War é anunciado para PS5",
                 "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
                 "link": "https://exemplo.com/god-of-war",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             }
-        ]
+        ])
     
     # Limita o número total de notícias para 30 para não sobrecarregar a página
     if len(noticias_filtradas) > 30:
