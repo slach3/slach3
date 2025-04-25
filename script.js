@@ -25,8 +25,7 @@ function determinarCategoria(noticia) {
 // Função para carregar e processar notícias
 async function carregarNoticias() {
     const container = document.getElementById('noticias');
-    const destaque = document.getElementById('destaque');
-    container.innerHTML = '<p class="loading">Carregando notícias...</p>';
+    container.innerHTML = '<p class="loading-message">Carregando notícias...</p>';
 
     try {
         // Processar notícias do arquivo noticias.js (já carregado)
@@ -41,9 +40,6 @@ async function carregarNoticias() {
         
         noticiasFiltradas = [...todasNoticias];
         
-        // Configurar destaque
-        configurarDestaque(destaque);
-        
         // Configurar filtros de fonte
         configurarFiltrosFonte();
         
@@ -52,6 +48,12 @@ async function carregarNoticias() {
         
         // Configurar eventos
         configurarEventos();
+        
+        // Adicionar informação de última atualização
+        const dataAtualizacao = noticias.js_data_atualizacao || 'Agora';
+        if (document.querySelector('.footer-update')) {
+            document.querySelector('.footer-update').textContent = `Última atualização: ${dataAtualizacao}`;
+        }
         
     } catch (error) {
         container.innerHTML = '<p class="erro">Erro ao carregar notícias.</p>';
@@ -75,7 +77,7 @@ function exibirNoticias() {
         const linkOriginal = noticia.link;
         const isLinkFicticio = linkOriginal.includes('exemplo.com');
         const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
-        const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
+        const linkTarget = isLinkFicticio ? '' : 'target="_blank" rel="noopener"';
         const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticia))}')"` : '';
         
         // Trata a fonte indefinida
@@ -90,7 +92,7 @@ function exibirNoticias() {
         if (isFallbackImage) {
             imagemHtml = `<iframe src="${imagemUrl}" frameborder="0" title="${noticia.titulo}" scrolling="no"></iframe>`;
         } else {
-            imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
+            imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" loading="lazy" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
         }
         
         html += `
@@ -145,7 +147,6 @@ function abrirDetalhes(noticiaJSON) {
             <div class="modal-texto">
                 <p>${noticia.descricao}</p>
                 <p>Esta é uma notícia fictícia criada para demonstração. Em um site real, aqui estaria o conteúdo completo da notícia.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
             </div>
         </div>
     `;
@@ -292,29 +293,5 @@ function configurarFiltrosFonte() {
     filtroFontes.innerHTML = html;
 }
 
-// Configurar destaque também precisa ser atualizado para lidar com links fictícios
-function configurarDestaque(destaque) {
-    // Seleciona a primeira notícia como destaque
-    const noticiaDestaque = todasNoticias[0];
-    
-    // Verifica se o link é fictício
-    const linkOriginal = noticiaDestaque.link;
-    const isLinkFicticio = linkOriginal.includes('exemplo.com');
-    const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
-    const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
-    const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticiaDestaque))}')"` : '';
-    
-    // Trata a fonte indefinida
-    const fonte = noticiaDestaque.fonte || 'GameNews';
-    
-    destaque.innerHTML = `
-        <div class="destaque-content">
-            <h2>${noticiaDestaque.titulo}</h2>
-            <p>${noticiaDestaque.descricao}</p>
-            <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler notícia completa</a>
-        </div>
-    `;
-}
-
 // Iniciar o carregamento de notícias
-carregarNoticias();
+document.addEventListener('DOMContentLoaded', carregarNoticias);
