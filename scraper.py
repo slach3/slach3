@@ -323,6 +323,120 @@ def coletar_noticias_tecmundo():
         logging.error(f"Erro ao coletar notícias do TecMundo: {e}")
         return []
 
+def coletar_noticias_gameviciados():
+    logging.info("Coletando notícias do GameViciados...")
+    url = "https://www.gamevicio.com/"
+    headers = {'User-Agent': get_user_agent()}
+    
+    try:
+        response = requests.get(url, headers=headers, timeout=15)
+        logging.info(f"Status da resposta GameViciados: {response.status_code}")
+        soup = BeautifulSoup(response.text, 'html.parser')
+        noticias = []
+        
+        articles = soup.select('article.item-lista')
+        logging.info(f"Artigos encontrados GameViciados: {len(articles)}")
+        
+        for article in articles[:10]:  # Limita a 10 notícias
+            try:
+                link_element = article.select_one('a')
+                if not link_element:
+                    continue
+                    
+                link = link_element['href']
+                if not link.startswith('http'):
+                    link = 'https://www.gamevicio.com' + link
+                
+                titulo_element = article.select_one('h2')
+                if titulo_element:
+                    titulo = titulo_element.get_text(strip=True)
+                else:
+                    continue
+                
+                descricao = "Notícia sobre games do portal GameViciados."
+                
+                # Tentar encontrar a imagem
+                img_element = article.select_one('img')
+                imagem = None
+                if img_element and 'data-src' in img_element.attrs:
+                    imagem = img_element['data-src']
+                elif img_element and 'src' in img_element.attrs:
+                    imagem = img_element['src']
+                
+                noticias.append({
+                    'titulo': titulo,
+                    'descricao': descricao,
+                    'link': link,
+                    'imagem': imagem,
+                    'fonte': 'GameViciados'
+                })
+                logging.info(f"Notícia encontrada GameViciados: {titulo[:50]}...")
+            except Exception as e:
+                logging.error(f"Erro ao processar item do GameViciados: {e}")
+        
+        return noticias
+    except Exception as e:
+        logging.error(f"Erro ao coletar notícias do GameViciados: {e}")
+        return []
+
+def coletar_noticias_voxel():
+    logging.info("Coletando notícias do Voxel...")
+    url = "https://www.tecmundo.com.br/voxel"
+    headers = {'User-Agent': get_user_agent()}
+    
+    try:
+        response = requests.get(url, headers=headers, timeout=15)
+        logging.info(f"Status da resposta Voxel: {response.status_code}")
+        soup = BeautifulSoup(response.text, 'html.parser')
+        noticias = []
+        
+        articles = soup.select('article.tec--card')
+        logging.info(f"Artigos encontrados Voxel: {len(articles)}")
+        
+        for article in articles[:10]:  # Limita a 10 notícias
+            try:
+                link_element = article.select_one('a.tec--card__title__link')
+                if not link_element:
+                    continue
+                    
+                link = link_element['href']
+                if not link.startswith('http'):
+                    link = 'https://www.tecmundo.com.br' + link
+                
+                titulo = link_element.get_text(strip=True)
+                if not titulo:
+                    continue
+                
+                descricao_elem = article.select_one('.tec--card__description')
+                if descricao_elem:
+                    descricao = descricao_elem.get_text(strip=True)
+                else:
+                    descricao = "Notícia sobre games do portal Voxel."
+                
+                # Tentar encontrar a imagem
+                img_element = article.select_one('img')
+                imagem = None
+                if img_element and 'data-src' in img_element.attrs:
+                    imagem = img_element['data-src']
+                elif img_element and 'src' in img_element.attrs:
+                    imagem = img_element['src']
+                
+                noticias.append({
+                    'titulo': titulo,
+                    'descricao': descricao,
+                    'link': link,
+                    'imagem': imagem,
+                    'fonte': 'Voxel'
+                })
+                logging.info(f"Notícia encontrada Voxel: {titulo[:50]}...")
+            except Exception as e:
+                logging.error(f"Erro ao processar item do Voxel: {e}")
+        
+        return noticias
+    except Exception as e:
+        logging.error(f"Erro ao coletar notícias do Voxel: {e}")
+        return []
+
 def coletar_e_salvar_noticias():
     logging.info(f"===== Iniciando coleta de notícias em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====")
     
@@ -355,18 +469,20 @@ def coletar_e_salvar_noticias():
     
     try:
         todas_noticias.extend(coletar_noticias_tecmundo())
+        time.sleep(2)  # Pausa para não sobrecarregar os servidores
     except Exception as e:
         logging.error(f"Falha completa no processamento do TecMundo: {e}")
-    
-    # Adicionar uma notícia com timestamp específico para confirmar visualmente a atualização
-    agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    todas_noticias.insert(0, {
-        "titulo": f"[ATUALIZAÇÃO: {agora}] Teste de atualização automática do sistema",
-        "descricao": "Esta notícia foi gerada automaticamente para confirmar que o sistema de atualização automática está funcionando corretamente.",
-        "link": "https://github.com/slach3/slach3",
-        "imagem": "images/fallback.html",
-        "fonte": "GameNews"
-    })
+        
+    try:
+        todas_noticias.extend(coletar_noticias_gameviciados())
+        time.sleep(2)  # Pausa para não sobrecarregar os servidores
+    except Exception as e:
+        logging.error(f"Falha completa no processamento do GameViciados: {e}")
+        
+    try:
+        todas_noticias.extend(coletar_noticias_voxel())
+    except Exception as e:
+        logging.error(f"Falha completa no processamento do Voxel: {e}")
     
     # Tratamento para imagens faltantes e duplicados
     noticias_filtradas = []
@@ -391,57 +507,48 @@ def coletar_e_salvar_noticias():
         noticias_filtradas.append(noticia)
     
     # Se não conseguir coletar notícias, usa exemplos
-    if len(noticias_filtradas) <= 1:  # Só tem a notícia de teste que inserimos
+    if len(noticias_filtradas) <= 1:
         logging.warning("Não foi possível coletar notícias suficientes, usando exemplos.")
-        
-        # Adiciona a notícia de teste novamente para garantir
-        agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        noticias_filtradas = [{
-            "titulo": f"[ATUALIZAÇÃO: {agora}] Teste de atualização automática do sistema",
-            "descricao": "Esta notícia foi gerada automaticamente para confirmar que o sistema de atualização automática está funcionando corretamente.",
-            "link": "https://github.com/slach3/slach3",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        }]
-        
-        # Adiciona notícias de exemplo
-        noticias_filtradas.extend([
+        noticias_filtradas = [
             {
-                "titulo": f"GTA VI recebe data oficial de lançamento e novo trailer",
+                "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
                 "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
                 "link": "https://exemplo.com/gta6",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": f"Nintendo revela novo console sucessor do Switch",
+                "titulo": "Nintendo revela novo console sucessor do Switch",
                 "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
                 "link": "https://exemplo.com/switch2",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": f"Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
+                "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
                 "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
                 "link": "https://exemplo.com/eldenring-dlc",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": f"Microsoft anuncia aquisição de mais um estúdio de jogos",
+                "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
                 "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
                 "link": "https://exemplo.com/microsoft-aquisicao",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             },
             {
-                "titulo": f"Novo jogo da série God of War é anunciado para PS5",
+                "titulo": "Novo jogo da série God of War é anunciado para PS5",
                 "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
                 "link": "https://exemplo.com/god-of-war",
                 "imagem": "images/fallback.html",
                 "fonte": "GameNews"
             }
-        ])
+        ]
+    
+    # Embaralha as notícias para criar mais variedade visual
+    random.shuffle(noticias_filtradas)
     
     # Limita o número total de notícias para 30 para não sobrecarregar a página
     if len(noticias_filtradas) > 30:
