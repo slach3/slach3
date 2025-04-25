@@ -3,18 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias de Jogos</title>
+    <title>GameNews - Notícias de Jogos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Notícias de Jogos</h1>
+        <div class="logo">
+            <h1><i class="fas fa-gamepad"></i> GameNews</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active" data-category="todos">Todas</a></li>
+                <li><a href="#" data-category="consoles">Consoles</a></li>
+                <li><a href="#" data-category="jogos">Jogos</a></li>
+                <li><a href="#" data-category="esports">eSports</a></li>
+            </ul>
+        </nav>
+        <div class="busca">
+            <input type="text" id="busca" placeholder="Buscar notícias...">
+            <button id="botaoBusca"><i class="fas fa-search"></i></button>
+        </div>
     </header>
-    <main id="noticias">
-        <p>Carregando notícias...</p>
+
+    <div class="destaque" id="destaque">
+        <!-- Seção de destaque será preenchida pelo JavaScript -->
+    </div>
+
+    <main>
+        <div class="filtros">
+            <h3>Filtrar por fonte:</h3>
+            <div class="filtro-fontes" id="filtroFontes">
+                <!-- Filtros serão preenchidos pelo JavaScript -->
+            </div>
+        </div>
+        
+        <div id="noticias">
+            <p>Carregando notícias...</p>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2025 Notícias de Jogos</p>
+        <div class="footer-content">
+            <div class="social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 GameNews - Notícias de Jogos</p>
+        </div>
     </footer>
     <script src="noticias.js"></script>
     <script src="script.js"></script>
