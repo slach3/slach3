@@ -1,26 +1,5 @@
-// Atualizado em: 2025-04-25 23:28:47
+// Atualizado em: 2025-04-25 23:42:26
 const noticias = [
-    {
-        "titulo": "We can finally play 2006's flip phone-exclusive Monster Hunter port thanks to the tireless work of game preservationists and fan translators",
-        "descricao": "NewsWhat a beautiful world we'd lost.",
-        "link": "https://www.pcgamer.com/games/action/we-can-finally-play-2006s-flip-phone-exclusive-monster-hunter-port-thanks-to-the-tireless-work-of-game-preservationists-and-fan-translators/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/Dq9FAtmgjp2wwfUhDQaiBG.jpg",
-        "fonte": "PC Gamer"
-    },
-    {
-        "titulo": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
-        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "Powercolor Radeon RX 9070 GRE pictured which means the new AMD GPU is probably arriving sooner than we expected but it may be restricted to China",
-        "descricao": "newsAs ever, its appeal will be all about pricing.",
-        "link": "https://www.pcgamer.com/hardware/graphics-cards/powercolor-radeon-rx-9070-gre-pictured-which-means-the-new-amd-gpu-is-probably-arriving-sooner-than-we-expected-but-it-may-be-restricted-to-china/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/jVctBW3Qbke8dYpgX6tktJ.jpg",
-        "fonte": "PC Gamer"
-    },
     {
         "titulo": "By choosing not to replace Oblivion Remastered's soundtrack, Bethesda made the allegations against composer Jeremy Soule everyone else's problem",
         "descricao": "NewsOblivion's soundtrack is a core part of its identity, but it's also tainted by association.",
@@ -29,52 +8,24 @@ const noticias = [
         "fonte": "PC Gamer"
     },
     {
-        "titulo": "Próximo do anúncio do acesso antecipado, Subnautica 2 recebe seu primeiro vídeo de bastidores",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/subnautica-2/139452/news/proximo-do-anuncio-do-acesso-antecipado-subnautica-2-recebe-seu-primeiro-video-de-bastidores",
-        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet_b782.280.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "Hugo Martin isn't messing around as he unveils Doom: The Dark Age's new Cosmic Realm: 'Bear witness to the cyclopean architecture of this Lovecraft...",
-        "descricao": "newsEasy on there, Hugo.",
-        "link": "https://www.pcgamer.com/games/fps/hugo-martin-isnt-messing-around-as-he-unveils-doom-the-dark-ages-new-cosmic-realm-bear-witness-to-the-cyclopean-architecture-of-this-lovecraftian-dimension/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/Lf5YyPjrwScd23nhCFxcHR.jpg",
-        "fonte": "PC Gamer"
-    },
-    {
-        "titulo": "Em comemorações do Alien Day de 2025, clássico game de terror ficará grátis para jogar no Xbox",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/alien-isolation/139364/news/em-comemoracoes-do-alien-day-de-2025-classico-game-de-terror-ficara-gratis-para-jogar-no-xbox",
-        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_y8kd.320.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "Modders somehow cranked out a VR mod for Oblivion Remastered mere hours after its surprise launch",
-        "descricao": "newsIt's like you're really there, stabbing the rats.",
-        "link": "https://www.pcgamer.com/games/the-elder-scrolls/modders-somehow-cranked-out-a-vr-mod-for-oblivion-remastered-mere-hours-after-its-surprise-launch/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/TX2HhYnf5Um9mSMqHVvC9C.jpg",
-        "fonte": "PC Gamer"
-    },
-    {
-        "titulo": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
-        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "Hideo Kojima escolheu Margaret Qualley para papel em Death Stranding após assistir a comercial bizarro estrelado pela atriz",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/death-stranding-2/139402/news/hideo-kojima-escolheu-margaret-qualley-para-papel-em-death-stranding-apos-assistir-a-comercial-bizar",
-        "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-cast-margaret-qualley-in-death-stranding-after_9x5v.320.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
         "titulo": "EA's Skate reboot is always online, and you know what that means",
         "descricao": "newsThe promised \"living, breathing massively multiplayer skateboarding sandbox\" sounds great, but what happens when the servers go offline?",
         "link": "https://www.pcgamer.com/games/sports/eas-skate-reboot-is-always-online-and-you-know-what-that-means/",
         "imagem": "https://cdn.mos.cms.futurecdn.net/jsxQXYJpvNWs3rgUHKLMSn.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "We can finally play 2006's flip phone-exclusive Monster Hunter port thanks to the tireless work of game preservationists and fan translators",
+        "descricao": "NewsWhat a beautiful world we'd lost.",
+        "link": "https://www.pcgamer.com/games/action/we-can-finally-play-2006s-flip-phone-exclusive-monster-hunter-port-thanks-to-the-tireless-work-of-game-preservationists-and-fan-translators/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/Dq9FAtmgjp2wwfUhDQaiBG.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "A Windows 11 update revealed a 2-decade old bug in GTA: San Andreas that yeets CJ at '1.087 quadrillion light years' into the stratosphere",
+        "descricao": "NewsAw shee-it, here we go again…",
+        "link": "https://www.pcgamer.com/games/grand-theft-auto/a-windows-11-update-revealed-a-2-decade-old-bug-in-gta-san-andreas-that-yeets-cj-1-087-quadrillion-light-years-into-the-stratosphere/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/kAueyJKk2En6JAadafRViH.jpg",
         "fonte": "PC Gamer"
     },
     {
@@ -85,24 +36,66 @@ const noticias = [
         "fonte": "IGN Brasil"
     },
     {
+        "titulo": "Powercolor Radeon RX 9070 GRE pictured which means the new AMD GPU is probably arriving sooner than we expected but it may be restricted to China",
+        "descricao": "newsAs ever, its appeal will be all about pricing.",
+        "link": "https://www.pcgamer.com/hardware/graphics-cards/powercolor-radeon-rx-9070-gre-pictured-which-means-the-new-amd-gpu-is-probably-arriving-sooner-than-we-expected-but-it-may-be-restricted-to-china/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/jVctBW3Qbke8dYpgX6tktJ.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Modders somehow cranked out a VR mod for Oblivion Remastered mere hours after its surprise launch",
+        "descricao": "newsIt's like you're really there, stabbing the rats.",
+        "link": "https://www.pcgamer.com/games/the-elder-scrolls/modders-somehow-cranked-out-a-vr-mod-for-oblivion-remastered-mere-hours-after-its-surprise-launch/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/TX2HhYnf5Um9mSMqHVvC9C.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Fallout creator laments the loss of the game's earliest development materials: 'I had that in digital form and was ordered to destroy it'",
+        "descricao": "News\"The amount of stuff that's been lost about Fallout and its early development saddens me,\" Tim Cain says.",
+        "link": "https://www.pcgamer.com/games/fallout/fallout-creator-laments-the-loss-of-the-games-earliest-development-materials-i-had-that-in-digital-form-and-was-ordered-to-destroy-it/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/MgNn2HsHWpppaKvUTVxpEP.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Próximo do anúncio do acesso antecipado, Subnautica 2 recebe seu primeiro vídeo de bastidores",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/subnautica-2/139452/news/proximo-do-anuncio-do-acesso-antecipado-subnautica-2-recebe-seu-primeiro-video-de-bastidores",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet_b782.280.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Dune: Awakening terá beta aberto extenso no início de março",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/dune-awakening/139415/news/dune-awakening-tera-beta-aberto-entre-9-e-12-de-maio",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da-desertvista_jqhf.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Hideo Kojima escolheu Margaret Qualley para papel em Death Stranding após assistir a comercial bizarro estrelado pela atriz",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/death-stranding-2/139402/news/hideo-kojima-escolheu-margaret-qualley-para-papel-em-death-stranding-apos-assistir-a-comercial-bizar",
+        "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-cast-margaret-qualley-in-death-stranding-after_9x5v.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
         "titulo": "Clair Obscur: Expedition 33 supera Blue Prince e se torna jogo mais bem avaliado de 2025 no Metacritic",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
         "link": "https://br.ign.com/clair-obscur-expedition-33/139419/news/clair-obscur-expedition-33-supera-blue-prince-e-se-torna-jogo-mais-bem-avaliado-de-2025-no-metacriti",
         "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.320.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "The new shooter from the former 4A Ukraine studio was supposed to launch today, but instead it got a last-second delay and nobody knows for how long",
-        "descricao": "newsA closed beta test earlier this month was also delayed, and apparently did not go very well.",
-        "link": "https://www.pcgamer.com/games/fps/the-new-shooter-from-the-former-4a-ukraine-studio-was-supposed-to-launch-today-but-instead-it-got-a-last-second-delay-and-nobody-knows-for-how-long/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/ghiEutr5dRygPTXzfy9v76.jpg",
-        "fonte": "PC Gamer"
-    },
-    {
-        "titulo": "Nintendo revela preço e data de lançamento do Switch 2 no Brasil",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil",
-        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg",
         "fonte": "IGN Brasil"
     },
     {
@@ -113,24 +106,31 @@ const noticias = [
         "fonte": "PC Gamer"
     },
     {
-        "titulo": "Dune: Awakening terá beta aberto extenso no início de março",
+        "titulo": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/dune-awakening/139415/news/dune-awakening-tera-beta-aberto-entre-9-e-12-de-maio",
-        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da-desertvista_jqhf.320.jpg",
+        "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg",
         "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
-        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
-        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg",
-        "fonte": "IGN Brasil"
-    },
-    {
-        "titulo": "Fallout creator laments the loss of the game's earliest development materials: 'I had that in digital form and was ordered to destroy it'",
-        "descricao": "News\"The amount of stuff that's been lost about Fallout and its early development saddens me,\" Tim Cain says.",
-        "link": "https://www.pcgamer.com/games/fallout/fallout-creator-laments-the-loss-of-the-games-earliest-development-materials-i-had-that-in-digital-form-and-was-ordered-to-destroy-it/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/MgNn2HsHWpppaKvUTVxpEP.jpg",
+        "titulo": "The new shooter from the former 4A Ukraine studio was supposed to launch today, but instead it got a last-second delay and nobody knows for how long",
+        "descricao": "newsA closed beta test earlier this month was also delayed, and apparently did not go very well.",
+        "link": "https://www.pcgamer.com/games/fps/the-new-shooter-from-the-former-4a-ukraine-studio-was-supposed-to-launch-today-but-instead-it-got-a-last-second-delay-and-nobody-knows-for-how-long/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/ghiEutr5dRygPTXzfy9v76.jpg",
         "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Em comemorações do Alien Day de 2025, clássico game de terror ficará grátis para jogar no Xbox",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/alien-isolation/139364/news/em-comemoracoes-do-alien-day-de-2025-classico-game-de-terror-ficara-gratis-para-jogar-no-xbox",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_y8kd.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Nintendo revela preço e data de lançamento do Switch 2 no Brasil",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg",
+        "fonte": "IGN Brasil"
     }
 ];
