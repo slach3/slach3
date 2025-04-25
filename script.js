@@ -60,59 +60,39 @@ async function carregarNoticias() {
 
 // Gera uma URL de imagem aleatória baseada no conteúdo da notícia
 function gerarImagemAleatoria(noticia) {
-    const temas = ['gaming', 'videogame', 'console', 'controller', 'game'];
-    const palavrasChave = noticia.titulo.split(' ').filter(p => p.length > 4);
-    const termo = palavrasChave.length > 0 ? palavrasChave[0] : temas[Math.floor(Math.random() * temas.length)];
+    // Use imagens locais ou confiáveis em vez de depender de APIs externas
+    const imagens = [
+        'https://i.imgur.com/HmBuTEe.jpg', // Console de jogos
+        'https://i.imgur.com/6dZQBEn.jpg', // Controle de videogame
+        'https://i.imgur.com/9tGRUkx.jpg', // Tela de jogo
+        'https://i.imgur.com/xSIK4M5.jpg', // PC gaming
+        'https://i.imgur.com/VS9wVB9.jpg', // RPG
+        'https://i.imgur.com/UobKQUt.jpg', // FPS
+        'https://i.imgur.com/NK2gQVg.jpg', // Jogador
+        'https://i.imgur.com/HOnO0nf.jpg'  // Card game
+    ];
     
-    return `https://source.unsplash.com/300x200/?${encodeURIComponent(termo)}`;
+    // Categoria determina a imagem (para ser mais previsível)
+    const categoria = determinarCategoria(noticia);
+    
+    switch(categoria) {
+        case 'consoles':
+            return (noticia.titulo.toLowerCase().includes('nintendo') || 
+                    noticia.titulo.toLowerCase().includes('switch')) ? 
+                   imagens[0] : imagens[1];
+        case 'jogos':
+            return (noticia.titulo.toLowerCase().includes('rpg') || 
+                    noticia.titulo.toLowerCase().includes('role')) ? 
+                   imagens[4] : imagens[2];
+        case 'esports':
+            return imagens[6];
+        default:
+            // Número aleatório para outras categorias
+            return imagens[Math.floor(Math.random() * imagens.length)];
+    }
 }
 
-// Configura a seção de destaque com a notícia mais relevante
-function configurarDestaque(destaque) {
-    // Seleciona a primeira notícia como destaque (poderia ter uma lógica mais sofisticada)
-    const noticiaDestaque = todasNoticias[0];
-    
-    // Verifica se o link é fictício
-    const linkOriginal = noticiaDestaque.link;
-    const isLinkFicticio = linkOriginal.includes('exemplo.com');
-    const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
-    const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
-    const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticiaDestaque))}')"` : '';
-    
-    destaque.innerHTML = `
-        <div class="destaque-content">
-            <h2>${noticiaDestaque.titulo}</h2>
-            <p>${noticiaDestaque.descricao}</p>
-            <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler notícia completa</a>
-        </div>
-    `;
-}
-
-// Configura os filtros de fonte com base nas fontes disponíveis
-function configurarFiltrosFonte() {
-    const filtroFontes = document.getElementById('filtroFontes');
-    const fontes = [...new Set(todasNoticias.map(n => n.fonte))];
-    
-    let html = `
-        <div class="filtro-item">
-            <input type="checkbox" id="fonte-todas" name="fonte-todas" checked>
-            <label for="fonte-todas">Todas as fontes</label>
-        </div>
-    `;
-    
-    fontes.forEach(fonte => {
-        html += `
-            <div class="filtro-item">
-                <input type="checkbox" id="fonte-${fonte}" name="fonte-${fonte}" checked>
-                <label for="fonte-${fonte}">${fonte}</label>
-            </div>
-        `;
-    });
-    
-    filtroFontes.innerHTML = html;
-}
-
-// Exibe as notícias filtradas na página
+// Função para exibir as notícias filtradas na página
 function exibirNoticias() {
     const container = document.getElementById('noticias');
     
@@ -131,13 +111,16 @@ function exibirNoticias() {
         const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
         const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticia))}')"` : '';
         
+        // Trata a fonte indefinida
+        const fonte = noticia.fonte || 'GameNews';
+        
         html += `
             <article data-categoria="${noticia.categoria}">
                 <div class="article-img">
-                    <img src="${noticia.imagem}" alt="${noticia.titulo}">
+                    <img src="${noticia.imagem}" alt="${noticia.titulo}" onerror="this.src='https://i.imgur.com/HmBuTEe.jpg';">
                 </div>
                 <div class="article-content">
-                    <span class="fonte-badge">${noticia.fonte}</span>
+                    <span class="fonte-badge">${fonte}</span>
                     <h2>${noticia.titulo}</h2>
                     <p>${noticia.descricao}</p>
                     <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler mais</a>
@@ -288,6 +271,31 @@ function aplicarFiltros() {
     
     noticiasFiltradas = noticias;
     exibirNoticias();
+}
+
+// Configurar filtros de fonte com base nas fontes disponíveis
+function configurarFiltrosFonte() {
+    const filtroFontes = document.getElementById('filtroFontes');
+    // Extrai fontes, trata valores undefined substituindo por 'GameNews'
+    const fontes = [...new Set(todasNoticias.map(n => n.fonte || 'GameNews'))];
+    
+    let html = `
+        <div class="filtro-item">
+            <input type="checkbox" id="fonte-todas" name="fonte-todas" checked>
+            <label for="fonte-todas">Todas as fontes</label>
+        </div>
+    `;
+    
+    fontes.forEach(fonte => {
+        html += `
+            <div class="filtro-item">
+                <input type="checkbox" id="fonte-${fonte}" name="fonte-${fonte}" checked>
+                <label for="fonte-${fonte}">${fonte}</label>
+            </div>
+        `;
+    });
+    
+    filtroFontes.innerHTML = html;
 }
 
 // Iniciar o carregamento de notícias
