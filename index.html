@@ -18,6 +18,7 @@
                 <li><a href="#" data-category="consoles">Consoles</a></li>
                 <li><a href="#" data-category="jogos">Jogos</a></li>
                 <li><a href="#" data-category="esports">eSports</a></li>
+                <li><a href="#" data-category="youtube" id="youtube-link">YouTube <i class="fab fa-youtube"></i></a></li>
             </ul>
         </nav>
         <div class="busca">
@@ -41,17 +42,47 @@
         <div id="noticias">
             <p>Carregando notícias...</p>
         </div>
+
+        <!-- Nova seção para o canal do YouTube -->
+        <div id="youtube-content" class="youtube-content" style="display:none;">
+            <div class="youtube-header">
+                <h2><i class="fab fa-youtube"></i> Slash Games</h2>
+                <p>Conheça meu canal de jogos e se inscreva para ficar por dentro das novidades!</p>
+                <a href="https://www.youtube.com/@slashgames3" target="_blank" class="youtube-btn">
+                    <i class="fab fa-youtube"></i> Inscreva-se
+                </a>
+            </div>
+            <div class="youtube-videos">
+                <h3>Vídeos Recentes</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-embed">
+                            <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=slashgames3" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <p>Últimos vídeos do canal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube-cta">
+                    <p>Para mais conteúdo como este, visite o canal e se inscreva!</p>
+                    <a href="https://www.youtube.com/@slashgames3" target="_blank" class="youtube-btn">
+                        Ver Canal Completo
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="social">
+                <a href="https://www.youtube.com/@slashgames3" target="_blank"><i class="fab fa-youtube"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            <p>&copy; 2025 GameNews - Notícias de Jogos</p>
+            <p>&copy; 2025 GameNews - Notícias de Jogos | Canal: <a href="https://www.youtube.com/@slashgames3" target="_blank">Slash Games</a></p>
         </div>
     </footer>
     <script src="noticias.js"></script>

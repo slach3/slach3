@@ -34,7 +34,8 @@ async function carregarNoticias() {
             return {
                 ...noticia,
                 categoria: determinarCategoria(noticia),
-                imagem: gerarImagemAleatoria(noticia)
+                // Preserva a imagem original se existir, caso contrário usa fallback
+                imagem: noticia.imagem || 'images/fallback.html'
             };
         });
         
@@ -56,12 +57,6 @@ async function carregarNoticias() {
         container.innerHTML = '<p class="erro">Erro ao carregar notícias.</p>';
         console.error(error);
     }
-}
-
-// Gera uma URL de imagem baseada no conteúdo da notícia
-function gerarImagemAleatoria(noticia) {
-    // Como estamos tendo problemas com imagens externas, vamos usar apenas uma imagem local
-    return 'images/fallback.html';
 }
 
 // Função para exibir as notícias filtradas na página
@@ -86,10 +81,22 @@ function exibirNoticias() {
         // Trata a fonte indefinida
         const fonte = noticia.fonte || 'GameNews';
         
+        // Verifica se a imagem é uma URL externa ou o arquivo HTML de fallback
+        const imagemUrl = noticia.imagem || 'images/fallback.html';
+        const isFallbackImage = imagemUrl.includes('fallback.html');
+        
+        // Cria o HTML para imagem ou iframe dependendo do tipo
+        let imagemHtml = '';
+        if (isFallbackImage) {
+            imagemHtml = `<iframe src="${imagemUrl}" frameborder="0" title="${noticia.titulo}" scrolling="no"></iframe>`;
+        } else {
+            imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
+        }
+        
         html += `
             <article data-categoria="${noticia.categoria}">
                 <div class="article-img">
-                    <iframe src="${noticia.imagem}" frameborder="0" title="${noticia.titulo}" scrolling="no"></iframe>
+                    ${imagemHtml}
                 </div>
                 <div class="article-content">
                     <span class="fonte-badge">${fonte}</span>
@@ -115,13 +122,25 @@ function abrirDetalhes(noticiaJSON) {
     // Trata a fonte indefinida
     const fonte = noticia.fonte || 'GameNews';
     
+    // Verifica se a imagem é uma URL externa ou o arquivo HTML de fallback
+    const imagemUrl = noticia.imagem || 'images/fallback.html';
+    const isFallbackImage = imagemUrl.includes('fallback.html');
+    
+    // Cria o HTML para imagem ou iframe dependendo do tipo
+    let imagemHtml = '';
+    if (isFallbackImage) {
+        imagemHtml = `<iframe src="${imagemUrl}" frameborder="0" scrolling="no"></iframe>`;
+    } else {
+        imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
+    }
+    
     modal.innerHTML = `
         <div class="modal-content">
             <span class="fechar-modal">&times;</span>
             <h2>${noticia.titulo}</h2>
             <p class="fonte-data">Fonte: ${fonte} | Data: 25 de abril de 2025</p>
             <div class="modal-img">
-                <iframe src="${noticia.imagem}" frameborder="0" scrolling="no"></iframe>
+                ${imagemHtml}
             </div>
             <div class="modal-texto">
                 <p>${noticia.descricao}</p>
@@ -156,7 +175,18 @@ function configurarEventos() {
             this.classList.add('active');
             
             const categoria = this.getAttribute('data-category');
-            filtrarPorCategoria(categoria);
+            
+            // Se for a categoria YouTube, mostra a seção do YouTube e esconde as notícias
+            if (categoria === 'youtube') {
+                document.getElementById('noticias').style.display = 'none';
+                document.getElementById('youtube-content').style.display = 'block';
+                document.querySelector('.filtros').style.display = 'none';
+            } else {
+                document.getElementById('noticias').style.display = 'grid';
+                document.getElementById('youtube-content').style.display = 'none';
+                document.querySelector('.filtros').style.display = 'block';
+                filtrarPorCategoria(categoria);
+            }
         });
     });
     
