@@ -72,11 +72,18 @@ function configurarDestaque(destaque) {
     // Seleciona a primeira notícia como destaque (poderia ter uma lógica mais sofisticada)
     const noticiaDestaque = todasNoticias[0];
     
+    // Verifica se o link é fictício
+    const linkOriginal = noticiaDestaque.link;
+    const isLinkFicticio = linkOriginal.includes('exemplo.com');
+    const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
+    const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
+    const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticiaDestaque))}')"` : '';
+    
     destaque.innerHTML = `
         <div class="destaque-content">
             <h2>${noticiaDestaque.titulo}</h2>
             <p>${noticiaDestaque.descricao}</p>
-            <a href="${noticiaDestaque.link}" target="_blank">Ler notícia completa</a>
+            <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler notícia completa</a>
         </div>
     `;
 }
@@ -117,6 +124,13 @@ function exibirNoticias() {
     let html = '';
     
     noticiasFiltradas.forEach(noticia => {
+        // Verifica se o link é um exemplo fictício e substitui por um comportamento alternativo
+        const linkOriginal = noticia.link;
+        const isLinkFicticio = linkOriginal.includes('exemplo.com');
+        const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
+        const linkTarget = isLinkFicticio ? '' : 'target="_blank"';
+        const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticia))}')"` : '';
+        
         html += `
             <article data-categoria="${noticia.categoria}">
                 <div class="article-img">
@@ -126,13 +140,52 @@ function exibirNoticias() {
                     <span class="fonte-badge">${noticia.fonte}</span>
                     <h2>${noticia.titulo}</h2>
                     <p>${noticia.descricao}</p>
-                    <a href="${noticia.link}" target="_blank">Ler mais</a>
+                    <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler mais</a>
                 </div>
             </article>
         `;
     });
     
     container.innerHTML = html;
+}
+
+// Função para abrir uma página de detalhes
+function abrirDetalhes(noticiaJSON) {
+    const noticia = JSON.parse(decodeURIComponent(noticiaJSON));
+    
+    // Cria um modal ou página simples para mostrar os detalhes
+    const modal = document.createElement('div');
+    modal.className = 'modal-detalhes';
+    
+    modal.innerHTML = `
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <h2>${noticia.titulo}</h2>
+            <p class="fonte-data">Fonte: ${noticia.fonte} | Data: 25 de abril de 2025</p>
+            <div class="modal-img">
+                <img src="${noticia.imagem}" alt="${noticia.titulo}">
+            </div>
+            <div class="modal-texto">
+                <p>${noticia.descricao}</p>
+                <p>Esta é uma notícia fictícia criada para demonstração. Em um site real, aqui estaria o conteúdo completo da notícia.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // Adiciona evento para fechar o modal
+    modal.querySelector('.fechar-modal').addEventListener('click', () => {
+        document.body.removeChild(modal);
+    });
+    
+    // Fecha o modal ao clicar fora dele
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            document.body.removeChild(modal);
+        }
+    });
 }
 
 // Configura os eventos de interação do usuário
