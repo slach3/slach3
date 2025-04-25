@@ -3,9 +3,6 @@ async function carregarNoticias() {
     container.innerHTML = '<p>Carregando notícias...</p>';
 
     try {
-        const response = await fetch('noticias.json');
-        const noticias = await response.json();
-
         container.innerHTML = '';
         noticias.forEach(noticia => {
             const article = document.createElement('article');
