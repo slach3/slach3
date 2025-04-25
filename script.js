@@ -58,50 +58,10 @@ async function carregarNoticias() {
     }
 }
 
-// Gera uma URL de imagem aleatória baseada no conteúdo da notícia
+// Gera uma URL de imagem baseada no conteúdo da notícia
 function gerarImagemAleatoria(noticia) {
-    // URLs de imagens diretas de CDN (mais confiáveis)
-    const imagens = [
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121611/games/console_game_a7bqxp.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121611/games/controller_vnjzhj.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/gaming_pc_ibjsxo.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/rpg_game_xwpwl9.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/fps_game_thzbgk.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/gamer_k3t8tf.jpg',
-        'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121612/games/card_game_fk8tbh.jpg'
-    ];
-    
-    // Garantir que sempre retorne pelo menos uma imagem padrão
-    // se por algum motivo a lógica abaixo falhar
-    let imagemIndex = 0;
-    
-    try {
-        // Categoria determina a imagem (para ser mais previsível)
-        const categoria = determinarCategoria(noticia);
-        const tituloLower = (noticia.titulo || '').toLowerCase();
-        
-        switch(categoria) {
-            case 'consoles':
-                imagemIndex = (tituloLower.includes('nintendo') || 
-                        tituloLower.includes('switch')) ? 0 : 1;
-                break;
-            case 'jogos':
-                imagemIndex = (tituloLower.includes('rpg') || 
-                        tituloLower.includes('role')) ? 4 : 2;
-                break;
-            case 'esports':
-                imagemIndex = 6;
-                break;
-            default:
-                // Número aleatório para outras categorias
-                imagemIndex = Math.floor(Math.random() * imagens.length);
-        }
-    } catch (e) {
-        console.error('Erro ao determinar imagem:', e);
-    }
-    
-    return imagens[imagemIndex];
+    // Como estamos tendo problemas com imagens externas, vamos usar apenas uma imagem local
+    return 'images/fallback.html';
 }
 
 // Função para exibir as notícias filtradas na página
@@ -129,7 +89,7 @@ function exibirNoticias() {
         html += `
             <article data-categoria="${noticia.categoria}">
                 <div class="article-img">
-                    <img src="${noticia.imagem}" alt="${noticia.titulo}" onerror="this.src='https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg'">
+                    <iframe src="${noticia.imagem}" frameborder="0" title="${noticia.titulo}" scrolling="no"></iframe>
                 </div>
                 <div class="article-content">
                     <span class="fonte-badge">${fonte}</span>
@@ -155,16 +115,13 @@ function abrirDetalhes(noticiaJSON) {
     // Trata a fonte indefinida
     const fonte = noticia.fonte || 'GameNews';
     
-    // Usa a imagem já definida ou uma imagem padrão
-    const imagem = noticia.imagem || 'https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg';
-    
     modal.innerHTML = `
         <div class="modal-content">
             <span class="fechar-modal">&times;</span>
             <h2>${noticia.titulo}</h2>
             <p class="fonte-data">Fonte: ${fonte} | Data: 25 de abril de 2025</p>
             <div class="modal-img">
-                <img src="${imagem}" alt="${noticia.titulo}" onerror="this.src='https://res.cloudinary.com/dxsvrosfj/image/upload/v1638121613/games/game_screen_vcjj2i.jpg'">
+                <iframe src="${noticia.imagem}" frameborder="0" scrolling="no"></iframe>
             </div>
             <div class="modal-texto">
                 <p>${noticia.descricao}</p>

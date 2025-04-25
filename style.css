@@ -216,6 +216,13 @@ article:hover .article-img img {
     transform: scale(1.05);
 }
 
+.article-img iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+}
+
 .article-content {
     padding: 1.5rem;
     flex-grow: 1;
@@ -361,6 +368,13 @@ footer {
 .modal-img img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.modal-img iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
     object-fit: cover;
 }
 
