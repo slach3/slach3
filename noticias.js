@@ -1,27 +1,136 @@
+// Atualizado em: 2025-04-25 16:24:29
 const noticias = [
     {
-        "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
-        "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
-        "link": "https://exemplo.com/gta6"
+        "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg",
+        "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Nintendo revela novo console sucessor do Switch",
-        "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
-        "link": "https://exemplo.com/switch2"
+        "titulo": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg",
+        "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
-        "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
-        "link": "https://exemplo.com/eldenring-dlc"
+        "titulo": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg",
+        "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
-        "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
-        "link": "https://exemplo.com/microsoft-aquisicao"
+        "titulo": "Nintendo revela preço e data de lançamento do Switch 2 no Brasil",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil",
+        "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg",
+        "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Novo jogo da série God of War é anunciado para PS5",
-        "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
-        "link": "https://exemplo.com/god-of-war"
+        "titulo": "Clair Obscur: Expedition 33 supera Blue Prince e se torna jogo mais bem avaliado de 2025 no Metacritic",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/clair-obscur-expedition-33/139419/news/clair-obscur-expedition-33-supera-blue-prince-e-se-torna-jogo-mais-bem-avaliado-de-2025-no-metacriti",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Dune: Awakening terá beta aberto extenso no início de março",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/dune-awakening/139415/news/dune-awakening-tera-beta-aberto-entre-9-e-12-de-maio",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da-desertvista_jqhf.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Hideo Kojima escolheu Margaret Qualley para papel em Death Stranding após assistir a comercial bizarro estrelado pela atriz",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/death-stranding-2/139402/news/hideo-kojima-escolheu-margaret-qualley-para-papel-em-death-stranding-apos-assistir-a-comercial-bizar",
+        "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-cast-margaret-qualley-in-death-stranding-after_9x5v.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Em comemorações do Alien Day de 2025, clássico game de terror ficará grátis para jogar no Xbox",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/alien-isolation/139364/news/em-comemoracoes-do-alien-day-de-2025-classico-game-de-terror-ficara-gratis-para-jogar-no-xbox",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_y8kd.320.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Square Enix parece estar preparando algo relacionado a NieR Automata, em atualização misteriosa no site",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/nier-2/139441/news/square-enix-parece-estar-preparando-algo-relacionado-a-nier-automata-em-atualizacao-misteriosa-no-si",
+        "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-is-teasing-something-nier-related-again-in-a-cry_t648.280.png",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "The Line, maior canteiro de obras do mundo, tem progresso impressionante revelado por imagens áereas",
+        "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+        "link": "https://br.ign.com/tech/139437/news/the-line-maior-canteiro-de-obras-do-mundo-tem-progresso-impressionante-revelado-por-imagens-aereas",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qqe7.280.jpg",
+        "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Modders somehow cranked out a VR mod for Oblivion Remastered mere hours after its surprise launch",
+        "descricao": "newsIt's like you're really there, stabbing the rats.",
+        "link": "https://www.pcgamer.com/games/the-elder-scrolls/modders-somehow-cranked-out-a-vr-mod-for-oblivion-remastered-mere-hours-after-its-surprise-launch/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/vk7Vb5Pyr9vagGh3ApacAC.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "The new shooter from the former 4A Ukraine studio was supposed to launch today, but instead it got a last-second delay and nobody knows for how long",
+        "descricao": "newsA closed beta test earlier this month was also delayed, and apparently did not go very well.",
+        "link": "https://www.pcgamer.com/games/fps/the-new-shooter-from-the-former-4a-ukraine-studio-was-supposed-to-launch-today-but-instead-it-got-a-last-second-delay-and-nobody-knows-for-how-long/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/ghiEutr5dRygPTXzfy9v76.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Fallout creator laments the loss of the game's earliest development materials: 'I had that in digital form and was ordered to destroy it'",
+        "descricao": "News\"The amount of stuff that's been lost about Fallout and its early development saddens me,\" Tim Cain says.",
+        "link": "https://www.pcgamer.com/games/fallout/fallout-creator-laments-the-loss-of-the-games-earliest-development-materials-i-had-that-in-digital-form-and-was-ordered-to-destroy-it/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/MgNn2HsHWpppaKvUTVxpEP.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Powercolor Radeon RX 9070 GRE pictured which means the new AMD GPU is probably arriving sooner than we expected but it may be restricted to China",
+        "descricao": "newsAs ever, its appeal will be all about pricing.",
+        "link": "https://www.pcgamer.com/hardware/graphics-cards/powercolor-radeon-rx-9070-gre-pictured-which-means-the-new-amd-gpu-is-probably-arriving-sooner-than-we-expected-but-it-may-be-restricted-to-china/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/jVctBW3Qbke8dYpgX6tktJ.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Hugo Martin isn't messing around as he unveils Doom: The Dark Age's new Cosmic Realm: 'Bear witness to the cyclopean architecture of this Lovecraftian dimension!'",
+        "descricao": "newsEasy on there, Hugo.",
+        "link": "https://www.pcgamer.com/games/fps/hugo-martin-isnt-messing-around-as-he-unveils-doom-the-dark-ages-new-cosmic-realm-bear-witness-to-the-cyclopean-architecture-of-this-lovecraftian-dimension/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/Lf5YyPjrwScd23nhCFxcHR.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Apple and Meta have been fined a total of €700,000,000 for non-compliance with the EU Digital Markets Act. Which, in their billion-dollar world, is just chump change",
+        "descricao": "NewsWill they even notice?",
+        "link": "https://www.pcgamer.com/hardware/apple-and-meta-have-been-fined-a-total-of-eur700-000-000-for-non-compliance-with-the-eu-digital-markets-act-which-in-their-billion-dollar-world-is-just-chump-change/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/KzutSCfxmZd6BFVnR2wn7R.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "I spent $3 to shoot a wall for 30 minutes",
+        "descricao": "NewsIn Shoot the Wall, there is a wall and a gun. You shoot the wall with the gun.",
+        "link": "https://www.pcgamer.com/games/fps/i-spent-usd3-to-shoot-a-wall-for-30-minutes/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/wLowJ3s6ra5oF9P66BGVFS.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "As she chalks up 10,000+ final boss kills, Elden Ring folk hero says her record is 100 in a day and she has absolutely no plans to stop",
+        "descricao": "NewsLet Me Solo Them is like Let Me Solo Her, but for Them.",
+        "link": "https://www.pcgamer.com/games/rpg/as-she-chalks-up-10-000-final-boss-kills-elden-ring-folk-hero-says-her-record-is-100-in-a-day-and-she-has-absolutely-no-plans-to-stop/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/48cr54sNDzFxHCDgkt6jVT.jpg",
+        "fonte": "PC Gamer"
+    },
+    {
+        "titulo": "Metaphor: ReFantazio did surprisingly well on PC, says director, and that the number of desktop-based JRPG enjoyers is on the rise: 'The trend is evident'",
+        "descricao": "newsKatsura Hashino was impressed with Metaphor's PC sales.",
+        "link": "https://www.pcgamer.com/games/rpg/metaphor-refantazio-did-surprisingly-well-on-pc-says-director-and-that-the-number-of-desktop-based-jrpg-enjoyers-is-on-the-rise-the-trend-is-evident/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/Y9LbpBUhKaksu2o9ALfobi.jpg",
+        "fonte": "PC Gamer"
     }
 ];
