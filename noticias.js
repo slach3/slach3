@@ -1,5 +1,12 @@
-// Atualizado em: 2025-04-25 22:00:31
+// Atualizado em: 2025-04-25 22:19:30
 const noticias = [
+    {
+        "titulo": "[ATUALIZAÇÃO: 2025-04-25 22:19:30] Teste de atualização automática do sistema",
+        "descricao": "Esta notícia foi gerada automaticamente para confirmar que o sistema de atualização automática está funcionando corretamente.",
+        "link": "https://github.com/slach3/slach3",
+        "imagem": "images/fallback.html",
+        "fonte": "GameNews"
+    },
     {
         "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
@@ -57,18 +64,25 @@ const noticias = [
         "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Muita gente não sabe, mas jogo antigo de Gravity Falls revelou o nome do personagem mais icônico da série",
+        "titulo": "\"Como Black Mirror, só que muito melhor\": até o criador de famosa série da Netflix está com inveja deste sucesso de ficção científica",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/gravity-falls/139456/feature/muita-gente-nao-sabe-mas-jogo-antigo-de-gravity-falls-revelou-o-nome-do-personagem-mais-iconico-da-s",
-        "imagem": "https://sm.ign.com/t/ign_br/image/g/gravity-fa/gravity-falls-ending-with-season-2-finale_d16r.280.jpg",
+        "link": "https://br.ign.com/black-mirror/139458/feature/como-black-mirror-so-que-muito-melhor-ate-o-criador-de-famosa-serie-da-netflix-esta-com-inveja-deste",
+        "imagem": "https://sm.ign.com/t/ign_br/photo/default/netflix-polygon-charlie-434-v1-1742922080093_xf1t.280.jpg",
         "fonte": "IGN Brasil"
     },
     {
-        "titulo": "Acabou de maratonar The Last of Us? 3 jogos que vão te fazer mergulhar de cabeça no mundo pós-apocalíptico",
+        "titulo": "\"Sempre esteve na nossa lista interna de projetos\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para platafo...",
         "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-        "link": "https://br.ign.com/descontos/139454/news/acabou-de-maratonar-the-last-of-us-3-jogos-que-vao-te-fazer-mergulhar-de-cabeca-no-mundo-pos-apocali",
-        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/capa1_ygfy.280.png",
+        "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
+        "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.280.jpg",
         "fonte": "IGN Brasil"
+    },
+    {
+        "titulo": "Nexus Mods decides to allow an Oblivion Remastered mod that changes 'body type' options to male/female, declares it's not 'a battleground for broad...",
+        "descricao": "newsThe mod was deleted multiple times before Nexus Mods threw in the towel.",
+        "link": "https://www.pcgamer.com/games/rpg/nexus-mods-decides-to-allow-an-oblivion-remastered-mod-that-changes-body-type-options-to-male-female-declares-its-not-a-battleground-for-broader-cultural-or-political-debates/",
+        "imagem": "https://cdn.mos.cms.futurecdn.net/tisfbWABPY98fexDSQ3oyS.jpg",
+        "fonte": "PC Gamer"
     },
     {
         "titulo": "We can finally play 2006's flip phone-exclusive Monster Hunter port thanks to the tireless work of game preservationists and fan translators",
@@ -124,13 +138,6 @@ const noticias = [
         "descricao": "NewsWill they even notice?",
         "link": "https://www.pcgamer.com/hardware/apple-and-meta-have-been-fined-a-total-of-eur700-000-000-for-non-compliance-with-the-eu-digital-markets-act-which-in-their-billion-dollar-world-is-just-chump-change/",
         "imagem": "https://cdn.mos.cms.futurecdn.net/KzutSCfxmZd6BFVnR2wn7R.jpg",
-        "fonte": "PC Gamer"
-    },
-    {
-        "titulo": "I spent $3 to shoot a wall for 30 minutes",
-        "descricao": "NewsIn Shoot the Wall, there is a wall and a gun. You shoot the wall with the gun.",
-        "link": "https://www.pcgamer.com/games/fps/i-spent-usd3-to-shoot-a-wall-for-30-minutes/",
-        "imagem": "https://cdn.mos.cms.futurecdn.net/wLowJ3s6ra5oF9P66BGVFS.jpg",
         "fonte": "PC Gamer"
     }
 ];
