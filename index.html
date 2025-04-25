@@ -53,32 +53,40 @@
                 </a>
             </div>
 
-            <!-- Nova seção de destaques do canal -->
+            <!-- Nova seção de destaques do canal com thumbnails em vez de iframes -->
             <div class="youtube-featured">
                 <h3>Destaques do Canal</h3>
                 <div class="featured-grid">
+                    <!-- Vídeo 1 - Thumbnail em vez de iframe -->
                     <div class="featured-card">
-                        <div class="video-embed">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Melhor Gameplay">
+                            <div class="play-button"><i class="fas fa-play-circle"></i></div>
+                        </a>
                         <div class="featured-info">
                             <h4>Melhor Gameplay</h4>
                             <p>Uma das melhores gameplays do canal, com momentos épicos e jogadas incríveis!</p>
                         </div>
                     </div>
+                    
+                    <!-- Vídeo 2 - Thumbnail em vez de iframe -->
                     <div class="featured-card">
-                        <div class="video-embed">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank" class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg" alt="Tutorial Mais Assistido">
+                            <div class="play-button"><i class="fas fa-play-circle"></i></div>
+                        </a>
                         <div class="featured-info">
                             <h4>Tutorial Mais Assistido</h4>
                             <p>Tutorial completo que ajudou diversos jogadores a superarem desafios difíceis.</p>
                         </div>
                     </div>
+                    
+                    <!-- Vídeo 3 - Thumbnail em vez de iframe -->
                     <div class="featured-card">
-                        <div class="video-embed">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/jNQXAC9IVRw/maxresdefault.jpg" alt="Análise Mais Recente">
+                            <div class="play-button"><i class="fas fa-play-circle"></i></div>
+                        </a>
                         <div class="featured-info">
                             <h4>Análise Mais Recente</h4>
                             <p>Minha análise detalhada sobre um dos jogos mais populares do momento.</p>
@@ -88,15 +96,27 @@
             </div>
 
             <div class="youtube-videos">
-                <h3>Vídeos Recentes</h3>
-                <div class="video-grid">
-                    <div class="video-card">
-                        <div class="video-embed">
-                            <!-- Embeds do canal do Slash Games -->
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed?list=UUo0R8EIYXfMIkXeTW1lUTYw&listType=user_uploads" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="video-info">
-                            <p>Últimos vídeos do canal</p>
+                <h3>Conheça o Canal</h3>
+                <div class="channel-info">
+                    <div class="channel-banner">
+                        <img src="https://via.placeholder.com/1200x300/6200ea/ffffff?text=Slash+Games" alt="Banner do Canal">
+                    </div>
+                    <div class="channel-description">
+                        <p>O <strong>Slash Games</strong> traz conteúdo sobre jogos, análises, tutoriais e muito mais! Se você é apaixonado por games, este é o canal certo para você.</p>
+                        <p>Inscreva-se e ative o sininho para não perder nenhum vídeo novo!</p>
+                        <div class="channel-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-video"></i>
+                                <span>Vídeos incríveis</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Análises completas</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>Dicas e truques</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,10 +131,12 @@
             <!-- Widget de inscrição do canal -->
             <div class="youtube-subscribe-widget">
                 <h3>Inscreva-se no Canal</h3>
-                <!-- Botão de compartilhamento alternativo -->
-                <a href="https://www.youtube.com/@slashgames3?sub_confirmation=1" target="_blank" class="youtube-btn">
-                    <i class="fab fa-youtube"></i> Inscrever-se no Canal
-                </a>
+                <div class="subscribe-button">
+                    <a href="https://www.youtube.com/@slashgames3?sub_confirmation=1" target="_blank" class="youtube-btn">
+                        <i class="fab fa-youtube"></i> Inscrever-se no Canal
+                    </a>
+                    <p>Junte-se à comunidade de jogadores!</p>
+                </div>
             </div>
         </div>
     </main>
