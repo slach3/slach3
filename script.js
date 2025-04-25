@@ -53,6 +53,11 @@ async function carregarNoticias() {
         // Configurar eventos
         configurarEventos();
         
+        // Verificar se há um hash na URL para abrir a aba do YouTube diretamente
+        if(window.location.hash === '#youtube') {
+            document.querySelector('nav a[data-category="youtube"]').click();
+        }
+        
     } catch (error) {
         container.innerHTML = '<p class="erro">Erro ao carregar notícias.</p>';
         console.error(error);
@@ -181,13 +186,31 @@ function configurarEventos() {
                 document.getElementById('noticias').style.display = 'none';
                 document.getElementById('youtube-content').style.display = 'block';
                 document.querySelector('.filtros').style.display = 'none';
+                // Atualiza a URL com o hash para permitir compartilhamento direto da aba
+                window.location.hash = 'youtube';
+                console.log("Exibindo aba do YouTube");
             } else {
                 document.getElementById('noticias').style.display = 'grid';
                 document.getElementById('youtube-content').style.display = 'none';
                 document.querySelector('.filtros').style.display = 'block';
+                window.location.hash = '';
                 filtrarPorCategoria(categoria);
             }
         });
+    });
+    
+    // Forçar o correto funcionamento da aba do YouTube
+    document.getElementById('youtube-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('noticias').style.display = 'none';
+        document.getElementById('youtube-content').style.display = 'block';
+        document.querySelector('.filtros').style.display = 'none';
+        
+        document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+        
+        window.location.hash = 'youtube';
+        console.log("Link do YouTube clicado diretamente");
     });
     
     // Filtro por fonte
