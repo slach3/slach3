@@ -10,7 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Agora que as notícias estão incorporadas diretamente no HTML, carregamos imediatamente
+    // Verificar se as notícias são muito antigas (mais de 24 horas)
+    const agora = new Date();
+    let noticiasAtualizadas = false;
+    
+    if (typeof noticias !== 'undefined' && noticias.length > 0 && noticias[0].timestamp) {
+        const dataMaisRecente = new Date(noticias[0].timestamp);
+        const diferenca = agora - dataMaisRecente;
+        const horasDesdeAtualizacao = diferenca / (1000 * 60 * 60);
+        
+        console.log(`Última atualização de notícias: ${horasDesdeAtualizacao.toFixed(2)} horas atrás`);
+        
+        // Se as notícias forem mais antigas que 24 horas, tenta buscar novas notícias
+        if (horasDesdeAtualizacao > 24) {
+            console.log("Notícias antigas (>24h). Tentando buscar notícias atualizadas...");
+            buscarNoticiasAtualizadas();
+        }
+    } else {
+        console.log("Não foi possível determinar a última atualização. Carregando notícias disponíveis.");
+    }
+
+    // Carrega as notícias disponíveis
     carregarNoticias();
 
     // Gerenciar iframe na página de jogos
@@ -18,19 +38,121 @@ document.addEventListener('DOMContentLoaded', function() {
     if (iframe) {
         iframe.addEventListener('error', function() {
             this.setAttribute('data-failed', 'true');
+            // Substitui o iframe por uma mensagem de erro
+            const container = this.parentElement;
+            container.innerHTML = '<div class="erro-jogo">O jogo não pôde ser carregado. Verifique sua conexão ou tente novamente mais tarde.</div>';
         });
         
         iframe.addEventListener('load', function() {
             try {
-                if (this.contentDocument && this.contentDocument.body.innerHTML === '') {
-                    this.setAttribute('data-failed', 'true');
+                // Verificar se o iframe carregou corretamente
+                const iframeDoc = this.contentDocument || this.contentWindow.document;
+                if (!iframeDoc || iframeDoc.body.innerHTML === '') {
+                    throw new Error('Iframe vazio');
                 }
+                console.log("Jogo carregado com sucesso!");
             } catch (e) {
+                console.error("Erro ao carregar o jogo:", e);
                 this.setAttribute('data-failed', 'true');
+                // Substitui o iframe por uma mensagem de erro
+                const container = this.parentElement;
+                container.innerHTML = '<div class="erro-jogo">O jogo não pôde ser carregado. Verifique sua conexão ou tente novamente mais tarde.</div>';
             }
         });
     }
 });
+
+// Função para buscar notícias atualizadas de fontes online
+function buscarNoticiasAtualizadas() {
+    console.log("Buscando notícias atualizadas...");
+    
+    // Lista de fontes de notícias com APIs públicas ou RSS feeds
+    const fontes = [
+        {
+            url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.tecmundo.com.br%2Ffeed',
+            fonte: 'TecMundo',
+            parser: parseTecmundo
+        },
+        {
+            url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.feedburner.com%2FTheHackersNews',
+            fonte: 'Tech News',
+            parser: parseGenerico
+        }
+    ];
+    
+    // Tentar buscar notícias de cada fonte
+    const promessas = fontes.map(fonte => 
+        fetch(fonte.url)
+            .then(response => response.json())
+            .then(data => fonte.parser(data, fonte.fonte))
+            .catch(error => {
+                console.error(`Erro ao buscar de ${fonte.fonte}:`, error);
+                return [];
+            })
+    );
+    
+    // Combinar todas as notícias e atualizar
+    Promise.all(promessas)
+        .then(resultados => {
+            const todasNoticias = resultados.flat();
+            
+            if (todasNoticias.length > 0) {
+                console.log(`Encontradas ${todasNoticias.length} notícias novas.`);
+                
+                // Adicionar timestamp atual
+                todasNoticias.forEach(noticia => {
+                    noticia.timestamp = new Date().toISOString();
+                });
+                
+                // Combinar com as notícias existentes, evitando duplicatas
+                const hashsExistentes = new Set();
+                if (typeof noticias !== 'undefined') {
+                    noticias.forEach(n => hashsExistentes.add(n.titulo + n.link));
+                }
+                
+                const noticiasNovas = todasNoticias.filter(
+                    n => !hashsExistentes.has(n.titulo + n.link)
+                );
+                
+                if (noticiasNovas.length > 0) {
+                    console.log(`Adicionando ${noticiasNovas.length} notícias novas`);
+                    window.noticias = noticiasNovas.concat(
+                        typeof noticias !== 'undefined' ? noticias : []
+                    );
+                    
+                    // Recarregar a exibição
+                    carregarNoticias();
+                }
+            }
+        });
+}
+
+// Parsers para diferentes fontes
+function parseTecmundo(data, fonte) {
+    if (!data.items || !Array.isArray(data.items)) return [];
+    
+    return data.items.slice(0, 10).map(item => ({
+        titulo: item.title,
+        descricao: item.description.replace(/<[^>]*>/g, '').substring(0, 150) + '...',
+        link: item.link,
+        imagem: item.thumbnail || 'images/fallback.html',
+        fonte: fonte,
+        timestamp: new Date().toISOString()
+    }));
+}
+
+function parseGenerico(data, fonte) {
+    if (!data.items || !Array.isArray(data.items)) return [];
+    
+    return data.items.slice(0, 10).map(item => ({
+        titulo: item.title,
+        descricao: item.description.replace(/<[^>]*>/g, '').substring(0, 150) + '...',
+        link: item.link,
+        imagem: item.thumbnail || item.enclosure?.link || 'images/fallback.html',
+        fonte: fonte,
+        timestamp: new Date().toISOString()
+    }));
+}
 
 // Função para carregar notícias
 function carregarNoticias() {
@@ -53,6 +175,7 @@ function carregarNoticias() {
         const filtrosContainer = document.querySelector('.filtro-fontes');
         
         if (filtrosContainer) {
+            filtrosContainer.innerHTML = ''; // Limpa filtros existentes
             const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
             fontes.forEach(fonte => {
                 const filtroItem = document.createElement('div');
@@ -121,135 +244,155 @@ function carregarNoticias() {
     }
 }
 
-// Função helper para obter parâmetros da URL
-function getParameterByName(name, url = window.location.href) {
+// Função para obter parâmetros da URL
+function getParameterByName(name) {
+    const url = window.location.href;
     name = name.replace(/[\[\]]/g, '\\$&');
-    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
+    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+    const results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function filtrarNoticias() {
-    const termoBusca = document.getElementById('busca')?.value.toLowerCase() || '';
-    const fontesSelecionadas = Array.from(document.querySelectorAll('.filtro-item input:checked')).map(cb => cb.value);
+// Função para filtrar notícias por categoria
+function filtrarPorCategoria(categoria) {
+    if (!categoria) return;
     
-    const noticiasFiltered = noticias.filter(noticia => {
-        // Usar o campo título correto
-        const matchTermo = noticia.titulo.toLowerCase().includes(termoBusca);
-        const matchFonte = fontesSelecionadas.length === 0 || fontesSelecionadas.includes(noticia.fonte);
-        return matchTermo && matchFonte;
+    console.log(`Filtrando por categoria: ${categoria}`);
+    
+    // Converter categoria para minúsculas para comparação
+    const categoriaBusca = categoria.toLowerCase();
+    
+    // Filtrar notícias que correspondem à categoria
+    let noticiasFiltradas = noticias.filter(noticia => {
+        // Procurar categoria no título, descrição ou fonte
+        const titulo = noticia.titulo.toLowerCase();
+        const descricao = noticia.descricao ? noticia.descricao.toLowerCase() : '';
+        const fonte = noticia.fonte ? noticia.fonte.toLowerCase() : '';
+        
+        // Mapeamento de categorias específicas para termos de busca
+        const termosBusca = {
+            'consoles': ['playstation', 'xbox', 'nintendo', 'switch', 'ps5', 'ps4', 'console', 'wii', 'games'],
+            'jogos': ['game', 'jogo', 'games', 'gaming', 'playstation', 'xbox', 'nintendo'],
+            'hardware': ['cpu', 'processador', 'gpu', 'placa de vídeo', 'ram', 'memória', 'hardware', 'pc', 'computador'],
+            'software': ['app', 'aplicativo', 'software', 'programa', 'windows', 'macos', 'linux', 'android', 'ios']
+        };
+        
+        // Se a categoria tiver termos específicos, verifica se algum deles está presente
+        if (termosBusca[categoriaBusca]) {
+            return termosBusca[categoriaBusca].some(termo => 
+                titulo.includes(termo) || descricao.includes(termo)
+            );
+        }
+        
+        // Caso padrão: verifica se a categoria está presente diretamente
+        return titulo.includes(categoriaBusca) || 
+               descricao.includes(categoriaBusca) || 
+               fonte.includes(categoriaBusca);
     });
     
-    exibirNoticias(noticiasFiltered);
-}
-
-function filtrarPorCategoria(categoria) {
-    if (categoria === 'Todas') {
-        exibirNoticias(noticias);
+    // Se não houver resultados, exibe mensagem
+    if (noticiasFiltradas.length === 0) {
+        console.log(`Nenhuma notícia encontrada para categoria: ${categoria}`);
+        const container = document.getElementById('noticias');
+        if (container) {
+            container.innerHTML = `
+                <div class="sem-resultados">
+                    <h3>Nenhuma notícia encontrada para: ${categoria}</h3>
+                    <p>Tente uma categoria diferente ou volte mais tarde.</p>
+                    <button onclick="window.location.href='index.html'">Ver todas as notícias</button>
+                </div>
+            `;
+        }
         return;
     }
     
-    // Para simplificar, vamos categorizar por fonte
-    // Em um cenário real, você teria categorias específicas
-    const categoriaLower = categoria.toLowerCase();
-    let noticiasFiltered;
-    
-    if (categoriaLower === 'consoles') {
-        noticiasFiltered = noticias.filter(noticia => 
-            noticia.titulo.toLowerCase().includes('console') ||
-            noticia.titulo.toLowerCase().includes('ps5') ||
-            noticia.titulo.toLowerCase().includes('xbox') ||
-            noticia.titulo.toLowerCase().includes('nintendo') ||
-            noticia.titulo.toLowerCase().includes('switch')
-        );
-    } else if (categoriaLower === 'jogos') {
-        noticiasFiltered = noticias.filter(noticia => 
-            !noticia.titulo.toLowerCase().includes('console') &&
-            !noticia.titulo.toLowerCase().includes('ps5') &&
-            !noticia.titulo.toLowerCase().includes('xbox') &&
-            !noticia.titulo.toLowerCase().includes('nintendo') &&
-            !noticia.titulo.toLowerCase().includes('switch')
-        );
-    } else {
-        noticiasFiltered = noticias;
-    }
-    
-    exibirNoticias(noticiasFiltered);
+    // Exibe as notícias filtradas
+    exibirNoticias(noticiasFiltradas);
 }
 
-function exibirNoticias(noticiasArray) {
-    const container = document.getElementById('noticias');
+// Função para filtrar notícias (combinando busca e filtros)
+function filtrarNoticias() {
+    // Obter texto de busca
+    const textoBusca = document.getElementById('busca')?.value.toLowerCase() || '';
     
-    if (!container) return;
+    // Obter fontes selecionadas
+    const fontesSelecionadas = Array.from(
+        document.querySelectorAll('.filtro-item input:checked')
+    ).map(input => input.value);
     
-    if (noticiasArray.length === 0) {
-        container.innerHTML = '<div class="erro"><p>Nenhuma notícia encontrada.</p></div>';
-        return;
-    }
-    
-    container.innerHTML = '';
-    
-    // Limita a quantidade de notícias para a barra lateral
-    const isGamePage = window.location.pathname.includes('jogos.html');
-    const limit = isGamePage ? 5 : noticiasArray.length;
-    const noticiasLimitadas = noticiasArray.slice(0, limit);
-    
-    noticiasLimitadas.forEach(noticia => {
-        const article = document.createElement('article');
-        
-        // Formatar o timestamp para exibição no fuso horário de Brasília (UTC-3)
-        let dataHoraFormatada = 'Data não disponível';
-        if (noticia.timestamp) {
-            try {
-                const data = new Date(noticia.timestamp);
-                // Definindo opções para formatar a data no padrão brasileiro
-                const opcoes = { 
-                    timeZone: 'America/Sao_Paulo',
-                    day: '2-digit', 
-                    month: '2-digit', 
-                    year: 'numeric',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    hour12: false
-                };
-                // Formatando com o locale pt-BR e fuso de Brasília
-                const dataFormatada = data.toLocaleDateString('pt-BR', opcoes);
-                const horaFormatada = data.toLocaleTimeString('pt-BR', opcoes).substring(0, 5);
-                dataHoraFormatada = `${dataFormatada} às ${horaFormatada}`;
-            } catch (error) {
-                console.error('Erro ao formatar data:', error);
+    // Filtra as notícias
+    let noticiasFiltradas = noticias.filter(noticia => {
+        // Filtrar por fonte
+        if (fontesSelecionadas.length > 0 && noticia.fonte) {
+            if (!fontesSelecionadas.includes(noticia.fonte)) {
+                return false;
             }
         }
         
-        article.innerHTML = `
-            <a href="${noticia.link}" target="_blank" rel="noopener">
-                <div class="article-img">
-                    <img src="${noticia.imagem || '#'}" alt="${noticia.titulo}" 
-                         onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
-                </div>
-                <div class="article-content">
-                    <div class="fonte-badge">${noticia.fonte}</div>
-                    <h2>${noticia.titulo}</h2>
-                    <p>${noticia.descricao || ''}</p>
-                    <div class="timestamp">Postado em: ${dataHoraFormatada}</div>
-                </div>
-            </a>
-        `;
+        // Filtrar por texto de busca
+        if (textoBusca) {
+            const titulo = noticia.titulo.toLowerCase();
+            const descricao = noticia.descricao ? noticia.descricao.toLowerCase() : '';
+            
+            return titulo.includes(textoBusca) || descricao.includes(textoBusca);
+        }
         
-        container.appendChild(article);
+        return true;
     });
     
-    // Se estamos na página de jogos e há mais notícias, mostramos um link para ver mais
-    if (isGamePage && noticiasArray.length > limit) {
-        const moreNews = document.createElement('div');
-        moreNews.className = 'more-news';
-        moreNews.innerHTML = `
-            <a href="index.html" class="save-progress-button">
-                Ver todas as ${noticiasArray.length} notícias
-            </a>
+    // Exibe as notícias filtradas
+    exibirNoticias(noticiasFiltradas);
+}
+
+// Função para exibir notícias no DOM
+function exibirNoticias(noticiasList) {
+    const container = document.getElementById('noticias');
+    if (!container) return;
+    
+    // Limpa o container
+    container.innerHTML = '';
+    
+    // Se não houver notícias, exibe mensagem
+    if (noticiasList.length === 0) {
+        container.innerHTML = `
+            <div class="sem-resultados">
+                <h3>Nenhuma notícia encontrada</h3>
+                <p>Tente outros termos de busca ou filtros.</p>
+            </div>
         `;
-        container.appendChild(moreNews);
+        return;
     }
+    
+    // Exibe cada notícia
+    noticiasList.forEach(noticia => {
+        const noticiaEl = document.createElement('div');
+        noticiaEl.className = 'noticia card';
+        
+        // Formatar data se disponível
+        let dataFormatada = '';
+        if (noticia.timestamp) {
+            const data = new Date(noticia.timestamp);
+            dataFormatada = `${data.toLocaleDateString()} ${data.toLocaleTimeString()}`;
+        }
+        
+        noticiaEl.innerHTML = `
+            <div class="imagem-container">
+                <img src="${noticia.imagem || 'images/fallback.html'}" 
+                     alt="${noticia.titulo}" 
+                     onerror="this.src='images/fallback.html'">
+            </div>
+            <div class="conteudo">
+                <h3><a href="${noticia.link}" target="_blank">${noticia.titulo}</a></h3>
+                <p>${noticia.descricao || ''}</p>
+                <div class="meta">
+                    ${noticia.fonte ? `<span class="fonte">${noticia.fonte}</span>` : ''}
+                    ${dataFormatada ? `<span class="data">${dataFormatada}</span>` : ''}
+                </div>
+            </div>
+        `;
+        
+        container.appendChild(noticiaEl);
+    });
 }

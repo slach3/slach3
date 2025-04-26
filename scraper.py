@@ -77,12 +77,12 @@ def salvar_cache(noticias):
 
 def get_user_agent():
     user_agents = [
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15',
-        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66',
-        'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1'
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48',
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1'
     ]
     return random.choice(user_agents)
 
@@ -96,7 +96,12 @@ def processar_fonte(coletor, session):
 def coletar_noticias_techtudo(session):
     logging.info("Coletando notícias do TechTudo (Games)...")
     url = "https://www.techtudo.com.br/games/"
-    headers = {'User-Agent': get_user_agent()}
+    headers = {
+        'User-Agent': get_user_agent(),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3',
+        'Referer': 'https://www.google.com/'
+    }
     
     try:
         response = session.get(url, headers=headers, timeout=TIMEOUT)
@@ -104,8 +109,8 @@ def coletar_noticias_techtudo(session):
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
         
-        # Tentar encontrar os elementos das notícias com base na estrutura
-        articles = soup.select('.feed-post')
+        # Tentativas múltiplas de seletores (TechTudo atualiza frequentemente sua estrutura)
+        articles = soup.select('.feed-post') or soup.select('div.bastian-feed-item') or soup.select('article') or soup.select('.bastian-page article')
         logging.info(f"Artigos encontrados TechTudo: {len(articles)}")
         
         for article in articles[:10]:  # Limita a 10 notícias
@@ -118,32 +123,41 @@ def coletar_noticias_techtudo(session):
                 if not link.startswith('http'):
                     link = 'https://www.techtudo.com.br' + link
                 
-                titulo_element = article.select_one('.feed-post-body-title')
+                # Múltiplas tentativas para encontrar o título
+                titulo_element = (article.select_one('.feed-post-body-title') or 
+                                 article.select_one('.bastian-feed-item-title') or 
+                                 article.select_one('h2') or 
+                                 article.select_one('h3'))
                 if titulo_element:
                     titulo = titulo_element.get_text(strip=True)
                 else:
                     continue
                 
-                descricao_elem = article.select_one('.feed-post-body-resumo')
+                # Múltiplas tentativas para encontrar a descrição
+                descricao_elem = (article.select_one('.feed-post-body-resumo') or 
+                                 article.select_one('.bastian-feed-item-description') or
+                                 article.select_one('p'))
                 if descricao_elem:
                     descricao = descricao_elem.get_text(strip=True)
                 else:
                     descricao = "Clique para ler mais sobre esta notícia de jogos."
                 
-                # Tentar encontrar a imagem
+                # Tentar encontrar a imagem com múltiplas tentativas
                 img_element = article.select_one('img')
                 imagem = None
-                if img_element and 'data-src' in img_element.attrs:
-                    imagem = img_element['data-src']
-                elif img_element and 'src' in img_element.attrs:
-                    imagem = img_element['src']
+                if img_element:
+                    for attr in ['data-src', 'src', 'data-original', 'data-lazy-src']:
+                        if attr in img_element.attrs:
+                            imagem = img_element[attr]
+                            break
                 
                 noticias.append({
                     'titulo': titulo,
                     'descricao': descricao,
                     'link': link,
                     'imagem': imagem,
-                    'fonte': 'TechTudo'
+                    'fonte': 'TechTudo',
+                    'data': datetime.now().strftime("%Y-%m-%d")
                 })
                 logging.info(f"Notícia encontrada TechTudo: {titulo[:50]}...")
             except Exception as e:
@@ -502,186 +516,88 @@ def coletar_noticias_voxel(session):
         logging.error(f"Erro ao coletar notícias do Voxel: {e}")
         return []
 
-def coletar_e_salvar_noticias():
-    logging.info(f"===== Iniciando coleta de notícias em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====")
-    
-    # Tenta usar o cache primeiro
-    noticias_cache = carregar_cache()
-    if noticias_cache:
-        return salvar_arquivos_noticias(noticias_cache)
-
-    session = criar_sessao()
-    todas_noticias = []
-    noticias_hash = set()  # Para evitar duplicatas
-
-    # Coleta paralela de fontes
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        futures = []
-        for coletor in [
-            coletar_noticias_techtudo,
-            coletar_noticias_ign,
-            coletar_noticias_pcgamer,
-            coletar_noticias_adrenaline,
-            coletar_noticias_tecmundo,
-            coletar_noticias_gameviciados,
-            coletar_noticias_voxel
-        ]:
-            futures.append(executor.submit(processar_fonte, coletor, session))
-        
-        for future in as_completed(futures):
-            noticias = future.result()
-            for noticia in noticias:
-                noticia_hash = gerar_hash_noticia(noticia)
-                if noticia_hash not in noticias_hash:
-                    noticias_hash.add(noticia_hash)
-                    todas_noticias.append(noticia)
-
-    # Tratamento para notícias faltantes
-    if len(todas_noticias) <= 1:
-        logging.warning("Usando notícias de fallback devido à falha na coleta")
-        todas_noticias = gerar_noticias_fallback()
-
-    # Processamento final
-    noticias_processadas = processar_noticias(todas_noticias)
-    
-    # Salva no cache
-    salvar_cache(noticias_processadas)
-    
-    # Salva os arquivos
-    salvar_arquivos_noticias(noticias_processadas)
-
-def gerar_noticias_fallback():
-    return [
-        {
-            "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
-            "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
-            "link": "https://exemplo.com/gta6",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        },
-        {
-            "titulo": "Nintendo revela novo console sucessor do Switch",
-            "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
-            "link": "https://exemplo.com/switch2",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        },
-        {
-            "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
-            "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
-            "link": "https://exemplo.com/eldenring-dlc",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        },
-        {
-            "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
-            "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
-            "link": "https://exemplo.com/microsoft-aquisicao",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        },
-        {
-            "titulo": "Novo jogo da série God of War é anunciado para PS5",
-            "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
-            "link": "https://exemplo.com/god-of-war",
-            "imagem": "images/fallback.html",
-            "fonte": "GameNews"
-        }
-    ]
-
-def is_portuguese_news(noticia):
-    """Verifica se a notícia está em português"""
-    # Fontes em português
-    portuguese_sources = ['IGN Brasil', 'TechTudo', 'TecMundo', 'GameViciados', 'Voxel', 'Adrenaline']
-    
-    # Se a fonte é conhecida em português
-    if noticia.get('fonte') in portuguese_sources:
-        return True
-    
-    # Verifica se o título ou descrição contém caracteres especiais do português
-    text = (noticia.get('titulo', '') + noticia.get('descricao', '')).lower()
-    portuguese_chars = ['ç', 'á', 'à', 'ã', 'â', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú']
-    return any(char in text for char in portuguese_chars)
-
-def is_recent_news(noticia, max_days=7):
-    """Verifica se a notícia é recente (dentro do número máximo de dias)"""
-    from datetime import datetime, timedelta
-    current_time = datetime.now()
-    max_age = timedelta(days=max_days)
-    
-    # Se a notícia tem um timestamp, use-o
-    if 'timestamp' in noticia:
-        news_date = datetime.fromisoformat(noticia['timestamp'])
-        return (current_time - news_date) <= max_age
-    
-    # Por padrão, mantém a notícia se não puder determinar a data
-    return True
-
-def processar_noticias(noticias):
-    """Processa e limpa as notícias coletadas"""
-    processadas = []
-    current_time = datetime.now()
-    
-    for noticia in noticias:
-        # Limpa e valida os dados
-        if not noticia.get('titulo') or not noticia.get('link'):
-            continue
-            
-        # Verifica se está em português e é recente
-        if not is_portuguese_news(noticia) or not is_recent_news(noticia):
-            continue
-            
-        # Adiciona timestamp se não existir
-        if 'timestamp' not in noticia:
-            noticia['timestamp'] = current_time.isoformat()
-            
-        # Limita o tamanho do título
-        if len(noticia['titulo']) > 150:
-            noticia['titulo'] = noticia['titulo'][:147] + '...'
-        
-        # Garante que todos os campos necessários existem
-        noticia['descricao'] = noticia.get('descricao', 'Clique para ler mais...')
-        noticia['imagem'] = noticia.get('imagem') or 'images/fallback.html'
-        noticia['fonte'] = noticia.get('fonte', 'GameNews')
-        
-        processadas.append(noticia)
-    
-    # Limita o número total e ordena por data (mais recentes primeiro)
-    processadas.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
-    return processadas[:30]
-
-def salvar_arquivos_noticias(noticias):
-    """Salva as notícias nos arquivos JSON e JS"""
+def main():
     try:
-        # Salva JSON na raiz
-        with open('noticias.json', 'w', encoding='utf-8') as f:
-            json.dump(noticias, f, ensure_ascii=False, indent=4)
+        logging.info("Iniciando coleta de notícias...")
         
-        # Salva JavaScript na raiz
-        with open('noticias.js', 'w', encoding='utf-8') as f:
-            f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write("const noticias = ")
-            f.write(json.dumps(noticias, ensure_ascii=False, indent=4))
-            f.write(";")
-        
-        # Salva também na pasta docs para o site
-        if os.path.exists('docs'):
-            # Salva JSON na pasta docs
-            with open('docs/noticias.json', 'w', encoding='utf-8') as f:
-                json.dump(noticias, f, ensure_ascii=False, indent=4)
+        # Verificar se já temos notícias em cache válidas
+        noticias_cache = carregar_cache()
+        if noticias_cache:
+            logging.info(f"Usando {len(noticias_cache)} notícias do cache")
+            noticias = noticias_cache
+        else:
+            # Iniciar coleta de notícias de todas as fontes
+            session = criar_sessao()
             
-            # Salva JavaScript na pasta docs
-            with open('docs/noticias.js', 'w', encoding='utf-8') as f:
-                f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                f.write("const noticias = ")
-                f.write(json.dumps(noticias, ensure_ascii=False, indent=4))
-                f.write(";")
-            logging.info("Arquivos também atualizados na pasta docs/")
+            coletores = [
+                coletar_noticias_techtudo,
+                coletar_noticias_ign,
+                coletar_noticias_pcgamer,
+                coletar_noticias_adrenaline,
+                coletar_noticias_tecmundo,
+                coletar_noticias_gameviciados,
+                coletar_noticias_voxel
+            ]
+            
+            todas_noticias = []
+            with ThreadPoolExecutor(max_workers=len(coletores)) as executor:
+                futures = {executor.submit(processar_fonte, coletor, session): coletor.__name__ for coletor in coletores}
+                
+                for future in as_completed(futures):
+                    coletor_nome = futures[future]
+                    try:
+                        resultado = future.result()
+                        todas_noticias.extend(resultado)
+                        logging.info(f"{coletor_nome} retornou {len(resultado)} notícias")
+                    except Exception as e:
+                        logging.error(f"Erro ao processar resultados de {coletor_nome}: {e}")
+            
+            # Deduplica notícias (às vezes diferentes sites reportam a mesma notícia)
+            noticias_unicas = {}
+            for noticia in todas_noticias:
+                hash_noticia = gerar_hash_noticia(noticia)
+                if hash_noticia not in noticias_unicas:
+                    noticias_unicas[hash_noticia] = noticia
+            
+            noticias = list(noticias_unicas.values())
+            
+            # Salvar no cache para futuras requisições
+            salvar_cache(noticias)
+            logging.info(f"Total de {len(noticias)} notícias únicas coletadas")
         
-        logging.info("Arquivos noticias.json e noticias.js gerados com sucesso!")
+        # Salvar para o site
+        noticias_js = f"const noticias = {json.dumps(noticias, ensure_ascii=False, indent=2)};"
+        
+        with open('noticias.json', 'w', encoding='utf-8') as f:
+            json.dump(noticias, f, ensure_ascii=False, indent=2)
+            logging.info("Arquivo noticias.json salvo com sucesso")
+        
+        with open('noticias.js', 'w', encoding='utf-8') as f:
+            f.write(noticias_js)
+            logging.info("Arquivo noticias.js salvo com sucesso")
+        
+        # Copiar para a pasta docs (para GitHub Pages)
+        try:
+            docs_dir = 'docs'
+            if not os.path.exists(docs_dir):
+                os.makedirs(docs_dir)
+                logging.info("Diretório docs criado")
+            
+            with open(os.path.join(docs_dir, 'noticias.json'), 'w', encoding='utf-8') as f:
+                json.dump(noticias, f, ensure_ascii=False, indent=2)
+                logging.info("Arquivo docs/noticias.json salvo com sucesso")
+            
+            with open(os.path.join(docs_dir, 'noticias.js'), 'w', encoding='utf-8') as f:
+                f.write(noticias_js)
+                logging.info("Arquivo docs/noticias.js salvo com sucesso")
+        except Exception as e:
+            logging.error(f"Erro ao copiar arquivos para pasta docs: {e}")
+            
+        logging.info("Processo de coleta de notícias concluído com sucesso")
+        
     except Exception as e:
-        logging.error(f"Erro ao salvar arquivos: {e}")
+        logging.error(f"Erro geral no processo de coleta: {e}")
         raise
 
 if __name__ == "__main__":
-    coletar_e_salvar_noticias()
+    main()

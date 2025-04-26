@@ -22,6 +22,124 @@
             document.documentElement.classList.add('dark-mode');
         }
     </script>
+    
+    <style>
+        /* Estilos específicos para a página de jogos */
+        .game-area {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: var(--bg-color-card);
+        }
+        
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .iframe-fallback {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color-card);
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        iframe[data-failed="true"] + .iframe-fallback {
+            display: flex;
+        }
+        
+        .erro-jogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: var(--bg-color-card);
+        }
+        
+        .erro-jogo p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .save-progress-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        
+        .save-progress-button:hover {
+            background-color: var(--primary-color-dark);
+        }
+        
+        /* Games list */
+        .games-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .game-card {
+            background-color: var(--bg-color-card);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .game-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        
+        .game-info {
+            padding: 15px;
+        }
+        
+        .game-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        
+        .game-info p {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: var(--text-color-secondary);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -48,9 +166,9 @@
     <main class="games-layout">
         <div class="game-area">
             <section class="game-frame">
-                <h2>CrazyGames</h2>
+                <h2>Jogar Agora</h2>
                 <div class="iframe-container">
-                    <iframe src="https://www.crazygames.com/" 
+                    <iframe src="https://www.crazygames.com/embed/retro-bowl" 
                             sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                             referrerpolicy="no-referrer"
                             loading="lazy"
@@ -60,141 +178,167 @@
                             allow="fullscreen; autoplay; clipboard-write"></iframe>
                     <div class="iframe-fallback">
                         <p>O conteúdo do jogo não pode ser carregado. Isso pode ocorrer devido a configurações de segurança do navegador.</p>
-                        <a href="https://www.crazygames.com/" target="_blank" rel="noopener" class="save-progress-button">Abrir CrazyGames em uma nova aba</a>
+                        <a href="https://www.crazygames.com/game/retro-bowl" target="_blank" rel="noopener" class="save-progress-button">Abrir Retro Bowl em uma nova aba</a>
                     </div>
                 </div>
-                <a href="https://www.crazygames.com/" target="_blank" rel="noopener" class="save-progress-button">Jogue na CrazyGames</a>
+                <a href="https://www.crazygames.com/game/retro-bowl" target="_blank" rel="noopener" class="save-progress-button">Jogue Retro Bowl na CrazyGames</a>
+            </section>
+            
+            <section class="games-section">
+                <h2>Mais Jogos</h2>
+                <div class="games-list">
+                    <a href="jogos.html?game=retro-bowl" class="game-card">
+                        <img src="https://imgs2.dab3games.com/retro-bowl-game.jpg" alt="Retro Bowl">
+                        <div class="game-info">
+                            <h3>Retro Bowl</h3>
+                            <p>Jogo de futebol americano com estilo retrô</p>
+                        </div>
+                    </a>
+                    
+                    <a href="jogos.html?game=slope" class="game-card">
+                        <img src="https://imgs2.dab3games.com/slope-game.png" alt="Slope">
+                        <div class="game-info">
+                            <h3>Slope</h3>
+                            <p>Corra uma bola por um caminho infinito</p>
+                        </div>
+                    </a>
+                    
+                    <a href="jogos.html?game=subway-surfers" class="game-card">
+                        <img src="https://imgs2.dab3games.com/subway-surfers-game.png" alt="Subway Surfers">
+                        <div class="game-info">
+                            <h3>Subway Surfers</h3>
+                            <p>Corra pelos trilhos do metrô</p>
+                        </div>
+                    </a>
+                    
+                    <a href="jogos.html?game=temple-run-2" class="game-card">
+                        <img src="https://imgs2.dab3games.com/temple-run-2-game.png" alt="Temple Run 2">
+                        <div class="game-info">
+                            <h3>Temple Run 2</h3>
+                            <p>Fuja do templo amaldiçoado</p>
+                        </div>
+                    </a>
+                </div>
             </section>
         </div>
 
         <aside class="news-sidebar">
             <div id="noticias" class="noticias-lista">
-                <!-- Notícias inseridas diretamente no HTML (versão mais compacta para a sidebar) -->
-                <article>
-                    <a href="https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais" target="_blank" rel="noopener">
-                        <div class="article-img">
-                            <img src="https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg" alt="Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review" 
-                                 onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
+                <!-- Notícias inseridas via JavaScript -->
+                <div class="skeleton-loading">
+                    <div class="skeleton-card">
+                        <div class="skeleton-img"></div>
+                        <div class="skeleton-content">
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
                         </div>
-                        <div class="article-content">
-                            <div class="fonte-badge">IGN Brasil</div>
-                            <h2>Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review</h2>
-                            <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-img"></div>
+                        <div class="skeleton-content">
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
                         </div>
-                    </a>
-                </article>
-
-                <article>
-                    <a href="https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review" target="_blank" rel="noopener">
-                        <div class="article-img">
-                            <img src="https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg" alt="Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review" 
-                                 onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
-                        </div>
-                        <div class="article-content">
-                            <div class="fonte-badge">IGN Brasil</div>
-                            <h2>Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review</h2>
-                            <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
-                        </div>
-                    </a>
-                </article>
-
-                <article>
-                    <a href="https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh" target="_blank" rel="noopener">
-                        <div class="article-img">
-                            <img src="https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg" alt="Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review" 
-                                 onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
-                        </div>
-                        <div class="article-content">
-                            <div class="fonte-badge">IGN Brasil</div>
-                            <h2>Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII</h2>
-                            <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
-                        </div>
-                    </a>
-                </article>
-
-                <article>
-                    <a href="https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil" target="_blank" rel="noopener">
-                        <div class="article-img">
-                            <img src="https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg" alt="Nintendo revela preço e data de lançamento do Switch 2 no Brasil" 
-                                 onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
-                        </div>
-                        <div class="article-content">
-                            <div class="fonte-badge">IGN Brasil</div>
-                            <h2>Nintendo revela preço e data de lançamento do Switch 2 no Brasil</h2>
-                            <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
-                        </div>
-                    </a>
-                </article>
-
-                <article>
-                    <a href="https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm" target="_blank" rel="noopener">
-                        <div class="article-img">
-                            <img src="https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189" alt="Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!" 
-                                 onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
-                        </div>
-                        <div class="article-content">
-                            <div class="fonte-badge">Voxel</div>
-                            <h2>Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!</h2>
-                            <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
-                        </div>
-                    </a>
-                </article>
-
-                <div class="more-news">
-                    <a href="index.html" class="save-progress-button">
-                        Ver todas as notícias
-                    </a>
+                    </div>
                 </div>
             </div>
         </aside>
     </main>
 
     <!-- Scripts -->
+    <script src="noticias.js"></script>
+    <script src="script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Configuração do modo escuro
-            const darkModeToggle = document.getElementById('darkModeToggle');
-            if (darkModeToggle) {
-                darkModeToggle.addEventListener('click', () => {
-                    document.documentElement.classList.toggle('dark-mode');
-                    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode'));
-                });
+            // Verificar o parâmetro de jogo na URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const gameParam = urlParams.get('game');
+            
+            if (gameParam) {
+                const gameIframe = document.querySelector('.iframe-container iframe');
+                
+                // Mapeamento de jogos disponíveis
+                const jogos = {
+                    'retro-bowl': {
+                        title: 'Retro Bowl',
+                        src: 'https://www.crazygames.com/embed/retro-bowl',
+                        link: 'https://www.crazygames.com/game/retro-bowl'
+                    },
+                    'slope': {
+                        title: 'Slope',
+                        src: 'https://www.crazygames.com/embed/slope',
+                        link: 'https://www.crazygames.com/game/slope'
+                    },
+                    'subway-surfers': {
+                        title: 'Subway Surfers',
+                        src: 'https://www.crazygames.com/embed/subway-surfers',
+                        link: 'https://www.crazygames.com/game/subway-surfers'
+                    },
+                    'temple-run-2': {
+                        title: 'Temple Run 2',
+                        src: 'https://www.crazygames.com/embed/temple-run-2',
+                        link: 'https://www.crazygames.com/game/temple-run-2'
+                    }
+                };
+                
+                // Se o jogo existe no mapeamento, carrega-o
+                if (jogos[gameParam]) {
+                    const jogo = jogos[gameParam];
+                    
+                    // Atualiza o título e o iframe
+                    document.querySelector('.game-frame h2').textContent = jogo.title;
+                    gameIframe.src = jogo.src;
+                    
+                    // Atualiza os links de fallback
+                    const fallbackLinks = document.querySelectorAll('.iframe-fallback a, .save-progress-button');
+                    fallbackLinks.forEach(link => {
+                        link.href = jogo.link;
+                        link.textContent = link.textContent.replace('Retro Bowl', jogo.title);
+                    });
+                }
             }
             
-            // Verificar se o iframe carregou corretamente
+            // Monitorar o carregamento do iframe
             const iframe = document.querySelector('.iframe-container iframe');
+            
             if (iframe) {
-                // Função para marcar o iframe como falho
-                function markIframeFailed() {
-                    iframe.setAttribute('data-failed', 'true');
-                }
-                
-                // Verificar após um tempo se o iframe carregou
+                // Tentar verificar o status de carregamento após um tempo
                 setTimeout(function() {
                     try {
-                        // Tentar acessar o conteúdo do iframe pode causar um erro de segurança
-                        // o que também é uma indicação de que o iframe não carregou corretamente
-                        if (!iframe.contentDocument || iframe.contentDocument.body.innerHTML === '') {
-                            markIframeFailed();
+                        if (!iframe.contentWindow || !iframe.contentWindow.document) {
+                            // Se não conseguir acessar o conteúdo do iframe (geralmente por políticas de segurança)
+                            // marque-o como falho para mostrar a mensagem de fallback
+                            iframe.setAttribute('data-failed', 'true');
                         }
                     } catch (e) {
-                        // Se ocorrer um erro ao tentar acessar o conteúdo, o iframe provavelmente
-                        // foi bloqueado por políticas de segurança
-                        markIframeFailed();
+                        // Se ocorrer um erro ao tentar acessar o conteúdo, marque como falho
+                        iframe.setAttribute('data-failed', 'true');
                     }
-                }, 2000);
+                }, 3000);
                 
-                // Adicionar listeners para erros de carregamento
-                iframe.addEventListener('error', markIframeFailed);
-                iframe.addEventListener('load', function() {
-                    try {
-                        if (!this.contentDocument || this.contentDocument.body.innerHTML === '') {
-                            markIframeFailed();
-                        }
-                    } catch (e) {
-                        markIframeFailed();
-                    }
+                // Adicionar listeners para detectar erros
+                iframe.addEventListener('error', function() {
+                    this.setAttribute('data-failed', 'true');
                 });
+
+                // Tentativa direta de carregar um jogo alternativo em caso de falha
+                iframe.onerror = function() {
+                    // Se o iframe principal falhar, tenta um jogo alternativo com maior compatibilidade
+                    this.src = 'https://html5.gamemonkey.org/game/subway-surfers';
+                    
+                    // Nova tentativa, se ainda falhar, mostra o fallback
+                    setTimeout(() => {
+                        try {
+                            if (!this.contentWindow || !this.contentWindow.document) {
+                                this.setAttribute('data-failed', 'true');
+                            }
+                        } catch (e) {
+                            this.setAttribute('data-failed', 'true');
+                        }
+                    }, 3000);
+                };
             }
         });
     </script>
