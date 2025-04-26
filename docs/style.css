@@ -699,3 +699,24 @@ footer {
 .iframe-container iframe[data-failed] {
     display: none;
 }
+
+/* Estilo para o timestamp das notícias */
+.timestamp {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.dark-mode .timestamp {
+    color: #aaa;
+}
+
+/* Ajuste para o layout das notícias na barra lateral */
+.news-sidebar .article-content {
+    padding-bottom: 5px;
+}
+
+.news-sidebar .timestamp {
+    font-size: 0.7rem;
+}

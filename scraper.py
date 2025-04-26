@@ -653,16 +653,30 @@ def processar_noticias(noticias):
 def salvar_arquivos_noticias(noticias):
     """Salva as notícias nos arquivos JSON e JS"""
     try:
-        # Salva JSON
+        # Salva JSON na raiz
         with open('noticias.json', 'w', encoding='utf-8') as f:
             json.dump(noticias, f, ensure_ascii=False, indent=4)
         
-        # Salva JavaScript
+        # Salva JavaScript na raiz
         with open('noticias.js', 'w', encoding='utf-8') as f:
             f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("const noticias = ")
             f.write(json.dumps(noticias, ensure_ascii=False, indent=4))
             f.write(";")
+        
+        # Salva também na pasta docs para o site
+        if os.path.exists('docs'):
+            # Salva JSON na pasta docs
+            with open('docs/noticias.json', 'w', encoding='utf-8') as f:
+                json.dump(noticias, f, ensure_ascii=False, indent=4)
+            
+            # Salva JavaScript na pasta docs
+            with open('docs/noticias.js', 'w', encoding='utf-8') as f:
+                f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write("const noticias = ")
+                f.write(json.dumps(noticias, ensure_ascii=False, indent=4))
+                f.write(";")
+            logging.info("Arquivos também atualizados na pasta docs/")
         
         logging.info("Arquivos noticias.json e noticias.js gerados com sucesso!")
     except Exception as e:

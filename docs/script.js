@@ -199,6 +199,17 @@ function exibirNoticias(noticiasArray) {
     noticiasLimitadas.forEach(noticia => {
         const article = document.createElement('article');
         
+        // Formatar o timestamp para exibição
+        let dataHoraFormatada = 'Data não disponível';
+        if (noticia.timestamp) {
+            try {
+                const data = new Date(noticia.timestamp);
+                dataHoraFormatada = `${data.toLocaleDateString('pt-BR')} às ${data.getHours().toString().padStart(2, '0')}:${data.getMinutes().toString().padStart(2, '0')}`;
+            } catch (error) {
+                console.error('Erro ao formatar data:', error);
+            }
+        }
+        
         article.innerHTML = `
             <a href="${noticia.link}" target="_blank" rel="noopener">
                 <div class="article-img">
@@ -209,6 +220,7 @@ function exibirNoticias(noticiasArray) {
                     <div class="fonte-badge">${noticia.fonte}</div>
                     <h2>${noticia.titulo}</h2>
                     <p>${noticia.descricao || ''}</p>
+                    <div class="timestamp">Postado em: ${dataHoraFormatada}</div>
                 </div>
             </a>
         `;
