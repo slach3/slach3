@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Agregador de notícias de games com as últimas novidades do mundo dos jogos">
-    <meta name="theme-color" content="#4CAF50">
+    <meta name="description" content="Seu agregador de notícias de games com as últimas novidades do mundo dos jogos">
+    <meta name="theme-color" content="#ffffff">
     
-    <title>GameNews Agregador</title>
+    <title>GameNews - Notícias de Games</title>
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
@@ -27,21 +27,25 @@
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">
-                <h1><i class="fas fa-gamepad"></i> GameNews</h1>
+            <div class="left-header">
+                <h1>
+                    <i class="fas fa-gamepad"></i>
+                    GameNews
+                </h1>
+                <nav>
+                    <a href="#" class="active"><i class="fas fa-layer-group"></i> Todas</a>
+                    <a href="#"><i class="fas fa-tv"></i> Consoles</a>
+                    <a href="#"><i class="fas fa-dice"></i> Jogos</a>
+                    <a href="#"><i class="fas fa-trophy"></i> eSports</a>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="active"><i class="fas fa-th-large"></i> Todas</a></li>
-                    <li><a href="#"><i class="fas fa-tv"></i> Consoles</a></li>
-                    <li><a href="#"><i class="fas fa-dice"></i> Jogos</a></li>
-                    <li><a href="#"><i class="fas fa-trophy"></i> eSports</a></li>
-                </ul>
-            </nav>
             <div class="header-controls">
                 <div class="search-container">
                     <input type="text" id="busca" placeholder="Buscar notícias..." aria-label="Buscar">
-                    <button id="botaoBusca"><i class="fas fa-search"></i> Buscar</button>
+                    <button id="botaoBusca">
+                        <i class="fas fa-search"></i>
+                        <span>Buscar</span>
+                    </button>
                 </div>
                 <button id="darkModeToggle" aria-label="Alternar modo escuro">
                     <i class="fas fa-moon"></i>
@@ -50,29 +54,28 @@
         </div>
     </header>
 
-    <main class="fade-in-up">
+    <main>
         <aside class="filtros-container">
-            <h3><i class="fas fa-filter"></i> Filtrar por fonte</h3>
+            <h3>Filtrar por fonte</h3>
             <div class="filtro-fontes">
                 <!-- Filtros serão inseridos aqui via JavaScript -->
             </div>
         </aside>
 
         <div class="content-area">
-            <section id="destaqueContainer" class="destaque-container">
-                <!-- Conteúdo autoral será inserido aqui via JavaScript -->
-            </section>
-
-            <section class="tendencias">
-                <h3><i class="fas fa-chart-line"></i> Trending Topics</h3>
-                <div class="tendencias-lista">
-                    <!-- Tendências serão inseridas aqui via JavaScript -->
-                </div>
-            </section>
-
-            <section id="noticias" class="noticias-grid">
+            <div id="noticias" class="noticias-grid">
                 <!-- Notícias serão inseridas aqui via JavaScript -->
-            </section>
+                <div class="loading-skeleton">
+                    <div class="skeleton-card">
+                        <div class="skeleton-img"></div>
+                        <div class="skeleton-content">
+                            <div class="skeleton-badge"></div>
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
