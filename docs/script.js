@@ -9,46 +9,48 @@ darkModeToggle.addEventListener('click', () => {
 
 // Função para carregar notícias
 async function carregarNoticias() {
-    const noticiasDiv = document.getElementById('noticias');
-    
     try {
-        // Se estamos na página de jogos, mostrar apenas notícias relacionadas a jogos
-        const isGamePage = window.location.pathname.includes('jogos.html');
-        let noticiasParaMostrar = noticias;
+        const response = await fetch('noticias.json');
+        if (!response.ok) throw new Error('Failed to fetch news');
+        const noticias = await response.json();
         
-        if (isGamePage) {
-            noticiasParaMostrar = noticias.filter(noticia => 
-                noticia.categoria.toLowerCase().includes('jogo') || 
-                noticia.titulo.toLowerCase().includes('jogo') ||
-                noticia.titulo.toLowerCase().includes('game')
-            ).slice(0, 5); // Limita a 5 notícias na página de jogos
+        const container = document.querySelector('.news-container');
+        if (!container) {
+            console.error('News container not found');
+            return;
         }
-
-        noticiasDiv.innerHTML = noticiasParaMostrar.map(noticia => `
-            <article class="noticia-card">
-                <div class="noticia-imagem">
-                    <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy">
-                </div>
-                <div class="noticia-conteudo">
-                    <span class="fonte-badge">${noticia.fonte}</span>
-                    <h2>${noticia.titulo}</h2>
-                    <p>${noticia.descricao}</p>
-                    <a href="${noticia.link}" target="_blank" rel="noopener noreferrer">Ler mais</a>
-                </div>
-            </article>
-        `).join('');
-    } catch (erro) {
-        console.error('Erro ao carregar notícias:', erro);
-        noticiasDiv.innerHTML = `
-            <div class="erro">
-                <p>Erro ao carregar as notícias. Por favor, recarregue a página.</p>
-                <button onclick="window.location.reload()">Recarregar</button>
-            </div>
-        `;
+        
+        container.innerHTML = '';
+        
+        noticias.forEach(noticia => {
+            const newsCard = createNewsCard(noticia);
+            container.appendChild(newsCard);
+        });
+    } catch (error) {
+        console.error('Error loading news:', error);
+        const container = document.querySelector('.news-container');
+        if (container) {
+            container.innerHTML = '<div class="error-message">Erro ao carregar notícias. Por favor, tente novamente mais tarde.</div>';
+        }
     }
 }
 
-// Carregar notícias quando o documento estiver pronto
-if (document.getElementById('noticias')) {
-    carregarNoticias();
+function createNewsCard(noticia) {
+    const article = document.createElement('article');
+    article.className = 'news-card';
+    
+    article.innerHTML = `
+        <a href="${noticia.link}" target="_blank" rel="noopener">
+            <img src="${noticia.image || 'images/fallback.jpg'}" alt="${noticia.title}" onerror="this.src='images/fallback.jpg'">
+            <div class="news-content">
+                <h3>${noticia.title}</h3>
+                <p class="source">${noticia.source}</p>
+            </div>
+        </a>
+    `;
+    
+    return article;
 }
+
+// Load news when the page is ready
+document.addEventListener('DOMContentLoaded', carregarNoticias);
