@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acompanhe as últimas notícias sobre consoles de videogame">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>GameNews - Consoles</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <script>
+        if (localStorage.getItem('darkMode') === 'true' || 
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark-mode');
+        }
+    </script>
+    
+    <style>
+        .consoles-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .consoles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .console-card {
+            background-color: var(--bg-color-card);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .console-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .console-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        
+        .console-info {
+            padding: 15px;
+        }
+        
+        .console-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        
+        .console-info p {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: var(--text-color-secondary);
+        }
+        
+        /* Estilo para o filtro de consoles */
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .filter-button {
+            background-color: var(--bg-color-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .filter-button:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .filter-button.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="left-header">
+                <h1>
+                    <i class="fas fa-gamepad"></i>
+                    GameNews
+                </h1>
+                <nav>
+                    <a href="index.html"><i class="fas fa-layer-group"></i><span>Todas</span></a>
+                    <a href="consoles.html" class="active"><i class="fas fa-tv"></i><span>Consoles</span></a>
+                    <a href="jogos.html"><i class="fas fa-dice"></i><span>Jogos</span></a>
+                </nav>
+            </div>
+            <div class="header-controls">
+                <button id="darkModeToggle" aria-label="Alternar modo escuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="consoles-container">
+            <h2>Notícias de Consoles</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-button active" data-filter="todos">Todos</button>
+                <button class="filter-button" data-filter="nintendo">Nintendo</button>
+                <button class="filter-button" data-filter="playstation">PlayStation</button>
+                <button class="filter-button" data-filter="xbox">Xbox</button>
+                <button class="filter-button" data-filter="outros">Outros</button>
+            </div>
+            
+            <div id="noticias-consoles" class="noticias-consoles">
+                <!-- Notícias de consoles serão inseridas via JavaScript -->
+                <div class="skeleton-loading">
+                    <div class="skeleton-card">
+                        <div class="skeleton-img"></div>
+                        <div class="skeleton-content">
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card">
+                        <div class="skeleton-img"></div>
+                        <div class="skeleton-content">
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 GameNews</p>
+            <button id="install-app" style="display: none;">Instalar App</button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="noticias.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Função para carregar apenas notícias relacionadas a consoles
+            function carregarNoticiasConsoles() {
+                const container = document.getElementById('noticias-consoles');
+                const noticiasConsoles = filtrarNoticiasConsoles(noticias);
+                
+                // Limpar o container e remover o loading
+                container.innerHTML = '';
+                
+                if (noticiasConsoles.length === 0) {
+                    const mensagem = document.createElement('div');
+                    mensagem.className = 'mensagem-vazia';
+                    mensagem.textContent = 'Nenhuma notícia sobre consoles encontrada.';
+                    container.appendChild(mensagem);
+                    return;
+                }
+                
+                // Criar a grade de notícias
+                const grid = document.createElement('div');
+                grid.className = 'noticias-grid';
+                container.appendChild(grid);
+                
+                // Adicionar as notícias
+                noticiasConsoles.forEach(noticia => {
+                    const card = criarCardNoticia(noticia);
+                    grid.appendChild(card);
+                });
+            }
+            
+            // Função para filtrar notícias relacionadas a consoles
+            function filtrarNoticiasConsoles(todasNoticias, filtro = 'todos') {
+                // Palavras-chave para identificar notícias sobre consoles
+                const keywords = {
+                    todos: ['console', 'consoles', 'nintendo', 'switch', 'playstation', 'ps5', 'ps4', 'xbox', 'series x', 'series s'],
+                    nintendo: ['nintendo', 'switch'],
+                    playstation: ['playstation', 'ps5', 'ps4', 'sony'],
+                    xbox: ['xbox', 'series x', 'series s', 'microsoft'],
+                    outros: ['steam deck', 'oculus', 'meta quest', 'vr']
+                };
+                
+                // Filtrar por palavras-chave
+                const keywordsAtivas = keywords[filtro];
+                
+                return todasNoticias.filter(noticia => {
+                    const texto = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
+                    
+                    if (filtro === 'todos') {
+                        // Para o filtro "todos", verificamos qualquer uma das palavras-chave de console
+                        return keywords.todos.some(keyword => texto.includes(keyword));
+                    } else {
+                        // Para filtros específicos, usamos apenas as palavras-chave daquele filtro
+                        return keywordsAtivas.some(keyword => texto.includes(keyword));
+                    }
+                });
+            }
+            
+            // Função para criar um card de notícia
+            function criarCardNoticia(noticia) {
+                const article = document.createElement('article');
+                article.className = 'noticia-card';
+                
+                const link = document.createElement('a');
+                link.href = noticia.link;
+                link.target = '_blank';
+                link.rel = 'noopener';
+                
+                const img = document.createElement('img');
+                img.src = noticia.imagem;
+                img.alt = noticia.titulo;
+                img.loading = 'lazy';
+                
+                const content = document.createElement('div');
+                content.className = 'noticia-content';
+                
+                const title = document.createElement('h3');
+                title.textContent = noticia.titulo;
+                
+                const source = document.createElement('p');
+                source.className = 'noticia-fonte';
+                source.textContent = noticia.fonte;
+                
+                content.appendChild(title);
+                content.appendChild(source);
+                
+                link.appendChild(img);
+                link.appendChild(content);
+                
+                article.appendChild(link);
+                
+                return article;
+            }
+            
+            // Adicionar eventos aos botões de filtro
+            const filterButtons = document.querySelectorAll('.filter-button');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remover classe ativa de todos os botões
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Adicionar classe ativa ao botão clicado
+                    this.classList.add('active');
+                    
+                    // Aplicar o filtro
+                    const filtro = this.getAttribute('data-filter');
+                    const container = document.getElementById('noticias-consoles');
+                    container.innerHTML = '';
+                    
+                    const noticiasConsoles = filtrarNoticiasConsoles(noticias, filtro);
+                    
+                    if (noticiasConsoles.length === 0) {
+                        const mensagem = document.createElement('div');
+                        mensagem.className = 'mensagem-vazia';
+                        mensagem.textContent = 'Nenhuma notícia encontrada para este filtro.';
+                        container.appendChild(mensagem);
+                        return;
+                    }
+                    
+                    // Criar a grade de notícias
+                    const grid = document.createElement('div');
+                    grid.className = 'noticias-grid';
+                    container.appendChild(grid);
+                    
+                    // Adicionar as notícias
+                    noticiasConsoles.forEach(noticia => {
+                        const card = criarCardNoticia(noticia);
+                        grid.appendChild(card);
+                    });
+                });
+            });
+            
+            // Carregar as notícias ao iniciar a página
+            carregarNoticiasConsoles();
+        });
+    </script>
+</body>
+</html>
