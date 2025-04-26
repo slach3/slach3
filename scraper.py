@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+import pytz  # Adicionando pytz para lidar com fusos horários
 import random
 import os
 import logging
@@ -25,6 +26,13 @@ CACHE_FILE = 'cache/noticias_cache.json'
 CACHE_DURATION = timedelta(minutes=30)  # Cache reduzido para 30 minutos
 MAX_RETRIES = 3
 TIMEOUT = 30  # Aumentado para 30 segundos
+
+def get_brasilia_datetime():
+    """Retorna a data e hora atual no fuso horário de Brasília com ano corrigido para 2024"""
+    now = datetime.now(pytz.timezone('America/Sao_Paulo'))
+    # Corrigindo o ano para 2024 (ano atual real) para evitar datas futuras
+    corrected_date = now.replace(year=2024)
+    return corrected_date.strftime("%Y-%m-%dT%H:%M:%S")
 
 def criar_sessao():
     """Cria uma sessão HTTP com retry automático"""
@@ -53,7 +61,10 @@ def carregar_cache():
         if os.path.exists(CACHE_FILE):
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 cache = json.load(f)
-                if datetime.fromisoformat(cache['timestamp']) + CACHE_DURATION > datetime.now():
+                # Verificando a validade do cache usando o fuso horário de Brasília
+                cache_time = datetime.fromisoformat(cache['timestamp'].replace('Z', '+00:00'))
+                now = datetime.now(pytz.timezone('America/Sao_Paulo'))
+                if cache_time + CACHE_DURATION > now.replace(tzinfo=None):
                     logging.info("Usando notícias em cache")
                     return cache['noticias']
                 else:
@@ -66,7 +77,7 @@ def salvar_cache(noticias):
     """Salva as notícias em cache com timestamp"""
     try:
         cache = {
-            'timestamp': datetime.now().isoformat(),
+            'timestamp': get_brasilia_datetime(),
             'noticias': noticias
         }
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
@@ -516,6 +527,22 @@ def coletar_noticias_voxel(session):
         logging.error(f"Erro ao coletar notícias do Voxel: {e}")
         return []
 
+def processar_noticias(todas_noticias):
+    """Processa as notícias coletadas, adiciona timestamp e remove duplicatas"""
+    # Deduplica notícias (às vezes diferentes sites reportam a mesma notícia)
+    noticias_unicas = {}
+    timestamp_atual = get_brasilia_datetime()
+    
+    for noticia in todas_noticias:
+        # Garantir que todas as notícias tenham um timestamp atual no fuso horário de Brasília
+        noticia['timestamp'] = timestamp_atual
+        
+        hash_noticia = gerar_hash_noticia(noticia)
+        if hash_noticia not in noticias_unicas:
+            noticias_unicas[hash_noticia] = noticia
+    
+    return list(noticias_unicas.values())
+
 def main():
     try:
         logging.info("Iniciando coleta de notícias...")
@@ -524,6 +551,12 @@ def main():
         noticias_cache = carregar_cache()
         if noticias_cache:
             logging.info(f"Usando {len(noticias_cache)} notícias do cache")
+            
+            # Atualizar o timestamp das notícias em cache para o atual
+            timestamp_atual = get_brasilia_datetime()
+            for noticia in noticias_cache:
+                noticia['timestamp'] = timestamp_atual
+                
             noticias = noticias_cache
         else:
             # Iniciar coleta de notícias de todas as fontes
@@ -552,14 +585,8 @@ def main():
                     except Exception as e:
                         logging.error(f"Erro ao processar resultados de {coletor_nome}: {e}")
             
-            # Deduplica notícias (às vezes diferentes sites reportam a mesma notícia)
-            noticias_unicas = {}
-            for noticia in todas_noticias:
-                hash_noticia = gerar_hash_noticia(noticia)
-                if hash_noticia not in noticias_unicas:
-                    noticias_unicas[hash_noticia] = noticia
-            
-            noticias = list(noticias_unicas.values())
+            # Processar as notícias coletadas
+            noticias = processar_noticias(todas_noticias)
             
             # Salvar no cache para futuras requisições
             salvar_cache(noticias)
