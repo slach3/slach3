@@ -10,39 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Verificar se as notícias estão disponíveis ou tentar carregá-las
-    if (typeof noticias === 'undefined' || !noticias) {
-        console.log('Tentando carregar noticias.js novamente...');
-        
-        // Tentar carregar o arquivo noticias.js manualmente
-        const script = document.createElement('script');
-        script.src = './noticias.js';
-        script.onload = function() {
-            console.log('noticias.js carregado com sucesso!');
-            carregarNoticias();
-        };
-        script.onerror = function() {
-            console.error('Falha ao carregar noticias.js');
-            const container = document.getElementById('noticias');
-            if (container) {
-                container.innerHTML = '<div class="erro"><p>Erro ao carregar as notícias. Por favor, recarregue a página.</p><button onclick="window.location.reload()">Recarregar</button></div>';
-            }
-        };
-        document.head.appendChild(script);
-    } else {
-        // Se já estiver disponível, carregar normalmente
-        carregarNoticias();
-    }
-
-    // Função para obter parâmetros da URL
-    function getParameterByName(name, url = window.location.href) {
-        name = name.replace(/[\[\]]/g, '\\$&');
-        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, ' '));
-    }
+    // Agora que as notícias estão incorporadas diretamente no HTML, carregamos imediatamente
+    carregarNoticias();
 
     // Gerenciar iframe na página de jogos
     const iframe = document.querySelector('.iframe-container iframe');
@@ -66,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // Função para carregar notícias
 function carregarNoticias() {
     try {
-        // Verificar explicitamente se noticias está definido
-        if (typeof window.noticias === 'undefined' || !window.noticias) {
+        // Verificar se noticias está definido
+        if (typeof noticias === 'undefined' || !noticias) {
             throw new Error('Notícias não encontradas');
         }
         
@@ -84,7 +53,7 @@ function carregarNoticias() {
         const filtrosContainer = document.querySelector('.filtro-fontes');
         
         if (filtrosContainer) {
-            const fontes = [...new Set(window.noticias.map(noticia => noticia.fonte))];
+            const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
             fontes.forEach(fonte => {
                 const filtroItem = document.createElement('div');
                 filtroItem.className = 'filtro-item';
@@ -126,7 +95,7 @@ function carregarNoticias() {
             filtrarPorCategoria(categoriaParam);
         } else {
             // Exibe todas as notícias inicialmente
-            exibirNoticias(window.noticias);
+            exibirNoticias(noticias);
         }
         
         // Configura busca
@@ -152,7 +121,7 @@ function carregarNoticias() {
     }
 }
 
-// Função helper para obter parâmetros da URL, disponível globalmente
+// Função helper para obter parâmetros da URL
 function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, '\\$&');
     const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -166,7 +135,7 @@ function filtrarNoticias() {
     const termoBusca = document.getElementById('busca')?.value.toLowerCase() || '';
     const fontesSelecionadas = Array.from(document.querySelectorAll('.filtro-item input:checked')).map(cb => cb.value);
     
-    const noticiasFiltered = window.noticias.filter(noticia => {
+    const noticiasFiltered = noticias.filter(noticia => {
         // Usar o campo título correto
         const matchTermo = noticia.titulo.toLowerCase().includes(termoBusca);
         const matchFonte = fontesSelecionadas.length === 0 || fontesSelecionadas.includes(noticia.fonte);
@@ -178,7 +147,7 @@ function filtrarNoticias() {
 
 function filtrarPorCategoria(categoria) {
     if (categoria === 'Todas') {
-        exibirNoticias(window.noticias);
+        exibirNoticias(noticias);
         return;
     }
     
@@ -188,7 +157,7 @@ function filtrarPorCategoria(categoria) {
     let noticiasFiltered;
     
     if (categoriaLower === 'consoles') {
-        noticiasFiltered = window.noticias.filter(noticia => 
+        noticiasFiltered = noticias.filter(noticia => 
             noticia.titulo.toLowerCase().includes('console') ||
             noticia.titulo.toLowerCase().includes('ps5') ||
             noticia.titulo.toLowerCase().includes('xbox') ||
@@ -196,7 +165,7 @@ function filtrarPorCategoria(categoria) {
             noticia.titulo.toLowerCase().includes('switch')
         );
     } else if (categoriaLower === 'jogos') {
-        noticiasFiltered = window.noticias.filter(noticia => 
+        noticiasFiltered = noticias.filter(noticia => 
             !noticia.titulo.toLowerCase().includes('console') &&
             !noticia.titulo.toLowerCase().includes('ps5') &&
             !noticia.titulo.toLowerCase().includes('xbox') &&
@@ -204,7 +173,7 @@ function filtrarPorCategoria(categoria) {
             !noticia.titulo.toLowerCase().includes('switch')
         );
     } else {
-        noticiasFiltered = window.noticias;
+        noticiasFiltered = noticias;
     }
     
     exibirNoticias(noticiasFiltered);
