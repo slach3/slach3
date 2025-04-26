@@ -79,11 +79,12 @@
         </div>
     </main>
 
+    <!-- Scripts na ordem correta -->
+    <script src="noticias.js"></script>
     <script>
-        // Verifica se os scripts carregaram na ordem correta
-        window.addEventListener('error', function(e) {
-            if (e.message === "noticias is not defined") {
-                console.error('Erro: O arquivo de notícias não foi carregado antes do script principal');
+        // Verifica se as notícias carregaram
+        window.addEventListener('load', () => {
+            if (typeof noticias === 'undefined' || !noticias) {
                 document.getElementById('noticias').innerHTML = `
                     <div class="erro">
                         <p>Erro ao carregar as notícias. Por favor, recarregue a página.</p>
@@ -93,7 +94,6 @@
             }
         });
     </script>
-    <script src="./noticias.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

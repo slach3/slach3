@@ -1,77 +1,86 @@
-// Verifica se o script de notícias foi carregado
-if (typeof noticias === 'undefined') {
-    console.error('Erro: O arquivo de notícias não foi carregado corretamente.');
+// script.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    inicializarSite();
+});
+
+function inicializarSite() {
+    // Verifica se as notícias foram carregadas
+    if (typeof noticias === 'undefined' || !noticias) {
+        console.error('Erro: Notícias não carregadas');
+        mostrarErro();
+        return;
+    }
+
+    // Configura o modo escuro
+    configurarModoEscuro();
+
+    // Configura navegação
+    configurarNavegacao();
+
+    // Carrega notícias iniciais
+    const categoriaAtual = localStorage.getItem('categoria') || 'todas';
+    filtrarPorCategoria(categoriaAtual);
+}
+
+function configurarNavegacao() {
+    const links = document.querySelectorAll('nav a');
+    const categoriaAtual = localStorage.getItem('categoria') || 'todas';
+
+    links.forEach(link => {
+        const categoria = link.querySelector('span').textContent.toLowerCase();
+        
+        // Marca o link ativo inicial
+        if (categoria === categoriaAtual) {
+            link.classList.add('active');
+        }
+
+        // Adiciona evento de clique
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            // Remove active de todos os links
+            links.forEach(l => l.classList.remove('active'));
+            
+            // Adiciona active ao link clicado
+            link.classList.add('active');
+            
+            // Filtra as notícias
+            localStorage.setItem('categoria', categoria);
+            filtrarPorCategoria(categoria);
+        });
+    });
+}
+
+function mostrarErro() {
     document.getElementById('noticias').innerHTML = `
         <div class="erro">
-            <p>Não foi possível carregar as notícias. Por favor, recarregue a página.</p>
+            <p>Erro ao carregar as notícias. Por favor, recarregue a página.</p>
             <button onclick="window.location.reload()">Recarregar</button>
         </div>
     `;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Inicia o modo escuro e carrega a categoria salva
-    configurarModoEscuro();
-    const categoriaAtual = localStorage.getItem('categoria') || 'todas';
-
-    // Configura a navegação
-    const links = document.querySelectorAll('nav a');
-    links.forEach(link => {
-        // Remove listeners antigos para evitar duplicação
-        const novoLink = link.cloneNode(true);
-        link.parentNode.replaceChild(novoLink, link);
-
-        // Pega o texto da categoria do span dentro do link
-        const categoria = novoLink.querySelector('span').textContent.toLowerCase();
-        
-        // Marca o link ativo se for a categoria atual
-        if (categoria === categoriaAtual) {
-            novoLink.classList.add('active');
-        }
-
-        // Adiciona o evento de clique
-        novoLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            console.log('Clicou em:', categoria); // Debug
-
-            // Remove active de todos os links
-            links.forEach(l => l.classList.remove('active'));
-            
-            // Adiciona active ao link clicado
-            novoLink.classList.add('active');
-            
-            // Salva a categoria
-            localStorage.setItem('categoria', categoria);
-            
-            // Filtra as notícias
-            filtrarPorCategoria(categoria);
-        });
-    });
-
-    // Carrega as notícias iniciais
-    filtrarPorCategoria(categoriaAtual);
-});
-
 function filtrarPorCategoria(categoria) {
-    console.log('Filtrando por categoria:', categoria); // Debug
+    const container = document.getElementById('noticias');
+    
+    // Mostra loading
+    container.innerHTML = `
+        <div class="loading">
+            <p>Carregando notícias...</p>
+        </div>
+    `;
 
-    if (!window.noticias || !Array.isArray(window.noticias)) {
-        console.error('Erro: noticias não está definido ou não é um array');
-        return;
-    }
-
+    // Filtra as notícias
     const noticiasFiltradas = noticias.filter(noticia => {
-        if (categoria === 'todas') {
-            return true;
-        }
-
-        const categoriaNoticia = determinarCategoria(noticia);
-        console.log('Notícia:', noticia.titulo, '| Categoria:', categoriaNoticia); // Debug
-        return categoriaNoticia === categoria;
+        if (categoria === 'todas') return true;
+        return determinarCategoria(noticia) === categoria;
     });
 
-    console.log('Total de notícias filtradas:', noticiasFiltradas.length); // Debug
-    renderizarNoticias(noticiasFiltradas);
+    // Renderiza as notícias filtradas
+    setTimeout(() => {
+        renderizarNoticias(noticiasFiltradas);
+    }, 100);
 }
 
 function determinarCategoria(noticia) {
