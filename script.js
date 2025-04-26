@@ -1,297 +1,262 @@
-// Configuração geral e variáveis
-let todasNoticias = [];
-let noticiasFiltradas = [];
-let categorias = {
-    'consoles': ['nintendo', 'xbox', 'playstation', 'switch', 'ps5', 'ps4', 'series x'],
-    'jogos': ['game', 'jogo', 'título', 'lançamento', 'rpg', 'fps', 'mmorpg'],
-    'esports': ['esports', 'competitivo', 'campeonato', 'torneio', 'pro player']
-};
+// Configuração inicial
+document.addEventListener('DOMContentLoaded', () => {
+    // Configurar modo escuro
+    configurarModoEscuro();
 
-// Função para determinar a categoria com base no título e descrição
-function determinarCategoria(noticia) {
-    const textoCompleto = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
-    
-    for (const [categoria, palavrasChave] of Object.entries(categorias)) {
-        for (const palavra of palavrasChave) {
-            if (textoCompleto.includes(palavra)) {
-                return categoria;
-            }
-        }
-    }
-    
-    return 'outros';
-}
-
-// Função para carregar e processar notícias
-async function carregarNoticias() {
-    const container = document.getElementById('noticias');
-    container.innerHTML = '<p class="loading-message">Carregando notícias...</p>';
-
-    try {
-        // Processar notícias do arquivo noticias.js (já carregado)
-        todasNoticias = noticias.map(noticia => {
-            return {
-                ...noticia,
-                categoria: determinarCategoria(noticia),
-                // Preserva a imagem original se existir, caso contrário usa fallback
-                imagem: noticia.imagem || 'images/fallback.html'
-            };
-        });
-        
-        noticiasFiltradas = [...todasNoticias];
-        
-        // Configurar filtros de fonte
-        configurarFiltrosFonte();
-        
-        // Exibir todas as notícias
-        exibirNoticias();
-        
-        // Configurar eventos
-        configurarEventos();
-        
-        // Adicionar informação de última atualização
-        const dataAtualizacao = noticias.js_data_atualizacao || 'Agora';
-        if (document.querySelector('.footer-update')) {
-            document.querySelector('.footer-update').textContent = `Última atualização: ${dataAtualizacao}`;
-        }
-        
-    } catch (error) {
-        container.innerHTML = '<p class="erro">Erro ao carregar notícias.</p>';
-        console.error(error);
-    }
-}
-
-// Função para exibir as notícias filtradas na página
-function exibirNoticias() {
-    const container = document.getElementById('noticias');
-    
-    if (noticiasFiltradas.length === 0) {
-        container.innerHTML = '<p class="sem-resultados">Nenhuma notícia encontrada com os filtros atuais.</p>';
+    // Verificar se temos notícias
+    if (!noticias || noticias.length === 0) {
+        mostrarErro("Erro ao carregar notícias. Tente novamente mais tarde.");
         return;
     }
-    
-    let html = '';
-    
-    noticiasFiltradas.forEach(noticia => {
-        // Verifica se o link é um exemplo fictício e substitui por um comportamento alternativo
-        const linkOriginal = noticia.link;
-        const isLinkFicticio = linkOriginal.includes('exemplo.com');
-        const linkFinal = isLinkFicticio ? 'javascript:void(0)' : linkOriginal;
-        const linkTarget = isLinkFicticio ? '' : 'target="_blank" rel="noopener"';
-        const linkOnclick = isLinkFicticio ? `onclick="abrirDetalhes('${encodeURIComponent(JSON.stringify(noticia))}')"` : '';
-        
-        // Trata a fonte indefinida
-        const fonte = noticia.fonte || 'GameNews';
-        
-        // Verifica se a imagem é uma URL externa ou o arquivo HTML de fallback
-        const imagemUrl = noticia.imagem || 'images/fallback.html';
-        const isFallbackImage = imagemUrl.includes('fallback.html');
-        
-        // Cria o HTML para imagem ou iframe dependendo do tipo
-        let imagemHtml = '';
-        if (isFallbackImage) {
-            imagemHtml = `<iframe src="${imagemUrl}" frameborder="0" title="${noticia.titulo}" scrolling="no"></iframe>`;
-        } else {
-            imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" loading="lazy" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
-        }
-        
-        html += `
-            <article data-categoria="${noticia.categoria}">
-                <div class="article-img">
-                    ${imagemHtml}
-                </div>
-                <div class="article-content">
-                    <span class="fonte-badge">${fonte}</span>
-                    <h2>${noticia.titulo}</h2>
-                    <p>${noticia.descricao}</p>
-                    <a href="${linkFinal}" ${linkTarget} ${linkOnclick}>Ler mais</a>
-                </div>
-            </article>
-        `;
+
+    // Renderizar as notícias com efeito de carregamento
+    mostrarLoadingSkeleton();
+    setTimeout(() => {
+        renderizarNoticias();
+        configurarFiltrosFonte();
+        configurarBusca();
+        configurarFiltrosCategoria();
+    }, 500);
+
+    // Adicionar animações aos cards ao rolar a página
+    const animateOnScroll = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                    animateOnScroll.unobserve(entry.target);
+                }
+            });
+        },
+        { threshold: 0.1 }
+    );
+
+    document.querySelectorAll('article').forEach(article => {
+        animateOnScroll.observe(article);
     });
+});
+
+// Função para configurar modo escuro
+function configurarModoEscuro() {
+    const toggle = document.getElementById('darkModeToggle');
+    const icon = toggle.querySelector('i');
+
+    // Verificar preferência salva ou do sistema
+    const prefereDark = localStorage.getItem('darkMode') === 'true' || 
+                       window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    container.innerHTML = html;
+    document.documentElement.classList.toggle('dark-mode', prefereDark);
+    icon.className = prefereDark ? 'fas fa-sun' : 'fas fa-moon';
+
+    // Adicionar listener para o botão
+    toggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark-mode');
+        const isDark = document.documentElement.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDark);
+        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+    });
 }
 
-// Função para abrir uma página de detalhes
-function abrirDetalhes(noticiaJSON) {
-    const noticia = JSON.parse(decodeURIComponent(noticiaJSON));
+// Função para mostrar skeleton loading
+function mostrarLoadingSkeleton() {
+    const container = document.getElementById('noticias');
+    const skeletonHTML = Array(6).fill(`
+        <article class="skeleton-card">
+            <div class="article-img skeleton"></div>
+            <div class="article-content">
+                <div class="skeleton" style="width: 100px; height: 24px; margin-bottom: 8px;"></div>
+                <div class="skeleton" style="width: 100%; height: 20px; margin-bottom: 8px;"></div>
+                <div class="skeleton" style="width: 80%; height: 20px;"></div>
+            </div>
+        </article>
+    `).join('');
     
-    // Cria um modal ou página simples para mostrar os detalhes
-    const modal = document.createElement('div');
-    modal.className = 'modal-detalhes';
+    container.innerHTML = skeletonHTML;
+}
+
+// Função para renderizar notícias com lazy loading
+function renderizarNoticias(noticiasFiltradas = null) {
+    const container = document.getElementById('noticias');
+    const noticiasParaMostrar = noticiasFiltradas || noticias;
     
-    // Trata a fonte indefinida
-    const fonte = noticia.fonte || 'GameNews';
+    container.innerHTML = '';
     
-    // Verifica se a imagem é uma URL externa ou o arquivo HTML de fallback
-    const imagemUrl = noticia.imagem || 'images/fallback.html';
-    const isFallbackImage = imagemUrl.includes('fallback.html');
-    
-    // Cria o HTML para imagem ou iframe dependendo do tipo
-    let imagemHtml = '';
-    if (isFallbackImage) {
-        imagemHtml = `<iframe src="${imagemUrl}" frameborder="0" scrolling="no"></iframe>`;
-    } else {
-        imagemHtml = `<img src="${imagemUrl}" alt="${noticia.titulo}" onerror="this.parentNode.innerHTML='<iframe src=\\'images/fallback.html\\' frameborder=\\'0\\' scrolling=\\'no\\'></iframe>'">`;
+    if (noticiasParaMostrar.length === 0) {
+        container.innerHTML = '<p class="sem-resultados fade-in">Nenhuma notícia encontrada com os filtros selecionados.</p>';
+        return;
     }
+
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.addEventListener('load', () => {
+                        img.classList.add('loaded');
+                        img.closest('article').classList.add('fade-in-up');
+                    });
+                    observer.unobserve(img);
+                }
+            });
+        },
+        { rootMargin: '50px 0px' }
+    );
     
-    modal.innerHTML = `
-        <div class="modal-content">
-            <span class="fechar-modal">&times;</span>
-            <h2>${noticia.titulo}</h2>
-            <p class="fonte-data">Fonte: ${fonte} | Data: 25 de abril de 2025</p>
-            <div class="modal-img">
-                ${imagemHtml}
+    noticiasParaMostrar.forEach((noticia, index) => {
+        const article = document.createElement('article');
+        article.style.animationDelay = `${index * 0.1}s`;
+        
+        article.innerHTML = `
+            <div class="article-img">
+                <img data-src="${noticia.imagem}" alt="${noticia.titulo}" 
+                     loading="lazy"
+                     onerror="this.onerror=null; this.src='images/fallback.jpg';">
             </div>
-            <div class="modal-texto">
+            <div class="article-content">
+                <span class="fonte-badge">${noticia.fonte}</span>
+                <h2>${noticia.titulo}</h2>
                 <p>${noticia.descricao}</p>
-                <p>Esta é uma notícia fictícia criada para demonstração. Em um site real, aqui estaria o conteúdo completo da notícia.</p>
+                <a href="${noticia.link}" target="_blank" class="ler-mais">
+                    <span>Ler mais</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
-        </div>
-    `;
-    
-    document.body.appendChild(modal);
-    
-    // Adiciona evento para fechar o modal
-    modal.querySelector('.fechar-modal').addEventListener('click', () => {
-        document.body.removeChild(modal);
-    });
-    
-    // Fecha o modal ao clicar fora dele
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            document.body.removeChild(modal);
-        }
+        `;
+        
+        container.appendChild(article);
+        
+        const img = article.querySelector('img');
+        observer.observe(img);
     });
 }
 
-// Configura os eventos de interação do usuário
-function configurarEventos() {
-    // Filtro por categoria
-    document.querySelectorAll('nav a').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
-            this.classList.add('active');
-            
-            const categoria = this.getAttribute('data-category');
-            filtrarPorCategoria(categoria);
-        });
+// Função para configurar filtros de fonte com animação
+function configurarFiltrosFonte() {
+    const filtroFontes = document.getElementById('filtroFontes');
+    const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
+    
+    fontes.forEach((fonte, index) => {
+        const filtroItem = document.createElement('div');
+        filtroItem.className = 'filtro-item fade-in';
+        filtroItem.style.animationDelay = `${index * 0.1}s`;
+        
+        filtroItem.innerHTML = `
+            <input type="checkbox" id="fonte-${fonte.replace(/\s+/g, '-').toLowerCase()}" 
+                   name="fonte" value="${fonte}" checked>
+            <label for="fonte-${fonte.replace(/\s+/g, '-').toLowerCase()}">${fonte}</label>
+        `;
+        
+        filtroFontes.appendChild(filtroItem);
     });
     
-    // Filtro por fonte
-    document.getElementById('fonte-todas').addEventListener('change', function() {
-        const checked = this.checked;
-        document.querySelectorAll('[id^="fonte-"]').forEach(checkbox => {
-            checkbox.checked = checked;
-        });
-        aplicarFiltros();
-    });
-    
-    document.querySelectorAll('[id^="fonte-"]:not(#fonte-todas)').forEach(checkbox => {
+    document.querySelectorAll('input[name="fonte"]').forEach(checkbox => {
         checkbox.addEventListener('change', () => {
-            const todasChecked = Array.from(document.querySelectorAll('[id^="fonte-"]:not(#fonte-todas)')).every(c => c.checked);
-            document.getElementById('fonte-todas').checked = todasChecked;
+            aplicarFiltrosComAnimacao();
+        });
+    });
+}
+
+// Função para aplicar filtros com animação suave
+function aplicarFiltrosComAnimacao() {
+    const container = document.getElementById('noticias');
+    container.classList.add('fade-out');
+    
+    setTimeout(() => {
+        aplicarFiltros();
+        container.classList.remove('fade-out');
+        container.classList.add('fade-in');
+    }, 300);
+}
+
+// Melhorando a função de busca com debounce
+function configurarBusca() {
+    const busca = document.getElementById('busca');
+    const botaoBusca = document.getElementById('botaoBusca');
+    
+    let timeoutId;
+    
+    busca.addEventListener('input', () => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            aplicarFiltrosComAnimacao();
+        }, 300);
+    });
+    
+    botaoBusca.addEventListener('click', () => {
+        aplicarFiltrosComAnimacao();
+    });
+}
+
+// Função para configurar filtros de categoria
+function configurarFiltrosCategoria() {
+    const links = document.querySelectorAll('nav a');
+    
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            // Remover classe active de todos os links
+            links.forEach(l => l.classList.remove('active'));
+            
+            // Adicionar classe active ao link clicado
+            link.classList.add('active');
+            
+            // Aplicar filtro por categoria
             aplicarFiltros();
         });
     });
-    
-    // Busca
-    document.getElementById('botaoBusca').addEventListener('click', () => {
-        const termo = document.getElementById('busca').value.trim().toLowerCase();
-        filtrarPorTexto(termo);
-    });
-    
-    document.getElementById('busca').addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            const termo = document.getElementById('busca').value.trim().toLowerCase();
-            filtrarPorTexto(termo);
-        }
-    });
 }
 
-// Filtra notícias por categoria
-function filtrarPorCategoria(categoria) {
-    if (categoria === 'todos') {
-        noticiasFiltradas = [...todasNoticias];
-    } else {
-        noticiasFiltradas = todasNoticias.filter(noticia => noticia.categoria === categoria);
-    }
-    
-    exibirNoticias();
-}
-
-// Filtra notícias por termos de busca
-function filtrarPorTexto(termo) {
-    if (!termo) {
-        noticiasFiltradas = [...todasNoticias];
-    } else {
-        noticiasFiltradas = todasNoticias.filter(noticia => 
-            noticia.titulo.toLowerCase().includes(termo) || 
-            noticia.descricao.toLowerCase().includes(termo)
-        );
-    }
-    
-    aplicarFiltros();
-}
-
-// Aplica todos os filtros ativos
+// Função para aplicar todos os filtros
 function aplicarFiltros() {
-    // Recupera o filtro de categoria atual
-    const categoriaAtiva = document.querySelector('nav a.active').getAttribute('data-category');
+    // Obter fontes selecionadas
+    const fontesSelecionadas = Array.from(
+        document.querySelectorAll('input[name="fonte"]:checked')
+    ).map(checkbox => checkbox.value);
     
-    // Aplica o filtro de categoria
-    let noticias = categoriaAtiva === 'todos' 
-        ? [...todasNoticias] 
-        : todasNoticias.filter(noticia => noticia.categoria === categoriaAtiva);
+    // Obter texto de busca
+    const textoBusca = document.getElementById('busca').value.toLowerCase();
     
-    // Aplica o filtro de busca
-    const termo = document.getElementById('busca').value.trim().toLowerCase();
-    if (termo) {
-        noticias = noticias.filter(noticia => 
-            noticia.titulo.toLowerCase().includes(termo) || 
-            noticia.descricao.toLowerCase().includes(termo)
-        );
-    }
+    // Obter categoria selecionada
+    const categoriaSelecionada = document.querySelector('nav a.active').getAttribute('data-category');
     
-    // Aplica o filtro de fontes
-    const fontesSelecionadas = Array.from(document.querySelectorAll('[id^="fonte-"]:not(#fonte-todas):checked')).map(
-        checkbox => checkbox.id.replace('fonte-', '')
+    // Filtrar notícias por fonte
+    let noticiasFiltradas = noticias.filter(noticia => 
+        fontesSelecionadas.includes(noticia.fonte)
     );
     
-    if (fontesSelecionadas.length > 0 && !document.getElementById('fonte-todas').checked) {
-        noticias = noticias.filter(noticia => fontesSelecionadas.includes(noticia.fonte));
+    // Filtrar por texto de busca
+    if (textoBusca) {
+        noticiasFiltradas = noticiasFiltradas.filter(noticia => 
+            noticia.titulo.toLowerCase().includes(textoBusca) || 
+            noticia.descricao.toLowerCase().includes(textoBusca)
+        );
     }
     
-    noticiasFiltradas = noticias;
-    exibirNoticias();
+    // Filtrar por categoria (lógica simplificada)
+    if (categoriaSelecionada !== 'todos') {
+        noticiasFiltradas = noticiasFiltradas.filter(noticia => {
+            const categoriasMapeadas = {
+                'consoles': ['nintendo', 'playstation', 'xbox', 'switch', 'console'],
+                'jogos': ['game', 'jogo', 'rpg', 'review', 'fps', 'remastered'],
+                'esports': ['esports', 'tournament', 'competition', 'league', 'championship']
+            };
+            
+            const keywords = categoriasMapeadas[categoriaSelecionada] || [];
+            return keywords.some(keyword => 
+                noticia.titulo.toLowerCase().includes(keyword) || 
+                noticia.descricao.toLowerCase().includes(keyword)
+            );
+        });
+    }
+    
+    // Renderizar notícias filtradas
+    renderizarNoticias(noticiasFiltradas);
 }
 
-// Configurar filtros de fonte com base nas fontes disponíveis
-function configurarFiltrosFonte() {
-    const filtroFontes = document.getElementById('filtroFontes');
-    // Extrai fontes, trata valores undefined substituindo por 'GameNews'
-    const fontes = [...new Set(todasNoticias.map(n => n.fonte || 'GameNews'))];
-    
-    let html = `
-        <div class="filtro-item">
-            <input type="checkbox" id="fonte-todas" name="fonte-todas" checked>
-            <label for="fonte-todas">Todas as fontes</label>
-        </div>
-    `;
-    
-    fontes.forEach(fonte => {
-        html += `
-            <div class="filtro-item">
-                <input type="checkbox" id="fonte-${fonte}" name="fonte-${fonte}" checked>
-                <label for="fonte-${fonte}">${fonte}</label>
-            </div>
-        `;
-    });
-    
-    filtroFontes.innerHTML = html;
+// Função para mostrar mensagem de erro
+function mostrarErro(mensagem) {
+    const container = document.getElementById('noticias');
+    container.innerHTML = `<p class="erro">${mensagem}</p>`;
 }
-
-// Iniciar o carregamento de notícias
-document.addEventListener('DOMContentLoaded', carregarNoticias);

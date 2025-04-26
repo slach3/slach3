@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import random
 import os
 import logging
@@ -13,9 +13,38 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler('scraper.log', mode='a')
+        logging.FileHandler('scraper.log', mode='a', encoding='utf-8')
     ]
 )
+
+CACHE_FILE = 'cache/noticias_cache.json'
+CACHE_DURATION = timedelta(hours=1)  # Cache expira após 1 hora
+
+def carregar_cache():
+    try:
+        if not os.path.exists('cache'):
+            os.makedirs('cache')
+        if os.path.exists(CACHE_FILE):
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                cache = json.load(f)
+                if datetime.fromisoformat(cache['timestamp']) + CACHE_DURATION > datetime.now():
+                    logging.info("Usando dados do cache")
+                    return cache['noticias']
+    except Exception as e:
+        logging.error(f"Erro ao carregar cache: {e}")
+    return None
+
+def salvar_cache(noticias):
+    try:
+        cache = {
+            'timestamp': datetime.now().isoformat(),
+            'noticias': noticias
+        }
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=4)
+        logging.info("Cache atualizado com sucesso")
+    except Exception as e:
+        logging.error(f"Erro ao salvar cache: {e}")
 
 def get_user_agent():
     user_agents = [
@@ -440,50 +469,40 @@ def coletar_noticias_voxel():
 def coletar_e_salvar_noticias():
     logging.info(f"===== Iniciando coleta de notícias em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====")
     
+    # Verificar cache primeiro
+    noticias_cache = carregar_cache()
+    if noticias_cache:
+        with open('noticias.json', 'w', encoding='utf-8') as f:
+            json.dump(noticias_cache, f, ensure_ascii=False, indent=4)
+        with open('noticias.js', 'w', encoding='utf-8') as f:
+            f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write("const noticias = ")
+            f.write(json.dumps(noticias_cache, ensure_ascii=False, indent=4))
+            f.write(";")
+        logging.info("Arquivos atualizados a partir do cache")
+        return
+
     todas_noticias = []
     
+    # Implementação do rate limiting
+    delay_between_requests = random.uniform(2, 4)  # Delay aleatório entre 2-4 segundos
+
     # Coleta de fontes diferentes com tratamento de erros específico para cada fonte
-    try:
-        todas_noticias.extend(coletar_noticias_techtudo())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento do TechTudo: {e}")
-    
-    try:
-        todas_noticias.extend(coletar_noticias_ign())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento da IGN Brasil: {e}")
-    
-    try:
-        todas_noticias.extend(coletar_noticias_pcgamer())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento da PC Gamer: {e}")
-    
-    try:
-        todas_noticias.extend(coletar_noticias_adrenaline())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento do Adrenaline: {e}")
-    
-    try:
-        todas_noticias.extend(coletar_noticias_tecmundo())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento do TecMundo: {e}")
-        
-    try:
-        todas_noticias.extend(coletar_noticias_gameviciados())
-        time.sleep(2)  # Pausa para não sobrecarregar os servidores
-    except Exception as e:
-        logging.error(f"Falha completa no processamento do GameViciados: {e}")
-        
-    try:
-        todas_noticias.extend(coletar_noticias_voxel())
-    except Exception as e:
-        logging.error(f"Falha completa no processamento do Voxel: {e}")
-    
+    for coletor in [
+        coletar_noticias_techtudo,
+        coletar_noticias_ign,
+        coletar_noticias_pcgamer,
+        coletar_noticias_adrenaline,
+        coletar_noticias_tecmundo,
+        coletar_noticias_gameviciados,
+        coletar_noticias_voxel
+    ]:
+        try:
+            todas_noticias.extend(coletor())
+            time.sleep(delay_between_requests)
+        except Exception as e:
+            logging.error(f"Falha completa no processamento de {coletor.__name__}: {e}")
+
     # Tratamento para imagens faltantes e duplicados
     noticias_filtradas = []
     titulos_adicionados = set()

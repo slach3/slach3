@@ -3,55 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameNews - Notícias de Jogos</title>
+    <meta name="description" content="Agregador de notícias de games com as últimas novidades do mundo dos jogos">
+    <meta name="theme-color" content="#4CAF50">
+    
+    <title>GameNews Agregador</title>
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- Tema escuro -->
+    <script>
+        if (localStorage.getItem('darkMode') === 'true' || 
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark-mode');
+        }
+    </script>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1><i class="fas fa-gamepad"></i> GameNews</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active" data-category="todos">Todas</a></li>
-                <li><a href="#" data-category="consoles">Consoles</a></li>
-                <li><a href="#" data-category="jogos">Jogos</a></li>
-                <li><a href="#" data-category="esports">eSports</a></li>
-            </ul>
-        </nav>
-        <div class="busca">
-            <input type="text" id="busca" placeholder="Buscar notícias...">
-            <button id="botaoBusca"><i class="fas fa-search"></i></button>
+        <div class="header-content">
+            <div class="logo">
+                <h1><i class="fas fa-gamepad"></i> GameNews</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-th-large"></i> Todas</a></li>
+                    <li><a href="#"><i class="fas fa-tv"></i> Consoles</a></li>
+                    <li><a href="#"><i class="fas fa-dice"></i> Jogos</a></li>
+                    <li><a href="#"><i class="fas fa-trophy"></i> eSports</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <div class="search-container">
+                    <input type="text" id="busca" placeholder="Buscar notícias..." aria-label="Buscar">
+                    <button id="botaoBusca"><i class="fas fa-search"></i> Buscar</button>
+                </div>
+                <button id="darkModeToggle" aria-label="Alternar modo escuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
         </div>
     </header>
 
-    <main>
-        <div class="filtros">
-            <h3>Filtrar por fonte</h3>
-            <div class="filtro-fontes" id="filtroFontes">
-                <!-- Filtros serão preenchidos pelo JavaScript -->
+    <main class="fade-in-up">
+        <aside class="filtros-container">
+            <h3><i class="fas fa-filter"></i> Filtrar por fonte</h3>
+            <div class="filtro-fontes">
+                <!-- Filtros serão inseridos aqui via JavaScript -->
             </div>
-        </div>
-        
-        <div id="noticias">
-            <p class="loading-message">Carregando as últimas notícias...</p>
+        </aside>
+
+        <div class="content-area">
+            <section id="destaqueContainer" class="destaque-container">
+                <!-- Conteúdo autoral será inserido aqui via JavaScript -->
+            </section>
+
+            <section class="tendencias">
+                <h3><i class="fas fa-chart-line"></i> Trending Topics</h3>
+                <div class="tendencias-lista">
+                    <!-- Tendências serão inseridas aqui via JavaScript -->
+                </div>
+            </section>
+
+            <section id="noticias" class="noticias-grid">
+                <!-- Notícias serão inseridas aqui via JavaScript -->
+            </section>
         </div>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="social">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-discord"></i></a>
-            </div>
-            <p>&copy; 2025 GameNews - Portal de notícias do mundo dos jogos</p>
-            <p class="footer-update">Atualizado automaticamente a cada 5 minutos</p>
-        </div>
-    </footer>
     <script src="noticias.js"></script>
     <script src="script.js"></script>
 </body>
