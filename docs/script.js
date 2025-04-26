@@ -128,8 +128,8 @@ function renderizarNoticias(noticiasFiltradas, categoria) {
         return;
     }
 
-    // Se for a categoria jogos, adiciona a área do jogo
     if (categoria === 'jogos') {
+        // Layout para a página de jogos com o jogo em destaque e notícias na lateral
         container.innerHTML = `
             <div class="games-container">
                 <div class="game-area">
@@ -147,13 +147,7 @@ function renderizarNoticias(noticiasFiltradas, categoria) {
                                  onerror="this.onerror=null; this.src='images/fallback.png';">
                         </div>
                         <div class="article-content">
-                            <div class="article-header">
-                                <span class="fonte-badge">${noticia.fonte}</span>
-                                <span class="categoria-badge">
-                                    <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
-                                    ${determinarCategoria(noticia)}
-                                </span>
-                            </div>
+                            <span class="fonte-badge">${noticia.fonte}</span>
                             <h2>${noticia.titulo}</h2>
                             <p>${noticia.descricao}</p>
                             <a href="${noticia.link}" target="_blank" class="ler-mais">
@@ -165,7 +159,7 @@ function renderizarNoticias(noticiasFiltradas, categoria) {
                 `).join('')}
             </aside>`;
     } else {
-        // Layout padrão para outras categorias
+        // Layout padrão para outras categorias (grid)
         container.innerHTML = `
             <div class="noticias-grid">
                 ${noticiasFiltradas.map(noticia => `
@@ -175,13 +169,7 @@ function renderizarNoticias(noticiasFiltradas, categoria) {
                                  onerror="this.onerror=null; this.src='images/fallback.png';">
                         </div>
                         <div class="article-content">
-                            <div class="article-header">
-                                <span class="fonte-badge">${noticia.fonte}</span>
-                                <span class="categoria-badge">
-                                    <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
-                                    ${determinarCategoria(noticia)}
-                                </span>
-                            </div>
+                            <span class="fonte-badge">${noticia.fonte}</span>
                             <h2>${noticia.titulo}</h2>
                             <p>${noticia.descricao}</p>
                             <a href="${noticia.link}" target="_blank" class="ler-mais">

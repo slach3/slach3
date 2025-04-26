@@ -122,8 +122,6 @@ main {
 /* Layout específico para jogos */
 main.games-layout {
     max-width: 1400px;
-    margin: 2rem auto;
-    padding: 0 1rem;
     display: grid;
     grid-template-columns: 1fr 350px;
     gap: 2rem;
@@ -162,6 +160,19 @@ main.games-layout {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.news-sidebar article {
+    margin: 0;
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.news-sidebar .article-img {
+    height: 150px;
 }
 
 .noticias-grid {
@@ -181,7 +192,8 @@ main.games-layout {
     }
 
     .news-sidebar {
-        order: 2;
+        max-height: none;
+        overflow-y: visible;
     }
 }
 
