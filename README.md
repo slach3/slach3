@@ -2,6 +2,30 @@
 
 Um portal que agrega automaticamente as últimas notícias do mundo dos jogos eletrônicos de várias fontes confiáveis.
 
+## 🧠 MEMÓRIA ATIVA PARA IA (Copilot, Claude ou outro assistente)
+
+ANTES DE QUALQUER AÇÃO:
+- Leia os arquivos abertos e, se possível, todo o projeto para entender o estado atual.
+- Leia este README.md completamente para contexto e histórico do projeto.
+
+REGRAS PARA TODA MODIFICAÇÃO:
+1. Nenhuma alteração deve ser feita sem verificar antes se já existe algo semelhante implementado.
+2. Sempre que você alterar qualquer parte do projeto (HTML, CSS, JS ou outro), registre imediatamente:
+   - O que foi feito
+   - Em qual arquivo
+   - Por quê
+3. Registre essas mudanças na seção "📜 Histórico de Desenvolvimento" abaixo, em ordem cronológica.
+
+Este projeto é um site de notícias de jogos chamado **GameNews**, com RSS automático, filtros por categoria e foco em layout limpo e funcional. O objetivo é manter tudo simples, responsivo e em constante evolução com base em iterações conscientes.
+
+---
+
+## 📜 Histórico de Desenvolvimento
+- [25/04/2025] Início da memória ativa e rastreio automático de mudanças via README.
+- [25/04/2025] Reorganização do projeto para usar a pasta docs/ para GitHub Pages
+- [25/04/2025] Atualização do design para um visual minimalista e moderno
+- [25/04/2025] Implementação do modo escuro e melhorias na responsividade
+
 ## Funcionalidades
 
 - Agregação automática de notícias de jogos de várias fontes (IGN Brasil, PC Gamer, TechTudo, etc.)
