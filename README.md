@@ -65,3 +65,10 @@ Um workflow do GitHub Actions executa este script periodicamente, garantindo que
 - Mensagens de erro e feedback do sistema serão em português
 - Variáveis, funções e comentários no código seguirão padrões em português quando possível
 - Commits e documentação do Git serão escritos em português
+
+## ⏰ ÚLTIMA ATUALIZAÇÃO
+**25/04/2025 - 23:52:08**
+- Implementação do novo design minimalista
+- Reorganização do projeto para pasta docs/
+- Adição das regras de conduta em português
+- Atualização do layout responsivo
