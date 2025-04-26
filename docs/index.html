@@ -33,10 +33,10 @@
                     GameNews
                 </h1>
                 <nav>
-                    <a href="#" class="active"><i class="fas fa-layer-group"></i> Todas</a>
-                    <a href="#"><i class="fas fa-tv"></i> Consoles</a>
-                    <a href="#"><i class="fas fa-dice"></i> Jogos</a>
-                    <a href="#"><i class="fas fa-trophy"></i> eSports</a>
+                    <a href="#" class="active"><i class="fas fa-layer-group"></i><span>Todas</span></a>
+                    <a href="#"><i class="fas fa-tv"></i><span>Consoles</span></a>
+                    <a href="#"><i class="fas fa-dice"></i><span>Jogos</span></a>
+                    <a href="#"><i class="fas fa-trophy"></i><span>eSports</span></a>
                 </nav>
             </div>
             <div class="header-controls">
@@ -79,7 +79,21 @@
         </div>
     </main>
 
-    <script src="noticias.js"></script>
-    <script src="script.js"></script>
+    <script>
+        // Verifica se os scripts carregaram na ordem correta
+        window.addEventListener('error', function(e) {
+            if (e.message === "noticias is not defined") {
+                console.error('Erro: O arquivo de notícias não foi carregado antes do script principal');
+                document.getElementById('noticias').innerHTML = `
+                    <div class="erro">
+                        <p>Erro ao carregar as notícias. Por favor, recarregue a página.</p>
+                        <button onclick="window.location.reload()">Recarregar</button>
+                    </div>
+                `;
+            }
+        });
+    </script>
+    <script src="./noticias.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

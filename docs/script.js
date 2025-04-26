@@ -1,69 +1,132 @@
-document.addEventListener('DOMContentLoaded', () => {
-    configurarModoEscuro();
-    
-    if (!noticias || noticias.length === 0) {
-        mostrarErro("Não foi possível carregar as notícias. Tente novamente mais tarde.");
-        return;
-    }
+// Verifica se o script de notícias foi carregado
+if (typeof noticias === 'undefined') {
+    console.error('Erro: O arquivo de notícias não foi carregado corretamente.');
+    document.getElementById('noticias').innerHTML = `
+        <div class="erro">
+            <p>Não foi possível carregar as notícias. Por favor, recarregue a página.</p>
+            <button onclick="window.location.reload()">Recarregar</button>
+        </div>
+    `;
+}
 
-    mostrarLoadingSkeleton();
-    setTimeout(() => {
-        renderizarNoticias();
-        configurarFiltros();
-        configurarBusca();
-    }, 500);
+document.addEventListener('DOMContentLoaded', () => {
+    // Inicia o modo escuro e carrega a categoria salva
+    configurarModoEscuro();
+    const categoriaAtual = localStorage.getItem('categoria') || 'todas';
+
+    // Configura a navegação
+    const links = document.querySelectorAll('nav a');
+    links.forEach(link => {
+        // Remove listeners antigos para evitar duplicação
+        const novoLink = link.cloneNode(true);
+        link.parentNode.replaceChild(novoLink, link);
+
+        // Pega o texto da categoria do span dentro do link
+        const categoria = novoLink.querySelector('span').textContent.toLowerCase();
+        
+        // Marca o link ativo se for a categoria atual
+        if (categoria === categoriaAtual) {
+            novoLink.classList.add('active');
+        }
+
+        // Adiciona o evento de clique
+        novoLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('Clicou em:', categoria); // Debug
+
+            // Remove active de todos os links
+            links.forEach(l => l.classList.remove('active'));
+            
+            // Adiciona active ao link clicado
+            novoLink.classList.add('active');
+            
+            // Salva a categoria
+            localStorage.setItem('categoria', categoria);
+            
+            // Filtra as notícias
+            filtrarPorCategoria(categoria);
+        });
+    });
+
+    // Carrega as notícias iniciais
+    filtrarPorCategoria(categoriaAtual);
 });
 
-function configurarModoEscuro() {
-    const toggle = document.getElementById('darkModeToggle');
-    const icon = toggle.querySelector('i');
-    
-    const isDark = document.documentElement.classList.contains('dark-mode');
-    icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
-    
-    toggle.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark-mode');
-        const isDark = document.documentElement.classList.contains('dark-mode');
-        localStorage.setItem('darkMode', isDark);
-        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+function filtrarPorCategoria(categoria) {
+    console.log('Filtrando por categoria:', categoria); // Debug
+
+    if (!window.noticias || !Array.isArray(window.noticias)) {
+        console.error('Erro: noticias não está definido ou não é um array');
+        return;
+    }
+
+    const noticiasFiltradas = noticias.filter(noticia => {
+        if (categoria === 'todas') {
+            return true;
+        }
+
+        const categoriaNoticia = determinarCategoria(noticia);
+        console.log('Notícia:', noticia.titulo, '| Categoria:', categoriaNoticia); // Debug
+        return categoriaNoticia === categoria;
     });
+
+    console.log('Total de notícias filtradas:', noticiasFiltradas.length); // Debug
+    renderizarNoticias(noticiasFiltradas);
 }
 
-function mostrarLoadingSkeleton() {
+function determinarCategoria(noticia) {
+    const texto = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
+    
+    // Palavras-chave para cada categoria
+    const palavrasConsoles = [
+        'xbox', 'playstation', 'ps5', 'ps4', 'nintendo', 'switch', 'console',
+        'controle', 'dualsense', 'portable', 'portátil', 'steam deck'
+    ];
+    
+    const palavrasEsports = [
+        'esport', 'e-sport', 'campeonato', 'torneio', 'competição', 'competicao',
+        'time', 'equipe', 'league of legends', 'cs:go', 'valorant'
+    ];
+    
+    // Verifica cada categoria
+    if (palavrasConsoles.some(palavra => texto.includes(palavra))) {
+        return 'consoles';
+    }
+    
+    if (palavrasEsports.some(palavra => texto.includes(palavra))) {
+        return 'esports';
+    }
+    
+    return 'jogos';
+}
+
+function renderizarNoticias(noticiasFiltradas) {
     const container = document.getElementById('noticias');
-    const skeletonHTML = Array(6).fill(`
-        <div class="loading-skeleton">
-            <div class="skeleton-card">
-                <div class="skeleton-img"></div>
-                <div class="skeleton-content">
-                    <div class="skeleton-badge"></div>
-                    <div class="skeleton-title"></div>
-                    <div class="skeleton-text"></div>
-                </div>
+    
+    if (!noticiasFiltradas || noticiasFiltradas.length === 0) {
+        container.innerHTML = `
+            <div class="sem-resultados">
+                <p>Nenhuma notícia encontrada nesta categoria.</p>
             </div>
-        </div>
-    `).join('');
-    
-    container.innerHTML = skeletonHTML;
-}
-
-function renderizarNoticias(noticiasFiltradas = null) {
-    const container = document.getElementById('noticias');
-    const noticiasParaMostrar = noticiasFiltradas || noticias;
-    
-    if (noticiasParaMostrar.length === 0) {
-        container.innerHTML = '<p class="sem-resultados">Nenhuma notícia encontrada com os filtros selecionados.</p>';
+        `;
         return;
     }
     
-    container.innerHTML = noticiasParaMostrar.map(noticia => `
+    container.innerHTML = noticiasFiltradas.map(noticia => `
         <article>
             <div class="article-img">
                 <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
-                     onerror="this.onerror=null; this.src='images/fallback.html';">
+                     onerror="this.onerror=null; this.src='images/fallback.png';">
             </div>
             <div class="article-content">
-                <span class="fonte-badge">${noticia.fonte}</span>
+                <div class="article-header">
+                    <span class="fonte-badge">${noticia.fonte}</span>
+                    <span class="categoria-badge">
+                        <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 
+                                         determinarCategoria(noticia) === 'esports' ? 'trophy' : 'gamepad'}"></i>
+                        ${determinarCategoria(noticia)}
+                    </span>
+                </div>
                 <h2>${noticia.titulo}</h2>
                 <p>${noticia.descricao}</p>
                 <a href="${noticia.link}" target="_blank" class="ler-mais">
@@ -74,75 +137,26 @@ function renderizarNoticias(noticiasFiltradas = null) {
         </article>
     `).join('');
 
-    // Adiciona animação de fade-in aos cards
+    // Adiciona animação de fade-in
     document.querySelectorAll('article').forEach((article, index) => {
         article.style.opacity = '0';
         article.style.animation = `fadeIn 0.3s ease forwards ${index * 0.1}s`;
     });
 }
 
-function configurarFiltros() {
-    const fontes = [...new Set(noticias.map(n => n.fonte))];
-    const container = document.querySelector('.filtro-fontes');
+function configurarModoEscuro() {
+    const toggle = document.getElementById('darkModeToggle');
+    const icon = toggle.querySelector('i');
     
-    container.innerHTML = fontes.map(fonte => `
-        <div class="filtro-item">
-            <label>
-                <input type="checkbox" value="${fonte}" checked>
-                <i class="far fa-${fonte === 'PC Gamer' ? 'keyboard' : 
-                                  fonte === 'IGN Brasil' ? 'newspaper' : 
-                                  fonte === 'TecMundo' ? 'microchip' : 
-                                  'globe'}" style="margin-right: 8px;"></i>
-                ${fonte}
-            </label>
-        </div>
-    `).join('');
+    // Verifica se o modo escuro está ativo
+    const isDark = document.documentElement.classList.contains('dark-mode');
+    icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
     
-    document.querySelectorAll('.filtro-item input').forEach(checkbox => {
-        checkbox.addEventListener('change', aplicarFiltros);
+    // Adiciona evento de clique
+    toggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark-mode');
+        const isDark = document.documentElement.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDark);
+        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
     });
-}
-
-function configurarBusca() {
-    const busca = document.getElementById('busca');
-    const botaoBusca = document.getElementById('botaoBusca');
-    
-    let timeoutId;
-    
-    busca.addEventListener('input', () => {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(aplicarFiltros, 300);
-    });
-    
-    botaoBusca.addEventListener('click', aplicarFiltros);
-    
-    busca.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            aplicarFiltros();
-        }
-    });
-}
-
-function aplicarFiltros() {
-    const fontesSelecionadas = Array.from(
-        document.querySelectorAll('.filtro-item input:checked')
-    ).map(checkbox => checkbox.value);
-    
-    const termoBusca = document.getElementById('busca').value.toLowerCase();
-    
-    const noticiasFiltradas = noticias.filter(noticia => {
-        const matchFonte = fontesSelecionadas.includes(noticia.fonte);
-        const matchBusca = !termoBusca || 
-            noticia.titulo.toLowerCase().includes(termoBusca) || 
-            noticia.descricao.toLowerCase().includes(termoBusca);
-        
-        return matchFonte && matchBusca;
-    });
-    
-    renderizarNoticias(noticiasFiltradas);
-}
-
-function mostrarErro(mensagem) {
-    const container = document.getElementById('noticias');
-    container.innerHTML = `<p class="erro">${mensagem}</p>`;
 }
