@@ -121,9 +121,76 @@ main {
 
 /* Layout específico para jogos */
 main.games-layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 350px;
     gap: 20px;
     padding: 20px;
+    max-width: 1400px;
+}
+
+.game-area {
+    width: 100%;
+    position: relative;
+}
+
+.game-frame {
+    background: var(--card-background);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    margin-bottom: 1rem;
+}
+
+.game-frame h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.game-frame iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.save-progress-button {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+}
+
+.save-progress-button:hover {
+    opacity: 0.9;
+}
+
+.more-games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.more-games a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.more-games a:hover {
+    text-decoration: underline;
 }
 
 .game-section {
@@ -154,28 +221,6 @@ main.games-layout {
     flex: 0 0 auto;
     width: 100%;
     min-height: auto;
-}
-
-.game-area {
-    position: sticky;
-    top: 1rem;
-}
-
-.game-frame {
-    background: var(--card-background);
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 2px 4px var(--shadow-color);
-}
-
-/* Ensure articles in sidebar don't get too compressed */
-.news-sidebar article .article-content {
-    padding: 1rem;
-    min-height: auto;
-}
-
-.news-sidebar article .article-img {
-    height: 150px;
 }
 
 .news-sidebar {
@@ -221,19 +266,13 @@ main.games-layout {
     main.games-layout {
         grid-template-columns: 1fr;
     }
-
-    .game-area {
-        height: 60vh;
-    }
-
-    .news-sidebar {
-        width: 100%;
-        max-height: none;
-        overflow-y: visible;
+    
+    .game-frame iframe {
+        height: 400px;
     }
     
-    .news-sidebar article {
-        min-width: 100%;
+    .news-sidebar {
+        width: 100%;
     }
 }
 
