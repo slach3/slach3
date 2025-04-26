@@ -50,10 +50,21 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
         
-        .console-card img {
+        .console-card .console-image-container {
+            position: relative;
             width: 100%;
-            height: 160px;
+            padding-top: 56.25%; /* Proporção 16:9 para todas as imagens */
+            overflow: hidden;
+        }
+        
+        .console-card .console-image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
+            object-position: center; /* Centraliza a imagem */
         }
         
         .console-info {
@@ -98,6 +109,56 @@
             background-color: var(--primary-color);
             color: white;
         }
+        
+        /* Estilos melhorados para corrigir proporções de imagens */
+        .imagem-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* Proporção 16:9 para todas as imagens */
+            overflow: hidden;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .imagem-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center; /* Centraliza a imagem */
+        }
+        
+        .noticia-card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 5px var(--shadow-color);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .noticia-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px var(--shadow-color);
+        }
+        
+        .noticia-card .noticia-info {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .noticias-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
     </style>
 </head>
 <body>
@@ -131,337 +192,174 @@
                 <button class="filter-button" data-filter="nintendo">Nintendo</button>
                 <button class="filter-button" data-filter="playstation">PlayStation</button>
                 <button class="filter-button" data-filter="xbox">Xbox</button>
-                <button class="filter-button" data-filter="outros">Outros</button>
             </div>
             
-            <div id="noticias-consoles" class="noticias-consoles">
-                <!-- Notícias de consoles serão inseridas via JavaScript -->
-                <div class="skeleton-loading">
-                    <div class="skeleton-card">
-                        <div class="skeleton-img"></div>
-                        <div class="skeleton-content">
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-text"></div>
-                            <div class="skeleton-text"></div>
-                        </div>
-                    </div>
-                    <div class="skeleton-card">
-                        <div class="skeleton-img"></div>
-                        <div class="skeleton-content">
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-text"></div>
-                            <div class="skeleton-text"></div>
-                        </div>
-                    </div>
+            <div id="noticias-container">
+                <div class="loading">
+                    <p>Carregando notícias...</p>
                 </div>
             </div>
         </div>
     </main>
-
+    
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 GameNews</p>
-            <button id="install-app" style="display: none;">Instalar App</button>
-        </div>
+        <p>&copy; 2025 GameNews - Sua Fonte de Notícias de Jogos</p>
     </footer>
-
-    <!-- Scripts -->
+    
     <script src="noticias.js"></script>
-    <script src="script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Função para carregar apenas notícias relacionadas a consoles
-            function carregarNoticiasConsoles() {
-                const container = document.getElementById('noticias-consoles');
-                
-                // Mostrar estado de carregamento
-                container.innerHTML = `
-                    <div class="skeleton-loading">
-                        <div class="skeleton-card">
-                            <div class="skeleton-img"></div>
-                            <div class="skeleton-content">
-                                <div class="skeleton-title"></div>
-                                <div class="skeleton-text"></div>
-                                <div class="skeleton-text"></div>
-                            </div>
-                        </div>
-                        <div class="skeleton-card">
-                            <div class="skeleton-img"></div>
-                            <div class="skeleton-content">
-                                <div class="skeleton-title"></div>
-                                <div class="skeleton-text"></div>
-                                <div class="skeleton-text"></div>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                
-                // Verificar se as notícias estão disponíveis
-                if (typeof noticias === 'undefined' || !noticias) {
-                    console.error('Notícias não disponíveis');
-                    exibirMensagemErro(container, 'Não foi possível carregar as notícias. Por favor, recarregue a página.');
-                    return;
-                }
-                
-                const noticiasConsoles = filtrarNoticiasConsoles(noticias);
-                
-                // Limpar o container e remover o loading
-                container.innerHTML = '';
-                
-                if (noticiasConsoles.length === 0) {
-                    const mensagem = document.createElement('div');
-                    mensagem.className = 'mensagem-vazia';
-                    mensagem.textContent = 'Nenhuma notícia sobre consoles encontrada.';
-                    container.appendChild(mensagem);
-                    return;
-                }
-                
-                // Criar a grade de notícias
-                const grid = document.createElement('div');
-                grid.className = 'noticias-grid';
-                container.appendChild(grid);
-                
-                // Adicionar as notícias
-                noticiasConsoles.forEach(noticia => {
-                    const card = criarCardNoticia(noticia);
-                    grid.appendChild(card);
-                });
-            }
-            
-            // Função para exibir mensagem de erro
-            function exibirMensagemErro(container, mensagem) {
-                container.innerHTML = `
-                    <div class="erro">
-                        <p>${mensagem}</p>
-                        <button onclick="window.location.reload()">Recarregar</button>
-                    </div>
-                `;
-            }
-            
-            // Cache para resultados filtrados
-            const cacheResultados = {};
-            
-            // Função para filtrar notícias relacionadas a consoles
-            function filtrarNoticiasConsoles(todasNoticias, filtro = 'todos') {
-                // Verificar se já temos os resultados em cache
-                const cacheKey = `${filtro}_${JSON.stringify(todasNoticias).length}`;
-                if (cacheResultados[cacheKey]) {
-                    console.log(`Usando resultados em cache para filtro: ${filtro}`);
-                    return cacheResultados[cacheKey];
-                }
-                
-                // Palavras-chave expandidas para identificar notícias sobre consoles
-                const keywords = {
-                    todos: ['console', 'consoles', 'nintendo', 'switch', 'playstation', 'ps5', 'ps4', 'ps3', 'xbox', 
-                           'series x', 'series s', 'one', 'steam deck', 'oculus', 'meta quest', 'vr', 'portal', 
-                           'handheld', 'portable', 'portátil', 'dispositivo', 'hardware'],
-                    nintendo: ['nintendo', 'switch', 'switch 2', 'switch oled', 'switch lite', 'wii', 'wiiu', '3ds', 
-                              'mario', 'zelda', 'pokémon', 'pokemon', 'animal crossing', 'splatoon', 'kirby', 
-                              'metroid', 'joy-con', 'joycon', 'miyamoto', 'amiibo', 'nintendo direct'],
-                    playstation: ['playstation', 'ps5', 'ps5 pro', 'ps5 slim', 'ps4', 'ps4 pro', 'ps3', 'psp', 'ps vita', 
-                                 'sony', 'psvr', 'psvr2', 'dualsense', 'dualshock', 'horizon', 'god of war', 
-                                 'gran turismo', 'ghost of tsushima', 'playstation plus', 'playstation portal', 'state of play'],
-                    xbox: ['xbox', 'series x', 'series s', 'one x', 'one s', 'microsoft', 'game pass', 'halo', 
-                          'forza', 'gears', 'fable', 'starfield', 'gamepass', 'xcloud', 'cloud gaming', 'phil spencer', 'xbox showcase'],
-                    outros: ['steam deck', 'rog ally', 'legion go', 'ayaneo', 'oculus', 'meta quest', 'pico', 'vr', 
-                            'realidade virtual', 'handheld', 'portable', 'portátil', 'cloud gaming', 'streaming de jogos']
-                };
-                
+            // Função para carregar notícias
+            async function carregarNoticias() {
                 try {
-                    // Validação de entrada
-                    if (!Array.isArray(todasNoticias)) {
-                        console.error('Erro: O parâmetro todasNoticias não é um array válido', todasNoticias);
-                        return [];
-                    }
+                    const response = await fetch('noticias.json');
+                    const data = await response.json();
                     
-                    const resultados = todasNoticias.filter(noticia => {
-                        // Verificar se a notícia é válida e tem um título
-                        if (!noticia || !noticia.titulo) {
-                            console.warn('Notícia inválida encontrada:', noticia);
-                            return false;
-                        }
-                        
-                        // Converter o conteúdo da notícia para minúsculas para comparação
-                        const titulo = (noticia.titulo || '').toLowerCase();
-                        const descricao = (noticia.descricao || '').toLowerCase();
-                        const conteudoNoticia = `${titulo} ${descricao}`;
-                        
-                        // Para o filtro "todos", verificar qualquer palavra-chave de console
-                        if (filtro === 'todos') {
-                            // Verificar todas as categorias de palavras-chave
-                            return Object.values(keywords).some(categoryKeywords => 
-                                categoryKeywords.some(keyword => {
-                                    // Verificar palavras exatas ou como parte de outras palavras
-                                    const regex = new RegExp(`(\\b${keyword}\\b|${keyword})`, 'i');
-                                    return regex.test(conteudoNoticia);
-                                })
-                            );
-                        }
-                        
-                        // Para filtros específicos, verificar apenas as palavras-chave da categoria
-                        if (!keywords[filtro]) {
-                            console.error(`Filtro inválido: ${filtro}`);
-                            return false;
-                        }
-                        
-                        return keywords[filtro].some(keyword => {
-                            // Verificar palavras exatas ou como parte de outras palavras
-                            const regex = new RegExp(`(\\b${keyword}\\b|${keyword})`, 'i');
-                            return regex.test(conteudoNoticia);
+                    // Filtra apenas notícias relacionadas a consoles
+                    const noticiasConsoles = data.filter(noticia => 
+                        noticia.categorias && 
+                        (noticia.categorias.includes('console') ||
+                         noticia.categorias.includes('nintendo') ||
+                         noticia.categorias.includes('playstation') ||
+                         noticia.categorias.includes('xbox'))
+                    );
+                    
+                    exibirNoticias(noticiasConsoles);
+                    
+                    // Configurar filtros
+                    document.querySelectorAll('.filter-button').forEach(button => {
+                        button.addEventListener('click', () => {
+                            // Remove classe ativa de todos os botões
+                            document.querySelectorAll('.filter-button').forEach(btn => {
+                                btn.classList.remove('active');
+                            });
+                            
+                            // Adiciona classe ativa ao botão clicado
+                            button.classList.add('active');
+                            
+                            const filtro = button.getAttribute('data-filter');
+                            
+                            if (filtro === 'todos') {
+                                exibirNoticias(noticiasConsoles);
+                            } else {
+                                const noticiasFiltradas = noticiasConsoles.filter(noticia => 
+                                    noticia.categorias && noticia.categorias.includes(filtro)
+                                );
+                                exibirNoticias(noticiasFiltradas);
+                            }
                         });
                     });
                     
-                    // Armazenar em cache para uso futuro
-                    cacheResultados[cacheKey] = resultados;
-                    
-                    return resultados;
                 } catch (error) {
-                    console.error('Erro ao filtrar notícias de consoles:', error);
-                    return [];
+                    console.error('Erro ao carregar notícias:', error);
+                    document.getElementById('noticias-container').innerHTML = `
+                        <div class="erro">
+                            <p>Ops! Ocorreu um erro ao carregar as notícias.</p>
+                            <button onclick="location.reload()">Tentar novamente</button>
+                        </div>
+                    `;
                 }
             }
             
-            // Função para criar um card de notícia
-            function criarCardNoticia(noticia) {
-                const card = document.createElement('div');
-                card.className = 'noticia-card';
+            // Função para exibir notícias na grade
+            function exibirNoticias(noticias) {
+                const container = document.getElementById('noticias-container');
                 
-                // Formatação da data
-                let dataFormatada = '';
-                if (noticia.timestamp) {
-                    const data = new Date(noticia.timestamp);
-                    dataFormatada = data.toLocaleDateString('pt-BR', {
-                        day: '2-digit',
-                        month: '2-digit',
-                        year: 'numeric'
-                    });
-                } else if (noticia.data) {
-                    const data = new Date(noticia.data);
-                    dataFormatada = data.toLocaleDateString('pt-BR', {
-                        day: '2-digit',
-                        month: '2-digit',
-                        year: 'numeric'
-                    });
+                if (noticias.length === 0) {
+                    container.innerHTML = `
+                        <div class="erro">
+                            <p>Nenhuma notícia encontrada para esta categoria.</p>
+                        </div>
+                    `;
+                    return;
                 }
                 
-                card.innerHTML = `
-                    <div class="imagem-container">
-                        <img src="${noticia.imagem || 'images/fallback.png'}" 
-                             alt="${noticia.titulo}" 
-                             onerror="this.src='images/fallback.png'">
-                    </div>
-                    <div class="noticia-info">
-                        <h3>${noticia.titulo}</h3>
-                        <p>${noticia.descricao}</p>
-                        <div class="noticia-meta">
-                            <span class="fonte">${noticia.fonte}</span>
-                            ${dataFormatada ? `<span class="data">${dataFormatada}</span>` : ''}
-                        </div>
-                        <a href="${noticia.link}" class="ler-mais" target="_blank" rel="noopener">Ler mais</a>
+                // Ordena notícias por data (mais recentes primeiro)
+                noticias.sort((a, b) => new Date(b.data) - new Date(a.data));
+                
+                // Cria o HTML
+                const html = `
+                    <div class="consoles-grid">
+                        ${noticias.map(noticia => `
+                            <div class="console-card" data-categorias="${noticia.categorias ? noticia.categorias.join(',') : ''}">
+                                <a href="${noticia.link}" target="_blank" rel="noopener noreferrer">
+                                    <div class="console-image-container">
+                                        <img src="${noticia.imagem || 'images/fallback.png'}" alt="${noticia.titulo}" onerror="this.src='images/fallback.png'">
+                                    </div>
+                                    <div class="console-info">
+                                        <h3>${noticia.titulo}</h3>
+                                        <p>${noticia.descricao || ''}</p>
+                                        <div class="timestamp">${formatarData(noticia.data)}</div>
+                                    </div>
+                                </a>
+                            </div>
+                        `).join('')}
                     </div>
                 `;
                 
-                // Fazer com que o card inteiro seja clicável
-                card.addEventListener('click', (e) => {
-                    // Ignorar se o clique foi no botão "ler mais"
-                    if (e.target.classList.contains('ler-mais')) return;
-                    
-                    window.open(noticia.link, '_blank', 'noopener');
-                });
-                
-                return card;
+                container.innerHTML = html;
             }
             
-            // Configurar botões de filtro
-            const botoesFiltro = document.querySelectorAll('.filter-button');
-            botoesFiltro.forEach(botao => {
-                // Adicionar atributos de acessibilidade
-                botao.setAttribute('role', 'button');
-                botao.setAttribute('aria-pressed', botao.classList.contains('active') ? 'true' : 'false');
+            // Função para formatar data
+            function formatarData(dataString) {
+                if (!dataString) return '';
                 
-                botao.addEventListener('click', function() {
-                    // Mostrar estado de carregamento
-                    const container = document.getElementById('noticias-consoles');
-                    container.innerHTML = `
-                        <div class="skeleton-loading">
-                            <div class="skeleton-card">
-                                <div class="skeleton-img"></div>
-                                <div class="skeleton-content">
-                                    <div class="skeleton-title"></div>
-                                    <div class="skeleton-text"></div>
-                                    <div class="skeleton-text"></div>
-                                </div>
-                            </div>
-                            <div class="skeleton-card">
-                                <div class="skeleton-img"></div>
-                                <div class="skeleton-content">
-                                    <div class="skeleton-title"></div>
-                                    <div class="skeleton-text"></div>
-                                    <div class="skeleton-text"></div>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                    
-                    // Remover classe ativa de todos os botões
-                    botoesFiltro.forEach(b => {
-                        b.classList.remove('active');
-                        b.setAttribute('aria-pressed', 'false');
+                const data = new Date(dataString);
+                if (isNaN(data.getTime())) return '';
+                
+                const hoje = new Date();
+                const ontem = new Date(hoje);
+                ontem.setDate(ontem.getDate() - 1);
+                
+                if (data.toDateString() === hoje.toDateString()) {
+                    return `Hoje, ${data.toLocaleTimeString('pt-BR', {hour: '2-digit', minute: '2-digit'})}`;
+                } else if (data.toDateString() === ontem.toDateString()) {
+                    return `Ontem, ${data.toLocaleTimeString('pt-BR', {hour: '2-digit', minute: '2-digit'})}`;
+                } else {
+                    return data.toLocaleDateString('pt-BR', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
                     });
-                    
-                    // Adicionar classe ativa ao botão clicado
-                    this.classList.add('active');
-                    this.setAttribute('aria-pressed', 'true');
-                    
-                    // Filtrar notícias com base no filtro selecionado
-                    const filtro = this.getAttribute('data-filter');
-                    
-                    // Usar setTimeout para permitir que a interface seja atualizada antes
-                    // de realizar a filtragem, que pode ser intensiva em termos de processamento
-                    setTimeout(() => {
-                        try {
-                            const noticiasFiltradas = filtrarNoticiasConsoles(noticias, filtro);
-                            
-                            // Atualizar a exibição
-                            container.innerHTML = '';
-                            
-                            if (noticiasFiltradas.length === 0) {
-                                const mensagem = document.createElement('div');
-                                mensagem.className = 'mensagem-vazia';
-                                mensagem.textContent = `Nenhuma notícia sobre ${filtro} encontrada.`;
-                                container.appendChild(mensagem);
-                                return;
-                            }
-                            
-                            // Criar a grade de notícias
-                            const grid = document.createElement('div');
-                            grid.className = 'noticias-grid';
-                            container.appendChild(grid);
-                            
-                            // Adicionar as notícias
-                            noticiasFiltradas.forEach(noticia => {
-                                const card = criarCardNoticia(noticia);
-                                grid.appendChild(card);
-                            });
-                        } catch (error) {
-                            console.error('Erro ao filtrar notícias:', error);
-                            exibirMensagemErro(container, 'Ocorreu um erro ao filtrar as notícias. Por favor, tente novamente.');
-                        }
-                    }, 100);
-                });
+                }
+            }
+            
+            // Lidar com o botão de modo escuro
+            document.getElementById('darkModeToggle').addEventListener('click', function() {
+                document.documentElement.classList.toggle('dark-mode');
                 
-                // Adicionar suporte para teclado
-                botao.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        this.click();
-                    }
-                });
+                const isDarkMode = document.documentElement.classList.contains('dark-mode');
+                localStorage.setItem('darkMode', isDarkMode);
+                
+                // Atualiza o ícone
+                const icon = this.querySelector('i');
+                if (isDarkMode) {
+                    icon.className = 'fas fa-sun';
+                } else {
+                    icon.className = 'fas fa-moon';
+                }
             });
             
-            // Carregar notícias de consoles quando a página carregar
-            carregarNoticiasConsoles();
+            // Configura o ícone correto ao carregar a página
+            const isDarkMode = document.documentElement.classList.contains('dark-mode');
+            if (isDarkMode) {
+                document.getElementById('darkModeToggle').querySelector('i').className = 'fas fa-sun';
+            }
+            
+            // Inicializa o carregamento de notícias
+            carregarNoticias();
         });
+        
+        // Registrar o Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker registrado!'))
+                    .catch(err => console.log('Erro ao registrar Service Worker:', err));
+            });
+        }
     </script>
 </body>
 </html>
