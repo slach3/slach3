@@ -131,5 +131,75 @@ const noticias = [
     "link": "https://br.ign.com/espaco/139371/news/a-uma-velocidade-de-62000-kmh-asteroide-esta-se-dirigindo-a-terra-e-ameaca-atingi-la-em-apenas-7-ano",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/javier-miranda-syrnx7slhck-unsplash_9aaa.280.jpg",
     "fonte": "IGN Brasil"
+  },
+  {
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Jogos em mídia física para PS5 e Switch em promoção na Amazon; aproveite!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501243-jogos-em-midia-fisica-para-ps5-e-switch-em-promocao-na-amazon-aproveite.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/02/11/11124530619330.jpg?ims=96x88",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Quanto custa um PC para rodar The Elder Scrolls IV: Oblivion Remastered?",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501229-quanto-custa-um-pc-para-rodar-the-elder-scrolls-iv-oblivion-remastered.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/23/23164307990101.jpg?ims=96x88",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "Steam: ofertas de games para PC com até 90% OFF; confira!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501254-steam-ofertas-de-games-para-pc-com-ate-90-off-confira.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/25/25182218091005.jpg?ims=96x88",
+    "fonte": "Voxel"
+  },
+  {
+    "titulo": "6 jogos grátis para curtir no PC, consoles e celulares no fim de semana",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501255-6-jogos-gratis-para-curtir-no-pc-consoles-e-celulares-no-fim-de-semana.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/25/25185624746046.jpg?ims=96x88",
+    "fonte": "Voxel"
   }
 ];
