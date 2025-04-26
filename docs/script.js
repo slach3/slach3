@@ -111,14 +111,7 @@ function isWithinLastDays(timestamp, days) {
 function renderizarNoticias(noticiasFiltradas) {
     const container = document.getElementById('noticias');
     
-    // Filtra notícias mais recentes que 7 dias
-    const noticiasRecentes = noticiasFiltradas.filter(noticia => {
-        // Se a notícia não tem timestamp, assume que é recente
-        if (!noticia.timestamp) return true;
-        return isWithinLastDays(noticia.timestamp, 7);
-    });
-    
-    if (!noticiasRecentes || noticiasRecentes.length === 0) {
+    if (!noticiasFiltradas || noticiasFiltradas.length === 0) {
         container.innerHTML = `
             <div class="sem-resultados">
                 <p>Nenhuma notícia encontrada nesta categoria.</p>
@@ -127,7 +120,7 @@ function renderizarNoticias(noticiasFiltradas) {
         return;
     }
     
-    container.innerHTML = noticiasRecentes.map(noticia => `
+    container.innerHTML = noticiasFiltradas.map(noticia => `
         <article>
             <div class="article-img">
                 <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
@@ -137,8 +130,7 @@ function renderizarNoticias(noticiasFiltradas) {
                 <div class="article-header">
                     <span class="fonte-badge">${noticia.fonte}</span>
                     <span class="categoria-badge">
-                        <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 
-                                         determinarCategoria(noticia) === 'esports' ? 'trophy' : 'gamepad'}"></i>
+                        <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
                         ${determinarCategoria(noticia)}
                     </span>
                 </div>
