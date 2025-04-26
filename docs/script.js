@@ -63,6 +63,7 @@ function mostrarErro() {
 
 function filtrarPorCategoria(categoria) {
     const container = document.getElementById('noticias');
+    const main = document.querySelector('main');
     
     // Mostra loading
     container.innerHTML = `
@@ -70,6 +71,13 @@ function filtrarPorCategoria(categoria) {
             <p>Carregando notícias...</p>
         </div>
     `;
+
+    // Ajusta o layout baseado na categoria
+    if (categoria === 'jogos') {
+        main.classList.add('games-layout');
+    } else {
+        main.classList.remove('games-layout');
+    }
 
     // Filtra as notícias
     const noticiasFiltradas = noticias.filter(noticia => {
@@ -79,7 +87,7 @@ function filtrarPorCategoria(categoria) {
 
     // Renderiza as notícias filtradas
     setTimeout(() => {
-        renderizarNoticias(noticiasFiltradas);
+        renderizarNoticias(noticiasFiltradas, categoria);
     }, 100);
 }
 
@@ -108,7 +116,7 @@ function isWithinLastDays(timestamp, days) {
     return diffDays <= days;
 }
 
-function renderizarNoticias(noticiasFiltradas) {
+function renderizarNoticias(noticiasFiltradas, categoria) {
     const container = document.getElementById('noticias');
     
     if (!noticiasFiltradas || noticiasFiltradas.length === 0) {
@@ -119,30 +127,72 @@ function renderizarNoticias(noticiasFiltradas) {
         `;
         return;
     }
-    
-    container.innerHTML = noticiasFiltradas.map(noticia => `
-        <article>
-            <div class="article-img">
-                <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
-                     onerror="this.onerror=null; this.src='images/fallback.png';">
-            </div>
-            <div class="article-content">
-                <div class="article-header">
-                    <span class="fonte-badge">${noticia.fonte}</span>
-                    <span class="categoria-badge">
-                        <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
-                        ${determinarCategoria(noticia)}
-                    </span>
+
+    // Se for a categoria jogos, adiciona a área do jogo
+    if (categoria === 'jogos') {
+        container.innerHTML = `
+            <div class="games-container">
+                <div class="game-area">
+                    <h2>Planetary Terraformer</h2>
+                    <div class="game-frame">
+                        <iframe src="https://www.crazygames.com.br/embed/planetary-terraformer" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+                    </div>
                 </div>
-                <h2>${noticia.titulo}</h2>
-                <p>${noticia.descricao}</p>
-                <a href="${noticia.link}" target="_blank" class="ler-mais">
-                    Ler mais 
-                    <i class="fas fa-arrow-right"></i>
-                </a>
             </div>
-        </article>
-    `).join('');
+            <aside class="news-sidebar">
+                ${noticiasFiltradas.map(noticia => `
+                    <article>
+                        <div class="article-img">
+                            <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
+                                 onerror="this.onerror=null; this.src='images/fallback.png';">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-header">
+                                <span class="fonte-badge">${noticia.fonte}</span>
+                                <span class="categoria-badge">
+                                    <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
+                                    ${determinarCategoria(noticia)}
+                                </span>
+                            </div>
+                            <h2>${noticia.titulo}</h2>
+                            <p>${noticia.descricao}</p>
+                            <a href="${noticia.link}" target="_blank" class="ler-mais">
+                                Ler mais 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                `).join('')}
+            </aside>`;
+    } else {
+        // Layout padrão para outras categorias
+        container.innerHTML = `
+            <div class="noticias-grid">
+                ${noticiasFiltradas.map(noticia => `
+                    <article>
+                        <div class="article-img">
+                            <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
+                                 onerror="this.onerror=null; this.src='images/fallback.png';">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-header">
+                                <span class="fonte-badge">${noticia.fonte}</span>
+                                <span class="categoria-badge">
+                                    <i class="fas fa-${determinarCategoria(noticia) === 'consoles' ? 'tv' : 'gamepad'}"></i>
+                                    ${determinarCategoria(noticia)}
+                                </span>
+                            </div>
+                            <h2>${noticia.titulo}</h2>
+                            <p>${noticia.descricao}</p>
+                            <a href="${noticia.link}" target="_blank" class="ler-mais">
+                                Ler mais 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                `).join('')}
+            </div>`;
+    }
 
     // Adiciona animação de fade-in
     document.querySelectorAll('article').forEach((article, index) => {

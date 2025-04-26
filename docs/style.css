@@ -112,7 +112,15 @@ nav a.active:hover {
     transform: translateY(-1px);
 }
 
+/* Layout padrão */
 main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Layout específico para jogos */
+main.games-layout {
     max-width: 1400px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -156,14 +164,25 @@ main {
     gap: 1rem;
 }
 
-.noticias-lista {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
 }
 
-.noticias-lista article {
-    margin-bottom: 1rem;
+/* Responsividade */
+@media (max-width: 1024px) {
+    main.games-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .game-area {
+        height: 60vh;
+    }
+
+    .news-sidebar {
+        order: 2;
+    }
 }
 
 .filtros-container {
@@ -181,12 +200,6 @@ main {
     letter-spacing: 0.05em;
     color: #999;
     margin-bottom: 1rem;
-}
-
-.noticias-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
 }
 
 article {
