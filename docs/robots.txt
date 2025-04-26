@@ -1,7 +1,15 @@
 User-agent: *
 Allow: /
+Disallow: /images/fallback.html
+
+# Permitir indexação de todas as páginas importantes
+Allow: /index.html
+Allow: /jogos.html
+Allow: /consoles.html
+Allow: /noticias.json
+
+# Arquivo Sitemap
 Sitemap: https://slach3.github.io/slach3/sitemap.xml
 
-Disallow: /backups/
-Disallow: /cache/
-Disallow: /github_upload/
+# Crawl-delay para melhor gerenciamento do tráfego de rastreamento
+Crawl-delay: 1
