@@ -173,6 +173,36 @@
             // Função para carregar apenas notícias relacionadas a consoles
             function carregarNoticiasConsoles() {
                 const container = document.getElementById('noticias-consoles');
+                
+                // Mostrar estado de carregamento
+                container.innerHTML = `
+                    <div class="skeleton-loading">
+                        <div class="skeleton-card">
+                            <div class="skeleton-img"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-title"></div>
+                                <div class="skeleton-text"></div>
+                                <div class="skeleton-text"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-img"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-title"></div>
+                                <div class="skeleton-text"></div>
+                                <div class="skeleton-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Verificar se as notícias estão disponíveis
+                if (typeof noticias === 'undefined' || !noticias) {
+                    console.error('Notícias não disponíveis');
+                    exibirMensagemErro(container, 'Não foi possível carregar as notícias. Por favor, recarregue a página.');
+                    return;
+                }
+                
                 const noticiasConsoles = filtrarNoticiasConsoles(noticias);
                 
                 // Limpar o container e remover o loading
@@ -198,25 +228,97 @@
                 });
             }
             
+            // Função para exibir mensagem de erro
+            function exibirMensagemErro(container, mensagem) {
+                container.innerHTML = `
+                    <div class="erro">
+                        <p>${mensagem}</p>
+                        <button onclick="window.location.reload()">Recarregar</button>
+                    </div>
+                `;
+            }
+            
+            // Cache para resultados filtrados
+            const cacheResultados = {};
+            
             // Função para filtrar notícias relacionadas a consoles
             function filtrarNoticiasConsoles(todasNoticias, filtro = 'todos') {
-                // Palavras-chave para identificar notícias sobre consoles
+                // Verificar se já temos os resultados em cache
+                const cacheKey = `${filtro}_${JSON.stringify(todasNoticias).length}`;
+                if (cacheResultados[cacheKey]) {
+                    console.log(`Usando resultados em cache para filtro: ${filtro}`);
+                    return cacheResultados[cacheKey];
+                }
+                
+                // Palavras-chave expandidas para identificar notícias sobre consoles
                 const keywords = {
-                    todos: ['console', 'consoles', 'nintendo', 'switch', 'playstation', 'ps5', 'ps4', 'xbox', 'series x', 'series s'],
-                    nintendo: ['nintendo', 'switch'],
-                    playstation: ['playstation', 'ps5', 'ps4', 'sony'],
-                    xbox: ['xbox', 'series x', 'series s', 'microsoft'],
-                    outros: ['steam deck', 'oculus', 'meta quest', 'vr']
+                    todos: ['console', 'consoles', 'nintendo', 'switch', 'playstation', 'ps5', 'ps4', 'ps3', 'xbox', 
+                           'series x', 'series s', 'one', 'steam deck', 'oculus', 'meta quest', 'vr', 'portal', 
+                           'handheld', 'portable', 'portátil', 'dispositivo', 'hardware'],
+                    nintendo: ['nintendo', 'switch', 'switch 2', 'switch oled', 'switch lite', 'wii', 'wiiu', '3ds', 
+                              'mario', 'zelda', 'pokémon', 'pokemon', 'animal crossing', 'splatoon', 'kirby', 
+                              'metroid', 'joy-con', 'joycon', 'miyamoto', 'amiibo', 'nintendo direct'],
+                    playstation: ['playstation', 'ps5', 'ps5 pro', 'ps5 slim', 'ps4', 'ps4 pro', 'ps3', 'psp', 'ps vita', 
+                                 'sony', 'psvr', 'psvr2', 'dualsense', 'dualshock', 'horizon', 'god of war', 
+                                 'gran turismo', 'ghost of tsushima', 'playstation plus', 'playstation portal', 'state of play'],
+                    xbox: ['xbox', 'series x', 'series s', 'one x', 'one s', 'microsoft', 'game pass', 'halo', 
+                          'forza', 'gears', 'fable', 'starfield', 'gamepass', 'xcloud', 'cloud gaming', 'phil spencer', 'xbox showcase'],
+                    outros: ['steam deck', 'rog ally', 'legion go', 'ayaneo', 'oculus', 'meta quest', 'pico', 'vr', 
+                            'realidade virtual', 'handheld', 'portable', 'portátil', 'cloud gaming', 'streaming de jogos']
                 };
                 
-                // Filtrar por palavras-chave
-                const keywordsAtivas = keywords[filtro];
-                
-                return todasNoticias.filter(noticia => {
-                    // Verificar se a notícia contém pelo menos uma das palavras-chave no título ou descrição
-                    const conteudoNoticia = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
-                    return keywordsAtivas.some(keyword => conteudoNoticia.includes(keyword.toLowerCase()));
-                });
+                try {
+                    // Validação de entrada
+                    if (!Array.isArray(todasNoticias)) {
+                        console.error('Erro: O parâmetro todasNoticias não é um array válido', todasNoticias);
+                        return [];
+                    }
+                    
+                    const resultados = todasNoticias.filter(noticia => {
+                        // Verificar se a notícia é válida e tem um título
+                        if (!noticia || !noticia.titulo) {
+                            console.warn('Notícia inválida encontrada:', noticia);
+                            return false;
+                        }
+                        
+                        // Converter o conteúdo da notícia para minúsculas para comparação
+                        const titulo = (noticia.titulo || '').toLowerCase();
+                        const descricao = (noticia.descricao || '').toLowerCase();
+                        const conteudoNoticia = `${titulo} ${descricao}`;
+                        
+                        // Para o filtro "todos", verificar qualquer palavra-chave de console
+                        if (filtro === 'todos') {
+                            // Verificar todas as categorias de palavras-chave
+                            return Object.values(keywords).some(categoryKeywords => 
+                                categoryKeywords.some(keyword => {
+                                    // Verificar palavras exatas ou como parte de outras palavras
+                                    const regex = new RegExp(`(\\b${keyword}\\b|${keyword})`, 'i');
+                                    return regex.test(conteudoNoticia);
+                                })
+                            );
+                        }
+                        
+                        // Para filtros específicos, verificar apenas as palavras-chave da categoria
+                        if (!keywords[filtro]) {
+                            console.error(`Filtro inválido: ${filtro}`);
+                            return false;
+                        }
+                        
+                        return keywords[filtro].some(keyword => {
+                            // Verificar palavras exatas ou como parte de outras palavras
+                            const regex = new RegExp(`(\\b${keyword}\\b|${keyword})`, 'i');
+                            return regex.test(conteudoNoticia);
+                        });
+                    });
+                    
+                    // Armazenar em cache para uso futuro
+                    cacheResultados[cacheKey] = resultados;
+                    
+                    return resultados;
+                } catch (error) {
+                    console.error('Erro ao filtrar notícias de consoles:', error);
+                    return [];
+                }
             }
             
             // Função para criar um card de notícia
@@ -226,7 +328,14 @@
                 
                 // Formatação da data
                 let dataFormatada = '';
-                if (noticia.data) {
+                if (noticia.timestamp) {
+                    const data = new Date(noticia.timestamp);
+                    dataFormatada = data.toLocaleDateString('pt-BR', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric'
+                    });
+                } else if (noticia.data) {
                     const data = new Date(noticia.data);
                     dataFormatada = data.toLocaleDateString('pt-BR', {
                         day: '2-digit',
@@ -248,8 +357,17 @@
                             <span class="fonte">${noticia.fonte}</span>
                             ${dataFormatada ? `<span class="data">${dataFormatada}</span>` : ''}
                         </div>
+                        <a href="${noticia.link}" class="ler-mais" target="_blank" rel="noopener">Ler mais</a>
                     </div>
                 `;
+                
+                // Fazer com que o card inteiro seja clicável
+                card.addEventListener('click', (e) => {
+                    // Ignorar se o clique foi no botão "ler mais"
+                    if (e.target.classList.contains('ler-mais')) return;
+                    
+                    window.open(noticia.link, '_blank', 'noopener');
+                });
                 
                 return card;
             }
@@ -257,38 +375,87 @@
             // Configurar botões de filtro
             const botoesFiltro = document.querySelectorAll('.filter-button');
             botoesFiltro.forEach(botao => {
+                // Adicionar atributos de acessibilidade
+                botao.setAttribute('role', 'button');
+                botao.setAttribute('aria-pressed', botao.classList.contains('active') ? 'true' : 'false');
+                
                 botao.addEventListener('click', function() {
+                    // Mostrar estado de carregamento
+                    const container = document.getElementById('noticias-consoles');
+                    container.innerHTML = `
+                        <div class="skeleton-loading">
+                            <div class="skeleton-card">
+                                <div class="skeleton-img"></div>
+                                <div class="skeleton-content">
+                                    <div class="skeleton-title"></div>
+                                    <div class="skeleton-text"></div>
+                                    <div class="skeleton-text"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton-card">
+                                <div class="skeleton-img"></div>
+                                <div class="skeleton-content">
+                                    <div class="skeleton-title"></div>
+                                    <div class="skeleton-text"></div>
+                                    <div class="skeleton-text"></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
                     // Remover classe ativa de todos os botões
-                    botoesFiltro.forEach(b => b.classList.remove('active'));
+                    botoesFiltro.forEach(b => {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    
                     // Adicionar classe ativa ao botão clicado
                     this.classList.add('active');
+                    this.setAttribute('aria-pressed', 'true');
                     
                     // Filtrar notícias com base no filtro selecionado
                     const filtro = this.getAttribute('data-filter');
-                    const noticiasFiltradas = filtrarNoticiasConsoles(noticias, filtro);
                     
-                    // Atualizar a exibição
-                    const container = document.getElementById('noticias-consoles');
-                    container.innerHTML = '';
-                    
-                    if (noticiasFiltradas.length === 0) {
-                        const mensagem = document.createElement('div');
-                        mensagem.className = 'mensagem-vazia';
-                        mensagem.textContent = `Nenhuma notícia sobre ${filtro} encontrada.`;
-                        container.appendChild(mensagem);
-                        return;
+                    // Usar setTimeout para permitir que a interface seja atualizada antes
+                    // de realizar a filtragem, que pode ser intensiva em termos de processamento
+                    setTimeout(() => {
+                        try {
+                            const noticiasFiltradas = filtrarNoticiasConsoles(noticias, filtro);
+                            
+                            // Atualizar a exibição
+                            container.innerHTML = '';
+                            
+                            if (noticiasFiltradas.length === 0) {
+                                const mensagem = document.createElement('div');
+                                mensagem.className = 'mensagem-vazia';
+                                mensagem.textContent = `Nenhuma notícia sobre ${filtro} encontrada.`;
+                                container.appendChild(mensagem);
+                                return;
+                            }
+                            
+                            // Criar a grade de notícias
+                            const grid = document.createElement('div');
+                            grid.className = 'noticias-grid';
+                            container.appendChild(grid);
+                            
+                            // Adicionar as notícias
+                            noticiasFiltradas.forEach(noticia => {
+                                const card = criarCardNoticia(noticia);
+                                grid.appendChild(card);
+                            });
+                        } catch (error) {
+                            console.error('Erro ao filtrar notícias:', error);
+                            exibirMensagemErro(container, 'Ocorreu um erro ao filtrar as notícias. Por favor, tente novamente.');
+                        }
+                    }, 100);
+                });
+                
+                // Adicionar suporte para teclado
+                botao.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
                     }
-                    
-                    // Criar a grade de notícias
-                    const grid = document.createElement('div');
-                    grid.className = 'noticias-grid';
-                    container.appendChild(grid);
-                    
-                    // Adicionar as notícias
-                    noticiasFiltradas.forEach(noticia => {
-                        const card = criarCardNoticia(noticia);
-                        grid.appendChild(card);
-                    });
                 });
             });
             

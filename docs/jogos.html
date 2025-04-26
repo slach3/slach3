@@ -295,7 +295,7 @@
                     const fallbackLinks = document.querySelectorAll('.iframe-fallback a, .save-progress-button');
                     fallbackLinks.forEach(link => {
                         link.href = jogo.link;
-                        link.textContent = link.textContent.replace('Retro Bowl', jogo.title);
+                        link.textContent = link.textContent.replace(/Retro Bowl|Slope|Subway Surfers|Temple Run 2/gi, jogo.title);
                     });
                 }
             }
@@ -304,41 +304,99 @@
             const iframe = document.querySelector('.iframe-container iframe');
             
             if (iframe) {
-                // Tentar verificar o status de carregamento após um tempo
-                setTimeout(function() {
+                // Marcar como não carregado inicialmente
+                iframe.setAttribute('data-failed', 'false');
+                
+                // Usar o evento de load para verificar se o iframe carregou corretamente
+                iframe.addEventListener('load', function() {
+                    // O iframe carregou, mesmo que seja uma página de erro interna do navegador
                     try {
-                        if (!iframe.contentWindow || !iframe.contentWindow.document) {
-                            // Se não conseguir acessar o conteúdo do iframe (geralmente por políticas de segurança)
-                            // marque-o como falho para mostrar a mensagem de fallback
-                            iframe.setAttribute('data-failed', 'true');
+                        // Tentativa de acessar o conteúdo - irá falhar se for cross-origin
+                        const iframeContent = this.contentWindow || this.contentDocument;
+                        if (iframeContent) {
+                            console.log("Iframe carregado com sucesso");
                         }
                     } catch (e) {
-                        // Se ocorrer um erro ao tentar acessar o conteúdo, marque como falho
-                        iframe.setAttribute('data-failed', 'true');
+                        // Não é necessariamente um erro - pode ser apenas proteção cross-origin
+                        console.log("Acesso ao conteúdo do iframe bloqueado por segurança");
+                    }
+                });
+                
+                // Evento de erro para o iframe
+                iframe.addEventListener('error', function() {
+                    console.log("Erro ao carregar o iframe");
+                    showFallback(this);
+                });
+                
+                // Verificar visualmente se o iframe está vazio depois de um tempo
+                setTimeout(function() {
+                    // Se o iframe está vazio ou muito pequeno, provavelmente falhou
+                    try {
+                        const iframeRect = iframe.getBoundingClientRect();
+                        if (iframeRect.height < 50 || iframe.clientHeight < 50) {
+                            console.log("Iframe aparentemente vazio, mostrando fallback");
+                            showFallback(iframe);
+                        }
+                    } catch (e) {
+                        console.log("Erro ao verificar tamanho do iframe:", e);
+                        showFallback(iframe);
                     }
                 }, 3000);
+            }
+            
+            // Função para mostrar o fallback
+            function showFallback(iframe) {
+                iframe.setAttribute('data-failed', 'true');
                 
-                // Adicionar listeners para detectar erros
-                iframe.addEventListener('error', function() {
-                    this.setAttribute('data-failed', 'true');
-                });
-
-                // Tentativa direta de carregar um jogo alternativo em caso de falha
-                iframe.onerror = function() {
-                    // Se o iframe principal falhar, tenta um jogo alternativo com maior compatibilidade
-                    this.src = 'https://html5.gamemonkey.org/game/subway-surfers';
-                    
-                    // Nova tentativa, se ainda falhar, mostra o fallback
-                    setTimeout(() => {
-                        try {
-                            if (!this.contentWindow || !this.contentWindow.document) {
-                                this.setAttribute('data-failed', 'true');
-                            }
-                        } catch (e) {
-                            this.setAttribute('data-failed', 'true');
-                        }
-                    }, 3000);
+                // Verificar se o elemento fallback já existe
+                const container = iframe.parentElement;
+                let fallback = container.querySelector('.iframe-fallback');
+                
+                // Obter informações do jogo atual
+                const gameParam = new URLSearchParams(window.location.search).get('game') || 'retro-bowl';
+                const jogos = {
+                    'retro-bowl': {
+                        title: 'Retro Bowl',
+                        link: 'https://www.crazygames.com/game/retro-bowl'
+                    },
+                    'slope': {
+                        title: 'Slope',
+                        link: 'https://www.crazygames.com/game/slope'
+                    },
+                    'subway-surfers': {
+                        title: 'Subway Surfers',
+                        link: 'https://www.crazygames.com/game/subway-surfers'
+                    },
+                    'temple-run-2': {
+                        title: 'Temple Run 2',
+                        link: 'https://www.crazygames.com/game/temple-run-2'
+                    }
                 };
+                
+                const jogo = jogos[gameParam] || jogos['retro-bowl'];
+                
+                if (fallback) {
+                    fallback.style.display = 'flex';
+                    
+                    // Atualizar o link para o jogo correto
+                    const link = fallback.querySelector('a');
+                    if (link) {
+                        link.href = jogo.link;
+                        link.textContent = `Abrir ${jogo.title} em uma nova aba`;
+                    }
+                } else {
+                    // Se o elemento de fallback não existir, cria um
+                    const newFallback = document.createElement('div');
+                    newFallback.className = 'iframe-fallback';
+                    newFallback.style.display = 'flex';
+                    
+                    newFallback.innerHTML = `
+                        <p>O conteúdo do jogo não pode ser carregado. Isso pode ocorrer devido a configurações de segurança do navegador.</p>
+                        <a href="${jogo.link}" target="_blank" rel="noopener" class="save-progress-button">Abrir ${jogo.title} em uma nova aba</a>
+                    `;
+                    
+                    container.appendChild(newFallback);
+                }
             }
         });
     </script>
