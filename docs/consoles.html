@@ -213,41 +213,39 @@
                 const keywordsAtivas = keywords[filtro];
                 
                 return todasNoticias.filter(noticia => {
-                    const texto = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
-                    
-                    if (filtro === 'todos') {
-                        // Para o filtro "todos", verificamos qualquer uma das palavras-chave de console
-                        return keywords.todos.some(keyword => texto.includes(keyword));
-                    } else {
-                        // Para filtros específicos, verificamos apenas as palavras-chave do filtro selecionado
-                        return keywordsAtivas.some(keyword => texto.includes(keyword));
-                    }
+                    // Verificar se a notícia contém pelo menos uma das palavras-chave no título ou descrição
+                    const conteudoNoticia = (noticia.titulo + ' ' + noticia.descricao).toLowerCase();
+                    return keywordsAtivas.some(keyword => conteudoNoticia.includes(keyword.toLowerCase()));
                 });
             }
             
             // Função para criar um card de notícia
             function criarCardNoticia(noticia) {
                 const card = document.createElement('div');
-                card.className = 'noticia card';
+                card.className = 'noticia-card';
                 
-                // Formatar data se disponível
+                // Formatação da data
                 let dataFormatada = '';
-                if (noticia.timestamp) {
-                    const data = new Date(noticia.timestamp);
-                    dataFormatada = `${data.toLocaleDateString()} ${data.toLocaleTimeString()}`;
+                if (noticia.data) {
+                    const data = new Date(noticia.data);
+                    dataFormatada = data.toLocaleDateString('pt-BR', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric'
+                    });
                 }
                 
                 card.innerHTML = `
                     <div class="imagem-container">
-                        <img src="${noticia.imagem || 'images/fallback.html'}" 
+                        <img src="${noticia.imagem || 'images/fallback.png'}" 
                              alt="${noticia.titulo}" 
-                             onerror="this.src='images/fallback.html'">
+                             onerror="this.src='images/fallback.png'">
                     </div>
-                    <div class="conteudo">
-                        <h3><a href="${noticia.link}" target="_blank">${noticia.titulo}</a></h3>
-                        <p>${noticia.descricao || ''}</p>
-                        <div class="meta">
-                            ${noticia.fonte ? `<span class="fonte">${noticia.fonte}</span>` : ''}
+                    <div class="noticia-info">
+                        <h3>${noticia.titulo}</h3>
+                        <p>${noticia.descricao}</p>
+                        <div class="noticia-meta">
+                            <span class="fonte">${noticia.fonte}</span>
                             ${dataFormatada ? `<span class="data">${dataFormatada}</span>` : ''}
                         </div>
                     </div>
