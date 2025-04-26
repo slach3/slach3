@@ -92,27 +92,33 @@ function determinarCategoria(noticia) {
         'controle', 'dualsense', 'portable', 'portátil', 'steam deck'
     ];
     
-    const palavrasEsports = [
-        'esport', 'e-sport', 'campeonato', 'torneio', 'competição', 'competicao',
-        'time', 'equipe', 'league of legends', 'cs:go', 'valorant'
-    ];
-    
-    // Verifica cada categoria
+    // Verifica categoria
     if (palavrasConsoles.some(palavra => texto.includes(palavra))) {
         return 'consoles';
-    }
-    
-    if (palavrasEsports.some(palavra => texto.includes(palavra))) {
-        return 'esports';
     }
     
     return 'jogos';
 }
 
+function isWithinLastDays(timestamp, days) {
+    const date = new Date(timestamp);
+    const now = new Date();
+    const diffTime = Math.abs(now - date);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays <= days;
+}
+
 function renderizarNoticias(noticiasFiltradas) {
     const container = document.getElementById('noticias');
     
-    if (!noticiasFiltradas || noticiasFiltradas.length === 0) {
+    // Filtra notícias mais recentes que 7 dias
+    const noticiasRecentes = noticiasFiltradas.filter(noticia => {
+        // Se a notícia não tem timestamp, assume que é recente
+        if (!noticia.timestamp) return true;
+        return isWithinLastDays(noticia.timestamp, 7);
+    });
+    
+    if (!noticiasRecentes || noticiasRecentes.length === 0) {
         container.innerHTML = `
             <div class="sem-resultados">
                 <p>Nenhuma notícia encontrada nesta categoria.</p>
@@ -121,7 +127,7 @@ function renderizarNoticias(noticiasFiltradas) {
         return;
     }
     
-    container.innerHTML = noticiasFiltradas.map(noticia => `
+    container.innerHTML = noticiasRecentes.map(noticia => `
         <article>
             <div class="article-img">
                 <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
