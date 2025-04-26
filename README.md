@@ -57,3 +57,11 @@ Todas essas operações acontecem sem necessidade de intervenção manual, garan
 O sistema utiliza um script Python (`scraper.py`) que faz web scraping de sites confiáveis de notícias de jogos. As notícias coletadas são salvas em arquivos JSON e JavaScript que são consumidos pelo frontend da aplicação.
 
 Um workflow do GitHub Actions executa este script periodicamente, garantindo que o conteúdo esteja sempre atualizado.
+
+## 🗣️ REGRAS DE CONDUTA PARA INTERAÇÕES
+
+- Todas as interações e respostas serão fornecidas em português do Brasil
+- A documentação do código será mantida em português para melhor compreensão
+- Mensagens de erro e feedback do sistema serão em português
+- Variáveis, funções e comentários no código seguirão padrões em português quando possível
+- Commits e documentação do Git serão escritos em português
