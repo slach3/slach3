@@ -28,11 +28,10 @@ MAX_RETRIES = 3
 TIMEOUT = 30  # Aumentado para 30 segundos
 
 def get_brasilia_datetime():
-    """Retorna a data e hora atual no fuso horário de Brasília com ano corrigido para 2024"""
+    """Retorna a data e hora atual no fuso horário de Brasília"""
     now = datetime.now(pytz.timezone('America/Sao_Paulo'))
-    # Corrigindo o ano para 2024 (ano atual real) para evitar datas futuras
-    corrected_date = now.replace(year=2024)
-    return corrected_date.strftime("%Y-%m-%dT%H:%M:%S")
+    # Usar o ano atual do sistema (2025)
+    return now.strftime("%Y-%m-%dT%H:%M:%S")
 
 def criar_sessao():
     """Cria uma sessão HTTP com retry automático"""
