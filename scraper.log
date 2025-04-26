@@ -360,3 +360,168 @@ Criando backup...
 2025-04-26 18:04:29,019 - INFO - Arquivo docs/noticias.json salvo com sucesso
 2025-04-26 18:04:29,020 - INFO - Arquivo docs/noticias.js salvo com sucesso
 2025-04-26 18:04:29,020 - INFO - Processo de coleta de not√≠cias conclu√≠do com sucesso
+26/04/2025 18:12:00,70 - Iniciando atualizacao de noticias... 
+Criando backup... 
+2025-04-26 18:12:05,292 - INFO - Iniciando coleta de not√≠cias...
+2025-04-26 18:12:05,391 - INFO - Usando not√≠cias em cache
+2025-04-26 18:12:05,391 - INFO - Usando 36 not√≠cias do cache
+2025-04-26 18:12:05,394 - INFO - Arquivo noticias.json salvo com sucesso
+2025-04-26 18:12:05,395 - INFO - Arquivo noticias.js salvo com sucesso
+2025-04-26 18:12:05,396 - INFO - Arquivo docs/noticias.json salvo com sucesso
+2025-04-26 18:12:05,397 - INFO - Arquivo docs/noticias.js salvo com sucesso
+2025-04-26 18:12:05,398 - INFO - Processo de coleta de not√≠cias conclu√≠do com sucesso
+26/04/2025 18:12:05,43 - Scraper executado com sucesso 
+26/04/2025 18:12:05,44 - Verificando arquivos para copiar para a pasta docs... 
+26/04/2025 18:12:05,45 - Copiando noticias.js para a pasta docs... 
+26/04/2025 18:12:05,45 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.229.003.776 bytes dispon°veis
+26/04/2025 18:12:05,45 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.228.999.680 bytes dispon°veis
+26/04/2025 18:12:05,55 - Copiando noticias.json para a pasta docs... 
+26/04/2025 18:12:05,55 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.228.999.680 bytes dispon°veis
+26/04/2025 18:12:05,55 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.228.999.680 bytes dispon°veis
+26/04/2025 18:12:05,61 - Processo de atualizacao finalizado. 
+26/04/2025 18:15:01,78 - Iniciando atualizacao de noticias... 
+Criando backup... 
+2025-04-26 18:15:04,419 - INFO - Iniciando coleta de not√≠cias...
+2025-04-26 18:15:04,534 - INFO - Usando not√≠cias em cache
+2025-04-26 18:15:04,534 - INFO - Usando 36 not√≠cias do cache
+2025-04-26 18:15:04,537 - INFO - Arquivo noticias.json salvo com sucesso
+2025-04-26 18:15:04,538 - INFO - Arquivo noticias.js salvo com sucesso
+2025-04-26 18:15:04,541 - INFO - Arquivo docs/noticias.json salvo com sucesso
+2025-04-26 18:15:04,542 - INFO - Arquivo docs/noticias.js salvo com sucesso
+2025-04-26 18:15:04,542 - INFO - Processo de coleta de not√≠cias conclu√≠do com sucesso
+26/04/2025 18:15:04,59 - Scraper executado com sucesso 
+26/04/2025 18:15:04,60 - Verificando arquivos para copiar para a pasta docs... 
+26/04/2025 18:15:04,62 - Copiando noticias.js para a pasta docs... 
+26/04/2025 18:15:04,63 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.228.545.024 bytes dispon°veis
+26/04/2025 18:15:04,63 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.228.545.024 bytes dispon°veis
+26/04/2025 18:15:04,74 - Copiando noticias.json para a pasta docs... 
+26/04/2025 18:15:04,74 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.228.545.024 bytes dispon°veis
+26/04/2025 18:15:04,74 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.228.479.488 bytes dispon°veis
+26/04/2025 18:15:04,93 - Processo de atualizacao finalizado. 
+26/04/2025 18:15:04,94 - Iniciando processo de sincroniza√ß√£o com Git... 
+26/04/2025 18:15:05,02 - Adicionando arquivos modificados ao Git... 
+26/04/2025 18:15:05,30 - Criando commit com as altera√ß√µes... 
+26/04/2025 18:15:08,43 - Enviando altera√ß√µes para o GitHub... 
+26/04/2025 18:15:17,77 - Altera√ß√µes enviadas com sucesso para o GitHub! 
+26/04/2025 18:15:17,77 - Processo de sincroniza√ß√£o com Git finalizado. 
+26/04/2025 18:17:44,03 - Iniciando atualizacao de noticias... 
+Criando backup... 
+2025-04-26 18:17:46,344 - INFO - Iniciando coleta de not√≠cias...
+2025-04-26 18:17:46,464 - INFO - Usando not√≠cias em cache
+2025-04-26 18:17:46,464 - INFO - Usando 36 not√≠cias do cache
+2025-04-26 18:17:46,466 - INFO - Arquivo noticias.json salvo com sucesso
+2025-04-26 18:17:46,467 - INFO - Arquivo noticias.js salvo com sucesso
+2025-04-26 18:17:46,468 - INFO - Arquivo docs/noticias.json salvo com sucesso
+2025-04-26 18:17:46,469 - INFO - Arquivo docs/noticias.js salvo com sucesso
+2025-04-26 18:17:46,470 - INFO - Processo de coleta de not√≠cias conclu√≠do com sucesso
+26/04/2025 18:17:46,54 - Scraper executado com sucesso 
+26/04/2025 18:17:46,55 - Verificando arquivos para copiar para a pasta docs... 
+26/04/2025 18:17:46,57 - Copiando noticias.js para a pasta docs... 
+26/04/2025 18:17:46,57 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.226.992.640 bytes dispon°veis
+26/04/2025 18:17:46,57 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.225 noticias.js
+               1 arquivo(s)         18.225 bytes
+               0 pasta(s)   91.226.992.640 bytes dispon°veis
+26/04/2025 18:17:46,64 - Copiando noticias.json para a pasta docs... 
+26/04/2025 18:17:46,64 - Data do arquivo original: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.226.992.640 bytes dispon°veis
+26/04/2025 18:17:46,64 - Data do arquivo copiado: 
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 7403-92F6
+
+ Pasta de C:\Users\slach\OneDrive\Documentos\GitHub\slach3\docs
+
+26/04/2025  02:34            18.207 noticias.json
+               1 arquivo(s)         18.207 bytes
+               0 pasta(s)   91.226.992.640 bytes dispon°veis
+26/04/2025 18:17:46,71 - Processo de atualizacao finalizado. 
+26/04/2025 18:17:46,72 - Iniciando processo de sincroniza√ß√£o com Git... 
+26/04/2025 18:17:46,82 - Adicionando arquivos modificados ao Git... 
+26/04/2025 18:17:47,40 - Criando commit com as altera√ß√µes... 
+26/04/2025 18:17:48,88 - Enviando altera√ß√µes para o GitHub... 
+26/04/2025 18:17:51,55 - Altera√ß√µes enviadas com sucesso para o GitHub! 
+26/04/2025 18:17:51,56 - Processo de sincroniza√ß√£o com Git finalizado. 

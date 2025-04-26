@@ -81,5 +81,49 @@ if exist "noticias.json" (
 )
 
 echo %date% %time% - Processo de atualizacao finalizado. >> scraper.log
+
+REM ===== NOVA SEÇÃO: Automatização Git =====
+echo %date% %time% - Iniciando processo de sincronização com Git... >> scraper.log
+
+REM Verificar se Git está instalado
+git --version >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo %date% %time% - ERRO: Git não está instalado ou não está no PATH. Sincronização cancelada. >> scraper.log
+    echo AVISO: Git não encontrado. As alterações não foram enviadas automaticamente para o GitHub.
+    goto FIM_GIT
+)
+
+REM Adicionar arquivos modificados ao Git
+echo %date% %time% - Adicionando arquivos modificados ao Git... >> scraper.log
+git add noticias.js noticias.json docs/noticias.js docs/noticias.json
+
+REM Verificar se há alterações para commit
+git diff --cached --quiet
+if %ERRORLEVEL% EQU 0 (
+    echo %date% %time% - Nenhuma alteração detectada para commit. >> scraper.log
+    echo Nenhuma alteração detectada para enviar ao GitHub.
+    goto FIM_GIT
+)
+
+REM Criar mensagem de commit com data e hora atual
+set DATA_HORA=%date:~-4,4%-%date:~-7,2%-%date:~-10,2% %time:~0,2%:%time:~3,2%
+set DATA_HORA=%DATA_HORA: =0%
+echo %date% %time% - Criando commit com as alterações... >> scraper.log
+git commit -m "Atualização automática de notícias: %DATA_HORA%"
+
+REM Fazer push das alterações para o GitHub
+echo %date% %time% - Enviando alterações para o GitHub... >> scraper.log
+git push
+if %ERRORLEVEL% EQU 0 (
+    echo %date% %time% - Alterações enviadas com sucesso para o GitHub! >> scraper.log
+    echo Alterações enviadas com sucesso para o GitHub!
+) else (
+    echo %date% %time% - ERRO: Falha ao enviar alterações para o GitHub. >> scraper.log
+    echo ERRO: Falha ao enviar alterações para o GitHub. Verifique sua conexão ou credenciais.
+)
+
+:FIM_GIT
+echo %date% %time% - Processo de sincronização com Git finalizado. >> scraper.log
+
 echo Atualizacao concluida! Verifique o arquivo scraper.log para detalhes.
 pause
