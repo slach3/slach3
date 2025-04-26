@@ -3,28 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GameNews - Seu portal definitivo de notícias de games com as últimas novidades sobre jogos, consoles, lançamentos e reviews em tempo real">
-    <meta name="keywords" content="games, notícias de jogos, videogames, consoles, lançamentos de jogos, reviews de jogos, PS5, Xbox, Nintendo Switch, PC gaming">
-    <meta name="author" content="GameNews">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="GameNews - O Portal Definitivo de Notícias de Games">
-    <meta property="og:description" content="Fique por dentro das últimas notícias do mundo dos games, reviews exclusivos, lançamentos e muito mais!">
+    <meta name="description" content="GameNews Brasil: O maior portal de notícias de games com atualizações em tempo real sobre PS5, Xbox, Nintendo Switch e PC. Reviews, lançamentos, guias e promoções exclusivas!">
+    <meta name="keywords" content="games, notícias de jogos, videogames, consoles, lançamentos de jogos, reviews de jogos, PS5, Xbox, Nintendo Switch, PC gaming, promoções de jogos, Oblivion Remastered, Fatal Fury, Switch 2, Onimusha 2, guias de jogos, dicas e truques, novidades games">
+    <meta name="author" content="GameNews Brasil">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:title" content="GameNews Brasil - O Maior Portal Brasileiro de Notícias de Games">
+    <meta property="og:description" content="Fique por dentro das últimas notícias do mundo dos games, reviews exclusivos, lançamentos, promoções e muito mais! Notícias sobre PS5, Xbox, Nintendo Switch e PC atualizadas em tempo real.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://slach3.github.io/slach3/">
     <meta property="og:image" content="https://slach3.github.io/slach3/images/og-image.png">
+    <meta property="og:site_name" content="GameNews Brasil">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="article:modified_time" content="2025-04-26T18:00:00+00:00">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="twitter:title" content="GameNews Brasil - O Maior Portal Brasileiro de Notícias de Games">
+    <meta name="twitter:description" content="As últimas notícias sobre jogos, reviews, lançamentos e promoções para PS5, Xbox, Switch e PC atualizadas a cada hora.">
+    <meta name="twitter:image" content="https://slach3.github.io/slach3/images/og-image.png">
+    <meta name="theme-color" content="#41BCDB">
     
-    <title>GameNews - Portal Definitivo de Notícias, Reviews e Lançamentos de Games</title>
+    <!-- Novas meta tags para SEO -->
+    <meta name="news_keywords" content="PS5, Xbox Series X, Nintendo Switch 2, Onimusha 2, Fatal Fury, Oblivion Remastered, jogos eletrônicos, novidades games, lançamentos 2025">
+    <meta name="geo.region" content="BR">
+    <meta name="geo.placename" content="Brasil">
+    <meta property="article:publisher" content="https://www.facebook.com/gamenews">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>GameNews Brasil - O Maior Portal de Notícias, Reviews e Lançamentos de Games | PS5, Xbox, Switch, PC</title>
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="noticias.js" as="script">
+    <link rel="preconnect" href="https://sm.ign.com">
+    <link rel="preconnect" href="https://tm.ibxk.com.br">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com">
     
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="canonical" href="https://slach3.github.io/slach3/index.html">
+    <link rel="canonical" href="https://slach3.github.io/slach3/">
     
     <!-- Tema escuro -->
     <script>
@@ -39,17 +63,115 @@
     {
       "@context": "https://schema.org",
       "@type": "NewsMediaOrganization",
-      "name": "GameNews",
+      "name": "GameNews Brasil",
       "url": "https://slach3.github.io/slach3/",
-      "logo": "https://slach3.github.io/slach3/images/favicon.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://slach3.github.io/slach3/images/favicon.png",
+        "width": "192",
+        "height": "192"
+      },
       "sameAs": [
         "https://twitter.com/gamenews",
         "https://www.facebook.com/gamenews",
         "https://www.instagram.com/gamenews"
       ],
-      "description": "Portal especializado em notícias de games, reviews e lançamentos."
+      "description": "Portal especializado em notícias de games, reviews e lançamentos de PS5, Xbox, Nintendo Switch e PC.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://slach3.github.io/slach3/index.html?busca={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
+    
+    <!-- Schema.org markup para WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://slach3.github.io/slach3/",
+      "name": "GameNews Brasil",
+      "description": "Portal de notícias de games com as últimas novidades, reviews e lançamentos",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://slach3.github.io/slach3/index.html?busca={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Schema.org markup para ItemList (artigos da página) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
+          "name": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
+          "name": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
+          "name": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://slach3.github.io/slach3/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://slach3.github.io/slach3/index.html",
+            "name": "Todas as Notícias"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Google tag (gtag.js) para Google Analytics GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        'page_title': 'GameNews Brasil - Home',
+        'content_group': 'home_page',
+        'user_properties': {
+          'theme': localStorage.getItem('darkMode') === 'true' ? 'dark' : 'light'
+        }
+      });
+    </script>
+    
+    <!-- Estrutura para AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -81,125 +203,194 @@
     </header>
 
     <main>
+        <!-- Anúncio banner topo -->
+        <div class="ad-container ad-top">
+            <div id="ad-topo" class="ad-slot">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                     data-ad-slot="XXXXXXXXXX"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        
         <div class="noticias-grid">
             <div class="noticias-container">
                 <div id="noticias" class="noticias-lista">
                     <!-- Notícias inseridas diretamente no HTML -->
-                    <article>
-                        <a href="https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg" alt="Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">IGN Brasil</div>
-                                <h2>Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review</h2>
-                                <p>Clique para ler a notícia completa na IGN Brasil.</p>
+                                <h2 itemprop="headline">Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review</h2>
+                                <p itemprop="description">Clique para ler a notícia completa na IGN Brasil.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review" target="_blank" rel="noopener">
+                    <!-- Anúncio in-feed -->
+                    <div class="ad-container ad-in-feed">
+                        <div id="ad-in-feed-1" class="ad-slot">
+                            <ins class="adsbygoogle"
+                                 style="display:block"
+                                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                                 data-ad-slot="XXXXXXXXXX"
+                                 data-ad-format="auto"
+                                 data-full-width-responsive="true"></ins>
+                            <script>
+                                 (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                    </div>
+
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg" alt="Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">IGN Brasil</div>
-                                <h2>Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review</h2>
-                                <p>Clique para ler a notícia completa na IGN Brasil.</p>
+                                <h2 itemprop="headline">Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review</h2>
+                                <p itemprop="description">Clique para ler a notícia completa na IGN Brasil.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg" alt="Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">IGN Brasil</div>
-                                <h2>Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review</h2>
-                                <p>Clique para ler a notícia completa na IGN Brasil.</p>
+                                <h2 itemprop="headline">Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review</h2>
+                                <p itemprop="description">Clique para ler a notícia completa na IGN Brasil.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil" target="_blank" rel="noopener">
+                    <!-- Anúncio in-feed -->
+                    <div class="ad-container ad-in-feed">
+                        <div id="ad-in-feed-2" class="ad-slot">
+                            <ins class="adsbygoogle"
+                                 style="display:block"
+                                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                                 data-ad-slot="XXXXXXXXXX"
+                                 data-ad-format="auto"
+                                 data-full-width-responsive="true"></ins>
+                            <script>
+                                 (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                    </div>
+
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg" alt="Nintendo revela preço e data de lançamento do Switch 2 no Brasil" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">IGN Brasil</div>
-                                <h2>Nintendo revela preço e data de lançamento do Switch 2 no Brasil</h2>
-                                <p>Clique para ler a notícia completa na IGN Brasil.</p>
+                                <h2 itemprop="headline">Nintendo revela preço e data de lançamento do Switch 2 no Brasil</h2>
+                                <p itemprop="description">Clique para ler a notícia completa na IGN Brasil.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg" alt="&quot;Sempre esteve na nossa lista&quot;, diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonh..." 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">IGN Brasil</div>
-                                <h2>"Sempre esteve na nossa lista", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonh...</h2>
-                                <p>Clique para ler a notícia completa na IGN Brasil.</p>
+                                <h2 itemprop="headline">"Sempre esteve na nossa lista", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonh...</h2>
+                                <p itemprop="description">Clique para ler a notícia completa na IGN Brasil.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189" alt="Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">Voxel</div>
-                                <h2>Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!</h2>
-                                <p>Notícia sobre games do portal Voxel.</p>
+                                <h2 itemprop="headline">Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!</h2>
+                                <p itemprop="description">Notícia sobre games do portal Voxel.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189" alt="The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">Voxel</div>
-                                <h2>The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!</h2>
-                                <p>Notícia sobre games do portal Voxel.</p>
+                                <h2 itemprop="headline">The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!</h2>
+                                <p itemprop="description">Notícia sobre games do portal Voxel.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm" target="_blank" rel="noopener">
+                    <article itemscope itemtype="https://schema.org/NewsArticle">
+                        <meta itemprop="datePublished" content="2025-04-26T17:59:00+00:00" />
+                        <meta itemprop="author" content="GameNews Brasil" />
+                        <a href="https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm" target="_blank" rel="noopener" itemprop="url">
                             <div class="article-img">
                                 <img src="https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189" alt="Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar" 
+                                     loading="lazy" itemprop="image"
                                      onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                             </div>
                             <div class="article-content">
                                 <div class="fonte-badge">Voxel</div>
-                                <h2>Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar</h2>
-                                <p>Notícia sobre games do portal Voxel.</p>
+                                <h2 itemprop="headline">Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar</h2>
+                                <p itemprop="description">Notícia sobre games do portal Voxel.</p>
                                 <div class="timestamp">Postado em: 26/04/2025 às 17:59</div>
                             </div>
                         </a>
@@ -208,6 +399,21 @@
             </div>
             
             <aside class="news-sidebar">
+                <!-- Anúncio lateral -->
+                <div class="ad-container ad-sidebar">
+                    <div id="ad-sidebar" class="ad-slot">
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                             data-ad-slot="XXXXXXXXXX"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </div>
+                
                 <div class="filtros-container">
                     <h3>Filtrar por fonte</h3>
                     <div class="filtro-fontes">
@@ -226,15 +432,63 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Seção de artigos populares para SEO e engajamento -->
+                <div class="popular-posts">
+                    <h3>Mais Populares</h3>
+                    <ul>
+                        <li><a href="https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil">Nintendo revela preço do Switch 2 no Brasil</a></li>
+                        <li><a href="https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm">Maior página de pirataria de jogos é derrubada</a></li>
+                        <li><a href="https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm">Oblivion Remastered no Game Pass</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Box de newsletter para captação de leads -->
+                <div class="newsletter-box">
+                    <h3>Receba as novidades</h3>
+                    <p>Inscreva-se para receber as melhores notícias sobre games!</p>
+                    <form id="newsletter-form" action="#" method="post">
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                        <button type="submit">Inscrever-se</button>
+                    </form>
+                </div>
             </aside>
         </div>
     </main>
 
     <footer>
-        <p>© 2025 GameNews - Agregador de notícias de games</p>
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>GameNews Brasil</h3>
+                    <p>O maior portal de notícias de games do Brasil, com atualizações em tempo real sobre PS5, Xbox, Nintendo Switch e PC.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="consoles.html">Consoles</a></li>
+                        <li><a href="jogos.html">Jogos</a></li>
+                        <li><a href="#" id="privacyPolicyLink">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/gamenews" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/gamenews" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gamenews" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 GameNews Brasil - Todos os direitos reservados</p>
+                <p>Nenhuma notícia ou imagem pode ser reproduzida sem autorização prévia. As notícias linkadas são de responsabilidade de seus autores.</p>
+            </div>
+        </div>
     </footer>
 
-    <!-- Script simplificado apenas para interações básicas -->
+    <!-- Script melhorado com analytics, eventos e interações -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Configuração do modo escuro
@@ -242,21 +496,32 @@
             if (darkModeToggle) {
                 darkModeToggle.addEventListener('click', () => {
                     document.documentElement.classList.toggle('dark-mode');
-                    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode'));
+                    const isDarkMode = document.documentElement.classList.contains('dark-mode');
+                    localStorage.setItem('darkMode', isDarkMode);
+                    
+                    // Registrar evento no Analytics
+                    if (window.gtag) {
+                        gtag('event', 'theme_change', {
+                            'event_category': 'user_preference',
+                            'event_label': isDarkMode ? 'dark' : 'light'
+                        });
+                    }
                 });
             }
             
-            // Filtros de busca simples
+            // Filtros de busca melhorados
             const busca = document.getElementById('busca');
             const botaoBusca = document.getElementById('botaoBusca');
             const articles = document.querySelectorAll('#noticias article');
             
-            // Função para filtrar
+            // Função para filtrar com monitoramento de analytics
             function filtrar() {
                 const termo = busca.value.toLowerCase();
                 const fontesSelecionadas = Array.from(
                     document.querySelectorAll('.filtro-item input:checked')
                 ).map(cb => cb.value);
+                
+                let resultCount = 0;
                 
                 articles.forEach(article => {
                     const titulo = article.querySelector('h2').textContent.toLowerCase();
@@ -266,21 +531,183 @@
                     const matchFonte = fontesSelecionadas.includes(fonte);
                     
                     article.style.display = (matchTermo && matchFonte) ? '' : 'none';
+                    
+                    if (matchTermo && matchFonte) {
+                        resultCount++;
+                    }
                 });
+                
+                // Registrar evento de busca no Analytics
+                if (window.gtag && termo) {
+                    gtag('event', 'search', {
+                        'search_term': termo,
+                        'results_count': resultCount
+                    });
+                }
+                
+                return resultCount;
             }
             
             // Eventos
-            if (botaoBusca) botaoBusca.addEventListener('click', filtrar);
-            if (busca) busca.addEventListener('keyup', e => {
-                if (e.key === 'Enter') filtrar();
-            });
+            if (botaoBusca) {
+                botaoBusca.addEventListener('click', () => {
+                    const results = filtrar();
+                    if (results === 0 && busca.value) {
+                        // Feedback ao usuário quando não há resultados
+                        alert('Nenhuma notícia encontrada para "' + busca.value + '". Tente outros termos.');
+                    }
+                });
+            }
             
-            // Filtros por fonte
+            if (busca) {
+                busca.addEventListener('keyup', e => {
+                    if (e.key === 'Enter') {
+                        const results = filtrar();
+                        if (results === 0 && busca.value) {
+                            // Feedback ao usuário quando não há resultados
+                            alert('Nenhuma notícia encontrada para "' + busca.value + '". Tente outros termos.');
+                        }
+                    }
+                });
+            }
+            
+            // Filtros por fonte com analytics
             const checkboxes = document.querySelectorAll('.filtro-item input');
             checkboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', filtrar);
+                checkbox.addEventListener('change', () => {
+                    filtrar();
+                    // Registrar evento de filtro no Analytics
+                    if (window.gtag) {
+                        gtag('event', 'filter_change', {
+                            'filter_type': 'fonte',
+                            'filter_value': checkbox.value,
+                            'filter_state': checkbox.checked ? 'on' : 'off'
+                        });
+                    }
+                });
+            });
+            
+            // Monitorar cliques em notícias
+            document.querySelectorAll('#noticias article a').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const titulo = this.querySelector('h2').textContent;
+                    const fonte = this.querySelector('.fonte-badge').textContent;
+                    
+                    // Registrar evento de clique em notícia no Analytics
+                    if (window.gtag) {
+                        gtag('event', 'article_click', {
+                            'event_category': 'engagement',
+                            'event_label': titulo,
+                            'fonte': fonte
+                        });
+                    }
+                });
+            });
+            
+            // Formulário de newsletter
+            const newsletterForm = document.getElementById('newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = document.getElementById('email').value;
+                    
+                    // Simular envio (aqui você implementaria o envio real para seu servidor)
+                    console.log('E-mail cadastrado:', email);
+                    
+                    // Feedback ao usuário
+                    alert('Obrigado por se inscrever! Você receberá nossas novidades em breve.');
+                    
+                    // Limpar campo
+                    document.getElementById('email').value = '';
+                    
+                    // Registrar evento de inscrição no Analytics
+                    if (window.gtag) {
+                        gtag('event', 'newsletter_signup', {
+                            'event_category': 'lead_generation'
+                        });
+                    }
+                });
+            }
+            
+            // Monitorar visibilidade dos anúncios para métricas
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && entry.target.classList.contains('ad-slot')) {
+                        // Registrar impressão de anúncio no Analytics
+                        if (window.gtag) {
+                            gtag('event', 'ad_impression', {
+                                'event_category': 'monetization',
+                                'event_label': entry.target.id
+                            });
+                        }
+                        
+                        // Desconectar observer após registrar a impressão
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.5
+            });
+            
+            // Observar todos os slots de anúncios
+            document.querySelectorAll('.ad-slot').forEach(adSlot => {
+                observer.observe(adSlot);
+            });
+            
+            // Lazy loading de imagens
+            if ('loading' in HTMLImageElement.prototype) {
+                // O navegador suporta lazy loading nativo
+                console.log('Usando lazy loading nativo');
+            } else {
+                // Implementar lazy loading para navegadores que não suportam nativamente
+                const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+                
+                const lazyImageObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src || lazyImage.src;
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(image => {
+                    lazyImageObserver.observe(image);
+                });
+            }
+            
+            // Registrar tempo de permanência do usuário
+            let startTime = new Date();
+            window.addEventListener('beforeunload', function() {
+                const endTime = new Date();
+                const timeSpent = Math.round((endTime - startTime) / 1000);
+                
+                // Registrar tempo de permanência no Analytics
+                if (window.gtag && timeSpent > 5) { // Ignorar saídas muito rápidas
+                    gtag('event', 'time_spent', {
+                        'event_category': 'engagement',
+                        'event_label': 'seconds',
+                        'value': timeSpent
+                    });
+                }
             });
         });
+    </script>
+
+    <!-- Service Worker para PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js')
+                    .then(function(registration) {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(function(error) {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
     </script>
 </body>
 </html>
