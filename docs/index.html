@@ -54,28 +54,37 @@
     </header>
 
     <main>
-        <aside class="news-sidebar">
-            <div class="filtros-container">
-                <h3>Filtrar por fonte</h3>
-                <div class="filtro-fontes">
-                    <!-- Filtros serão inseridos aqui via JavaScript -->
-                </div>
-            </div>
-            <div id="noticias" class="noticias-lista">
-                <!-- Notícias serão inseridas aqui via JavaScript -->
-                <div class="loading-skeleton">
-                    <div class="skeleton-card">
-                        <div class="skeleton-img"></div>
-                        <div class="skeleton-content">
-                            <div class="skeleton-badge"></div>
-                            <div class="skeleton-title"></div>
-                            <div class="skeleton-text"></div>
+        <div class="noticias-grid">
+            <div class="noticias-container">
+                <div id="noticias" class="noticias-lista">
+                    <!-- Notícias serão inseridas aqui via JavaScript -->
+                    <div class="loading-skeleton">
+                        <div class="skeleton-card">
+                            <div class="skeleton-img"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-badge"></div>
+                                <div class="skeleton-title"></div>
+                                <div class="skeleton-text"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </aside>
+            
+            <aside class="news-sidebar">
+                <div class="filtros-container">
+                    <h3>Filtrar por fonte</h3>
+                    <div class="filtro-fontes">
+                        <!-- Filtros serão inseridos aqui via JavaScript -->
+                    </div>
+                </div>
+            </aside>
+        </div>
     </main>
+
+    <footer>
+        <p>© 2025 GameNews - Agregador de notícias de games</p>
+    </footer>
 
     <!-- Scripts na ordem correta -->
     <script src="noticias.js"></script>

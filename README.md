@@ -21,7 +21,7 @@ Este projeto é um site de notícias de jogos chamado **GameNews**, com RSS auto
 ---
 
 ## 📜 Histórico de Desenvolvimento
-- [2025-04-26] Atualização automática de notícias
+- [2025-04-26] Correção de bugs na exibição de notícias (script.js, index.html, style.css) - Foram corrigidos problemas de compatibilidade entre os elementos HTML e JavaScript, melhorada a estrutura da página e a apresentação das notícias
 - [2025-04-26] Atualização automática de notícias
 - [2025-04-26] Atualização automática de notícias
 - [2025-04-26] Atualização automática de notícias

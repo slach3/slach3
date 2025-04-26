@@ -8,49 +8,169 @@ darkModeToggle.addEventListener('click', () => {
 });
 
 // Função para carregar notícias
-async function carregarNoticias() {
+function carregarNoticias() {
     try {
-        const response = await fetch('noticias.json');
-        if (!response.ok) throw new Error('Failed to fetch news');
-        const noticias = await response.json();
+        // As notícias já estão no escopo global via noticias.js
+        if (!noticias) {
+            throw new Error('Notícias não encontradas');
+        }
         
-        const container = document.querySelector('.news-container');
+        const container = document.getElementById('noticias');
         if (!container) {
-            console.error('News container not found');
+            console.error('Elemento de notícias não encontrado');
             return;
         }
         
+        // Remove skeleton loading
         container.innerHTML = '';
         
-        noticias.forEach(noticia => {
-            const newsCard = createNewsCard(noticia);
-            container.appendChild(newsCard);
+        // Cria filtros de fontes
+        const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
+        const filtrosContainer = document.querySelector('.filtro-fontes');
+        
+        if (filtrosContainer) {
+            fontes.forEach(fonte => {
+                const filtroItem = document.createElement('div');
+                filtroItem.className = 'filtro-item';
+                filtroItem.innerHTML = `
+                    <label>
+                        <input type="checkbox" value="${fonte}" checked>
+                        ${fonte}
+                    </label>
+                `;
+                filtrosContainer.appendChild(filtroItem);
+            });
+            
+            // Adicionar evento para filtrar por fonte
+            const checkboxes = document.querySelectorAll('.filtro-item input');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', filtrarNoticias);
+            });
+        }
+        
+        // Exibe todas as notícias inicialmente
+        exibirNoticias(noticias);
+        
+        // Configura busca
+        const busca = document.getElementById('busca');
+        const botaoBusca = document.getElementById('botaoBusca');
+        
+        if (busca && botaoBusca) {
+            busca.addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') {
+                    filtrarNoticias();
+                }
+            });
+            
+            botaoBusca.addEventListener('click', filtrarNoticias);
+        }
+        
+        // Configura navegação
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Remove classe ativa de todos os links
+                navLinks.forEach(l => l.classList.remove('active'));
+                
+                // Adiciona classe ativa ao link clicado
+                link.classList.add('active');
+                
+                // Filtra por categoria
+                const categoria = link.querySelector('span').textContent.trim();
+                filtrarPorCategoria(categoria);
+            });
         });
+        
     } catch (error) {
-        console.error('Error loading news:', error);
-        const container = document.querySelector('.news-container');
+        console.error('Erro ao carregar notícias:', error);
+        const container = document.getElementById('noticias');
         if (container) {
-            container.innerHTML = '<div class="error-message">Erro ao carregar notícias. Por favor, tente novamente mais tarde.</div>';
+            container.innerHTML = '<div class="erro"><p>Erro ao carregar as notícias. Por favor, recarregue a página.</p><button onclick="window.location.reload()">Recarregar</button></div>';
         }
     }
 }
 
-function createNewsCard(noticia) {
-    const article = document.createElement('article');
-    article.className = 'news-card';
+function filtrarNoticias() {
+    const termoBusca = document.getElementById('busca')?.value.toLowerCase() || '';
+    const fontesSelecionadas = Array.from(document.querySelectorAll('.filtro-item input:checked')).map(cb => cb.value);
     
-    article.innerHTML = `
-        <a href="${noticia.link}" target="_blank" rel="noopener">
-            <img src="${noticia.image || 'images/fallback.jpg'}" alt="${noticia.title}" onerror="this.src='images/fallback.jpg'">
-            <div class="news-content">
-                <h3>${noticia.title}</h3>
-                <p class="source">${noticia.source}</p>
-            </div>
-        </a>
-    `;
+    const noticiasFiltered = noticias.filter(noticia => {
+        // Usar o campo título correto
+        const matchTermo = noticia.titulo.toLowerCase().includes(termoBusca);
+        const matchFonte = fontesSelecionadas.includes(noticia.fonte);
+        return matchTermo && matchFonte;
+    });
     
-    return article;
+    exibirNoticias(noticiasFiltered);
 }
 
-// Load news when the page is ready
+function filtrarPorCategoria(categoria) {
+    if (categoria === 'Todas') {
+        exibirNoticias(noticias);
+        return;
+    }
+    
+    // Para simplificar, vamos categorizar por fonte
+    // Em um cenário real, você teria categorias específicas
+    const categoriaLower = categoria.toLowerCase();
+    let noticiasFiltered;
+    
+    if (categoriaLower === 'consoles') {
+        noticiasFiltered = noticias.filter(noticia => 
+            noticia.titulo.toLowerCase().includes('console') ||
+            noticia.titulo.toLowerCase().includes('ps5') ||
+            noticia.titulo.toLowerCase().includes('xbox') ||
+            noticia.titulo.toLowerCase().includes('nintendo') ||
+            noticia.titulo.toLowerCase().includes('switch')
+        );
+    } else if (categoriaLower === 'jogos') {
+        noticiasFiltered = noticias.filter(noticia => 
+            !noticia.titulo.toLowerCase().includes('console') &&
+            !noticia.titulo.toLowerCase().includes('ps5') &&
+            !noticia.titulo.toLowerCase().includes('xbox') &&
+            !noticia.titulo.toLowerCase().includes('nintendo') &&
+            !noticia.titulo.toLowerCase().includes('switch')
+        );
+    } else {
+        noticiasFiltered = noticias;
+    }
+    
+    exibirNoticias(noticiasFiltered);
+}
+
+function exibirNoticias(noticiasArray) {
+    const container = document.getElementById('noticias');
+    
+    if (!container) return;
+    
+    if (noticiasArray.length === 0) {
+        container.innerHTML = '<div class="erro"><p>Nenhuma notícia encontrada.</p></div>';
+        return;
+    }
+    
+    container.innerHTML = '';
+    
+    noticiasArray.forEach(noticia => {
+        const article = document.createElement('article');
+        
+        article.innerHTML = `
+            <a href="${noticia.link}" target="_blank" rel="noopener">
+                <div class="article-img">
+                    <img src="${noticia.imagem || 'images/fallback.jpg'}" alt="${noticia.titulo}" onerror="this.src='images/fallback.jpg'">
+                </div>
+                <div class="article-content">
+                    <div class="fonte-badge">${noticia.fonte}</div>
+                    <h2>${noticia.titulo}</h2>
+                    <p>${noticia.descricao || ''}</p>
+                </div>
+            </a>
+        `;
+        
+        container.appendChild(article);
+    });
+}
+
+// Carrega notícias quando a página estiver pronta
 document.addEventListener('DOMContentLoaded', carregarNoticias);
