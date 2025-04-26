@@ -49,8 +49,21 @@
         <div class="game-area">
             <section class="game-frame">
                 <h2>CrazyGames</h2>
-                <iframe src="https://www.crazygames.com/" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-                <a href="https://www.crazygames.com/" class="save-progress-button">Jogue na CrazyGames</a>
+                <div class="iframe-container">
+                    <iframe src="https://www.crazygames.com/" 
+                            sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+                            referrerpolicy="no-referrer"
+                            loading="lazy"
+                            width="100%" 
+                            height="600"
+                            frameborder="0" 
+                            allow="fullscreen; autoplay; clipboard-write"></iframe>
+                    <div class="iframe-fallback">
+                        <p>O conteúdo do jogo não pode ser carregado. Isso pode ocorrer devido a configurações de segurança do navegador.</p>
+                        <a href="https://www.crazygames.com/" target="_blank" rel="noopener" class="save-progress-button">Abrir CrazyGames em uma nova aba</a>
+                    </div>
+                </div>
+                <a href="https://www.crazygames.com/" target="_blank" rel="noopener" class="save-progress-button">Jogue na CrazyGames</a>
             </section>
         </div>
 
@@ -74,5 +87,45 @@
     <!-- Scripts -->
     <script src="noticias.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Script específico para a página de jogos
+        document.addEventListener('DOMContentLoaded', function() {
+            // Verificar se o iframe carregou corretamente
+            const iframe = document.querySelector('.iframe-container iframe');
+            if (iframe) {
+                // Função para marcar o iframe como falho
+                function markIframeFailed() {
+                    iframe.setAttribute('data-failed', 'true');
+                }
+                
+                // Verificar após um tempo se o iframe carregou
+                setTimeout(function() {
+                    try {
+                        // Tentar acessar o conteúdo do iframe pode causar um erro de segurança
+                        // o que também é uma indicação de que o iframe não carregou corretamente
+                        if (!iframe.contentDocument || iframe.contentDocument.body.innerHTML === '') {
+                            markIframeFailed();
+                        }
+                    } catch (e) {
+                        // Se ocorrer um erro ao tentar acessar o conteúdo, o iframe provavelmente
+                        // foi bloqueado por políticas de segurança
+                        markIframeFailed();
+                    }
+                }, 2000);
+                
+                // Adicionar listeners para erros de carregamento
+                iframe.addEventListener('error', markIframeFailed);
+                iframe.addEventListener('load', function() {
+                    try {
+                        if (!this.contentDocument || this.contentDocument.body.innerHTML === '') {
+                            markIframeFailed();
+                        }
+                    } catch (e) {
+                        markIframeFailed();
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

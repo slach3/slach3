@@ -1,27 +1,48 @@
 // script.js
 
-// Configuração do modo escuro
-const darkModeToggle = document.getElementById('darkModeToggle');
-darkModeToggle.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode'));
-});
+document.addEventListener('DOMContentLoaded', function() {
+    // Configuração do modo escuro
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode'));
+        });
+    }
 
-// Função para obter parâmetros da URL
-function getParameterByName(name, url = window.location.href) {
-    name = name.replace(/[\[\]]/g, '\\$&');
-    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
-}
+    // Função para obter parâmetros da URL
+    function getParameterByName(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    // Gerenciar iframe na página de jogos
+    const iframe = document.querySelector('.iframe-container iframe');
+    if (iframe) {
+        iframe.addEventListener('error', function() {
+            this.setAttribute('data-failed', 'true');
+        });
+        
+        iframe.addEventListener('load', function() {
+            if (this.contentDocument && this.contentDocument.body.innerHTML === '') {
+                this.setAttribute('data-failed', 'true');
+            }
+        });
+    }
+
+    // Função para carregar notícias
+    carregarNoticias();
+});
 
 // Função para carregar notícias
 function carregarNoticias() {
     try {
         // As notícias já estão no escopo global via noticias.js
-        if (!noticias) {
+        if (typeof noticias === 'undefined' || !noticias) {
             throw new Error('Notícias não encontradas');
         }
         
@@ -35,10 +56,10 @@ function carregarNoticias() {
         container.innerHTML = '';
         
         // Cria filtros de fontes
-        const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
         const filtrosContainer = document.querySelector('.filtro-fontes');
         
         if (filtrosContainer) {
+            const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
             fontes.forEach(fonte => {
                 const filtroItem = document.createElement('div');
                 filtroItem.className = 'filtro-item';
@@ -64,12 +85,15 @@ function carregarNoticias() {
             // Ativar o link da categoria correspondente
             const navLinks = document.querySelectorAll('nav a');
             navLinks.forEach(link => {
-                const linkCategoria = link.querySelector('span').textContent.trim().toLowerCase();
-                if (linkCategoria === categoriaParam.toLowerCase()) {
-                    // Remove classe ativa de todos os links
-                    navLinks.forEach(l => l.classList.remove('active'));
-                    // Adiciona classe ativa ao link correspondente
-                    link.classList.add('active');
+                const linkSpan = link.querySelector('span');
+                if (linkSpan) {
+                    const linkCategoria = linkSpan.textContent.trim().toLowerCase();
+                    if (linkCategoria === categoriaParam.toLowerCase()) {
+                        // Remove classe ativa de todos os links
+                        navLinks.forEach(l => l.classList.remove('active'));
+                        // Adiciona classe ativa ao link correspondente
+                        link.classList.add('active');
+                    }
                 }
             });
             
@@ -128,7 +152,7 @@ function filtrarNoticias() {
     const noticiasFiltered = noticias.filter(noticia => {
         // Usar o campo título correto
         const matchTermo = noticia.titulo.toLowerCase().includes(termoBusca);
-        const matchFonte = fontesSelecionadas.includes(noticia.fonte);
+        const matchFonte = fontesSelecionadas.length === 0 || fontesSelecionadas.includes(noticia.fonte);
         return matchTermo && matchFonte;
     });
     
@@ -181,7 +205,12 @@ function exibirNoticias(noticiasArray) {
     
     container.innerHTML = '';
     
-    noticiasArray.forEach(noticia => {
+    // Limita a quantidade de notícias para a barra lateral
+    const isGamePage = window.location.pathname.includes('jogos.html');
+    const limit = isGamePage ? 5 : noticiasArray.length;
+    const noticiasLimitadas = noticiasArray.slice(0, limit);
+    
+    noticiasLimitadas.forEach(noticia => {
         const article = document.createElement('article');
         
         article.innerHTML = `
@@ -200,7 +229,16 @@ function exibirNoticias(noticiasArray) {
         
         container.appendChild(article);
     });
+    
+    // Se estamos na página de jogos e há mais notícias, mostramos um link para ver mais
+    if (isGamePage && noticiasArray.length > limit) {
+        const moreNews = document.createElement('div');
+        moreNews.className = 'more-news';
+        moreNews.innerHTML = `
+            <a href="index.html" class="save-progress-button">
+                Ver todas as ${noticiasArray.length} notícias
+            </a>
+        `;
+        container.appendChild(moreNews);
+    }
 }
-
-// Carrega notícias quando a página estiver pronta
-document.addEventListener('DOMContentLoaded', carregarNoticias);
