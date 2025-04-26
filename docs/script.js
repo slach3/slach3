@@ -199,12 +199,25 @@ function exibirNoticias(noticiasArray) {
     noticiasLimitadas.forEach(noticia => {
         const article = document.createElement('article');
         
-        // Formatar o timestamp para exibição
+        // Formatar o timestamp para exibição no fuso horário de Brasília (UTC-3)
         let dataHoraFormatada = 'Data não disponível';
         if (noticia.timestamp) {
             try {
                 const data = new Date(noticia.timestamp);
-                dataHoraFormatada = `${data.toLocaleDateString('pt-BR')} às ${data.getHours().toString().padStart(2, '0')}:${data.getMinutes().toString().padStart(2, '0')}`;
+                // Definindo opções para formatar a data no padrão brasileiro
+                const opcoes = { 
+                    timeZone: 'America/Sao_Paulo',
+                    day: '2-digit', 
+                    month: '2-digit', 
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false
+                };
+                // Formatando com o locale pt-BR e fuso de Brasília
+                const dataFormatada = data.toLocaleDateString('pt-BR', opcoes);
+                const horaFormatada = data.toLocaleTimeString('pt-BR', opcoes).substring(0, 5);
+                dataHoraFormatada = `${dataFormatada} às ${horaFormatada}`;
             } catch (error) {
                 console.error('Erro ao formatar data:', error);
             }
