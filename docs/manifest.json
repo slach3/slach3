@@ -2,7 +2,7 @@
     "name": "GameNews Agregador",
     "short_name": "GameNews",
     "description": "Últimas notícias do mundo dos games",
-    "start_url": ".",
+    "start_url": "https://seudominio.com",
     "display": "standalone",
     "background_color": "#4CAF50",
     "theme_color": "#4CAF50",

@@ -118,6 +118,7 @@ function isWithinLastDays(timestamp, days) {
 
 function renderizarNoticias(noticiasFiltradas, categoria) {
     const container = document.getElementById('noticias');
+    const mainElement = document.querySelector('main');
     
     if (!noticiasFiltradas || noticiasFiltradas.length === 0) {
         container.innerHTML = `
@@ -129,64 +130,56 @@ function renderizarNoticias(noticiasFiltradas, categoria) {
     }
 
     if (categoria === 'jogos') {
-        // Layout para a página de jogos com o jogo em destaque e notícias na lateral
+        mainElement.classList.add('games-layout');
         container.innerHTML = `
-            <div class="games-container">
-                <div class="game-area">
+            <div class="game-area">
+                <div class="game-frame">
                     <h2>Planetary Terraformer</h2>
-                    <div class="game-frame">
-                        <iframe src="https://www.crazygames.com.br/embed/planetary-terraformer" style="width: 100%; height: 100%;" frameborder="0" allow="gamepad *;"></iframe>
+                    <iframe src="https://www.crazygames.com.br/embed/planetary-terraformer" 
+                            style="width: 100%; height: 500px;" 
+                            frameborder="0" 
+                            allow="gamepad *;">
+                    </iframe>
+                    <a href="https://www.crazygames.com" class="save-progress-button">Jogue Na CrazyGames Para Salvar Seu Progresso</a>
+                    <div class="more-games">
+                        <span class="crazygames-icon"></span>
+                        <span>Mais jogos em </span>
+                        <a href="https://www.crazygames.com">CrazyGames.com</a>
                     </div>
                 </div>
             </div>
             <aside class="news-sidebar">
-                ${noticiasFiltradas.map(noticia => `
-                    <article>
-                        <div class="article-img">
-                            <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
-                                 onerror="this.onerror=null; this.src='images/fallback.png';">
-                        </div>
-                        <div class="article-content">
-                            <span class="fonte-badge">${noticia.fonte}</span>
-                            <h2>${noticia.titulo}</h2>
-                            <p>${noticia.descricao}</p>
-                            <a href="${noticia.link}" target="_blank" class="ler-mais">
-                                Ler mais 
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </article>
-                `).join('')}
-            </aside>`;
+                ${noticiasFiltradas.map(noticia => criarCardNoticia(noticia)).join('')}
+            </aside>
+        `;
     } else {
-        // Layout padrão para outras categorias (grid)
+        mainElement.classList.remove('games-layout');
         container.innerHTML = `
             <div class="noticias-grid">
-                ${noticiasFiltradas.map(noticia => `
-                    <article>
-                        <div class="article-img">
-                            <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
-                                 onerror="this.onerror=null; this.src='images/fallback.png';">
-                        </div>
-                        <div class="article-content">
-                            <span class="fonte-badge">${noticia.fonte}</span>
-                            <h2>${noticia.titulo}</h2>
-                            <p>${noticia.descricao}</p>
-                            <a href="${noticia.link}" target="_blank" class="ler-mais">
-                                Ler mais 
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </article>
-                `).join('')}
-            </div>`;
+                ${noticiasFiltradas.map(noticia => criarCardNoticia(noticia)).join('')}
+            </div>
+        `;
     }
+}
 
-    // Adiciona animação de fade-in
-    document.querySelectorAll('article').forEach((article, index) => {
-        article.style.opacity = '0';
-        article.style.animation = `fadeIn 0.3s ease forwards ${index * 0.1}s`;
-    });
+function criarCardNoticia(noticia) {
+    return `
+        <article>
+            <div class="article-img">
+                <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" 
+                     onerror="this.onerror=null; this.src='images/fallback.png';">
+            </div>
+            <div class="article-content">
+                <span class="fonte-badge">${noticia.fonte}</span>
+                <h2>${noticia.titulo}</h2>
+                <p>${noticia.descricao}</p>
+                <a href="${noticia.link}" target="_blank" class="ler-mais">
+                    Ler mais 
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </article>
+    `;
 }
 
 function configurarModoEscuro() {

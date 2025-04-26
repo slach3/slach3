@@ -589,14 +589,51 @@ def gerar_noticias_fallback():
         }
     ]
 
+def is_portuguese_news(noticia):
+    """Verifica se a notícia está em português"""
+    # Fontes em português
+    portuguese_sources = ['IGN Brasil', 'TechTudo', 'TecMundo', 'GameViciados', 'Voxel', 'Adrenaline']
+    
+    # Se a fonte é conhecida em português
+    if noticia.get('fonte') in portuguese_sources:
+        return True
+    
+    # Verifica se o título ou descrição contém caracteres especiais do português
+    text = (noticia.get('titulo', '') + noticia.get('descricao', '')).lower()
+    portuguese_chars = ['ç', 'á', 'à', 'ã', 'â', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú']
+    return any(char in text for char in portuguese_chars)
+
+def is_recent_news(noticia, max_days=7):
+    """Verifica se a notícia é recente (dentro do número máximo de dias)"""
+    from datetime import datetime, timedelta
+    current_time = datetime.now()
+    max_age = timedelta(days=max_days)
+    
+    # Se a notícia tem um timestamp, use-o
+    if 'timestamp' in noticia:
+        news_date = datetime.fromisoformat(noticia['timestamp'])
+        return (current_time - news_date) <= max_age
+    
+    # Por padrão, mantém a notícia se não puder determinar a data
+    return True
+
 def processar_noticias(noticias):
     """Processa e limpa as notícias coletadas"""
     processadas = []
+    current_time = datetime.now()
     
     for noticia in noticias:
         # Limpa e valida os dados
         if not noticia.get('titulo') or not noticia.get('link'):
             continue
+            
+        # Verifica se está em português e é recente
+        if not is_portuguese_news(noticia) or not is_recent_news(noticia):
+            continue
+            
+        # Adiciona timestamp se não existir
+        if 'timestamp' not in noticia:
+            noticia['timestamp'] = current_time.isoformat()
             
         # Limita o tamanho do título
         if len(noticia['titulo']) > 150:
@@ -609,8 +646,8 @@ def processar_noticias(noticias):
         
         processadas.append(noticia)
     
-    # Limita o número total e embaralha
-    random.shuffle(processadas)
+    # Limita o número total e ordena por data (mais recentes primeiro)
+    processadas.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
     return processadas[:30]
 
 def salvar_arquivos_noticias(noticias):
