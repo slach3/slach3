@@ -219,7 +219,7 @@
                         // Para o filtro "todos", verificamos qualquer uma das palavras-chave de console
                         return keywords.todos.some(keyword => texto.includes(keyword));
                     } else {
-                        // Para filtros específicos, usamos apenas as palavras-chave daquele filtro
+                        // Para filtros específicos, verificamos apenas as palavras-chave do filtro selecionado
                         return keywordsAtivas.some(keyword => texto.includes(keyword));
                     }
                 });
@@ -227,61 +227,56 @@
             
             // Função para criar um card de notícia
             function criarCardNoticia(noticia) {
-                const article = document.createElement('article');
-                article.className = 'noticia-card';
+                const card = document.createElement('div');
+                card.className = 'noticia card';
                 
-                const link = document.createElement('a');
-                link.href = noticia.link;
-                link.target = '_blank';
-                link.rel = 'noopener';
+                // Formatar data se disponível
+                let dataFormatada = '';
+                if (noticia.timestamp) {
+                    const data = new Date(noticia.timestamp);
+                    dataFormatada = `${data.toLocaleDateString()} ${data.toLocaleTimeString()}`;
+                }
                 
-                const img = document.createElement('img');
-                img.src = noticia.imagem;
-                img.alt = noticia.titulo;
-                img.loading = 'lazy';
+                card.innerHTML = `
+                    <div class="imagem-container">
+                        <img src="${noticia.imagem || 'images/fallback.html'}" 
+                             alt="${noticia.titulo}" 
+                             onerror="this.src='images/fallback.html'">
+                    </div>
+                    <div class="conteudo">
+                        <h3><a href="${noticia.link}" target="_blank">${noticia.titulo}</a></h3>
+                        <p>${noticia.descricao || ''}</p>
+                        <div class="meta">
+                            ${noticia.fonte ? `<span class="fonte">${noticia.fonte}</span>` : ''}
+                            ${dataFormatada ? `<span class="data">${dataFormatada}</span>` : ''}
+                        </div>
+                    </div>
+                `;
                 
-                const content = document.createElement('div');
-                content.className = 'noticia-content';
-                
-                const title = document.createElement('h3');
-                title.textContent = noticia.titulo;
-                
-                const source = document.createElement('p');
-                source.className = 'noticia-fonte';
-                source.textContent = noticia.fonte;
-                
-                content.appendChild(title);
-                content.appendChild(source);
-                
-                link.appendChild(img);
-                link.appendChild(content);
-                
-                article.appendChild(link);
-                
-                return article;
+                return card;
             }
             
-            // Adicionar eventos aos botões de filtro
-            const filterButtons = document.querySelectorAll('.filter-button');
-            filterButtons.forEach(button => {
-                button.addEventListener('click', function() {
+            // Configurar botões de filtro
+            const botoesFiltro = document.querySelectorAll('.filter-button');
+            botoesFiltro.forEach(botao => {
+                botao.addEventListener('click', function() {
                     // Remover classe ativa de todos os botões
-                    filterButtons.forEach(btn => btn.classList.remove('active'));
-                    
+                    botoesFiltro.forEach(b => b.classList.remove('active'));
                     // Adicionar classe ativa ao botão clicado
                     this.classList.add('active');
                     
-                    // Aplicar o filtro
+                    // Filtrar notícias com base no filtro selecionado
                     const filtro = this.getAttribute('data-filter');
+                    const noticiasFiltradas = filtrarNoticiasConsoles(noticias, filtro);
+                    
+                    // Atualizar a exibição
                     const container = document.getElementById('noticias-consoles');
                     container.innerHTML = '';
                     
-                    const noticiasConsoles = filtrarNoticiasConsoles(noticias, filtro);
-                    
-                    if (noticiasConsoles.length === 0) {
+                    if (noticiasFiltradas.length === 0) {
                         const mensagem = document.createElement('div');
                         mensagem.className = 'mensagem-vazia';
-                        mensagem.textContent = 'Nenhuma notícia encontrada para este filtro.';
+                        mensagem.textContent = `Nenhuma notícia sobre ${filtro} encontrada.`;
                         container.appendChild(mensagem);
                         return;
                     }
@@ -292,14 +287,14 @@
                     container.appendChild(grid);
                     
                     // Adicionar as notícias
-                    noticiasConsoles.forEach(noticia => {
+                    noticiasFiltradas.forEach(noticia => {
                         const card = criarCardNoticia(noticia);
                         grid.appendChild(card);
                     });
                 });
             });
             
-            // Carregar as notícias ao iniciar a página
+            // Carregar notícias de consoles quando a página carregar
             carregarNoticiasConsoles();
         });
     </script>
