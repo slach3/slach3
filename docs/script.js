@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Tentar carregar o arquivo noticias.js manualmente
         const script = document.createElement('script');
-        script.src = '/slach3/noticias.js';
+        script.src = './noticias.js';
         script.onload = function() {
             console.log('noticias.js carregado com sucesso!');
             carregarNoticias();
@@ -52,7 +52,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         iframe.addEventListener('load', function() {
-            if (this.contentDocument && this.contentDocument.body.innerHTML === '') {
+            try {
+                if (this.contentDocument && this.contentDocument.body.innerHTML === '') {
+                    this.setAttribute('data-failed', 'true');
+                }
+            } catch (e) {
                 this.setAttribute('data-failed', 'true');
             }
         });
@@ -62,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // Função para carregar notícias
 function carregarNoticias() {
     try {
-        // As notícias já estão no escopo global via noticias.js
-        if (typeof noticias === 'undefined' || !noticias) {
+        // Verificar explicitamente se noticias está definido
+        if (typeof window.noticias === 'undefined' || !window.noticias) {
             throw new Error('Notícias não encontradas');
         }
         
@@ -80,7 +84,7 @@ function carregarNoticias() {
         const filtrosContainer = document.querySelector('.filtro-fontes');
         
         if (filtrosContainer) {
-            const fontes = [...new Set(noticias.map(noticia => noticia.fonte))];
+            const fontes = [...new Set(window.noticias.map(noticia => noticia.fonte))];
             fontes.forEach(fonte => {
                 const filtroItem = document.createElement('div');
                 filtroItem.className = 'filtro-item';
@@ -122,7 +126,7 @@ function carregarNoticias() {
             filtrarPorCategoria(categoriaParam);
         } else {
             // Exibe todas as notícias inicialmente
-            exibirNoticias(noticias);
+            exibirNoticias(window.noticias);
         }
         
         // Configura busca
@@ -139,24 +143,6 @@ function carregarNoticias() {
             botaoBusca.addEventListener('click', filtrarNoticias);
         }
         
-        // Configura navegação na página principal (não usamos no jogos.html)
-        const isIndexPage = window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/');
-        
-        if (isIndexPage) {
-            const navLinks = document.querySelectorAll('nav a');
-            navLinks.forEach(link => {
-                if (link.getAttribute('href').startsWith('index.html?categoria=')) {
-                    link.addEventListener('click', (e) => {
-                        // Não precisamos prevenir o comportamento padrão pois queremos navegar
-                        
-                        // Apenas para links que são categorias na mesma página
-                        const categoria = link.querySelector('span').textContent.trim();
-                        console.log(`Navegando para categoria: ${categoria}`);
-                    });
-                }
-            });
-        }
-        
     } catch (error) {
         console.error('Erro ao carregar notícias:', error);
         const container = document.getElementById('noticias');
@@ -166,11 +152,21 @@ function carregarNoticias() {
     }
 }
 
+// Função helper para obter parâmetros da URL, disponível globalmente
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 function filtrarNoticias() {
     const termoBusca = document.getElementById('busca')?.value.toLowerCase() || '';
     const fontesSelecionadas = Array.from(document.querySelectorAll('.filtro-item input:checked')).map(cb => cb.value);
     
-    const noticiasFiltered = noticias.filter(noticia => {
+    const noticiasFiltered = window.noticias.filter(noticia => {
         // Usar o campo título correto
         const matchTermo = noticia.titulo.toLowerCase().includes(termoBusca);
         const matchFonte = fontesSelecionadas.length === 0 || fontesSelecionadas.includes(noticia.fonte);
@@ -182,7 +178,7 @@ function filtrarNoticias() {
 
 function filtrarPorCategoria(categoria) {
     if (categoria === 'Todas') {
-        exibirNoticias(noticias);
+        exibirNoticias(window.noticias);
         return;
     }
     
@@ -192,7 +188,7 @@ function filtrarPorCategoria(categoria) {
     let noticiasFiltered;
     
     if (categoriaLower === 'consoles') {
-        noticiasFiltered = noticias.filter(noticia => 
+        noticiasFiltered = window.noticias.filter(noticia => 
             noticia.titulo.toLowerCase().includes('console') ||
             noticia.titulo.toLowerCase().includes('ps5') ||
             noticia.titulo.toLowerCase().includes('xbox') ||
@@ -200,7 +196,7 @@ function filtrarPorCategoria(categoria) {
             noticia.titulo.toLowerCase().includes('switch')
         );
     } else if (categoriaLower === 'jogos') {
-        noticiasFiltered = noticias.filter(noticia => 
+        noticiasFiltered = window.noticias.filter(noticia => 
             !noticia.titulo.toLowerCase().includes('console') &&
             !noticia.titulo.toLowerCase().includes('ps5') &&
             !noticia.titulo.toLowerCase().includes('xbox') &&
@@ -208,7 +204,7 @@ function filtrarPorCategoria(categoria) {
             !noticia.titulo.toLowerCase().includes('switch')
         );
     } else {
-        noticiasFiltered = noticias;
+        noticiasFiltered = window.noticias;
     }
     
     exibirNoticias(noticiasFiltered);
