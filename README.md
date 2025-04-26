@@ -25,6 +25,9 @@ Este projeto é um site de notícias de jogos chamado **GameNews**, com RSS auto
 - [25/04/2025] Reorganização do projeto para usar a pasta docs/ para GitHub Pages
 - [25/04/2025] Atualização do design para um visual minimalista e moderno
 - [25/04/2025] Implementação do modo escuro e melhorias na responsividade
+- [25/04/2025] Implementação da categorização de notícias (consoles, jogos, esports)
+- [25/04/2025] Melhorias no sistema de detecção de categorias com palavras-chave
+- [25/04/2025] Integração da atualização automática do README no workflow do GitHub Actions
 
 ## Funcionalidades
 
@@ -68,7 +71,6 @@ Um workflow do GitHub Actions executa este script periodicamente, garantindo que
 
 ## ⏰ ÚLTIMA ATUALIZAÇÃO
 **25/04/2025 - 23:52:08**
-- Implementação do novo design minimalista
-- Reorganização do projeto para pasta docs/
-- Adição das regras de conduta em português
-- Atualização do layout responsivo
+- Implementação da atualização automática do histórico
+- Melhorias no sistema de categorização de notícias
+- Configuração do GitHub Actions para atualização do README

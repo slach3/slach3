@@ -41,6 +41,16 @@ jobs:
           mv noticias.js docs/
           mv noticias.json docs/
       
+      - name: Atualizar README
+        run: |
+          # Atualiza a data da última atualização
+          sed -i "s/## ⏰ ÚLTIMA ATUALIZAÇÃO.*$/## ⏰ ÚLTIMA ATUALIZAÇÃO\n**$(date '+%Y-%m-%d - %H:%M:%S')**/" README.md
+          
+          # Adiciona entrada no histórico se houve mudanças
+          if git diff --name-only | grep -q "docs/noticias.js\|docs/noticias.json"; then
+            sed -i "/## 📜 Histórico de Desenvolvimento/a - [$(date '+%Y-%m-%d')] Atualização automática de notícias" README.md
+          fi
+      
       - name: Configurar Git
         run: |
           git config --local user.email "github-actions@github.com"
@@ -49,18 +59,18 @@ jobs:
       - name: Verificar mudanças
         id: verify-changes
         run: |
-          if git diff --name-only | grep -q "docs/noticias.js\|docs/noticias.json"; then
+          if git diff --name-only | grep -q "docs/noticias.js\|docs/noticias.json\|README.md"; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "Mudanças detectadas nos arquivos de notícias."
+            echo "Mudanças detectadas nos arquivos."
           else
             echo "changes=false" >> $GITHUB_OUTPUT
-            echo "Nenhuma mudança detectada nos arquivos de notícias."
+            echo "Nenhuma mudança detectada."
           fi
       
       - name: Commit e push das mudanças
         if: steps.verify-changes.outputs.changes == 'true'
         run: |
-          git add docs/noticias.js docs/noticias.json
-          git commit -m "Atualização automática de notícias de jogos - $(date '+%Y-%m-%d %H:%M:%S')"
+          git add docs/noticias.js docs/noticias.json README.md
+          git commit -m "Atualização automática de notícias e README - $(date '+%Y-%m-%d %H:%M:%S')"
           git push || git pull --rebase && git push
-          echo "Notícias atualizadas com sucesso!"
+          echo "Arquivos atualizados com sucesso!"

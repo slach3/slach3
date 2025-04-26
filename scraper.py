@@ -6,8 +6,12 @@ from datetime import datetime, timedelta
 import random
 import os
 import logging
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import hashlib
 
-# Configuração de logs
+# Configuração de logs em português
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -18,23 +22,48 @@ logging.basicConfig(
 )
 
 CACHE_FILE = 'cache/noticias_cache.json'
-CACHE_DURATION = timedelta(hours=1)  # Cache expira após 1 hora
+CACHE_DURATION = timedelta(minutes=30)  # Cache reduzido para 30 minutos
+MAX_RETRIES = 3
+TIMEOUT = 30  # Aumentado para 30 segundos
+
+def criar_sessao():
+    """Cria uma sessão HTTP com retry automático"""
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=MAX_RETRIES,
+        backoff_factor=1,
+        status_forcelist=[500, 502, 503, 504],
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+def gerar_hash_noticia(noticia):
+    """Gera um identificador único para cada notícia baseado no título e link"""
+    conteudo = f"{noticia['titulo']}{noticia['link']}".encode('utf-8')
+    return hashlib.md5(conteudo).hexdigest()
 
 def carregar_cache():
+    """Carrega notícias do cache se ainda estiverem válidas"""
     try:
         if not os.path.exists('cache'):
             os.makedirs('cache')
+            logging.info("Diretório de cache criado")
         if os.path.exists(CACHE_FILE):
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 cache = json.load(f)
                 if datetime.fromisoformat(cache['timestamp']) + CACHE_DURATION > datetime.now():
-                    logging.info("Usando dados do cache")
+                    logging.info("Usando notícias em cache")
                     return cache['noticias']
+                else:
+                    logging.info("Cache expirado, buscando novas notícias")
     except Exception as e:
-        logging.error(f"Erro ao carregar cache: {e}")
+        logging.error(f"Erro ao carregar cache: {str(e)}")
     return None
 
 def salvar_cache(noticias):
+    """Salva as notícias em cache com timestamp"""
     try:
         cache = {
             'timestamp': datetime.now().isoformat(),
@@ -44,7 +73,7 @@ def salvar_cache(noticias):
             json.dump(cache, f, ensure_ascii=False, indent=4)
         logging.info("Cache atualizado com sucesso")
     except Exception as e:
-        logging.error(f"Erro ao salvar cache: {e}")
+        logging.error(f"Erro ao salvar cache: {str(e)}")
 
 def get_user_agent():
     user_agents = [
@@ -57,13 +86,20 @@ def get_user_agent():
     ]
     return random.choice(user_agents)
 
-def coletar_noticias_techtudo():
+def processar_fonte(coletor, session):
+    try:
+        return coletor(session)
+    except Exception as e:
+        logging.error(f"Erro ao processar {coletor.__name__}: {e}")
+        return []
+
+def coletar_noticias_techtudo(session):
     logging.info("Coletando notícias do TechTudo (Games)...")
     url = "https://www.techtudo.com.br/games/"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta TechTudo: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -118,13 +154,13 @@ def coletar_noticias_techtudo():
         logging.error(f"Erro ao coletar notícias do TechTudo: {e}")
         return []
 
-def coletar_noticias_ign():
+def coletar_noticias_ign(session):
     logging.info("Coletando notícias da IGN Brasil...")
     url = "https://br.ign.com/"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta IGN: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -174,13 +210,13 @@ def coletar_noticias_ign():
         logging.error(f"Erro ao coletar notícias da IGN Brasil: {e}")
         return []
 
-def coletar_noticias_pcgamer():
+def coletar_noticias_pcgamer(session):
     logging.info("Coletando notícias da PC Gamer...")
     url = "https://www.pcgamer.com/news/"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta PC Gamer: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -234,13 +270,13 @@ def coletar_noticias_pcgamer():
         logging.error(f"Erro ao coletar notícias da PC Gamer: {e}")
         return []
 
-def coletar_noticias_adrenaline():
+def coletar_noticias_adrenaline(session):
     logging.info("Coletando notícias do Adrenaline...")
     url = "https://adrenaline.com.br/noticias/v/77809/games"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta Adrenaline: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -294,13 +330,13 @@ def coletar_noticias_adrenaline():
         logging.error(f"Erro ao coletar notícias do Adrenaline: {e}")
         return []
 
-def coletar_noticias_tecmundo():
+def coletar_noticias_tecmundo(session):
     logging.info("Coletando notícias do TecMundo (Games)...")
     url = "https://www.tecmundo.com.br/minha-serie/jogos"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta TecMundo: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -352,13 +388,13 @@ def coletar_noticias_tecmundo():
         logging.error(f"Erro ao coletar notícias do TecMundo: {e}")
         return []
 
-def coletar_noticias_gameviciados():
+def coletar_noticias_gameviciados(session):
     logging.info("Coletando notícias do GameViciados...")
     url = "https://www.gamevicio.com/"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta GameViciados: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -408,13 +444,13 @@ def coletar_noticias_gameviciados():
         logging.error(f"Erro ao coletar notícias do GameViciados: {e}")
         return []
 
-def coletar_noticias_voxel():
+def coletar_noticias_voxel(session):
     logging.info("Coletando notícias do Voxel...")
     url = "https://www.tecmundo.com.br/voxel"
     headers = {'User-Agent': get_user_agent()}
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=TIMEOUT)
         logging.info(f"Status da resposta Voxel: {response.status_code}")
         soup = BeautifulSoup(response.text, 'html.parser')
         noticias = []
@@ -469,125 +505,132 @@ def coletar_noticias_voxel():
 def coletar_e_salvar_noticias():
     logging.info(f"===== Iniciando coleta de notícias em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====")
     
-    # Verificar cache primeiro
+    # Tenta usar o cache primeiro
     noticias_cache = carregar_cache()
     if noticias_cache:
+        return salvar_arquivos_noticias(noticias_cache)
+
+    session = criar_sessao()
+    todas_noticias = []
+    noticias_hash = set()  # Para evitar duplicatas
+
+    # Coleta paralela de fontes
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = []
+        for coletor in [
+            coletar_noticias_techtudo,
+            coletar_noticias_ign,
+            coletar_noticias_pcgamer,
+            coletar_noticias_adrenaline,
+            coletar_noticias_tecmundo,
+            coletar_noticias_gameviciados,
+            coletar_noticias_voxel
+        ]:
+            futures.append(executor.submit(processar_fonte, coletor, session))
+        
+        for future in as_completed(futures):
+            noticias = future.result()
+            for noticia in noticias:
+                noticia_hash = gerar_hash_noticia(noticia)
+                if noticia_hash not in noticias_hash:
+                    noticias_hash.add(noticia_hash)
+                    todas_noticias.append(noticia)
+
+    # Tratamento para notícias faltantes
+    if len(todas_noticias) <= 1:
+        logging.warning("Usando notícias de fallback devido à falha na coleta")
+        todas_noticias = gerar_noticias_fallback()
+
+    # Processamento final
+    noticias_processadas = processar_noticias(todas_noticias)
+    
+    # Salva no cache
+    salvar_cache(noticias_processadas)
+    
+    # Salva os arquivos
+    salvar_arquivos_noticias(noticias_processadas)
+
+def gerar_noticias_fallback():
+    return [
+        {
+            "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
+            "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
+            "link": "https://exemplo.com/gta6",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        },
+        {
+            "titulo": "Nintendo revela novo console sucessor do Switch",
+            "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
+            "link": "https://exemplo.com/switch2",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        },
+        {
+            "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
+            "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
+            "link": "https://exemplo.com/eldenring-dlc",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        },
+        {
+            "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
+            "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
+            "link": "https://exemplo.com/microsoft-aquisicao",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        },
+        {
+            "titulo": "Novo jogo da série God of War é anunciado para PS5",
+            "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
+            "link": "https://exemplo.com/god-of-war",
+            "imagem": "images/fallback.html",
+            "fonte": "GameNews"
+        }
+    ]
+
+def processar_noticias(noticias):
+    """Processa e limpa as notícias coletadas"""
+    processadas = []
+    
+    for noticia in noticias:
+        # Limpa e valida os dados
+        if not noticia.get('titulo') or not noticia.get('link'):
+            continue
+            
+        # Limita o tamanho do título
+        if len(noticia['titulo']) > 150:
+            noticia['titulo'] = noticia['titulo'][:147] + '...'
+        
+        # Garante que todos os campos necessários existem
+        noticia['descricao'] = noticia.get('descricao', 'Clique para ler mais...')
+        noticia['imagem'] = noticia.get('imagem') or 'images/fallback.html'
+        noticia['fonte'] = noticia.get('fonte', 'GameNews')
+        
+        processadas.append(noticia)
+    
+    # Limita o número total e embaralha
+    random.shuffle(processadas)
+    return processadas[:30]
+
+def salvar_arquivos_noticias(noticias):
+    """Salva as notícias nos arquivos JSON e JS"""
+    try:
+        # Salva JSON
         with open('noticias.json', 'w', encoding='utf-8') as f:
-            json.dump(noticias_cache, f, ensure_ascii=False, indent=4)
+            json.dump(noticias, f, ensure_ascii=False, indent=4)
+        
+        # Salva JavaScript
         with open('noticias.js', 'w', encoding='utf-8') as f:
             f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("const noticias = ")
-            f.write(json.dumps(noticias_cache, ensure_ascii=False, indent=4))
+            f.write(json.dumps(noticias, ensure_ascii=False, indent=4))
             f.write(";")
-        logging.info("Arquivos atualizados a partir do cache")
-        return
-
-    todas_noticias = []
-    
-    # Implementação do rate limiting
-    delay_between_requests = random.uniform(2, 4)  # Delay aleatório entre 2-4 segundos
-
-    # Coleta de fontes diferentes com tratamento de erros específico para cada fonte
-    for coletor in [
-        coletar_noticias_techtudo,
-        coletar_noticias_ign,
-        coletar_noticias_pcgamer,
-        coletar_noticias_adrenaline,
-        coletar_noticias_tecmundo,
-        coletar_noticias_gameviciados,
-        coletar_noticias_voxel
-    ]:
-        try:
-            todas_noticias.extend(coletor())
-            time.sleep(delay_between_requests)
-        except Exception as e:
-            logging.error(f"Falha completa no processamento de {coletor.__name__}: {e}")
-
-    # Tratamento para imagens faltantes e duplicados
-    noticias_filtradas = []
-    titulos_adicionados = set()
-    
-    for noticia in todas_noticias:
-        # Limita títulos a 150 caracteres para evitar problemas de exibição
-        if len(noticia['titulo']) > 150:
-            noticia['titulo'] = noticia['titulo'][:147] + '...'
-            
-        # Evita notícias duplicadas (baseado no título)
-        titulo_simplificado = noticia['titulo'].lower()[:50]
-        if titulo_simplificado in titulos_adicionados:
-            continue
         
-        titulos_adicionados.add(titulo_simplificado)
-        
-        # Define imagem padrão se não tiver
-        if not noticia.get('imagem'):
-            noticia['imagem'] = 'images/fallback.html'
-        
-        noticias_filtradas.append(noticia)
-    
-    # Se não conseguir coletar notícias, usa exemplos
-    if len(noticias_filtradas) <= 1:
-        logging.warning("Não foi possível coletar notícias suficientes, usando exemplos.")
-        noticias_filtradas = [
-            {
-                "titulo": "GTA VI recebe data oficial de lançamento e novo trailer",
-                "descricao": "Rockstar Games anuncia que Grand Theft Auto VI chega em outubro de 2025 para PS5 e Xbox Series X|S, com versão para PC prevista para 2026.",
-                "link": "https://exemplo.com/gta6",
-                "imagem": "images/fallback.html",
-                "fonte": "GameNews"
-            },
-            {
-                "titulo": "Nintendo revela novo console sucessor do Switch",
-                "descricao": "O esperado 'Switch 2' foi finalmente apresentado com gráficos em 4K e retrocompatibilidade com jogos do Switch original.",
-                "link": "https://exemplo.com/switch2",
-                "imagem": "images/fallback.html",
-                "fonte": "GameNews"
-            },
-            {
-                "titulo": "Elden Ring: Shadow of the Erdtree recebe nota máxima em análises",
-                "descricao": "A expansão do jogo do ano de 2022 está sendo aclamada como uma das melhores DLCs de todos os tempos.",
-                "link": "https://exemplo.com/eldenring-dlc",
-                "imagem": "images/fallback.html",
-                "fonte": "GameNews"
-            },
-            {
-                "titulo": "Microsoft anuncia aquisição de mais um estúdio de jogos",
-                "descricao": "Após Activision Blizzard, a gigante de tecnologia continua expandindo seu portfólio para o Xbox Game Pass.",
-                "link": "https://exemplo.com/microsoft-aquisicao",
-                "imagem": "images/fallback.html",
-                "fonte": "GameNews"
-            },
-            {
-                "titulo": "Novo jogo da série God of War é anunciado para PS5",
-                "descricao": "Sony confirma que Kratos retornará em uma nova aventura, dando continuidade à saga nórdica iniciada em 2018.",
-                "link": "https://exemplo.com/god-of-war",
-                "imagem": "images/fallback.html",
-                "fonte": "GameNews"
-            }
-        ]
-    
-    # Embaralha as notícias para criar mais variedade visual
-    random.shuffle(noticias_filtradas)
-    
-    # Limita o número total de notícias para 30 para não sobrecarregar a página
-    if len(noticias_filtradas) > 30:
-        noticias_filtradas = noticias_filtradas[:30]
-    
-    logging.info(f"Total de notícias coletadas após filtragem: {len(noticias_filtradas)}")
-    
-    # Gera arquivo JSON
-    with open('noticias.json', 'w', encoding='utf-8') as f:
-        json.dump(noticias_filtradas, f, ensure_ascii=False, indent=4)
-    
-    # Gera arquivo JavaScript
-    with open('noticias.js', 'w', encoding='utf-8') as f:
-        f.write(f"// Atualizado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write("const noticias = ")
-        f.write(json.dumps(noticias_filtradas, ensure_ascii=False, indent=4))
-        f.write(";")
-    
-    logging.info(f"Arquivos noticias.json e noticias.js gerados com sucesso!")
-    logging.info(f"===== Coleta finalizada em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =====\n")
+        logging.info("Arquivos noticias.json e noticias.js gerados com sucesso!")
+    except Exception as e:
+        logging.error(f"Erro ao salvar arquivos: {e}")
+        raise
 
 if __name__ == "__main__":
     coletar_e_salvar_noticias()
