@@ -10,6 +10,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Verificar se as notícias estão disponíveis ou tentar carregá-las
+    if (typeof noticias === 'undefined' || !noticias) {
+        console.log('Tentando carregar noticias.js novamente...');
+        
+        // Tentar carregar o arquivo noticias.js manualmente
+        const script = document.createElement('script');
+        script.src = '/slach3/noticias.js';
+        script.onload = function() {
+            console.log('noticias.js carregado com sucesso!');
+            carregarNoticias();
+        };
+        script.onerror = function() {
+            console.error('Falha ao carregar noticias.js');
+            const container = document.getElementById('noticias');
+            if (container) {
+                container.innerHTML = '<div class="erro"><p>Erro ao carregar as notícias. Por favor, recarregue a página.</p><button onclick="window.location.reload()">Recarregar</button></div>';
+            }
+        };
+        document.head.appendChild(script);
+    } else {
+        // Se já estiver disponível, carregar normalmente
+        carregarNoticias();
+    }
+
     // Função para obter parâmetros da URL
     function getParameterByName(name, url = window.location.href) {
         name = name.replace(/[\[\]]/g, '\\$&');
@@ -33,9 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-    // Função para carregar notícias
-    carregarNoticias();
 });
 
 // Função para carregar notícias
