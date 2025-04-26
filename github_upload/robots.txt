@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://slach3.github.io/slach3/sitemap.xml
+
+Disallow: /backups/
+Disallow: /cache/
+Disallow: /github_upload/

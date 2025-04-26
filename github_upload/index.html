@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agregador de notícias de games com as últimas novidades do mundo dos jogos">
+    <meta name="theme-color" content="#4CAF50">
+    
+    <title>GameNews Agregador</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- Tema escuro -->
+    <script>
+        if (localStorage.getItem('darkMode') === 'true' || 
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark-mode');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <h1>GameNews</h1>
+            </div>
+            <div class="header-controls">
+                <button id="darkModeToggle" aria-label="Alternar modo escuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="search-container">
+                    <input type="text" id="busca" placeholder="Buscar notícias..." 
+                           aria-label="Campo de busca">
+                    <button id="botaoBusca" aria-label="Buscar">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <a href="#" class="active" data-category="todos">
+                <i class="fas fa-globe"></i> Todas
+            </a>
+            <a href="#" data-category="consoles">
+                <i class="fas fa-tv"></i> Consoles
+            </a>
+            <a href="#" data-category="jogos">
+                <i class="fas fa-dice"></i> Jogos
+            </a>
+            <a href="#" data-category="esports">
+                <i class="fas fa-trophy"></i> eSports
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <aside id="filtroFontes" class="filtros-container">
+            <h3><i class="fas fa-filter"></i> Filtrar por fonte</h3>
+            <div class="filtros-lista">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </aside>
+
+        <section class="content">
+            <div id="destaqueContainer">
+                <!-- Preenchido via JavaScript -->
+                <div class="skeleton-loader">
+                    <div class="skeleton"></div>
+                </div>
+            </div>
+
+            <div class="noticias-grid" id="noticias">
+                <!-- Preenchido via JavaScript -->
+                <div class="skeleton-loader">
+                    <div class="skeleton"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 GameNews Agregador</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="noticias.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
