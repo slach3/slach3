@@ -7,6 +7,16 @@ darkModeToggle.addEventListener('click', () => {
     localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode'));
 });
 
+// Função para obter parâmetros da URL
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 // Função para carregar notícias
 function carregarNoticias() {
     try {
@@ -48,8 +58,27 @@ function carregarNoticias() {
             });
         }
         
-        // Exibe todas as notícias inicialmente
-        exibirNoticias(noticias);
+        // Verificar se há parâmetro de categoria na URL
+        const categoriaParam = getParameterByName('categoria');
+        if (categoriaParam) {
+            // Ativar o link da categoria correspondente
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                const linkCategoria = link.querySelector('span').textContent.trim().toLowerCase();
+                if (linkCategoria === categoriaParam.toLowerCase()) {
+                    // Remove classe ativa de todos os links
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    // Adiciona classe ativa ao link correspondente
+                    link.classList.add('active');
+                }
+            });
+            
+            // Filtrar por categoria
+            filtrarPorCategoria(categoriaParam);
+        } else {
+            // Exibe todas as notícias inicialmente
+            exibirNoticias(noticias);
+        }
         
         // Configura busca
         const busca = document.getElementById('busca');
@@ -65,23 +94,23 @@ function carregarNoticias() {
             botaoBusca.addEventListener('click', filtrarNoticias);
         }
         
-        // Configura navegação
-        const navLinks = document.querySelectorAll('nav a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                
-                // Remove classe ativa de todos os links
-                navLinks.forEach(l => l.classList.remove('active'));
-                
-                // Adiciona classe ativa ao link clicado
-                link.classList.add('active');
-                
-                // Filtra por categoria
-                const categoria = link.querySelector('span').textContent.trim();
-                filtrarPorCategoria(categoria);
+        // Configura navegação na página principal (não usamos no jogos.html)
+        const isIndexPage = window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/');
+        
+        if (isIndexPage) {
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                if (link.getAttribute('href').startsWith('index.html?categoria=')) {
+                    link.addEventListener('click', (e) => {
+                        // Não precisamos prevenir o comportamento padrão pois queremos navegar
+                        
+                        // Apenas para links que são categorias na mesma página
+                        const categoria = link.querySelector('span').textContent.trim();
+                        console.log(`Navegando para categoria: ${categoria}`);
+                    });
+                }
             });
-        });
+        }
         
     } catch (error) {
         console.error('Erro ao carregar notícias:', error);
@@ -158,7 +187,8 @@ function exibirNoticias(noticiasArray) {
         article.innerHTML = `
             <a href="${noticia.link}" target="_blank" rel="noopener">
                 <div class="article-img">
-                    <img src="${noticia.imagem || 'images/fallback.jpg'}" alt="${noticia.titulo}" onerror="this.src='images/fallback.jpg'">
+                    <img src="${noticia.imagem || '#'}" alt="${noticia.titulo}" 
+                         onerror="this.onerror=null; this.style.background='#41BCDB'; this.style.display='flex'; this.style.justifyContent='center'; this.style.alignItems='center'; this.src='data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'white\'%3e%3cpath d=\'M13 13h-2V7h2v6zm0 4h-2v-2h2v2z\'/%3e%3c/svg%3e';">
                 </div>
                 <div class="article-content">
                     <div class="fonte-badge">${noticia.fonte}</div>
