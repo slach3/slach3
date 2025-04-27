@@ -3,25 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jogue seus jogos favoritos e acompanhe as últimas notícias">
-    <meta name="theme-color" content="#ffffff">
-    
-    <title>GameNews - Jogos</title>
-    
+    <meta name="description" content="NeonTube - Jogos em estilo neon">
+    <title>NeonTube - Jogos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- PWA -->
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    
-    <script>
-        if (localStorage.getItem('darkMode') === 'true' || 
-            window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.documentElement.classList.add('dark-mode');
-        }
-    </script>
     
     <style>
         /* Estilos específicos para a página de jogos */
@@ -38,8 +24,9 @@
             overflow: hidden;
             border-radius: 8px;
             margin-bottom: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: var(--bg-color-card);
+            box-shadow: 0 0 15px var(--shadow-color);
+            background-color: var(--card-background);
+            border: 1px solid var(--primary-color);
         }
         
         .iframe-container iframe {
@@ -55,7 +42,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: var(--bg-color-card);
+            background-color: var(--card-background);
             padding: 20px;
             text-align: center;
             justify-content: center;
@@ -67,35 +54,28 @@
             display: flex;
         }
         
-        .erro-jogo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100%;
-            padding: 20px;
-            text-align: center;
-            background-color: var(--bg-color-card);
-        }
-        
-        .erro-jogo p {
-            margin-bottom: 20px;
-            font-size: 18px;
+        .game-frame h2 {
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            text-shadow: 0 0 8px var(--primary-color), 0 0 15px var(--primary-color);
         }
         
         .save-progress-button {
             display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
+            background-color: var(--accent-secondary);
+            color: var(--background-color);
             padding: 10px 20px;
             border-radius: 4px;
             text-decoration: none;
             margin-top: 15px;
             transition: background-color 0.3s;
+            font-weight: bold;
+            box-shadow: 0 0 8px var(--accent-secondary), 0 0 15px var(--accent-secondary);
         }
         
         .save-progress-button:hover {
-            background-color: var(--primary-color-dark);
+            background-color: #66FFFF;
+            box-shadow: 0 0 12px #66FFFF, 0 0 20px #66FFFF;
         }
         
         /* Games list */
@@ -107,16 +87,18 @@
         }
         
         .game-card {
-            background-color: var(--bg-color-card);
+            background-color: var(--card-background);
             border-radius: 8px;
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 8px var(--shadow-color);
+            border: 1px solid var(--border-color);
         }
         
         .game-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px var(--primary-color);
+            border-color: var(--primary-color);
         }
         
         .game-card img {
@@ -132,33 +114,34 @@
         .game-info h3 {
             margin: 0 0 10px 0;
             font-size: 18px;
+            color: var(--accent-color);
+            text-shadow: 0 0 5px var(--accent-color);
         }
         
         .game-info p {
             margin: 0 0 10px 0;
             font-size: 14px;
-            color: var(--text-color-secondary);
+            color: var(--text-secondary);
+        }
+        
+        .news-sidebar {
+            background-color: var(--card-background);
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 0 15px var(--shadow-color);
+            border: 1px solid var(--primary-color);
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <div class="left-header">
-                <h1>
-                    <i class="fas fa-gamepad"></i>
-                    GameNews
-                </h1>
-                <nav>
-                    <a href="index.html"><i class="fas fa-layer-group"></i><span>Todas</span></a>
-                    <a href="index.html?categoria=consoles"><i class="fas fa-tv"></i><span>Consoles</span></a>
-                    <a href="jogos.html" class="active"><i class="fas fa-dice"></i><span>Jogos</span></a>
-                </nav>
-            </div>
-            <div class="header-controls">
-                <button id="darkModeToggle" aria-label="Alternar modo escuro">
-                    <i class="fas fa-moon"></i>
-                </button>
+            <div class="logo">NeonTube</div>
+            <div class="buttons">
+                <a href="index.html" class="btn btn-watch">Início</a>
+                <a href="jogos.html" class="btn btn-watch">Jogos</a>
+                <a href="consoles.html" class="btn btn-watch">Consoles</a>
+                <button class="btn btn-login">Entrar</button>
             </div>
         </div>
     </header>
@@ -246,6 +229,10 @@
             </div>
         </aside>
     </main>
+
+    <footer>
+        <p>&copy; 2025 NeonTube - Todos os direitos reservados</p>
+    </footer>
 
     <!-- Scripts -->
     <script src="noticias.js"></script>
