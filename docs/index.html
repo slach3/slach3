@@ -1,35 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NeonTube - Jogos em estilo neon">
-    <title>NeonTube</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="manifest.json">
-</head>
-<body>
-    <header>
-        <div class="header-content">
-            <div class="logo">NeonTube</div>
-            <div class="buttons">
-                <button class="btn btn-login">Entrar</button>
-                <button class="btn btn-watch">Assistir</button>
-            </div>
-        </div>
-    </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NeonTube - Jogos em estilo neon">
+  <title>NeonTube</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    :root {
+      --neon-orange: #FF9100;
+      --neon-red: #FF1E00;
+      --neon-cyan: #00FFFF;
+      --neon-purple: #8000FF;
+      --background-dark: #0a0a0a;
+      --text-light: #FFFFFF;
+    }
 
-    <main>
-        <div class="container">
-            <h1>Bem-vindo ao NeonTube</h1>
-            <p>Explore os melhores jogos em estilo neon.</p>
-        </div>
-    </main>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--background-dark);
+      color: var(--text-light);
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      background: #0d0d0d;
+      padding-top: 20px;
+      height: 100vh;
+      position: fixed;
+      overflow-y: auto;
+      border-right: 1px solid #222;
+    }
+
+    .sidebar a {
+      display: block;
+      color: var(--text-light);
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sidebar a:hover {
+      background: var(--neon-purple);
+      text-shadow: 0 0 5px var(--neon-purple);
+    }
+
+    /* Main content */
+    .main {
+      margin-left: 220px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Topbar */
+    .topbar {
+      background: #0d0d0d;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #222;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--neon-orange);
+      text-shadow: 0 0 8px var(--neon-orange), 0 0 15px var(--neon-orange);
+    }
+
+    .search-bar {
+      flex: 1;
+      margin: 0 20px;
+      position: relative;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 8px 12px;
+      border-radius: 20px;
+      border: none;
+      background: #222;
+      color: var(--text-light);
+    }
+
+    .top-icons {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .top-icons span {
+      background: var(--neon-cyan);
+      padding: 8px;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 8px var(--neon-cyan);
+    }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 20px;
+      background: #111;
+      gap: 10px;
+    }
+
+    .filters button {
+      background: #222;
+      border: none;
+      color: var(--text-light);
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+
+    .filters button:hover {
+      background: var(--neon-cyan);
+      color: #0a0a0a;
+      box-shadow: 0 0 8px var(--neon-cyan);
+    }
+
+    /* Video grid */
+    .videos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .video-card {
+      background: #111;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 8px #333;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .video-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 12px var(--neon-purple);
+    }
+
+    .video-thumb {
+      width: 100%;
+      height: 140px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .video-info {
+      padding: 10px;
+    }
+
+    .video-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .video-meta {
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d0d0d;
+      border-top: 1px solid #222;
+      margin-top: auto;
+      margin-left: 220px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .sidebar {
+        display: none;
+      }
+      .main {
+        margin-left: 0;
+      }
+      footer {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="index.html">Início</a>
+    <a href="jogos.html">Jogos</a>
+    <a href="consoles.html">Consoles</a>
+    <hr style="border: 1px solid #333;">
+    <a href="#">Notícias</a>
+    <a href="#">Reviews</a>
+    <a href="#">Lançamentos</a>
+    <a href="#">Populares</a>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="logo">NeonTube</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar">
+      </div>
+      <div class="top-icons">
+        <span>+</span>
+        <span>🔔</span>
+        <span>👤</span>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <button>Tudo</button>
+      <button>Jogos</button>
+      <button>Notícias</button>
+      <button>Reviews</button>
+      <button>PlayStation</button>
+      <button>Xbox</button>
+      <button>Nintendo</button>
+      <button>PC</button>
+    </div>
+
+    <!-- Notícias em formato de vídeos -->
+    <div class="videos" id="noticias-container">
+      <!-- Conteúdo será preenchido com JavaScript -->
+    </div>
 
     <footer>
-        <p>&copy; 2025 - Todos os direitos reservados</p>
+      <p>&copy; 2025 NeonTube - Todos os direitos reservados</p>
     </footer>
 
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="noticias.js"></script>
+  <script>
+    // Código para carregar as notícias como cards
+    document.addEventListener('DOMContentLoaded', function() {
+      const container = document.getElementById('noticias-container');
+      
+      if (typeof noticias !== 'undefined' && Array.isArray(noticias)) {
+        noticias.forEach(noticia => {
+          const card = document.createElement('div');
+          card.className = 'video-card';
+          card.onclick = function() {
+            window.open(noticia.link, '_blank');
+          };
+          
+          // Imagem com fallback
+          const imgUrl = noticia.imgUrl || 'images/fallback.png';
+          
+          card.innerHTML = `
+            <div class="video-thumb" style="background-image: url('${imgUrl}')"></div>
+            <div class="video-info">
+              <div class="video-title">${noticia.titulo}</div>
+              <div class="video-meta">${noticia.fonte} • ${new Date(noticia.timestamp).toLocaleDateString('pt-BR')}</div>
+            </div>
+          `;
+          
+          container.appendChild(card);
+        });
+      } else {
+        container.innerHTML = '<p>Nenhuma notícia disponível no momento.</p>';
+      }
+    });
+  </script>
 </body>
 </html>
