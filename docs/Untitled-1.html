@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SHALS GAMES</title>
+  <title>SMB GAMES</title>
   <link rel="manifest" href="manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --neon-orange: #FF9100;
-      --neon-red: #FF1E00;
-      --neon-cyan: #00FFFF;
-      --neon-purple: #8000FF;
+      --primary-color: #4A4A4A;
+      --accent-color: #646464;
+      --accent-secondary: #3E3E3E;
       --background-dark: #0a0a0a;
       --text-light: #FFFFFF;
       --secondary-bg: #0d0d0d;
@@ -22,7 +21,7 @@
 
     body {
       margin: 0;
-      font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+      font-family: 'Space Mono', monospace;
       background: var(--background-dark);
       color: var(--text-light);
       display: flex;
@@ -38,7 +37,7 @@
       position: fixed;
       overflow-y: auto;
       border-right: 1px solid var(--border-color);
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
     }
 
     .sidebar a {
@@ -54,8 +53,8 @@
     }
 
     .sidebar a:hover {
-      background: rgba(128, 0, 255, 0.15);
-      border-left-color: var(--neon-purple);
+      background: rgba(74, 74, 74, 0.15);
+      border-left-color: var(--accent-color);
     }
 
     /* Main content */
@@ -83,8 +82,8 @@
     .logo {
       font-size: 22px;
       font-weight: 600;
-      color: var(--neon-orange);
-      font-family: 'Roboto Mono', monospace;
+      color: var(--accent-color);
+      font-family: 'Fira Code', monospace;
       letter-spacing: -0.5px;
     }
 
@@ -101,7 +100,7 @@
       border: 1px solid var(--border-color);
       background: #151515;
       color: var(--text-light);
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
       font-size: 0.9rem;
     }
 
@@ -112,12 +111,12 @@
     }
 
     .top-icons span {
-      background: var(--neon-cyan);
-      color: #000;
+      background: var(--accent-secondary);
+      color: #fff;
       padding: 6px;
       border-radius: 4px;
       cursor: pointer;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
       font-size: 0.9rem;
       width: 24px;
       height: 24px;
@@ -144,7 +143,7 @@
       cursor: pointer;
       white-space: nowrap;
       font-weight: 400;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
       font-size: 0.85rem;
       letter-spacing: 0.5px;
       border: 1px solid transparent;
@@ -152,14 +151,14 @@
     }
 
     .filters button.active {
-      background: rgba(0, 255, 255, 0.15);
-      border-color: var(--neon-cyan);
-      color: var(--neon-cyan);
+      background: rgba(74, 74, 74, 0.15);
+      border-color: var(--accent-color);
+      color: var(--text-light);
     }
 
     .filters button:hover {
-      background: rgba(0, 255, 255, 0.1);
-      border-color: var(--neon-cyan);
+      background: rgba(74, 74, 74, 0.1);
+      border-color: var(--accent-color);
     }
 
     /* News grid */
@@ -181,7 +180,7 @@
 
     .news-card:hover {
       transform: translateY(-3px);
-      border-color: var(--neon-purple);
+      border-color: var(--accent-color);
     }
 
     .news-thumb {
@@ -200,7 +199,7 @@
       background: rgba(0,0,0,0.7);
       padding: 3px 8px;
       font-size: 10px;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
     }
 
     .news-info {
@@ -219,7 +218,7 @@
       color: #888;
       display: flex;
       justify-content: space-between;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
     }
 
     footer {
@@ -228,7 +227,7 @@
       background: var(--secondary-bg);
       border-top: 1px solid var(--border-color);
       margin-top: auto;
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Fira Code', monospace;
       font-size: 0.9rem;
       color: #888;
     }
@@ -311,7 +310,7 @@
     }
 
     ::-webkit-scrollbar-thumb:hover {
-      background: var(--neon-purple);
+      background: var(--accent-color);
     }
   </style>
 </head>
@@ -336,7 +335,7 @@
 
     <!-- Topbar -->
     <div class="topbar">
-      <div class="logo">SHALS GAMES</div>
+      <div class="logo">SMB GAMES</div>
       <div class="search-bar">
         <input type="text" placeholder="Pesquisar notícias" id="search-input">
       </div>
@@ -390,7 +389,7 @@
     </div>
 
     <footer>
-      <p>© 2025 SHALS GAMES • Sua fonte de notícias de jogos</p>
+      <p>© 2025 SMB GAMES • Sua fonte de notícias de jogos</p>
     </footer>
 
   </div>
@@ -411,7 +410,7 @@
           allNews = noticias;
           filterAndDisplayNews();
         } else {
-          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Roboto Mono\', monospace;">Erro ao carregar notícias. Tente novamente mais tarde.</p>';
+          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Fira Code\', monospace;">Erro ao carregar notícias. Tente novamente mais tarde.</p>';
         }
       }
 
@@ -465,7 +464,7 @@
             });
 
             const imgUrl = news.imagem || 'images/fallback.png';
-            const fonte = news.fonte || 'SHALS GAMES';
+            const fonte = news.fonte || 'SMB GAMES';
             const descricao = news.descricao || '';
 
             card.innerHTML = `
@@ -483,7 +482,7 @@
             newsContainer.appendChild(card);
           });
         } else {
-          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Roboto Mono\', monospace;">Nenhuma notícia encontrada para esta pesquisa.</p>';
+          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Fira Code\', monospace;">Nenhuma notícia encontrada para esta pesquisa.</p>';
         }
       }
 

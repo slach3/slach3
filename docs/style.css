@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #8000FF;
-    --accent-color: #FF9100;
-    --accent-secondary: #00FFFF;
-    --danger-color: #FF1E00;
+    --primary-color: #4A4A4A;
+    --accent-color: #646464;
+    --accent-secondary: #3E3E3E;
+    --danger-color: #8B0000;
     --background-color: #0a0a0a;
     --text-color: #FFFFFF;
     --text-secondary: #ccc;
     --card-background: #151515;
     --border-color: #333333;
-    --shadow-color: rgba(128, 0, 255, 0.3);
+    --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -18,17 +18,17 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
     line-height: 1.6;
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Navbar estilo NeonTube */
+/* Navbar estilo SMB GAMES */
 header {
     background-color: var(--background-color);
-    box-shadow: 0 0 10px var(--primary-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
     padding: 10px 20px;
 }
 
@@ -43,8 +43,8 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Courier New', monospace;
     color: var(--accent-color);
-    text-shadow: 0 0 8px var(--accent-color), 0 0 15px var(--accent-color);
 }
 
 .buttons {
@@ -52,7 +52,7 @@ header {
     gap: 10px;
 }
 
-/* Botões estilo neon */
+/* Botões estilo formal */
 .btn {
     padding: 8px 16px;
     font-size: 16px;
@@ -61,28 +61,25 @@ header {
     border-radius: 4px;
     transition: 0.3s;
     font-weight: bold;
+    font-family: 'Courier New', monospace;
 }
 
 .btn-login {
     background: var(--danger-color);
     color: #fff;
-    box-shadow: 0 0 8px var(--danger-color), 0 0 15px var(--danger-color);
 }
 
 .btn-login:hover {
-    background: #FF3D1F;
-    box-shadow: 0 0 12px #FF3D1F, 0 0 20px #FF3D1F;
+    background: #A52A2A;
 }
 
 .btn-watch {
     background: var(--accent-secondary);
-    color: var(--background-color);
-    box-shadow: 0 0 8px var(--accent-secondary), 0 0 15px var(--accent-secondary);
+    color: var(--text-color);
 }
 
 .btn-watch:hover {
-    background: #66FFFF;
-    box-shadow: 0 0 12px #66FFFF, 0 0 20px #66FFFF;
+    background: #4E4E4E;
 }
 
 /* Conteúdo principal */
@@ -96,19 +93,20 @@ main {
     background-color: var(--card-background);
     border-radius: 8px;
     padding: 2rem;
-    box-shadow: 0 0 15px var(--shadow-color);
+    box-shadow: 0 2px 5px var(--shadow-color);
     text-align: center;
 }
 
 h1, h2 {
     color: var(--primary-color);
-    text-shadow: 0 0 8px var(--primary-color), 0 0 15px var(--primary-color);
+    font-family: 'Courier New', monospace;
 }
 
 p {
     color: var(--text-secondary);
     margin-top: 20px;
     font-size: 18px;
+    font-family: 'Courier New', monospace;
 }
 
 footer {
@@ -117,4 +115,5 @@ footer {
     margin-top: 2rem;
     border-top: 1px solid var(--border-color);
     color: var(--text-secondary);
+    font-family: 'Courier New', monospace;
 }

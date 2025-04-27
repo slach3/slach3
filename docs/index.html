@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="NeonTube - Jogos em estilo neon">
-  <title>NeonTube</title>
+  <meta name="description" content="SMB GAMES - Portal de jogos e notícias">
+  <title>SMB GAMES</title>
   <link rel="manifest" href="manifest.json">
   <style>
     :root {
-      --neon-orange: #FF9100;
-      --neon-red: #FF1E00;
-      --neon-cyan: #00FFFF;
-      --neon-purple: #8000FF;
+      --primary-color: #4A4A4A;
+      --accent-color: #646464;
+      --accent-secondary: #3E3E3E;
+      --danger-color: #8B0000;
       --background-dark: #0a0a0a;
       --text-light: #FFFFFF;
     }
 
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Courier New', monospace;
       background: var(--background-dark);
       color: var(--text-light);
       display: flex;
@@ -44,8 +44,7 @@
     }
 
     .sidebar a:hover {
-      background: var(--neon-purple);
-      text-shadow: 0 0 5px var(--neon-purple);
+      background: var(--accent-secondary);
     }
 
     /* Main content */
@@ -73,8 +72,7 @@
     .logo {
       font-size: 24px;
       font-weight: bold;
-      color: var(--neon-orange);
-      text-shadow: 0 0 8px var(--neon-orange), 0 0 15px var(--neon-orange);
+      color: var(--accent-color);
     }
 
     .search-bar {
@@ -86,7 +84,7 @@
     .search-bar input {
       width: 100%;
       padding: 8px 12px;
-      border-radius: 20px;
+      border-radius: 4px;
       border: none;
       background: #222;
       color: var(--text-light);
@@ -99,11 +97,10 @@
     }
 
     .top-icons span {
-      background: var(--neon-cyan);
+      background: var(--accent-secondary);
       padding: 8px;
-      border-radius: 50%;
+      border-radius: 4px;
       cursor: pointer;
-      box-shadow: 0 0 8px var(--neon-cyan);
     }
 
     /* Filters */
@@ -120,16 +117,15 @@
       border: none;
       color: var(--text-light);
       padding: 8px 16px;
-      border-radius: 20px;
+      border-radius: 4px;
       cursor: pointer;
       white-space: nowrap;
       font-weight: bold;
+      font-family: 'Courier New', monospace;
     }
 
     .filters button:hover {
-      background: var(--neon-cyan);
-      color: #0a0a0a;
-      box-shadow: 0 0 8px var(--neon-cyan);
+      background: var(--accent-secondary);
     }
 
     /* Video grid */
@@ -142,16 +138,15 @@
 
     .video-card {
       background: #111;
-      border-radius: 10px;
+      border-radius: 4px;
       overflow: hidden;
-      box-shadow: 0 0 8px #333;
-      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s;
       cursor: pointer;
     }
 
     .video-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 0 12px var(--neon-purple);
     }
 
     .video-thumb {
@@ -218,7 +213,7 @@
 
     <!-- Topbar -->
     <div class="topbar">
-      <div class="logo">NeonTube</div>
+      <div class="logo">SMB GAMES</div>
       <div class="search-bar">
         <input type="text" placeholder="Pesquisar">
       </div>
@@ -247,7 +242,7 @@
     </div>
 
     <footer>
-      <p>&copy; 2025 NeonTube - Todos os direitos reservados</p>
+      <p>&copy; 2025 SMB GAMES - Todos os direitos reservados</p>
     </footer>
 
   </div>

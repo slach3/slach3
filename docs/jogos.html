@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NeonTube - Jogos em estilo neon">
-    <title>NeonTube - Jogos</title>
+    <meta name="description" content="SMB GAMES - Jogos em destaque">
+    <title>SMB GAMES - Jogos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="manifest" href="manifest.json">
@@ -22,11 +22,11 @@
             width: 100%;
             height: 600px;
             overflow: hidden;
-            border-radius: 8px;
+            border-radius: 4px;
             margin-bottom: 15px;
-            box-shadow: 0 0 15px var(--shadow-color);
+            box-shadow: 0 2px 5px var(--shadow-color);
             background-color: var(--card-background);
-            border: 1px solid var(--primary-color);
+            border: 1px solid var(--border-color);
         }
         
         .iframe-container iframe {
@@ -57,25 +57,24 @@
         .game-frame h2 {
             margin-bottom: 1rem;
             color: var(--primary-color);
-            text-shadow: 0 0 8px var(--primary-color), 0 0 15px var(--primary-color);
+            font-family: 'Courier New', monospace;
         }
         
         .save-progress-button {
             display: inline-block;
             background-color: var(--accent-secondary);
-            color: var(--background-color);
+            color: var(--text-color);
             padding: 10px 20px;
             border-radius: 4px;
             text-decoration: none;
             margin-top: 15px;
             transition: background-color 0.3s;
             font-weight: bold;
-            box-shadow: 0 0 8px var(--accent-secondary), 0 0 15px var(--accent-secondary);
+            font-family: 'Courier New', monospace;
         }
         
         .save-progress-button:hover {
-            background-color: #66FFFF;
-            box-shadow: 0 0 12px #66FFFF, 0 0 20px #66FFFF;
+            background-color: #4E4E4E;
         }
         
         /* Games list */
@@ -88,17 +87,15 @@
         
         .game-card {
             background-color: var(--card-background);
-            border-radius: 8px;
+            border-radius: 4px;
             overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 0 8px var(--shadow-color);
+            transition: transform 0.3s;
+            box-shadow: 0 2px 4px var(--shadow-color);
             border: 1px solid var(--border-color);
         }
         
         .game-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 0 15px var(--primary-color);
-            border-color: var(--primary-color);
         }
         
         .game-card img {
@@ -115,28 +112,29 @@
             margin: 0 0 10px 0;
             font-size: 18px;
             color: var(--accent-color);
-            text-shadow: 0 0 5px var(--accent-color);
+            font-family: 'Courier New', monospace;
         }
         
         .game-info p {
             margin: 0 0 10px 0;
             font-size: 14px;
             color: var(--text-secondary);
+            font-family: 'Courier New', monospace;
         }
         
         .news-sidebar {
             background-color: var(--card-background);
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 1rem;
-            box-shadow: 0 0 15px var(--shadow-color);
-            border: 1px solid var(--primary-color);
+            box-shadow: 0 2px 4px var(--shadow-color);
+            border: 1px solid var(--border-color);
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">NeonTube</div>
+            <div class="logo">SMB GAMES</div>
             <div class="buttons">
                 <a href="index.html" class="btn btn-watch">Início</a>
                 <a href="jogos.html" class="btn btn-watch">Jogos</a>
@@ -231,7 +229,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 NeonTube - Todos os direitos reservados</p>
+        <p>&copy; 2025 SMB GAMES - Todos os direitos reservados</p>
     </footer>
 
     <!-- Scripts -->
