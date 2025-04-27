@@ -87,23 +87,6 @@
       letter-spacing: -0.5px;
     }
 
-    .search-bar {
-      flex: 1;
-      margin: 0 20px;
-      position: relative;
-    }
-
-    .search-bar input {
-      width: 100%;
-      padding: 8px 12px;
-      border-radius: 4px;
-      border: 1px solid var(--border-color);
-      background: #151515;
-      color: var(--text-light);
-      font-family: 'Fira Code', monospace;
-      font-size: 0.9rem;
-    }
-
     .top-icons {
       display: flex;
       align-items: center;
@@ -336,9 +319,6 @@
     <!-- Topbar -->
     <div class="topbar">
       <div class="logo">SMB GAMES</div>
-      <div class="search-bar">
-        <input type="text" placeholder="Pesquisar notícias" id="search-input">
-      </div>
       <div class="top-icons">
         <span title="Tema Claro/Escuro" id="theme-toggle">T</span>
       </div>
@@ -398,11 +378,9 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const newsContainer = document.getElementById('news-container');
-      const searchInput = document.getElementById('search-input');
       const filterButtons = document.querySelectorAll('.filters button');
       let allNews = [];
       let currentFilter = 'todos';
-      let searchTerm = '';
 
       // Carregar notícias
       function loadNews() {
@@ -435,20 +413,13 @@
         // Limpar container
         newsContainer.innerHTML = '';
 
-        // Filtrar por categoria e termo de busca
+        // Filtrar por categoria
         const filteredNews = allNews.filter(news => {
           // Filtro de categoria
-          const categoryMatch = currentFilter === 'todos' || 
+          return currentFilter === 'todos' || 
             (news.categorias && news.categorias.includes(currentFilter)) || 
             (news.titulo.toLowerCase().includes(currentFilter.toLowerCase())) || 
             (news.descricao && news.descricao.toLowerCase().includes(currentFilter.toLowerCase()));
-          
-          // Filtro de busca
-          const searchMatch = !searchTerm || 
-            news.titulo.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            (news.descricao && news.descricao.toLowerCase().includes(searchTerm.toLowerCase()));
-          
-          return categoryMatch && searchMatch;
         });
 
         // Ordenar por data (mais recentes primeiro)
@@ -482,15 +453,9 @@
             newsContainer.appendChild(card);
           });
         } else {
-          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Fira Code\', monospace;">Nenhuma notícia encontrada para esta pesquisa.</p>';
+          newsContainer.innerHTML = '<p style="grid-column: 1/-1; text-align: center; padding: 20px; font-family: \'Fira Code\', monospace;">Nenhuma notícia encontrada para esta categoria.</p>';
         }
       }
-
-      // Event Listeners
-      searchInput.addEventListener('input', function() {
-        searchTerm = this.value.trim();
-        filterAndDisplayNews();
-      });
 
       // Configurar filtros
       filterButtons.forEach(button => {
