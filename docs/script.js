@@ -57,57 +57,55 @@ document.addEventListener('DOMContentLoaded', function() {
             window.history.pushState({}, '', newUrl);
             
             // Filtra e exibe as notícias
-            filtrarNoticiasCategoria(categoriaAtual);
+            filtrarPorCategoria(categoriaAtual);
         });
     });
 
     // Função para filtrar notícias por categoria
-    function filtrarNoticiasCategoria(categoria) {
-        currentPage = 1; // Reseta para a primeira página
-
-        if (categoria === 'todos') {
-            noticiasFiltradas = [...noticias];
-        } else {
-            noticiasFiltradas = noticias.filter(noticia => {
-                // Verificar se o objeto notícia tem a propriedade categorias
-                if (noticia.categorias && Array.isArray(noticia.categorias)) {
-                    // Usar o array de categorias se disponível
-                    return noticia.categorias.includes(categoria);
-                } else {
-                    // Fazer a filtragem baseada no título, descrição e link (método antigo)
-                    const titulo = noticia.titulo.toLowerCase();
-                    const descricao = (noticia.descricao || '').toLowerCase();
-                    const fonte = (noticia.fonte || '').toLowerCase();
-                    
-                    switch(categoria) {
-                        case 'jogos':
-                            return titulo.includes('jogo') || titulo.includes('game') || 
-                                  descricao.includes('jogo') || descricao.includes('game');
-                        case 'noticias':
-                            return !titulo.includes('review') && !titulo.startsWith('review');
-                        case 'reviews':
-                            return titulo.includes('review') || titulo.startsWith('review');
-                        case 'playstation':
-                            return titulo.includes('playstation') || titulo.includes('ps5') || 
-                                  titulo.includes('ps4') || fonte.includes('playstation') ||
-                                  descricao.includes('playstation');
-                        case 'xbox':
-                            return titulo.includes('xbox') || fonte.includes('xbox') ||
-                                  descricao.includes('xbox') || titulo.includes('microsoft');
-                        case 'nintendo':
-                            return titulo.includes('nintendo') || titulo.includes('switch') || 
-                                  fonte.includes('nintendo') || descricao.includes('nintendo');
-                        case 'pc':
-                            return titulo.includes(' pc') || titulo.includes('steam') || 
-                                  descricao.includes(' pc ') || titulo.includes('pc ');
-                        default:
-                            return true;
+    function filtrarPorCategoria(categoria) {
+        const container = document.getElementById('noticias-container');
+        if (!container) return;
+        
+        // Animar a transição
+        container.style.opacity = '0';
+        
+        setTimeout(() => {
+            container.innerHTML = '';
+            
+            if (categoria === 'todas') {
+                carregarNoticias(noticias);
+            } else {
+                const noticiasFiltradas = noticias.filter(noticia => {
+                    if (noticia.categorias && Array.isArray(noticia.categorias)) {
+                        return noticia.categorias.includes(categoria.toLowerCase());
                     }
+                    // Fallback para categorização baseada em texto (legado)
+                    return (
+                        noticia.titulo.toLowerCase().includes(categoria.toLowerCase()) ||
+                        (noticia.descricao && noticia.descricao.toLowerCase().includes(categoria.toLowerCase()))
+                    );
+                });
+                
+                carregarNoticias(noticiasFiltradas);
+                
+                // Atualizar o contador de notícias
+                const contador = document.querySelector('.contador-noticias');
+                if (contador) {
+                    contador.textContent = `${noticiasFiltradas.length} notícias encontradas na categoria "${categoria}"`;
                 }
+            }
+            
+            // Restaurar a opacidade após carregar o conteúdo
+            container.style.opacity = '1';
+            
+            // Atualizar classe ativa nos botões de categoria
+            document.querySelectorAll('.categoria-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.categoria === categoria);
             });
-        }
-
-        mostrarNoticias();
+            
+            // Salvar a categoria atual no sessionStorage
+            sessionStorage.setItem('categoriaAtual', categoria);
+        }, 300); // Tempo suficiente para a animação de fade out
     }
 
     // Função para mostrar as notícias
@@ -158,9 +156,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Função para criar um card de notícia
     function criarCardNoticia(noticia) {
-        const card = document.createElement('article');
-        card.className = 'noticia-card';
-        
         // Adicionar classe para a categoria 
         if (noticia.categorias && Array.isArray(noticia.categorias)) {
             noticia.categorias.forEach(categoria => {
@@ -168,25 +163,95 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
         
-        const conteudo = `
-            <a href="${noticia.link}" target="_blank" rel="noopener">
-                <div class="noticia-img-container">
-                    <img src="${noticia.imagem || 'images/fallback.png'}" alt="${noticia.titulo}" loading="lazy" 
-                        onerror="this.onerror=null;this.src='images/fallback.png';">
+        // Criar badges de categoria para exibição visual
+        let categoryBadges = '';
+        if (noticia.categorias && Array.isArray(noticia.categorias)) {
+            // Pegamos até 2 categorias principais para exibir como badges
+            const mainCategories = noticia.categorias.filter(cat => 
+                ['jogos', 'pc', 'playstation', 'xbox', 'nintendo', 'reviews'].includes(cat)).slice(0, 2);
+            
+            if (mainCategories.length > 0) {
+                categoryBadges = '<div class="category-badges">' + 
+                    mainCategories.map(cat => `<span class="badge-${cat}">${cat}</span>`).join('') + 
+                    '</div>';
+            }
+        }
+        
+        const cardHtml = `
+        <div class="noticia-card" data-categorias='${JSON.stringify(noticia.categorias || [])}'>
+            <div class="noticia-imagem">
+                <a href="${noticia.link}" target="_blank" rel="noopener noreferrer">
+                    <img src="${noticia.imagem}" alt="${noticia.titulo}" loading="lazy" onerror="this.src='images/fallback.png'">
+                </a>
+            </div>
+            <div class="noticia-info">
+                <h3>${noticia.titulo}</h3>
+                <div class="noticia-meta">
+                    <span class="noticia-fonte">${noticia.fonte || 'SMB Games'}</span>
+                    ${noticia.timestamp ? `<span class="noticia-timestamp" title="${formatTimestamp(noticia.timestamp)}">${timeAgo(noticia.timestamp)}</span>` : ''}
                 </div>
-                <div class="noticia-info">
-                    <h3>${noticia.titulo}</h3>
-                    <div class="noticia-meta">
-                        <span class="noticia-fonte">${noticia.fonte || 'SMB Games'}</span>
-                        ${noticia.categorias ? `<span class="noticia-categorias">${noticia.categorias.join(', ')}</span>` : ''}
-                    </div>
-                </div>
-            </a>
+            </div>
+        </div>
         `;
         
-        card.innerHTML = conteudo;
+        card.innerHTML = cardHtml;
         return card;
     }
+    
+    // Função para formatar a data completa (para o título/tooltip)
+function formatTimestamp(timestamp) {
+    const date = new Date(timestamp);
+    return date.toLocaleString('pt-BR', { 
+        year: 'numeric', 
+        month: 'short', 
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+}
+
+// Função para exibir tempo relativo (2 horas atrás, etc)
+function timeAgo(timestamp) {
+    const now = new Date();
+    const date = new Date(timestamp);
+    const secondsAgo = Math.floor((now - date) / 1000);
+    
+    // Verificar se a data é válida
+    if (isNaN(secondsAgo) || secondsAgo < 0) {
+        return '';
+    }
+    
+    // Intervalos de tempo em segundos
+    const intervals = {
+        ano: 31536000,
+        mês: 2592000,
+        semana: 604800,
+        dia: 86400,
+        hora: 3600,
+        minuto: 60
+    };
+    
+    // Versões plurais
+    const plurals = {
+        ano: 'anos',
+        mês: 'meses',
+        semana: 'semanas',
+        dia: 'dias',
+        hora: 'horas',
+        minuto: 'minutos'
+    };
+    
+    // Encontrar o intervalo mais adequado
+    for (const [unit, seconds] of Object.entries(intervals)) {
+        const interval = Math.floor(secondsAgo / seconds);
+        if (interval >= 1) {
+            const plural = interval > 1 ? plurals[unit] : unit;
+            return `${interval} ${plural} atrás`;
+        }
+    }
+    
+    return 'agora mesmo';
+}
 
     // Adicionar evento ao botão "carregar mais"
     const loadMoreBtn = document.querySelector('.load-more-button');
@@ -198,5 +263,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Inicializar a exibição de notícias com a categoria da URL
-    filtrarNoticiasCategoria(categoriaAtual);
+    filtrarPorCategoria(categoriaAtual);
 });

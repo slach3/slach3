@@ -117,3 +117,150 @@ footer {
     color: var(--text-secondary);
     font-family: 'Courier New', monospace;
 }
+
+/* Category badges styling */
+.category-badges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.category-badges span {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.badge-jogos {
+    background-color: #3498db;
+}
+
+.badge-pc {
+    background-color: #9b59b6;
+}
+
+.badge-playstation {
+    background-color: #2980b9;
+}
+
+.badge-xbox {
+    background-color: #27ae60;
+}
+
+.badge-nintendo {
+    background-color: #e74c3c;
+}
+
+.badge-reviews {
+    background-color: #f39c12;
+}
+
+/* Make the category navigation more responsive */
+.categoria-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+}
+
+.categoria-nav::-webkit-scrollbar {
+    height: 4px;
+}
+
+.categoria-nav::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.categoria-btn {
+    padding: 8px 15px;
+    background-color: var(--button-background);
+    color: var(--text-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.categoria-btn:hover, .categoria-btn.active {
+    background-color: var(--accent-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Animations for card loading */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.noticia-card {
+    position: relative;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Add animation delay for cards to create a cascade effect */
+.noticia-card:nth-child(1) { animation-delay: 0.05s; }
+.noticia-card:nth-child(2) { animation-delay: 0.1s; }
+.noticia-card:nth-child(3) { animation-delay: 0.15s; }
+.noticia-card:nth-child(4) { animation-delay: 0.2s; }
+.noticia-card:nth-child(5) { animation-delay: 0.25s; }
+.noticia-card:nth-child(6) { animation-delay: 0.3s; }
+.noticia-card:nth-child(7) { animation-delay: 0.35s; }
+.noticia-card:nth-child(8) { animation-delay: 0.4s; }
+.noticia-card:nth-child(9) { animation-delay: 0.45s; }
+.noticia-card:nth-child(10) { animation-delay: 0.5s; }
+.noticia-card:nth-child(11) { animation-delay: 0.55s; }
+.noticia-card:nth-child(12) { animation-delay: 0.6s; }
+
+.noticia-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px var(--shadow-color);
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-3px);
+}
