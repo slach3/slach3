@@ -10,6 +10,37 @@
     <link rel="manifest" href="manifest.json">
     
     <style>
+        /* Categoria nav */
+        .categoria-nav {
+            background-color: #111;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 0;
+            display: flex;
+            border-bottom: 1px solid #222;
+        }
+
+        .categoria-nav button {
+            background-color: transparent;
+            color: var(--text-color);
+            border: none;
+            padding: 12px 20px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .categoria-nav button:hover {
+            background-color: #2a2a2a;
+        }
+
+        .categoria-nav button.active {
+            background-color: #333;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
         /* Estilos específicos para a página de jogos */
         .game-area {
             width: 100%;
@@ -144,6 +175,18 @@
         </div>
     </header>
 
+    <!-- Categoria Nav (nova barra de navegação) -->
+    <div class="categoria-nav">
+        <button class="active" data-categoria="todos">Tudo</button>
+        <button data-categoria="jogos">Jogos</button>
+        <button data-categoria="noticias">Notícias</button>
+        <button data-categoria="reviews">Reviews</button>
+        <button data-categoria="playstation">PlayStation</button>
+        <button data-categoria="xbox">Xbox</button>
+        <button data-categoria="nintendo">Nintendo</button>
+        <button data-categoria="pc">PC</button>
+    </div>
+
     <main class="games-layout">
         <div class="game-area">
             <section class="game-frame">
@@ -240,6 +283,37 @@
             // Verificar o parâmetro de jogo na URL
             const urlParams = new URLSearchParams(window.location.search);
             const gameParam = urlParams.get('game');
+            
+            // Código para controlar os botões de categoria
+            const categoriaButtons = document.querySelectorAll('.categoria-nav button');
+            
+            // Configurar event listeners para os botões de categoria
+            categoriaButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remover classe active de todos os botões
+                    categoriaButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Adicionar classe active ao botão clicado
+                    button.classList.add('active');
+                    
+                    // Obter categoria selecionada
+                    const categoria = button.getAttribute('data-categoria');
+                    
+                    // Redirecionar à página inicial com a categoria como parâmetro se não for "jogos"
+                    if (categoria !== 'jogos' && categoria !== 'todos') {
+                        window.location.href = `index.html?categoria=${categoria}`;
+                    }
+                });
+            });
+
+            // Ativar o botão de jogos por padrão na página de jogos
+            categoriaButtons.forEach(btn => {
+                if (btn.getAttribute('data-categoria') === 'jogos') {
+                    btn.classList.add('active');
+                } else if (btn.getAttribute('data-categoria') === 'todos') {
+                    btn.classList.remove('active');
+                }
+            });
             
             if (gameParam) {
                 const gameIframe = document.querySelector('.iframe-container iframe');
@@ -381,6 +455,56 @@
                     `;
                     
                     container.appendChild(newFallback);
+                }
+            }
+
+            // Exibir notícias relacionadas a jogos na sidebar
+            const noticiasContainer = document.getElementById('noticias');
+            if (noticiasContainer && typeof noticias !== 'undefined' && Array.isArray(noticias)) {
+                // Filtrar apenas notícias relacionadas a jogos
+                const noticiasJogos = noticias.filter(noticia => {
+                    const tituloLower = noticia.titulo.toLowerCase();
+                    const descricaoLower = (noticia.descricao || '').toLowerCase();
+                    
+                    return tituloLower.includes('jogo') || 
+                           tituloLower.includes('game') || 
+                           descricaoLower.includes('jogo') || 
+                           descricaoLower.includes('game');
+                });
+                
+                // Limitar a 5 notícias
+                const noticiasLimitadas = noticiasJogos.slice(0, 5);
+                
+                // Remover o skeleton loading
+                noticiasContainer.innerHTML = '';
+                
+                // Adicionar título para a seção
+                const titulo = document.createElement('h3');
+                titulo.textContent = 'Notícias de Jogos';
+                titulo.style.marginBottom = '10px';
+                noticiasContainer.appendChild(titulo);
+                
+                // Adicionar as notícias
+                noticiasLimitadas.forEach(noticia => {
+                    const noticiaElement = document.createElement('div');
+                    noticiaElement.className = 'noticia-item';
+                    noticiaElement.style.marginBottom = '10px';
+                    noticiaElement.style.borderBottom = '1px solid #333';
+                    noticiaElement.style.paddingBottom = '10px';
+                    
+                    noticiaElement.innerHTML = `
+                        <a href="${noticia.link}" target="_blank" style="text-decoration: none; color: inherit;">
+                            <h4 style="margin: 0 0 5px 0; font-size: 14px; color: var(--text-color);">${noticia.titulo}</h4>
+                            <div style="font-size: 12px; color: #888;">${noticia.fonte}</div>
+                        </a>
+                    `;
+                    
+                    noticiasContainer.appendChild(noticiaElement);
+                });
+                
+                // Se não houver notícias, mostrar mensagem
+                if (noticiasLimitadas.length === 0) {
+                    noticiasContainer.innerHTML = '<p>Nenhuma notícia de jogos disponível no momento.</p>';
                 }
             }
         });

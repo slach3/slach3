@@ -1,290 +1,146 @@
 const noticias = [
   {
-    "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "The Last of Us Part II: Remastered recebe atualização para corrigir bugs",
+    "descricao": "A Naughty Dog lançou uma nova atualização para The Last of Us Part II: Remastered para corrigir problemas técnicos.",
+    "link": "https://exemplo.com/lastofus",
+    "imagem": "https://via.placeholder.com/800x450?text=The+Last+of+Us+II",
+    "fonte": "PlayStation Blog",
+    "timestamp": "2025-04-27T15:30:00",
+    "categorias": ["playstation", "jogos"]
   },
   {
-    "titulo": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "Nintendo Switch 2 será revelado ainda este ano, dizem fontes",
+    "descricao": "De acordo com informações de pessoas próximas à Nintendo, o sucessor do Switch pode ser anunciado nos próximos meses.",
+    "link": "https://exemplo.com/switch2",
+    "imagem": "https://via.placeholder.com/800x450?text=Nintendo+Switch+2",
+    "fonte": "Nintendo Life",
+    "timestamp": "2025-04-26T10:15:00",
+    "categorias": ["nintendo", "consoles"]
   },
   {
-    "titulo": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "Starfield recebe expansão 'Shattered Space' com novos planetas",
+    "descricao": "Bethesda anuncia nova DLC para Starfield que adiciona um novo sistema estelar, missões e equipamentos.",
+    "link": "https://exemplo.com/starfield-dlc",
+    "imagem": "https://via.placeholder.com/800x450?text=Starfield",
+    "fonte": "Xbox Wire",
+    "timestamp": "2025-04-26T09:45:00",
+    "categorias": ["xbox", "jogos"]
   },
   {
-    "titulo": "Nintendo revela preço e data de lançamento do Switch 2 no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg",
+    "titulo": "REVIEW: Elden Ring: Shadow of the Erdtree impressiona com sua escala e dificuldade",
+    "descricao": "A expansão de Elden Ring chega para desafiar ainda mais os jogadores e expandir o universo do jogo base.",
+    "link": "https://exemplo.com/elden-ring-review",
+    "imagem": "https://via.placeholder.com/800x450?text=Elden+Ring",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
+    "timestamp": "2025-04-25T14:20:00",
+    "categorias": ["reviews", "jogos"]
   },
   {
-    "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Clair Obscur: Expedition 33 supera Blue Prince e se torna jogo mais bem avaliado de 2025 no Metacritic",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139419/news/clair-obscur-expedition-33-supera-blue-prince-e-se-torna-jogo-mais-bem-avaliado-de-2025-no-metacriti",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Dune: Awakening terá beta aberto extenso no início de março",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dune-awakening/139415/news/dune-awakening-tera-beta-aberto-entre-9-e-12-de-maio",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da-desertvista_jqhf.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Hideo Kojima escolheu Margaret Qualley para papel em Death Stranding após assistir a comercial bizarro estrelado pela atriz",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/139402/news/hideo-kojima-escolheu-margaret-qualley-para-papel-em-death-stranding-apos-assistir-a-comercial-bizar",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-cast-margaret-qualley-in-death-stranding-after_9x5v.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Infame \"clone de Horizon\" quer convencê-lo com 3 coisas: é gratuito, já tem janela de lançamento e acaba de revelar novo gameplay",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/light-of-motiram/139244/news/infame-clone-de-horizon-quer-convence-lo-com-3-coisas-e-gratuito-ja-tem-janela-de-lancamento-e-acaba",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_y1u5.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "A uma velocidade de 62.000 km/h, asteroide está se dirigindo à Terra e ameaça atingi-la em apenas 7 anos, criando cratera de 34 km de diâmetro",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/espaco/139371/news/a-uma-velocidade-de-62000-kmh-asteroide-esta-se-dirigindo-a-terra-e-ameaca-atingi-la-em-apenas-7-ano",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/javier-miranda-syrnx7slhck-unsplash_9aaa.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Oblivion Remastered hit 4 million players in less than a week, with a big chunk of them buying the game on Steam",
-    "descricao": "newsThat overall figure includes PC, PS5, and Xbox sales, as well as Game Pass players.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-hit-4-million-players-in-less-than-a-week-with-a-big-chunk-of-them-buying-the-game-on-steam/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ytKW5FvqqnbB5iEM8AZ8yP.jpg",
+    "titulo": "Counter-Strike 2 recebe maior atualização desde o lançamento",
+    "descricao": "Valve lança patch com novos mapas e ajustes significativos no sistema de movimento do jogo.",
+    "link": "https://exemplo.com/cs2-update",
+    "imagem": "https://via.placeholder.com/800x450?text=Counter-Strike+2",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
+    "timestamp": "2025-04-25T11:30:00",
+    "categorias": ["pc", "jogos"]
   },
   {
-    "titulo": "The RoboCop: Rogue City expansion that looks like Dredd will bring more trouble to your PC in July",
-    "descricao": "NewsUnfinished Business gets a release date.",
-    "link": "https://www.pcgamer.com/games/fps/the-robocop-rogue-city-expansion-that-looks-like-dredd-will-bring-more-trouble-to-your-pc-in-july/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/T9M37MGqN6tz7uF2XLiSie.jpg",
+    "titulo": "God of War Ragnarök ganha modo New Game+ e novas armaduras",
+    "descricao": "Santa Monica Studio lança atualização gratuita com conteúdo adicional para God of War Ragnarök.",
+    "link": "https://exemplo.com/gow-update",
+    "imagem": "https://via.placeholder.com/800x450?text=God+of+War",
+    "fonte": "PlayStation Blog",
+    "timestamp": "2025-04-24T16:45:00",
+    "categorias": ["playstation", "jogos"]
+  },
+  {
+    "titulo": "Zelda: Echoes of Wisdom terá integração com Tears of the Kingdom",
+    "descricao": "O novo jogo da série Zelda terá recursos especiais para quem jogou o título anterior no Nintendo Switch.",
+    "link": "https://exemplo.com/zelda-echoes",
+    "imagem": "https://via.placeholder.com/800x450?text=Zelda",
+    "fonte": "Nintendo Life",
+    "timestamp": "2025-04-24T13:20:00",
+    "categorias": ["nintendo", "jogos"]
+  },
+  {
+    "titulo": "REVIEW: Final Fantasy XVI no PC supera a versão de console",
+    "descricao": "A versão para PC de Final Fantasy XVI chega com melhorias visuais e desempenho superior à versão de PS5.",
+    "link": "https://exemplo.com/ff16-pc-review",
+    "imagem": "https://via.placeholder.com/800x450?text=Final+Fantasy+XVI",
+    "fonte": "TechMundo",
+    "timestamp": "2025-04-23T15:10:00",
+    "categorias": ["reviews", "pc", "jogos"]
+  },
+  {
+    "titulo": "Xbox anuncia novo modelo do console Series X com 2TB e design totalmente digital",
+    "descricao": "Microsoft apresenta nova versão do Xbox Series X sem drive de disco e maior capacidade de armazenamento.",
+    "link": "https://exemplo.com/xbox-series-x-2tb",
+    "imagem": "https://via.placeholder.com/800x450?text=Xbox+Series+X",
+    "fonte": "Xbox Wire",
+    "timestamp": "2025-04-23T10:00:00",
+    "categorias": ["xbox", "consoles"]
+  },
+  {
+    "titulo": "Metal Gear Solid Delta: Snake Eater receberá demo jogável em junho",
+    "descricao": "Konami confirmou que o remake de Metal Gear Solid 3 terá uma versão de demonstração antes do lançamento.",
+    "link": "https://exemplo.com/metal-gear-delta",
+    "imagem": "https://via.placeholder.com/800x450?text=Metal+Gear+Solid",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-22T17:30:00",
+    "categorias": ["jogos"]
+  },
+  {
+    "titulo": "GTA 6 ganha novas imagens vazadas mostrando Lucia em Vice City",
+    "descricao": "Novas capturas de tela do aguardado Grand Theft Auto VI surgiram online, revelando mais detalhes do jogo.",
+    "link": "https://exemplo.com/gta6-leaks",
+    "imagem": "https://via.placeholder.com/800x450?text=GTA+6",
+    "fonte": "Kotaku",
+    "timestamp": "2025-04-22T09:15:00",
+    "categorias": ["jogos", "noticias"]
+  },
+  {
+    "titulo": "Steam Deck 2 recebe data de lançamento e especificações técnicas",
+    "descricao": "Valve anuncia oficialmente o sucessor do seu portátil de jogos com hardware melhorado e bateria de maior duração.",
+    "link": "https://exemplo.com/steam-deck-2",
+    "imagem": "https://via.placeholder.com/800x450?text=Steam+Deck+2",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
+    "timestamp": "2025-04-21T14:40:00",
+    "categorias": ["pc", "consoles"]
   },
   {
-    "titulo": "This upcoming life sim features co-op survival, farming, factory automation, time-travel romance, ghost hunting and mechs, which is probably why it doubled its Kickstarter goal in its first 24 hours",
-    "descricao": "NewsAutonomica aims to do it all.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/this-upcoming-life-sim-features-co-op-survival-farming-factory-automation-time-travel-romance-ghost-hunting-and-mechs-which-is-probably-why-it-doubled-its-kickstarter-goal-in-its-first-24-hours/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/QzK8DWGA7nE3AUdEpTqYak.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "REVIEW: Silent Hill 2 Remake é uma obra-prima do horror moderno",
+    "descricao": "O remake do clássico de terror psicológico da Konami impressiona tanto os fãs antigos quanto os novos jogadores.",
+    "link": "https://exemplo.com/silent-hill-2-review",
+    "imagem": "https://via.placeholder.com/800x450?text=Silent+Hill+2",
+    "fonte": "GameVicio",
+    "timestamp": "2025-04-21T11:00:00",
+    "categorias": ["reviews", "jogos"]
   },
   {
-    "titulo": "The adventure game that kicked off the Syberia series just got a shiny Myst-like makeover",
-    "descricao": "NewsAmerzone – The Explorer's Legacy is out now.",
-    "link": "https://www.pcgamer.com/games/adventure/the-adventure-game-that-kicked-off-the-syberia-series-just-got-a-shiny-myst-like-makeover/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HSJiDCyekdoiwarWSSuqB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "PlayStation 5 Pro: Sony confirma lançamento para o final de 2025",
+    "descricao": "Versão mais potente do PS5 chega este ano com melhor desempenho em ray tracing e suporte a 8K.",
+    "link": "https://exemplo.com/ps5-pro",
+    "imagem": "https://via.placeholder.com/800x450?text=PS5+Pro",
+    "fonte": "PlayStation Blog",
+    "timestamp": "2025-04-20T16:20:00",
+    "categorias": ["playstation", "consoles"]
   },
   {
-    "titulo": "The end of The Long Dark is in sight after over a decade in development, culminating in a fifth and final story episode that is '3 to 4 times as big' as episode 4",
-    "descricao": "News\"The episode is the most ambitious we've built so far.\"",
-    "link": "https://www.pcgamer.com/games/survival-crafting/the-end-of-the-long-dark-is-in-sight-after-over-a-decade-in-development-culminating-in-a-fifth-and-final-story-episode-that-is-3-to-4-times-as-big-as-episode-4/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/C9Ui96XwW2KHHWHPuhMxf8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "Microsoft finaliza aquisição da Activision Blizzard King e promete novidades",
+    "descricao": "Após superar obstáculos regulatórios, Microsoft conclui a compra da Activision Blizzard e planeja expansão do Game Pass.",
+    "link": "https://exemplo.com/ms-activision",
+    "imagem": "https://via.placeholder.com/800x450?text=Microsoft+Activision",
+    "fonte": "Xbox Wire",
+    "timestamp": "2025-04-20T10:30:00",
+    "categorias": ["xbox", "noticias"]
   },
   {
-    "titulo": "Today's Wordle answer for Saturday, April 26",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-april-26-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "A Windows 11 update revealed a 2-decade old bug in GTA: San Andreas that yeets CJ at '1.087 quadrillion light years' into the stratosphere",
-    "descricao": "NewsAw shee-it, here we go again…",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/a-windows-11-update-revealed-a-2-decade-old-bug-in-gta-san-andreas-that-yeets-cj-1-087-quadrillion-light-years-into-the-stratosphere/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kAueyJKk2En6JAadafRViH.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "EA's Skate reboot is always online, and you know what that means",
-    "descricao": "newsThe promised \"living, breathing massively multiplayer skateboarding sandbox\" sounds great, but what happens when the servers go offline?",
-    "link": "https://www.pcgamer.com/games/sports/eas-skate-reboot-is-always-online-and-you-know-what-that-means/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jsxQXYJpvNWs3rgUHKLMSn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Nexus Mods decides to allow an Oblivion Remastered mod that changes 'body type' options to male/female, declares it's not 'a battleground for broader cultural or political debates'",
-    "descricao": "newsThe mod was deleted multiple times before Nexus Mods threw in the towel.",
-    "link": "https://www.pcgamer.com/games/rpg/nexus-mods-decides-to-allow-an-oblivion-remastered-mod-that-changes-body-type-options-to-male-female-declares-its-not-a-battleground-for-broader-cultural-or-political-debates/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tisfbWABPY98fexDSQ3oyS.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "OpenAI lança Deep Research mais leve no ChatGPT",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404163-openai-lanca-deep-research-mais-leve-no-chatgpt.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/01/01090541316009.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "YouTube Music vai compartilhar letras e trará estabilizador de volume",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404129-youtube-music-vai-compartilhar-letras-e-trara-estabilizador-de-volume.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23181642789011.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "WPS Office: Como essa alternativa gratuita está conquistando usuários após o aumento de preço do Microsoft 365",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404131-wps-office-como-essa-alternativa-gratuita-esta-conquistando-usuarios-apos-o-aumento-de-preco-do-microsoft-365.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23195959876040.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Quem será o próximo Papa? ChatGPT aponta cardeal italiano como favorito",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404114-quem-sera-o-proximo-papa-chatgpt-aponta-cardeal-italiano-como-favorito.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23104835408144.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Novo vírus Android clona cartão de crédito remotamente via celular",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404174-novo-virus-android-clona-cartao-de-credito-remotamente-via-celular.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25134717236228.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Japão testa navio equipado com arma de canhão eletromagnético; conheça o JS Asuka",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404162-japao-testa-navio-equipado-com-arma-de-canhao-eletromagnetico-conheca-o-js-asuka.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25095503743003.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Guerra dos drones: Reino Unido proíbe exportação de controles de videogame para a Rússia",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404156-guerra-dos-drones-reino-unido-proibe-exportacao-de-controles-de-videogame-para-a-russia.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24181642361038.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Hackers podiam colocar anúncios falsos no Instagram de brasileiros",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404121-hackers-podiam-colocar-anuncios-falsos-no-instagram-de-brasileiros.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23141806941049.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Portugal agora é 'Guiana Brasileira'? Entenda a 'colonização reversa' que viralizou no TikTok",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404180-portugal-agora-e-guiana-brasileira-entenda-a-colonizacao-reversa-que-viralizou-no-tiktok.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25145911960353.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "WhatsApp ganha modo 'Privacidade Avançada' para conversas; saiba como funciona",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404172-whatsapp-ganha-modo-privacidade-avancada-para-conversas-saiba-como-funciona.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/03/28/28132609560200.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Steam recebe 7 jogos grátis nesta semana! Veja lista e resgate",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501222-steam-recebe-7-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23174404810036.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "PlayStation tem jogos para PS4 e PS5 com até 90% OFF; aproveite!",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501244-playstation-tem-jogos-para-ps4-e-ps5-com-ate-90-off-aproveite.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24175303321005.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "5 jogos gratuitos de Android em alta para baixar esta semana na Play Store",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501221-5-jogos-gratuitos-de-android-em-alta-para-baixar-esta-semana-na-play-store.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22192616609144.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Prime Gaming recebe última lista com os jogos gratuitos de abril! Veja como resgatar",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501230-prime-gaming-recebe-ultima-lista-com-os-jogos-gratuitos-de-abril-veja-como-resgatar.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23183152611035.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-26T18:17:46"
+    "titulo": "REVIEW: Mario & Luigi: Reino dos Sonhos Remake traz nostalgia e inovações",
+    "descricao": "O clássico do Nintendo DS retorna com gráficos atualizados e mecânicas refinadas para o Switch.",
+    "link": "https://exemplo.com/mario-luigi-review",
+    "imagem": "https://via.placeholder.com/800x450?text=Mario+e+Luigi",
+    "fonte": "Nintendo Life",
+    "timestamp": "2025-04-19T13:45:00",
+    "categorias": ["nintendo", "reviews"]
   }
 ];

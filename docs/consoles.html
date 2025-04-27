@@ -24,6 +24,37 @@
     </script>
     
     <style>
+        /* Categoria nav */
+        .categoria-nav {
+            background-color: #111;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 0;
+            display: flex;
+            border-bottom: 1px solid #222;
+        }
+
+        .categoria-nav button {
+            background-color: transparent;
+            color: var(--text-color);
+            border: none;
+            padding: 12px 20px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .categoria-nav button:hover {
+            background-color: #2a2a2a;
+        }
+
+        .categoria-nav button.active {
+            background-color: #333;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
         .consoles-container {
             width: 100%;
             max-width: 900px;
@@ -187,6 +218,18 @@
         </div>
     </header>
 
+    <!-- Categoria Nav (nova barra de navegação) -->
+    <div class="categoria-nav">
+        <button data-categoria="todos">Tudo</button>
+        <button data-categoria="jogos">Jogos</button>
+        <button data-categoria="noticias">Notícias</button>
+        <button data-categoria="reviews">Reviews</button>
+        <button data-categoria="playstation">PlayStation</button>
+        <button data-categoria="xbox">Xbox</button>
+        <button data-categoria="nintendo">Nintendo</button>
+        <button data-categoria="pc">PC</button>
+    </div>
+
     <main>
         <div class="consoles-container">
             <h2>Notícias de Consoles</h2>
@@ -213,47 +256,70 @@
     <script src="noticias.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Código para controlar os botões de categoria principal
+            const categoriaButtons = document.querySelectorAll('.categoria-nav button');
+            
+            // Configurar event listeners para os botões de categoria
+            categoriaButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remover classe active de todos os botões
+                    categoriaButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Adicionar classe active ao botão clicado
+                    button.classList.add('active');
+                    
+                    // Obter categoria selecionada
+                    const categoria = button.getAttribute('data-categoria');
+                    
+                    // Redirecionar à página inicial com a categoria como parâmetro se não for "consoles"
+                    if (categoria !== 'todos') {
+                        window.location.href = `index.html?categoria=${categoria}`;
+                    }
+                });
+            });
+
             // Função para carregar notícias
             async function carregarNoticias() {
                 try {
-                    const response = await fetch('noticias.json');
-                    const data = await response.json();
-                    
-                    // Filtra apenas notícias relacionadas a consoles
-                    const noticiasConsoles = data.filter(noticia => 
-                        noticia.categorias && 
-                        (noticia.categorias.includes('console') ||
-                         noticia.categorias.includes('nintendo') ||
-                         noticia.categorias.includes('playstation') ||
-                         noticia.categorias.includes('xbox'))
-                    );
-                    
-                    exibirNoticias(noticiasConsoles);
-                    
-                    // Configurar filtros
-                    document.querySelectorAll('.filter-button').forEach(button => {
-                        button.addEventListener('click', () => {
-                            // Remove classe ativa de todos os botões
-                            document.querySelectorAll('.filter-button').forEach(btn => {
-                                btn.classList.remove('active');
+                    // Já temos o array de notícias carregado no noticias.js
+                    if (typeof noticias !== 'undefined' && Array.isArray(noticias)) {
+                        // Filtra apenas notícias relacionadas a consoles
+                        const noticiasConsoles = noticias.filter(noticia => 
+                            isConsolesRelated(noticia)
+                        );
+                        
+                        exibirNoticias(noticiasConsoles);
+                        
+                        // Configurar filtros
+                        document.querySelectorAll('.filter-button').forEach(button => {
+                            button.addEventListener('click', () => {
+                                // Remove classe ativa de todos os botões
+                                document.querySelectorAll('.filter-button').forEach(btn => {
+                                    btn.classList.remove('active');
+                                });
+                                
+                                // Adiciona classe ativa ao botão clicado
+                                button.classList.add('active');
+                                
+                                const filtro = button.getAttribute('data-filter');
+                                
+                                if (filtro === 'todos') {
+                                    exibirNoticias(noticiasConsoles);
+                                } else {
+                                    const noticiasFiltradas = noticiasConsoles.filter(noticia => 
+                                        matchesConsoleFilter(noticia, filtro)
+                                    );
+                                    exibirNoticias(noticiasFiltradas);
+                                }
                             });
-                            
-                            // Adiciona classe ativa ao botão clicado
-                            button.classList.add('active');
-                            
-                            const filtro = button.getAttribute('data-filter');
-                            
-                            if (filtro === 'todos') {
-                                exibirNoticias(noticiasConsoles);
-                            } else {
-                                const noticiasFiltradas = noticiasConsoles.filter(noticia => 
-                                    noticia.categorias && noticia.categorias.includes(filtro)
-                                );
-                                exibirNoticias(noticiasFiltradas);
-                            }
                         });
-                    });
-                    
+                    } else {
+                        document.getElementById('noticias-container').innerHTML = `
+                            <div class="erro">
+                                <p>Nenhuma notícia disponível no momento.</p>
+                            </div>
+                        `;
+                    }
                 } catch (error) {
                     console.error('Erro ao carregar notícias:', error);
                     document.getElementById('noticias-container').innerHTML = `
@@ -262,6 +328,52 @@
                             <button onclick="location.reload()">Tentar novamente</button>
                         </div>
                     `;
+                }
+            }
+
+            // Verificar se uma notícia é relacionada a consoles
+            function isConsolesRelated(noticia) {
+                if (!noticia) return false;
+
+                const termos = ['console', 'nintendo', 'playstation', 'ps4', 'ps5', 'xbox', 'switch'];
+                const tituloLower = noticia.titulo.toLowerCase();
+                const descricaoLower = (noticia.descricao || '').toLowerCase();
+                
+                return termos.some(termo => 
+                    tituloLower.includes(termo) || 
+                    descricaoLower.includes(termo)
+                );
+            }
+
+            // Verificar se uma notícia corresponde ao filtro de console
+            function matchesConsoleFilter(noticia, filtro) {
+                if (!noticia) return false;
+
+                const tituloLower = noticia.titulo.toLowerCase();
+                const descricaoLower = (noticia.descricao || '').toLowerCase();
+                
+                switch(filtro) {
+                    case 'nintendo':
+                        return tituloLower.includes('nintendo') || 
+                               tituloLower.includes('switch') || 
+                               descricaoLower.includes('nintendo') ||
+                               descricaoLower.includes('switch');
+                    case 'playstation':
+                        return tituloLower.includes('playstation') ||
+                               tituloLower.includes('ps4') ||
+                               tituloLower.includes('ps5') ||
+                               tituloLower.includes('sony') ||
+                               descricaoLower.includes('playstation') ||
+                               descricaoLower.includes('ps4') ||
+                               descricaoLower.includes('ps5') ||
+                               descricaoLower.includes('sony');
+                    case 'xbox':
+                        return tituloLower.includes('xbox') ||
+                               tituloLower.includes('microsoft') ||
+                               descricaoLower.includes('xbox') ||
+                               descricaoLower.includes('microsoft');
+                    default:
+                        return false;
                 }
             }
             
@@ -279,13 +391,13 @@
                 }
                 
                 // Ordena notícias por data (mais recentes primeiro)
-                noticias.sort((a, b) => new Date(b.data) - new Date(a.data));
+                noticias.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
                 
                 // Cria o HTML
                 const html = `
                     <div class="consoles-grid">
                         ${noticias.map(noticia => `
-                            <div class="console-card" data-categorias="${noticia.categorias ? noticia.categorias.join(',') : ''}">
+                            <div class="console-card">
                                 <a href="${noticia.link}" target="_blank" rel="noopener noreferrer">
                                     <div class="console-image-container">
                                         <img src="${noticia.imagem || 'images/fallback.png'}" alt="${noticia.titulo}" onerror="this.src='images/fallback.png'">
@@ -293,7 +405,7 @@
                                     <div class="console-info">
                                         <h3>${noticia.titulo}</h3>
                                         <p>${noticia.descricao || ''}</p>
-                                        <div class="timestamp">${formatarData(noticia.data)}</div>
+                                        <div class="timestamp">${formatarData(noticia.timestamp)}</div>
                                     </div>
                                 </a>
                             </div>
@@ -305,10 +417,10 @@
             }
             
             // Função para formatar data
-            function formatarData(dataString) {
-                if (!dataString) return '';
+            function formatarData(timestamp) {
+                if (!timestamp) return '';
                 
-                const data = new Date(dataString);
+                const data = new Date(timestamp);
                 if (isNaN(data.getTime())) return '';
                 
                 const hoje = new Date();
@@ -354,16 +466,22 @@
             
             // Inicializa o carregamento de notícias
             carregarNoticias();
+
+            // Verifica se há parâmetro de categoria na URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const categoriaParam = urlParams.get('categoria');
+            
+            // Se houver uma categoria específica, ativar o botão correspondente
+            if (categoriaParam) {
+                categoriaButtons.forEach(btn => {
+                    if (btn.getAttribute('data-categoria') === categoriaParam) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
         });
-        
-        // Registrar o Service Worker
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
-                    .then(reg => console.log('Service Worker registrado!'))
-                    .catch(err => console.log('Erro ao registrar Service Worker:', err));
-            });
-        }
     </script>
 </body>
 </html>
