@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "A modder has turned an Intel CPU heatspreader into a functional water block with the help of a CNC machine. And a bucket",
-    "descricao": "NewsOf course, why didn't I think of that?",
-    "link": "https://www.pcgamer.com/hardware/cooling/a-modder-has-turned-an-intel-cpu-heatspreader-into-a-functional-water-block-with-the-help-of-a-cnc-machine-and-a-bucket/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/o6DrkpkjCpSYDb8Rzz46ri.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "REPO will never be free-to-play 'as we don't want to add microtransactions', say devs—hinting at earned cosmetics in the future",
-    "descricao": "NewsA little hat goes a long way.",
-    "link": "https://www.pcgamer.com/games/horror/repo-will-never-be-free-to-play-as-we-dont-want-to-add-microtransactions-say-devs-hinting-at-earned-cosmetics-in-the-future/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/GXXf5KYPuve3HPnAP8eC8P.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "Larian honcho Swen 'The Hammer' Vincke takes a new victory lap on 'high-profile people' who say singleplayer is dead: 'We've proven with BG3 that you can put in a pretty high budget and expect pretty high results'",
-    "descricao": "NewsYou tell 'em, Swen.",
-    "link": "https://www.pcgamer.com/games/baldurs-gate/larian-honcho-swen-the-hammer-vincke-takes-a-new-victory-lap-on-high-profile-people-who-say-singleplayer-is-dead-weve-proven-with-bg3-that-you-can-put-in-a-pretty-high-budget-and-expect-pretty-high-results/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8FZraxakBwmjm8s7Foiymg.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "There's a 25-year-old piece of PC hardware that's still being used in even the most powerful gaming PCs sold today. Happy birthday to USB 2.0",
-    "descricao": "newsAnd it's not the only ancient bit of PC tech that's still inside your gaming rig. Well, sort of.",
-    "link": "https://www.pcgamer.com/hardware/theres-a-25-year-old-piece-of-pc-hardware-thats-still-being-used-in-even-the-most-powerful-gaming-pcs-sold-today-happy-birthday-to-usb-2-0/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Edo7mqJvxAuPJuDtyU6QbP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "Amazon and Newegg are going head-to-head with Gaming Week sales, so I've plucked out my 5 favorite deals from the bunch",
-    "descricao": "DealThere should be something here for most budgets.",
-    "link": "https://www.pcgamer.com/hardware/amazon-and-newegg-are-going-head-to-head-with-gaming-week-sales-so-ive-plucked-out-my-5-favorite-deals-from-the-bunch/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WmSEBojQG8js4eJBnDzfRF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "A mimic monster may come to REPO in the future, but it has to be 'really interesting' before it does",
-    "descricao": "NewsTrust no one.",
-    "link": "https://www.pcgamer.com/games/horror/a-mimic-monster-may-come-to-repo-in-the-future-but-it-has-to-be-really-interesting-before-it-does/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XvucmF9HdjsqCq3mqpAeqE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "This Doom-themed Asus RTX 5080 is here just in time for some medieval ripping and tearing in Doom: The Dark Ages",
-    "descricao": "NewsThe slayer has entered the facility.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/this-doom-themed-asus-rtx-5080-is-here-just-in-time-for-some-medieval-ripping-and-tearing-in-doom-the-dark-ages/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Ch5LkB9qGgdybduPF6w9RH.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "Resident Evil 9 may have been teased in a new RE4 video, and players are having totally normal reactions to it: 'Together at last, like ice cream and pizza'",
-    "descricao": "NewsTime to get my Resi 9 fan screenplay back out.",
-    "link": "https://www.pcgamer.com/games/horror/resident-evil-9-may-have-been-teased-in-a-new-re4-video-and-players-are-having-totally-normal-reactions-to-it-together-at-last-like-ice-cream-and-pizza/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/VVf3iJ68zkn4qphYaraN79.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
-    "titulo": "This odd but surprisingly well-priced mini ITX motherboard from Minisforum packs an embedded AMD X3D processor",
-    "descricao": "NewsIts specs are far from perfect, but that price tag is very tempting.",
-    "link": "https://www.pcgamer.com/hardware/motherboards/this-odd-but-surprisingly-well-priced-mini-itx-motherboard-from-minisforum-packs-an-embedded-amd-x3d-processor/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/EPTbzgZ9ERQBypicavPg54.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T12:38:16"
-  },
-  {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "Valeu a pena esperar: Indiana Jones e o Grande Círculo fica melhor no PlayStation 5",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/indiana-jones-and-the-great-circle/139462/feature/valeu-a-pena-esperar-lancado-como-exclusivo-de-xbox-indiana-jones-e-o-grande-circulo-fica-melhor-no",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-records-growth-after-indiana-jones-call-of-du_ccx2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "Sem estratégia localizada e com valores abusivos, Nintendo se coloca em posição insustentável no Brasil",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139428/news/sem-estrategia-localizada-para-precos-de-jogos-e-com-valores-abusivos-nintendo-se-coloca-em-posicao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/mario-kart/mario-kart-world-direct-everything-announced-for-the-switch_5gha.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "As 13 piores adaptações cinematográficas de videogames de todos os tempos",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139379/feature/as-13-piores-adaptacoes-cinematograficas-de-videogames-de-todos-os-tempos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61176/61176_wy4s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "Desenvolvimento de GTA 6 é tão ambicioso que a Rockstar teria construído um prédio inteiro só para o jogo",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139417/news/desenvolvimento-de-gta-6-e-tao-ambicioso-que-a-rockstar-teria-construido-um-predio-inteiro-so-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h3bn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "2ª temporada de Andor deixa claro que Mon Mothma é uma das personagens mais essenciais de toda saga Star Wars",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/139321/feature/2a-temporada-de-andor-deixa-claro-que-mon-mothma-e-uma-das-personagens-mais-essenciais-de-toda-saga",
     "imagem": "https://sm.ign.com/t/ign_br/feature/s/somehow-an/somehow-andors-mon-mothma-is-now-one-of-the-greatest-star-wa_nmvw.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
     "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
@@ -133,22 +61,174 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
-    "titulo": "A franquia \"John Wick\" teria outro nome, mas Keanu Reeves se esqueceu dele",
+    "titulo": "Atriz da 2ª temporada de One Piece da Netflix revela mudança inesperada na trama e reunião de dois personagens que nunca se encontraram na obra original",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/john-wick/139513/news/a-franquia-john-wick-teria-outro-nome-mas-keanu-reeves-se-esqueceu-dele",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_hncb.280.jpg",
+    "link": "https://br.ign.com/one-piece-2/139521/news/atriz-da-2a-temporada-de-one-piece-da-netflix-revela-mudanca-inesperada-na-trama-e-reuniao-de-dois-p",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_jfk1.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
   },
   {
-    "titulo": "Você não vai mais esquecer seus pertences depois que comprar isto",
+    "titulo": "Desenvolvedora de Doom: The Dark Ages diz que jogo é o melhor da história da franquia",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/139520/news/voce-nao-vai-mais-esquecer-seus-pertences-depois-que-comprar-isto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/apple-airtag-thumb_9dw2.280.jpg",
+    "link": "https://br.ign.com/doom-the-dark-ages/139500/news/desenvolvedora-de-doom-the-dark-ages-diz-que-jogo-e-o-melhor-da-historia-da-franquia",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_8m25.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T12:38:16"
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "A modder has turned an Intel CPU heatspreader into a functional water block with the help of a CNC machine. And a bucket",
+    "descricao": "NewsOf course, why didn't I think of that?",
+    "link": "https://www.pcgamer.com/hardware/cooling/a-modder-has-turned-an-intel-cpu-heatspreader-into-a-functional-water-block-with-the-help-of-a-cnc-machine-and-a-bucket/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o6DrkpkjCpSYDb8Rzz46ri.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "REPO will never be free-to-play 'as we don't want to add microtransactions', say devs—hinting at earned cosmetics in the future",
+    "descricao": "NewsA little hat goes a long way.",
+    "link": "https://www.pcgamer.com/games/horror/repo-will-never-be-free-to-play-as-we-dont-want-to-add-microtransactions-say-devs-hinting-at-earned-cosmetics-in-the-future/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/GXXf5KYPuve3HPnAP8eC8P.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Larian honcho Swen 'The Hammer' Vincke takes a new victory lap on 'high-profile people' who say singleplayer is dead: 'We've proven with BG3 that you can put in a pretty high budget and expect pretty high results'",
+    "descricao": "NewsYou tell 'em, Swen.",
+    "link": "https://www.pcgamer.com/games/baldurs-gate/larian-honcho-swen-the-hammer-vincke-takes-a-new-victory-lap-on-high-profile-people-who-say-singleplayer-is-dead-weve-proven-with-bg3-that-you-can-put-in-a-pretty-high-budget-and-expect-pretty-high-results/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8FZraxakBwmjm8s7Foiymg.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "There's a 25-year-old piece of PC hardware that's still being used in even the most powerful gaming PCs sold today. Happy birthday to USB 2.0",
+    "descricao": "newsAnd it's not the only ancient bit of PC tech that's still inside your gaming rig. Well, sort of.",
+    "link": "https://www.pcgamer.com/hardware/theres-a-25-year-old-piece-of-pc-hardware-thats-still-being-used-in-even-the-most-powerful-gaming-pcs-sold-today-happy-birthday-to-usb-2-0/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Edo7mqJvxAuPJuDtyU6QbP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Amazon and Newegg are going head-to-head with Gaming Week sales, so I've plucked out my 5 favorite deals from the bunch",
+    "descricao": "DealThere should be something here for most budgets.",
+    "link": "https://www.pcgamer.com/hardware/amazon-and-newegg-are-going-head-to-head-with-gaming-week-sales-so-ive-plucked-out-my-5-favorite-deals-from-the-bunch/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WmSEBojQG8js4eJBnDzfRF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "A mimic monster may come to REPO in the future, but it has to be 'really interesting' before it does",
+    "descricao": "NewsTrust no one.",
+    "link": "https://www.pcgamer.com/games/horror/a-mimic-monster-may-come-to-repo-in-the-future-but-it-has-to-be-really-interesting-before-it-does/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XvucmF9HdjsqCq3mqpAeqE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "This Doom-themed Asus RTX 5080 is here just in time for some medieval ripping and tearing in Doom: The Dark Ages",
+    "descricao": "NewsThe slayer has entered the facility.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/this-doom-themed-asus-rtx-5080-is-here-just-in-time-for-some-medieval-ripping-and-tearing-in-doom-the-dark-ages/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Ch5LkB9qGgdybduPF6w9RH.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Resident Evil 9 may have been teased in a new RE4 video, and players are having totally normal reactions to it: 'Together at last, like ice cream and pizza'",
+    "descricao": "NewsTime to get my Resi 9 fan screenplay back out.",
+    "link": "https://www.pcgamer.com/games/horror/resident-evil-9-may-have-been-teased-in-a-new-re4-video-and-players-are-having-totally-normal-reactions-to-it-together-at-last-like-ice-cream-and-pizza/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/VVf3iJ68zkn4qphYaraN79.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "This odd but surprisingly well-priced mini ITX motherboard from Minisforum packs an embedded AMD X3D processor",
+    "descricao": "NewsIts specs are far from perfect, but that price tag is very tempting.",
+    "link": "https://www.pcgamer.com/hardware/motherboards/this-odd-but-surprisingly-well-priced-mini-itx-motherboard-from-minisforum-packs-an-embedded-amd-x3d-processor/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EPTbzgZ9ERQBypicavPg54.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Forza Horizon 5 segue como o rei dos jogos de corrida no PS5 - Review",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501258-forza-horizon-5-segue-como-o-rei-dos-jogos-de-corrida-no-ps5-review.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28111038481038.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "EA FC 25 agora possui passe premium com itens pagos; veja preço e como funciona",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501251-ea-fc-25-agora-possui-passe-premium-com-itens-pagos-veja-preco-e-como-funciona.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/25/25125141514171.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "AORUS Radeon RX 9070 XT Elite mostra muita potência e empolga! Veja Review com testes",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501247-aorus-radeon-rx-9070-xt-elite-mostra-muita-potencia-e-empolga-veja-review-com-testes.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/24/24222155009034.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
+  },
+  {
+    "titulo": "Forza Horizon 5 e mais! Veja os lançamentos de games da semana (27/04)",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501250-forza-horizon-5-e-mais-veja-os-lancamentos-de-games-da-semana-2704.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/25/25123020403137.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-28T12:49:50"
   }
 ];
