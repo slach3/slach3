@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Call of Duty: Black Ops Cold War roda em 120 fps no PS5 e Xbox Series X",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/cultura-geek/177628-call-of-duty-black-ops-cold-war-roda-120-fps-ps5-xbox-series-x.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/10/10175755753323.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Modder imagina como seria o Rei do Crime jogável em Spider-Man",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/cultura-geek/177631-modder-imagina-rei-crime-jogavel-spider-man.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/10/10181631494329.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Xbox Series X terá streaming e capturas a 4K/60 fps",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/177655-xbox-series-x-tera-streaming-capturas-4k-60-fps.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/11/11125911456293.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Railway Empire e Where the Water Tastes Like Wine grátis na Epic",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/177679-railway-empire-where-the-water-tastes-like-wine-gratis-epic.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/11/11174358728483.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Jogo de terror The Origin: Blind Maid é anunciado para consoles e PC",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/177680-jogo-terror-the-origin-blind-maid-anunciado-consoles-pc.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/11/11174638401486.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Immortal Fenyx Rising ganha gameplay de quase 90 minutos",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/177732-immortal-fenyx-rising-ganha-gameplay-90-minutos.htm",
-    "imagem": "https://tm.ibxk.com.br/2020/09/14/14165907417018.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "5 jogos gratuitos de Android em alta para baixar esta semana na Play Store",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501221-5-jogos-gratuitos-de-android-em-alta-para-baixar-esta-semana-na-play-store.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22192616609144.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
     "titulo": "After a 'catastrophic' hack, 4chan has risen from the grave: 'No other website can replace it, or this community'",
     "descricao": "NewsReturn of the posting dead.",
     "link": "https://www.pcgamer.com/games/after-a-catastrophic-hack-4chan-has-risen-from-the-grave-no-other-website-can-replace-it-or-this-community/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TXwbC7QUwJor9SiREuTmDi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Today's Wordle answer for Monday, April 28",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-april-28-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "'If the players own the game, they'll make it fantastic': Larian CEO Swen Vincke doubles down on defense of Baldur's Gate 3 Stardew Valley mod and the modding community overall",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/if-the-players-own-the-game-theyll-make-it-fantastic-larian-ceo-swen-vincke-doubles-down-on-defense-of-baldurs-gate-3-stardew-valley-mod-and-the-modding-community-overall/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CF5XTwuBukXLmvFmg8s7Z9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "'Stories are our bread and butter': Larian is building a special team to lay out the plot of its games years in advance",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/stories-are-our-bread-and-butter-larian-is-building-a-special-team-to-lay-out-the-plot-of-its-games-years-in-advance/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9DQk4NumL4fdkaKZj8hmAK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Larian boss Swen Vincke says the studio is 'deep in the trenches' on its 'crazy-ambitious' follow up to Baldur's Gate 3, hopes to show it off no later than 2030 because 'my wife will divorce me if it takes longer'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/larian-boss-swen-vincke-says-the-studio-is-deep-in-the-trenches-on-its-crazy-ambitious-follow-up-to-baldurs-gate-3-hopes-to-show-it-off-no-later-than-2030-because-my-wife-will-divorce-me-if-it-takes-longer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NCHqKsgM3CPm3EhF2iwrAB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Resident Evil 4 Remake is now the fastest game in the series to sell 10 million copies, and it's currently half price if you want to make it 10 million and 1",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/resident-evil-4-remake-is-now-the-fastest-game-in-the-series-to-sell-10-million-copies-and-its-currently-half-price-if-you-want-to-make-it-10-million-and-1/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/aVrWpeyrk5WG5uPDsBahij.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Trump-appointed lawyer threatens to revoke Wikipedia's non-profit status, putting the online encyclopedia in jeopardy",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/trump-appointed-lawyer-threatens-to-revoke-wikipedias-non-profit-status-putting-the-online-encyclopedia-in-jeopardy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BAWeoLkBMndbdruzsVi7RT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Humble's latest bundle gets you every Doom game, a discount on Doom: The Dark Ages and some Wolfenstein as a treat for less than $30",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/humbles-latest-bundle-gets-you-every-doom-game-a-discount-on-doom-the-dark-ages-and-some-wolfenstein-as-a-treat-for-less-than-usd30/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pwhvGm36jvJ4rEdSCz4vi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Oblivion's forgotten goblin wars system, which saw gobbos battling each other all over Cyrodiil, emerged from designing a single quest: 'I figured it wouldn't be a lot more work to make this systemic'",
@@ -149,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/oblivions-forgotten-goblin-wars-system-which-saw-gobbos-battling-each-other-all-over-cyrodiil-emerged-from-designing-a-single-quest-i-figured-it-wouldnt-be-a-lot-more-work-to-make-this-systemic/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jdhERwhkoH2iebwvaVF8i4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Lost Records: Bloom & Rage é como uma festa que acabou cedo demais | Review",
@@ -157,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/lost-records-bloom-and-rage-tape-2/139360/review/lost-records-bloom-rage-e-como-uma-festa-que-acabou-cedo-demais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61129/61129_c4mh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 – Um novo clássico forjado na beleza do fim | Review",
@@ -165,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139278/review/clair-obscur-expedition-33-um-novo-classico-forjado-na-beleza-do-fim-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61021/61021_3kyp.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Fatal Fury: City of the Wolves é o mehor jogo da SNK desde The King of Fighters XIII | Review",
@@ -173,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/139123/review/apoiado-em-otima-gameplay-fatal-fury-city-of-the-wolves-e-o-mehor-jogo-da-snk-desde-the-king-of-figh",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61131/61131_qfvs.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Nintendo revela preço e data de lançamento do Switch 2 no Brasil",
@@ -181,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139291/news/nintendo-revela-preco-e-data-de-lancamento-do-switch-2-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61019/61019_fmx4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
@@ -189,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 supera Blue Prince e se torna jogo mais bem avaliado de 2025 no Metacritic",
@@ -197,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139419/news/clair-obscur-expedition-33-supera-blue-prince-e-se-torna-jogo-mais-bem-avaliado-de-2025-no-metacriti",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Dune: Awakening terá beta aberto extenso no início de março",
@@ -205,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/dune-awakening/139415/news/dune-awakening-tera-beta-aberto-entre-9-e-12-de-maio",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da-desertvista_jqhf.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Hideo Kojima escolheu Margaret Qualley para papel em Death Stranding após assistir a comercial bizarro estrelado pela atriz",
@@ -213,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139402/news/hideo-kojima-escolheu-margaret-qualley-para-papel-em-death-stranding-apos-assistir-a-comercial-bizar",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-cast-margaret-qualley-in-death-stranding-after_9x5v.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -221,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -229,86 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Adobe tem novos recursos de IA para Photoshop, Lightroom e Premiere",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404190-adobe-tem-novos-recursos-de-ia-para-photoshop-lightroom-e-premiere.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25165542812462.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "OpenAI lança Deep Research mais leve no ChatGPT",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404163-openai-lanca-deep-research-mais-leve-no-chatgpt.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/01/01090541316009.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "YouTube Music vai compartilhar letras e trará estabilizador de volume",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404129-youtube-music-vai-compartilhar-letras-e-trara-estabilizador-de-volume.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23181642789011.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "WPS Office: Como essa alternativa gratuita está conquistando usuários após o aumento de preço do Microsoft 365",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404131-wps-office-como-essa-alternativa-gratuita-esta-conquistando-usuarios-apos-o-aumento-de-preco-do-microsoft-365.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/23/23195959876040.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Sua nuvem pode despencar: o conceito Jenga na Cibersegurança",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404185-sua-nuvem-pode-despencar-o-conceito-jenga-na-ciberseguranca.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25155058992388.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Novo vírus Android clona cartão de crédito remotamente via celular",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404174-novo-virus-android-clona-cartao-de-credito-remotamente-via-celular.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25134717236228.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Japão testa navio equipado com arma de canhão eletromagnético; conheça o JS Asuka",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404162-japao-testa-navio-equipado-com-arma-de-canhao-eletromagnetico-conheca-o-js-asuka.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25095503743003.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Guerra dos drones: Reino Unido proíbe exportação de controles de videogame para a Rússia",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404156-guerra-dos-drones-reino-unido-proibe-exportacao-de-controles-de-videogame-para-a-russia.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24181642361038.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "WhatsApp encerra suporte para versões antigas do iOS; saiba quais modelos serão afetados",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404166-whatsapp-encerra-suporte-para-versoes-antigas-do-ios-saiba-quais-modelos-serao-afetados.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/03/13/13105110301142.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
-  },
-  {
-    "titulo": "Portugal agora é 'Guiana Brasileira'? Entenda a 'colonização reversa' que viralizou no TikTok",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404180-portugal-agora-e-guiana-brasileira-entenda-a-colonizacao-reversa-que-viralizou-no-tiktok.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25145911960353.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-04-28T02:56:43"
+    "timestamp": "2025-04-28T04:03:06"
   }
 ];
