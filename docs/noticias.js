@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-has-nearly-tripled-how-much-skooma-you-can-chug-at-once-ringing-in-a-new-era-of-drug-fueled-super-speed/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vxUbRi2RUb6d52vjrZhU9C.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Crusader Kings 3 rides into the Steam best sellers atop a 70% sale and new Mongol-centric DLC",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/crusader-kings-3-rides-into-the-steam-best-sellers-atop-a-70-percent-sale-and-new-mongol-centric-dlc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kop3aov6k9f7J3s4TdKUxj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Russia accuses World of Tanks executives of 'extremist activities,' moves to seize assets of Russian publisher",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/russia-accuses-world-of-tanks-executives-of-extremist-activities-moves-to-seize-assets-of-russian-publisher/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LDvmqm4p7gWvW73wknGW2H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Swen Vincke says Larian didn't do Baldur's Gate 3 DLC because the idea is 'boring… there's just no passion'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/swen-vincke-says-larian-didnt-do-baldurs-gate-3-dlc-because-the-idea-is-boring-theres-just-no-passion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NCHqKsgM3CPm3EhF2iwrAB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Elden Ring Nightreign system requirements are good news if you haven't upgraded your PC since you played Elden Ring",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/elden-ring-nightreign-pc-system-requirements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TqdyDzMHd8hVUmaDKoKRb9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "It took us embarrassingly long to realize that Oblivion Remastered still has a local map for when you get lost in dungeons.",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/it-took-us-embarrassingly-long-to-realize-that-oblivion-remastered-still-has-a-local-map-for-when-you-get-lost-in-dungeons/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uUPvMJAx6tRfig2DWUd2J4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Bethesda wants you to suggest ideas for Oblivion Remastered, so get over there and tell it to add more shortcut slots and a difficulty between Adept and Expert",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-wants-you-to-suggest-ideas-for-oblivion-remastered-so-get-over-there-and-tell-it-to-add-more-shortcut-slots-and-a-difficulty-between-adept-and-expert/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gFYA6ViVvBDiRSLTzcSeHk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "The world's largest zip maker has made a giant self-propelled zip and I reckon it's a potential glimpse of the trousers of the future",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-worlds-largest-zip-maker-has-made-a-giant-self-propelled-zip-and-i-reckon-its-a-potential-glimpse-of-the-trousers-of-the-future/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/n8MWRznBs2oWfBnw9N9ash.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "'There's still a lot to do': One year later, Slavic Magic reveals what's next for Manor Lords, including AI progress, a new way to view records, and a team expansion",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/theres-still-a-lot-to-do-one-year-later-slavic-magic-reveals-whats-next-for-manor-lords-including-ai-progress-a-new-way-to-view-records-and-a-team-expansion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pXKFNNAu2UX4Td5uEDqmXH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Valeu a pena esperar: Indiana Jones e o Grande Círculo fica melhor no PlayStation 5",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/indiana-jones-and-the-great-circle/139462/feature/valeu-a-pena-esperar-lancado-como-exclusivo-de-xbox-indiana-jones-e-o-grande-circulo-fica-melhor-no",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-records-growth-after-indiana-jones-call-of-du_ccx2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Sem estratégia localizada e com valores abusivos, Nintendo se coloca em posição insustentável no Brasil",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139428/news/sem-estrategia-localizada-para-precos-de-jogos-e-com-valores-abusivos-nintendo-se-coloca-em-posicao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/mario-kart/mario-kart-world-direct-everything-announced-for-the-switch_5gha.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "As 13 piores adaptações cinematográficas de videogames de todos os tempos",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139379/feature/as-13-piores-adaptacoes-cinematograficas-de-videogames-de-todos-os-tempos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61176/61176_wy4s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Desenvolvimento de GTA 6 é tão ambicioso que a Rockstar teria construído um prédio inteiro só para o jogo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139417/news/desenvolvimento-de-gta-6-e-tao-ambicioso-que-a-rockstar-teria-construido-um-predio-inteiro-so-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h3bn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "2ª temporada de Andor deixa claro que Mon Mothma é uma das personagens mais essenciais de toda saga Star Wars",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/139321/feature/2a-temporada-de-andor-deixa-claro-que-mon-mothma-e-uma-das-personagens-mais-essenciais-de-toda-saga",
     "imagem": "https://sm.ign.com/t/ign_br/feature/s/somehow-an/somehow-andors-mon-mothma-is-now-one-of-the-greatest-star-wa_nmvw.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Últimos dias no Steam: um dos melhores remakes de todos os tempos está com 50% de desconto",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/139557/news/ultimos-dias-no-steam-um-dos-melhores-remakes-de-todos-os-tempos-esta-com-50-de-desconto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/resident-evil-4-remake_p9nd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   },
   {
     "titulo": "Smart TV 43\": qual modelo com melhor custo-benefício de 2025?",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/139479/news/smart-tv-43-qual-modelo-com-melhor-custo-beneficio-de-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/closeup-man-watching-tv-home_xp65.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-28T19:48:02"
+    "timestamp": "2025-04-28T19:57:45"
   }
 ];
