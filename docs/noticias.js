@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "'There are currently three Xbox controller prototypes': New cloud gaming-enabled controller report suggests everything really is an Xbox",
+    "descricao": "NewsXbox could be all-in on the cloud.",
+    "link": "https://www.pcgamer.com/hardware/controllers/there-are-currently-three-xbox-controller-prototypes-new-cloud-gaming-enabled-controller-report-suggests-everything-really-is-an-xbox/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/JnkmnXDJmFkAWT3tp38iiV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-29T11:53:32"
+  },
+  {
     "titulo": "Sea of Thieves has finally changed its broken ban system and, more importantly, actually tells you what you did wrong now",
     "descricao": "NewsNot the type of points you want to be earning, really.",
     "link": "https://www.pcgamer.com/games/action/sea-of-thieves-has-finally-changed-its-broken-ban-system-and-more-importantly-actually-tells-you-what-you-did-wrong-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/s6EY5yn2UkLYQmpVPjyzVH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "I hear you, upgrading your PC has probably felt out of reach this year, but these are the 5 best Amazon and Newegg Gaming Week deals I've found so far to help you out",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/i-hear-you-upgrading-your-pc-has-probably-felt-out-of-reach-this-year-but-these-are-the-5-best-amazon-and-newegg-gaming-week-deals-ive-found-so-far-to-help-you-out/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8WtdwJrGCJ5aN6MTihEQVd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Intel's upcoming Panther Lake CPU looks like a killer gaming handheld chip thanks to a reported massive graphics upgrade, hefty AI performance and upgraded E-cores",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intels-upcoming-panther-lake-cpu-looks-like-a-killer-gaming-handheld-chip-thanks-to-a-reported-massive-graphics-upgrade-hefty-ai-performance-and-upgraded-e-cores/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8cqRbAHoXpCxJEDgWeFmbF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Chinese gamers are protesting Infinity Nikki by flooding its Steam launch with attempts to scare off would-be players",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/chinese-gamers-are-protesting-infinity-nikki-by-flooding-its-steam-launch-with-attempts-to-scare-off-would-be-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zLoDVyPJFry9MKJ5mhLEdg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Ubisoft remembers it owns Splinter Cell, patches Steam achievements into Blacklist 12 years after it first came out",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/ubisoft-remembers-it-owns-splinter-cell-patches-steam-achievements-into-blacklist-12-years-after-it-first-came-out/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cNBgtyUkjUH8EegHaQcH2e.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Dragon Age creator says Clair Obscur: Expedition 33 is 'kind of to JRPGs what Baldur's Gate 3 was to CRPGs'",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/dragon-age-creator-says-clair-obscur-expedition-33-is-kind-of-to-jrpgs-what-baldurs-gate-3-was-to-crpgs/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zb6tsAnKg7YQ9hjawiYKN4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "An Oblivion Remastered player ended up in 'the backrooms of Oblivion' trying to find the exact location from The Elder Scrolls 6 teaser trailer",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/an-oblivion-remastered-player-ended-up-in-the-backrooms-of-oblivion-trying-to-find-the-exact-location-from-the-elder-scrolls-6-teaser-trailer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G8F4CXRdbVGC5Ta4zsny75.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Larian's Swen Vincke says AI-obsessed studios won't 'have a competitive advantage', because those tools are 'gonna be what's available to everybody'",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/game-development/larians-swen-vincke-says-ai-obsessed-studios-wont-have-a-competitive-advantage-because-those-tools-are-gonna-be-whats-available-to-everybody/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NCHqKsgM3CPm3EhF2iwrAB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
-  },
-  {
-    "titulo": "Fortnite's rarest collaboration has returned to the store after a 1,794 day absence",
-    "descricao": "newsPsycho Bandit's back, baby.",
-    "link": "https://www.pcgamer.com/games/battle-royale/fortnites-rarest-collaboration-has-returned-to-the-store-after-a-1-794-day-absence/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/askSFrRWKQbUrqS9s7heuR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Valeu a pena esperar: Indiana Jones e o Grande Círculo fica melhor no PlayStation 5",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/indiana-jones-and-the-great-circle/139462/feature/valeu-a-pena-esperar-lancado-como-exclusivo-de-xbox-indiana-jones-e-o-grande-circulo-fica-melhor-no",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-records-growth-after-indiana-jones-call-of-du_ccx2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Sem estratégia localizada e com valores abusivos, Nintendo se coloca em posição insustentável no Brasil",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139428/news/sem-estrategia-localizada-para-precos-de-jogos-e-com-valores-abusivos-nintendo-se-coloca-em-posicao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/mario-kart/mario-kart-world-direct-everything-announced-for-the-switch_5gha.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "As 13 piores adaptações cinematográficas de videogames de todos os tempos",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139379/feature/as-13-piores-adaptacoes-cinematograficas-de-videogames-de-todos-os-tempos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61176/61176_wy4s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Desenvolvimento de GTA 6 é tão ambicioso que a Rockstar teria construído um prédio inteiro só para o jogo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139417/news/desenvolvimento-de-gta-6-e-tao-ambicioso-que-a-rockstar-teria-construido-um-predio-inteiro-so-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h3bn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "2ª temporada de Andor deixa claro que Mon Mothma é uma das personagens mais essenciais de toda saga Star Wars",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/139321/feature/2a-temporada-de-andor-deixa-claro-que-mon-mothma-e-uma-das-personagens-mais-essenciais-de-toda-saga",
     "imagem": "https://sm.ign.com/t/ign_br/feature/s/somehow-an/somehow-andors-mon-mothma-is-now-one-of-the-greatest-star-wa_nmvw.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "\"É para JRPGs o que Baldur's Gate 3 foi para CRPGs\", opina criador de Dragon Age sobre Clair Obscur: Expedition 33",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139579/news/e-para-jrpgs-o-que-baldurs-gate-3-foi-para-crpgs-opina-criador-de-dragon-age-sobre-clair-obscur-expe",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pdxu.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   },
   {
     "titulo": "Vilão mais icônico de Exterminador do Futuro criou maior furo de roteiro da franquia",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/exterminador-do-futuro/139575/news/vilao-mais-iconico-de-exterminador-do-futuro-criou-maior-furo-de-roteiro-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1as2.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T11:42:51"
+    "timestamp": "2025-04-29T11:53:32"
   }
 ];
