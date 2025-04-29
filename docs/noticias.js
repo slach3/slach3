@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-april-29-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Dark Souls 2 cut content includes a giant enemy crab wearing a castle tower as a shell which you could enter from above for massive damage",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-cut-content-includes-a-giant-enemy-crab-wearing-a-castle-tower-as-a-shell-which-you-could-enter-from-above-for-massive-damage/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bs6gYHyv3R49UkBBx2KXAX.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "There's a reason Oblivion Remastered's new voice actors all sound familiar: It's a huge Skyrim reunion",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/theres-a-reason-oblivion-remastereds-new-voice-actors-all-sound-familiar-its-a-huge-skyrim-reunion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gzxn6isk67RSEBJr2EHVd8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Oblivion Remastered has nearly tripled how much Skooma you can chug at once, ringing in a new era of drug-fueled super speed",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-has-nearly-tripled-how-much-skooma-you-can-chug-at-once-ringing-in-a-new-era-of-drug-fueled-super-speed/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vxUbRi2RUb6d52vjrZhU9C.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Crusader Kings 3 rides into the Steam best sellers atop a 70% sale and new Mongol-centric DLC",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/crusader-kings-3-rides-into-the-steam-best-sellers-atop-a-70-percent-sale-and-new-mongol-centric-dlc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kop3aov6k9f7J3s4TdKUxj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Russia accuses World of Tanks executives of 'extremist activities,' moves to seize assets of Russian publisher",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/russia-accuses-world-of-tanks-executives-of-extremist-activities-moves-to-seize-assets-of-russian-publisher/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LDvmqm4p7gWvW73wknGW2H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Swen Vincke says Larian didn't do Baldur's Gate 3 DLC because the idea is 'boring… there's just no passion'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/swen-vincke-says-larian-didnt-do-baldurs-gate-3-dlc-because-the-idea-is-boring-theres-just-no-passion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NCHqKsgM3CPm3EhF2iwrAB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Elden Ring Nightreign system requirements are good news if you haven't upgraded your PC since you played Elden Ring",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/elden-ring-nightreign-pc-system-requirements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TqdyDzMHd8hVUmaDKoKRb9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "It took us embarrassingly long to realize that Oblivion Remastered still has a local map for when you get lost in dungeons.",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/it-took-us-embarrassingly-long-to-realize-that-oblivion-remastered-still-has-a-local-map-for-when-you-get-lost-in-dungeons/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uUPvMJAx6tRfig2DWUd2J4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Valeu a pena esperar: Indiana Jones e o Grande Círculo fica melhor no PlayStation 5",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/indiana-jones-and-the-great-circle/139462/feature/valeu-a-pena-esperar-lancado-como-exclusivo-de-xbox-indiana-jones-e-o-grande-circulo-fica-melhor-no",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-records-growth-after-indiana-jones-call-of-du_ccx2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Sem estratégia localizada e com valores abusivos, Nintendo se coloca em posição insustentável no Brasil",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139428/news/sem-estrategia-localizada-para-precos-de-jogos-e-com-valores-abusivos-nintendo-se-coloca-em-posicao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/mario-kart/mario-kart-world-direct-everything-announced-for-the-switch_5gha.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "As 13 piores adaptações cinematográficas de videogames de todos os tempos",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139379/feature/as-13-piores-adaptacoes-cinematograficas-de-videogames-de-todos-os-tempos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61176/61176_wy4s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Desenvolvimento de GTA 6 é tão ambicioso que a Rockstar teria construído um prédio inteiro só para o jogo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139417/news/desenvolvimento-de-gta-6-e-tao-ambicioso-que-a-rockstar-teria-construido-um-predio-inteiro-so-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h3bn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "2ª temporada de Andor deixa claro que Mon Mothma é uma das personagens mais essenciais de toda saga Star Wars",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/139321/feature/2a-temporada-de-andor-deixa-claro-que-mon-mothma-e-uma-das-personagens-mais-essenciais-de-toda-saga",
     "imagem": "https://sm.ign.com/t/ign_br/feature/s/somehow-an/somehow-andors-mon-mothma-is-now-one-of-the-greatest-star-wa_nmvw.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "\"Sempre esteve na nossa lista\", diretor e produtor de remaster de Onimusha 2 revelam que trazer clássico da Capcom para plataformas atuais era sonho antigo",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-2-samurais-destiny/139451/news/sempre-esteve-na-nossa-lista-interna-de-projetos-diretor-e-produtor-de-remaster-de-onimusha-2-revela",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/onimusha-2_7gma.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Por APENAS R$727: Monitor Acer Nitro 180 Hz 0.5ms no precinho",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/139564/news/por-apenas-r727-monitor-acer-nitro-180-hz-05ms-no-precinho",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-10_5t7v.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Um monitor gamer de respeito: descubra o LG Ultra Gear 24\"",
@@ -149,7 +149,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/139563/news/um-monitor-gamer-de-respeito-descubra-o-lg-ultra-gear-24",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lg-ultragear-180hz-thumb_z8ng.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Adobe tem novos recursos de IA para Photoshop, Lightroom e Premiere",
@@ -157,7 +157,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404190-adobe-tem-novos-recursos-de-ia-para-photoshop-lightroom-e-premiere.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/25/25165542812462.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "OpenAI lança Deep Research mais leve no ChatGPT",
@@ -165,7 +165,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404163-openai-lanca-deep-research-mais-leve-no-chatgpt.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/01/01090541316009.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "YouTube Music vai compartilhar letras e trará estabilizador de volume",
@@ -173,7 +173,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404129-youtube-music-vai-compartilhar-letras-e-trara-estabilizador-de-volume.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/23/23181642789011.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "WPS Office: Como essa alternativa gratuita está conquistando usuários após o aumento de preço do Microsoft 365",
@@ -181,7 +181,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404131-wps-office-como-essa-alternativa-gratuita-esta-conquistando-usuarios-apos-o-aumento-de-preco-do-microsoft-365.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/23/23195959876040.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Mensagens falsas prometem devolver descontos ilegais no INSS; saiba reconhecer a fraude",
@@ -189,7 +189,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404213-mensagens-falsas-prometem-devolver-descontos-ilegais-no-inss-saiba-reconhecer-a-fraude.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28143247119139.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Como um ciberataque pode apagar quase toda a Europa — e também o Brasil",
@@ -197,7 +197,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404211-como-um-ciberataque-pode-apagar-quase-toda-a-europa-e-tambem-o-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28140556130120.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "'Como termina a ajuda ao regime de Kiev': municípios dos Países Baixos são atacados hackers russos",
@@ -205,7 +205,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404205-como-termina-a-ajuda-ao-regime-de-kiev-municipios-dos-paises-baixos-sao-atacados-hackers-russos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28121327143002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Fórum 4chan volta ao ar de forma limitada após invasão e vazamento",
@@ -213,7 +213,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404197-forum-4chan-volta-ao-ar-de-forma-limitada-apos-invasao-e-vazamento.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28092634689009.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "'Tarifaço' de Trump afastou varejistas do Amazon Prime Day; entenda",
@@ -221,7 +221,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/mercado/404215-tarifaco-de-trump-afastou-varejistas-do-amazon-prime-day-entenda.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/23/23112259368227.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   },
   {
     "titulo": "Ex-CEO da Hurb rouba obras de arte e é preso no RJ",
@@ -229,6 +229,6 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404203-ex-ceo-da-hurb-rouba-obras-de-arte-e-e-preso-no-rj.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28111707208049.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-04-29T00:55:34"
+    "timestamp": "2025-04-29T01:40:20"
   }
 ];
