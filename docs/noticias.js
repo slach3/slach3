@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Outlive, RTS brasileiro, é relançado 25 anos depois com gráficos melhorados e multiplayer no Steam",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/outlive/139577/news/outlive-rts-brasileiro-e-relancado-25-anos-depois-com-graficos-melhorados-e-multiplayer-no-steam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/outlive_vg2y.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Quem são os Cicatrizes? Grupo conhecido dos jogos pode ser ameaça para Ellie",
@@ -61,23 +61,31 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139477/news/quem-sao-os-cicatrizes-grupo-conhecido-dos-jogos-pode-ser-ameaca-para-ellie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1918.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
-    "titulo": "Thunderbolts: David Harbour está há 30 anos com raiva de Pedro Pascal",
+    "titulo": "Oi, sumido! Ubisoft lembra que Splinter Cell existe com atualização que coloca conquistas do Steam em jogo lançado há mais de 10 anos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139598/news/thunderbolts-david-harbour-esta-ha-30-anos-com-raiva-de-pedro-pascal",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/last-of-us-ep-2-blog-1744829414222-1745857780490_ebej.280.jpg",
+    "link": "https://br.ign.com/tom-clancys-splinter-cell/139602/news/oi-sumido-ubisoft-lembra-que-splinter-cell-existe-com-atualizacao-que-coloca-conquistas-do-steam-em",
+    "imagem": "https://sm.ign.com/t/ign_br/news/u/ubisoft-re/ubisoft-remembers-splinter-cell-exists-by-adding-steam-achie_3xqt.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
-    "titulo": "Atriz que dá vida a Yennefer nos jogos diz que não sabe nada sobre The Witcher 4",
+    "titulo": "Desenvolvedor de World of Warcraft Classic reforça que empresa quer manter espírito do jogo original enquanto explora novas ideias",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/139594/news/atriz-que-da-vida-a-yennefer-nos-jogos-diz-que-nao-sabe-nada-sobre-the-witcher-4",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/yennefer_d41z.280.jpg",
+    "link": "https://br.ign.com/wow-blizzard/139595/news/desenvolvedor-de-world-of-warcraft-classic-reforca-que-empresa-quer-manter-espirito-do-jogo-original",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_x7jw.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
+  },
+  {
+    "titulo": "We Will Be Gods promises months-long PvP wars with 'no fairness': 'There can be 140 people on one side and 70 on the other, and that's how it's going to be'",
+    "descricao": "newsMultiplayer fantasy war game We Will Be Gods enters public pre-alpha in May, and will be free-to-play when it launches this year.",
+    "link": "https://www.pcgamer.com/games/strategy/we-will-be-gods-promises-months-long-pvp-wars-with-no-fairness-there-can-be-140-people-on-one-side-and-70-on-the-other-and-thats-how-its-going-to-be/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/a6QmLdzudbqmas5H3xXvDF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Borderlands 4 is bringing its release date forward a week and I'm already breaking out my GTA 6 conspiracy board",
@@ -85,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/borderlands-4-is-bringing-its-release-date-forward-a-week-and-im-already-breaking-out-my-gta-6-conspiracy-board/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2XXez2NN49ag3D9dgnGwcL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Nexon wins the bidding war to make a new StarCraft as well as distribute a Blizzard mobile game that's being called 'Overwatch 3'",
@@ -93,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/nexon-wins-the-bidding-war-to-make-a-new-starcraft-as-well-as-distribute-a-blizzard-mobile-game-thats-being-called-overwatch-3/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Sg3wFfbr3FBAJTkQbGxXxm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "The Minecraft Movie is well on its way to becoming the most successful videogame film of all time, as it earns $816 million",
@@ -101,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/the-minecraft-movie-is-well-on-its-way-to-becoming-the-most-successful-videogame-film-of-all-time-as-it-earns-usd816-million/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/be44Si2b6Tzkq6n6dXt6iQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "A Japanese retailer is only selling RTX 5090 and RTX 5080 GPUs for domestic use, which feels like a policy that is impossible to enforce",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/a-japanese-retailer-is-only-selling-rtx-5090-and-rtx-5080-gpus-for-domestic-use-which-feels-like-a-policy-that-is-impossible-to-enforce/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nZAQu9r9L63cUZYG8y4hsE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "For a limited time you can get all the XCOM games for just $10—yes, even that one",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/for-a-limited-time-you-can-get-all-the-xcom-games-for-just-usd10-yes-even-that-one/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qZs2wJDiWcgvAsSJhhvDyC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Forget the rumoured 18 GB RTX 5070 Super, this utterly epic 96 GB Nvidia GPU will solve all your VRAM worries, kinda",
@@ -125,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/forget-the-rumoured-18-gb-rtx-5070-super-this-utterly-epic-96-gb-nvidia-gpu-will-solve-all-your-vram-worries-kinda/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KxXdBFjdqyJeWiysxUc6xL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Fighting game Marvel Contest of Champions is coming to PC with over 300 characters",
@@ -133,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fighting/fighting-game-marvel-contest-of-champions-is-coming-to-steam-with-over-300-characters/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VU7ZTvWoXeY8hZ5bh5ocwH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   },
   {
     "titulo": "Devs lament Oblivion Remastered's surprise release as Todd Howard eats their lunch: 'I noticed a complete stop in game sales from about 2 pm onward on Oblivion day'",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/devs-lament-oblivion-remastereds-surprise-release-as-todd-howard-eats-their-lunch-i-noticed-a-complete-stop-in-game-sales-from-about-2-pm-onward-on-oblivion-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uUPvMJAx6tRfig2DWUd2J4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
-  },
-  {
-    "titulo": "Elden Ring legend Let Me Solo Her finally played Bloodborne, and came across new levels of pain: 'This boss took me more tries than any previous boss'",
-    "descricao": "NewsI can't believe he'd fight an orphan.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-legend-let-me-solo-her-finally-played-bloodborne-and-came-across-new-levels-of-pain-this-boss-took-me-more-tries-than-any-previous-boss/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/d8Ck4nrcwBQ9obDuWiwEUK.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T13:59:10"
+    "timestamp": "2025-04-29T14:37:04"
   }
 ];
