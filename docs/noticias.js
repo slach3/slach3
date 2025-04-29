@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Adquira já seu novo iPhone 15 com esta excelente oferta no Mercado Livre",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/139633/news/adquira-ja-seu-novo-iphone-15-com-esta-excelente-oferta-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone15txt_scns.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
-  },
-  {
-    "titulo": "Astro Bot por menos de R$ 200 com cupom de 10% de desconto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/139631/news/astro-bot-por-menos-de-r-200-com-cupom-de-10-de-desconto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_vv6s.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-04-29T19:57:58"
+    "titulo": "More than 19,000 NFT images briefly disappeared last week thanks to a server problem",
+    "descricao": "newsThe Clone X collection was only gone for a few hours, but the disappearance raised some rather pointed questions.",
+    "link": "https://www.pcgamer.com/games/more-than-19-000-nft-images-briefly-disappeared-last-week-thanks-to-a-server-problem/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TqWzokJL8qFRue5p5EBGR3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "Splitgate 2 open beta test kicks off in May with a 'massive amount of new content'",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/splitgate-2-open-beta-test-kicks-off-in-may-with-a-massive-amount-of-new-content/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rvptKenrhdovbmhZM5iY3B.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "'AI is going to become more and more difficult to detect': Fortnite has no plans to clean up increasing number of AI thumbnails cluttering up user-generated experiences",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/battle-royale/ai-is-going-to-become-more-and-more-difficult-to-detect-fortnite-has-no-plans-to-clean-up-increasing-number-of-ai-thumbnails-cluttering-up-user-generated-experiences/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gnKfeiZWGqikdYRCT3sNH8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "Electronic Arts lays off hundreds of employees and cancels 2 'incubation projects' including a new Titanfall game",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/electronic-arts-lays-off-hundreds-of-employees-and-cancels-2-incubation-projects-including-a-new-titanfall-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2PDEmFr2RymaR9L2aDWvxi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "Dune-inspired indie roguelike admits it kinda ran out of ideas, but releases out of early access anyway and goes 100% free: 'Only so many things you can do that fit into the 'lateral worm cannon' mold'",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/dune-inspired-indie-roguelike-admits-it-kinda-ran-out-of-ideas-but-releases-out-of-early-access-anyway-and-goes-100-percent-free-only-so-many-things-you-can-do-that-fit-into-the-lateral-worm-cannon-mold/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5Euqr3sX27xBeaCtdL7DaH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "Eric Barone says Stardew Valley was about 'the fundamentals of human sustenance,' while Haunted Chocolatier is about 'what's next': 'There's another realm of the human experience'",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/life-sim/eric-barone-says-stardew-valley-was-about-the-fundamentals-of-human-sustenance-while-haunted-chocolatier-is-about-whats-next-theres-another-realm-of-the-human-experience/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ovUy6ngQ2WvBgMj3Q76Bki.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "After getting Stardew Valley to 'a good place' with update 1.6, Eric Barone is now fully focused on his next game: 'I'm committed to not working on Stardew Valley until I'm done with Haunted Chocolatier'",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/life-sim/after-getting-stardew-valley-to-a-good-place-with-update-1-6-eric-barone-is-now-fully-focused-on-his-next-game-im-committed-to-not-working-on-stardew-valley-until-im-done-with-haunted-chocolatier/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/m389LoPvyAqf9qA5hhnu5N.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "We Will Be Gods promises months-long PvP wars with 'no fairness': 'There can be 140 people on one side and 70 on the other, and that's how it's going to be'",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/we-will-be-gods-promises-months-long-pvp-wars-with-no-fairness-there-can-be-140-people-on-one-side-and-70-on-the-other-and-thats-how-its-going-to-be/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/a6QmLdzudbqmas5H3xXvDF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
     "titulo": "Borderlands 4 is bringing its release date forward a week and I'm already breaking out my GTA 6 conspiracy board",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/borderlands-4-is-bringing-its-release-date-forward-a-week-and-im-already-breaking-out-my-gta-6-conspiracy-board/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2XXez2NN49ag3D9dgnGwcL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "timestamp": "2025-04-29T20:30:24"
   },
   {
-    "titulo": "Nexon wins the bidding war to make a new StarCraft as well as distribute a Blizzard mobile game that's being called 'Overwatch 3'",
-    "descricao": "NewsI can't be the only one wondering: why?",
-    "link": "https://www.pcgamer.com/games/strategy/nexon-wins-the-bidding-war-to-make-a-new-starcraft-as-well-as-distribute-a-blizzard-mobile-game-thats-being-called-overwatch-3/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Sg3wFfbr3FBAJTkQbGxXxm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-29T19:57:58"
+    "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Adquira já seu novo iPhone 15 com esta excelente oferta no Mercado Livre",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/139633/news/adquira-ja-seu-novo-iphone-15-com-esta-excelente-oferta-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone15txt_scns.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
+  },
+  {
+    "titulo": "Astro Bot por menos de R$ 200 com cupom de 10% de desconto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/139631/news/astro-bot-por-menos-de-r-200-com-cupom-de-10-de-desconto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_vv6s.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-04-29T20:30:24"
   }
 ];
