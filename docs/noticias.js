@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Blizzard is making a huge change to WoW: combat add-ons will be eliminated, with new features coming to replace them",
-    "descricao": "newsAll the details on Blizzard's planned changes to World of Warcraft add-ons, which will end support for the MMO's most popular mods.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-combat-addons-removal/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FE5TF7BT7ayBNTGuMU4Y6N.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Outraged Redditors discover they have been subject to a secret chatbot experiment that found AI posts were 'three to six times more persuasive' than humans",
-    "descricao": "NewsAll your subreddits are belong to us.",
-    "link": "https://www.pcgamer.com/software/ai/outraged-redditors-discover-they-have-been-subject-to-a-secret-chatbot-experiment-that-found-ai-posts-were-three-to-six-times-more-persuasive-than-humans/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/shQqzKfjLBes29rofWboVA.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Randy Pitchford says Borderlands 4's new release date 'is literally 0% about any other product’s actual or theoretical launch date,' and you know he's talking about Grand Theft Auto 6",
-    "descricao": "newsThe Borderlands 4 release date was moved up by nearly two weeks, and we're all wondering why.",
-    "link": "https://www.pcgamer.com/games/fps/randy-pitchford-says-borderlands-4s-new-release-date-is-literally-0-percent-about-any-other-products-actual-or-theoretical-launch-date-and-you-know-hes-talking-about-grand-theft-auto-6/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6kRSAGKqtKP9vrvP5cXUAn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Ex-GTA dev says PC makes scads of cash now so hopefully GTA 6's 'PC version will be closer behind' consoles—that is if 'decision-day' at Rockstar doesn't give us a last-minute delay",
-    "descricao": "NewsRockstar might have shut down his blog, but not even the Housers can stop Obbe Vermeij from posting.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/ex-gta-dev-says-pc-makes-scads-of-cash-now-so-hopefully-gta-6s-pc-version-will-be-closer-behind-consoles-that-is-if-decision-day-at-the-studio-doesnt-give-us-a-last-minute-delay/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/x6bM5u9Kch7DMDq7596XbT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Turns out Janet Jackson's laptop-crashing cursed bassline was the scourge of notebook makers for at least half a decade",
-    "descricao": "NewsNo struggle, no progress.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/turns-out-janet-jacksons-laptop-crashing-cursed-bassline-was-the-scourge-of-notebook-makers-for-at-least-half-a-decade/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dbvZhbwMQKbru7UL2n5Ffh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Intel is trying out on-chip water cooling too and I'm just happy I'm not the one having to place liquids so close to expensive electronics",
-    "descricao": "NewsLeave it to the engineers. And the YouTube DIY'ers.",
-    "link": "https://www.pcgamer.com/hardware/cooling/intel-is-trying-out-on-chip-water-cooling-too-and-im-just-happy-im-not-the-one-having-to-place-liquids-so-close-to-expensive-electronics/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3Z2HqiLD3L4KpA3YYtrFCe.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Our favourite budget direct drive racing wheel bundle is down to $440 right now, making it an even better deal for sim racing hijinks",
-    "descricao": "DealWe gave it 90% last year.",
-    "link": "https://www.pcgamer.com/hardware/steering-wheels/our-favourite-budget-direct-drive-racing-wheel-bundle-is-down-to-usd440-right-now-making-it-an-even-better-deal-for-sim-racing-hijinks/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6cw5rDHw5E5QpHs2zrPYH8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "'We were literally held hostage': Overwatch 2 players are finding the matchmaking in Stadium tough, but the devs say they're working on a couple of solutions",
-    "descricao": "NewsSometimes there's just nothing you can do.",
-    "link": "https://www.pcgamer.com/games/fps/we-were-literally-held-hostage-overwatch-2-players-are-finding-the-matchmaking-in-stadium-tough-but-the-devs-say-theyre-working-on-a-couple-of-solutions/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jVnes8tm7ekRTZjHZozSBU.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Eric Barone's been playing lots of chess and reckons Elon Musk's 'tech tree' idea isn't awful: 'What if someone did a Balatro treatment… a chess roguelike?'",
-    "descricao": "News\"I'm not like a huge chess guy, it's just always been something that I've wanted to be decent at.\"",
-    "link": "https://www.pcgamer.com/games/eric-barones-been-playing-lots-of-chess-and-reckons-elon-musks-tech-tree-idea-isnt-awful-what-if-someone-did-a-balatro-treatment-a-chess-roguelike/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dcfppdWrfYUatzVbFh3L9H.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
@@ -133,86 +61,174 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
-    "titulo": "Site do Google passará por mudança definitiva no Brasil",
+    "titulo": "Tenha o máximo da qualidade 4K com a Roku Express com 18% de desconto",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/139662/news/site-do-google-passara-por-mudanca-definitiva-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/google_nxgg.280.jpg",
+    "link": "https://br.ign.com/descontos/139666/news/tenha-o-maximo-da-qualidade-4k-com-a-roku-express-com-18-de-desconto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/roku-express-4k-6kgn_288412_h2tv.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
-    "titulo": "Eles acertaram de novo: Os Simpsons também previram grande apagão na Europa",
+    "titulo": "Com sucesso de inZOI no lançamento e novos conteúdos de PUBG, Krafton registra recorde de vendas no 1º trimestre de 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/os-simpsons/139665/news/eles-acertaram-de-novo-os-simpsons-tambem-previram-grande-apagao-na-europa",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_x4qv.280.jpg",
+    "link": "https://br.ign.com/inzoi/139668/news/com-sucesso-de-inzoi-no-lancamento-e-novos-conteudos-de-pubg-krafton-registra-recorde-de-vendas-no-1",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/inzoi_f5ry.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Evil Dead: The Game is being removed from sale just three years after it launched",
+    "descricao": "newsSaber Interactive has confirmed the takedown is intentional, but won't say why.",
+    "link": "https://www.pcgamer.com/games/horror/evil-dead-the-game-is-being-removed-from-sale-just-three-years-after-it-launched/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BJCBBYNjn9bCZfxPBAvVnj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "You can get 74 indie games for a scant $16 in this eSims for Gaza Itch.io bundle",
+    "descricao": "NewsPlus over 80 TTRPGs, 26 books, over a dozen comics, and a few soundtracks on the side.",
+    "link": "https://www.pcgamer.com/games/you-can-get-74-indie-games-for-a-scant-usd16-in-this-esims-for-gaza-itch-io-bundle/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nSCNYBNgZ5t7JPJnrBBvzK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Blizzard is making a huge change to WoW: combat add-ons will be eliminated, with new features coming to replace them",
+    "descricao": "newsAll the details on Blizzard's planned changes to World of Warcraft add-ons, which will end support for the MMO's most popular mods.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-combat-addons-removal/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/F6VuejGCdVBTeYUcznQ6X.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Outraged Redditors discover they have been subject to a secret chatbot experiment that found AI posts were 'three to six times more persuasive' than humans",
+    "descricao": "NewsAll your subreddits are belong to us.",
+    "link": "https://www.pcgamer.com/software/ai/outraged-redditors-discover-they-have-been-subject-to-a-secret-chatbot-experiment-that-found-ai-posts-were-three-to-six-times-more-persuasive-than-humans/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/shQqzKfjLBes29rofWboVA.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Randy Pitchford says Borderlands 4's new release date 'is literally 0% about any other product’s actual or theoretical launch date,' and you know he's talking about Grand Theft Auto 6",
+    "descricao": "newsThe Borderlands 4 release date was moved up by nearly two weeks, and we're all wondering why.",
+    "link": "https://www.pcgamer.com/games/fps/randy-pitchford-says-borderlands-4s-new-release-date-is-literally-0-percent-about-any-other-products-actual-or-theoretical-launch-date-and-you-know-hes-talking-about-grand-theft-auto-6/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6kRSAGKqtKP9vrvP5cXUAn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Ex-GTA dev says PC makes scads of cash now so hopefully GTA 6's 'PC version will be closer behind' consoles—that is if 'decision-day' at Rockstar doesn't give us a last-minute delay",
+    "descricao": "NewsRockstar might have shut down his blog, but not even the Housers can stop Obbe Vermeij from posting.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/ex-gta-dev-says-pc-makes-scads-of-cash-now-so-hopefully-gta-6s-pc-version-will-be-closer-behind-consoles-that-is-if-decision-day-at-the-studio-doesnt-give-us-a-last-minute-delay/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/x6bM5u9Kch7DMDq7596XbT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Turns out Janet Jackson's laptop-crashing cursed bassline was the scourge of notebook makers for at least half a decade",
+    "descricao": "NewsNo struggle, no progress.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/turns-out-janet-jacksons-laptop-crashing-cursed-bassline-was-the-scourge-of-notebook-makers-for-at-least-half-a-decade/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dbvZhbwMQKbru7UL2n5Ffh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Intel is trying out on-chip water cooling too and I'm just happy I'm not the one having to place liquids so close to expensive electronics",
+    "descricao": "NewsLeave it to the engineers. And the YouTube DIY'ers.",
+    "link": "https://www.pcgamer.com/hardware/cooling/intel-is-trying-out-on-chip-water-cooling-too-and-im-just-happy-im-not-the-one-having-to-place-liquids-so-close-to-expensive-electronics/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3Z2HqiLD3L4KpA3YYtrFCe.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Our favourite budget direct drive racing wheel bundle is down to $440 right now, making it an even better deal for sim racing hijinks",
+    "descricao": "DealWe gave it 90% last year.",
+    "link": "https://www.pcgamer.com/hardware/steering-wheels/our-favourite-budget-direct-drive-racing-wheel-bundle-is-down-to-usd440-right-now-making-it-an-even-better-deal-for-sim-racing-hijinks/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6cw5rDHw5E5QpHs2zrPYH8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Clair Obscur: Expedition 33 vai virar filme live-action com estúdio de Sonic no comando",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501278-clair-obscur-expedition-33-vai-virar-filme-live-action-com-estudio-de-sonic-no-comando.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/29/29171643708058.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "PlayStation revela jogos grátis do PS Plus de maio! Confira os detalhes",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501284-playstation-revela-jogos-gratis-do-ps-plus-de-maio-confira-os-detalhes.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30134537923004.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
+  },
+  {
+    "titulo": "Lost Soul Aside sofre grande adiamento no PS5 e PC! Veja motivo e nova data",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501280-lost-soul-aside-sofre-grande-adiamento-no-ps5-e-pc-veja-motivo-e-nova-data.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30083531189004.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T15:49:14"
   },
   {
     "titulo": "Nintendo Switch 2 entra em pré-venda no Brasil com desconto! Veja preço",
     "descricao": "Notícia sobre games do portal Voxel.",
     "link": "https://www.tecmundo.com.br/voxel/501282-nintendo-switch-2-entra-em-pre-venda-no-brasil-com-desconto-veja-preco.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30094348938025.jpg?ims=164x118",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30094348938025.jpg?ims=96x88",
     "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "IA vai tirar emprego de todos os desenvolvedores em 50 anos, diz Yoko Taro",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501259-ia-vai-tirar-emprego-de-todos-os-desenvolvedores-e-50-anos-diz-yoko-taro.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28122816133026.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Resident Evil 2 baratinho, Oblivion Remastered grátis e mais! Veja as indicações de games da semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501252-resident-evil-2-baratinho-oblivion-remastered-gratis-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/25/25164325455442.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501245-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24192438758015.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "5 jogos grátis de celular em alta na Play Store para baixar esta semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501261-5-jogos-gratis-de-celular-em-alta-na-play-store-para-baixar-esta-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28135045618090.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-04-30T14:56:15"
+    "timestamp": "2025-04-30T15:49:14"
   }
 ];
