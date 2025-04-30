@@ -1,11 +1,43 @@
 [
   {
+    "titulo": "'Don't leave trash on Arrakis'—Dune: Awakening creative director implores players to 'clean up your old bases'",
+    "descricao": "NewsDon't desert your work.",
+    "link": "https://www.pcgamer.com/games/mmo/dont-leave-trash-on-arrakis-dune-awakening-creative-director-implores-players-to-clean-up-your-old-bases/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/R9Xop5WXqqQ7eGkgeEPFHK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Eric Barone has regrets about not fleshing out Stardew Valley's characters more, but likes that it's so open ended since it makes things 'more personal' for each player",
+    "descricao": "NewsThere could've been more to Stardew's unsolved mysteries.",
+    "link": "https://www.pcgamer.com/games/sim/eric-barone-has-regrets-about-not-fleshing-out-stardew-valleys-characters-more-but-likes-that-its-so-open-ended-since-it-makes-things-more-personal-for-each-player/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WEZtdpFTWE8oXCzXdB2xfb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Apex Legends writer gets laid off 24 hours after the character she wrote is revealed, because that's what the games industry in 2025 looks like",
+    "descricao": "NewsShe's taking it better than I would, that's for sure.",
+    "link": "https://www.pcgamer.com/gaming-industry/game-development/apex-legends-writer-gets-laid-off-24-hours-after-the-character-she-wrote-is-revealed-because-thats-what-the-games-industry-in-2025-looks-like/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/YyibRgx8okgyzvG7cuBkcG.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "'A lot of people hate it, but I think it's fun': Eric Barone backs Stardew Valley's fishing minigame, but does admit that 'it starts too hard'",
+    "descricao": "NewsThey call me the Jeremy Wade of Stardew Valley.",
+    "link": "https://www.pcgamer.com/games/life-sim/a-lot-of-people-hate-it-but-i-think-its-fun-eric-barone-backs-stardew-valleys-fishing-minigame-but-does-admit-that-it-starts-too-hard/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BTWecJmyYCpBeF5RYPdNyU.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
     "titulo": "You can watch the first two episodes of Star Wars' new animated miniseries early… if you hop on Fortnite",
     "descricao": "newsDisney and Epic are teaming up for a Star Wars watch party in Fortnite.",
     "link": "https://www.pcgamer.com/games/battle-royale/you-can-watch-the-first-two-episodes-of-star-wars-new-animated-miniseries-early-if-you-hop-on-fortnite/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5XQrYiLMZxJwURvtPJPt6k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Microsoft CEO Satya Nadella says AI generates 'fantastic' Python code, and that it now creates 'maybe 20 - 30% of the code ... in some of our projects'",
@@ -13,7 +45,7 @@
     "link": "https://www.pcgamer.com/hardware/microsoft-ceo-satya-nadella-says-ai-generates-fantastic-python-code-and-that-it-now-creates-30-percent-of-the-companys-code/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Jyc35gpFyAC5qaRyHiBQRS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "'I kind of failed in that particular aspect': Eric Barone doesn't understand all the Pierre hate and wishes that he'd been 'a little bit more nuanced' when it came to creating JojaMart",
@@ -21,7 +53,7 @@
     "link": "https://www.pcgamer.com/games/life-sim/i-kind-of-failed-in-that-particular-aspect-eric-barone-doesnt-understand-all-the-pierre-hate-and-wishes-that-hed-been-a-little-bit-more-nuanced-when-it-came-to-creating-jojamart/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7TWEpoRZy6xdFu2zyynASX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Stardew Valley creator Eric Barone hasn't 'really' played a lot of other farming and life sims, but he appreciates the impact the game has had on the genre—'it seems to have inspired a lot more people to consider this kind of game'",
@@ -29,7 +61,7 @@
     "link": "https://www.pcgamer.com/games/sim/stardew-valley-creator-eric-barone-hasnt-really-played-a-lot-of-other-farming-and-life-sims-but-he-appreciates-the-impact-the-game-has-had-on-the-genre-it-seems-to-have-inspired-a-lot-more-people-to-consider-this-kind-of-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YfifN3ZSP9bTVo6QQCeUrW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "A little power management goes a long way in the latest Intel drivers giving a free 10% fps boost to the MSI Claw AI+ handheld and any other Lunar Lake device",
@@ -37,39 +69,7 @@
     "link": "https://www.pcgamer.com/hardware/processors/a-little-power-management-goes-a-long-way-in-the-latest-intel-drivers-giving-a-free-10-percent-fps-boost-to-the-msi-claw-ai-handheld-and-any-other-lunar-lake-device/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kA3bTU8kjq6Lbo2diYw9AR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
-  },
-  {
-    "titulo": "Google's dominance in decline as its overall share of online search dips below 90% for the first time in a decade, and its desktop PC share is now below 80% and falling fast",
-    "descricao": "newsIs deGoogling the next big thing?",
-    "link": "https://www.pcgamer.com/software/googles-dominance-in-decline-as-its-overall-share-of-online-search-dips-below-90-percent-for-the-first-time-in-a-decade-and-its-desktop-pc-share-is-now-below-80-percent-and-falling-fast/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/MbDtZBJMdEKtrHp6mUVGp3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
-  },
-  {
-    "titulo": "Here are all the partners Intel announced at its 2025 Foundry Direct Connect event but big new customers are notably absent",
-    "descricao": "NewsHow many have you heard of before?",
-    "link": "https://www.pcgamer.com/hardware/here-are-all-the-partners-intel-announced-at-its-2025-foundry-direct-connect-event-but-big-new-customers-are-notably-absent/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/y5bPbrQmxtyf27zfLVNnSG.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
-  },
-  {
-    "titulo": "Intel outlines new Foundry roadmap with strong AI focus for new nodes",
-    "descricao": "NewsAI computing is set to stay a focus until 2028",
-    "link": "https://www.pcgamer.com/hardware/intel-outlines-new-foundry-roadmap-with-strong-ai-focus-for-new-nodes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/BH95pW6NRSVNYhEkN4qyz.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
-  },
-  {
-    "titulo": "Intel introduces its newest employee, Chip the robotic inspector, just after announcing mass human layoffs",
-    "descricao": "NewsWhat's that Chip? Little Timmy has fallen down a well?",
-    "link": "https://www.pcgamer.com/hardware/intel-introduces-its-newest-employee-chip-the-robotic-inspector-just-after-announcing-mass-human-layoffs/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/A8SzaXAAkhaHjFhVHyBTc.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -77,7 +77,7 @@
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -85,7 +85,7 @@
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
@@ -93,7 +93,7 @@
     "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +101,7 @@
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -109,7 +109,7 @@
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -117,7 +117,7 @@
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -125,7 +125,7 @@
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
@@ -133,22 +133,86 @@
     "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
-    "titulo": "W7M Esports revela retorno da equipe feminina de Rainbow Six",
+    "titulo": "Star Wars: por que Bail Organa é interpretado por outro ator na 2ª temporada de Andor?",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rainbow-six-siege/139637/news/w7m-esports-revela-retorno-da-equipe-feminina-de-rainbow-six",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-8_dxy8.280.jpg",
+    "link": "https://br.ign.com/star-wars-andor/139651/news/star-wars-por-que-bail-organa-e-interpretado-por-outro-ator-na-2a-temporada-de-andor",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/bo_afve.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
   },
   {
-    "titulo": "Você não está lendo errado: Seth Rogen é o novo operador de Call of Duty: Black Ops 6",
+    "titulo": "Truque de Mestre 3 ganha trailer oficial e data de lançamento para final de 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/call-of-duty-black-ops-6/139627/news/voce-nao-esta-lendo-errado-seth-rogen-e-o-novo-operador-de-call-of-duty-black-ops-6",
-    "imagem": "https://sm.ign.com/t/ign_br/news/c/call-of-du/call-of-duty-black-ops-6-season-3-to-roll-out-seth-rogen-ope_q1zy.280.jpg",
+    "link": "https://br.ign.com/cinema-tv/139650/news/truque-de-mestre-3-ganha-trailer-oficial-e-data-de-lancamento-para-final-de-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/capa1_62zn.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-04-30T09:00:30"
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "IA vai tirar emprego de todos os desenvolvedores em 50 anos, diz Yoko Taro",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501259-ia-vai-tirar-emprego-de-todos-os-desenvolvedores-e-50-anos-diz-yoko-taro.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28122816133026.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Resident Evil 2 baratinho, Oblivion Remastered grátis e mais! Veja as indicações de games da semana",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501252-resident-evil-2-baratinho-oblivion-remastered-gratis-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/25/25164325455442.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501245-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/24/24192438758015.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Forza Horizon 5 segue como o rei dos jogos de corrida no PS5 - Review",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501258-forza-horizon-5-segue-como-o-rei-dos-jogos-de-corrida-no-ps5-review.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28111038481038.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "5 jogos grátis de celular em alta na Play Store para baixar esta semana",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501261-5-jogos-gratis-de-celular-em-alta-na-play-store-para-baixar-esta-semana.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28135045618090.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
+  },
+  {
+    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
+    "fonte": "Voxel",
+    "timestamp": "2025-04-30T10:37:05"
   }
 ]
