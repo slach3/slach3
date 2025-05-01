@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Polygon sheds staff, editor-in-chief departs following sale to Game Rant owner Valnet",
-    "descricao": "newsVox Media has sold Polygon, the gaming site it founded in 2012 as \"a new kind of website, built on new technology, backed by a new kind of media company.\"",
-    "link": "https://www.pcgamer.com/gaming-industry/polygon-sale-valnet/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XCQnv5Z7W6X7A6bCMDeSvZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "Bethesda gives full-throated shout-out to Skyblivion fan remake after giving the whole dev team free Oblivion Remastered keys: 'I think what they're doing is very special'",
-    "descricao": "It's all love, no hate on both sides.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-gives-full-throated-shout-out-to-skyblivion-fan-remake-after-giving-the-whole-dev-team-free-oblivion-remastered-keys-i-think-what-theyre-doing-is-very-special/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/X9TZAYQ5rnAR7kkdk8Mok9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "Original Oblivion developers gather to watch the 2006 documentary on the making of the game, and Todd Howard sums up the feeling: 'This is going to be really f**king awkward, watching this'",
-    "descricao": "newsI think it actually holds up quite well.",
-    "link": "https://www.pcgamer.com/games/rpg/original-oblivion-developers-gather-to-watch-the-2006-documentary-on-the-making-of-the-game-and-todd-howard-sums-up-the-feeling-this-is-going-to-be-really-f-king-awkward-watching-this/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kQ2TJowureQX5je3yNZoZT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "At 34 seconds, Jack Black's chicken song from A Minecraft Movie just became the shortest ever to crack the Billboard Hot 100",
-    "descricao": "NewsBlack also made it onto the Hot 100 with The Super Mario Bros. Movie's Peaches.",
-    "link": "https://www.pcgamer.com/movies-tv/at-34-seconds-jack-blacks-chicken-song-from-a-minecraft-movie-just-became-the-shortest-ever-to-crack-the-billboard-hot-100/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/KF9YKNfgqvYzxLoVqb3jNN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "Amid tariff woes, 8BitDo stops shipping product from China-based warehouse to US customers",
-    "descricao": "NewsPut on pause.",
-    "link": "https://www.pcgamer.com/hardware/amid-tariff-woes-8bitdo-stops-shipping-product-from-china-based-warehouse-to-us-customers/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/LVYC8F7EQHrWdt3VgWuPG9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "League of Legends' world champion Shushei dies at 36: 'One of the first greats of our game'",
-    "descricao": "News\"We lost a legend.\"",
-    "link": "https://www.pcgamer.com/games/moba/league-of-legends-world-champion-shushei-dies-at-36-one-of-the-first-greats-of-our-game/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ewB6cxSE72PK4iE4H32fkG.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "Skyrim lead designer makes it sound like there's gonna be loading screens in Bethesda games for years to come yet, bucko: 'We just didn’t have a choice, really'",
-    "descricao": "NewsHeavy load.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-makes-it-sound-like-theres-gonna-be-loading-screens-in-bethesda-games-for-years-to-come-yet-bucko-we-just-didnt-have-a-choice-really/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xKr2BNFGMDGJtxVx7HSfKm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "Silksong got a release date for an Australian museum exhibit before anything else, and I wish I was kidding",
-    "descricao": "NewsBut hey, there's a new sprite sheet, at least.",
-    "link": "https://www.pcgamer.com/games/action/silksong-got-a-release-date-for-an-australian-museum-exhibit-before-anything-else-and-i-wish-i-was-kidding/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TVgHzPsDXJndNkLqKaaxiA.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
-    "titulo": "The RX 9060 XT rumour mill flip-flops again: we shall have an 8 GB version of AMD's card after all",
-    "descricao": "NewsHopefully at a reasonable price point.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/the-rx-9060-xt-rumour-mill-flip-flops-again-we-shall-have-an-8-gb-version-of-amds-card-after-all/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/JR9ZoUwQ7VR9vZtSzhdDuf.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T16:25:08"
-  },
-  {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Muitos não sabem, mas esta ferramenta pode facilitar a vida dos usuários de android",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/139623/feature/muitos-nao-sabem-mas-esta-ferramenta-pode-facilitar-a-vida-dos-usuarios-de-android",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_dc6s.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "\"Melhor filme que já vi\": esta obra-prima recebeu elogios apaixonados do lendário diretor Stanley Kubrick",
@@ -149,7 +77,79 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139583/news/melhor-filme-que-ja-vi-esta-obra-prima-recebeu-elogios-apaixonados-do-lendario-diretor-stanley-kubri",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_41du.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Gaming website Polygon sheds staff, editor-in-chief departs following sale to Game Rant owner Valnet",
+    "descricao": "newsVox Media has sold Polygon, the gaming site it founded in 2012 as \"a new kind of website, built on new technology, backed by a new kind of media company.\"",
+    "link": "https://www.pcgamer.com/gaming-industry/polygon-sale-valnet/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XCQnv5Z7W6X7A6bCMDeSvZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Bethesda gives full-throated shout-out to Skyblivion fan remake after giving the whole dev team free Oblivion Remastered keys: 'I think what they're doing is very special'",
+    "descricao": "It's all love, no hate on both sides.",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-gives-full-throated-shout-out-to-skyblivion-fan-remake-after-giving-the-whole-dev-team-free-oblivion-remastered-keys-i-think-what-theyre-doing-is-very-special/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/X9TZAYQ5rnAR7kkdk8Mok9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Original Oblivion developers gather to watch the 2006 documentary on the making of the game, and Todd Howard sums up the feeling: 'This is going to be really f**king awkward, watching this'",
+    "descricao": "newsI think it actually holds up quite well.",
+    "link": "https://www.pcgamer.com/games/rpg/original-oblivion-developers-gather-to-watch-the-2006-documentary-on-the-making-of-the-game-and-todd-howard-sums-up-the-feeling-this-is-going-to-be-really-f-king-awkward-watching-this/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/kQ2TJowureQX5je3yNZoZT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "At 34 seconds, Jack Black's chicken song from A Minecraft Movie just became the shortest ever to crack the Billboard Hot 100",
+    "descricao": "NewsBlack also made it onto the Hot 100 with The Super Mario Bros. Movie's Peaches.",
+    "link": "https://www.pcgamer.com/movies-tv/at-34-seconds-jack-blacks-chicken-song-from-a-minecraft-movie-just-became-the-shortest-ever-to-crack-the-billboard-hot-100/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/KF9YKNfgqvYzxLoVqb3jNN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Amid tariff woes, 8BitDo stops shipping product from China-based warehouse to US customers",
+    "descricao": "NewsPut on pause.",
+    "link": "https://www.pcgamer.com/hardware/amid-tariff-woes-8bitdo-stops-shipping-product-from-china-based-warehouse-to-us-customers/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/LVYC8F7EQHrWdt3VgWuPG9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "League of Legends' world champion Shushei dies at 36: 'One of the first greats of our game'",
+    "descricao": "News\"We lost a legend.\"",
+    "link": "https://www.pcgamer.com/games/moba/league-of-legends-world-champion-shushei-dies-at-36-one-of-the-first-greats-of-our-game/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ewB6cxSE72PK4iE4H32fkG.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Skyrim lead designer makes it sound like there's gonna be loading screens in Bethesda games for years to come yet, bucko: 'We just didn’t have a choice, really'",
+    "descricao": "NewsHeavy load.",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-makes-it-sound-like-theres-gonna-be-loading-screens-in-bethesda-games-for-years-to-come-yet-bucko-we-just-didnt-have-a-choice-really/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/xKr2BNFGMDGJtxVx7HSfKm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "Silksong got a release date for an Australian museum exhibit before anything else, and I wish I was kidding",
+    "descricao": "NewsBut hey, there's a new sprite sheet, at least.",
+    "link": "https://www.pcgamer.com/games/action/silksong-got-a-release-date-for-an-australian-museum-exhibit-before-anything-else-and-i-wish-i-was-kidding/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TVgHzPsDXJndNkLqKaaxiA.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
+  },
+  {
+    "titulo": "The RX 9060 XT rumour mill flip-flops again: we shall have an 8 GB version of AMD's card after all",
+    "descricao": "NewsHopefully at a reasonable price point.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/the-rx-9060-xt-rumour-mill-flip-flops-again-we-shall-have-an-8-gb-version-of-amds-card-after-all/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/JR9ZoUwQ7VR9vZtSzhdDuf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "One UI 7 começa a ser distribuída para os Galaxy S23 do Brasil",
@@ -157,7 +157,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404260-one-ui-7-comeca-a-ser-distribuida-para-os-galaxy-s23-do-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/01/27/27112036954188.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Duolingo lança 148 novos cursos de idiomas com ajuda de IA generativa",
@@ -165,7 +165,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404261-duolingo-lanca-148-novos-cursos-de-idiomas-com-ajuda-de-ia-generativa.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30102646987033.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Adobe tem novos recursos de IA para Photoshop, Lightroom e Premiere",
@@ -173,7 +173,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404190-adobe-tem-novos-recursos-de-ia-para-photoshop-lightroom-e-premiere.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/25/25165542812462.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "OpenAI lança Deep Research mais leve no ChatGPT",
@@ -181,7 +181,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404163-openai-lanca-deep-research-mais-leve-no-chatgpt.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/01/01090541316009.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Serviços do Citibank sofrem apagão nos Estados Unidos",
@@ -189,7 +189,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404248-servicos-do-citibank-sofre-apagao-nos-estados-unidos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/29/29165812960047.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Mensagens falsas prometem devolver descontos ilegais no INSS; saiba reconhecer a fraude",
@@ -197,7 +197,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404213-mensagens-falsas-prometem-devolver-descontos-ilegais-no-inss-saiba-reconhecer-a-fraude.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28143247119139.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Como um ciberataque pode apagar quase toda a Europa — e também o Brasil",
@@ -205,7 +205,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404211-como-um-ciberataque-pode-apagar-quase-toda-a-europa-e-tambem-o-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28140556130120.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "'Como termina a ajuda ao regime de Kiev': municípios dos Países Baixos são atacados hackers russos",
@@ -213,7 +213,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404205-como-termina-a-ajuda-ao-regime-de-kiev-municipios-dos-paises-baixos-sao-atacados-hackers-russos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28121327143002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "Meta AI, chatbot com IA do WhatsApp, agora tem app próprio para Android e iOS",
@@ -221,7 +221,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404274-meta-ai-chatbot-com-ia-do-whatsapp-agora-tem-app-proprio-para-android-e-ios.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30125910663021.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   },
   {
     "titulo": "O que é Tralalero Tralalá, Bombardiro Crocodilo e outros memes bizarros que viralizaram no TikTok?",
@@ -229,6 +229,6 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404270-o-que-e-tralalero-tralala-bombardiro-crocodilo-e-outros-memes-bizarros-que-viralizaram-no-tiktok.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30114626799002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-01T16:25:08"
+    "timestamp": "2025-05-01T16:39:49"
   }
 ];
