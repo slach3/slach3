@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "Stadium's roadmap for Overwatch 2 is planned out for the next three seasons, with more heroes, maps, and custom games on the horizon",
+    "descricao": "NewsThe next three heroes may make you cry.",
+    "link": "https://www.pcgamer.com/games/fps/stadiums-roadmap-for-overwatch-2-is-planned-out-for-the-next-three-seasons-with-more-heroes-maps-and-custom-games-on-the-horizon/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Gn2V9GyDgYjQ25p2GNgEQo.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T19:38:21"
+  },
+  {
+    "titulo": "'Stadium is Overwatch 2's most-played mode': Blizzard confirms Stadium's success with 7.8 million hours played across 2.3 million matches in the launch week alone",
+    "descricao": "NewsSo that's where all the players were.",
+    "link": "https://www.pcgamer.com/games/fps/stadium-is-overwatch-2s-most-played-mode-blizzard-confirms-stadiums-success-with-7-8-million-hours-played-across-2-3-million-matches-in-the-launch-week-alone/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fskcz8koP3jPpLCuERVGES.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-01T19:38:21"
+  },
+  {
     "titulo": "French President Emmanuel Macron gives a shout-out to Clair Obscur: Expedition 33 on Instagram: 'You are a shining example of French audacity and creativity'",
     "descricao": "newsMacron congratulated Sandfall Interactive for making \"one of the best-rated games in history.\"",
     "link": "https://www.pcgamer.com/games/rpg/french-president-emmanuel-macron-gives-a-shout-out-to-clair-obscur-expedition-33-on-instagram-you-are-a-shining-example-of-french-audacity-and-creativity/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/irkBjxSbkUEKxm5xd9pEcG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Gaming website Polygon sheds staff, editor-in-chief departs following sale to Game Rant owner Valnet",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/polygon-sale-valnet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XCQnv5Z7W6X7A6bCMDeSvZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Bethesda gives full-throated shout-out to Skyblivion fan remake after giving the whole dev team free Oblivion Remastered keys: 'I think what they're doing is very special'",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-gives-full-throated-shout-out-to-skyblivion-fan-remake-after-giving-the-whole-dev-team-free-oblivion-remastered-keys-i-think-what-theyre-doing-is-very-special/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/X9TZAYQ5rnAR7kkdk8Mok9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Original Oblivion developers gather to watch the 2006 documentary on the making of the game, and Todd Howard sums up the feeling: 'This is going to be really f**king awkward, watching this'",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/original-oblivion-developers-gather-to-watch-the-2006-documentary-on-the-making-of-the-game-and-todd-howard-sums-up-the-feeling-this-is-going-to-be-really-f-king-awkward-watching-this/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kQ2TJowureQX5je3yNZoZT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "At 34 seconds, Jack Black's chicken song from A Minecraft Movie just became the shortest ever to crack the Billboard Hot 100",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/at-34-seconds-jack-blacks-chicken-song-from-a-minecraft-movie-just-became-the-shortest-ever-to-crack-the-billboard-hot-100/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KF9YKNfgqvYzxLoVqb3jNN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Amid tariff woes, 8BitDo stops shipping product from China-based warehouse to US customers",
@@ -45,31 +61,23 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/amid-tariff-woes-8bitdo-stops-shipping-product-from-china-based-warehouse-to-us-customers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LVYC8F7EQHrWdt3VgWuPG9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
-    "titulo": "League of Legends' world champion Shushei dies at 36: 'One of the first greats of our game'",
+    "titulo": "League of Legends world champion Shushei dies at 36: 'One of the first greats of our game'",
     "descricao": "News\"We lost a legend.\"",
     "link": "https://www.pcgamer.com/games/moba/league-of-legends-world-champion-shushei-dies-at-36-one-of-the-first-greats-of-our-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ewB6cxSE72PK4iE4H32fkG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
-    "titulo": "Skyrim lead designer makes it sound like there's gonna be loading screens in Bethesda games for years to come yet, bucko: 'We just didn’t have a choice, really'",
-    "descricao": "NewsHeavy load.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-makes-it-sound-like-theres-gonna-be-loading-screens-in-bethesda-games-for-years-to-come-yet-bucko-we-just-didnt-have-a-choice-really/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xKr2BNFGMDGJtxVx7HSfKm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
-  },
-  {
-    "titulo": "Silksong got a release date for an Australian museum exhibit before anything else, and I wish I was kidding",
-    "descricao": "NewsBut hey, there's a new sprite sheet, at least.",
-    "link": "https://www.pcgamer.com/games/action/silksong-got-a-release-date-for-an-australian-museum-exhibit-before-anything-else-and-i-wish-i-was-kidding/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TVgHzPsDXJndNkLqKaaxiA.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T18:50:50"
+    "titulo": "Post Trauma tenta abraçar o mundo, mas no fim se torna uma experiência mórbida",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/post-trauma/139710/review/bem-intencionado-post-trauma-tenta-abracar-o-mundo-mas-no-fim-se-torna-uma-experiencia-morbida-de-su",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea65cda8d896a532e651f7ef2922e007_4q96.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -77,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -85,15 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
-  },
-  {
-    "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +101,15 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
+  },
+  {
+    "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -125,15 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
-    "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
+    "titulo": "Uma das melhores batalhas medievais já filmadas: 30 anos atrás, esta icônica cena surpreendeu milhões de espectadores",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
+    "link": "https://br.ign.com/cinema-tv/139527/news/uma-das-melhores-batalhas-medievais-ja-filmadas-30-anos-atras-esta-iconica-cena-surpreendeu-milhoes",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qk23.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   },
   {
     "titulo": "Final de Neon Genesis Evangelion deixou Hideaki Anno tão \"quebrado\" que ele recorreu à terapia, mas ficou decepcionado com o tratamento médico",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/evangelion/139653/news/final-de-neon-genesis-evangelion-deixou-hideaki-anno-tao-quebrado-que-ele-recorreu-a-terapia-mas-fic",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/s1_qcrr.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
-  },
-  {
-    "titulo": "\"Mais próximo da realidade que um filme de ficção científica pode chegar\": este sucesso de bilheteria é adorado até mesmo por cientistas",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/139586/news/mais-proximo-da-realidade-que-um-filme-de-ficcao-cientifica-pode-chegar-este-sucesso-de-bilheteria-e",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_3xbw.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T18:50:50"
+    "timestamp": "2025-05-01T19:38:21"
   }
 ];
