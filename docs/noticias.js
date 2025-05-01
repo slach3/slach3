@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/original-oblivion-developers-gather-to-watch-the-2006-documentary-on-the-making-of-the-game-and-todd-howard-sums-up-the-feeling-this-is-going-to-be-really-f-king-awkward-watching-this/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kQ2TJowureQX5je3yNZoZT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "At 34 seconds, Jack Black's chicken song from A Minecraft Movie just became the shortest ever to crack the Billboard Hot 100",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/at-34-seconds-jack-blacks-chicken-song-from-a-minecraft-movie-just-became-the-shortest-ever-to-crack-the-billboard-hot-100/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KF9YKNfgqvYzxLoVqb3jNN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Amid tariff woes, 8BitDo stops shipping product from China-based warehouse to US customers",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/amid-tariff-woes-8bitdo-stops-shipping-product-from-china-based-warehouse-to-us-customers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LVYC8F7EQHrWdt3VgWuPG9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "League of Legends' world champion Shushei dies at 36: 'One of the first greats of our game'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/moba/league-of-legends-world-champion-shushei-dies-at-36-one-of-the-first-greats-of-our-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ewB6cxSE72PK4iE4H32fkG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Skyrim lead designer makes it sound like there's gonna be loading screens in Bethesda games for years to come yet, bucko: 'We just didn’t have a choice, really'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-makes-it-sound-like-theres-gonna-be-loading-screens-in-bethesda-games-for-years-to-come-yet-bucko-we-just-didnt-have-a-choice-really/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xKr2BNFGMDGJtxVx7HSfKm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Silksong got a release date for an Australian museum exhibit before anything else, and I wish I was kidding",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/silksong-got-a-release-date-for-an-australian-museum-exhibit-before-anything-else-and-i-wish-i-was-kidding/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TVgHzPsDXJndNkLqKaaxiA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "The RX 9060 XT rumour mill flip-flops again: we shall have an 8 GB version of AMD's card after all",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/the-rx-9060-xt-rumour-mill-flip-flops-again-we-shall-have-an-8-gb-version-of-amds-card-after-all/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JR9ZoUwQ7VR9vZtSzhdDuf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Foundry VTT creator does what Hasbro won't with D&D, trashes the idea of AI in tabletop roleplaying game industry as a 'betrayal'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/foundry-vtt-creator-does-what-hasbro-wont-with-d-and-d-trashes-the-idea-of-ai-in-tabletop-roleplaying-game-industry-as-a-betrayal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/r6GW6nhSdUXop2UyF8SGYa.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Modding turf war erupts as 'notoriously controversial' dev puts out an Unofficial Oblivion Remastered Patch one week after the game came out",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/modding-turf-war-erupts-as-notoriously-controversial-dev-puts-out-an-unofficial-oblivion-remastered-patch-one-week-after-the-game-came-out/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6LKJevhqyUNpTm7bJ23nQP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Borderlands 4 tem data de lançamento adiantada e chegará mais cedo que o previsto",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/borderlands-4/139588/news/sem-adiamentos-borderlands-4-tem-data-de-lancamento-adiantada-e-chegara-mais-cedo-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/borderlands-4_u2b9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 é ótimo — mas não deve ser tratado como exceção em indústria que produz milhares de jogos ao ano",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139548/news/clair-obscur-expedition-33-e-otimo-mas-nao-deve-ser-tratado-como-excecao-em-industria-que-produz-mil",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_jhnx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "\"Incomodado\": Hayao Miyazaki não gosta quando comparam o Studio Ghibli à Disney e aponta maior defeito das animações do estúdio do Mickey Mouse",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/studio-ghibli/139524/news/incomodado-hayao-miyazaki-nao-gosta-quando-comparam-o-studio-ghibli-a-disney-e-aponta-maior-defeito",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_pjgn.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   },
   {
     "titulo": "Bem-intencionado, Post Trauma tenta abraçar o mundo, mas no fim se torna uma experiência mórbida de survival horror | Review",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/post-trauma/139710/review/bem-intencionado-post-trauma-tenta-abracar-o-mundo-mas-no-fim-se-torna-uma-experiencia-morbida-de-su",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea65cda8d896a532e651f7ef2922e007_4q96.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-01T14:45:23"
+    "timestamp": "2025-05-01T14:55:36"
   }
 ];
