@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/polygon-sale-valnet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XCQnv5Z7W6X7A6bCMDeSvZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Following its huge win over Apple, Epic says it will take even less money from developers who use its store",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/following-its-huge-win-over-apple-epic-says-it-will-take-even-less-money-from-developers-who-use-its-store/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vSZj5PUQ6fjrCpsfsprePT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "The Breach update for No Rest for the Wicked is an overhaul so massive that old save files just won't cut it",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-breach-update-for-no-rest-for-the-wicked-is-an-overhaul-so-massive-that-old-save-files-just-wont-cut-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cuN5SdJv2bo34SQdAn4hAP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Got a full SSD and an ever-growing backlog of games? I've got not one but TWO 4 TB SSD deals under $250 for you",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ssds/got-a-full-ssd-and-an-ever-growing-backlog-of-games-ive-got-not-one-but-two-4-tb-ssd-deals-under-usd250-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AN6bDN9SAshVgjZHiGBrNL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Nvidia denies 'tall tales' that chips are being smuggled in fake baby bumps and alongside live lobsters",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-denies-tall-tales-that-chips-are-being-smuggled-in-fake-baby-bumps-and-alongside-live-lobsters/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SsTUJESyirfrVxwuG2Cnth.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "AMD has released the slightly underwhelming official specs of the RX 9070 GRE, y'know, the card you probably can't buy anyway",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-released-the-slightly-underwhelming-official-specs-of-the-rx-9070-gre-yknow-the-card-you-probably-cant-buy-anyway/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Y3DD3TQXyy9Sz5uCUHpHBh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Fanatical's running a $3-a-pop Bethesda bundle, so it's time to finally put down Oblivion Remastered and play Morrowind, the actual best TES game",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fanaticals-running-a-usd3-a-pop-bethesda-bundle-so-its-time-to-finally-put-down-oblivion-remastered-and-play-morrowind-the-actual-best-tes-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oQi3D3aNxeuwXAmpznxvfD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Parts for that high-performance Intel Battlemage gaming GPU have been spotted again and I still want it to teach Nvidia's RTX 5070 a $400 pricing lesson",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/parts-for-that-high-performance-intel-battlemage-gaming-gpu-have-been-spotted-again-and-i-still-want-it-to-teach-nvidias-rtx-5070-a-usd400-pricing-lesson/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4m4FmdTcxgYiDnhuBkFxnV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "'I'd say chances are good': While the Clair Obscur: Expedition 33 team is still figuring out where to go next, DLC is likely",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/id-say-chances-are-good-while-the-clair-obscur-expedition-33-team-is-still-figuring-out-where-to-go-next-dlc-is-likely/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5MdRtaaZUPocGhzopSWDs.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Alta de preços no PlayStation 5: Ghost of Yotei custará R$ 400 no Brasil",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/139735/news/alta-de-precos-no-playstation-5-ghost-of-yotei-custara-r-400-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61423/61423_hvk4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Para fãs de Alien e ficção interativa: jogo brasileiro Neve atrai com demo imersiva",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139709/news/para-fas-de-alien-e-ficcao-interativa-jogo-brasileiro-neve-atrai-com-demo-imersiva-na-gamescom-latam",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61402/61402_uwf1.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "\"Florescemos quando tudo está contra nós\": como o Latin America Games Showcase dá visibilidade e tenta ajudar a indústria indie latina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139731/feature/florescemos-quando-tudo-esta-contra-nos-como-o-latin-america-games-showcase-da-visibilidade-e-tenta",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lags_dj9t.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Epic Games anuncia nova política de receitas dando destaque para pequenos desenvolvedores",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/139737/news/epic-games-anuncia-nova-politica-de-receitas-dando-destaque-para-pequenos-desenvolvedores",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bggf.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "\"Um exemplo brilhante da audácia francesa\": presidente da França rasga elogios a Clair Obscur: Expedition 33",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139727/news/um-exemplo-brilhante-da-audacia-francesa-presidente-da-franca-rasga-elogios-a-clair-obscur-expeditio",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kr75.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "LG QNED 55\": o que faz dela uma majestosa Smart TV?",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/139765/news/lg-qned-55-o-que-faz-dela-uma-majestosa-smart-tv",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/4947561953308552819_wsdd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
     "titulo": "Desconto de R$400: Apple iPhone 15 de 128GB MUITO barato no Mercado Livre",
@@ -149,86 +149,86 @@ const noticias = [
     "link": "https://br.ign.com/descontos/139762/news/desconto-de-r400-apple-iphone-15-de-128gb-muito-barato-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/01-iphone-plus-2w7p_254466_zbnv.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T17:48:25"
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Animações da One UI 8 parecem estar mais fluidas até nas versões de teste; confira",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404295-animacoes-da-one-ui-8-parecem-estar-mais-fluidas-ate-nas-versoes-de-teste-confira.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/03/07/07155931733178.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Google quer IA do Gemini em produtos da Apple neste ano",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404292-google-quer-ia-do-gemini-em-produtos-da-apple-neste-ano.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/08/08100615547038.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "One UI 7 começa a ser distribuída para os Galaxy S23 do Brasil",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404260-one-ui-7-comeca-a-ser-distribuida-para-os-galaxy-s23-do-brasil.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/01/27/27112036954188.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Duolingo lança 148 novos cursos de idiomas com ajuda de IA generativa",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/software/404261-duolingo-lanca-148-novos-cursos-de-idiomas-com-ajuda-de-ia-generativa.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30102646987033.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Falhas no Apple AirPlay deixam milhões de dispositivos em risco",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404305-falhas-no-apple-airplay-deixam-milhoes-de-dispositivos-em-risco.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/05/02/02141334784351.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Serviços do Citibank sofrem apagão nos Estados Unidos",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404248-servicos-do-citibank-sofre-apagao-nos-estados-unidos.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/29/29165812960047.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Mensagens falsas prometem devolver descontos ilegais no INSS; saiba reconhecer a fraude",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404213-mensagens-falsas-prometem-devolver-descontos-ilegais-no-inss-saiba-reconhecer-a-fraude.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28143247119139.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Epic Games libera novo jogo grátis no Android! Resgate aqui",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501269-epic-games-libera-novo-jogo-gratis-no-android-resgate-aqui.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/01/01185735182045.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Como um ciberataque pode apagar quase toda a Europa — e também o Brasil",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/seguranca/404211-como-um-ciberataque-pode-apagar-quase-toda-a-europa-e-tambem-o-brasil.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28140556130120.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Conheça a biblioteca que permite pegar jogos emprestados de graça de Xbox, PlayStation e Switch",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501274-conheca-a-biblioteca-que-permite-pegar-jogos-emprestados-de-graca-de-xbox-playstation-e-switch.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/29/29113901917002.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "Meta AI, chatbot com IA do WhatsApp, agora tem app próprio para Android e iOS",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404274-meta-ai-chatbot-com-ia-do-whatsapp-agora-tem-app-proprio-para-android-e-ios.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30125910663021.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Comprar memórias DDR5 ou apostar no DDR4? Veja qual padrão escolher - Coluna",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501263-comprar-memorias-ddr5-ou-apostar-no-ddr4-veja-qual-padrao-escolher-coluna.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28174628014069.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   },
   {
-    "titulo": "O que é Tralalero Tralalá, Bombardiro Crocodilo e outros memes bizarros que viralizaram no TikTok?",
-    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
-    "link": "https://www.tecmundo.com.br/internet/404270-o-que-e-tralalero-tralala-bombardiro-crocodilo-e-outros-memes-bizarros-que-viralizaram-no-tiktok.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30114626799002.jpg?ims=220x127",
-    "fonte": "TecMundo",
-    "timestamp": "2025-05-02T17:48:25"
+    "titulo": "Mais qualidade, menos latência: Roblox anuncia construção de data center no Brasil - Entrevista",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501304-mais-qualidade-menos-latencia-roblox-anuncia-construcao-de-data-center-no-brasil-entrevista.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02135900096316.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-02T17:58:11"
   }
 ];
