@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-2-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "DrLupo admits to cheating in $100,000 online chess tournament, faces brutal backlash from Reddit: 'Dude went from 'what's a horsey?' to 'I can see 15 moves ahead' in 2 minutes'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/drlupo-admits-to-cheating-in-usd100-000-online-chess-tournament-faces-brutal-backlash-from-reddit-dude-went-from-whats-a-horsey-to-i-can-see-15-moves-ahead-in-2-minutes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Dk6tzNeHPCaqzb5gDbw4rf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Stadium's roadmap for Overwatch 2 is planned out for the next three seasons, with more heroes, maps, and custom games on the horizon",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/stadiums-roadmap-for-overwatch-2-is-planned-out-for-the-next-three-seasons-with-more-heroes-maps-and-custom-games-on-the-horizon/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Gn2V9GyDgYjQ25p2GNgEQo.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "'Stadium is Overwatch 2's most-played mode': Blizzard confirms Stadium's success with 7.8 million hours played across 2.3 million matches in the launch week alone",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/stadium-is-overwatch-2s-most-played-mode-blizzard-confirms-stadiums-success-with-7-8-million-hours-played-across-2-3-million-matches-in-the-launch-week-alone/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fskcz8koP3jPpLCuERVGES.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "French President Emmanuel Macron gives a shout-out to Clair Obscur: Expedition 33 on Instagram: 'You are a shining example of French audacity and creativity'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/french-president-emmanuel-macron-gives-a-shout-out-to-clair-obscur-expedition-33-on-instagram-you-are-a-shining-example-of-french-audacity-and-creativity/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/irkBjxSbkUEKxm5xd9pEcG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Gaming website Polygon sheds staff, editor-in-chief departs following sale to Game Rant owner Valnet",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/polygon-sale-valnet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XCQnv5Z7W6X7A6bCMDeSvZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Bethesda gives full-throated shout-out to Skyblivion fan remake after giving the whole dev team free Oblivion Remastered keys: 'I think what they're doing is very special'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-gives-full-throated-shout-out-to-skyblivion-fan-remake-after-giving-the-whole-dev-team-free-oblivion-remastered-keys-i-think-what-theyre-doing-is-very-special/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/X9TZAYQ5rnAR7kkdk8Mok9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Original Oblivion developers gather to watch the 2006 documentary on the making of the game, and Todd Howard sums up the feeling: 'This is going to be really f**king awkward, watching this'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/original-oblivion-developers-gather-to-watch-the-2006-documentary-on-the-making-of-the-game-and-todd-howard-sums-up-the-feeling-this-is-going-to-be-really-f-king-awkward-watching-this/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kQ2TJowureQX5je3yNZoZT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "At 34 seconds, Jack Black's chicken song from A Minecraft Movie just became the shortest ever to crack the Billboard Hot 100",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/at-34-seconds-jack-blacks-chicken-song-from-a-minecraft-movie-just-became-the-shortest-ever-to-crack-the-billboard-hot-100/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KF9YKNfgqvYzxLoVqb3jNN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Post Trauma tenta abraçar o mundo, mas no fim se torna uma experiência mórbida",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/post-trauma/139710/review/bem-intencionado-post-trauma-tenta-abracar-o-mundo-mas-no-fim-se-torna-uma-experiencia-morbida-de-su",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea65cda8d896a532e651f7ef2922e007_4q96.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "The Last of Us toma rumo preocupante, perde impacto de eventos e traz pior episódio da série",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139474/feature/the-last-of-us-toma-rumo-preocupante-perde-impacto-de-eventos-e-traz-pior-episodio-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gplk03txuaaczyu_fjfh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "\"Fiquei impressionada quando vi pela primeira vez no cinema\": a curiosa história por trás da famosa logomarca da Columbia Pictures",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/139645/news/fiquei-impressionada-quando-vi-pela-primeira-vez-no-cinema-a-curiosa-historia-por-tras-da-famosa-log",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-01-201108711_cx9h.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   },
   {
     "titulo": "Com apenas 11 anos de idade, Bella Ramsey salvou Kit Harington de situação humilhante durante as filmagens de Game of Thrones",
@@ -149,78 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/bella-ramsey/139683/feature/com-apenas-11-anos-de-idade-bella-ramsey-salvou-kit-harington-de-situacao-humilhante-durante-as-film",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_22mh.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Epic Games libera novo jogo de graça nesta quinta (01)! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501268-epic-games-libera-novo-jogo-de-graca-nesta-quinta-01-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28192642200010.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "5 jogos grátis de celular em alta na Play Store para baixar esta semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501261-5-jogos-gratis-de-celular-em-alta-na-play-store-para-baixar-esta-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28135045618090.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Nintendo Switch 2 entra em pré-venda no Brasil com desconto! Veja preço",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501282-nintendo-switch-2-entra-em-pre-venda-no-brasil-com-desconto-veja-preco.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30094348938025.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501245-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24192438758015.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Seu PC roda Elden Ring Nightreign? Veja requisitos mínimos e recomendados",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501260-seu-pc-roda-elden-ring-nightreign-veja-requisitos-minimos-e-recomendados.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28130947279010.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Nuuvem: ofertas de games da Steam com até 95% OFF; confira!",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501279-nuuvem-ofertas-de-games-da-steam-com-ate-95-off-confira.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/29/29182629001015.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
-  },
-  {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
-    "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
-    "fonte": "Voxel",
-    "timestamp": "2025-05-02T04:42:09"
+    "timestamp": "2025-05-02T04:52:18"
   }
 ];
