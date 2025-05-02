@@ -1,83 +1,19 @@
 [
   {
-    "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
+    "titulo": "AMD has released the slightly underwhelming official specs of the RX 9070 GRE, y'know, the card you probably can't buy anyway",
+    "descricao": "NewsStill, it's a new GPU to ponder over at the very least.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-released-the-slightly-underwhelming-official-specs-of-the-rx-9070-gre-yknow-the-card-you-probably-cant-buy-anyway/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Y3DD3TQXyy9Sz5uCUHpHBh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
-    "titulo": "Post Trauma tenta abraçar o mundo, mas no fim se torna uma experiência mórbida",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/post-trauma/139710/review/bem-intencionado-post-trauma-tenta-abracar-o-mundo-mas-no-fim-se-torna-uma-experiencia-morbida-de-su",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea65cda8d896a532e651f7ef2922e007_4q96.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
-    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "\"Sem o Xbox, nada seria igual.\" editora de Clair Obscur: Expedition 33 elogia Game Pass, mas nega polêmica do lançamento do RPG",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139728/news/sem-o-xbox-nada-seria-igual-editora-de-clair-obscur-expedition-33-elogia-game-pass-mas-nega-polemica",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-10_u6tu.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
-  },
-  {
-    "titulo": "Sem aviso, Nintendo retira uma das melhores funcionalidades do Switch",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch/139733/news/sem-aviso-nintendo-retira-uma-das-melhores-funcionalidades-do-switch",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch-oled_9k6e.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-02T11:50:09"
+    "titulo": "Fanatical's running a $3-a-pop Bethesda bundle, so it's time to finally put down Oblivion Remastered and play Morrowind, the actual best TES game",
+    "descricao": "NewsI don't make the rules.",
+    "link": "https://www.pcgamer.com/games/fanaticals-running-a-usd3-a-pop-bethesda-bundle-so-its-time-to-finally-put-down-oblivion-remastered-and-play-morrowind-the-actual-best-tes-game/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/oQi3D3aNxeuwXAmpznxvfD.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Parts for that high-performance Intel Battlemage gaming GPU have been spotted again and I still want it to teach Nvidia's RTX 5070 a $400 pricing lesson",
@@ -85,7 +21,7 @@
     "link": "https://www.pcgamer.com/hardware/graphics-cards/parts-for-that-high-performance-intel-battlemage-gaming-gpu-have-been-spotted-again-and-i-still-want-it-to-teach-nvidias-rtx-5070-a-usd400-pricing-lesson/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4m4FmdTcxgYiDnhuBkFxnV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "'I'd say chances are good': While the Clair Obscur: Expedition 33 team is still figuring out where to go next, DLC is likely",
@@ -93,7 +29,7 @@
     "link": "https://www.pcgamer.com/games/rpg/id-say-chances-are-good-while-the-clair-obscur-expedition-33-team-is-still-figuring-out-where-to-go-next-dlc-is-likely/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5MdRtaaZUPocGhzopSWDs.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Microsoft says it wants to completely ditch passwords as it makes passwordless login the default for all new accounts",
@@ -101,7 +37,7 @@
     "link": "https://www.pcgamer.com/software/operating-systems/microsoft-says-it-wants-to-completely-ditch-passwords-as-it-makes-passwordless-login-the-default-for-all-new-accounts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ufY5c7aUDJxKdEZ3FE3yUA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Mod adds Dark Souls-style player messages to Oblivion Remastered so you can write 'Try finger but hole' in front of Patrick Stewart",
@@ -109,7 +45,7 @@
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/mod-adds-dark-souls-style-player-messages-to-oblivion-remastered-so-you-can-write-try-finger-but-hole-in-front-of-patrick-stewart/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "There's another Pathfinder 2e bundle on Humble with nearly $700 of books for $57, including an adventure that'll let you go full Mortal Kombat with your friends",
@@ -117,7 +53,7 @@
     "link": "https://www.pcgamer.com/games/theres-another-pathfinder-2e-bundle-on-humble-with-nearly-usd700-of-books-for-usd57-including-an-adventure-thatll-let-you-go-full-mortal-kombat-with-your-friends/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3JzCSrL7CDVhRxAkUKvLwj.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Take-Two shares tank after GTA 6's delay, CEO Strauss Zelnick assures panicky investors it'll still make more money than god and it's 'steadfast in our commitment to excellence'",
@@ -125,7 +61,7 @@
     "link": "https://www.pcgamer.com/games/grand-theft-auto/take-two-shares-tank-after-gta-6s-delay-ceo-strauss-zelnick-assures-panicky-investors-itll-still-make-more-money-than-god-and-its-steadfast-in-our-commitment-to-excellence/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rZdp5cojZp8xDbYm4CjUxG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "US federal judge on Meta's AI copyright fair use argument: 'You are dramatically changing, you might even say obliterating, the market for that person's work'",
@@ -133,23 +69,87 @@
     "link": "https://www.pcgamer.com/software/ai/us-federal-judge-on-metas-ai-copyright-fair-use-argument-you-are-dramatically-changing-you-might-even-say-obliterating-the-market-for-that-persons-work/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Pn5oURaRSv3ov9rEGctJQM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
-    "titulo": "Grand Theft Auto 6 delayed until May 2026: 'We need this extra time to deliver at the level of quality you expect and deserve'",
-    "descricao": "NewsBusted.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-delayed-until-may-2026/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kARjQKQLonF4kgSEQHpS8Q.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
-    "titulo": "Meta's AI app wants to 'get to know you' and can warn you if you should be 'worried about bears'",
-    "descricao": "NewsStop trying to make the Metaverse happen.",
-    "link": "https://www.pcgamer.com/software/ai/metas-ai-app-wants-to-get-to-know-you-and-can-warn-you-if-you-should-be-worried-about-bears/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/yKPa9VUC6dgpXs4TzsdFyC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-02T11:50:09"
+    "titulo": "Post Trauma tenta abraçar o mundo, mas no fim se torna uma experiência mórbida",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/post-trauma/139710/review/bem-intencionado-post-trauma-tenta-abracar-o-mundo-mas-no-fim-se-torna-uma-experiencia-morbida-de-su",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea65cda8d896a532e651f7ef2922e007_4q96.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "Veja onde estão todos os itens e inimigos neste mapa interativo de Clair Obscur: Expedition 33",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/139596/guide/pictos-chefoes-e-mais-veja-onde-estao-todos-os-itens-e-inimigos-neste-mapa-interativo-de-clair-obscu",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61218/61218_s9rf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "Além das demissões da Respawn, EA demite 300 funcionários de várias áreas da publicadora",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/apex-legends/139618/news/alem-das-demissoes-da-respawn-ea-demite-300-funcionarios-de-varias-areas-da-publicadora",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-cuts-ar/ea-cuts-around-300-roles-including-roughly-100-at-respawn_tt2g.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "Respawn cancela dois jogos em desenvolvimento e demite funcionários das franquias Apex Legends e Star Wars Jedi",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-jedi-survivor/139611/news/respawn-cancela-dois-jogos-em-desenvolvimento-e-demite-funcionarios-das-franquias-apex-legends-e-sta",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/star-wars-jedi-survivor-1670256820837_j6t7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "NEVE, thriller interativo brasileiro, estará disponível para teste na gamescom latam 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/gamescom-latam/139565/news/neve-thriller-interativo-brasileiro-estara-disponivel-para-teste-na-gamescom-latam-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-7_ysfk.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "De volta ao topo: após 10 anos, Xiaomi recupera posto de smartphone mais vendido da China",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/139740/news/de-volta-ao-topo-apos-10-anos-xiaomi-recupera-posto-de-smartphone-mais-vendido-da-china",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_n3vb.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
+  },
+  {
+    "titulo": "\"Sem o Xbox, nada seria igual.\" editora de Clair Obscur: Expedition 33 elogia Game Pass, mas nega polêmica do lançamento do RPG",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/139728/news/sem-o-xbox-nada-seria-igual-editora-de-clair-obscur-expedition-33-elogia-game-pass-mas-nega-polemica",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-10_u6tu.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Google quer IA do Gemini em produtos da Apple neste ano",
@@ -157,7 +157,7 @@
     "link": "https://www.tecmundo.com.br/software/404292-google-quer-ia-do-gemini-em-produtos-da-apple-neste-ano.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/08/08100615547038.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "One UI 7 começa a ser distribuída para os Galaxy S23 do Brasil",
@@ -165,7 +165,7 @@
     "link": "https://www.tecmundo.com.br/software/404260-one-ui-7-comeca-a-ser-distribuida-para-os-galaxy-s23-do-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/01/27/27112036954188.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Duolingo lança 148 novos cursos de idiomas com ajuda de IA generativa",
@@ -173,7 +173,7 @@
     "link": "https://www.tecmundo.com.br/software/404261-duolingo-lanca-148-novos-cursos-de-idiomas-com-ajuda-de-ia-generativa.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30102646987033.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Adobe tem novos recursos de IA para Photoshop, Lightroom e Premiere",
@@ -181,7 +181,7 @@
     "link": "https://www.tecmundo.com.br/software/404190-adobe-tem-novos-recursos-de-ia-para-photoshop-lightroom-e-premiere.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/25/25165542812462.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Serviços do Citibank sofrem apagão nos Estados Unidos",
@@ -189,7 +189,7 @@
     "link": "https://www.tecmundo.com.br/seguranca/404248-servicos-do-citibank-sofre-apagao-nos-estados-unidos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/29/29165812960047.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Mensagens falsas prometem devolver descontos ilegais no INSS; saiba reconhecer a fraude",
@@ -197,7 +197,7 @@
     "link": "https://www.tecmundo.com.br/seguranca/404213-mensagens-falsas-prometem-devolver-descontos-ilegais-no-inss-saiba-reconhecer-a-fraude.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28143247119139.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Como um ciberataque pode apagar quase toda a Europa — e também o Brasil",
@@ -205,7 +205,7 @@
     "link": "https://www.tecmundo.com.br/seguranca/404211-como-um-ciberataque-pode-apagar-quase-toda-a-europa-e-tambem-o-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28140556130120.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "'Como termina a ajuda ao regime de Kiev': municípios dos Países Baixos são atacados hackers russos",
@@ -213,7 +213,7 @@
     "link": "https://www.tecmundo.com.br/seguranca/404205-como-termina-a-ajuda-ao-regime-de-kiev-municipios-dos-paises-baixos-sao-atacados-hackers-russos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/28/28121327143002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "Meta AI, chatbot com IA do WhatsApp, agora tem app próprio para Android e iOS",
@@ -221,7 +221,7 @@
     "link": "https://www.tecmundo.com.br/internet/404274-meta-ai-chatbot-com-ia-do-whatsapp-agora-tem-app-proprio-para-android-e-ios.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30125910663021.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   },
   {
     "titulo": "O que é Tralalero Tralalá, Bombardiro Crocodilo e outros memes bizarros que viralizaram no TikTok?",
@@ -229,6 +229,6 @@
     "link": "https://www.tecmundo.com.br/internet/404270-o-que-e-tralalero-tralala-bombardiro-crocodilo-e-outros-memes-bizarros-que-viralizaram-no-tiktok.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30114626799002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-02T11:50:09"
+    "timestamp": "2025-05-02T11:59:55"
   }
 ]
