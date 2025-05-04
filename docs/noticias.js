@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "May the 4th brings free and discounted Star Wars games from Prime Gaming, Steam, GOG, and more",
-    "descricao": "newsThese are the best deals on Star Wars games from across the galaxy in honor of May the 4th.",
-    "link": "https://www.pcgamer.com/games/may-the-4th-brings-free-and-discounted-star-wars-games-from-prime-gaming-steam-gog-and-more/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UhSqLBg5C6wuwQ3ndf3xBm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Inspired by Dwarf Fortress and Oxygen Not Included, adorable side-scrolling city-builder Ratopia burrows out of early access",
-    "descricao": "NewsJust because it's cute doesn't mean it's going to be easy.",
-    "link": "https://www.pcgamer.com/games/city-builder/inspired-by-dwarf-fortress-and-oxygen-not-included-adorable-side-scrolling-city-builder-ratopia-burrows-out-of-early-access/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fZnRKAJFdRgsU5ZhZCYM9k.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Star-trekking sandbox roguelike Approaching Infinity launches after more than 12 years in development",
-    "descricao": "NewsBoldly going forward 'cause we can't find reverse.",
-    "link": "https://www.pcgamer.com/games/roguelike/star-trekking-sandbox-roguelike-approaching-infinity-launches-after-more-than-12-years-in-development/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UA3k2HhWNYJ8ULTAewQxaM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Doom mod Blitz: Race Against Time only gives you half a minute per map, so it's a good thing Doomguy runs at 50 mph",
-    "descricao": "NewsThirty seconds to kill.",
-    "link": "https://www.pcgamer.com/games/fps/doom-mod-blitz-race-against-time-only-gives-you-half-a-minute-per-map-so-its-a-good-thing-doomguy-runs-at-50-mph/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/J9dBqcgWQDC37xCbm9csD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Today's Wordle answer for Sunday, May 4",
-    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-4-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Bungie's attempt to dismiss the Destiny 2 copyright case using YouTube videos describing 'vaulted' elements of the game has been shut down by a judge who is not going to sit through a 10-hour lore explainer",
-    "descricao": "NewsFair enough.",
-    "link": "https://www.pcgamer.com/games/fps/bungies-attempt-to-dismiss-the-destiny-2-copyright-case-using-youtube-videos-describing-vaulted-elements-of-the-game-has-been-shut-down-by-a-judge-who-is-not-going-to-sit-through-a-10-hour-lore-explainer/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/9YJ8mmPCDaTWctnvyMi6GU.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Fallout 1 and 2's source code isn't lost after all, thanks to one hero programmer: 'I made it a quest to snapshot everything'",
-    "descricao": "NewsRebecca Heineman, one of Interplay's founders, kept the receipts.",
-    "link": "https://www.pcgamer.com/games/rpg/fallout-1-and-2s-source-code-isnt-lost-after-all-thanks-to-one-hero-programmer-i-made-it-a-quest-to-snapshot-everything/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eSydbFPHpqUmJgWkCbHHDW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "EVE Online studio CCP is making a medieval-style tome of epic poetry inked with the blood of players to commemorate the game: 'It turns out, to store information, a really good way is to take blood and write on calfskin'",
-    "descricao": "newsCCP is giving most of the fan blood to the Blood Bank of Iceland, while keeping some to write a calfskin illuminated manuscript about EVE Online.",
-    "link": "https://www.pcgamer.com/games/mmo/eve-online-studio-ccp-is-making-a-medieval-style-tome-of-epic-poetry-inked-with-the-blood-of-players-to-commemorate-the-game-it-turns-out-to-store-information-a-really-good-way-is-to-take-blood-and-write-on-calfskin/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/NRnZEzkyvdXudjAyoY9aXY.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
-    "titulo": "Blizzard accidentally left a placeholder item in Diablo 4 and a couple of lucky players went god mode with it",
-    "descricao": "newsA patch disabled the gloves soon after word got out.",
-    "link": "https://www.pcgamer.com/games/rpg/blizzard-accidentally-left-a-placeholder-item-in-diablo-4-and-a-couple-of-lucky-players-went-god-mode-with-them/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WCcvzyVLPXuqvEkcHaanbT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T13:52:23"
-  },
-  {
     "titulo": "Alta de preços no PlayStation 5: Ghost of Yotei custará R$ 400 no Brasil",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/ghost-of-yotei/139735/news/alta-de-precos-no-playstation-5-ghost-of-yotei-custara-r-400-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61423/61423_hvk4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "Para fãs de Alien e ficção interativa: jogo brasileiro Neve atrai com demo imersiva",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139709/news/para-fas-de-alien-e-ficcao-interativa-jogo-brasileiro-neve-atrai-com-demo-imersiva-na-gamescom-latam",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61402/61402_uwf1.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "\"Florescemos quando tudo está contra nós\": como o Latin America Games Showcase dá visibilidade e tenta ajudar a indústria indie latina",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139731/feature/florescemos-quando-tudo-esta-contra-nos-como-o-latin-america-games-showcase-da-visibilidade-e-tenta",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lags_dj9t.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "Chrono Trigger remake é real? Um dos criadores do clássico da Square Enix parece ter revelado jogo acidentalmente",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/chrono-trigger/139770/news/chrono-trigger-remake-e-real-um-dos-criadores-do-classico-da-square-enix-parece-ter-revelado-jogo-ac",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/20173-chronotrigger1_m1kk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "\"Um exemplo brilhante da audácia francesa\": presidente da França rasga elogios a Clair Obscur: Expedition 33",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139727/news/um-exemplo-brilhante-da-audacia-francesa-presidente-da-franca-rasga-elogios-a-clair-obscur-expeditio",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kr75.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
@@ -133,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "\"Nunca esperei que o imperador do universo entrasse no restaurante\": Ian McDiarmid não imaginava tanta fama 42 anos após interpretar o Imperador Palpatine em Star Wars",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-the-rise-of-skywalker/139532/news/nunca-esperei-que-o-imperador-do-universo-entrasse-no-restaurante-ian-mcdiarmid-nao-imaginava-tanta",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sw_qukd.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
     "titulo": "Esta cena de Star Wars: A Vingança dos Sith mostra uma parte essencial da personalidade de Anakin Skywalker que só pode ser entendida em A Guerra dos Clones",
@@ -141,94 +77,238 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-episodio-iii-a-vinganca-dos-sith/139519/news/esta-cena-de-star-wars-a-vinganca-dos-sith-mostra-uma-parte-essencial-da-personalidade-de-anakin-sky",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sw1_vbjp.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "\"Apresse-se e termine!\": apenas um anime na história fez Hayao Miyazaki pressionar criador para finalizar a história",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/evangelion/139757/news/apresse-se-e-termine-apenas-um-anime-na-historia-fez-hayao-miyazaki-pressionar-criador-para-finaliza",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hm_gqup.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T13:52:23"
+    "titulo": "May the 4th brings free and discounted Star Wars games from Prime Gaming, Steam, GOG, and more",
+    "descricao": "newsThese are the best deals on Star Wars games from across the galaxy in honor of May the 4th.",
+    "link": "https://www.pcgamer.com/games/may-the-4th-brings-free-and-discounted-star-wars-games-from-prime-gaming-steam-gog-and-more/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UhSqLBg5C6wuwQ3ndf3xBm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Conheça a biblioteca que permite pegar jogos emprestados de graça de Xbox, PlayStation e Switch",
+    "titulo": "Inspired by Dwarf Fortress and Oxygen Not Included, adorable side-scrolling city-builder Ratopia burrows out of early access",
+    "descricao": "NewsJust because it's cute doesn't mean it's going to be easy.",
+    "link": "https://www.pcgamer.com/games/city-builder/inspired-by-dwarf-fortress-and-oxygen-not-included-adorable-side-scrolling-city-builder-ratopia-burrows-out-of-early-access/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fZnRKAJFdRgsU5ZhZCYM9k.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Star-trekking sandbox roguelike Approaching Infinity launches after more than 12 years in development",
+    "descricao": "NewsBoldly going forward 'cause we can't find reverse.",
+    "link": "https://www.pcgamer.com/games/roguelike/star-trekking-sandbox-roguelike-approaching-infinity-launches-after-more-than-12-years-in-development/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UA3k2HhWNYJ8ULTAewQxaM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Doom mod Blitz: Race Against Time only gives you half a minute per map, so it's a good thing Doomguy runs at 50 mph",
+    "descricao": "NewsThirty seconds to kill.",
+    "link": "https://www.pcgamer.com/games/fps/doom-mod-blitz-race-against-time-only-gives-you-half-a-minute-per-map-so-its-a-good-thing-doomguy-runs-at-50-mph/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/J9dBqcgWQDC37xCbm9csD.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Today's Wordle answer for Sunday, May 4",
+    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-4-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Bungie's attempt to dismiss the Destiny 2 copyright case using YouTube videos describing 'vaulted' elements of the game has been shut down by a judge who is not going to sit through a 10-hour lore explainer",
+    "descricao": "NewsFair enough.",
+    "link": "https://www.pcgamer.com/games/fps/bungies-attempt-to-dismiss-the-destiny-2-copyright-case-using-youtube-videos-describing-vaulted-elements-of-the-game-has-been-shut-down-by-a-judge-who-is-not-going-to-sit-through-a-10-hour-lore-explainer/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/9YJ8mmPCDaTWctnvyMi6GU.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Fallout 1 and 2's source code isn't lost after all, thanks to one hero programmer: 'I made it a quest to snapshot everything'",
+    "descricao": "NewsRebecca Heineman, one of Interplay's founders, kept the receipts.",
+    "link": "https://www.pcgamer.com/games/rpg/fallout-1-and-2s-source-code-isnt-lost-after-all-thanks-to-one-hero-programmer-i-made-it-a-quest-to-snapshot-everything/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/eSydbFPHpqUmJgWkCbHHDW.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "EVE Online studio CCP is making a medieval-style tome of epic poetry inked with the blood of players to commemorate the game: 'It turns out, to store information, a really good way is to take blood and write on calfskin'",
+    "descricao": "newsCCP is giving most of the fan blood to the Blood Bank of Iceland, while keeping some to write a calfskin illuminated manuscript about EVE Online.",
+    "link": "https://www.pcgamer.com/games/mmo/eve-online-studio-ccp-is-making-a-medieval-style-tome-of-epic-poetry-inked-with-the-blood-of-players-to-commemorate-the-game-it-turns-out-to-store-information-a-really-good-way-is-to-take-blood-and-write-on-calfskin/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NRnZEzkyvdXudjAyoY9aXY.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Blizzard accidentally left a placeholder item in Diablo 4 and a couple of lucky players went god mode with it",
+    "descricao": "newsA patch disabled the gloves soon after word got out.",
+    "link": "https://www.pcgamer.com/games/rpg/blizzard-accidentally-left-a-placeholder-item-in-diablo-4-and-a-couple-of-lucky-players-went-god-mode-with-them/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WCcvzyVLPXuqvEkcHaanbT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501274-conheca-a-biblioteca-que-permite-pegar-jogos-emprestados-de-graca-de-xbox-playstation-e-switch.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/29/29113901917002.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Jogos em mídia física com até 82% OFF na Amazon: confira opções para PS4, PS5 e Nintendo Switch",
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501287-jogos-em-midia-fisica-com-ate-82-off-na-amazon-confira-opcoes-para-ps4-ps5-e-nintendo-switch.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30163415925074.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "6 jogos grátis para resgatar e jogar no Steam nesta semana; veja lista",
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501291-6-jogos-gratis-para-resgatar-e-jogar-no-steam-nesta-semana-veja-lista.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/05/01/01192743327069.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Prime Gaming de maio traz mais de 20 jogos gratuitos para os assinantes! Veja como resgatar",
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501297-prime-gaming-de-maio-traz-mais-de-20-jogos-gratuitos-para-os-assinantes-veja-como-resgatar.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/05/01/01185117052020.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "5 jogos grátis de celular em alta na Play Store para baixar esta semana",
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501261-5-jogos-gratis-de-celular-em-alta-na-play-store-para-baixar-esta-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/28/28135045618090.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Nintendo lança grande atualização no Switch! Confira as mudanças no console",
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501281-nintendo-lanca-grande-atualizacao-no-switch-confira-as-mudancas-no-console.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/30/30105656139096.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Hogwarts Legacy e GTA 5 de graça e mais! Veja as indicações de games da semana",
+    "titulo": "Com demo grátis, jogo brasileiro se passa em São Paulo e traz não-monogamia saudável como tema! Confira a entrevista",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501196-hogwarts-legacy-e-gta-5-de-graca-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17174254439649.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501289-com-demo-gratis-jogo-brasileiro-se-passa-em-sao-paulo-e-traz-nao-monogamia-saudavel-como-tema-confira-a-entrevista.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30182011234003.jpg?ims=96x88",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Steam libera jogo grátis por tempo limitado! Resgate ainda hoje (22)",
+    "titulo": "Jogos para PC da Warner em oferta e com cupom de 15% de desconto na Nuuvem",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501210-steam-libera-jogo-gratis-por-tempo-limitado-resgate-ainda-hoje-22.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/22/22091649150004.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501305-jogos-para-pc-da-warner-em-oferta-e-com-cupom-de-15-de-desconto-na-nuuvem.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02140641936335.jpg?ims=96x88",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
+    "titulo": "Tomb Raider de graça, Kingdom Hearts 3 baratinho e mais! Veja as indicações de games da semana",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501245-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/24/24192438758015.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501302-tomb-raider-de-graca-kingdom-hearts-3-baratinho-e-mais-veja-as-indicacoes-de-games-da-semana.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02102303907088.jpg?ims=96x88",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
   },
   {
-    "titulo": "Epic Games libera dois jogos grátis no Android por tempo limitado! Resgate agora",
+    "titulo": "Rematch: Estúdio revela planos para o game e fala de migração do kung-fu ao futebol (Exclusivo)",
     "descricao": "Notícia sobre games do portal Voxel.",
-    "link": "https://www.tecmundo.com.br/voxel/501194-epic-games-libera-dois-jogos-gratis-no-android-por-tempo-limitado-resgate-agora.htm",
-    "imagem": "https://tm.ibxk.com.br/2025/04/17/17140531878400.jpg?ims=164x118",
+    "link": "https://www.tecmundo.com.br/voxel/501301-rematch-estudio-revela-planos-para-o-game-e-fala-de-migracao-do-kung-fu-ao-futebol-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02095555566079.jpg?ims=96x88",
     "fonte": "Voxel",
-    "timestamp": "2025-05-04T13:52:23"
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Animações da One UI 8 parecem estar mais fluidas até nas versões de teste; confira",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/software/404295-animacoes-da-one-ui-8-parecem-estar-mais-fluidas-ate-nas-versoes-de-teste-confira.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/03/07/07155931733178.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Google quer IA do Gemini em produtos da Apple neste ano",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/software/404292-google-quer-ia-do-gemini-em-produtos-da-apple-neste-ano.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/08/08100615547038.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "One UI 7 começa a ser distribuída para os Galaxy S23 do Brasil",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/software/404260-one-ui-7-comeca-a-ser-distribuida-para-os-galaxy-s23-do-brasil.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/01/27/27112036954188.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Duolingo lança 148 novos cursos de idiomas com ajuda de IA generativa",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/software/404261-duolingo-lanca-148-novos-cursos-de-idiomas-com-ajuda-de-ia-generativa.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30102646987033.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "'12345': pesquisa revela que somente 6% das senhas são únicas",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/seguranca/404309-12345-pesquisa-revela-que-somente-6-das-senhas-sao-unicas.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02161233312042.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Falhas no Apple AirPlay deixam milhões de dispositivos em risco",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/seguranca/404305-falhas-no-apple-airplay-deixam-milhoes-de-dispositivos-em-risco.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02141334784351.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Serviços do Citibank sofrem apagão nos Estados Unidos",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/seguranca/404248-servicos-do-citibank-sofre-apagao-nos-estados-unidos.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/29/29165812960047.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Mensagens falsas prometem devolver descontos ilegais no INSS; saiba reconhecer a fraude",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/seguranca/404213-mensagens-falsas-prometem-devolver-descontos-ilegais-no-inss-saiba-reconhecer-a-fraude.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28143247119139.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "Meta AI, chatbot com IA do WhatsApp, agora tem app próprio para Android e iOS",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/internet/404274-meta-ai-chatbot-com-ia-do-whatsapp-agora-tem-app-proprio-para-android-e-ios.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30125910663021.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
+  },
+  {
+    "titulo": "O que é Tralalero Tralalá, Bombardiro Crocodilo e outros memes bizarros que viralizaram no TikTok?",
+    "descricao": "Clique para ler mais sobre esta notícia de jogos no TecMundo.",
+    "link": "https://www.tecmundo.com.br/internet/404270-o-que-e-tralalero-tralala-bombardiro-crocodilo-e-outros-memes-bizarros-que-viralizaram-no-tiktok.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/30/30114626799002.jpg?ims=220x127",
+    "fonte": "TecMundo",
+    "timestamp": "2025-05-04T14:30:31"
   }
 ];
