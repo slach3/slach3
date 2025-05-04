@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/inspired-by-dwarf-fortress-and-oxygen-not-included-adorable-side-scrolling-city-builder-ratopia-burrows-out-of-early-access/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fZnRKAJFdRgsU5ZhZCYM9k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Star-trekking sandbox roguelike Approaching Infinity launches after more than 12 years in development",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/star-trekking-sandbox-roguelike-approaching-infinity-launches-after-more-than-12-years-in-development/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UA3k2HhWNYJ8ULTAewQxaM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Doom mod Blitz: Race Against Time only gives you half a minute per map, so it's a good thing Doomguy runs at 50 mph",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/doom-mod-blitz-race-against-time-only-gives-you-half-a-minute-per-map-so-its-a-good-thing-doomguy-runs-at-50-mph/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/J9dBqcgWQDC37xCbm9csD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, May 4",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-4-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Bungie's attempt to dismiss the Destiny 2 copyright case using YouTube videos describing 'vaulted' elements of the game has been shut down by a judge who is not going to sit through a 10-hour lore explainer",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/bungies-attempt-to-dismiss-the-destiny-2-copyright-case-using-youtube-videos-describing-vaulted-elements-of-the-game-has-been-shut-down-by-a-judge-who-is-not-going-to-sit-through-a-10-hour-lore-explainer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9YJ8mmPCDaTWctnvyMi6GU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Fallout 1 and 2's source code isn't lost after all, thanks to one hero programmer: 'I made it a quest to snapshot everything'",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/fallout-1-and-2s-source-code-isnt-lost-after-all-thanks-to-one-hero-programmer-i-made-it-a-quest-to-snapshot-everything/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eSydbFPHpqUmJgWkCbHHDW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "EVE Online studio CCP is making a medieval-style tome of epic poetry inked with the blood of players to commemorate the game: 'It turns out, to store information, a really good way is to take blood and write on calfskin'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/eve-online-studio-ccp-is-making-a-medieval-style-tome-of-epic-poetry-inked-with-the-blood-of-players-to-commemorate-the-game-it-turns-out-to-store-information-a-really-good-way-is-to-take-blood-and-write-on-calfskin/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NRnZEzkyvdXudjAyoY9aXY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Blizzard accidentally left a placeholder item in Diablo 4 and a couple of lucky players went god mode with it",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/blizzard-accidentally-left-a-placeholder-item-in-diablo-4-and-a-couple-of-lucky-players-went-god-mode-with-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WCcvzyVLPXuqvEkcHaanbT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Once hidden in a Friday Night Funkin' fangame, surreal free exploration sandbox Garn47 gets a major makeover with the 'Glorgle update'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/once-hidden-in-a-friday-night-funkin-fangame-surreal-free-exploration-sandbox-garn47-gets-a-major-makeover-with-the-glorgle-update/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RPr7EazLCw5kBNqdnkKyBb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Alta de preços no PlayStation 5: Ghost of Yotei custará R$ 400 no Brasil",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/139735/news/alta-de-precos-no-playstation-5-ghost-of-yotei-custara-r-400-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61423/61423_hvk4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Para fãs de Alien e ficção interativa: jogo brasileiro Neve atrai com demo imersiva",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139709/news/para-fas-de-alien-e-ficcao-interativa-jogo-brasileiro-neve-atrai-com-demo-imersiva-na-gamescom-latam",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61402/61402_uwf1.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "\"Florescemos quando tudo está contra nós\": como o Latin America Games Showcase dá visibilidade e tenta ajudar a indústria indie latina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139731/feature/florescemos-quando-tudo-esta-contra-nos-como-o-latin-america-games-showcase-da-visibilidade-e-tenta",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lags_dj9t.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Chrono Trigger remake é real? Um dos criadores do clássico da Square Enix parece ter revelado jogo acidentalmente",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/chrono-trigger/139770/news/chrono-trigger-remake-e-real-um-dos-criadores-do-classico-da-square-enix-parece-ter-revelado-jogo-ac",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/20173-chronotrigger1_m1kk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "\"Um exemplo brilhante da audácia francesa\": presidente da França rasga elogios a Clair Obscur: Expedition 33",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/139727/news/um-exemplo-brilhante-da-audacia-francesa-presidente-da-franca-rasga-elogios-a-clair-obscur-expeditio",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kr75.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "\"Apresse-se e termine!\": apenas um anime na história fez Hayao Miyazaki pressionar criador para finalizar a história",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/evangelion/139757/news/apresse-se-e-termine-apenas-um-anime-na-historia-fez-hayao-miyazaki-pressionar-criador-para-finaliza",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hm_gqup.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   },
   {
     "titulo": "É aqui que começa a diversão: minha experiência ao assistir Star Wars: A Vingança dos Sith no cinema 20 anos depois da estreia original",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-episodio-iii-a-vinganca-dos-sith/139567/feature/e-aqui-que-comeca-a-diversao-minha-experiencia-ao-assistir-star-wars-a-vinganca-dos-sith-no-cinema-2",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sw1_kugj.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-04T12:44:32"
+    "timestamp": "2025-05-04T12:54:52"
   }
 ];
