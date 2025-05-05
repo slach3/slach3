@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Daemon X Machina: Titanic Scion's power-suits will let you beat giant monsters to death with their own body parts",
+    "descricao": "NewsThe mechs might be a lot smaller, but the violence has only escalated.",
+    "link": "https://www.pcgamer.com/games/action/daemon-x-machina-titanic-scions-power-suits-will-let-you-beat-giant-monsters-to-death-with-their-own-body-parts/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/vMFFVDzBNSYaqXRHLzpz7d.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
     "titulo": "This game has 100 endings, and it's pushing the creators to the brink of bankruptcy",
     "descricao": "NewsThe Hundred Line: Last Defense Academy's ambition might spell one final ending for a promising studio.",
     "link": "https://www.pcgamer.com/games/rpg/this-game-has-100-endings-and-its-pushing-the-creators-to-the-brink-of-bankruptcy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GKW4M4j2Jfnwc7ReUj4Hcn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "This Doom themed Harley Davidson is the most metal game collab I've seen since The Dark Ages",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/this-doom-themed-harley-davidson-is-the-most-metal-game-collab-ive-seen-since-the-dark-ages/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VFz3pD4pb7AbLPQ4Wcnu7D.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "In The Shadow Syndicate you're a dog detective who shoots people in bullet-time and wears a cursed ring",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/in-the-shadow-syndicate-youre-a-dog-detective-who-shoots-people-in-bullet-time-and-wears-a-cursed-ring/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RaU4H4cuhgqtEYWTJMDRre.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Today's Wordle answer for Monday, May 5",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-5-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "75,000 people are playing a fantasy football game where you guess the new pope: 'You have to choose 11 cardinals, the ones you think are the most papal'",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/75-000-people-are-playing-a-fantasy-football-game-where-you-guess-the-new-pope-you-have-to-choose-11-cardinals-the-ones-you-think-are-the-most-papal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pqJbD3Lp2qLQmF4kEvghQn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "'You can't escape us': Devolver plots to release a game on GTA 6's release date, no matter when that is",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/grand-theft-auto/you-cant-escape-us-devolver-plots-to-release-a-game-on-gta-6s-release-date-no-matter-when-that-is/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5h99tNHYUZJTcen56652sb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Tales of the Shire embraces a 'clutter-core experience' with grid-free decorating for your hobbit house",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/life-sim/tales-of-the-shire-embraces-a-clutter-core-experience-with-grid-free-decorating-for-your-hobbit-house/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZgyWgp4w8s5u9vh32LSpQL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "May the 4th brings free and discounted Star Wars games from Prime Gaming, Steam, and more",
@@ -61,95 +69,87 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/may-the-4th-brings-free-and-discounted-star-wars-games-from-prime-gaming-steam-gog-and-more/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UhSqLBg5C6wuwQ3ndf3xBm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "Inspired by Dwarf Fortress and Oxygen Not Included, adorable side-scrolling city-builder Ratopia burrows out of early access",
-    "descricao": "NewsJust because it's cute doesn't mean it's going to be easy.",
-    "link": "https://www.pcgamer.com/games/city-builder/inspired-by-dwarf-fortress-and-oxygen-not-included-adorable-side-scrolling-city-builder-ratopia-burrows-out-of-early-access/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fZnRKAJFdRgsU5ZhZCYM9k.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-05T10:51:09"
-  },
-  {
-    "titulo": "Alta de preços no PlayStation 5: Ghost of Yotei custará R$ 400 no Brasil",
+    "titulo": "TLOU retoma bons episódios, mas ainda mantém preocupação com peso de eventos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ghost-of-yotei/139735/news/alta-de-precos-no-playstation-5-ghost-of-yotei-custara-r-400-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61423/61423_hvk4.800.jpg",
+    "link": "https://br.ign.com/the-last-of-us-the-series/139787/feature/the-last-of-us-retoma-toada-de-bons-episodios-mas-ainda-mantem-grande-preocupacao-com-peso-de-evento",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gqjpbhfwiaaquey_p31u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "De surpresa, Rockstar adia GTA 6 para 2026 e confirma data de lançamento",
+    "titulo": "The Last of Us: Quem é Isaac? Cruel líder da WLF",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139723/news/de-surpresa-rockstar-adia-gta-6-para-2026-e-confirma-data-de-lancamento",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.800.jpg",
+    "link": "https://br.ign.com/the-last-of-us-the-series/139786/preview/the-last-of-us-quem-e-isaac-cruel-lider-da-wlf",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61468/61468_2hnx.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "Para fãs de Alien e ficção interativa: jogo brasileiro Neve atrai com demo imersiva",
+    "titulo": "Rever A Vingança dos Sith foi uma experiência melhor graças ao que fizeram com Star Wars",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gamescom-latam/139709/news/para-fas-de-alien-e-ficcao-interativa-jogo-brasileiro-neve-atrai-com-demo-imersiva-na-gamescom-latam",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61402/61402_uwf1.800.jpg",
+    "link": "https://br.ign.com/star-wars-episodio-iii-a-vinganca-dos-sith/139756/news/rever-a-vinganca-dos-sith-nos-cinemas-foi-uma-experiencia-melhor-gracas-ao-que-fizeram-com-star-wars",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_asyy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "Thunderbolts escapa dos clichês e abre portas para histórias mais sombrias e honestas na Marvel",
+    "titulo": "GTA foi adiado para 2026, e agora? Aqui estão games incríveis de 2025 para jogar",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139522/review/thunderbolts-escapa-dos-cliches-e-abre-portas-para-historias-mais-sombrias-e-honestas-na-marvel",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61217/61217_m8f2.800.jpg",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139774/feature/gta-foi-adiado-para-2026-e-agora-aqui-estao-muitos-games-incriveis-de-2025-para-voce-jogar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61470/61470_gyqc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "\"Florescemos quando tudo está contra nós\": como o Latin America Games Showcase dá visibilidade e tenta ajudar a indústria indie latina",
+    "titulo": "É por isso que o MCU estava tão \"ruim\" em 2020: reportagem indica que Kevin Feige estava à beira de um burnout e não conseguia acompanhar projetos da Marvel",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gamescom-latam/139731/feature/florescemos-quando-tudo-esta-contra-nos-como-o-latin-america-games-showcase-da-visibilidade-e-tenta",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lags_dj9t.320.png",
+    "link": "https://br.ign.com/marvel/139792/news/e-por-isso-que-o-mcu-estava-tao-ruim-em-2020-reportagem-indica-que-kevin-feige-estava-a-beira-de-um",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/k/kevin-feig/kevin-feige-had-to-explain-pegging-to-mcu-execs-thanks-to-de_a6u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
-  },
-  {
-    "titulo": "Chrono Trigger remake é real? Um dos criadores do clássico da Square Enix parece ter revelado jogo acidentalmente",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/chrono-trigger/139770/news/chrono-trigger-remake-e-real-um-dos-criadores-do-classico-da-square-enix-parece-ter-revelado-jogo-ac",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/20173-chronotrigger1_m1kk.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
-  },
-  {
-    "titulo": "\"Um exemplo brilhante da audácia francesa\": presidente da França rasga elogios a Clair Obscur: Expedition 33",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/139727/news/um-exemplo-brilhante-da-audacia-francesa-presidente-da-franca-rasga-elogios-a-clair-obscur-expeditio",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kr75.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
-  },
-  {
-    "titulo": "Xbox aumenta preço de consoles e acessórios ao redor do mundo e confirma que jogos custarão US$ 80 ao final do ano",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/139706/news/xbox-aumenta-preco-de-consoles-e-acessorios-ao-redor-do-mundo-e-confirma-que-jogos-custarao-us-80-ao",
-    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox_ekre.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Thunderbolts tem herói que ninguém percebeu: produtor do filme confirma sutilmente que este personagem terá grande futuro no MCU",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/thunderbolts-1/139790/news/thunderbolts-tem-heroi-que-ninguem-percebeu-produtor-do-filme-confirma-sutilmente-que-este-personage",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sebastian-/sebastian-stan-calls-thunderbolts-the-breakfast-club-of-the_q635.280.png",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/sebastian-/sebastian-stan-calls-thunderbolts-the-breakfast-club-of-the_q635.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
-    "titulo": "\"Vamos esperar até as próximas Olimpíadas\": produtor de Solo Leveling admite que não quer apressar 3ª temporada, mas os fãs não ficarão de mãos abanando por tanto tempo",
+    "titulo": "20 anos depois, Oblivion Remastered quebra tradição dos jogos da Bethesda, como Skyrim e Fallout",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/solo-leveling/139789/news/vamos-esperar-ate-as-proximas-olimpiadas-produtor-de-solo-leveling-admite-que-nao-quer-apressar-3a-t",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sl_21ux.280.png",
+    "link": "https://br.ign.com/the-elder-scrolls-iv-oblivion-remaster/139711/news/20-anos-depois-oblivion-remastered-quebra-tradicao-dos-jogos-da-bethesda-como-skyrim-e-fallout",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_1bza.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Nem Luke, nem R2D2: este é o personagem que mais teve tempo de tela em toda a franquia Star Wars",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars/139545/news/nem-luke-nem-r2d2-este-e-o-personagem-que-mais-teve-tempo-de-tela-em-toda-a-franquia-star-wars",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5gvb.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Sebastian Stan recebeu \"benção\" de Mark Hamill para estrelar Star Wars, mas ainda não o fez por um motivo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars/139794/news/sebastian-stan-recebeu-bencao-de-mark-hamill-para-estrelar-star-wars-mas-ainda-nao-o-fez-por-um-moti",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss_st6r.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "\"Se quiserem debater com ela, podem fazer isso no Twitter\": chefe da HBO afirma que série de Harry Potter não será influenciada por discursos de ódio de J. K. Rowling",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/harry-potter/139793/news/se-quiserem-debater-com-ela-podem-fazer-isso-no-twitter-chefe-da-hbo-afirma-que-serie-de-harry-potte",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/molly-weasley_fe8r.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Animações da One UI 8 parecem estar mais fluidas até nas versões de teste; confira",
@@ -157,7 +157,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404295-animacoes-da-one-ui-8-parecem-estar-mais-fluidas-ate-nas-versoes-de-teste-confira.htm",
     "imagem": "https://tm.ibxk.com.br/2025/03/07/07155931733178.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Google quer IA do Gemini em produtos da Apple neste ano",
@@ -165,7 +165,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404292-google-quer-ia-do-gemini-em-produtos-da-apple-neste-ano.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/08/08100615547038.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "One UI 7 começa a ser distribuída para os Galaxy S23 do Brasil",
@@ -173,7 +173,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404260-one-ui-7-comeca-a-ser-distribuida-para-os-galaxy-s23-do-brasil.htm",
     "imagem": "https://tm.ibxk.com.br/2025/01/27/27112036954188.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Duolingo lança 148 novos cursos de idiomas com ajuda de IA generativa",
@@ -181,7 +181,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/software/404261-duolingo-lanca-148-novos-cursos-de-idiomas-com-ajuda-de-ia-generativa.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30102646987033.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Como o show da Lady Gaga no Rio quase virou palco de tragédia com ataque terrorista",
@@ -189,7 +189,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404313-como-o-show-da-lady-gaga-no-rio-quase-virou-palco-de-tragedia-com-ataque-terrorista.htm",
     "imagem": "https://tm.ibxk.com.br/2025/05/04/04181317959004.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "'12345': pesquisa revela que somente 6% das senhas são únicas",
@@ -197,7 +197,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404309-12345-pesquisa-revela-que-somente-6-das-senhas-sao-unicas.htm",
     "imagem": "https://tm.ibxk.com.br/2025/05/02/02161233312042.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Falhas no Apple AirPlay deixam milhões de dispositivos em risco",
@@ -205,7 +205,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404305-falhas-no-apple-airplay-deixam-milhoes-de-dispositivos-em-risco.htm",
     "imagem": "https://tm.ibxk.com.br/2025/05/02/02141334784351.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Serviços do Citibank sofrem apagão nos Estados Unidos",
@@ -213,7 +213,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/seguranca/404248-servicos-do-citibank-sofre-apagao-nos-estados-unidos.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/29/29165812960047.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "Meta AI, chatbot com IA do WhatsApp, agora tem app próprio para Android e iOS",
@@ -221,7 +221,7 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404274-meta-ai-chatbot-com-ia-do-whatsapp-agora-tem-app-proprio-para-android-e-ios.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30125910663021.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
   },
   {
     "titulo": "O que é Tralalero Tralalá, Bombardiro Crocodilo e outros memes bizarros que viralizaram no TikTok?",
@@ -229,6 +229,86 @@ const noticias = [
     "link": "https://www.tecmundo.com.br/internet/404270-o-que-e-tralalero-tralala-bombardiro-crocodilo-e-outros-memes-bizarros-que-viralizaram-no-tiktok.htm",
     "imagem": "https://tm.ibxk.com.br/2025/04/30/30114626799002.jpg?ims=220x127",
     "fonte": "TecMundo",
-    "timestamp": "2025-05-05T10:51:09"
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Elder Scrolls IV Oblivion Remastered é lançado e chega direto ao Game Pass!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501214-elder-scrolls-iv-oblivion-remastered-e-lancado-e-chega-direto-ao-game-pass-veja-preco-e-gameplay.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172825532004.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "The Elder Scrolls IV Oblivion Remastered pede 32 GB de RAM no PC!",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501218-the-elder-scrolls-iv-oblivion-remastered-pede-32-gb-de-ram-no-pc-veja-requisitos-da-steam.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/22/22172738568003.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Maior página de pirataria de jogos do Brasil é derrubada, mas criadores querem voltar",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501199-maior-pagina-de-pirataria-de-jogos-do-brasil-e-derrubada-mas-criadores-querem-voltar-exclusivo.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17184536585806.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Steam recebe 5 jogos grátis nesta semana! Veja lista e resgate",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501183-steam-recebe-5-jogos-gratis-nesta-semana-veja-lista-e-resgate.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17134630301366.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Mario Kart World: Veja gameplay, personagens confirmados e preço do game",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501191-mario-kart-world-veja-gameplay-personagens-confirmados-e-preco-do-game.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/17/17112839690088.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Homem de 58 anos é condenado a dois anos de prisão por piratear Nintendo Switch! Entenda o caso",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501178-homem-de-58-anos-e-condenado-a-dois-anos-de-prisao-por-piratear-nintendo-switch-entenda-o-caso.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/16/16111056857221.jpg?ims=328x189",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Unreal Engine 6 é revelada pelo CEO da Epic Games! Veja novidades do motor gráfico",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501312-unreal-engine-6-e-revelada-pelo-ceo-da-epic-games-veja-novidades-do-motor-grafico.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/05/05100429314030.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Codiguin Free Fire: Veja os códigos para resgatar de graça em maio de 2025",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501267-codiguin-free-fire-veja-os-codigos-para-resgatar-de-graca-em-maio-de-2025.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28185928057071.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "Among Us 3D, The Midnight Walk e mais! Veja os lançamentos de games da semana (04/05)",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501299-among-us-3d-the-midnight-walk-e-mais-veja-os-lancamentos-de-games-da-semana-0405.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/05/02/02005113453009.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
+  },
+  {
+    "titulo": "F1 25: Confira preço, modos de jogo e tudo sobre o game de corrida",
+    "descricao": "Notícia sobre games do portal Voxel.",
+    "link": "https://www.tecmundo.com.br/voxel/501270-f1-25-confira-preco-modos-de-jogo-e-tudo-sobre-o-game-de-corrida.htm",
+    "imagem": "https://tm.ibxk.com.br/2025/04/28/28233732399009.jpg?ims=96x88",
+    "fonte": "Voxel",
+    "timestamp": "2025-05-05T11:42:23"
   }
 ];
