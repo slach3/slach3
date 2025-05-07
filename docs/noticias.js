@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "FTC loses bid to block Microsoft's acquisition of Activision Blizzard, which already happened in 2023",
+    "descricao": "newsIt's not technically over, but yeah, it's over.",
+    "link": "https://www.pcgamer.com/gaming-industry/ftc-loses-bid-to-block-microsofts-acquisition-of-activision-blizzard-which-already-happened-in-2023/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sSMDVMCaemcD4NAfBVZTD6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-07T19:39:18"
+  },
+  {
+    "titulo": "Confusion reigns as report of an A24 Elden Ring movie emerges, disappears, and emerges again",
+    "descricao": "NewsIs there anything here, or are we all tarnishing our reputations?",
+    "link": "https://www.pcgamer.com/games/rpg/confusion-reigns-as-report-of-an-a24-elden-ring-movie-emerges-disappears-and-emerges-again/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3tmBmRkC6GHqi84BbjxVL9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-07T19:39:18"
+  },
+  {
     "titulo": "Props for the honesty: Tim Sweeney says the reason 'people characterize the Epic Games launcher as clunky' is—wait for it—'because the Epic Games launcher is clunky'",
     "descricao": "newsThe Epic boss recently shared his thoughts in a lengthy interview with Lex Fridman.",
     "link": "https://www.pcgamer.com/gaming-industry/props-for-the-honesty-tim-sweeney-says-the-reason-people-characterize-the-epic-games-launcher-as-clunky-is-wait-for-it-because-the-epic-games-launcher-is-clunky/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EJndnKBLEpr5LBcTfbgp4F.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Oblivion Remastered mod finally fixes the loot levelling, so no longer do you need to complete quests then wait forever to hand them in",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-mod-finally-fixes-the-loot-levelling-so-no-longer-do-you-need-to-complete-quests-then-wait-forever-to-hand-them-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Electronic Arts CEO feels 'very good' about the next Battlefield's launch now that Grand Theft Auto 6 is out of the way",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/electronic-arts-ceo-feels-very-good-about-the-next-battlefields-launch-now-that-grand-theft-auto-6-is-out-of-the-way/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DsBjiKdmuVCj2a4b42bKv3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Just months after reportedly cancelling two live service games in development, Sony announces a new PlayStation studio with a live service game in development",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/moba/just-months-after-reportedly-cancelling-two-live-service-games-in-development-sony-announces-a-new-playstation-studio-with-a-live-service-game-in-development/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mLpEEBbbGUifvPo7RnQ6QV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Clair Obscur: Expedition 33 players find a way to do 2,177,438,000 damage, which is enough to kill the hardest endgame superboss over 45.8 times",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-players-find-a-way-to-do-2-177-438-000-damage-which-is-enough-to-kill-the-hardest-endgame-superboss-over-45-8-times/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/y7KBgUJnDaUu9p4RCvZDf7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "As support for Windows 10 counts down, End of 10 asks 'why not Linux?'",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/linux/as-support-for-windows-10-counts-down-end-of-10-asks-why-not-linux/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HVrAYA3MuYFVkosYqGcQeP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Hazelight's Split Fiction sells over 4 million copies in 2 months",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/hazelights-split-fiction-sells-over-4-million-copies-in-2-months/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZFBuNG3PW9a4VGbcb6HhTc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
-  },
-  {
-    "titulo": "Intel slashes the price of its Core Ultra 265K CPU from $399 to $299, making it a killer deal for gamers despite all the early issues",
-    "descricao": "NewsArrow Lake CPU, anyone?...Anyone?",
-    "link": "https://www.pcgamer.com/hardware/processors/intel-slashes-the-price-of-its-core-ultra-265k-cpu-from-usd399-to-usd299-making-it-a-killer-deal-for-gamers-despite-all-the-early-issues/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Wg5SGzHvrQhFLjgx765oWi.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
-  },
-  {
-    "titulo": "The best budget 4K gaming monitor has practically halved in price to just $330",
-    "descricao": "DealIt's hard to say no to 4K at this price.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-best-budget-4k-gaming-monitor-has-practically-halved-in-price-to-just-usd330/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/oGQs7ZFdo2JJMZ9AbCQvXj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "\"Foi muito difícil\": Isabela Merced levou \"bronca\" de diretores da 2ª temporada de TLOU",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139820/news/foi-muito-dificil-isabela-merced-levou-bronca-de-diretores-da-2a-temporada-de-the-last-of-us-por-nao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/tlou_bn61.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61669/61669_62ys.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "GTA 6: tudo sobre a história de Lucia, Jason e todos os personagens revelados no 2º trailer",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139863/news/gta-6-tudo-sobre-a-historia-de-lucia-jason-e-todos-os-personagens-revelados-no-segundo-trailer",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61670/61670_bju5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Doom The Dark Ages e mais: os jogos do Game Pass da primeira metade de maio de 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/139859/news/doom-the-dark-ages-dredge-e-mais-xbox-confirma-jogos-do-game-pass-da-primeira-metade-de-maio-de-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61615/61615_symu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Xbox portátil? Imagens do suposto console em parceria com Asus ROG vazam online",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139926/news/xbox-portatil-imagens-do-suposto-console-em-parceria-com-asus-rog-vazam-online",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/first-pict/first-pictures-of-asus-xbox-branded-handheld-leak-online_ftgb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Trailer de GTA 6 tem console misterioso escondido — e fãs brincam com \"revelação\" do PS6",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139927/news/trailer-de-gta-6-tem-console-misterioso-escondido-e-fas-brincam-com-revelacao-do-ps6",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-trai/gta-6-trailer-2-has-an-easy-to-miss-fake-ps5-and-fans-are-jo_s4jt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Por que GTA nunca virou filme ou série? E talvez nunca vire",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139899/news/por-que-gta-nunca-virou-filme-ou-serie-e-talvez-nunca-vire",
     "imagem": "https://sm.ign.com/t/ign_br/lists/h/how-to-pla/how-to-play-the-grand-theft-auto-games-in-order_sbaa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "Aumento generalizado: jogos digitais e físicos do PlayStation Studios passarão a custar R$ 399,90 após lançamento de Ghost of Yōtei",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/139892/news/aumento-generalizado-jogos-digitais-e-fisicos-do-playstation-studios-passarao-a-custar-r-39990-apos",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-confi/sony-confirms-ghost-of-yotei-ps5-release-date-with-new-trail_5134.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "\"O dendê brasileiro é só brasileiro\": Secretária de Cultura de SP se revela otimista para futuro da indústria de games no Brasil e frisa importância de estímulos do governo para além de eventos",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139803/feature/o-dende-brasileiro-e-so-brasileiro-secretaria-de-cultura-de-sp-se-revela-otimista-para-futuro-da-ind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mm_cnqc.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   },
   {
     "titulo": "7 jogos indies que vimos na gamescom latam e que merecem sua atenção em 2025",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/games/139905/news/7-jogos-indies-que-vimos-na-gamescom-latam-e-que-merecem-sua-atencao-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/image/i/ign-to-bri/ign-to-bring-very-first-gamescom-latam-to-global-audiences_95s3.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T18:52:29"
+    "timestamp": "2025-05-07T19:39:18"
   }
 ];
