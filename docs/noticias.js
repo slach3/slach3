@@ -1,83 +1,27 @@
 const noticias = [
   {
-    "titulo": "GTA 6 ganha novo trailer do nada e revela mais da história de Lucia e Jason",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139855/news/couple-goals-gta-6-ganha-trailer-do-nada-e-revela-mais-da-historia",
-    "imagem": null,
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "The best budget 4K gaming monitor has practically halved in price to just $330",
+    "descricao": "DealIt's hard to say no to 4K at this price.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-best-budget-4k-gaming-monitor-has-practically-halved-in-price-to-just-usd330/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/oGQs7ZFdo2JJMZ9AbCQvXj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
-    "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61669/61669_62ys.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "Check out this brilliant video breaking open a bricked Nintendo Switch 2 chip to see what makes it tick, and why we're looking at around Steam Deck GPU performance from the new console",
+    "descricao": "NewsWant to literally see inside the Switch 2's processor?",
+    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/check-out-this-brilliant-video-breaking-open-a-bricked-nintendo-switch-2-chip-to-see-what-makes-it-tick-and-why-were-looking-at-around-steam-deck-gpu-performance-from-the-new-console/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tztD8fuoUi4DG4Lj5uovK9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
-    "titulo": "GTA 6: tudo sobre a história de Lucia, Jason e todos os personagens revelados no 2º trailer",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139863/news/gta-6-tudo-sobre-a-historia-de-lucia-jason-e-todos-os-personagens-revelados-no-segundo-trailer",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61670/61670_bju5.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Doom The Dark Ages e mais: os jogos do Game Pass da primeira metade de maio de 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/doom-the-dark-ages/139859/news/doom-the-dark-ages-dredge-e-mais-xbox-confirma-jogos-do-game-pass-da-primeira-metade-de-maio-de-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61615/61615_symu.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Jogo brasileiro ganha prêmio internacional: inspirado no Studio Ghibli e na cultura indígena",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/139843/news/jogo-brasileiro-inspirado-no-studio-ghibli-e-na-cultura-indigena-ganha-premio-internacional-unity-fo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_93ha.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Aumento generalizado: jogos digitais e físicos do PlayStation Studios passarão a custar R$ 399,90 após lançamento de Ghost of Yōtei",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ghost-of-yotei/139892/news/aumento-generalizado-jogos-digitais-e-fisicos-do-playstation-studios-passarao-a-custar-r-39990-apos",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-confi/sony-confirms-ghost-of-yotei-ps5-release-date-with-new-trail_5134.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "GTA 6: Estrela de The Bear e personagem de Vice City marcam presença em trailer, mas somente os fãs mais atentos notaram",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139858/news/gta-6-estrela-de-the-bear-e-personagem-de-vice-city-marcam-presenca-em-trailer-mas-somente-os-fas-ma",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-6-4_jm3y.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Marvel enfim revela significado de asterisco e renomeia Thunderbolts com spoiler do filme",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139815/news/marvel-enfim-revela-significado-de-asterisco-e-renomeia-thunderbolts-com-spoiler-do-filme",
-    "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-off/marvel-officially-retitles-thunderbolts-as-the-new-avengers_xxcp.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Gears of War: Reloaded é remaster comemorativo de uma das franquias mais importantes do Xbox — e também chegará para o PS5",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gears-of-war-reloaded/139813/news/gears-of-war-reloaded-e-remaster-comemorativo-de-uma-das-franquias-mais-importantes-do-xbox-e-tambem",
-    "imagem": "https://sm.ign.com/t/ign_br/news/g/gears-of-w/gears-of-war-reloaded-coming-in-summer-even-on-playstation_rk9e.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
-  },
-  {
-    "titulo": "Henk Rogers relembra confronto com União Soviética para garantir direitos de Tetris: \"Nós vamos lutar\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/139829/news/henk-rogers-relembra-confronto-com-uniao-sovietica-para-garantir-direitos-de-tetris-nos-vamos-lutar",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/shutterstock-1797933301_ukez.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "On the prospect of an $80-$90 GTA 6, former PlayStation boss says 'it's an impossible equation' for big-budget studios to keep their prices down",
+    "descricao": "News\"People expect games that are ever more ambitious and therefore expensive to develop to cost the same.\"",
+    "link": "https://www.pcgamer.com/gaming-industry/on-the-prospect-of-an-usd80-usd90-gta-6-former-playstation-boss-says-its-an-impossible-equation-for-big-budget-studios-to-keep-their-prices-down/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZDkDcjWuUMuPqnVccDE483.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "Fallout 76's spring limited-time event, The Big Bloom, has begun, which means pollen, allergies, and flower crowns",
@@ -85,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fallout/fallout-76s-spring-limited-time-event-the-big-bloom-has-begun-which-means-pollen-allergies-and-flower-crowns/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U9i4E7zDaFfmLaU8iw6wY8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "Leaked pics of a supposed Asus ROG Ally 2 show an Xbox-branded handheld gaming PC that is very peculiar to behold",
@@ -93,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/leaked-pics-of-a-supposed-asus-rog-ally-2-show-an-xbox-branded-handheld-gaming-pc-that-is-very-peculiar-to-behold/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/W2fYFihLLSLEyNpbeTVU2d.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "The BioWare we loved is mostly gone, but '2017 is when EA finished digesting' it, says Dragon Age studio veteran",
@@ -101,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/dragon-age/the-bioware-we-loved-is-mostly-gone-but-2017-is-when-ea-finished-digesting-it-says-dragon-age-studio-veteran/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jphEnnDvBPnUPrK9ib3YjM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "AMD says it's set to lose out on $1.5B worth of AI GPU sales due to export restrictions, but Dr. Su hails its latest Ryzen chips as 'the CPU of choice for gamers' after huge rise in sales revenue",
@@ -109,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-its-set-to-lose-out-on-usd1-5b-worth-of-ai-gpu-sales-due-to-export-restrictions-but-dr-su-hails-its-latest-ryzen-chips-as-the-cpu-of-choice-for-gamers-after-huge-rise-in-sales-revenue/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oKDSEpHCnwHYX8ucczjie9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "Gigabyte's thermal gel 'is crawling out' of place on some RTX 50-series cards",
@@ -117,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/gigabytes-thermal-gel-is-crawling-out-of-place-on-some-rtx-50-series-cards/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NYy2b66RK6Jt2iHMh4ZJFb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
     "titulo": "'We didn't have a serious plan': The hardest part of creating Go Wayback, according to Brendan Greene, was just figuring out if it could actually work",
@@ -125,30 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/we-didnt-have-a-serious-plan-the-hardest-part-of-creating-go-wayback-according-to-brendan-greene-was-just-figuring-out-if-it-could-actually-work/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hpWWzW6ow82VrqVA8rQyTA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
-    "titulo": "This is the first big discount I've found on RTX 50-series gaming laptops, and it's a version of one I've enjoyed testing myself",
-    "descricao": "The MSI Vector 16 HX AI is a quality machine and this RTX 5070 Ti spec looks super solid for its $400 discount.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/this-is-the-first-big-discount-ive-found-on-rtx-50-series-gaming-laptops-and-its-a-version-of-one-ive-enjoyed-testing-myself/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Wk2DpfwbfEEcdLXTBveVGB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "\"Foi muito difícil\": Isabela Merced levou \"bronca\" de diretores da 2ª temporada de TLOU",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/139820/news/foi-muito-dificil-isabela-merced-levou-bronca-de-diretores-da-2a-temporada-de-the-last-of-us-por-nao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/tlou_bn61.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
-    "titulo": "Nvidia and MediaTek rumoured to announce new Windows on Arm laptop chips at Computex 2025",
-    "descricao": "NewsThe show kicks off in a few weeks, so AMD APUs could have stiff competition very soon.",
-    "link": "https://www.pcgamer.com/hardware/processors/nvidia-and-mediatek-rumoured-to-announce-new-windows-on-arm-laptop-chips-at-computex-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/hJkLN4Zb3pgAj9NTkYDL6f.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61669/61669_62ys.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
   },
   {
-    "titulo": "Forget megabucks Nvidia GPUs, apparently all you need to run an LLM is a Pentium II CPU from 1997",
-    "descricao": "NewsThe catch? It's kinda slow, as in 20,000 times slower than a GPU.",
-    "link": "https://www.pcgamer.com/software/ai/forget-megabucks-nvidia-gpus-apparently-all-you-need-to-run-an-llm-is-a-pentium-ii-cpu-from-1997/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Udp2kygAh9fBw7MzDDeXWN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-07T11:56:03"
+    "titulo": "GTA 6: tudo sobre a história de Lucia, Jason e todos os personagens revelados no 2º trailer",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139863/news/gta-6-tudo-sobre-a-historia-de-lucia-jason-e-todos-os-personagens-revelados-no-segundo-trailer",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61670/61670_bju5.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "Doom The Dark Ages e mais: os jogos do Game Pass da primeira metade de maio de 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/doom-the-dark-ages/139859/news/doom-the-dark-ages-dredge-e-mais-xbox-confirma-jogos-do-game-pass-da-primeira-metade-de-maio-de-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61615/61615_symu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "Xbox portátil? Imagens do suposto console em parceria com Asus ROG vazam online",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/139926/news/xbox-portatil-imagens-do-suposto-console-em-parceria-com-asus-rog-vazam-online",
+    "imagem": "https://sm.ign.com/t/ign_br/news/f/first-pict/first-pictures-of-asus-xbox-branded-handheld-leak-online_ftgb.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "Trailer de GTA 6 tem console misterioso escondido — e fãs brincam com \"revelação\" do PS6",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139927/news/trailer-de-gta-6-tem-console-misterioso-escondido-e-fas-brincam-com-revelacao-do-ps6",
+    "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-trai/gta-6-trailer-2-has-an-easy-to-miss-fake-ps5-and-fans-are-jo_s4jt.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "Por que GTA nunca virou filme ou série? E talvez nunca vire",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139899/news/por-que-gta-nunca-virou-filme-ou-serie-e-talvez-nunca-vire",
+    "imagem": "https://sm.ign.com/t/ign_br/lists/h/how-to-pla/how-to-play-the-grand-theft-auto-games-in-order_sbaa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "Aumento generalizado: jogos digitais e físicos do PlayStation Studios passarão a custar R$ 399,90 após lançamento de Ghost of Yōtei",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ghost-of-yotei/139892/news/aumento-generalizado-jogos-digitais-e-fisicos-do-playstation-studios-passarao-a-custar-r-39990-apos",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-confi/sony-confirms-ghost-of-yotei-ps5-release-date-with-new-trail_5134.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "\"O dendê brasileiro é só brasileiro\": Secretária de Cultura de SP se revela otimista para futuro da indústria de games no Brasil e frisa importância de estímulos do governo para além de eventos",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/gamescom-latam/139803/feature/o-dende-brasileiro-e-so-brasileiro-secretaria-de-cultura-de-sp-se-revela-otimista-para-futuro-da-ind",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mm_cnqc.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
+  },
+  {
+    "titulo": "7 jogos indies que vimos na gamescom latam e que merecem sua atenção em 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/139905/news/7-jogos-indies-que-vimos-na-gamescom-latam-e-que-merecem-sua-atencao-em-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/image/i/ign-to-bri/ign-to-bring-very-first-gamescom-latam-to-global-audiences_95s3.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-07T12:41:57"
   }
 ];
