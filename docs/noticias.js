@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Clair Obscur: Expedition 33 devs to issue its first nerf to an ability that does 2 billion damage: 'We gave it a big damage boost—and clearly overdid it'",
-    "descricao": "NewsStand down, Stendhal.",
-    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-devs-to-issue-its-first-nerf-to-an-ability-that-does-2-billion-damage-we-gave-it-a-big-damage-boost-and-clearly-overdid-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rBU2Kf2gJ3sWsxtJZ3hFCV.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "One US politician wants to add trackers to Nvidia's GPUs so they can be bricked if they go to China",
-    "descricao": "NewsVery James Bond, I like it.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/one-us-politician-wants-to-add-trackers-to-nvidias-graphics-cards-so-they-can-be-bricked-if-they-end-up-in-china/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tCAFND4AA2pfArrBZofWeW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "The new GTA 6 trailer draws on base PS5 footage",
-    "descricao": "NewsIf it looks this good on a five year old console, it'll probably look incredible on PC.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/the-new-gta-6-trailer-draws-on-base-ps5-footage/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/BngP9Kz6o4g3nurmmSzKYf.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "Today's Wordle answer for Thursday, May 8",
-    "descricao": "regular riddleHelp with today's Wordle if you need it.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-8-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "Oblivion's gloriously exploitable magic is even more busted in the remaster, letting one player turn into a high-speed leap wizard who can cross Cyrodiil in seconds",
-    "descricao": "NewsGotta go fast.",
-    "link": "https://www.pcgamer.com/games/rpg/oblivions-gloriously-exploitable-magic-is-even-more-busted-in-the-remaster-letting-one-player-turn-into-a-high-speed-leap-wizard-who-can-cross-cyrodiil-in-seconds/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/7ffs8AuLxS3grMEv49752Z.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "Spanish TV news uses Dark Souls 3 boss fight to illustrate, with 100% accuracy, how the conclave will elect a new Pope",
-    "descricao": "NewsThis is truly the Dark Souls of old guys voting.",
-    "link": "https://www.pcgamer.com/games/rpg/spanish-tv-news-uses-dark-souls-3-boss-fight-to-illustrate-with-100-percent-accuracy-how-the-conclave-will-elect-a-new-pope/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2xfZZjNNjGNNDqRpekvhjV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "EA thinks it got Battlefield right this time, projecting confidence to investors in advance of a summer reveal: 'When we get it right, Battlefield is a giant franchise and often the biggest shooter in the year'",
-    "descricao": "newsThe new Battlefield is being tested by thousands of players, and more will be let in soon.",
-    "link": "https://www.pcgamer.com/games/fps/ea-thinks-it-got-battlefield-right-this-time-projecting-confidence-to-investors-in-advance-of-a-summer-reveal-when-we-get-it-right-battlefield-is-a-giant-franchise-and-often-the-biggest-shooter-in-the-year/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UPn273dPpevNM6xgAhDRJD.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "FTC loses bid to block Microsoft's acquisition of Activision Blizzard, which already happened in 2023",
-    "descricao": "newsIt's not technically over, but yeah, it's over.",
-    "link": "https://www.pcgamer.com/gaming-industry/ftc-loses-bid-to-block-microsofts-acquisition-of-activision-blizzard-which-already-happened-in-2023/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sSMDVMCaemcD4NAfBVZTD6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
-    "titulo": "Confusion reigns as report of an A24 Elden Ring movie emerges, disappears, and emerges again",
-    "descricao": "NewsIs there anything here, or are we all tarnishing our reputations?",
-    "link": "https://www.pcgamer.com/games/rpg/confusion-reigns-as-report-of-an-a24-elden-ring-movie-emerges-disappears-and-emerges-again/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3tmBmRkC6GHqi84BbjxVL9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T07:55:35"
-  },
-  {
     "titulo": "\"Foi muito difícil\": Isabela Merced levou \"bronca\" de diretores da 2ª temporada de TLOU",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-last-of-us-the-series/139820/news/foi-muito-dificil-isabela-merced-levou-bronca-de-diretores-da-2a-temporada-de-the-last-of-us-por-nao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/tlou_bn61.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61669/61669_62ys.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "GTA 6: tudo sobre a história de Lucia, Jason e todos os personagens revelados no 2º trailer",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139863/news/gta-6-tudo-sobre-a-historia-de-lucia-jason-e-todos-os-personagens-revelados-no-segundo-trailer",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61670/61670_bju5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Doom The Dark Ages e mais: os jogos do Game Pass da primeira metade de maio de 2025",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/139859/news/doom-the-dark-ages-dredge-e-mais-xbox-confirma-jogos-do-game-pass-da-primeira-metade-de-maio-de-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61615/61615_symu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Xbox portátil? Imagens do suposto console em parceria com Asus ROG vazam online",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139926/news/xbox-portatil-imagens-do-suposto-console-em-parceria-com-asus-rog-vazam-online",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/first-pict/first-pictures-of-asus-xbox-branded-handheld-leak-online_ftgb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Trailer de GTA 6 tem console misterioso escondido — e fãs brincam com \"revelação\" do PS6",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139927/news/trailer-de-gta-6-tem-console-misterioso-escondido-e-fas-brincam-com-revelacao-do-ps6",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-trai/gta-6-trailer-2-has-an-easy-to-miss-fake-ps5-and-fans-are-jo_s4jt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Por que GTA nunca virou filme ou série? E talvez nunca vire",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139899/news/por-que-gta-nunca-virou-filme-ou-serie-e-talvez-nunca-vire",
     "imagem": "https://sm.ign.com/t/ign_br/lists/h/how-to-pla/how-to-play-the-grand-theft-auto-games-in-order_sbaa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "Aumento generalizado: jogos digitais e físicos do PlayStation Studios passarão a custar R$ 399,90 após lançamento de Ghost of Yōtei",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/139892/news/aumento-generalizado-jogos-digitais-e-fisicos-do-playstation-studios-passarao-a-custar-r-39990-apos",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-confi/sony-confirms-ghost-of-yotei-ps5-release-date-with-new-trail_5134.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "\"O dendê brasileiro é só brasileiro\": Secretária de Cultura de SP se revela otimista para futuro da indústria de games no Brasil e frisa importância de estímulos do governo para além de eventos",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139803/feature/o-dende-brasileiro-e-so-brasileiro-secretaria-de-cultura-de-sp-se-revela-otimista-para-futuro-da-ind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mm_cnqc.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
   },
   {
     "titulo": "7 jogos indies que vimos na gamescom latam e que merecem sua atenção em 2025",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/games/139905/news/7-jogos-indies-que-vimos-na-gamescom-latam-e-que-merecem-sua-atencao-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/image/i/ign-to-bri/ign-to-bring-very-first-gamescom-latam-to-global-audiences_95s3.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T07:55:35"
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "Clair Obscur: Expedition 33 devs to issue its first nerf to an ability that does 2 billion damage: 'We gave it a big damage boost—and clearly overdid it'",
+    "descricao": "NewsStand down, Stendhal.",
+    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-devs-to-issue-its-first-nerf-to-an-ability-that-does-2-billion-damage-we-gave-it-a-big-damage-boost-and-clearly-overdid-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rBU2Kf2gJ3sWsxtJZ3hFCV.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "One US politician wants to add trackers to Nvidia's GPUs so they can be bricked if they go to China",
+    "descricao": "NewsVery James Bond, I like it.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/one-us-politician-wants-to-add-trackers-to-nvidias-graphics-cards-so-they-can-be-bricked-if-they-end-up-in-china/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tCAFND4AA2pfArrBZofWeW.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "The new GTA 6 trailer draws on base PS5 footage",
+    "descricao": "NewsIf it looks this good on a five year old console, it'll probably look incredible on PC.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/the-new-gta-6-trailer-draws-on-base-ps5-footage/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BngP9Kz6o4g3nurmmSzKYf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "Today's Wordle answer for Thursday, May 8",
+    "descricao": "regular riddleHelp with today's Wordle if you need it.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-8-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "Oblivion's gloriously exploitable magic is even more busted in the remaster, letting one player turn into a high-speed leap wizard who can cross Cyrodiil in seconds",
+    "descricao": "NewsGotta go fast.",
+    "link": "https://www.pcgamer.com/games/rpg/oblivions-gloriously-exploitable-magic-is-even-more-busted-in-the-remaster-letting-one-player-turn-into-a-high-speed-leap-wizard-who-can-cross-cyrodiil-in-seconds/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/7ffs8AuLxS3grMEv49752Z.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "Spanish TV news uses Dark Souls 3 boss fight to illustrate, with 100% accuracy, how the conclave will elect a new Pope",
+    "descricao": "NewsThis is truly the Dark Souls of old guys voting.",
+    "link": "https://www.pcgamer.com/games/rpg/spanish-tv-news-uses-dark-souls-3-boss-fight-to-illustrate-with-100-percent-accuracy-how-the-conclave-will-elect-a-new-pope/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2xfZZjNNjGNNDqRpekvhjV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "EA thinks it got Battlefield right this time, projecting confidence to investors in advance of a summer reveal: 'When we get it right, Battlefield is a giant franchise and often the biggest shooter in the year'",
+    "descricao": "newsThe new Battlefield is being tested by thousands of players, and more will be let in soon.",
+    "link": "https://www.pcgamer.com/games/fps/ea-thinks-it-got-battlefield-right-this-time-projecting-confidence-to-investors-in-advance-of-a-summer-reveal-when-we-get-it-right-battlefield-is-a-giant-franchise-and-often-the-biggest-shooter-in-the-year/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UPn273dPpevNM6xgAhDRJD.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "FTC loses bid to block Microsoft's acquisition of Activision Blizzard, which already happened in 2023",
+    "descricao": "newsIt's not technically over, but yeah, it's over.",
+    "link": "https://www.pcgamer.com/gaming-industry/ftc-loses-bid-to-block-microsofts-acquisition-of-activision-blizzard-which-already-happened-in-2023/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sSMDVMCaemcD4NAfBVZTD6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
+  },
+  {
+    "titulo": "Confusion reigns as report of an A24 Elden Ring movie emerges, disappears, and emerges again",
+    "descricao": "NewsIs there anything here, or are we all tarnishing our reputations?",
+    "link": "https://www.pcgamer.com/games/rpg/confusion-reigns-as-report-of-an-a24-elden-ring-movie-emerges-disappears-and-emerges-again/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3tmBmRkC6GHqi84BbjxVL9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-08T08:28:14"
   }
 ];
