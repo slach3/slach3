@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-8-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Oblivion's gloriously exploitable magic is even more busted in the remaster, letting one player turn into a high-speed leap wizard who can cross Cyrodiil in seconds",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/oblivions-gloriously-exploitable-magic-is-even-more-busted-in-the-remaster-letting-one-player-turn-into-a-high-speed-leap-wizard-who-can-cross-cyrodiil-in-seconds/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7ffs8AuLxS3grMEv49752Z.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Spanish TV news uses Dark Souls 3 boss fight to illustrate, with 100% accuracy, how the conclave will elect a new Pope",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/spanish-tv-news-uses-dark-souls-3-boss-fight-to-illustrate-with-100-percent-accuracy-how-the-conclave-will-elect-a-new-pope/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2xfZZjNNjGNNDqRpekvhjV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "EA thinks it got Battlefield right this time, projecting confidence to investors in advance of a summer reveal: 'When we get it right, Battlefield is a giant franchise and often the biggest shooter in the year'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/ea-thinks-it-got-battlefield-right-this-time-projecting-confidence-to-investors-in-advance-of-a-summer-reveal-when-we-get-it-right-battlefield-is-a-giant-franchise-and-often-the-biggest-shooter-in-the-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UPn273dPpevNM6xgAhDRJD.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "FTC loses bid to block Microsoft's acquisition of Activision Blizzard, which already happened in 2023",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/ftc-loses-bid-to-block-microsofts-acquisition-of-activision-blizzard-which-already-happened-in-2023/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sSMDVMCaemcD4NAfBVZTD6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Confusion reigns as report of an A24 Elden Ring movie emerges, disappears, and emerges again",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/confusion-reigns-as-report-of-an-a24-elden-ring-movie-emerges-disappears-and-emerges-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3tmBmRkC6GHqi84BbjxVL9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Props for the honesty: Tim Sweeney says the reason 'people characterize the Epic Games launcher as clunky' is—wait for it—'because the Epic Games launcher is clunky'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/props-for-the-honesty-tim-sweeney-says-the-reason-people-characterize-the-epic-games-launcher-as-clunky-is-wait-for-it-because-the-epic-games-launcher-is-clunky/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EJndnKBLEpr5LBcTfbgp4F.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Oblivion Remastered mod finally fixes the loot levelling, so no longer do you need to complete quests then wait forever to hand them in",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-mod-finally-fixes-the-loot-levelling-so-no-longer-do-you-need-to-complete-quests-then-wait-forever-to-hand-them-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Electronic Arts CEO feels 'very good' about the next Battlefield's launch now that Grand Theft Auto 6 is out of the way",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/electronic-arts-ceo-feels-very-good-about-the-next-battlefields-launch-now-that-grand-theft-auto-6-is-out-of-the-way/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DsBjiKdmuVCj2a4b42bKv3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "\"Foi muito difícil\": Isabela Merced levou \"bronca\" de diretores da 2ª temporada de TLOU",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/139820/news/foi-muito-dificil-isabela-merced-levou-bronca-de-diretores-da-2a-temporada-de-the-last-of-us-por-nao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/tlou_bn61.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61669/61669_62ys.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "GTA 6: tudo sobre a história de Lucia, Jason e todos os personagens revelados no 2º trailer",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139863/news/gta-6-tudo-sobre-a-historia-de-lucia-jason-e-todos-os-personagens-revelados-no-segundo-trailer",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61670/61670_bju5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Doom The Dark Ages e mais: os jogos do Game Pass da primeira metade de maio de 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/139859/news/doom-the-dark-ages-dredge-e-mais-xbox-confirma-jogos-do-game-pass-da-primeira-metade-de-maio-de-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61615/61615_symu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Xbox portátil? Imagens do suposto console em parceria com Asus ROG vazam online",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/139926/news/xbox-portatil-imagens-do-suposto-console-em-parceria-com-asus-rog-vazam-online",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/first-pict/first-pictures-of-asus-xbox-branded-handheld-leak-online_ftgb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Trailer de GTA 6 tem console misterioso escondido — e fãs brincam com \"revelação\" do PS6",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139927/news/trailer-de-gta-6-tem-console-misterioso-escondido-e-fas-brincam-com-revelacao-do-ps6",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-trai/gta-6-trailer-2-has-an-easy-to-miss-fake-ps5-and-fans-are-jo_s4jt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Por que GTA nunca virou filme ou série? E talvez nunca vire",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139899/news/por-que-gta-nunca-virou-filme-ou-serie-e-talvez-nunca-vire",
     "imagem": "https://sm.ign.com/t/ign_br/lists/h/how-to-pla/how-to-play-the-grand-theft-auto-games-in-order_sbaa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "Aumento generalizado: jogos digitais e físicos do PlayStation Studios passarão a custar R$ 399,90 após lançamento de Ghost of Yōtei",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/139892/news/aumento-generalizado-jogos-digitais-e-fisicos-do-playstation-studios-passarao-a-custar-r-39990-apos",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-confi/sony-confirms-ghost-of-yotei-ps5-release-date-with-new-trail_5134.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "\"O dendê brasileiro é só brasileiro\": Secretária de Cultura de SP se revela otimista para futuro da indústria de games no Brasil e frisa importância de estímulos do governo para além de eventos",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/139803/feature/o-dende-brasileiro-e-so-brasileiro-secretaria-de-cultura-de-sp-se-revela-otimista-para-futuro-da-ind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mm_cnqc.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   },
   {
     "titulo": "7 jogos indies que vimos na gamescom latam e que merecem sua atenção em 2025",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/games/139905/news/7-jogos-indies-que-vimos-na-gamescom-latam-e-que-merecem-sua-atencao-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/image/i/ign-to-bri/ign-to-bring-very-first-gamescom-latam-to-global-audiences_95s3.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-08T01:47:00"
+    "timestamp": "2025-05-08T01:56:45"
   }
 ];
