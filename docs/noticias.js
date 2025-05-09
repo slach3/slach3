@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Oblivion Remastered mod makes being a stealthy murder king easy, boosting your sneak attack damage modifiers from good to Grim Reaper",
-    "descricao": "NewsStrike unseen in Bethesda's visually upgraded RPG with maximum potency",
-    "link": "https://www.pcgamer.com/games/rpg/oblivion-remastered-mod-makes-being-a-stealthy-murder-king-easy-boosting-your-sneak-attack-damage-modifiers-from-good-to-grim-reaper/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/F84PuCjqdLHkcKwUWVDD8n.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Clair Obscur: Expedition 33's first patch reveals the sword that was part of a 2 billion nuke build was doubling all damage by mistake",
-    "descricao": "NewsPanda-Medalum.",
-    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33s-first-patch-reveals-the-sword-that-was-part-of-a-4-billion-nuke-build-was-doubling-all-damage-by-mistake/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/yGNAuE2VgnmUGLerE8s3o7.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Trucker takes their gaming rig on the road inside their big rig 'and yes, [I] occasionally play Truck Simulator'",
-    "descricao": "NewsIt's an immersive setup, at least.",
-    "link": "https://www.pcgamer.com/hardware/trucker-takes-their-gaming-rig-on-the-road-inside-their-big-rig-and-yes-i-occasionally-play-truck-simulator/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/P7SKDosEXTjCSbZpY5DPcR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "This aluminium keyboard feels like it fell straight out of one of my abandoned sci-fi drafts—but thanks to its onboard word counter, I might just finish it now",
-    "descricao": "NewsShiny, shiny.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/this-aluminium-keyboard-feels-like-it-fell-straight-out-of-one-of-my-abandoned-sci-fi-drafts-but-thanks-to-its-onboard-word-counter-i-might-just-finish-it-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jZa3wfKCoL57tCimnKQBVg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Legions of Helldivers 2 players are currently banging their head against a password terminal, as Arrowhead plays coy with a new reveal",
-    "descricao": "News\"$SATCOM//>PLEASE?\"",
-    "link": "https://www.pcgamer.com/games/third-person-shooter/legions-of-helldivers-2-players-are-currently-banging-their-head-against-a-password-terminal-as-arrowhead-plays-coy-with-a-new-reveal/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tBXQaK3f7Qa2BCdnVves8K.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Here's how long it would take 12 RTX 5090 GPUs to crack your password… and a reminder that just adding more characters still works",
-    "descricao": "NewsTry to go for 18 characters or more.",
-    "link": "https://www.pcgamer.com/software/security/heres-how-long-it-would-take-12-rtx-5090-gpus-to-crack-your-password-and-a-reminder-that-just-adding-more-characters-still-works/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/oncwdAE6HeiJMLQKbXcMon.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "A software engineer taught AI to hunt bugs by interfacing an LLM with debugging tools and has released the open source code: 'It's like going from hunting with a stone spear to using a guided missile'",
-    "descricao": "newsThis LLM \"might change crash dump analysis forever.\"",
-    "link": "https://www.pcgamer.com/hardware/a-software-engineer-taught-ai-to-hunt-bugs-by-interfacing-an-llm-with-debugging-tools-and-has-released-the-open-source-code-its-like-going-from-hunting-with-a-stone-spear-to-using-a-guided-missile/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/D3osAE3VCx97gyFv7HrRfQ.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Valve is using Steam Deck's beta build to test 80% battery limit",
-    "descricao": "newsLet's see if this 80% charge limitation can help extend battery life for real.",
-    "link": "https://www.pcgamer.com/hardware/valve-is-using-steam-decks-beta-build-to-test-80-percent-battery-limit/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Coph5tP2BPCHLz4dv9SCEj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
-    "titulo": "Razer's newest gaming headset goes on your chair instead of your head",
-    "descricao": "newsStrap a near-field directional speaker mount to the back of your seat and hear the Gs.",
-    "link": "https://www.pcgamer.com/hardware/razers-newest-gaming-headset-goes-on-your-chair-instead-of-your-head/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/m42s9BDj3ncPGSHAW2mqkd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T08:26:13"
-  },
-  {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61861/61861_2juc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "Caçador de tesouros encontra cartucho de Game Boy e somente graças a milhares de fãs em todo o mundo ele conseguiu descobrir qual era o jogo",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/game-boy-1/139903/news/cacador-de-tesouros-encontra-cartucho-de-game-boy-e-somente-gracas-a-milhares-de-fas-em-todo-o-mundo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ukf1.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
   },
   {
     "titulo": "4 jogos para Nintendo Switch com promoção exclusiva na Amazon",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140026/news/4-jogos-para-nintendo-switch-com-promocao-exclusiva-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-25_nbn8.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T08:26:13"
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Oblivion Remastered mod makes being a stealthy murder king easy, boosting your sneak attack damage modifiers from good to Grim Reaper",
+    "descricao": "NewsStrike unseen in Bethesda's visually upgraded RPG with maximum potency",
+    "link": "https://www.pcgamer.com/games/rpg/oblivion-remastered-mod-makes-being-a-stealthy-murder-king-easy-boosting-your-sneak-attack-damage-modifiers-from-good-to-grim-reaper/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/F84PuCjqdLHkcKwUWVDD8n.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Clair Obscur: Expedition 33's first patch reveals the sword that was part of a 2 billion nuke build was doubling all damage by mistake",
+    "descricao": "NewsPanda-Medalum.",
+    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33s-first-patch-reveals-the-sword-that-was-part-of-a-4-billion-nuke-build-was-doubling-all-damage-by-mistake/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yGNAuE2VgnmUGLerE8s3o7.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Trucker takes their gaming rig on the road inside their big rig 'and yes, [I] occasionally play Truck Simulator'",
+    "descricao": "NewsIt's an immersive setup, at least.",
+    "link": "https://www.pcgamer.com/hardware/trucker-takes-their-gaming-rig-on-the-road-inside-their-big-rig-and-yes-i-occasionally-play-truck-simulator/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/P7SKDosEXTjCSbZpY5DPcR.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "This aluminium keyboard feels like it fell straight out of one of my abandoned sci-fi drafts—but thanks to its onboard word counter, I might just finish it now",
+    "descricao": "NewsShiny, shiny.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/this-aluminium-keyboard-feels-like-it-fell-straight-out-of-one-of-my-abandoned-sci-fi-drafts-but-thanks-to-its-onboard-word-counter-i-might-just-finish-it-now/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jZa3wfKCoL57tCimnKQBVg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Legions of Helldivers 2 players are currently banging their head against a password terminal, as Arrowhead plays coy with a new reveal",
+    "descricao": "News\"$SATCOM//>PLEASE?\"",
+    "link": "https://www.pcgamer.com/games/third-person-shooter/legions-of-helldivers-2-players-are-currently-banging-their-head-against-a-password-terminal-as-arrowhead-plays-coy-with-a-new-reveal/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tBXQaK3f7Qa2BCdnVves8K.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Here's how long it would take 12 RTX 5090 GPUs to crack your password… and a reminder that just adding more characters still works",
+    "descricao": "NewsTry to go for 18 characters or more.",
+    "link": "https://www.pcgamer.com/software/security/heres-how-long-it-would-take-12-rtx-5090-gpus-to-crack-your-password-and-a-reminder-that-just-adding-more-characters-still-works/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/oncwdAE6HeiJMLQKbXcMon.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "A software engineer taught AI to hunt bugs by interfacing an LLM with debugging tools and has released the open source code: 'It's like going from hunting with a stone spear to using a guided missile'",
+    "descricao": "newsThis LLM \"might change crash dump analysis forever.\"",
+    "link": "https://www.pcgamer.com/hardware/a-software-engineer-taught-ai-to-hunt-bugs-by-interfacing-an-llm-with-debugging-tools-and-has-released-the-open-source-code-its-like-going-from-hunting-with-a-stone-spear-to-using-a-guided-missile/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/D3osAE3VCx97gyFv7HrRfQ.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Valve is using Steam Deck's beta build to test 80% battery limit",
+    "descricao": "newsLet's see if this 80% charge limitation can help extend battery life for real.",
+    "link": "https://www.pcgamer.com/hardware/valve-is-using-steam-decks-beta-build-to-test-80-percent-battery-limit/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Coph5tP2BPCHLz4dv9SCEj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
+  },
+  {
+    "titulo": "Razer's newest gaming headset goes on your chair instead of your head",
+    "descricao": "newsStrap a near-field directional speaker mount to the back of your seat and hear the Gs.",
+    "link": "https://www.pcgamer.com/hardware/razers-newest-gaming-headset-goes-on-your-chair-instead-of-your-head/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/m42s9BDj3ncPGSHAW2mqkd.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T08:41:18"
   }
 ];
