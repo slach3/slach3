@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Europa Universalis 5's unusual, year-long reveal was a lesson Paradox learned from Imperator's mixed reception: 'I wanted to do it a little bit earlier, but marketing people tend to get panicky when you start talking'",
+    "descricao": "NewsParadox Tinto released a whopping 62 dev diaries before officially revealing EU5.",
+    "link": "https://www.pcgamer.com/games/strategy/europa-universalis-5s-unusual-year-long-reveal-was-a-lesson-paradox-learned-from-imperators-mixed-reception-i-wanted-to-do-it-a-little-bit-earlier-but-marketing-people-tend-to-get-panicky-when-you-start-talking/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nGooNZz9xcqt3gKMzeonNG.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T14:34:57"
+  },
+  {
     "titulo": "Quake finally makes it into the World Videogame Hall of Fame",
     "descricao": "newsWhaddaya mean it wasn't already in the Hall of Fame?",
     "link": "https://www.pcgamer.com/games/fps/quake-finally-makes-it-into-the-world-videogame-hall-of-fame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uuqE6tDimprYHm3nDwFeUc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Sure, man: The $200 deluxe edition of the Gex Trilogy remaster includes a 3-foot inflatable Gex and box art from legendary illustrator Yoshitaka Amano",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/sure-man-the-usd200-deluxe-edition-of-the-gex-trilogy-remaster-includes-a-3-foot-inflatable-gex-and-box-art-from-legendary-illustrator-yoshitaka-amano/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b6r8MkrrPwBZWzjsXdwua8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Rockstar says GTA 6's second trailer is now the biggest video launch of all time, whatever that means",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-gta-6s-second-trailer-is-now-the-biggest-video-launch-of-all-time-whatever-that-means/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YaUq2tUybUPd6bHhaoTV97.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "32 GB of DDR5 RAM for $83 will see you ready to shield bash your way through Doom: The Dark Ages",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/32-gb-of-ddr5-ram-for-usd83-will-see-you-ready-to-shield-bash-your-way-through-doom-the-dark-ages/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H7Kb6EM8ZQUNLuUUm2Hxn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Mafia: The Old Country system requirements have been revealed, and Unreal Engine 5 continues to be the thorn in your budget build's side",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/mafia-the-old-country-system-requirements-have-been-revealed-and-unreal-engine-5-continues-to-be-the-thorn-in-your-budget-builds-side/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4VzLr34GeRjNLdjh6UBtyg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "'First we do Wordle': Pope Leo XIV plays games like Wordle and Words With Friends with his brother, and did so before the Conclave",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/first-we-do-wordle-pope-leo-xiv-plays-games-like-wordle-and-words-with-friends-with-his-brother-and-did-so-before-the-conclave/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "A year later and over six months since the last patch, Intel is STILL releasing updates to fix instability problems with its 13th and 14th Gen Raptor Lake CPUs",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/a-year-later-and-over-six-months-since-the-last-patch-intel-is-still-releasing-updates-to-fix-instability-problems-with-its-13th-and-14th-gen-raptor-lake-cpus/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dafyrnGsMwEY789QFppCxA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "'It was eye-opening': How a WoW documentary inspired Muscular Dystrophy UK's Liam Quinn to raise money and build community in the haven of videogames",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/it-was-eye-opening-how-a-wow-documentary-inspired-muscular-dystrophy-uks-liam-quinn-to-raise-money-and-build-community-in-the-haven-of-videogames/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ueURxeUGLSkeRNrf6LiCVj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
-  },
-  {
-    "titulo": "I watched one video of Oblivion Remastered on a CRT and now I'm lightly obsessed with the TikTok account that did it",
-    "descricao": "NewsDemaking a remaster, kind of.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/i-watched-one-video-of-oblivion-remastered-on-a-crt-and-now-im-lightly-obsessed-with-the-tiktok-account-that-did-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cQqfSikWNNPcWZHfY76tHM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61861/61861_2juc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
     "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
-    "titulo": "Você teria coragem? Passageiro encontra pen drive suspeito dizendo ser \"livre para copiar\" e descobre uma verdadeira surpresa",
+    "titulo": "Epic Games aumenta programa de recompensas de 5% para 20% e traz mais ofertas no Fortnite",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140047/news/voce-teria-coragem-passageiro-encontra-pen-drive-suspeito-dizendo-ser-livre-para-copiar-e-descobre-u",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1c1q.280.jpg",
+    "link": "https://br.ign.com/fortnite/140055/news/epic-games-aumenta-programa-de-recompensas-de-5-para-20-e-traz-mais-ofertas-no-fortnite",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bggf.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   },
   {
-    "titulo": "VALORANT Mobile tem requisitos vazados; veja se seu celular vai rodar",
+    "titulo": "Atualização de contrato da Nintendo diz que empresa se reserva ao direito de bloquear seu console por \"uso não autorizado\" — no Brasil pode ser por \"qualquer motivo\"",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/valorant/140045/news/valorant-mobile-tem-requisitos-vazados-veja-se-seu-celular-vai-rodar",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/valorant-mobile-thumb_dvm6.280.jpg",
+    "link": "https://br.ign.com/nintendo/140053/news/atualizacao-de-contrato-da-nintendo-diz-que-empresa-se-reserva-ao-direito-de-bloquear-seu-console-po",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/n1_jgsr.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T13:56:14"
+    "timestamp": "2025-05-09T14:34:57"
   }
 ];
