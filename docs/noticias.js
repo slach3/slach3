@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "I watched one video of Oblivion Remastered on a CRT and now I'm lightly obsessed with the TikTok account that did it",
-    "descricao": "NewsDemaking a remaster, kind of.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/i-watched-one-video-of-oblivion-remastered-on-a-crt-and-now-im-lightly-obsessed-with-the-tiktok-account-that-did-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cQqfSikWNNPcWZHfY76tHM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "Overwatch 2 remembers it can collab with videogames outside the Blizzard catalogue, bringing Street Fighter 6 to the battlefield",
-    "descricao": "NewsHere comes a new challenger.",
-    "link": "https://www.pcgamer.com/games/fps/overwatch-2-remembers-it-can-collab-with-videogames-outside-the-blizzard-catalogue-bringing-street-fighter-6-to-the-battlefield/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HCCsT8AL8TzZtz4a5gMbu9.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "AMD's upcoming RX 9060 XT GPU listed on Amazon for a depressing $449 for the 8 GB version and $529 for the 16 GB option",
-    "descricao": "newsA hard pass at these prices.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-upcoming-rx-9060-xt-gpu-listed-on-amazon-for-a-depressing-usd449-for-the-8-gb-version-and-usd529-for-the-16-gb-option/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2d5GJCfUuSnP7BPtUo6wxJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "We just got our first look at one of Elden Ring: Nightreign's new bosses, Libra Creature of Night",
-    "descricao": "NewsOh this is going to suck.",
-    "link": "https://www.pcgamer.com/games/rpg/we-just-got-our-first-look-at-one-of-elden-ring-nightreigns-new-bosses-libra-creature-of-night/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "MIT researchers debunk one of the greatest misconceptions in science: Eggs are stronger at the sides after all",
-    "descricao": "NewsFYI, this doesn't actually apply to cracking an egg for breakfast.",
-    "link": "https://www.pcgamer.com/hardware/mit-researchers-debunk-one-of-the-greatest-misconceptions-in-science-eggs-are-stronger-at-the-sides-after-all/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HfkPh5bSCfVJsTs6TTZqYE.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "All Honkai: Star Rail 3.3 livestream codes",
-    "descricao": "Stellar JadeGet the latest livestream Stellar Jade before it expires.",
-    "link": "https://www.pcgamer.com/games/rpg/honkai-star-rail-3-3-livestream-codes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XJL4XYCiri8rgedVFfcJMf.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "Oblivion Remastered mod makes being a stealthy murder king easy, boosting your sneak attack damage modifiers from good to Grim Reaper",
-    "descricao": "NewsStrike unseen in Bethesda's visually upgraded RPG with maximum potency",
-    "link": "https://www.pcgamer.com/games/rpg/oblivion-remastered-mod-makes-being-a-stealthy-murder-king-easy-boosting-your-sneak-attack-damage-modifiers-from-good-to-grim-reaper/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/F84PuCjqdLHkcKwUWVDD8n.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "Clair Obscur: Expedition 33's first patch reveals the sword that was part of a 2 billion nuke build was doubling all damage by mistake",
-    "descricao": "NewsPanda-Medalum.",
-    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33s-first-patch-reveals-the-sword-that-was-part-of-a-4-billion-nuke-build-was-doubling-all-damage-by-mistake/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/yGNAuE2VgnmUGLerE8s3o7.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
-    "titulo": "Trucker takes their gaming rig on the road inside their big rig 'and yes, [I] occasionally play Truck Simulator'",
-    "descricao": "NewsIt's an immersive setup, at least.",
-    "link": "https://www.pcgamer.com/hardware/trucker-takes-their-gaming-rig-on-the-road-inside-their-big-rig-and-yes-i-occasionally-play-truck-simulator/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/P7SKDosEXTjCSbZpY5DPcR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T12:36:03"
-  },
-  {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "Easter eggs e mais: 89 detalhes que encontramos no novo trailer de GTA 6",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139897/feature/servico-comunitario-personagens-e-outros-easter-eggs-89-detalhes-que-encontramos-no-novo-trailer-de",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61861/61861_2juc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "Você teria coragem? Passageiro encontra pen drive suspeito dizendo ser \"livre para copiar\" e descobre uma verdadeira surpresa",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140047/news/voce-teria-coragem-passageiro-encontra-pen-drive-suspeito-dizendo-ser-livre-para-copiar-e-descobre-u",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1c1q.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
   },
   {
     "titulo": "VALORANT Mobile tem requisitos vazados; veja se seu celular vai rodar",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/valorant/140045/news/valorant-mobile-tem-requisitos-vazados-veja-se-seu-celular-vai-rodar",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/valorant-mobile-thumb_dvm6.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T12:36:03"
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "I watched one video of Oblivion Remastered on a CRT and now I'm lightly obsessed with the TikTok account that did it",
+    "descricao": "NewsDemaking a remaster, kind of.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/i-watched-one-video-of-oblivion-remastered-on-a-crt-and-now-im-lightly-obsessed-with-the-tiktok-account-that-did-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cQqfSikWNNPcWZHfY76tHM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "Overwatch 2 remembers it can collab with videogames outside the Blizzard catalogue, bringing Street Fighter 6 to the battlefield",
+    "descricao": "NewsHere comes a new challenger.",
+    "link": "https://www.pcgamer.com/games/fps/overwatch-2-remembers-it-can-collab-with-videogames-outside-the-blizzard-catalogue-bringing-street-fighter-6-to-the-battlefield/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/HCCsT8AL8TzZtz4a5gMbu9.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "AMD's upcoming RX 9060 XT GPU listed on Amazon for a depressing $449 for the 8 GB version and $529 for the 16 GB option",
+    "descricao": "newsA hard pass at these prices.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-upcoming-rx-9060-xt-gpu-listed-on-amazon-for-a-depressing-usd449-for-the-8-gb-version-and-usd529-for-the-16-gb-option/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2d5GJCfUuSnP7BPtUo6wxJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "We just got our first look at one of Elden Ring: Nightreign's new bosses, Libra Creature of Night",
+    "descricao": "NewsOh this is going to suck.",
+    "link": "https://www.pcgamer.com/games/rpg/we-just-got-our-first-look-at-one-of-elden-ring-nightreigns-new-bosses-libra-creature-of-night/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "MIT researchers debunk one of the greatest misconceptions in science: Eggs are stronger at the sides after all",
+    "descricao": "NewsFYI, this doesn't actually apply to cracking an egg for breakfast.",
+    "link": "https://www.pcgamer.com/hardware/mit-researchers-debunk-one-of-the-greatest-misconceptions-in-science-eggs-are-stronger-at-the-sides-after-all/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/HfkPh5bSCfVJsTs6TTZqYE.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "All Honkai: Star Rail 3.3 livestream codes",
+    "descricao": "Stellar JadeGet the latest livestream Stellar Jade before it expires.",
+    "link": "https://www.pcgamer.com/games/rpg/honkai-star-rail-3-3-livestream-codes/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XJL4XYCiri8rgedVFfcJMf.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "Oblivion Remastered mod makes being a stealthy murder king easy, boosting your sneak attack damage modifiers from good to Grim Reaper",
+    "descricao": "NewsStrike unseen in Bethesda's visually upgraded RPG with maximum potency",
+    "link": "https://www.pcgamer.com/games/rpg/oblivion-remastered-mod-makes-being-a-stealthy-murder-king-easy-boosting-your-sneak-attack-damage-modifiers-from-good-to-grim-reaper/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/F84PuCjqdLHkcKwUWVDD8n.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "Clair Obscur: Expedition 33's first patch reveals the sword that was part of a 2 billion nuke build was doubling all damage by mistake",
+    "descricao": "NewsPanda-Medalum.",
+    "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33s-first-patch-reveals-the-sword-that-was-part-of-a-4-billion-nuke-build-was-doubling-all-damage-by-mistake/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yGNAuE2VgnmUGLerE8s3o7.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
+  },
+  {
+    "titulo": "Trucker takes their gaming rig on the road inside their big rig 'and yes, [I] occasionally play Truck Simulator'",
+    "descricao": "NewsIt's an immersive setup, at least.",
+    "link": "https://www.pcgamer.com/hardware/trucker-takes-their-gaming-rig-on-the-road-inside-their-big-rig-and-yes-i-occasionally-play-truck-simulator/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/P7SKDosEXTjCSbZpY5DPcR.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-09T12:48:13"
   }
 ];
