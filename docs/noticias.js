@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
     "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
@@ -61,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
+  },
+  {
+    "titulo": "Dando largada ao calendário competitivo internacional de Rainbow Six Siege, R6 RELOAD começa neste sábado (10) com 5 equipes brasileiras na disputa",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/rainbow-six-siege/140082/news/dando-largada-ao-calendario-competitivo-internacional-de-rainbow-six-siege-r6-reload-comeca-neste-sa",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/unnamed-13_6eg1.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Titãs, eventos especiais e recompensas: PUBG MOBILE introduz parceria com Attack on Titan na versão 3.8",
@@ -69,15 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/pubg-mobile/140079/news/titas-eventos-especiais-e-recompensas-pubg-mobile-introduz-parceria-com-attack-on-titan-na-versao-38",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet_pufe.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
-  },
-  {
-    "titulo": "Nintendo esclarece que Mario Kart World não tem nenhuma imagem gerada por IA",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mario-kart-world/140073/news/nintendo-esclarece-que-mario-kart-world-nao-tem-nenhuma-imagem-gerada-por-ia",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mario-kart-world_e7pn.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "'We heard your feedback': Funcom just reversed course and opened up the Dune: Awakening beta weekend to anyone who preorders the survival MMO",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/we-heard-your-feedback-funcom-just-reversed-course-and-opened-up-the-dune-awakening-beta-weekend-to-anyone-who-preorders-the-survival-mmo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cB6kdwrrPnQL2SrNJ4YijJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "The voice of Disco Elysium's Ancient Reptilian Brian performed the game's famous karaoke scene live and in costume",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-voice-of-disco-elysiums-ancient-reptilian-brian-performed-the-games-famous-karaoke-scene-live-and-in-costume/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9FoiQrk73ctT3LAYQqfz9V.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Fallout Season 2 filming just wrapped, so now's a good time to check in on any New Vegas sickos you know and make sure they're not getting too worked up",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/fallout-season-2-filming-just-wrapped-so-nows-a-good-time-to-check-in-on-any-new-vegas-sickos-you-know-and-make-sure-theyre-not-getting-too-worked-up/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ThwGAMQj5iTvKxnJgzRZcR.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "As Fortnite gears up for an App Store relaunch, Epic is cranking up its Rewards program to encourage people to use its payment system instead of Apple's",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/as-fortnite-gears-up-for-an-app-store-relaunch-epic-is-cranking-up-its-rewards-program-to-encourage-people-to-use-its-payment-system-instead-of-apples/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/V3H7v97WYzx3mRMQE4qPvN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Co-founder of crypto platform Celsius, which went bust with a billion-dollar hole in its finances, sentenced to 12 years in federal prison for 'orchestrating one of the biggest frauds in the crypto industry'",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/co-founder-of-crypto-platform-celsius-which-went-bust-with-a-billion-dollar-hole-in-its-finances-sentenced-to-12-years-in-federal-prison-for-orchestrating-one-of-the-biggest-frauds-in-the-crypto-industry/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pmqwoKLdEgPkmS2uXeZpHa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Europa Universalis 5's unusual, year-long reveal was a lesson Paradox learned from Imperator's mixed reception: 'I wanted to do it a little bit earlier, but marketing people tend to get panicky when you start talking'",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/europa-universalis-5s-unusual-year-long-reveal-was-a-lesson-paradox-learned-from-imperators-mixed-reception-i-wanted-to-do-it-a-little-bit-earlier-but-marketing-people-tend-to-get-panicky-when-you-start-talking/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nGooNZz9xcqt3gKMzeonNG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Quake finally makes it into the World Videogame Hall of Fame",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/quake-finally-makes-it-into-the-world-videogame-hall-of-fame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uuqE6tDimprYHm3nDwFeUc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Sure, man: The $200 deluxe edition of the Gex Trilogy remaster includes a 3-foot inflatable Gex and box art from legendary illustrator Yoshitaka Amano",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/sure-man-the-usd200-deluxe-edition-of-the-gex-trilogy-remaster-includes-a-3-foot-inflatable-gex-and-box-art-from-legendary-illustrator-yoshitaka-amano/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b6r8MkrrPwBZWzjsXdwua8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   },
   {
     "titulo": "Rockstar says GTA 6's second trailer is now the biggest video launch of all time, whatever that means",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-gta-6s-second-trailer-is-now-the-biggest-video-launch-of-all-time-whatever-that-means/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YaUq2tUybUPd6bHhaoTV97.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T18:41:52"
+    "timestamp": "2025-05-09T18:52:07"
   }
 ];
