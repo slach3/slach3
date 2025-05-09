@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
-    "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
-    "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "“Queremos que nossos jogos tenham uma janela de respiro”: executiva do estúdio de Frostpunk vê adiamento de GTA 6 com bons olhos para 2025, mas games de 2026 devem estar descontentes com isso",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140068/feature/queremos-que-nossos-jogos-tenham-uma-janela-de-respiro-executiva-do-estudio-de-frostpunk-ve-adiament",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-5_pxz7.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
-    "titulo": "Death Stranding: como Hideo Kojima não entendeu sua própria criação",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding/140067/feature/death-stranding-como-hideo-kojima-nao-entendeu-sua-propria-criacao",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-11-27-145835970_72d4.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-09T16:50:10"
-  },
-  {
     "titulo": "Co-founder of crypto platform Celsius, which went bust with a billion-dollar hole in its finances, sentenced to 12 years in federal prison for 'orchestrating one of the biggest frauds in the crypto industry'",
     "descricao": "NewsAlex Mashinsky was known for characterising traditional banks as untrustworthy.",
     "link": "https://www.pcgamer.com/gaming-industry/co-founder-of-crypto-platform-celsius-which-went-bust-with-a-billion-dollar-hole-in-its-finances-sentenced-to-12-years-in-federal-prison-for-orchestrating-one-of-the-biggest-frauds-in-the-crypto-industry/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pmqwoKLdEgPkmS2uXeZpHa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "Europa Universalis 5's unusual, year-long reveal was a lesson Paradox learned from Imperator's mixed reception: 'I wanted to do it a little bit earlier, but marketing people tend to get panicky when you start talking'",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/europa-universalis-5s-unusual-year-long-reveal-was-a-lesson-paradox-learned-from-imperators-mixed-reception-i-wanted-to-do-it-a-little-bit-earlier-but-marketing-people-tend-to-get-panicky-when-you-start-talking/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nGooNZz9xcqt3gKMzeonNG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "Quake finally makes it into the World Videogame Hall of Fame",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/quake-finally-makes-it-into-the-world-videogame-hall-of-fame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uuqE6tDimprYHm3nDwFeUc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "Sure, man: The $200 deluxe edition of the Gex Trilogy remaster includes a 3-foot inflatable Gex and box art from legendary illustrator Yoshitaka Amano",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/sure-man-the-usd200-deluxe-edition-of-the-gex-trilogy-remaster-includes-a-3-foot-inflatable-gex-and-box-art-from-legendary-illustrator-yoshitaka-amano/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b6r8MkrrPwBZWzjsXdwua8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "Rockstar says GTA 6's second trailer is now the biggest video launch of all time, whatever that means",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-gta-6s-second-trailer-is-now-the-biggest-video-launch-of-all-time-whatever-that-means/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YaUq2tUybUPd6bHhaoTV97.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "32 GB of DDR5 RAM for $83 will see you ready to shield bash your way through Doom: The Dark Ages",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/32-gb-of-ddr5-ram-for-usd83-will-see-you-ready-to-shield-bash-your-way-through-doom-the-dark-ages/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H7Kb6EM8ZQUNLuUUm2Hxn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "Mafia: The Old Country system requirements have been revealed, and Unreal Engine 5 continues to be the thorn in your budget build's side",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/mafia-the-old-country-system-requirements-have-been-revealed-and-unreal-engine-5-continues-to-be-the-thorn-in-your-budget-builds-side/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4VzLr34GeRjNLdjh6UBtyg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "'First we do Wordle': Pope Leo XIV plays games like Wordle and Words With Friends with his brother, and did so before the Conclave",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/first-we-do-wordle-pope-leo-xiv-plays-games-like-wordle-and-words-with-friends-with-his-brother-and-did-so-before-the-conclave/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
   },
   {
     "titulo": "A year later and over six months since the last patch, Intel is STILL releasing updates to fix instability problems with its 13th and 14th Gen Raptor Lake CPUs",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/a-year-later-and-over-six-months-since-the-last-patch-intel-is-still-releasing-updates-to-fix-instability-problems-with-its-13th-and-14th-gen-raptor-lake-cpus/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dafyrnGsMwEY789QFppCxA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-09T16:50:10"
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Fãs de GTA 6 mergulham no trailer 2 para descobrir quais partes são de gameplay após comunicado da Rockstar",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139993/news/fas-de-gta-6-mergulham-no-trailer-2-para-descobrir-quais-partes-sao-de-gameplay-apos-comunicado-da-r",
+    "imagem": "https://sm.ign.com/t/ign_br/news/g/gta-6-fans/gta-6-fans-go-deep-on-trailer-2-to-work-out-which-bits-are-g_ze12.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "\"Estou muito feliz de ter terminado esse jogo\": Hideo Kojima revela detalhes de Death Stranding 2 e explica mudança nos cenários",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/139984/news/estou-muito-feliz-de-ter-terminado-esse-jogo-hideo-kojima-revela-detalhes-de-death-stranding-2-e-exp",
+    "imagem": "https://sm.ign.com/t/ign_br/news/h/hideo-koji/hideo-kojima-talks-death-stranding-2-on-the-beach-im-just-re_8v9u.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Diretor de Thunderbolts revela o que os outros membros da equipe viram no Vácuo e motivo de retirar as cenas",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139971/news/diretor-de-thunderbolts-revela-o-que-os-outros-membros-da-equipe-viram-no-vacuo-e-o-motivo-de-retira",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-breaks-the-record-for-the-mcus-longest-post-cre_j77n.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Qual é a música que toca no novo trailer de GTA 6?",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139945/news/qual-e-a-musica-que-toca-no-novo-trailer-de-gta-6",
+    "imagem": "https://sm.ign.com/t/ign_br/news/w/what-song-/what-song-is-playing-in-the-new-gta-6-trailer_qz9h.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "“Queremos que nossos jogos tenham uma janela de respiro”: executiva do estúdio de Frostpunk vê adiamento de GTA 6 com bons olhos para 2025, mas games de 2026 devem estar descontentes com isso",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/140068/feature/queremos-que-nossos-jogos-tenham-uma-janela-de-respiro-executiva-do-estudio-de-frostpunk-ve-adiament",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-5_pxz7.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
+  },
+  {
+    "titulo": "Death Stranding: como Hideo Kojima não entendeu sua própria criação",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding/140067/feature/death-stranding-como-hideo-kojima-nao-entendeu-sua-propria-criacao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-11-27-145835970_72d4.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-09T16:59:52"
   }
 ];
