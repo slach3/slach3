@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/black-mirrors-interactive-episode-bandersnatch-is-being-removed-from-netflix-as-the-technology-has-served-its-purpose/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pBBnywQbM7kGvNPm2yg8vg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "The best FPS of 2024 simply cannot stop adding new maps, introducing 37 new arenas, 4 new weapons, and a 'Horrible Smelly Head' in its latest update",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-best-fps-of-2024-simply-cannot-stop-adding-new-maps-introducing-37-new-arenas-4-new-weapons-and-a-horrible-smelly-head-in-its-latest-update/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WH9eotj2b7r9cywzM3qGLV.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "MechWarrior 5's beefy story expansion is out, and it has the most videogame title I've ever had the pleasure to read",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/mechwarrior-5s-beefy-story-expansion-is-out-and-it-has-the-most-videogame-title-ive-ever-had-the-pleasure-to-read/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/o3pjnsMEHeWcboVwVUAMm9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Timberborn's latest update adds ziplines and tubeways for rapid beaver deployment and stops your rodent residents from throwing down in sudden fits of breakdancing",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/timberborns-latest-update-adds-ziplines-and-tubeways-for-rapid-beaver-deployment-and-stops-your-rodent-residents-from-throwing-down-in-sudden-fits-of-breakdancing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UTmH9FSywzAXSfVZTebwUX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "The Final Fantasy Magic set will have 15 different Cids, and you can have them all in your deck at once",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/card-games/the-final-fantasy-magic-set-with-have-15-different-cids-and-you-can-have-them-all-in-your-deck-at-once/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qoShNMzmmDufWC67pncXSk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, May 11",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-11-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "After conflict between the staff of gaming site Giant Bomb and owner Fandom, 'Giant Bomb is now owned by the people who make Giant Bomb'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/after-conflict-between-the-staff-of-gaming-site-giant-bomb-and-owner-fandom-giant-bomb-is-now-owned-by-the-people-who-make-giant-bomb/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RkfwP9hpGrCGCCZ8QpebVj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Characters from The Witcher and Five Nights at Freddy's are joining Dead by Daylight, with a hint of The Walking Dead to follow",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/characters-from-the-witcher-and-five-nights-at-freddys-are-joining-dead-by-daylight-with-a-hint-of-the-walking-dead-to-follow/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xoYF4wusDxQBqaVkkNhcSP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "PC gaming remains undefeated: Nintendo now says it has the right to brick your Switch if it thinks you're pirating games or modifying the console",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gaming-remains-undefeated-nintendo-now-says-it-has-the-right-to-brick-your-switch-if-it-thinks-youre-pirating-games-or-modifying-the-console/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/okwCYq3z7mLGyeMugwStUN.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Nintendo esclarece que Mario Kart World não tem nenhuma imagem gerada por IA",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/140073/news/nintendo-esclarece-que-mario-kart-world-nao-tem-nenhuma-imagem-gerada-por-ia",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mario-kart-world_e7pn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "\"É o caminho que a indústria deveria seguir\": ex-chefe da PlayStation acredita que preço de Clair Obscur: Expedition 33 é equilíbrio ideal entre ambição AAA, orçamento AA e \"visão independente\"",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140063/news/e-o-caminho-que-a-industria-deveria-seguir-ex-chefe-da-playstation-acredita-que-preco-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-27_jepq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Death Stranding: como Hideo Kojima não entendeu sua própria criação",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding/140067/feature/death-stranding-como-hideo-kojima-nao-entendeu-sua-propria-criacao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-11-27-145835970_72d4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Após anos de espera, Dead by Daylight finalmente atende a um pedido dos fãs e adiciona killer aguardado em comemoração de 9 anos do game",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/dead-by-daylight/140059/news/apos-anos-de-espera-dead-by-daylight-finalmente-atende-a-um-pedido-dos-fas-e-adiciona-killer-aguarda",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_p99e.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "Batalha eterna em Namekusei é só o começo: estas são as 7 lutas mais longas dos animes",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/140066/feature/batalha-eterna-em-namekusei-e-so-o-comeco-estas-sao-as-7-lutas-mais-longas-dos-animes",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_vd8x.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   },
   {
     "titulo": "\"Não consegui o papel\": Kevin Costner rejeitou Chris Hemsworth deste faroeste grandioso",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140060/news/nao-consegui-o-papel-kevin-costner-rejeitou-chris-hemsworth-deste-faroeste-grandioso",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_257w.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-11T12:31:24"
+    "timestamp": "2025-05-11T12:42:32"
   }
 ];
