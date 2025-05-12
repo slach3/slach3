@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Você percebeu? Este detalhe brutal do novo episódio de The Last of Us é mais importante do que parece",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140094/news/voce-percebeu-este-detalhe-brutal-do-novo-episodio-de-the-last-of-us-e-mais-importante-do-que-parece",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nx6d.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "“Eles não surgem da nostalgia”: ex-chefe da PlayStation diz que remakes são apenas a “solução fácil” para um dos problemas dos games",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140049/news/eles-nao-surgem-da-nostalgia-ex-chefe-da-playstation-diz-que-remakes-sao-apenas-a-solucao-facil-para",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_mh4h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "“Mandaram um controle de PS6 por engano”: Jogador encomenda DualSense da Amazon e recebe um controle estranho e sem sentido",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5/140024/news/mandaram-um-controle-de-ps6-por-engano-jogador-encomenda-dualsense-da-amazon-e-recebe-um-controle-es",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-45wrnlydftu-unsplash_f4s3.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Nintendo Switch 2 terá que lidar com concorrentes que o Switch original não teve: os PCs portáteis",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/139852/feature/nintendo-switch-2-tera-que-lidar-com-concorrentes-que-o-switch-original-nao-teve-os-pcs-portateis",
     "imagem": "https://sm.ign.com/t/ign_br/feature/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_z4ns.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Após 25 anos, este clássico absoluto de artes marciais ganhará uma série no Prime Video",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140103/news/apos-25-anos-este-classico-absoluto-de-artes-marciais-ganhara-uma-serie-no-prime-video",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_cpf8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "\"Viver como um rato\": Geração Z abandona escala abusiva na China e propõe \"protesto silencioso\" fazendo e comendo o mínimo necessário",
@@ -77,7 +77,23 @@ const noticias = [
     "link": "https://br.ign.com/tech/140099/news/viver-como-um-rato-geracao-z-abandona-escala-abusiva-na-china-e-propoe-protesto-silencioso-fazendo-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_wwgt.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
+  },
+  {
+    "titulo": "Gearbox CEO Randy Pitchford spiels about how wonderful Borderlands 4 is going to be, then gets all coy about the price but jokes 'maybe we'll sell you that minimap that you guys want'",
+    "descricao": "News\"Borderlands 4 has more than twice the development budget for Borderlands 3. More than twice.\"",
+    "link": "https://www.pcgamer.com/games/fps/gearbox-ceo-randy-pitchford-spiels-about-how-wonderful-borderlands-4-is-going-to-be-then-gets-all-coy-about-the-price-but-jokes-maybe-well-sell-you-that-minimap-that-you-guys-want/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/a6DSNquispeyXMKLszBiDZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-12T11:57:09"
+  },
+  {
+    "titulo": "I've picked out the parts to get you a full gaming PC setup for under $1,100, peripherals and all",
+    "descricao": "DealProbably a less soul-destroying option than scouring for GPU deals right now.",
+    "link": "https://www.pcgamer.com/hardware/gaming-pcs/ive-picked-out-the-parts-to-get-you-a-full-gaming-pc-setup-for-under-usd1-100-peripherals-and-all/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TNvWZYJyCNQs6A5hXG6KZG.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "WoW's Leeroy Jenkins, one of the internet's oldest memes, turns 20 years old—and after looking back on what we wrote in 2005, I feel like we've failed Leeroys everywhere",
@@ -85,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/wows-leeroy-jenkins-one-of-the-internets-oldest-memes-turns-20-years-old-and-after-looking-back-on-what-we-wrote-in-2005-i-feel-like-weve-failed-leeroys-everywhere/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/24cLQdgmxcCYqWimVrk7M8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Cash Cleaner Simulator is the next legally obscure sim to take the internet by storm",
@@ -93,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/cash-cleaner-simulator-is-the-next-legally-obscure-sim-to-take-the-internet-by-storm/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4VJ85uzyZwm839RuzSck6k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "The FBI says that elderly Cisco Linksys router you've been meaning to replace may be under serious threat from cyber criminals",
@@ -101,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/networking/the-fbi-says-that-elderly-cisco-linksys-router-youve-been-meaning-to-replace-may-be-under-serious-threat-from-cyber-criminals/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ffsCMCJTHQDNjxqaFPJZQf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "One day the silicon in this $7000 Asus RTX 5090 will be worthless, but you'll still have a whole 6 grams of solid gold to make up for it",
@@ -109,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/one-day-the-silicon-in-this-usd7000-asus-rtx-5090-will-be-worthless-but-youll-still-have-a-whole-6-grams-of-solid-gold-to-make-up-for-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TZFzwBW4mmoMQxa6JV9fwk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Oblivion Remastered has a new texture error, and this one mucks up a gag from the original game",
@@ -117,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-has-a-new-texture-error-and-this-one-mucks-up-a-gag-from-the-original-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/C2NyHmHW7YbKFUyFpSupC6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Trump administration reportedly fires the head of the US Copyright Office as it tries to tackle AI's use of copyrighted materials",
@@ -125,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/trump-administration-reportedly-fires-the-head-of-the-us-copyright-office-as-it-tries-to-tackle-ais-use-of-copyrighted-materials/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zvEUpy6DmT9kXzpjNEPYcm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   },
   {
     "titulo": "Bam Margera is officially returning to Tony Hawk Pro Skater 3 + 4 as a Secret Skater",
@@ -133,22 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/bam-margera-is-officially-returning-to-tony-hawk-pro-skater-3-4-as-a-secret-skater/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zDzJ93kZ7FNVzk2rB9KYRE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
-  },
-  {
-    "titulo": "US and China talk it out at Geneva, agreeing to suspend ultra-high tariffs for 90 days, but PC parts don't seem to be part of the deal",
-    "descricao": "NewsSector-specific tariffs aren't part of the deal.",
-    "link": "https://www.pcgamer.com/hardware/us-and-china-talk-it-out-at-geneva-agreeing-to-suspend-ultra-high-tariffs-for-90-days-but-pc-parts-dont-seem-to-be-part-of-the-deal/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZR4L6LP29fZMYi6cK2SHYe.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
-  },
-  {
-    "titulo": "Ouch—Warner Bros throws Suicide Squad: Kill the Justice League under the bus in the most corporate way possible, side-eyes it for closed studios and cancelled games",
-    "descricao": "News\"Prior year quarter impairment\" is some potent corpo-speak.",
-    "link": "https://www.pcgamer.com/gaming-industry/ouch-warner-bros-throws-suicide-squad-kill-the-justice-league-under-the-bus-in-the-most-corporate-way-possible-side-eyes-it-for-closed-studios-and-cancelled-games/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/5VTXzqmHin2AYeA5mCPeij.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T11:47:08"
+    "timestamp": "2025-05-12T11:57:09"
   }
 ];
