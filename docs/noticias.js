@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Na reta final, série de The Last of Us encontra ódio necessário para trama e exalta ponto mais forte da temporada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "Você percebeu? Este detalhe brutal do novo episódio de The Last of Us é mais importante do que parece",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140094/news/voce-percebeu-este-detalhe-brutal-do-novo-episodio-de-the-last-of-us-e-mais-importante-do-que-parece",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nx6d.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "“Eles não surgem da nostalgia”: ex-chefe da PlayStation diz que remakes são apenas a “solução fácil” para um dos problemas dos games",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140049/news/eles-nao-surgem-da-nostalgia-ex-chefe-da-playstation-diz-que-remakes-sao-apenas-a-solucao-facil-para",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_mh4h.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "“Mandaram um controle de PS6 por engano”: Jogador encomenda DualSense da Amazon e recebe um controle estranho e sem sentido",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/140024/news/mandaram-um-controle-de-ps6-por-engano-jogador-encomenda-dualsense-da-amazon-e-recebe-um-controle-es",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-45wrnlydftu-unsplash_f4s3.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "Nintendo Switch 2 terá que lidar com concorrentes que o Switch original não teve: os PCs portáteis",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/139852/feature/nintendo-switch-2-tera-que-lidar-com-concorrentes-que-o-switch-original-nao-teve-os-pcs-portateis",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_z4ns.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "“Lixo absoluto\": um dos donghuas mais aguardados de 2025 recebe dublagem em inglês criada por IA e é criticado pela comunidade",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/140126/news/lixo-absoluto-um-dos-donghuas-mais-aguardados-de-2025-recebe-dublagem-em-ingles-criada-por-ia-e-e-cr",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rc74.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
-    "titulo": "Criador de One Piece levou 14 anos para revelar a identidade de um dos personagens mais enigmáticos do mangá",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/one-piece-1/140125/feature/criador-de-one-piece-levou-14-anos-para-revelar-a-identidade-de-um-dos-personagens-mais-enigmaticos",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-anime/best-anime-series-on-netflix-right-now-june-2022_fcwn.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T14:59:19"
-  },
-  {
     "titulo": "Elden Ring Nightreign's story is told in part through playable memories, so FromSoftware really is delivering lore through whacking things",
     "descricao": "NewsRelive that time your character hit a monster really hard!",
     "link": "https://www.pcgamer.com/games/roguelike/elden-ring-nightreigns-story-is-told-in-part-through-playable-memories-so-fromsoftware-really-is-delivering-lore-through-whacking-things/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9A2ApaPXgm57akWR5iAkwN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Fallout show actor says they know its 'endpoint' and it's sometime in season 5 or 6, which means we've still got loads of time to scream at each other about New Vegas",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/fallout-show-actor-says-they-know-its-endpoint-and-its-some-time-in-season-5-or-6-which-means-weve-still-got-loads-of-time-to-scream-at-each-other-about-new-vegas/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ksS5HDTmrZhgZdpSa3WLKb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Clair Obscur: Expedition 33's director got on the RPG train early, playing FF8 'when my brother and I could barely read'",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33s-director-got-on-the-rpg-train-early-playing-ff8-when-my-brother-and-i-could-barely-read/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PU3eLUDFZQF2bbsx4J92K5.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Pimax's fancy-looking Dream Air SE Micro-OLED VR headset weighs under 150 grams and is much more affordable than the standard model",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/vr-hardware/pimaxs-fancy-looking-dream-air-se-micro-oled-vr-headset-weighs-under-150-grams-and-is-much-more-affordable-than-the-standard-model/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H6MA943mTY4tGFxkM7zTW6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Iron Galaxy has explained why Tony Hawk's Pro Skater 3 + 4 won't feature the career mode: 'Our goal here is to make the ultimate package'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/iron-galaxy-has-explained-why-tony-hawks-pro-skater-3-4-wont-feature-the-career-mode-our-goal-here-is-to-make-the-ultimate-package/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PLYsHmcTghJRzBAsFsqiE3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Musk's Colossus data center for Grok is at the centre of an environmental row over air quality in South Memphis",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/musks-colossus-data-center-for-grok-is-at-the-centre-of-an-environmental-row-over-air-quality-in-south-memphis/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Pxyx543ov8nSCy4E86hhWD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "Gearbox CEO Randy Pitchford spiels about how wonderful Borderlands 4 is going to be, then gets all coy about the price but jokes 'maybe we'll sell you that minimap that you guys want'",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/gearbox-ceo-randy-pitchford-spiels-about-how-wonderful-borderlands-4-is-going-to-be-then-gets-all-coy-about-the-price-but-jokes-maybe-well-sell-you-that-minimap-that-you-guys-want/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/a6DSNquispeyXMKLszBiDZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "I've picked out the parts to get you a full gaming PC setup for under $1,100, peripherals and all",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/ive-picked-out-the-parts-to-get-you-a-full-gaming-pc-setup-for-under-usd1-100-peripherals-and-all/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TNvWZYJyCNQs6A5hXG6KZG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
   },
   {
     "titulo": "WoW's Leeroy Jenkins, one of the internet's oldest memes, turns 20 years old—and after looking back on what we wrote in 2005, I feel like we've failed Leeroys everywhere",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/wows-leeroy-jenkins-one-of-the-internets-oldest-memes-turns-20-years-old-and-after-looking-back-on-what-we-wrote-in-2005-i-feel-like-weve-failed-leeroys-everywhere/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/24cLQdgmxcCYqWimVrk7M8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T14:59:19"
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "Na reta final, série de The Last of Us encontra ódio necessário para trama e exalta ponto mais forte da temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "Você percebeu? Este detalhe brutal do novo episódio de The Last of Us é mais importante do que parece",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140094/news/voce-percebeu-este-detalhe-brutal-do-novo-episodio-de-the-last-of-us-e-mais-importante-do-que-parece",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nx6d.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "“Eles não surgem da nostalgia”: ex-chefe da PlayStation diz que remakes são apenas a “solução fácil” para um dos problemas dos games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140049/news/eles-nao-surgem-da-nostalgia-ex-chefe-da-playstation-diz-que-remakes-sao-apenas-a-solucao-facil-para",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_mh4h.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "“Mandaram um controle de PS6 por engano”: Jogador encomenda DualSense da Amazon e recebe um controle estranho e sem sentido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/140024/news/mandaram-um-controle-de-ps6-por-engano-jogador-encomenda-dualsense-da-amazon-e-recebe-um-controle-es",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-45wrnlydftu-unsplash_f4s3.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "Nintendo Switch 2 terá que lidar com concorrentes que o Switch original não teve: os PCs portáteis",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/139852/feature/nintendo-switch-2-tera-que-lidar-com-concorrentes-que-o-switch-original-nao-teve-os-pcs-portateis",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_z4ns.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "As pessoas só estão descobrindo o real significado do nome do Dumbo mais de 80 anos depois - e esse nem é seu nome verdadeiro",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dumbo-filme/140128/news/as-pessoas-so-estao-descobrindo-o-real-significado-do-nome-do-dumbo-mais-de-80-anos-depois-e-esse-ne",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/d1_rpxd.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
+  },
+  {
+    "titulo": "\"5 ou 6 temporadas\": estrela de Fallout revela que série já tem final planejado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/fallout-serie/140107/news/5-ou-6-temporadas-estrela-de-fallout-revela-que-serie-ja-tem-final-planejado",
+    "imagem": "https://sm.ign.com/t/ign_br/news/f/fallout-tv/fallout-tv-show-has-a-season-5-or-season-6-type-of-endpoint_x8hm.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T15:36:26"
   }
 ];
