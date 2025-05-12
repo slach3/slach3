@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Mafia: The Old Country ganha data de lançamento; preço é mais barato que AAA atuais",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/140007/news/mafia-the-old-country-ganha-data-de-lancamento-e-sera-bem-mais-barato-que-jogos-aaa-atuais",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61902/61902_441y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "O que achamos de Death Stranding 2: On the Beach após 30 horas de jogo | Preview",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/139981/preview/mais-inimigos-novo-mundo-e-novas-conexoes-o-que-achamos-apos-jogar-30-horas-de-death-stranding-2-on",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61836/61836_9a3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Nintendo esclarece que Mario Kart World não tem nenhuma imagem gerada por IA",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/140073/news/nintendo-esclarece-que-mario-kart-world-nao-tem-nenhuma-imagem-gerada-por-ia",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mario-kart-world_e7pn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "\"É o caminho que a indústria deveria seguir\": ex-chefe da PlayStation acredita que preço de Clair Obscur: Expedition 33 é equilíbrio ideal entre ambição AAA, orçamento AA e \"visão independente\"",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140063/news/e-o-caminho-que-a-industria-deveria-seguir-ex-chefe-da-playstation-acredita-que-preco-de-clair-obscu",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-27_jepq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Death Stranding: como Hideo Kojima não entendeu sua própria criação",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding/140067/feature/death-stranding-como-hideo-kojima-nao-entendeu-sua-propria-criacao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-11-27-145835970_72d4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Após anos de espera, Dead by Daylight finalmente atende a um pedido dos fãs e adiciona killer aguardado em comemoração de 9 anos do game",
@@ -61,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/dead-by-daylight/140059/news/apos-anos-de-espera-dead-by-daylight-finalmente-atende-a-um-pedido-dos-fas-e-adiciona-killer-aguarda",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_p99e.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
+  },
+  {
+    "titulo": "\"Faca de dois gumes: Jackie Chan acredita que usar CGI em cenas de ação perde senso de \"veracidade\", mas ajuda na segurança dos dublês",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/karate-kid-legends/140097/news/faca-de-dois-gumes-jackie-chan-acredita-que-usar-cgi-em-cenas-de-acao-perde-senso-de-veracidade-mas",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kk_r5jq.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "\"Completo desastre\": empresas entram em nova moda ao colocar inteligências artificiais para entrevistar pessoas reais",
@@ -69,15 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140096/news/completo-desastre-empresas-entram-em-nova-moda-ao-colocar-inteligencias-artificiais-para-entrevistar",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_q6fr.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
-  },
-  {
-    "titulo": "Tentaram combater o monopólio do Google, mas tiro sai pela culatra e medida pode acabar com um dos únicos navegadores que compete com o Chrome",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/google/140095/news/tentaram-combater-o-monopolio-do-google-mas-tiro-sai-pela-culatra-e-medida-pode-acabar-com-um-dos-un",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/rubaitul-azad-kfusp6tgnbq-unsplash_2sfn.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "One day the silicon in this $7000 Asus RTX 5090 will be worthless, but you'll still have a whole 6 grams of solid gold to make up for it",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/one-day-the-silicon-in-this-usd7000-asus-rtx-5090-will-be-worthless-but-youll-still-have-a-whole-6-grams-of-solid-gold-to-make-up-for-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TZFzwBW4mmoMQxa6JV9fwk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Oblivion Remastered has a new texture error, and this one mucks up a gag from the original game",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-has-a-new-texture-error-and-this-one-mucks-up-a-gag-from-the-original-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/C2NyHmHW7YbKFUyFpSupC6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Trump administration reportedly fires the head of the US Copyright Office as it tries to tackle AI's use of copyrighted materials",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/trump-administration-reportedly-fires-the-head-of-the-us-copyright-office-as-it-tries-to-tackle-ais-use-of-copyrighted-materials/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zvEUpy6DmT9kXzpjNEPYcm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Bam Margera is officially returning to Tony Hawk Pro Skater 3 + 4 as a Secret Skater",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/bam-margera-is-officially-returning-to-tony-hawk-pro-skater-3-4-as-a-secret-skater/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zDzJ93kZ7FNVzk2rB9KYRE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "US and China talk it out at Geneva, agreeing to suspend ultra-high tariffs for 90 days, but PC parts don't seem to be part of the deal",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/us-and-china-talk-it-out-at-geneva-agreeing-to-suspend-ultra-high-tariffs-for-90-days-but-pc-parts-dont-seem-to-be-part-of-the-deal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZR4L6LP29fZMYi6cK2SHYe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Ouch—Warner Bros throws Suicide Squad: Kill the Justice League under the bus in the most corporate way possible, side-eyes it for closed studios and cancelled games",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/ouch-warner-bros-throws-suicide-squad-kill-the-justice-league-under-the-bus-in-the-most-corporate-way-possible-side-eyes-it-for-closed-studios-and-cancelled-games/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5VTXzqmHin2AYeA5mCPeij.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "The Gothic 1 Remake demo has been updated based on fan feedback",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-gothic-1-remake-demo-has-been-updated-based-on-fan-feedback/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YHVZfjRe5eYuMmaBmuvNid.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "The tower defense comeback continues with Rift Riff, a 'remarkably forgiving' game about interdimensional juice raids",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/the-tower-defense-comeback-continues-with-rift-riff-a-remarkably-forgiving-game-about-interdimensional-juice-raids/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/i5sp648yCbgGsB4vSe52v5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   },
   {
     "titulo": "Killing Floor 3's new release date is late July",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/killing-floor-3s-new-release-date-is-late-july/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/S87h4iYVabFArtJATF6tUe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-12T10:30:44"
+    "timestamp": "2025-05-12T10:48:38"
   }
 ];
