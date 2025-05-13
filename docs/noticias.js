@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/10-million-monster-hunter-wilds-sales-helped-capcom-post-its-8th-consecutive-year-of-record-profits/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yu6aHeoMLP2DKaVSvDfDLk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Marvel Rivals is breaking its original battle pass out of the vault for a limited time",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-is-breaking-its-original-battle-pass-out-of-the-vault-for-a-limited-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BqGu99bH72C2rnjVZ6XFn3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "A Minecraft Movie is out on digital so now your kid can throw popcorn around the living room instead of the theater when the chicken jockey shows up",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/a-minecraft-movie-is-out-on-digital-so-now-your-kid-can-throw-popcorn-around-the-living-room-instead-of-the-theater-when-the-chicken-jockey-shows-up/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EC5nDAadKe9bQfK6YfxeYQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Nintendo's lawsuit isn't slowing Palworld down as it prepares for a summer collab with Terraria",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/nintendos-lawsuit-isnt-slowing-palworld-down-as-it-prepares-for-a-summer-collab-with-terraria/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pcPDP8m4yNtSUapCE5QbY6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "This Factorio-ish sim is threatening to devour hours of my time, and I haven't even gotten to the part where I make my own starships yet",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/this-factorio-ish-sim-is-threatening-to-devour-hours-of-my-time-and-i-havent-even-gotten-to-the-part-where-i-make-my-own-starships-yet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cwQfTzEYXEK7fZm39RyxFk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Microsoft is firing 3% of its staff, totalling just under 7,000 employees",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/operating-systems/microsoft-is-firing-3-percent-of-its-staff-totalling-just-under-7-000-employees/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WZqok2dvBiYCqktdgBBfKW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "More players. More choices. Unlocking HDMI gaming features",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/more-players-more-choices-unlocking-hdmi-gaming-features/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PciJogF5d39mVUBmfjpHzU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Google's logo has changed, and if the past's any indication, this might be the most expensive gaussian blur in history",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/googles-logo-has-changed-and-if-historys-any-indication-this-might-be-the-most-expensive-gaussian-blur-in-history/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hF9CqPG4h4hmTkKtVQ9FkX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Nintendo Switch 2 mouse controls shown off in latest clip makes me wonder why anyone would use it on the home screen",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/controllers/nintendo-switch-2-mouse-controls-shown-off-in-latest-clip-makes-me-wonder-why-anyone-would-use-it-on-the-home-screen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/axtzdxxm7LAyFEv7oAhYbQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Amazon confirma data de lançamento da 2ª temporada de Fallout com teaser",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/fallout-serie/140154/news/alem-de-renovar-fallout-para-3a-temporada-amazon-confirma-data-de-lancamento-da-2a-temporada-com-tea",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62056/62056_p4aq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Na reta final, série de TLOU encontra ódio necessário para trama e exalta ponto mais forte da temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "\"E se tentássemos trazer ordem ao caos?\": diretor de arte de The Precinct detalha inspirações no cinema policial e diferenças em relação aos GTAs clássicos",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-precinct/140182/news/e-se-tentassemos-trazer-ordem-ao-caos-diretor-de-arte-de-the-precinct-detalha-inspiracoes-no-cinema",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-precinct-capa_r33s.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Marvel 1943: Rise of Hydra, game dirigido por Amy Hennig, é adiado para 2026",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-1943-rise-of-hydra/140150/news/marvel-1943-rise-of-hydra-game-dirigido-por-amy-hennig-e-adiado-para-2026",
     "imagem": "https://sm.ign.com/t/ign_br/news/a/amy-hennig/amy-hennigs-marvel-1943-rise-of-hydra-delayed-to-2026_vwn2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Ex-diretor técnico da Rockstar acha que este GTA injustiçado deveria ser remasterizado para a nova geração: \"ainda tem o melhor protagonista\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-iv/140140/news/ex-diretor-tecnico-da-rockstar-acha-que-este-gta-injusticado-deveria-ser-remasterizado-para-a-nova-g",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ex-rocksta/ex-rockstar-veteran-thinks-gta-4-should-be-remastered-niko-i_97bt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "\"Há algo em seus olhos que são sombrios e mortos\": Bella Ramsey assustou diretor de The Last of Us em cena brutal da 2ª temporada da série",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140146/news/ha-algo-em-seus-olhos-que-sao-sombrios-e-mortos-bella-ramsey-assustou-diretor-de-the-last-of-us-em-c",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/alou_rk7m.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
+  },
+  {
+    "titulo": "Godzilla ganha versão inédita no Japão em celebração aos 70 anos",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/godzilla-2-legendary-pictures/140167/news/godzilla-ganha-versao-inedita-no-japao-em-celebracao-aos-70-anos",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-13-193410047_8tyk.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T20:22:29"
   },
   {
     "titulo": "Você carregou seu celular errado a vida inteira! Saiba o que os especialistas indicam para fazer do jeito certo",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/140180/news/voce-carregou-seu-celular-errado-a-vida-inteira-saiba-o-que-os-especialistas-indicam-para-fazer-do-j",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_n3dk.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
-  },
-  {
-    "titulo": "Procon-SP notifica Nintendo por possíveis práticas abusivas em novos termos de uso",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140187/news/procon-sp-notifica-nintendo-por-possiveis-praticas-abusivas-em-novos-termos-de-uso",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gmde.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T19:57:50"
+    "timestamp": "2025-05-13T20:22:29"
   }
 ];
