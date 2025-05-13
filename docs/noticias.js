@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Amazon confirma data de lançamento da 2ª temporada de Fallout com teaser",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fallout-serie/140154/news/alem-de-renovar-fallout-para-3a-temporada-amazon-confirma-data-de-lancamento-da-2a-temporada-com-tea",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62056/62056_p4aq.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Na reta final, série de TLOU encontra ódio necessário para trama e exalta ponto mais forte da temporada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Marvel 1943: Rise of Hydra, game dirigido por Amy Hennig, é adiado para 2026",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-1943-rise-of-hydra/140150/news/marvel-1943-rise-of-hydra-game-dirigido-por-amy-hennig-e-adiado-para-2026",
-    "imagem": "https://sm.ign.com/t/ign_br/news/a/amy-hennig/amy-hennigs-marvel-1943-rise-of-hydra-delayed-to-2026_vwn2.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Ex-diretor técnico da Rockstar acha que este GTA injustiçado deveria ser remasterizado para a nova geração: \"ainda tem o melhor protagonista\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-iv/140140/news/ex-diretor-tecnico-da-rockstar-acha-que-este-gta-injusticado-deveria-ser-remasterizado-para-a-nova-g",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/ex-rocksta/ex-rockstar-veteran-thinks-gta-4-should-be-remastered-niko-i_97bt.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "\"Há algo em seus olhos que são sombrios e mortos\": Bella Ramsey assustou diretor de The Last of Us em cena brutal da 2ª temporada da série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140146/news/ha-algo-em-seus-olhos-que-sao-sombrios-e-mortos-bella-ramsey-assustou-diretor-de-the-last-of-us-em-c",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/alou_rk7m.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Criador de One Piece levou 14 anos para revelar a identidade de um dos personagens mais enigmáticos do mangá",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/one-piece-1/140125/feature/criador-de-one-piece-levou-14-anos-para-revelar-a-identidade-de-um-dos-personagens-mais-enigmaticos",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-anime/best-anime-series-on-netflix-right-now-june-2022_fcwn.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Jogador de Oblivion Remastered segue tradição dos jogos da Bethesda e passa 7 horas criando dominó com livros",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-elder-scrolls-iv-oblivion-remaster/140162/news/jogador-de-oblivion-remastered-segue-tradicao-dos-jogos-da-bethesda-e-passa-7-horas-criando-domino-c",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-elder-/the-elder-scrolls-iv-oblivion-remastered-player-continues-be_dcqa.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
-  },
-  {
-    "titulo": "Depois de 10 anos, Google está mudando sua identidade e você provavelmente não percebeu",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140168/news/depois-de-10-anos-google-esta-mudando-sua-identidade-e-voce-provavelmente-nao-percebeu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800-2025-05-13t130009792_cezg.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T13:52:44"
+    "titulo": "This Factorio-ish sim is threatening to devour hours of my time, and I haven't even gotten to the part where I make my own starships yet",
+    "descricao": "NewsThe station must grow.",
+    "link": "https://www.pcgamer.com/games/sim/this-factorio-ish-sim-is-threatening-to-devour-hours-of-my-time-and-i-havent-even-gotten-to-the-part-where-i-make-my-own-starships-yet/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cwQfTzEYXEK7fZm39RyxFk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Microsoft is firing 3% of its staff, totalling just under 7,000 employees",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/operating-systems/microsoft-is-firing-3-percent-of-its-staff-totalling-just-under-7-000-employees/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WZqok2dvBiYCqktdgBBfKW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "More players. More choices. Unlocking HDMI gaming features",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/more-players-more-choices-unlocking-hdmi-gaming-features/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PciJogF5d39mVUBmfjpHzU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Google's logo has changed, and if the past's any indication, this might be the most expensive gaussian blur in history",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/googles-logo-has-changed-and-if-historys-any-indication-this-might-be-the-most-expensive-gaussian-blur-in-history/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hF9CqPG4h4hmTkKtVQ9FkX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Nintendo Switch 2 mouse controls shown off in latest clip makes me wonder why anyone would use it on the home screen",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/controllers/nintendo-switch-2-mouse-controls-shown-off-in-latest-clip-makes-me-wonder-why-anyone-would-use-it-on-the-home-screen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/axtzdxxm7LAyFEv7oAhYbQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Silver Palace may look like your ordinary anime game, but it's hiding a deliciously violent combat system underneath all those waifus",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/silver-palace-may-look-like-your-ordinary-anime-game-but-its-hiding-a-deliciously-violent-combat-system-underneath-all-those-waifus/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YpSUherYZ9ihiGEzrJNeoj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Now it's AMD's Ryzen 9000-series processors alleged to be suffering from terminal voltage spikes and we're not sure if any CPUs are totally safe",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/now-its-amds-ryzen-9000-series-processors-alleged-to-be-suffering-from-terminal-voltage-spikes-and-were-not-sure-if-any-cpus-are-totally-safe/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BRzkj3hyT5m8cFnvbj3iAn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "Stellaris 4.0 added babies to the galaxy, along with a bug that implies they are edible",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/stellaris-4-0-added-babies-to-the-galaxy-along-with-a-bug-that-implies-they-are-edible/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5DPNCDUWyH4PwDmefeMcQB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
     "titulo": "OG Infinity Ward dev says Call of Duty's gone the way of The Simpsons: 'It kind of feels like they've run out of ideas at times'",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/call-of-duty/og-infinity-ward-dev-says-call-of-dutys-gone-the-way-of-the-simpsons-it-kind-of-feels-like-theyve-run-out-of-ideas-at-times/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4LckfWKk2C5nCpk8wfHsP7.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "timestamp": "2025-05-13T14:11:51"
   },
   {
-    "titulo": "Forget the Tarrasque—tabletop's biggest bad is now the biblically accurate Bristle Boar, a horrifying Pathfinder 2e monster that only exists because of a typo",
-    "descricao": "News\"Assuming there are about 50 million Pathfinder players, one boar should be able to easily bring every character that has ever existed up to level 20.\"",
-    "link": "https://www.pcgamer.com/games/rpg/forget-the-tarrasque-tabletops-biggest-bad-is-now-the-biblically-accurate-bristle-boar-a-horrifying-pathfinder-2e-monster-that-only-exists-because-of-a-typo/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/khcNTMdMmuJ9j4uU3nSsrY.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T13:52:44"
+    "titulo": "Amazon confirma data de lançamento da 2ª temporada de Fallout com teaser",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/fallout-serie/140154/news/alem-de-renovar-fallout-para-3a-temporada-amazon-confirma-data-de-lancamento-da-2a-temporada-com-tea",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62056/62056_p4aq.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Na reta final, série de TLOU encontra ódio necessário para trama e exalta ponto mais forte da temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Marvel 1943: Rise of Hydra, game dirigido por Amy Hennig, é adiado para 2026",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-1943-rise-of-hydra/140150/news/marvel-1943-rise-of-hydra-game-dirigido-por-amy-hennig-e-adiado-para-2026",
+    "imagem": "https://sm.ign.com/t/ign_br/news/a/amy-hennig/amy-hennigs-marvel-1943-rise-of-hydra-delayed-to-2026_vwn2.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Ex-diretor técnico da Rockstar acha que este GTA injustiçado deveria ser remasterizado para a nova geração: \"ainda tem o melhor protagonista\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-iv/140140/news/ex-diretor-tecnico-da-rockstar-acha-que-este-gta-injusticado-deveria-ser-remasterizado-para-a-nova-g",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/ex-rocksta/ex-rockstar-veteran-thinks-gta-4-should-be-remastered-niko-i_97bt.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "\"Há algo em seus olhos que são sombrios e mortos\": Bella Ramsey assustou diretor de The Last of Us em cena brutal da 2ª temporada da série",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140146/news/ha-algo-em-seus-olhos-que-sao-sombrios-e-mortos-bella-ramsey-assustou-diretor-de-the-last-of-us-em-c",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/alou_rk7m.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Criador de One Piece levou 14 anos para revelar a identidade de um dos personagens mais enigmáticos do mangá",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/one-piece-1/140125/feature/criador-de-one-piece-levou-14-anos-para-revelar-a-identidade-de-um-dos-personagens-mais-enigmaticos",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-anime/best-anime-series-on-netflix-right-now-june-2022_fcwn.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Jogador de Oblivion Remastered segue tradição dos jogos da Bethesda e passa 7 horas criando dominó com livros",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-elder-scrolls-iv-oblivion-remaster/140162/news/jogador-de-oblivion-remastered-segue-tradicao-dos-jogos-da-bethesda-e-passa-7-horas-criando-domino-c",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-elder-/the-elder-scrolls-iv-oblivion-remastered-player-continues-be_dcqa.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
+  },
+  {
+    "titulo": "Depois de 10 anos, Google está mudando sua identidade e você provavelmente não percebeu",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140168/news/depois-de-10-anos-google-esta-mudando-sua-identidade-e-voce-provavelmente-nao-percebeu",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800-2025-05-13t130009792_cezg.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T14:11:51"
   }
 ];
