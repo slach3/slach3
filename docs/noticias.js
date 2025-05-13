@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/fallout-serie/140154/news/alem-de-renovar-fallout-para-3a-temporada-amazon-confirma-data-de-lancamento-da-2a-temporada-com-tea",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62056/62056_p4aq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Na reta final, série de TLOU encontra ódio necessário para trama e exalta ponto mais forte da temporada",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Marvel 1943: Rise of Hydra, game dirigido por Amy Hennig, é adiado para 2026",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-1943-rise-of-hydra/140150/news/marvel-1943-rise-of-hydra-game-dirigido-por-amy-hennig-e-adiado-para-2026",
     "imagem": "https://sm.ign.com/t/ign_br/news/a/amy-hennig/amy-hennigs-marvel-1943-rise-of-hydra-delayed-to-2026_vwn2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Ex-diretor técnico da Rockstar acha que este GTA injustiçado deveria ser remasterizado para a nova geração: \"ainda tem o melhor protagonista\"",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-iv/140140/news/ex-diretor-tecnico-da-rockstar-acha-que-este-gta-injusticado-deveria-ser-remasterizado-para-a-nova-g",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ex-rocksta/ex-rockstar-veteran-thinks-gta-4-should-be-remastered-niko-i_97bt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "\"Há algo em seus olhos que são sombrios e mortos\": Bella Ramsey assustou diretor de The Last of Us em cena brutal da 2ª temporada da série",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140146/news/ha-algo-em-seus-olhos-que-sao-sombrios-e-mortos-bella-ramsey-assustou-diretor-de-the-last-of-us-em-c",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/alou_rk7m.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Criador de One Piece levou 14 anos para revelar a identidade de um dos personagens mais enigmáticos do mangá",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/one-piece-1/140125/feature/criador-de-one-piece-levou-14-anos-para-revelar-a-identidade-de-um-dos-personagens-mais-enigmaticos",
     "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-anime/best-anime-series-on-netflix-right-now-june-2022_fcwn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "\"Tudo o que posso fazer é esperar meu oxigênio acabar\": a comovente despedida de um jogador em No Man’s Sky",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/no-mans-sky/140178/news/tudo-o-que-posso-fazer-e-esperar-meu-oxigenio-acabar-a-comovente-despedida-de-um-jogador-em-no-mans",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2024-08-14t141933147_29pq.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Star Wars: uma coincidência absurda faz o final de Andor ser ainda mais especial",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140177/news/star-wars-uma-coincidencia-absurda-faz-o-final-de-andor-ser-ainda-mais-especial",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/andor-12-blog-1668768377781-1745354989620_28b1.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "A Minecraft Movie is out on digital so now your kid can throw popcorn around the living room instead of the theater when the chicken jockey shows up",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/a-minecraft-movie-is-out-on-digital-so-now-your-kid-can-throw-popcorn-around-the-living-room-instead-of-the-theater-when-the-chicken-jockey-shows-up/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EC5nDAadKe9bQfK6YfxeYQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Nintendo's lawsuit isn't slowing Palworld down as it prepares for a summer collab with Terraria",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/nintendos-lawsuit-isnt-slowing-palworld-down-as-it-prepares-for-a-summer-collab-with-terraria/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pcPDP8m4yNtSUapCE5QbY6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "This Factorio-ish sim is threatening to devour hours of my time, and I haven't even gotten to the part where I make my own starships yet",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/this-factorio-ish-sim-is-threatening-to-devour-hours-of-my-time-and-i-havent-even-gotten-to-the-part-where-i-make-my-own-starships-yet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cwQfTzEYXEK7fZm39RyxFk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Microsoft is firing 3% of its staff, totalling just under 7,000 employees",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/operating-systems/microsoft-is-firing-3-percent-of-its-staff-totalling-just-under-7-000-employees/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WZqok2dvBiYCqktdgBBfKW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "More players. More choices. Unlocking HDMI gaming features",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/more-players-more-choices-unlocking-hdmi-gaming-features/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PciJogF5d39mVUBmfjpHzU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Google's logo has changed, and if the past's any indication, this might be the most expensive gaussian blur in history",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/googles-logo-has-changed-and-if-historys-any-indication-this-might-be-the-most-expensive-gaussian-blur-in-history/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hF9CqPG4h4hmTkKtVQ9FkX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Nintendo Switch 2 mouse controls shown off in latest clip makes me wonder why anyone would use it on the home screen",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/controllers/nintendo-switch-2-mouse-controls-shown-off-in-latest-clip-makes-me-wonder-why-anyone-would-use-it-on-the-home-screen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/axtzdxxm7LAyFEv7oAhYbQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Silver Palace may look like your ordinary anime game, but it's hiding a deliciously violent combat system underneath all those waifus",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/silver-palace-may-look-like-your-ordinary-anime-game-but-its-hiding-a-deliciously-violent-combat-system-underneath-all-those-waifus/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YpSUherYZ9ihiGEzrJNeoj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   },
   {
     "titulo": "Now it's AMD's Ryzen 9000-series processors alleged to be suffering from terminal voltage spikes and we're not sure if any CPUs are totally safe",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/now-its-amds-ryzen-9000-series-processors-alleged-to-be-suffering-from-terminal-voltage-spikes-and-were-not-sure-if-any-cpus-are-totally-safe/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BRzkj3hyT5m8cFnvbj3iAn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T16:31:05"
+    "timestamp": "2025-05-13T16:40:59"
   }
 ];
