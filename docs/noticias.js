@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Na reta final, série de The Last of Us encontra ódio necessário para trama e exalta ponto mais forte da temporada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "Você percebeu? Este detalhe brutal do novo episódio de The Last of Us é mais importante do que parece",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140094/news/voce-percebeu-este-detalhe-brutal-do-novo-episodio-de-the-last-of-us-e-mais-importante-do-que-parece",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nx6d.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "“Eles não surgem da nostalgia”: ex-chefe da PlayStation diz que remakes são apenas a “solução fácil” para um dos problemas dos games",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140049/news/eles-nao-surgem-da-nostalgia-ex-chefe-da-playstation-diz-que-remakes-sao-apenas-a-solucao-facil-para",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_mh4h.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "“Mandaram um controle de PS6 por engano”: Jogador encomenda DualSense da Amazon e recebe um controle estranho e sem sentido",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/140024/news/mandaram-um-controle-de-ps6-por-engano-jogador-encomenda-dualsense-da-amazon-e-recebe-um-controle-es",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-45wrnlydftu-unsplash_f4s3.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "Nintendo Switch 2 terá que lidar com concorrentes que o Switch original não teve: os PCs portáteis",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/139852/feature/nintendo-switch-2-tera-que-lidar-com-concorrentes-que-o-switch-original-nao-teve-os-pcs-portateis",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_z4ns.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "A sua nova Smart TV 43\" está aqui: conheça a Samsung Crystal UHD 4K",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140137/news/a-sua-nova-smart-tv-43-esta-aqui-conheca-a-samsung-crystal-uhd-4k",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-smart-tv-43-crystal-uhd-4k-43du8000_xvjp.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
-    "titulo": "\"Toda a seriedade que um projeto de esports exige\": com sistema automatizado e forte presença nas redes sociais, BattleFive promete levar competitivo ao GTA",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-online/140134/news/toda-a-seriedade-que-um-projeto-de-esports-exige-com-sistema-automatizado-e-forte-presenca-nas-redes",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_cmpk.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-13T02:41:42"
-  },
-  {
     "titulo": "This $24 Lucky Miner USB stick is a 210.7 trillion-to-one lottery ticket where the prize is a single BTC",
     "descricao": "newsNever tell me the odds.",
     "link": "https://www.pcgamer.com/hardware/this-usd24-lucky-miner-usb-stick-is-a-210-7-trillion-to-one-lottery-ticket-where-the-prize-is-a-single-btc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JHnDaeDTwqkPGLWnVsXm3S.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Celebrate 100 years of quantum mechanics by learning about quantum computing",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/celebrate-100-years-of-quantum-mechanics-by-learning-about-quantum-computing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8NaUUUYSKGJEUWdEkRLAoD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Fallout season 2 teaser trailer confirms a December release, and drives the point home that we're going to New Vegas",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fallout/fallout-season-2-teaser-trailer-confirms-a-december-release-and-drives-the-point-home-that-were-going-to-new-vegas/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/STPaovhDLrMadsCuxdZLLA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, May 13",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-13-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Philips opens official library of 3D printable components to public",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/philips-opens-official-library-of-3d-printable-components-to-public/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b9RCx5Y6e3PErzbTQrMFBM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "'Too many games let their players succeed' says developer of notoriously tough survival RPG Kenshi, and 'that's mind-numbingly boring to me'",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/too-many-games-let-their-players-succeed-says-developer-of-notoriously-tough-survival-rpg-kenshi-and-thats-mind-numbingly-boring-to-me/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4iVkoSpZxFetomwotHVH8X.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "The SteamOS era is imminent: Valve adds a new compatibility rating for games that’ll run on ‘any device that’s not a Steam Deck’",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/platforms/steamos-compatibility-rating-valve-steam-deck-handhelds/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DBMquNUqG5xYZ8qHnEB4EJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Dune: Awakening's stabby stunlock PvP exploit is being fixed, says Funcom: 'We've got this covered'",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/dune-awakenings-stabby-stunlock-pvp-exploit-is-being-fixed-says-funcom-weve-got-this-covered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ksVfmNKLb54NXaGsvd4zu8.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
   },
   {
     "titulo": "Oblivion Remastered has an unleveled, legendary sword you can grab right after leaving the starting sewers⁠—just bring a lot of arrows or magicka potions",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-umbra-sword-location-guide/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KpZ492Z9wKyZUP8fWj5D4n.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-13T02:41:42"
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "Na reta final, série de The Last of Us encontra ódio necessário para trama e exalta ponto mais forte da temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "GTA 6 ficará ainda mais bonito no PS5 Pro? Especialistas explicam e dão opinião",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/139979/feature/gta-6-sera-ainda-mais-bonito-no-ps5-pro-especialistas-explicam-por-que-o-console-pode-aprimorar-o-ga",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61858/61858_1z39.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "Você percebeu? Este detalhe brutal do novo episódio de The Last of Us é mais importante do que parece",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140094/news/voce-percebeu-este-detalhe-brutal-do-novo-episodio-de-the-last-of-us-e-mais-importante-do-que-parece",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nx6d.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "“Eles não surgem da nostalgia”: ex-chefe da PlayStation diz que remakes são apenas a “solução fácil” para um dos problemas dos games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140049/news/eles-nao-surgem-da-nostalgia-ex-chefe-da-playstation-diz-que-remakes-sao-apenas-a-solucao-facil-para",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_mh4h.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "“Mandaram um controle de PS6 por engano”: Jogador encomenda DualSense da Amazon e recebe um controle estranho e sem sentido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/140024/news/mandaram-um-controle-de-ps6-por-engano-jogador-encomenda-dualsense-da-amazon-e-recebe-um-controle-es",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-45wrnlydftu-unsplash_f4s3.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "Nintendo Switch 2 terá que lidar com concorrentes que o Switch original não teve: os PCs portáteis",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/139852/feature/nintendo-switch-2-tera-que-lidar-com-concorrentes-que-o-switch-original-nao-teve-os-pcs-portateis",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_z4ns.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "A sua nova Smart TV 43\" está aqui: conheça a Samsung Crystal UHD 4K",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140137/news/a-sua-nova-smart-tv-43-esta-aqui-conheca-a-samsung-crystal-uhd-4k",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-smart-tv-43-crystal-uhd-4k-43du8000_xvjp.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
+  },
+  {
+    "titulo": "\"Toda a seriedade que um projeto de esports exige\": com sistema automatizado e forte presença nas redes sociais, BattleFive promete levar competitivo ao GTA",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-online/140134/news/toda-a-seriedade-que-um-projeto-de-esports-exige-com-sistema-automatizado-e-forte-presenca-nas-redes",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_cmpk.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-13T02:51:38"
   }
 ];
