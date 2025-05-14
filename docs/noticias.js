@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Lucasfilm declares creative bankruptcy with an AI-generated Star Wars film that's just 2 minutes of mostly-normal animals jumbled together",
+    "descricao": "NewsI've got a bad feeling about this.",
+    "link": "https://www.pcgamer.com/gaming-industry/lucasfilm-declares-creative-bankruptcy-with-an-ai-generated-star-wars-film-thats-just-2-minutes-of-mostly-normal-animals-jumbled-together/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/c3HXNEjwgX6wR9krnLdPd7.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-14T19:52:44"
+  },
+  {
     "titulo": "A new Marvel Rivals item lets you skip losses in ranked and players worry the climb has become meaningless",
     "descricao": "newsChoose your own rank.",
     "link": "https://www.pcgamer.com/games/third-person-shooter/a-new-marvel-rivals-item-lets-you-skip-losses-in-ranked-and-players-worry-the-climb-has-become-meaningless/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/m3qtPGXeB9ALvRgS8rfGv9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Baldur's Gate 3's latest hotfix quietly removes artifacts of a cut storyline never meant to be heard",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3s-latest-hotfix-quietly-removes-artifacts-of-a-cut-storyline-never-meant-to-be-heard/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vF2mv2egPzSwgcrGXbbxVD.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Oblivion Remastered hero returns to the game's golden age by spending 7 hours arranging books just to topple them like dominoes",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-hero-returns-to-the-games-golden-age-by-spending-7-hours-arranging-books-just-to-topple-them-like-dominoes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Ubisoft's extreme sports game is being turned into a movie… and honestly, I'd watch 90 minutes of people doing snowboard stunts and wingsuit flights in the Alps",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/ubisofts-extreme-sports-game-is-being-turned-into-a-movie-and-honestly-id-watch-90-minutes-of-people-doing-snowboard-stunts-and-wingsuit-flights-in-the-alps/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qc2m9P9GcwWJ9pTWpdgqpk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Superstar modders have decompiled Mario Party 4, meaning native PC ports for GameCube games may one day be a reality",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/superstar-modders-have-decompiled-mario-party-4-meaning-native-pc-ports-for-gamecube-games-may-one-day-be-a-reality/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YY5ETmZSZaJdRLfpYCXvhY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "One of our favourite budget gaming earbuds are now 33% off, and just a smidge below $60",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/earbuds-headphones/one-of-our-favourite-budget-gaming-earbuds-are-now-33-percent-off-and-just-a-smidge-below-usd60/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nUFsSD2fLTRSHvqFZwfdmY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Hideo Kojima has an idea for a game where you age and die, 'but no-one would buy it', then immediately suggests one where you eventually forget how to move",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/hideo-kojima-has-an-idea-for-a-game-where-you-age-and-die-but-no-one-would-buy-it-then-immediately-suggests-one-where-you-eventually-forget-how-to-move/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3ApM5N4gNnuXhoNb3H8KjV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "I may have to pull the trigger now that you can get a 32-inch 4K OLED gaming monitor for barely more than $700",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/i-may-have-to-pull-the-trigger-now-that-you-can-get-a-32-inch-4k-oled-gaming-monitor-for-barely-more-than-usd700/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/u5MX3YDrTHVpv8woGRwjT4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
-  },
-  {
-    "titulo": "Stonking Half-Life remake Black Mesa is the cheapest it's ever been on Steam, offering Barney Calhoun in glorious 4K for a mere 2 bucks",
-    "descricao": "NewsWhat more could you ask for?",
-    "link": "https://www.pcgamer.com/games/fps/stonking-half-life-remake-black-mesa-is-the-cheapest-its-ever-been-on-steam-offering-barney-calhoun-in-glorious-4k-for-a-mere-2-bucks/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/JsckYpjE6ZUuhnvVoUm7qN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "GTA 6 adiado de novo? Lançamento em maio de 2026 não está 100% garantido, diz insider",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140224/news/gta-6-adiado-de-novo-insider-diz-que-lancamento-em-maio-de-2026-nao-esta-100-garantido",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/jason-duval-06-1746540363699_vayh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Quem é Tivik? Como o final de Andor faz conexão direta com Rogue One",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140198/news/quem-e-tivik-como-o-final-de-andor-faz-conexao-direta-com-rogue-one",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62123/62123_h3g5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Diretor de arte de The Precinct detalha inspirações no cinema e diferenças de GTA",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-precinct/140182/news/e-se-tentassemos-trazer-ordem-ao-caos-diretor-de-arte-de-the-precinct-detalha-inspiracoes-no-cinema",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_39cy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Premonição 6 explora novos ares para a franquia, mas não executa como esperado",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/premonicao-6-lacos-de-sangue/139822/review/premonicao-6-lacos-de-sangue-explora-novos-ares-para-a-franquia-mas-nao-executa-como-esperado-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62125/62125_da5w.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "De frente com Lois: com participações de outros heróis da DC, Superman dá entrevista em novo trailer de filme dirigido por James Gunn",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140235/news/de-frente-com-lois-com-participacoes-de-outros-herois-da-dc-superman-da-entrevista-em-novo-trailer-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/new-superm/new-superman-trailer-shows-fresh-looks-at-guy-gardner-hawkgi_jb44.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Ué? Max voltará com o nome HBO Max após 2 anos da mudança",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/a-casa-do-dragao/140210/news/ue-max-voltara-com-o-nome-hbo-max-apos-2-anos-da-mudanca",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/last-of-us-season-review-blog-1673269752415-1745857780491_twdt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Procon-SP notifica Nintendo por possíveis práticas abusivas em novos termos de uso",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140187/news/procon-sp-notifica-nintendo-por-possiveis-praticas-abusivas-em-novos-termos-de-uso",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gmde.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "Star Wars: uma coincidência absurda faz o final de Andor ser ainda mais especial",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140177/news/star-wars-uma-coincidencia-absurda-faz-o-final-de-andor-ser-ainda-mais-especial",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/andor-12-blog-1668768377781-1745354989620_28b1.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
+  },
+  {
+    "titulo": "Lanternas: História, personagens, atores, trailers e tudo sobre a nova série DC do Lanterna Verde na HBO",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lanterns/140233/feature/lanternas-historia-personagens-atores-trailers-e-tudo-sobre-a-nova-serie-dc-do-lanterna-verde-na-hbo",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/l/lanterns-h/lanterns-hbo-tv-series-cast-and-characters-whos-confirmed-fo_wc7y.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-14T19:52:44"
   },
   {
     "titulo": "\"É o GTA definitivo\": este aclamado jogo da franquia da Rockstar está com quase 70% de desconto no Steam",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-v/140252/news/e-o-gta-definitivo-este-aclamado-jogo-da-franquia-da-rockstar-esta-com-quase-70-de-desconto-no-steam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gta-v-02_ferb.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
-  },
-  {
-    "titulo": "Tarifas de Trump aceleraram uma tendência na China: marcas chinesas estão \"roubando\" espaço da Apple",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/apple/140242/news/tarifas-de-trump-aceleraram-uma-tendencia-na-china-marcas-chinesas-estao-roubando-espaco-da-apple",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/huawei-pura-70_ksx3.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T19:42:45"
+    "timestamp": "2025-05-14T19:52:44"
   }
 ];
