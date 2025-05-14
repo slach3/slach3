@@ -1,11 +1,43 @@
 const noticias = [
   {
+    "titulo": "RuneScape: Dragonwilds creative director says survival crafting has more in common with MMOs than you might think: 'It's almost like the genre was born from MMOs'",
+    "descricao": "newsTwo sides of the same coin.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/runescape-dragonwilds-creative-director-says-survival-crafting-has-more-in-common-with-mmos-than-you-might-think-its-almost-like-the-genre-was-born-from-mmos/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Psm8Lp5mzCcqCgWzUReGeL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-14T10:36:27"
+  },
+  {
+    "titulo": "The latest Nvidia driver lets you run ancient CPUs in Windows again without crashing",
+    "descricao": "NewsNow you can get that cursed PC build up and running.",
+    "link": "https://www.pcgamer.com/hardware/processors/the-latest-nvidia-driver-lets-you-run-ancient-cpus-in-windows-again-without-crashing/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/gGoipx8YJTDfLtuHy8u2mm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-14T10:36:27"
+  },
+  {
+    "titulo": "Windows 10 version of Microsoft 365 apps will be supported until 2028—but this isn't the Microsoft u-turn you may think it is",
+    "descricao": "NewsI mean, there are still a lot of reasons not to like Microsoft, though.",
+    "link": "https://www.pcgamer.com/software/operating-systems/windows-10-version-of-microsoft-365-apps-will-be-supported-until-2028-but-this-isnt-the-microsoft-u-turn-you-may-think-it-is/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mc473Txmp9VTmzX7Hm6ZV9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-14T10:36:27"
+  },
+  {
+    "titulo": "All 3 original Stalker games get 'fully remastered and optimized' versions next week, free for OG owners, and I can't wait to get shredded by an anomaly from the comfort of my sofa",
+    "descricao": "Something to enjoy while GSC keeps tinkering with Stalker 2.",
+    "link": "https://www.pcgamer.com/games/fps/all-3-original-stalker-games-get-fully-remastered-and-optimized-versions-next-week-and-i-cant-wait-to-get-shredded-by-an-anomaly-from-the-comfort-of-my-sofa/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/MzRYN3z9aq2EK63ArSAYhn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-14T10:36:27"
+  },
+  {
     "titulo": "'I missed it, I missed it all': the guy behind the Metal Gear song that goes with everything was 'two years' late to the meme because nobody told him about it",
     "descricao": "newsWhat's done is done.",
     "link": "https://www.pcgamer.com/games/action/i-missed-it-i-missed-it-all-the-guy-behind-the-metal-gear-song-that-goes-with-everything-was-two-years-late-to-the-meme-because-nobody-told-him-about-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qoe9o4bcWNiUi4zBjSGcDS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Don't swap out your pants just yet, Helldivers 2 might be getting another update next week to coincide with the battle for Super Earth",
@@ -13,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/dont-swap-out-your-pants-just-yet-helldivers-2-might-be-getting-another-update-next-week-to-coincide-with-the-battle-for-super-earth/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NPmWG8reYMgtSPVMoU8hDH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Intel admits it doesn't have any 'significant' commitments from customers to make advanced chips in its fabs",
@@ -21,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intel-admits-it-doesnt-have-any-significant-commitments-from-customers-to-make-advanced-chips-in-its-fabs/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Expert criticizes Gigabyte's alleged use of 'viscous paste with questionable long-term performance' instead of tried and tested GPU cooling solution",
@@ -29,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/expert-criticizes-gigabytes-alleged-use-of-viscous-paste-with-questionable-long-term-performance-instead-of-tried-and-tested-gpu-cooling-solution/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/adxxM8nthURnNW9Ae92CsF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Grab 900 of your closest internet strangers and hit the road, online",
@@ -37,39 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/grab-900-of-your-closest-internet-strangers-and-hit-the-road-online/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3hYkwXoHN7grnWYMDdagSU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
-  },
-  {
-    "titulo": "UK House of Lords backs amendment to AI bill thanks to peer vote that forces companies to reveal copyrighted material used in training AI models",
-    "descricao": "newsThe UK government doesn't seem to want to give people credit for their work in the name of progress. How good is the British museum, btw?",
-    "link": "https://www.pcgamer.com/hardware/uk-house-of-lords-backs-amendment-to-ai-bill-thanks-to-peer-vote-that-forces-companies-to-reveal-copyrighted-material-used-in-training-ai-models/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xMoG7mKtMPqphYvP3YEEoL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
-  },
-  {
-    "titulo": "Xbox and Audeze have teamed up to give our favourite wireless gaming headset for audiophiles a gorgeous floral trim and I am in love with this unusual take on gamer chic",
-    "descricao": "newsI want these beautiful notes of springtime all over my head and face while I brutally rip through demons, while also having the best quality audio piped into my ears wirelessly.",
-    "link": "https://www.pcgamer.com/hardware/xbox-and-audeze-have-teamed-up-to-give-our-favourite-wireless-gaming-headset-for-audiophiles-a-gorgeous-floral-trim-and-i-am-in-love-with-this-unusual-take-on-gamer-chic/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/K8zroSm9uNYo9rqdoWk46n.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
-  },
-  {
-    "titulo": "Today's Wordle answer for Wednesday, May 14",
-    "descricao": "regular riddleToday's Wordle: Help with the daily puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-14-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
-  },
-  {
-    "titulo": "Microsoft's upcoming OneDrive update bypasses security protocols between business and personal files",
-    "descricao": "newsThe new “Prompt to Add Personal Account to OneDrive Sync,” allows transfer between personal and work drives.",
-    "link": "https://www.pcgamer.com/software/windows/microsofts-upcoming-onedrive-update-bypasses-security-protocols-between-business-and-personal-files/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/bNwxbkf7rehKH3fUmxu4yh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Amazon confirma data de lançamento da 2ª temporada de Fallout com teaser",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/fallout-serie/140154/news/alem-de-renovar-fallout-para-3a-temporada-amazon-confirma-data-de-lancamento-da-2a-temporada-com-tea",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62056/62056_p4aq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Na reta final, série de TLOU encontra ódio necessário para trama e exalta ponto mais forte da temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140081/news/na-reta-final-serie-de-the-last-of-us-encontra-odio-necessario-para-trama-e-exalta-ponto-mais-forte",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62012/62012_nj3z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Thunderbolts: quanto custa a Torre dos Vingadores? Prédio infringe lei de Nova York",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/thunderbolts-1/139900/news/thunderbolts-quanto-custa-a-torre-dos-vingadores-predio-infringe-lei-de-nova-york-e-pode-custar-aind",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_1nr9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Doom: The Dark Ages brilha com ação intensa do começo ao fim, mas não é o melhor jogo da franquia | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/doom-the-dark-ages/140039/review/doom-the-dark-ages-brilha-com-acao-intensa-do-comeco-ao-fim-mas-nao-e-o-melhor-jogo-da-franquia-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/61946/61946_jh93.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "\"E se tentássemos trazer ordem ao caos?\": diretor de arte de The Precinct detalha inspirações no cinema policial e diferenças em relação aos GTAs clássicos",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-precinct/140182/news/e-se-tentassemos-trazer-ordem-ao-caos-diretor-de-arte-de-the-precinct-detalha-inspiracoes-no-cinema",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-precinct-capa_r33s.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Marvel 1943: Rise of Hydra, game dirigido por Amy Hennig, é adiado para 2026",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-1943-rise-of-hydra/140150/news/marvel-1943-rise-of-hydra-game-dirigido-por-amy-hennig-e-adiado-para-2026",
     "imagem": "https://sm.ign.com/t/ign_br/news/a/amy-hennig/amy-hennigs-marvel-1943-rise-of-hydra-delayed-to-2026_vwn2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "Ex-diretor técnico da Rockstar acha que este GTA injustiçado deveria ser remasterizado para a nova geração: \"ainda tem o melhor protagonista\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-iv/140140/news/ex-diretor-tecnico-da-rockstar-acha-que-este-gta-injusticado-deveria-ser-remasterizado-para-a-nova-g",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ex-rocksta/ex-rockstar-veteran-thinks-gta-4-should-be-remastered-niko-i_97bt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
     "titulo": "\"Há algo em seus olhos que são sombrios e mortos\": Bella Ramsey assustou diretor de The Last of Us em cena brutal da 2ª temporada da série",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140146/news/ha-algo-em-seus-olhos-que-sao-sombrios-e-mortos-bella-ramsey-assustou-diretor-de-the-last-of-us-em-c",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/alou_rk7m.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
-    "titulo": "\"Lamentamos muito ter que fazer esse anúncio\": Kingdom Hearts Missing-Link é cancelado, mas Square Enix têm boas notícias sobre o 4",
+    "titulo": "PS5 vai ficar mais caro? Sony considera aumento de preços em meio a impacto de tarifas",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/kingdom-hearts-iv/140194/news/lamentamos-muito-ter-que-fazer-esse-anuncio-kingdom-hearts-missing-link-e-cancelado-mas-square-enix",
-    "imagem": "https://sm.ign.com/t/ign_br/news/k/kingdom-he/kingdom-hearts-missing-link-mobile-game-cancelled-but-its-no_kg9x.280.jpg",
+    "link": "https://br.ign.com/playstation-5-2/140196/news/ps5-vai-ficar-mais-caro-sony-considera-aumento-de-precos-em-meio-a-impacto-de-tarifas",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-consi/sony-considering-price-rises-amid-685-million-impact-on-its_z66m.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   },
   {
-    "titulo": "Sequência de Super Mario Bros. - O Filme ganha título e depois é retirado de comunicado à imprensa",
+    "titulo": "Joga em console? Confira onde você pode comprar VALORANT Points mais barato",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/super-mario-bros-o-filme/140191/news/sequencia-de-super-mario-bros-o-filme-ganha-titulo-e-depois-e-retirado-de-comunicado-a-imprensa",
-    "imagem": "https://sm.ign.com/t/ign_br/news/u/unannounce/unannounced-super-mario-bros-movie-sequel-title-super-mario_ghh7.280.jpg",
+    "link": "https://br.ign.com/valorant/140193/news/joga-em-console-confira-onde-voce-pode-comprar-valorant-points-mais-barato",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/unnamed-8_1hp4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-14T10:00:54"
+    "timestamp": "2025-05-14T10:36:27"
   }
 ];
