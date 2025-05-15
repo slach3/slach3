@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/battle-royale/bad-news-for-general-grievous-fans-fortnites-big-mid-season-patch-has-been-delayed-leaving-us-another-24-hours-without-the-bonus-star-wars-battle-pass-track/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5XQrYiLMZxJwURvtPJPt6k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Ancient ThinkPad laptops, beloved by a certain kind of hardcore hardware fan, can be resurrected with a bespoke Meteor Lake mainboard, bringing the 2000s machine right up to date",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/ancient-thinkpad-laptops-beloved-by-a-certain-kind-of-hardcore-hardware-fan-can-be-resurrected-with-a-bespoke-meteor-lake-mainboard-bringing-the-2000s-machine-right-up-to-date/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/F93kDHWsC4eNwwBLWQZy8Q.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "The Assassin's Creed Shadows delay worked out so well for Ubisoft its CEO decided, hey, let's do a couple more for the road—and save 100 million more euros while we're at it",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/game-development/the-assassins-creed-shadows-delay-worked-out-so-well-for-ubisoft-its-ceo-decided-hey-lets-do-a-couple-more-for-the-road-and-save-100-million-more-euros-while-were-at-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/noMS6EDgWhA9ZZRNPakCfR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Rip and tear into Doom: The Dark Ages with $300 off this easily upgradeable RTX 5070 gaming PC",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/rip-and-tear-into-doom-the-dark-ages-with-usd300-off-this-easily-upgradeable-rtx-5070-gaming-pc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EmM4Uoh4ojfpFHTYRXeLUn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "AMD all but confirms the RX 9060 XT will be announced on May 21",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-all-but-confirms-the-rx-9060-xt-will-be-announced-on-may-21/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6e2eGX2VSocFcNeEdt85NB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "The Baldur's Gate 3 cast got a new set of pre-painted minis and—oh, oh no, oh no no no",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/the-baldurs-gate-3-cast-got-a-new-set-of-pre-painted-minis-and-oh-oh-no-oh-no-no-no/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HxUBik7exNsrd7qhSUNBUM.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "This is the ugliest GPU I've seen in a long, long time and weirdly I think I want one",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/this-is-the-ugliest-gpu-ive-seen-in-a-long-long-time-and-weirdly-i-think-i-want-one/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/K6yLgjLNXod2RyNzf7fK4n.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "It sounds like a six-word horror story, but 'Ransomware running directly from your CPU' is now a real thing",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/it-sounds-like-a-six-word-horror-story-but-ransomware-running-directly-from-your-cpu-is-now-a-real-thing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tvdVMiR4wTae6aJGeTbGHY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "VPN cancels lifetime subscriptions, having previously been unaware it was selling them",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/vpn-cancels-lifetime-subscriptions-having-previously-been-unaware-it-was-selling-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kwHNF9SopaiSrnsmMv2H59.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "GTA 6 adiado de novo? Lançamento em maio de 2026 não está 100% garantido, diz insider",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140224/news/gta-6-adiado-de-novo-insider-diz-que-lancamento-em-maio-de-2026-nao-esta-100-garantido",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/jason-duval-06-1746540363699_vayh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Quem é Tivik? Como o final de Andor faz conexão direta com Rogue One",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140198/news/quem-e-tivik-como-o-final-de-andor-faz-conexao-direta-com-rogue-one",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62123/62123_h3g5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Diretor de arte de The Precinct detalha inspirações no cinema e diferenças de GTA",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-precinct/140182/news/e-se-tentassemos-trazer-ordem-ao-caos-diretor-de-arte-de-the-precinct-detalha-inspiracoes-no-cinema",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_39cy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Premonição 6 explora novos ares para a franquia, mas não executa como esperado",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/premonicao-6-lacos-de-sangue/139822/review/premonicao-6-lacos-de-sangue-explora-novos-ares-para-a-franquia-mas-nao-executa-como-esperado-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62125/62125_da5w.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "De frente com Lois: com participações de outros heróis da DC, Superman dá entrevista em novo trailer de filme dirigido por James Gunn",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140235/news/de-frente-com-lois-com-participacoes-de-outros-herois-da-dc-superman-da-entrevista-em-novo-trailer-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/new-superm/new-superman-trailer-shows-fresh-looks-at-guy-gardner-hawkgi_jb44.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Ué? Max voltará com o nome HBO Max após 2 anos da mudança",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/a-casa-do-dragao/140210/news/ue-max-voltara-com-o-nome-hbo-max-apos-2-anos-da-mudanca",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/last-of-us-season-review-blog-1673269752415-1745857780491_twdt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Procon-SP notifica Nintendo por possíveis práticas abusivas em novos termos de uso",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140187/news/procon-sp-notifica-nintendo-por-possiveis-praticas-abusivas-em-novos-termos-de-uso",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gmde.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Star Wars: uma coincidência absurda faz o final de Andor ser ainda mais especial",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140177/news/star-wars-uma-coincidencia-absurda-faz-o-final-de-andor-ser-ainda-mais-especial",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/andor-12-blog-1668768377781-1745354989620_28b1.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
+  },
+  {
+    "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-15T11:22:04"
   },
   {
     "titulo": "Esta canção do infame desenho dos Looney Tunes ajudou a popularizar uma palavra que você fala todos os dias",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140258/news/esta-cancao-do-infame-desenho-dos-looney-tunes-ajudou-a-popularizar-uma-palavra-que-voce-fala-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_89wv.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
-  },
-  {
-    "titulo": "Você precisa dar uma chance para essa Smart TV",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140257/news/voce-precisa-dar-uma-chance-para-essa-smart-tv",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/smart-tv-samsung-50-un50du7700gxzd_jc3f.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T10:56:42"
+    "timestamp": "2025-05-15T11:22:04"
   }
 ];
