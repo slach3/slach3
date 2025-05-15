@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "GTA 5 Enhanced may have 'Mixed' reviews on Steam, but the update has opened new doors for modders pushing the boundaries of reality in a sandbox now over 10 years old: 'We have an amazing opportunity to take things further'",
-    "descricao": "NewsGTA Enhanced on PC has helped the NaturalVision project hit new and incredible heights",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-enhanced-may-have-mixed-reviews-on-steam-but-the-update-has-opened-new-doors-for-modders-pushing-the-boundaries-of-reality-in-a-sandbox-now-over-10-years-old-we-have-an-amazing-opportunity-to-take-things-further/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/R283hjxdjEjxihbf7Ruk4.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "Turns out, Super Mario 64 can trap you in a menu for 2.25 years—as long as you wait that long beforehand: 'This is a fair punishment'",
-    "descricao": "NewsStar-ting to run out of patience.",
-    "link": "https://www.pcgamer.com/games/adventure/turns-out-super-mario-64-can-trap-you-in-a-menu-for-2-25-years-as-long-as-you-wait-that-long-beforehand-this-is-a-fair-punishment/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/k2Yv8wf8XDAauPHHu6L4Hf.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "Critical Role's Matt Mercer and Laura Bailey are hosting this year's Future Games Show summer event",
-    "descricao": "NewsStrap in, it's going to be a good one.",
-    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/critical-roles-matt-mercer-and-laura-bailey-are-hosting-this-years-future-games-show-summer-event/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fgdHqP4EUXuzW3fy4fv4gC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "While we're in the GTA 6 waiting room, the Epic Games Mega Sale has the next best one on discount",
-    "descricao": "newsThe Epic Store's 2025 Mega Sale starts today.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/while-were-in-the-gta-6-waiting-room-the-epic-games-mega-sale-has-the-next-best-one-on-discount/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/vwoo9SGXkfnjCdM4TtqciF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "For the first time since launch you'll finally be able to craft saddles in Minecraft",
-    "descricao": "NewsHold your horses, this update is only in testing.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/for-the-first-time-since-launch-youll-finally-be-able-to-craft-saddles-in-minecraft/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HYECvgYXiAvjem4drQsdu6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "There's a rug in Oblivion that's just a real life rug you can get",
-    "descricao": "NewsBy the nine, a rug!",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/theres-a-rug-in-oblivion-thats-just-a-real-life-rug-you-can-get/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rFNAJNn32VE3YqNJ3Nn3G9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "The best-looking GTA 5 visual overhaul mod of all time lands today—these exclusive screens are so lifelike they'll make you question what is real",
-    "descricao": "NewsThe next strides for longstanding mod project NaturalVision are truly spectacular.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/the-best-looking-gta-5-visual-overhaul-mod-of-all-time-lands-today-these-exclusive-screens-are-so-lifelike-theyll-make-you-question-what-is-real/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RiGDey6b35WGUHWHkMwP.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "Don't tease me like that, Intel: Commenters on X are told to 'stay tuned' for Arc B770 news under a post about Computex",
-    "descricao": "NewsIf it's not announced at Computex then you got us good.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/dont-tease-me-like-that-intel-commenters-on-x-are-told-to-stay-tuned-for-arc-b770-news-under-a-post-about-computex/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UurEAxyjqRQ88neRtE2unV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
-    "titulo": "Bad news for General Grievous fans: Fortnite's big mid-season patch has been delayed, leaving us another 24 hours without the bonus Star Wars battle pass track",
-    "descricao": "newsMaybe the Apple's rotten right to the core.",
-    "link": "https://www.pcgamer.com/games/battle-royale/bad-news-for-general-grievous-fans-fortnites-big-mid-season-patch-has-been-delayed-leaving-us-another-24-hours-without-the-bonus-star-wars-battle-pass-track/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/5XQrYiLMZxJwURvtPJPt6k.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-15T12:32:10"
-  },
-  {
     "titulo": "GTA 6 adiado de novo? Lançamento em maio de 2026 não está 100% garantido, diz insider",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/grand-theft-auto-vi/140224/news/gta-6-adiado-de-novo-insider-diz-que-lancamento-em-maio-de-2026-nao-esta-100-garantido",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/jason-duval-06-1746540363699_vayh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Quem é Tivik? Como o final de Andor faz conexão direta com Rogue One",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140198/news/quem-e-tivik-como-o-final-de-andor-faz-conexao-direta-com-rogue-one",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62123/62123_h3g5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Diretor de arte de The Precinct detalha inspirações no cinema e diferenças de GTA",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/the-precinct/140182/news/e-se-tentassemos-trazer-ordem-ao-caos-diretor-de-arte-de-the-precinct-detalha-inspiracoes-no-cinema",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_39cy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Premonição 6 explora novos ares para a franquia, mas não executa como esperado",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/premonicao-6-lacos-de-sangue/139822/review/premonicao-6-lacos-de-sangue-explora-novos-ares-para-a-franquia-mas-nao-executa-como-esperado-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62125/62125_da5w.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "De frente com Lois: com participações de outros heróis da DC, Superman dá entrevista em novo trailer de filme dirigido por James Gunn",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140235/news/de-frente-com-lois-com-participacoes-de-outros-herois-da-dc-superman-da-entrevista-em-novo-trailer-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/new-superm/new-superman-trailer-shows-fresh-looks-at-guy-gardner-hawkgi_jb44.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Ué? Max voltará com o nome HBO Max após 2 anos da mudança",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/a-casa-do-dragao/140210/news/ue-max-voltara-com-o-nome-hbo-max-apos-2-anos-da-mudanca",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/last-of-us-season-review-blog-1673269752415-1745857780491_twdt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Procon-SP notifica Nintendo por possíveis práticas abusivas em novos termos de uso",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140187/news/procon-sp-notifica-nintendo-por-possiveis-praticas-abusivas-em-novos-termos-de-uso",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gmde.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Star Wars: uma coincidência absurda faz o final de Andor ser ainda mais especial",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140177/news/star-wars-uma-coincidencia-absurda-faz-o-final-de-andor-ser-ainda-mais-especial",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/andor-12-blog-1668768377781-1745354989620_28b1.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4 e diz estar focada em \"fazer uma experiência que atenda às suas expectativas\"",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
   },
   {
     "titulo": "Haja dinheiro! Novo filme de Christopher Nolan será o primeiro blockbuster a ser filmado inteiramente por câmeras IMAX",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140273/news/haja-dinheiro-novo-filme-de-christopher-nolan-sera-o-primeiro-blockbuster-a-ser-filmado-inteiramente",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cn_zzns.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-15T12:32:10"
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "Nvidia might launch a GeForce RTX 5080 Super/Ti with 24 GB of VRAM sooner than we thought",
+    "descricao": "NewsBefore year's end? I suppose we'll see.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-might-launch-a-geforce-rtx-5080-super-ti-with-24-gb-of-vram-sooner-than-we-thought/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TPox8ANaesC8QbmwvTbHtk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "GTA 5 Enhanced may have 'Mixed' reviews on Steam, but the update has opened new doors for modders pushing the boundaries of reality in a sandbox now over 10 years old: 'We have an amazing opportunity to take things further'",
+    "descricao": "NewsGTA Enhanced on PC has helped the NaturalVision project hit new and incredible heights",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-enhanced-may-have-mixed-reviews-on-steam-but-the-update-has-opened-new-doors-for-modders-pushing-the-boundaries-of-reality-in-a-sandbox-now-over-10-years-old-we-have-an-amazing-opportunity-to-take-things-further/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/R283hjxdjEjxihbf7Ruk4.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "Turns out, Super Mario 64 can trap you in a menu for 2.25 years—as long as you wait that long beforehand: 'This is a fair punishment'",
+    "descricao": "NewsStar-ting to run out of patience.",
+    "link": "https://www.pcgamer.com/games/adventure/turns-out-super-mario-64-can-trap-you-in-a-menu-for-2-25-years-as-long-as-you-wait-that-long-beforehand-this-is-a-fair-punishment/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/k2Yv8wf8XDAauPHHu6L4Hf.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "Critical Role's Matt Mercer and Laura Bailey are hosting this year's Future Games Show summer event",
+    "descricao": "NewsStrap in, it's going to be a good one.",
+    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/critical-roles-matt-mercer-and-laura-bailey-are-hosting-this-years-future-games-show-summer-event/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fgdHqP4EUXuzW3fy4fv4gC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "While we're in the GTA 6 waiting room, the Epic Games Mega Sale has the next best one on discount",
+    "descricao": "newsThe Epic Store's 2025 Mega Sale starts today.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/while-were-in-the-gta-6-waiting-room-the-epic-games-mega-sale-has-the-next-best-one-on-discount/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/vwoo9SGXkfnjCdM4TtqciF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "For the first time since launch you'll finally be able to craft saddles in Minecraft",
+    "descricao": "NewsHold your horses, this update is only in testing.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/for-the-first-time-since-launch-youll-finally-be-able-to-craft-saddles-in-minecraft/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/HYECvgYXiAvjem4drQsdu6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "There's a rug in Oblivion that's just a real life rug you can get",
+    "descricao": "NewsBy the nine, a rug!",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/theres-a-rug-in-oblivion-thats-just-a-real-life-rug-you-can-get/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rFNAJNn32VE3YqNJ3Nn3G9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "The best-looking GTA 5 visual overhaul mod of all time lands today—these exclusive screens are so lifelike they'll make you question what is real",
+    "descricao": "NewsThe next strides for longstanding mod project NaturalVision are truly spectacular.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/the-best-looking-gta-5-visual-overhaul-mod-of-all-time-lands-today-these-exclusive-screens-are-so-lifelike-theyll-make-you-question-what-is-real/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RiGDey6b35WGUHWHkMwP.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
+  },
+  {
+    "titulo": "Don't tease me like that, Intel: Commenters on X are told to 'stay tuned' for Arc B770 news under a post about Computex",
+    "descricao": "NewsIf it's not announced at Computex then you got us good.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/dont-tease-me-like-that-intel-commenters-on-x-are-told-to-stay-tuned-for-arc-b770-news-under-a-post-about-computex/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UurEAxyjqRQ88neRtE2unV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-15T12:46:19"
   }
 ];
