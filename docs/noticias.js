@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "The first ever third-party game to come to Steam probably doesn't get the respect it deserves—mostly because no one remembers it",
-    "descricao": "NEWSRag Doll Kung Fu has a unique and important place in PC gaming history.",
-    "link": "https://www.pcgamer.com/games/fighting/the-first-ever-third-party-game-to-come-to-steam-probably-doesnt-get-the-respect-it-deserves-mostly-because-no-one-remembers-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZoF83TATAHe3hSJsPbn4kL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "After Oblivion subreddit bans 'low effort' sexy flame Atronach posts, users respond with high effort sexy flame Atronach posts—'deleting this would be a travesty'",
-    "descricao": "NewsThat's enough internet for one week.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/after-oblivion-subreddit-bans-low-effort-sexy-flame-atronach-posts-users-respond-with-high-effort-sexy-flame-atronach-posts-deleting-this-would-be-a-travesty/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/f8GooXTqvPbb49pJrtrLea.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "Someone flipped a switch on Elon Musk's Grok AI so it wouldn't stop banging on about 'white genocide' and South African politics, xAI blames 'an unauthorized modification' but doesn't say who did it",
-    "descricao": "News\"It’s awfully easy for the people who are in charge of these algorithms to manipulate the version of truth that they’re giving.\"",
-    "link": "https://www.pcgamer.com/software/ai/someone-flipped-a-switch-on-elon-musks-grok-ai-so-it-wouldnt-stop-banging-on-about-white-genocide-and-south-african-politics-xai-blames-an-unauthorized-modification-but-doesnt-say-who-did-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RYEXTskz9rYHJjUSYAitsF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "Fortnite added an AI-powered Darth Vader and—surprise—players immediately tricked him into saying slurs",
-    "descricao": "NewsNobody could have foreseen this.",
-    "link": "https://www.pcgamer.com/games/battle-royale/fortnite-added-an-ai-powered-darth-vader-and-surprise-players-immediately-tricked-him-into-saying-slurs/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6PizRsgtyeZdzHDhGucnEZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "Amassing over $10,000 worth of retro GPUs over 14 years, this avid collector says they were astounded it started with a $28 purchase",
-    "descricao": "NewsJust look at them all.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/amassing-over-usd10-000-worth-of-retro-gpus-over-14-years-this-avid-collector-says-they-were-astounded-it-started-with-a-usd28-purchase/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tofTi7YX3kEkb2f4zAwjR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "This SteelSeries microphone is more than most gamers would need, but it's hard to say no at its best price",
-    "descricao": "DealOne for the stream queens, podcast kings, and motor mouth monarchs.",
-    "link": "https://www.pcgamer.com/hardware/microphones/this-steelseries-microphone-is-more-than-most-gamers-would-need-but-its-hard-to-say-no-at-its-best-price/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/M2SExFyPkKEyfBFgmbb7Da.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "The new Acer Nitro PG1 is the first portable monitor I actually want thanks to 4K resolution and up to 144 Hz refresh",
-    "descricao": "newsIt looks super slick, too.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-new-acer-nitro-pg1-is-the-first-portable-monitor-i-actually-want-thanks-to-4k-resolution-and-up-to-144-hz-refresh/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pfpjU3X6WXmYcvXzgQ9s2f.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "The wacky Pokémon exhibition that puts Poké-fossils alongside real fossils is coming to the United States",
-    "descricao": "NewsBut you can also browse the exhibits online.",
-    "link": "https://www.pcgamer.com/games/the-wacky-pokemon-exhibition-that-puts-poke-fossils-alongside-real-fossils-is-coming-to-the-united-states/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Xiv5uNfCPefghq9Q695WkH.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
-    "titulo": "MSl's new PortalX website 'eliminates the need for software' to control your gear's RGB lighting and I'm happy to ditch the PC apps",
-    "descricao": "NewsOne small step.",
-    "link": "https://www.pcgamer.com/hardware/msls-new-portalx-website-eliminates-the-need-for-software-to-control-your-gears-rgb-lighting-and-im-happy-to-ditch-the-pc-apps/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cP7MpWHGyHt4k3bAmhukRh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-16T14:17:36"
-  },
-  {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Poucos notaram, mas novo trailer de Superman mudou detalhe específico",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140275/news/poucos-notaram-mas-novo-trailer-de-superman-mudou-um-detalhe-muito-especifico-em-comparacao-a-primei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62189/62189_rnfq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "GTA 6 adiado de novo? Lançamento em maio de 2026 não está 100% garantido, diz insider",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140224/news/gta-6-adiado-de-novo-insider-diz-que-lancamento-em-maio-de-2026-nao-esta-100-garantido",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/jason-duval-06-1746540363699_vayh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Atraso no lançamento de Assassin's Creed Shadows funcionou tão bem que a Ubisoft economizou 200 milhões de euros só em 2024",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/assassins-creed-shadows/140270/news/atraso-no-lancamento-de-assassins-creed-shadows-funcionou-tao-bem-que-a-ubisoft-economizou-200-milho",
     "imagem": "https://sm.ign.com/t/ign_br/news/a/assassins-/assassins-creed-shadows-roadmap-includes-free-updates-driven_89tf.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "De frente com Lois: com participações de outros heróis da DC, Superman dá entrevista em novo trailer de filme dirigido por James Gunn",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140235/news/de-frente-com-lois-com-participacoes-de-outros-herois-da-dc-superman-da-entrevista-em-novo-trailer-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/new-superm/new-superman-trailer-shows-fresh-looks-at-guy-gardner-hawkgi_jb44.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Há 54 anos, este filme de faroeste brutal escapou da classificação de 18 anos, mas teve que cortar 20 minutos de filmagem",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140334/feature/ha-54-anos-este-filme-de-faroeste-brutal-escapou-da-classificacao-de-18-anos-mas-teve-que-cortar-20",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_q6bw.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
   },
   {
     "titulo": "Mundos de The Outer Worlds 2 serão maiores — e melhores | IGN First",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140328/preview/mundos-de-the-outer-worlds-2-serao-maiores-e-melhores-ign-first",
     "imagem": "https://sm.ign.com/t/ign_br/preview/t/the-outer-/the-outer-worlds-2s-worlds-are-going-bigger-ign-first_x5ek.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-16T14:17:36"
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "Veteran indie dev says success on Steam these days is impossible to predict: 'Why did Balatro take off? You could write a million f***ing essays and none of them will be definitely right'",
+    "descricao": "News\"Everything has changed. Everything is harder work.\"",
+    "link": "https://www.pcgamer.com/gaming-industry/veteran-indie-dev-says-success-on-steam-these-days-is-impossible-to-predict-why-did-balatro-take-off-you-could-write-a-million-f-ing-essays-and-none-of-them-will-be-definitely-right/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Wa7yNtURVJw32EmGsvHUpM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "The first ever third-party game to come to Steam probably doesn't get the respect it deserves—mostly because no one remembers it",
+    "descricao": "NEWSRag Doll Kung Fu has a unique and important place in PC gaming history.",
+    "link": "https://www.pcgamer.com/games/fighting/the-first-ever-third-party-game-to-come-to-steam-probably-doesnt-get-the-respect-it-deserves-mostly-because-no-one-remembers-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZoF83TATAHe3hSJsPbn4kL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "After Oblivion subreddit bans 'low effort' sexy flame Atronach posts, users respond with high effort sexy flame Atronach posts—'deleting this would be a travesty'",
+    "descricao": "NewsThat's enough internet for one week.",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/after-oblivion-subreddit-bans-low-effort-sexy-flame-atronach-posts-users-respond-with-high-effort-sexy-flame-atronach-posts-deleting-this-would-be-a-travesty/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/f8GooXTqvPbb49pJrtrLea.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "Someone flipped a switch on Elon Musk's Grok AI so it wouldn't stop banging on about 'white genocide' and South African politics, xAI blames 'an unauthorized modification' but doesn't say who did it",
+    "descricao": "News\"It’s awfully easy for the people who are in charge of these algorithms to manipulate the version of truth that they’re giving.\"",
+    "link": "https://www.pcgamer.com/software/ai/someone-flipped-a-switch-on-elon-musks-grok-ai-so-it-wouldnt-stop-banging-on-about-white-genocide-and-south-african-politics-xai-blames-an-unauthorized-modification-but-doesnt-say-who-did-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RYEXTskz9rYHJjUSYAitsF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "Fortnite added an AI-powered Darth Vader and—surprise—players immediately tricked him into saying slurs",
+    "descricao": "NewsNobody could have foreseen this.",
+    "link": "https://www.pcgamer.com/games/battle-royale/fortnite-added-an-ai-powered-darth-vader-and-surprise-players-immediately-tricked-him-into-saying-slurs/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6PizRsgtyeZdzHDhGucnEZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "Amassing over $10,000 worth of retro GPUs over 14 years, this avid collector says they were astounded it started with a $28 purchase",
+    "descricao": "NewsJust look at them all.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/amassing-over-usd10-000-worth-of-retro-gpus-over-14-years-this-avid-collector-says-they-were-astounded-it-started-with-a-usd28-purchase/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tofTi7YX3kEkb2f4zAwjR.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "This SteelSeries microphone is more than most gamers would need, but it's hard to say no at its best price",
+    "descricao": "DealOne for the stream queens, podcast kings, and motor mouth monarchs.",
+    "link": "https://www.pcgamer.com/hardware/microphones/this-steelseries-microphone-is-more-than-most-gamers-would-need-but-its-hard-to-say-no-at-its-best-price/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/M2SExFyPkKEyfBFgmbb7Da.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "The new Acer Nitro PG1 is the first portable monitor I actually want thanks to 4K resolution and up to 144 Hz refresh",
+    "descricao": "newsIt looks super slick, too.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-new-acer-nitro-pg1-is-the-first-portable-monitor-i-actually-want-thanks-to-4k-resolution-and-up-to-144-hz-refresh/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pfpjU3X6WXmYcvXzgQ9s2f.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
+  },
+  {
+    "titulo": "The wacky Pokémon exhibition that puts Poké-fossils alongside real fossils is coming to the United States",
+    "descricao": "NewsBut you can also browse the exhibits online.",
+    "link": "https://www.pcgamer.com/games/the-wacky-pokemon-exhibition-that-puts-poke-fossils-alongside-real-fossils-is-coming-to-the-united-states/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Xiv5uNfCPefghq9Q695WkH.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-16T14:34:39"
   }
 ];
