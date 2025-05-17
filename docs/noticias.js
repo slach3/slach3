@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Take-Two CEO reckons Civilization 7's mixed reception is just history repeating itself: 'Every time we've come out with a new platform iteration of Civilization, there's been some consternation on the part of consumers'",
-    "descricao": "NewsStrauss Zelnick admits the sequel \"definitely had some challenges\", but says that overall \"we're really happy with how it's going\".",
-    "link": "https://www.pcgamer.com/games/strategy/take-two-ceo-reckons-civilization-7s-mixed-reception-is-just-history-repeating-itself-every-time-weve-come-out-with-a-new-platform-iteration-of-civilization-theres-been-some-consternation-on-the-part-of-consumers/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Pdf5davDdKFtWocNKTwVWg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "REPO developer teases the game's 'most powerful weapon' yet, a mountable cannon that will 'turn your cart into a battle tank'",
-    "descricao": "NewsBalance changes to enemies and player health also in the works.",
-    "link": "https://www.pcgamer.com/games/horror/repo-developer-teases-the-games-most-powerful-weapon-yet-a-mountable-cannon-that-will-turn-your-cart-into-a-battle-tank/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/GXXf5KYPuve3HPnAP8eC8P.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Two Warhammer 40,000 games will be delisted from Steam on Monday, and one of them is currently on a 90% discount",
-    "descricao": "NewsYou've got two days before Warhammer 40,000: Armageddon and Warhammer 40,000: Sanctus Reach leave Steam forever.",
-    "link": "https://www.pcgamer.com/games/strategy/two-warhammer-40-000-games-will-be-delisted-from-steam-on-monday-and-one-of-them-is-currently-on-a-90-percent-discount/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wzMfLoWJGnkd3gDhm5UyKA.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Today's Wordle answer for Saturday, May 17",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-17-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Another Sony live service shooter may be in trouble as Jade Raymond exits the studio making PvP heist sandbox Fairgames",
-    "descricao": "newsSony can't catch a break.",
-    "link": "https://www.pcgamer.com/gaming-industry/another-sony-live-service-shooter-may-be-in-trouble-as-jade-raymond-exits-the-studio-making-pvp-heist-sandbox-fairgames/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tSaXkcGb27GiPJknvrZJdE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Finally, some good news: The world's only Warhammer academic conference is returning in September to present more talks like 'The ethical implications of the Imperium’s war with chaos and the inverted meaning of order'",
-    "descricao": "NewsIn the grim darkness of the 21st century, there is only scholarly analysis of the grim darkness of the 41st millennium.",
-    "link": "https://www.pcgamer.com/games/board-games/finally-some-good-news-the-worlds-only-warhammer-academic-conference-is-returning-in-september-to-present-more-talks-like-the-ethical-implications-of-the-imperiums-war-with-chaos-and-the-inverted-meaning-of-order/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/bRiuwtX3nBa4tkWWeeib9f.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Fortnite added an AI-powered Darth Vader and—surprise—players immediately tricked him into saying slurs",
-    "descricao": "NewsUpdate: Epic has deployed a hotfix to address Vader's profanity.",
-    "link": "https://www.pcgamer.com/games/battle-royale/fortnite-added-an-ai-powered-darth-vader-and-surprise-players-immediately-tricked-him-into-saying-slurs/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6PizRsgtyeZdzHDhGucnEZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "World of Warcraft game director on the woeful patch 11.1.5: 'It's not the experience our players are expecting or deserve'",
-    "descricao": "newsBugs and time-gated content enraged players.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-game-director-on-the-woeful-patch-11-1-5-its-not-the-experience-our-players-are-expecting-or-deserve/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cRcyKLgcpXZyhbGcuU2kWf.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
-    "titulo": "Clair Obscur's director has an old YouTube channel full of masterful no-hit Devil May Cry videos because of course he does",
-    "descricao": "newsYou'll never guess what his favorite fighting style is.",
-    "link": "https://www.pcgamer.com/games/rpg/clair-obscurs-director-has-an-old-youtube-channel-full-of-masterful-no-hit-devil-may-cry-videos-because-of-course-he-does/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/axs8mMhbx49BNtdfBtj7pd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-17T11:53:29"
-  },
-  {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Poucos notaram, mas novo trailer de Superman mudou detalhe específico",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140275/news/poucos-notaram-mas-novo-trailer-de-superman-mudou-um-detalhe-muito-especifico-em-comparacao-a-primei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62189/62189_rnfq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Darth Vader chega ao Fortnite com IA capaz de conversar com jogadores",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/140319/news/darth-vader-chega-ao-fortnite-com-ia-capaz-de-conversar-com-jogadores",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/fortnites-/fortnites-darth-vader-ai-will-support-your-combat-and-wellbe_24b5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
@@ -133,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Um safe point no meio da realidade: como games constroem ambientes aconchegantes e nos fazem sentir mais \"em casa\" do que nossos próprios lares",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1-2_dxw4.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
     "titulo": "Qual o primeiro mangá e anime do mundo? Estas artes têm mais tempo do que você imagina",
@@ -141,14 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/anime/140230/feature/qual-o-primeiro-manga-e-anime-do-mundo-estas-artes-tem-mais-tempo-do-que-voce-imagina",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9h5g.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "timestamp": "2025-05-17T12:12:46"
   },
   {
-    "titulo": "Modders trazem jogos do GameCube para o PC com engenharia reversa",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140226/news/modders-trazem-jogos-do-gamecube-para-o-pc-com-engenharia-reversa",
-    "imagem": "https://sm.ign.com/t/ign_br/news/u/ultra-rare/ultra-rare-gamecube-prototype-with-led-lighting-and-unique-c_5xv7.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-17T11:53:29"
+    "titulo": "Take-Two CEO reckons Civilization 7's mixed reception is just history repeating itself: 'Every time we've come out with a new platform iteration of Civilization, there's been some consternation on the part of consumers'",
+    "descricao": "NewsStrauss Zelnick admits the sequel \"definitely had some challenges\", but says that overall \"we're really happy with how it's going\".",
+    "link": "https://www.pcgamer.com/games/strategy/take-two-ceo-reckons-civilization-7s-mixed-reception-is-just-history-repeating-itself-every-time-weve-come-out-with-a-new-platform-iteration-of-civilization-theres-been-some-consternation-on-the-part-of-consumers/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Pdf5davDdKFtWocNKTwVWg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "REPO developer teases the game's 'most powerful weapon' yet, a mountable cannon that will 'turn your cart into a battle tank'",
+    "descricao": "NewsBalance changes to enemies and player health also in the works.",
+    "link": "https://www.pcgamer.com/games/horror/repo-developer-teases-the-games-most-powerful-weapon-yet-a-mountable-cannon-that-will-turn-your-cart-into-a-battle-tank/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/GXXf5KYPuve3HPnAP8eC8P.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Two Warhammer 40,000 games will be delisted from Steam on Monday, and one of them is currently on a 90% discount",
+    "descricao": "NewsYou've got two days before Warhammer 40,000: Armageddon and Warhammer 40,000: Sanctus Reach leave Steam forever.",
+    "link": "https://www.pcgamer.com/games/strategy/two-warhammer-40-000-games-will-be-delisted-from-steam-on-monday-and-one-of-them-is-currently-on-a-90-percent-discount/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/wzMfLoWJGnkd3gDhm5UyKA.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Today's Wordle answer for Saturday, May 17",
+    "descricao": "regular riddleGet all the help you need with today's Wordle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-17-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Another Sony live service shooter may be in trouble as Jade Raymond exits the studio making PvP heist sandbox Fairgames",
+    "descricao": "newsSony can't catch a break.",
+    "link": "https://www.pcgamer.com/gaming-industry/another-sony-live-service-shooter-may-be-in-trouble-as-jade-raymond-exits-the-studio-making-pvp-heist-sandbox-fairgames/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tSaXkcGb27GiPJknvrZJdE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Finally, some good news: The world's only Warhammer academic conference is returning in September to present more talks like 'The ethical implications of the Imperium’s war with chaos and the inverted meaning of order'",
+    "descricao": "NewsIn the grim darkness of the 21st century, there is only scholarly analysis of the grim darkness of the 41st millennium.",
+    "link": "https://www.pcgamer.com/games/board-games/finally-some-good-news-the-worlds-only-warhammer-academic-conference-is-returning-in-september-to-present-more-talks-like-the-ethical-implications-of-the-imperiums-war-with-chaos-and-the-inverted-meaning-of-order/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/bRiuwtX3nBa4tkWWeeib9f.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Fortnite added an AI-powered Darth Vader and—surprise—players immediately tricked him into saying slurs",
+    "descricao": "NewsUpdate: Epic has deployed a hotfix to address Vader's profanity.",
+    "link": "https://www.pcgamer.com/games/battle-royale/fortnite-added-an-ai-powered-darth-vader-and-surprise-players-immediately-tricked-him-into-saying-slurs/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6PizRsgtyeZdzHDhGucnEZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "World of Warcraft game director on the woeful patch 11.1.5: 'It's not the experience our players are expecting or deserve'",
+    "descricao": "newsBugs and time-gated content enraged players.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-game-director-on-the-woeful-patch-11-1-5-its-not-the-experience-our-players-are-expecting-or-deserve/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cRcyKLgcpXZyhbGcuU2kWf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
+  },
+  {
+    "titulo": "Clair Obscur's director has an old YouTube channel full of masterful no-hit Devil May Cry videos because of course he does",
+    "descricao": "newsYou'll never guess what his favorite fighting style is.",
+    "link": "https://www.pcgamer.com/games/rpg/clair-obscurs-director-has-an-old-youtube-channel-full-of-masterful-no-hit-devil-may-cry-videos-because-of-course-he-does/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/axs8mMhbx49BNtdfBtj7pd.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-17T12:12:46"
   }
 ];
