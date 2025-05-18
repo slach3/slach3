@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/one-of-our-most-anticipated-survival-horror-stealth-games-shows-off-more-of-its-monster-juice-power-up-system-which-looks-like-an-unholy-cross-between-hitman-and-mario-odyssey/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ADD38mAtUbnUsWrYizdhxQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "This aggressively vaporwave offroad driving game by a car mechanic turned solo dev just got a Steam demo",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/this-aggressively-vaporwave-offroad-driving-game-by-a-car-mechanic-turned-solo-dev-just-got-a-steam-demo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sM5pyxv5JD7A9XofzDoJX4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "'They don't really make life decisions without asking ChatGPT': OpenAI boss Sam Altman thinks young people turning to chatbots for life advice is 'cool'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/they-dont-really-make-life-decisions-without-asking-chatgpt-openai-boss-sam-altman-thinks-young-people-turning-to-chatbots-for-life-advice-is-cool/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DHXMyKjg6emb8opLW4f5YS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Baldur's Gate 3 has an ultra-rare Act 3 scenario where zombie versions of the tiefling refugees show up in their usual spots acting like everything's normal",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-has-an-ultra-rare-act-3-scenario-where-zombie-versions-of-the-tiefling-refugees-show-up-in-their-usual-spots-acting-like-everythings-normal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rTdMmK3GiaZmczAdM789rk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Wait, there's a Lord of the Rings movie about Gollum coming in 2027?",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/wait-theres-a-lord-of-the-rings-movie-about-gollum-coming-in-2027/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3PPyiDpC8wHbCSB6ZnAWLL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Czech mayor gifts $200 Kingdom Come: Deliverance 2 collector's edition to country's Prime Minister, elevating the game alongside the Witcher 2 in the company of CRPG state gifts",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/czech-mayor-gifts-usd200-kingdom-come-deliverance-2-collectors-edition-to-countrys-prime-minister-elevating-the-game-alongside-the-witcher-2-in-the-company-of-crpg-state-gifts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Egw2YFdaXFnRByg57dCMbF.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Netflix is going to make its ad breaks even more annoying with AI-generated garbage",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/netflix-is-going-to-make-its-ad-breaks-even-more-annoying-with-ai-generated-garbage/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CtmZwtVLvBapBYRKf47cH5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "'The vibes have never been worse' Bungie's morale is reportedly in 'free fall' following its art theft fiasco",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-vibes-have-never-been-worse-bungies-morale-is-reportedly-in-free-fall-following-its-art-theft-fiasco/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GmeTtRUoGZUouoP8MYwV39.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Netflix's long-awaited Gears of War movie might actually have a director, and it's the guy who helmed Bullet Train and codirected John Wick",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/netflixs-long-awaited-gears-of-war-movie-might-actually-have-a-director-and-its-the-guy-who-helmed-bullet-train-and-codirected-john-wick/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cK2eFWjU4pNG7HcBdoVMLX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Darth Vader chega ao Fortnite com IA capaz de conversar com jogadores",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/140319/news/darth-vader-chega-ao-fortnite-com-ia-capaz-de-conversar-com-jogadores",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/fortnites-/fortnites-darth-vader-ai-will-support-your-combat-and-wellbe_24b5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
     "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
-    "titulo": "4 kaijus que podem ser os vilões de Godzilla X Kong: Supernova",
+    "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/godzilla-x-kong-the-new-empire/140322/news/4-kaijus-que-podem-ser-os-viloes-de-godzilla-x-kong-supernova",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/g1_gkwm.280.png",
+    "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   },
   {
-    "titulo": "Microsoft alivia a pressão para usuários do Windows 10: aplicativos do Office continuarão a ter suporte por mais alguns anos",
+    "titulo": "Por APENAS R$2.099: Smart TV Philips Ambilight 50\" 4K em oferta na Amazon",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/microsoft/140301/news/microsoft-alivia-a-pressao-para-usuarios-do-windows-10-aplicativos-do-office-continuarao-a-ter-supor",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fyny.280.jpg",
+    "link": "https://br.ign.com/descontos/140352/news/por-apenas-r2099-smart-tv-philips-ambilight-50-4k-em-oferta-na-amazon",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/philips-ambilight-50-4k-wppg_289687_yz9r.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T17:55:29"
+    "timestamp": "2025-05-18T18:15:52"
   }
 ];
