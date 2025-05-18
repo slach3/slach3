@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "'More darts, more farts': Rust dev makes 'fart darts' for hack week, and you can probably guess what they do",
-    "descricao": "NewsWill the 'stackable flatulence dart' make it into Rust? We can only hope.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/more-darts-more-farts-rust-dev-makes-fart-darts-for-hack-week-and-you-can-probably-guess-what-they-do/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RkZXLvVkZLit458YMBpBxU.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "One of our most anticipated survival horror stealth games shows off more of its monster juice power-up system, which looks like an unholy cross between Hitman and Mario Odyssey",
-    "descricao": "newsGloomwood recently introduced its monster juice to early access, but will soon let you slurp even more monster juice.",
-    "link": "https://www.pcgamer.com/games/horror/one-of-our-most-anticipated-survival-horror-stealth-games-shows-off-more-of-its-monster-juice-power-up-system-which-looks-like-an-unholy-cross-between-hitman-and-mario-odyssey/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ADD38mAtUbnUsWrYizdhxQ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "This aggressively vaporwave offroad driving game by a car mechanic turned solo dev just got a Steam demo",
-    "descricao": "newsScout out routes to quickly move a volatile cargo from one place to another.",
-    "link": "https://www.pcgamer.com/games/racing/this-aggressively-vaporwave-offroad-driving-game-by-a-car-mechanic-turned-solo-dev-just-got-a-steam-demo/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sM5pyxv5JD7A9XofzDoJX4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "'They don't really make life decisions without asking ChatGPT': OpenAI boss Sam Altman thinks young people turning to chatbots for life advice is 'cool'",
-    "descricao": "newsThe tech bros are apparently so disconnected they think AI can be your best friend, therapist, and life advisor.",
-    "link": "https://www.pcgamer.com/software/ai/they-dont-really-make-life-decisions-without-asking-chatgpt-openai-boss-sam-altman-thinks-young-people-turning-to-chatbots-for-life-advice-is-cool/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DHXMyKjg6emb8opLW4f5YS.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "Baldur's Gate 3 has an ultra-rare Act 3 scenario where zombie versions of the tiefling refugees show up in their usual spots acting like everything's normal",
-    "descricao": "newsI guess it's kind of a happy ending.",
-    "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-has-an-ultra-rare-act-3-scenario-where-zombie-versions-of-the-tiefling-refugees-show-up-in-their-usual-spots-acting-like-everythings-normal/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rTdMmK3GiaZmczAdM789rk.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "Wait, there's a Lord of the Rings movie about Gollum coming in 2027?",
-    "descricao": "newsBy Andy Serkis? From actual Peter Jackson, Fran Walsh, and Philippa Boyens?",
-    "link": "https://www.pcgamer.com/games/wait-theres-a-lord-of-the-rings-movie-about-gollum-coming-in-2027/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3PPyiDpC8wHbCSB6ZnAWLL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "Czech mayor gifts $200 Kingdom Come: Deliverance 2 collector's edition to country's Prime Minister, elevating the game alongside the Witcher 2 in the company of CRPG state gifts",
-    "descricao": "newsUnfortunately, it was the PS5 version.",
-    "link": "https://www.pcgamer.com/games/rpg/czech-mayor-gifts-usd200-kingdom-come-deliverance-2-collectors-edition-to-countrys-prime-minister-elevating-the-game-alongside-the-witcher-2-in-the-company-of-crpg-state-gifts/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Egw2YFdaXFnRByg57dCMbF.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "Netflix is going to make its ad breaks even more annoying with AI-generated garbage",
-    "descricao": "newsNetflix is hoping you won't notice AI-generated ads interrupting your Squid Game rewatch.",
-    "link": "https://www.pcgamer.com/movies-tv/netflix-is-going-to-make-its-ad-breaks-even-more-annoying-with-ai-generated-garbage/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CtmZwtVLvBapBYRKf47cH5.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
-    "titulo": "'The vibes have never been worse' Bungie's morale is reportedly in 'free fall' following its art theft fiasco",
-    "descricao": "NewsDevs also claim they have been often ignored by the studio's \"good old boy\" leadership regarding the overarching design.",
-    "link": "https://www.pcgamer.com/games/fps/the-vibes-have-never-been-worse-bungies-morale-is-reportedly-in-free-fall-following-its-art-theft-fiasco/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/GmeTtRUoGZUouoP8MYwV39.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T19:00:04"
-  },
-  {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Darth Vader chega ao Fortnite com IA capaz de conversar com jogadores",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/140319/news/darth-vader-chega-ao-fortnite-com-ia-capaz-de-conversar-com-jogadores",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/fortnites-/fortnites-darth-vader-ai-will-support-your-combat-and-wellbe_24b5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
     "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
-    "titulo": "5 jogos para PS5 que são sucesso de vendas no Mercado Livre",
+    "titulo": "BLAST e Ubisoft confirmam locais do 2º Major de 2025 e Invitational 2026 de Rainbow Six Siege",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140353/news/5-jogos-para-ps5-que-sao-sucesso-de-vendas-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/triyansh-gill-dydif2ouavm-unsplash_djst.280.jpg",
+    "link": "https://br.ign.com/rainbow-six-siege/140355/news/blast-e-ubisoft-confirmam-locais-do-2o-major-de-2025-e-invitational-2026-de-rainbow-six-siege",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-18t190104142_pcq5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
   },
   {
-    "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
+    "titulo": "Após 22 anos, código de ativação do Windows XP é finalmente decifrado — não que isso tenha muita importância, afinal, todo mundo sabe do FCKGW",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.280.jpg",
+    "link": "https://br.ign.com/tech/140336/news/apos-22-anos-codigo-de-ativacao-do-windows-xp-e-finalmente-decifrado-nao-que-isso-tenha-muita-import",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_7b3v.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T19:00:04"
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "Sure, why not, the next Dead by Daylight crossover is with Assassin's Creed Shadows",
+    "descricao": "NewsI guess the Assassins are good at surviving?",
+    "link": "https://www.pcgamer.com/games/horror/sure-why-not-the-next-dead-by-daylight-crossover-is-with-assassins-creed-shadows/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fFtmMWf7BnFTqgncjgknBn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "'More darts, more farts': Rust dev makes 'fart darts' for hack week, and you can probably guess what they do",
+    "descricao": "NewsWill the 'stackable flatulence dart' make it into Rust? We can only hope.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/more-darts-more-farts-rust-dev-makes-fart-darts-for-hack-week-and-you-can-probably-guess-what-they-do/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RkZXLvVkZLit458YMBpBxU.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "One of our most anticipated survival horror stealth games shows off more of its monster juice power-up system, which looks like an unholy cross between Hitman and Mario Odyssey",
+    "descricao": "newsGloomwood recently introduced its monster juice to early access, but will soon let you slurp even more monster juice.",
+    "link": "https://www.pcgamer.com/games/horror/one-of-our-most-anticipated-survival-horror-stealth-games-shows-off-more-of-its-monster-juice-power-up-system-which-looks-like-an-unholy-cross-between-hitman-and-mario-odyssey/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ADD38mAtUbnUsWrYizdhxQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "This aggressively vaporwave offroad driving game by a car mechanic turned solo dev just got a Steam demo",
+    "descricao": "newsScout out routes to quickly move a volatile cargo from one place to another.",
+    "link": "https://www.pcgamer.com/games/racing/this-aggressively-vaporwave-offroad-driving-game-by-a-car-mechanic-turned-solo-dev-just-got-a-steam-demo/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sM5pyxv5JD7A9XofzDoJX4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "'They don't really make life decisions without asking ChatGPT': OpenAI boss Sam Altman thinks young people turning to chatbots for life advice is 'cool'",
+    "descricao": "newsThe tech bros are apparently so disconnected they think AI can be your best friend, therapist, and life advisor.",
+    "link": "https://www.pcgamer.com/software/ai/they-dont-really-make-life-decisions-without-asking-chatgpt-openai-boss-sam-altman-thinks-young-people-turning-to-chatbots-for-life-advice-is-cool/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/DHXMyKjg6emb8opLW4f5YS.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "Baldur's Gate 3 has an ultra-rare Act 3 scenario where zombie versions of the tiefling refugees show up in their usual spots acting like everything's normal",
+    "descricao": "newsI guess it's kind of a happy ending.",
+    "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-has-an-ultra-rare-act-3-scenario-where-zombie-versions-of-the-tiefling-refugees-show-up-in-their-usual-spots-acting-like-everythings-normal/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rTdMmK3GiaZmczAdM789rk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "Wait, there's a Lord of the Rings movie about Gollum coming in 2027?",
+    "descricao": "newsBy Andy Serkis? From actual Peter Jackson, Fran Walsh, and Philippa Boyens?",
+    "link": "https://www.pcgamer.com/games/wait-theres-a-lord-of-the-rings-movie-about-gollum-coming-in-2027/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3PPyiDpC8wHbCSB6ZnAWLL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "Czech mayor gifts $200 Kingdom Come: Deliverance 2 collector's edition to country's Prime Minister, elevating the game alongside the Witcher 2 in the company of CRPG state gifts",
+    "descricao": "newsUnfortunately, it was the PS5 version.",
+    "link": "https://www.pcgamer.com/games/rpg/czech-mayor-gifts-usd200-kingdom-come-deliverance-2-collectors-edition-to-countrys-prime-minister-elevating-the-game-alongside-the-witcher-2-in-the-company-of-crpg-state-gifts/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Egw2YFdaXFnRByg57dCMbF.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
+  },
+  {
+    "titulo": "Netflix is going to make its ad breaks even more annoying with AI-generated garbage",
+    "descricao": "newsNetflix is hoping you won't notice AI-generated ads interrupting your Squid Game rewatch.",
+    "link": "https://www.pcgamer.com/movies-tv/netflix-is-going-to-make-its-ad-breaks-even-more-annoying-with-ai-generated-garbage/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CtmZwtVLvBapBYRKf47cH5.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-18T19:24:58"
   }
 ];
