@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-vibes-have-never-been-worse-bungies-morale-is-reportedly-in-free-fall-following-its-art-theft-fiasco/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GmeTtRUoGZUouoP8MYwV39.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Netflix's long-awaited Gears of War movie might actually have a director, and it's the guy who helmed Bullet Train and codirected John Wick",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/netflixs-long-awaited-gears-of-war-movie-might-actually-have-a-director-and-its-the-guy-who-helmed-bullet-train-and-codirected-john-wick/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cK2eFWjU4pNG7HcBdoVMLX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "MSI's clever new 500 Hz QD-OLED gaming monitor can detect when you leave the screen and turn itself off to begin its anti-burn-in cycle",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/msis-clever-new-500-hz-qd-oled-gaming-monitor-can-detect-when-you-leave-the-screen-and-turn-itself-off-to-begin-its-anti-burn-in-cycle/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kipv7VKRJXNnGVvA2kjLjH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "After raising over $800 million from its community, Star Citizen's developer delays the release of a new ship upgrade as players baulk at having to pay for it",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/after-raising-over-usd800-million-from-its-community-star-citizens-developer-delays-the-release-of-a-new-ship-upgrade-as-players-baulk-at-having-to-pay-for-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gpiuamoLdcddJNgpRAkxGJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, May 18",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-18-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Mud-and-blood medieval horror game Blight: Survival gets even muddier in the Marshlands biome",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/mud-and-blood-medieval-horror-game-blight-survival-gets-even-muddier-in-the-marshlands-biome/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FGW8KkXGXWaLhpSTiQMNPR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Baldur's Gate 3 has a secret like Diablo's Cow Level I never saw after 460 hours: A magical sheep companion named 'Harvard Willoughby' you summon by killing a comedian and ringing two bells",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-has-a-secret-like-diablos-cow-level-i-never-saw-after-460-hours-a-magical-sheep-companion-named-harvard-willoughby-you-summon-by-killing-a-comedian-and-ringing-two-bells/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/auBrtQL4mkrT4zouZhSHgT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "House Flipper 2 is having a free weekend, and just got co-op",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/house-flipper-2-is-having-a-free-weekend-and-just-got-co-op/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MLWcyLq2g9pB6A95UPdG5E.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "You've got to play my dark horse GOTY candidate if you too are a sicko for one of the ultimate RPG gimmicks: a trash level 1 sword that can be forged into a god slayer",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/labyrinth-of-the-demon-king-broken-katana-use/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zouHqc9pjxu47qNKVzJKwe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Darth Vader chega ao Fortnite com IA capaz de conversar com jogadores",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/140319/news/darth-vader-chega-ao-fortnite-com-ia-capaz-de-conversar-com-jogadores",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/fortnites-/fortnites-darth-vader-ai-will-support-your-combat-and-wellbe_24b5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "Kojima Productions anuncia turnê mundial de lançamento de Death Stranding 2 e Brasil será um dos países contemplados",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140268/news/kojima-productions-anuncia-turne-mundial-de-lancamento-de-death-stranding-2-e-brasil-sera-um-dos-pai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deathstranding2-4555373b_2qhd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
+  },
+  {
+    "titulo": "\"Fiquei muito bravo depois\": como Robert Pattinson perdeu a chance dos sonhos em um dos melhores filmes dos anos 2000",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/robert-pattinson/140227/news/fiquei-muito-bravo-depois-como-robert-pattinson-perdeu-a-chance-dos-sonhos-em-um-dos-melhores-filmes",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-13_3vn1.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-18T12:14:34"
   },
   {
     "titulo": "\"Ele caiu da banheira\": foi assim que Anakin Skywalker ganhou sua cicatriz em Star Wars",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-episodio-iii-a-vinganca-dos-sith/140121/news/ele-caiu-da-banheira-foi-assim-que-anakin-skywalker-ganhou-sua-cicatriz-em-star-wars",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/hayden-christensen-darth-vader-anakin-1646938062319-16946321_74dc.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
-  },
-  {
-    "titulo": "As cenas deste personagem de Os Simpsons são hilárias, mas não o ouvíamos falar há 28 anos",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/os-simpsons/140280/news/as-cenas-deste-personagem-de-os-simpsons-sao-hilarias-mas-nao-o-ouviamos-falar-ha-28-anos",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9a6k.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T11:54:26"
+    "timestamp": "2025-05-18T12:14:34"
   }
 ];
