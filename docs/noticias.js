@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/sure-why-not-the-next-dead-by-daylight-crossover-is-with-assassins-creed-shadows/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fFtmMWf7BnFTqgncjgknBn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "'More darts, more farts': Rust dev makes 'fart darts' for hack week, and you can probably guess what they do",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/more-darts-more-farts-rust-dev-makes-fart-darts-for-hack-week-and-you-can-probably-guess-what-they-do/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RkZXLvVkZLit458YMBpBxU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "One of our most anticipated survival horror stealth games shows off more of its monster juice power-up system, which looks like an unholy cross between Hitman and Mario Odyssey",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/one-of-our-most-anticipated-survival-horror-stealth-games-shows-off-more-of-its-monster-juice-power-up-system-which-looks-like-an-unholy-cross-between-hitman-and-mario-odyssey/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ADD38mAtUbnUsWrYizdhxQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "This aggressively vaporwave offroad driving game by a car mechanic turned solo dev just got a Steam demo",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/this-aggressively-vaporwave-offroad-driving-game-by-a-car-mechanic-turned-solo-dev-just-got-a-steam-demo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sM5pyxv5JD7A9XofzDoJX4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "'They don't really make life decisions without asking ChatGPT': OpenAI boss Sam Altman thinks young people turning to chatbots for life advice is 'cool'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/they-dont-really-make-life-decisions-without-asking-chatgpt-openai-boss-sam-altman-thinks-young-people-turning-to-chatbots-for-life-advice-is-cool/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DHXMyKjg6emb8opLW4f5YS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Baldur's Gate 3 has an ultra-rare Act 3 scenario where zombie versions of the tiefling refugees show up in their usual spots acting like everything's normal",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-has-an-ultra-rare-act-3-scenario-where-zombie-versions-of-the-tiefling-refugees-show-up-in-their-usual-spots-acting-like-everythings-normal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rTdMmK3GiaZmczAdM789rk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Wait, there's a Lord of the Rings movie about Gollum coming in 2027?",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/wait-theres-a-lord-of-the-rings-movie-about-gollum-coming-in-2027/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3PPyiDpC8wHbCSB6ZnAWLL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Czech mayor gifts $200 Kingdom Come: Deliverance 2 collector's edition to country's Prime Minister, elevating the game alongside the Witcher 2 in the company of CRPG state gifts",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/czech-mayor-gifts-usd200-kingdom-come-deliverance-2-collectors-edition-to-countrys-prime-minister-elevating-the-game-alongside-the-witcher-2-in-the-company-of-crpg-state-gifts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Egw2YFdaXFnRByg57dCMbF.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Netflix is going to make its ad breaks even more annoying with AI-generated garbage",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/netflix-is-going-to-make-its-ad-breaks-even-more-annoying-with-ai-generated-garbage/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CtmZwtVLvBapBYRKf47cH5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Ao contrário dos outros soulsborne, Elden Ring Nightreign terá nova abordagem narrativa",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140247/preview/ao-contrario-dos-outros-jogos-soulsborne-elden-ring-nightreign-tera-uma-nova-abordagem-para-a-narrat",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62190/62190_6md4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Darth Vader chega ao Fortnite com IA capaz de conversar com jogadores",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/fortnite/140319/news/darth-vader-chega-ao-fortnite-com-ia-capaz-de-conversar-com-jogadores",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/fortnites-/fortnites-darth-vader-ai-will-support-your-combat-and-wellbe_24b5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Após 3 anos sem novidades, Square Enix finalmente revela novas imagens de Kingdom Hearts 4",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/kingdom-hearts-iv/140263/news/apos-3-anos-sem-novidades-square-enix-finalmente-revela-novas-imagens-de-kingdom-hearts-4-e-diz-esta",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/square-eni/square-enix-finally-breaks-silence-on-kingdom-hearts-4-share_veg2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "\"Reis do gacha\" estão em apuros: seus jogos estão sendo canibalizados e um mundo aberto semelhante a GTA pode salvá-los",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/zenless-zone-zero/140338/news/reis-do-gacha-estao-em-apuros-seus-jogos-estao-sendo-canibalizados-e-um-mundo-aberto-semelhante-a-gt",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-59_eyg7.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   },
   {
     "titulo": "Star Wars: 2ª temporada de Andor tem easter egg obscuro de filme cult de George Lucas que só os mais fãs identificaram",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/140337/news/star-wars-2a-temporada-de-andor-tem-easter-egg-obscuro-de-filme-cult-de-george-lucas-que-so-os-mais",
     "imagem": "https://sm.ign.com/t/ign_br/photo/t/the-andor-/the-andor-cast-reacts-to-5-major-moments-from-the-season-2-p_cnuv.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-18T20:47:09"
+    "timestamp": "2025-05-18T20:57:03"
   }
 ];
