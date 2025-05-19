@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "The PC Gaming Show returns June 8 with great hosts, amazing games, and a live on-air PC build and giveaway",
-    "descricao": "NewsNow I have to remember what all these motherboard headers are for.",
-    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-returns-june-8-with-great-hosts-amazing-games-and-a-live-on-air-pc-build-and-giveaway/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/SDzUbtGHizzPZ9D9ecFaJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Infinity Nikki devs have published a notice regarding the abysmal 1.5 update: \"To all stylists, we offer our deepest apologies\"",
-    "descricao": "NewsYou can expect some crystals as compensation too.",
-    "link": "https://www.pcgamer.com/games/adventure/infinity-nikki-devs-have-published-a-notice-regarding-the-abysmal-1-5-update-to-all-stylists-we-offer-our-deepest-apologies/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2HvRSRwMHf3xko5Kx87nJV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Thanks to the Computex, we now know that there's an RTX 5070-like GPU inside Nvidia's 'supercomputer at home' DGX Spark",
-    "descricao": "newsShame you won't be gaming with the little box because it'd make for one heck of a NUC.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/thanks-to-the-computex-we-now-know-that-theres-an-rtx-5070-like-gpu-inside-nvidias-supercomputer-at-home-dgx-spark/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZEsVcjQAkRr9haDZHFpZm4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Asus has announced the world's first 610 Hz gaming monitor, and a 'Super TN' panel is the price you pay for that speed",
-    "descricao": "NewsThat's a lot of Hz.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/asus-has-announced-the-worlds-first-610-hz-gaming-monitor-and-a-super-tn-panel-is-the-price-you-pay-for-that-speed/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/MpMrgoA5J8gWPtXEmmwWYE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Nvidia RTX 5060 review live: we've been black-listed for this review, but I'm a professional so we're doing this live!",
-    "descricao": "Live!You're going to learn how the new Nvidia GPU performs alongside me, isn't that exciting? No? Just me then.",
-    "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Take-Two CEO stresses that GTA 6's delay is necessary to 'make the best thing anyone's ever seen' even though he doesn't 'play videogames at all'",
-    "descricao": "News\"I'm not the Consumer-in-Chief.\"",
-    "link": "https://www.pcgamer.com/games/action/take-two-ceo-stresses-that-gta-6s-delay-is-necessary-to-make-the-best-thing-anyones-ever-seen-even-though-he-doesnt-play-videogames-at-all/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TWSYUxnF5fwMZk5sePU8KV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "WoW's latest patch fumbled the landing, but it looks like it'll get its future player housing feature exactly right—with complete kitbashing freedom",
-    "descricao": "NewsHouse, hearth, and home.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/wows-latest-patch-fumbled-the-landing-but-it-looks-like-itll-get-its-future-player-housing-feature-exactly-right-with-complete-kitbashing-freedom/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZcYRyG8sALxXgNnu3zUPh7.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Asus just solved the biggest issue with its BTF graphics cards on most motherboards and in the process found a way to supercharge its GPUs over 600 W",
-    "descricao": "NewsTurns out, BTF cards won't work on non-BTF motherboards, but the newer versions will.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/asus-just-solved-the-biggest-issue-with-its-btf-graphics-cards-on-most-motherboards-and-in-the-process-found-a-way-to-supercharge-its-gpus-over-600-w/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jnn6qSRMdZhJkxiiBzPXy3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
-    "titulo": "Red Dead Redemption 2 is reportedly coming to Nintendo Switch 2 as early as this year, and a 'next-gen update' for other consoles could mean good news for PC players, too",
-    "descricao": "NewsThe Van der Linde gang might be getting a facelift.",
-    "link": "https://www.pcgamer.com/games/action/red-dead-redemption-2-is-reportedly-coming-to-nintendo-switch-2-as-early-as-this-year-and-a-next-gen-update-for-other-consoles-could-mean-good-news-for-pc-players-too/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Vkmgh68cFCybx6dwNwK8vn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T12:13:13"
-  },
-  {
     "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -133,15 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
-    "titulo": "WizKids oferece reembolso para quem não gostou das miniaturas de Baldur's Gate 3",
+    "titulo": "\"Deveriam se envergonhar\": internautas reclamam de miniaturas oficiais de Baldur's Gate 3 e Wizards of the Coast oferece reembolso",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/baldurs-gate-3/140381/news/wizkids-oferece-reembolso-para-quem-nao-gostou-das-miniaturas-de-baldurs-gate-3",
+    "link": "https://br.ign.com/baldurs-gate-3/140381/news/deveriam-se-envergonhar-internautas-reclamam-de-miniaturas-oficiais-de-baldurs-gate-3-e-wizards-of-t",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/wizkids-of/wizkids-offering-refunds-for-baldurs-gate-3-minis-that-misse_kxza.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
   },
   {
     "titulo": "Viciado no suco? Marca de bebidas dá spoiler de Quarteto Fantástico: Primeiros Passos e mostra visual completo de Galactus antes da Marvel",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140371/news/viciado-no-suco-marca-de-bebidas-da-spoiler-de-quarteto-fantastico-primeiros-passos-e-mostra-visual",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-leaks-continue-this-time-our_6ng4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T12:13:13"
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Kojima says his next espionage game will keep us waiting another '5 or 6 years', but then he might finally get around to directing a movie: 'I’m getting older, and I would prefer to do it while still young'",
+    "descricao": "NewsHe might be 61, but Kojima still wants to be a director when he grows up.",
+    "link": "https://www.pcgamer.com/gaming-industry/kojima-says-his-next-espionage-game-will-keep-us-waiting-another-5-or-6-years-but-then-he-might-finally-get-around-to-directing-a-movie-im-getting-older-and-i-would-prefer-to-do-it-while-still-young/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yUUB8Y4VzrFphHukL2QMbC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Nvidia RTX 5060 review live: we've been black-listed for this review, but I'm a professional so we're doing this live!",
+    "descricao": "Live!You're going to learn how the new Nvidia GPU performs alongside me, isn't that exciting? No? Just me then.",
+    "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Oblivion player breaks the bank to keep paranoid elf alive throughout his murderous rampage: 'I have created Super Saiyan Glarthir'",
+    "descricao": "News\"He has mowed down hordes of guards, killed all his enemies… and got away with it all?\"",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-player-breaks-the-bank-to-keep-paranoid-elf-alive-throughout-his-murderous-rampage-i-have-created-super-saiyan-glarthir/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/afDMP9jvE3RCn5xp95ijpb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "The PC Gaming Show returns June 8 with great hosts, amazing games, and a live on-air PC build and giveaway",
+    "descricao": "NewsNow I have to remember what all these motherboard headers are for.",
+    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-returns-june-8-with-great-hosts-amazing-games-and-a-live-on-air-pc-build-and-giveaway/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/SDzUbtGHizzPZ9D9ecFaJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Infinity Nikki devs have published a notice regarding the abysmal 1.5 update: \"To all stylists, we offer our deepest apologies\"",
+    "descricao": "NewsYou can expect some crystals as compensation too.",
+    "link": "https://www.pcgamer.com/games/adventure/infinity-nikki-devs-have-published-a-notice-regarding-the-abysmal-1-5-update-to-all-stylists-we-offer-our-deepest-apologies/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2HvRSRwMHf3xko5Kx87nJV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Thanks to the Computex, we now know that there's an RTX 5070-like GPU inside Nvidia's 'supercomputer at home' DGX Spark",
+    "descricao": "newsShame you won't be gaming with the little box because it'd make for one heck of a NUC.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/thanks-to-the-computex-we-now-know-that-theres-an-rtx-5070-like-gpu-inside-nvidias-supercomputer-at-home-dgx-spark/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZEsVcjQAkRr9haDZHFpZm4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Asus has announced the world's first 610 Hz gaming monitor, and a 'Super TN' panel is the price you pay for that speed",
+    "descricao": "NewsThat's a lot of Hz.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/asus-has-announced-the-worlds-first-610-hz-gaming-monitor-and-a-super-tn-panel-is-the-price-you-pay-for-that-speed/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/MpMrgoA5J8gWPtXEmmwWYE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "Take-Two CEO stresses that GTA 6's delay is necessary to 'make the best thing anyone's ever seen' even though he doesn't 'play videogames at all'",
+    "descricao": "News\"I'm not the Consumer-in-Chief.\"",
+    "link": "https://www.pcgamer.com/games/action/take-two-ceo-stresses-that-gta-6s-delay-is-necessary-to-make-the-best-thing-anyones-ever-seen-even-though-he-doesnt-play-videogames-at-all/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TWSYUxnF5fwMZk5sePU8KV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
+  },
+  {
+    "titulo": "WoW's latest patch fumbled the landing, but it looks like it'll get its future player housing feature exactly right—with complete kitbashing freedom",
+    "descricao": "NewsHouse, hearth, and home.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/wows-latest-patch-fumbled-the-landing-but-it-looks-like-itll-get-its-future-player-housing-feature-exactly-right-with-complete-kitbashing-freedom/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZcYRyG8sALxXgNnu3zUPh7.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T12:34:53"
   }
 ];
