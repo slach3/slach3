@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Mais de 200 modelos de celulares Xiaomi têm nova atualização do HyperOS 2 confirmada e pendente; veja a lista",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/xiaomi/140341/news/mais-de-200-modelos-de-celulares-xiaomi-tem-nova-atualizacao-do-hyperos-2-confirmada-e-pendente-veja",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_etp8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "\"Quando estamos juntos no servidor, somos dominantes\": afirma Nade após final de semana vitorioso da FURIA no R6 RELOAD",
@@ -77,7 +77,15 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140357/feature/quando-estamos-juntos-no-servidor-somos-dominantes-afirma-nade-apos-final-de-semana-vitorioso-da-fur",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-18t221937362_urmm.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
+  },
+  {
+    "titulo": "'We are doing our best to resolve most of it': Stellar Blade's PC release will be restricted in 130 countries as the devs fight to have it lifted",
+    "descricao": "NewsPlayStation is at it again.",
+    "link": "https://www.pcgamer.com/games/action/we-are-doing-our-best-to-resolve-most-of-it-stellar-blades-pc-release-will-be-restricted-in-130-countries-as-the-devs-fight-to-have-it-lifted/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/G9ChjEfHfPtiomnRvfAsSn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Intel's next batch of CPUs might still be called Core Ultra 200S, possibly because the Arrow Lake refresh won't be much of a boost",
@@ -85,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intels-next-batch-of-cpus-might-still-be-called-core-ultra-200s-possibly-because-the-arrow-lake-refresh-wont-be-much-of-a-boost/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3yLpUZWYiRd2sXRskkh8B8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Wizkids offers full refunds for nightmarish Baldur's Gate 3 miniatures, as they 'did not meet our expectations or that of our Wizards of the Coast partner'",
@@ -93,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/wizkids-offers-full-refunds-for-nightmarish-baldurs-gate-3-miniatures-as-they-did-not-meet-our-expectations-or-that-of-our-wizards-of-the-coast-partner/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/npUQ5gETFVYwJXoYjBAR4d.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "I'm actually jealous of the workstation that gets to use this Maxsun graphics card containing two Intel Arc GPUs and 48 GB of VRAM",
@@ -101,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/im-actually-jealous-of-the-workstation-that-gets-to-use-this-maxsun-graphics-card-containing-two-intel-arc-gpus-and-48-gb-of-vram/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sJHcrpzBqANqrGjyf3qThC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Cozy castle builder literally hits next level as Tiny Glade announces stairs, its 'biggest and most complicated change' yet",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/cozy-castle-builder-literally-hits-next-level-as-tiny-glade-announces-stairs-its-biggest-and-most-complicated-change-yet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/R3eaVaAJDNwoBdMazKPVa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Jensen says 'even Crysis' can run on Nvidia's RTX Pro Server enterprise platform and now I kinda want one just for funsies",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/jensen-says-even-crysis-can-run-on-nvidias-rtx-pro-server-enterprise-platform-and-now-i-kinda-want-one-just-for-funsies/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tYRZ9x267gpbwaSGSGrD24.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Is it a bird, is it a plane? No, it's Nvidia's new Taiwanese office",
@@ -125,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/is-it-a-bird-is-it-a-plane-no-its-nvidias-new-taiwanese-office/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rLfh7JfSJefHS2PjYwVTdD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "Today's Wordle answer for Monday, May 19",
@@ -133,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-19-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   },
   {
     "titulo": "In its latest update, Enshrouded's terrifying monsters have players asking 'are we the baddies?'",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/in-its-latest-update-enshroudeds-terrifying-monsters-have-players-asking-are-we-the-baddies/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G5NJgy4eAJN5yQumkKM4Th.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
-  },
-  {
-    "titulo": "There's a unique game over in Baldur's Gate 3 you can only get by rolling 20 on a bunch of Constitution saving throws, then being an absolute dunderhead",
-    "descricao": "NewsAnother unlikely outcome foreseen by Larian.",
-    "link": "https://www.pcgamer.com/games/baldurs-gate/theres-a-unique-game-over-in-baldurs-gate-3-you-can-only-get-by-rolling-20-on-a-bunch-of-constitution-saving-throws-then-being-an-absolute-dunderhead/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XJPhhTvh7WAts2dxgYAqbh.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T08:15:50"
+    "timestamp": "2025-05-19T08:30:10"
   }
 ];
