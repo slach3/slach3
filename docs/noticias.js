@@ -1,91 +1,19 @@
 const noticias = [
   {
-    "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Estrela de Law & Order, Mariska Hargitay revela segredo de 30 anos sobre pai biológico brasileiro",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/law-order-special-victims-unit/140360/news/estrela-de-law-order-mariska-hargitay-revela-segredo-de-30-anos-sobre-pai-biologico-brasileiro",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mh_g4bw.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "\"Uma das maiores mudanças\": diretor de Thunderbolts* revela porque decidiu matar personagem tão cedo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/thunderbolts-1/140362/news/uma-das-maiores-mudancas-diretor-de-thunderbolts-revela-porque-decidiu-matar-personagem-tao-cedo",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-the-new-avengers-director-explains-why-that-cha_brrj.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T10:40:01"
-  },
-  {
-    "titulo": "Nvidia's Jen-Hsun Huang boasts that one spine of its new NVLink Fusion tech can 'move more traffic than the entire Internet'",
-    "descricao": "And unusually for Nvidia tech, it'll work with other vendors' CPUs, too.",
-    "link": "https://www.pcgamer.com/hardware/nvidias-jen-hsun-huang-boasts-that-one-spine-of-its-new-nvlink-fusion-tech-can-move-more-traffic-than-the-entire-internet/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jMKCsPwmxSdXD2r9PwAdHQ.jpg",
+    "titulo": "Asus just solved the biggest issue with its BTF graphics cards on most motherboards and in the process found a way to supercharge its GPUs over 600 W",
+    "descricao": "NewsTurns out, BTF cards won't work on non-BTF motherboards, but the newer versions will.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/asus-just-solved-the-biggest-issue-with-its-btf-graphics-cards-on-most-motherboards-and-in-the-process-found-a-way-to-supercharge-its-gpus-over-600-w/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jnn6qSRMdZhJkxiiBzPXy3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Red Dead Redemption 2 is reportedly coming to Nintendo Switch 2 as early as this year, and a 'next-gen update' for other consoles could mean good news for PC players, too",
+    "descricao": "NewsThe Van der Linde gang might be getting a facelift.",
+    "link": "https://www.pcgamer.com/games/action/red-dead-redemption-2-is-reportedly-coming-to-nintendo-switch-2-as-early-as-this-year-and-a-next-gen-update-for-other-consoles-could-mean-good-news-for-pc-players-too/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Vkmgh68cFCybx6dwNwK8vn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "Nvidia RTX 5060 review live: we've been black-listed for this review, but I'm a professional so we're doing this live!",
@@ -93,7 +21,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Nvidia's Jen-Hsun Huang boasts that one spine of its new NVLink Fusion tech can 'move more traffic than the entire Internet'",
+    "descricao": "And unusually for Nvidia tech, it'll work with other vendors' CPUs, too.",
+    "link": "https://www.pcgamer.com/hardware/nvidias-jen-hsun-huang-boasts-that-one-spine-of-its-new-nvlink-fusion-tech-can-move-more-traffic-than-the-entire-internet/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jMKCsPwmxSdXD2r9PwAdHQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "There are only 666 of this ROG Astral RTX 5080 Doom Edition being made and I'd go to Hell and back to get one if it wasn't $2,000",
@@ -101,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/there-are-only-666-of-this-rog-astral-rtx-5080-doom-edition-being-made-and-id-go-to-hell-and-back-to-get-one-if-it-wasnt-usd2-000/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/scq29CA5M9AS4NFmnxLn4R.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "Intel claims its next-gen 'Panther Lake' mobile chips will combine the power efficiency of Lunar Lake mobile with the performance of Arrow Lake-H desktop",
@@ -109,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intel-claims-its-next-gen-panther-lake-mobile-chips-will-combine-the-power-efficiency-of-lunar-lake-mobile-with-the-performance-of-arrow-lake-h-desktop/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8cqRbAHoXpCxJEDgWeFmbF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "Asus is bringing two great features to ergonomic keyboards with its upcoming ROG Falcata",
@@ -117,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/asus-is-bringing-two-great-features-to-ergonomic-keyboards-with-its-upcoming-rog-falcata/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zHVQ3mhnh8hxcXhgUxcvx3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "'We are doing our best to resolve most of it': Stellar Blade's PC release will be restricted in 130 countries as the devs fight to have it lifted",
@@ -125,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/we-are-doing-our-best-to-resolve-most-of-it-stellar-blades-pc-release-will-be-restricted-in-130-countries-as-the-devs-fight-to-have-it-lifted/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G9ChjEfHfPtiomnRvfAsSn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
     "titulo": "Intel's next batch of CPUs might still be called Core Ultra 200S, possibly because the Arrow Lake refresh won't be much of a boost",
@@ -133,22 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intels-next-batch-of-cpus-might-still-be-called-core-ultra-200s-possibly-because-the-arrow-lake-refresh-wont-be-much-of-a-boost/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3yLpUZWYiRd2sXRskkh8B8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
-    "titulo": "Wizkids offers full refunds for nightmarish Baldur's Gate 3 miniatures, as they 'did not meet our expectations or that of our Wizards of the Coast partner'",
-    "descricao": "NewsThat's putting it lightly.",
-    "link": "https://www.pcgamer.com/games/baldurs-gate/wizkids-offers-full-refunds-for-nightmarish-baldurs-gate-3-miniatures-as-they-did-not-meet-our-expectations-or-that-of-our-wizards-of-the-coast-partner/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/npUQ5gETFVYwJXoYjBAR4d.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
   },
   {
-    "titulo": "I'm actually jealous of the workstation that gets to use this Maxsun graphics card containing two Intel Arc GPUs and 48 GB of VRAM",
-    "descricao": "NewsDual-GPU cards might be dead for gaming but they're alive and well for AI inference.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/im-actually-jealous-of-the-workstation-that-gets-to-use-this-maxsun-graphics-card-containing-two-intel-arc-gpus-and-48-gb-of-vram/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sJHcrpzBqANqrGjyf3qThC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T10:40:01"
+    "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Square Enix inicia projeto de \"reboot\" para reforçar qualidade, não quantidade",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-vii-rebirth/140285/news/square-enix-inicia-projeto-de-reboot-de-3-anos-para-reforcar-foco-em-jogos-multiplataforma-e-na-qual",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62188/62188_nhtm.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Nintendo libera lista de games de Switch que receberão updates gratuitos no Switch 2",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/140312/news/nintendo-libera-lista-de-games-de-switch-que-receberao-updates-gratuitos-no-switch-2",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-j/nintendo-just-dropped-info-on-a-bunch-of-switch-1-games-that_e7yn.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "Estrela de Law & Order, Mariska Hargitay revela segredo de 30 anos sobre pai biológico brasileiro",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/law-order-special-victims-unit/140360/news/estrela-de-law-order-mariska-hargitay-revela-segredo-de-30-anos-sobre-pai-biologico-brasileiro",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mh_g4bw.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
+  },
+  {
+    "titulo": "\"Uma das maiores mudanças\": diretor de Thunderbolts* revela porque decidiu matar personagem tão cedo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/thunderbolts-1/140362/news/uma-das-maiores-mudancas-diretor-de-thunderbolts-revela-porque-decidiu-matar-personagem-tao-cedo",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/thunderbol/thunderbolts-the-new-avengers-director-explains-why-that-cha_brrj.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-19T10:53:36"
   }
 ];
