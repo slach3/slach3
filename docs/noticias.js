@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Haunted looking art director livestreams apology for Marathon theft scandal, but chat is merciless: 'Would write an original comment, but I don't see any good ones to plagarize'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/haunted-looking-art-director-livestreams-apology-for-marathon-theft-scandal-but-chat-is-merciless-would-write-an-original-comment-but-i-dont-see-any-good-ones-to-plagarize/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2GTSDpmnt3ps9WYn7LT4za.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "The legend who made Oblivion's Dark Brotherhood infinite has made its Thieves' Guild go on forever as well",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-legend-who-made-oblivions-dark-brotherhood-infinite-has-made-its-thieves-guild-go-on-forever-as-well/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H5RBE3RGzizNw9YmxcyBXn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "I can't recommend Nvidia when this AMD RX 9070 XT gaming PC is $300 off right now",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/i-cant-recommend-nvidia-when-this-amd-rx-9070-xt-gaming-pc-is-usd300-off-right-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XD38WWhsnLTUPbpskCJiRh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Microsoft wants everyone to use an open-source technology to create an 'agentic web' where AI agents interact with other AI agents",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/microsoft-wants-everyone-to-use-an-open-source-technology-to-create-an-agentic-web-where-ai-agents-interact-with-other-ai-agents/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wuxqvy8A3wx23cufxMgNAb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Nvidia CEO Jensen Huang says 'PC gaming is now 30 years old,' and I'm here to say 'um, actually'",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/nvidia-ceo-jensen-huang-says-in-keynote-pc-gaming-is-now-30-years-old-and-im-here-to-say-um-actually/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/arypsdXmTz7vUuxPxsFcRZ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Kojima says his next espionage game will keep us waiting another '5 or 6 years', but then he might finally get around to directing a movie: 'I’m getting older, and I would prefer to do it while still young'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/kojima-says-his-next-espionage-game-will-keep-us-waiting-another-5-or-6-years-but-then-he-might-finally-get-around-to-directing-a-movie-im-getting-older-and-i-would-prefer-to-do-it-while-still-young/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yUUB8Y4VzrFphHukL2QMbC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Oblivion player breaks the bank to keep paranoid elf alive throughout his murderous rampage: 'I have created Super Saiyan Glarthir'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-player-breaks-the-bank-to-keep-paranoid-elf-alive-throughout-his-murderous-rampage-i-have-created-super-saiyan-glarthir/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/afDMP9jvE3RCn5xp95ijpb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "The PC Gaming Show returns June 8 with great hosts, amazing games, and a live on-air PC build and giveaway",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-returns-june-8-with-great-hosts-amazing-games-and-a-live-on-air-pc-build-and-giveaway/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SDzUbtGHizzPZ9D9ecFaJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Viciado no suco? Marca de bebidas dá spoiler de Quarteto Fantástico: Primeiros Passos e mostra visual completo de Galactus antes da Marvel",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140371/news/viciado-no-suco-marca-de-bebidas-da-spoiler-de-quarteto-fantastico-primeiros-passos-e-mostra-visual",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-leaks-continue-this-time-our_6ng4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Como é a linha do tempo do novo DCU? James Gunn explica ordem das obras que se passam antes e depois de novo Superman",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/140374/news/como-e-a-linha-do-tempo-do-novo-dcu-james-gunn-explica-ordem-das-obras-que-se-passam-antes-e-depois",
     "imagem": "https://sm.ign.com/t/ign_br/news/j/james-gunn/james-gunn-offers-rebooted-dcu-timeline-clarification-its-ba_hppe.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   },
   {
     "titulo": "Estudante exige US$ 8 mil de reembolso após descobrir que professor usa ChatGPT em materiais de aulas",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/140392/news/estudante-exige-us-8-mil-de-reembolso-apos-descobrir-que-professor-usa-chatgpt-em-materiais-de-aulas",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_uggj.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-19T15:53:19"
+    "timestamp": "2025-05-19T16:11:06"
   }
 ];
