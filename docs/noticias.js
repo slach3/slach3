@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Viciado no suco? Marca de bebidas dá spoiler de Quarteto Fantástico: Primeiros Passos e mostra visual completo de Galactus antes da Marvel",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140371/news/viciado-no-suco-marca-de-bebidas-da-spoiler-de-quarteto-fantastico-primeiros-passos-e-mostra-visual",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-leaks-continue-this-time-our_6ng4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Oferta Relâmpago! Smart TV TCL QLED 55\" 4K por apenas R$2.184",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140407/news/oferta-relampago-smart-tv-tcl-qled-55-4k-por-apenas-r2184",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-19_x5w8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Monitor AOC 22\" no precinho: sua segunda tela por menos de R$500",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140406/news/monitor-aoc-22-no-precinho-sua-segunda-tela-por-menos-de-r500",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-32_5at3.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Don't worry, they're not just adapting blockbusters: this trippy Japanese walking simulator you can get for $4 on Steam has been made into a movie, too",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/dont-worry-theyre-not-just-adapting-blockbusters-this-trippy-japanese-walking-simulator-you-can-get-for-usd4-on-steam-has-been-made-into-a-movie-too/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gEENmaZBupff5LUkURHrs6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, May 20",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-20-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "This new arcade controller from 8BitDo could be your next tournament travel buddy",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/this-new-arcade-controller-from-8bitdo-could-be-your-next-tournament-travel-buddy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Mky7AwdyD7vMxMpaNYzLxC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Borderlands is the latest battleground for Steam review bombing, but the justification is extremely flimsy",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/borderlands-is-the-latest-battleground-for-steam-review-bombing-but-the-justification-is-extremely-flimsy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wFhPdDhtqFhNa9LK8tRDuf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "A week after launch, my new favorite gungy, Condemned-style horror-brawler has its first patch and the promise of yokai-punching spiked knuckles on the way",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/a-week-after-launch-my-new-favorite-gungy-condemned-style-horror-brawler-has-its-first-patch-and-the-promise-of-yokai-punching-spiked-knuckles-on-the-way/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WPR5apSG8y396Uhp5FvtUZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "An MVP of ultrawide patches for triple-A games just had their entire library nuked from GitHub, and nobody seems to know why",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/an-mvp-of-ultrawide-patches-for-triple-a-games-just-had-their-entire-library-nuked-from-github-and-nobody-seems-to-know-why/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3RcD7Dhwguu2KuyhyR5jUQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Nvidia RTX 5060 review live: we've been black-listed for this review, but I'm a professional so we're doing this live!",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "Only a fool would pass on The Witcher 3 for 90% off during Steam's CD Projekt Red Sale",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/only-a-fool-would-pass-on-the-witcher-3-for-90-percent-off-during-steams-cd-projekt-red-sale/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BJN2GY8JVkBJgH97VQiSZf.jpeg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   },
   {
     "titulo": "SAG-AFTRA files unfair labor practice complaint against Epic over Fortnite's AI-powered Darth Vader: 'We must protect our right to bargain terms and conditions around uses of voice that replace the work of our members'",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/battle-royale/sag-aftra-files-unfair-labor-practice-complaint-against-epic-over-fortnites-ai-powered-darth-vader-we-must-protect-our-right-to-bargain-terms-and-conditions-around-uses-of-voice-that-replace-the-work-of-our-members/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UVT5eN7C9BtQBYoJyk2WCd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T00:59:27"
+    "timestamp": "2025-05-20T01:31:53"
   }
 ];
