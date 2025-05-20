@@ -1,11 +1,35 @@
 const noticias = [
   {
+    "titulo": "'You guys are not Bethesda': During development, The Witcher 3 devs were told by a Walmart rep 'I like you guys, but it's just not gonna happen'",
+    "descricao": "News\"I made a bet with him … he still kinda owes me that dinner.\"",
+    "link": "https://www.pcgamer.com/games/the-witcher/you-guys-are-not-bethesda-during-development-the-witcher-3-devs-were-told-by-a-walmart-rep-i-like-you-guys-but-its-just-not-gonna-happen/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EuukY7yS4QUjpKVFNVJ3n4.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T12:15:48"
+  },
+  {
+    "titulo": "I accidentally forgot to start the Soviet Union in this excellent free game about the Russian Revolution",
+    "descricao": "NewsLenin must have written it on a post-it note.",
+    "link": "https://www.pcgamer.com/games/sim/i-accidentally-forgot-to-start-the-soviet-union-in-this-excellent-free-game-about-the-russian-revolution/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zQCvdGXdycYua3QSgDbnNc.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T12:15:48"
+  },
+  {
+    "titulo": "Corsair's Frame series of PC cases is testing a modular DAC/amp accessory prototype, and I'll be the first in line to buy one if it makes it to production",
+    "descricao": "ComputexNot for everyone, but definitely for me.",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/corsairs-frame-series-of-pc-cases-is-testing-a-modular-dac-amp-accessory-prototype-and-ill-be-the-first-in-line-to-buy-one-if-it-makes-it-to-production/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/hXzwdCGLNa4BpB5d89ahUk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T12:15:48"
+  },
+  {
     "titulo": "Nvidia RTX 5060 review live: looks like the 8 GB of VRAM isn't the biggest issue the new card has to face",
     "descricao": "Live!You're going to learn how the new Nvidia GPU performs alongside me, isn't that exciting? No? Just me then.",
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "TeamGroup's new portable SSD features a physical kill-switch for spies and definitely not for people who can't stop fiddling with buttons",
@@ -13,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ssds/team-group-touts-a-portable-ssd-that-features-a-data-destruction-trigger-mechanism/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/m5acaaDej7yJmGWrW2FTCX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "The new SteelSeries Rival 3 Gen 2 is the perfect reminder of the benefits of removable batteries in gaming mice",
@@ -21,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/the-new-steelseries-rival-3-gen-2-is-the-perfect-reminder-of-the-benefits-of-removable-batteries-in-gaming-mice/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/aNWSYpBGM7e6CQpgn6eHse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "After 13 playthroughs, one Elden Ring player is still haunted by a mysterious item, only to be let down by the burden of knowledge",
@@ -29,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/after-13-playthroughs-one-elden-ring-player-is-still-haunted-by-a-mysterious-item-only-to-be-let-down-by-the-burden-of-knowledge/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vi3Lig5Y85HwNXD9P8gtLY.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "ASRock outs new 400 Hz 1440p gaming monitor and we're hopeful the price is going to be punchy",
@@ -37,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/asrock-outs-new-400-hz-1440p-gaming-monitor-and-were-hopeful-the-price-is-going-to-be-punchy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gabQfhc63oSX9gWdxELu3X.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "Phison launches the first ever SSD controller to have built-in AI processing, along with some monstrous random data performance figures",
@@ -45,31 +69,23 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ssds/phison-launches-the-first-ever-ssd-controller-to-have-built-in-ai-processing-along-with-some-monstrous-random-data-performance-figures/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/noJsLrSdA5W3i3HV3TJwVW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Zotac's trippy, fractal-like PC case has been making me think about life, the universe, and the meaning of PC gaming",
-    "descricao": "ComputexIt's twisting my melon, man.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/zotacs-trippy-fractal-like-pc-case-has-been-making-me-think-about-life-the-universe-and-the-meaning-of-pc-gaming/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ioE6zGro2GFPc8NnB8Nkpe.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "titulo": "\"Não tem como completar narrativa\": Showrunner de TLOU sugere que série tenha uma 4ª temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Will 2025 be the year that CAMM2 memory finally makes a proper entrance? Rambus and Team Group believe it is",
-    "descricao": "ComputexAll aboard for the CAMM2 can-can.",
-    "link": "https://www.pcgamer.com/hardware/memory/will-2025-be-the-year-that-camm2-memory-finally-makes-a-proper-entrance-rambus-and-team-group-believe-it-is/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/G8X97E6ipwPrLRC7Fe6B6V.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
-  },
-  {
-    "titulo": "Cooler Master's new liquid cooler has modular tops, which have been used to show off a crying face on a screen and now I'm sad",
-    "descricao": "ComputexDon't cry, little Cooler Master liquid cooler, it's okay.",
-    "link": "https://www.pcgamer.com/hardware/cooling/cooler-masters-new-liquid-cooler-has-modular-tops-which-have-been-used-to-show-off-a-crying-face-on-a-screen-and-now-im-sad/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/L5DnPcxixMtdjKS7zo5nSW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T11:53:36"
+    "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -77,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
@@ -85,55 +101,47 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
+    "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
+    "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
+    "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
+    "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Viciado no suco? Marca de bebidas dá spoiler de Quarteto Fantástico: Primeiros Passos e mostra visual completo de Galactus antes da Marvel",
+    "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/quarteto-fantastico-mcu/140371/news/viciado-no-suco-marca-de-bebidas-da-spoiler-de-quarteto-fantastico-primeiros-passos-e-mostra-visual",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-leaks-continue-this-time-our_6ng4.320.jpg",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
+    "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
+    "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
-    "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
+    "titulo": "Tecnologia descobre que a Grande Pirâmide de Gizé possui mais lados e é por isso que ela dura há mais de 4.500 anos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
+    "link": "https://br.ign.com/tech/140417/news/tecnologia-descobre-que-a-grande-piramide-de-gize-possui-mais-lados-e-e-por-isso-que-ela-dura-ha-mai",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_vxvq.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
-  },
-  {
-    "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   },
   {
     "titulo": "Netflix fará animação no universo de Clash of Clans e Clash Royale",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/clash-of-clans/140423/news/netflix-fara-animacao-no-universo-de-clash-of-clans-e-clash-royale",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/netflix-wi/netflix-will-produce-animated-series-set-in-the-world-of-cla_m82t.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
-  },
-  {
-    "titulo": "Economize 5% na compra do seu Xbox Series S",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140421/news/economize-5-na-compra-do-seu-xbox-series-s",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/xbox-series-s-thumb_sd8e.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T11:53:36"
+    "timestamp": "2025-05-20T12:15:48"
   }
 ];
