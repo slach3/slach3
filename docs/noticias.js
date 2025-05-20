@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Novo episódio de TLOU reencontra sentimentos da trama, mas não salva temporada sinuosa",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140283/feature/com-a-mao-de-neil-druckmann-novo-episodio-de-the-last-of-us-reencontra-reais-sentimentos-da-trama-ma",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62342/62342_gfsv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Save point: Como games nos fazem sentir mais \"em casa\" do que nossos próprios lares",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140104/feature/um-safe-point-no-meio-da-realidade-como-games-constroem-ambientes-aconchegantes-e-nos-fazem-sentir-m",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62254/62254_1zy2.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "The Outer Worlds 2 não quer apenas ser maior, quer ser um RPG melhor em todos os aspectos",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/140332/preview/the-outer-worlds-2-nao-quer-apenas-ser-maior-mas-quer-ser-um-rpg-melhor-em-todos-os-aspectos-ign-fir",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62232/62232_ngwh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Viciado no suco? Marca de bebidas dá spoiler de Quarteto Fantástico: Primeiros Passos e mostra visual completo de Galactus antes da Marvel",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140371/news/viciado-no-suco-marca-de-bebidas-da-spoiler-de-quarteto-fantastico-primeiros-passos-e-mostra-visual",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-leaks-continue-this-time-our_6ng4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Rainbow Six Siege: FURIA retorna ao topo após vencer CAG Osaka na finalíssima do R6 RELOAD",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-siege/140347/news/rainbow-six-siege-furia-retorna-ao-topo-apos-vencer-cag-osaka-na-finalissima-do-r6-reload",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pj5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Novo episódio de The Last of Us traz referência sutil e divertida de uma das obras mais populares da atualidade",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140243/news/novo-episodio-de-the-last-of-us-traz-referencia-sutil-e-divertida-de-uma-das-obras-mais-populares-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-91_3pv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Ex-funcionário da Rockstar revela há quanto tempo GTA 6 está sendo desenvolvido e que ele será o mais longevo da história do estúdio",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140302/news/ex-funcionario-da-rockstar-revela-ha-quanto-tempo-gta-6-esta-sendo-desenvolvido-e-que-ele-sera-o-mai",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fqy8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Playlist do fim do mundo: quais bandas aparecem no quarto de Ellie em The Last of Us?",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140404/feature/playlist-do-fim-do-mundo-quais-bandas-aparecem-no-quarto-de-ellie-em-the-last-of-us",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_6j4y.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Em 1999 Steve Jobs lançou um emulador para transformar qualquer Mac em um PlayStation: a Sony não gostou nem um pouco",
@@ -77,7 +77,23 @@ const noticias = [
     "link": "https://br.ign.com/steve-jobs/140399/news/em-1999-steve-jobs-lancou-um-emulador-para-transformar-qualquer-mac-em-um-playstation-a-sony-nao-gos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1366-2000_6n9j.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
+  },
+  {
+    "titulo": "Hyte's ludicrous liquid cooler will soon be able to show entire system monitoring charts on its screen",
+    "descricao": "ComputexThis speaks to my nerdiest desires.",
+    "link": "https://www.pcgamer.com/hardware/cooling/hytes-ludicrous-liquid-cooler-will-soon-be-able-to-show-entire-system-monitoring-charts-on-its-screen/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/FVsSxSdiHwUc8ph6rimCCj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T08:32:38"
+  },
+  {
+    "titulo": "Hyte's latest case is a bold and colorful break from today's obsession with angular and understated",
+    "descricao": "ComputexComputex is chocked full of colourful cases.",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/hytes-latest-case-is-a-bold-and-colorful-break-from-todays-obsession-with-angular-and-understated/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/aaVcBz23ofVeeBZkTkp2Yj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Corsair introduces do-it-yourself gaming keyboard MAKR 75, and says 'hello' to a new era of web-based peripheral customization",
@@ -85,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/corsair-introduces-do-it-yourself-gaming-keyboard-makr-75-and-says-hello-to-a-new-era-of-web-based-peripheral-customization/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sBbrvV9PySb4yY7Y85FZLn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Nvidia RTX 5060 review live: looks like the 8 GB of VRAM isn't the biggest issue the new card has to face",
@@ -93,15 +109,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Corsair made a see-through PSU because everything looks better when you can see its innards... welp, that came out weird",
-    "descricao": "Computex 2025I just mean translucent tech is cool, leave me alone.",
+    "descricao": "ComputexI just mean translucent tech is cool, leave me alone.",
     "link": "https://www.pcgamer.com/hardware/power-supplies/corsair-made-a-see-through-psu-because-everything-looks-better-when-you-can-see-its-innards-welp-that-came-out-weird/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/j2qJt9ZtLBy2SR9o9BqK3d.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "These Godzilla and Mechagodzilla custom keycaps stopped me dead in my tracks, like a nuclear lizard caught in a headlock from an oversized monkey",
@@ -109,15 +125,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/these-godzilla-and-mechagodzilla-custom-keycaps-stopped-me-dead-in-my-tracks-like-a-nuclear-lizard-caught-in-a-headlock-by-an-oversized-monkey/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DE32KShkCyv5t5h9jYjt4d.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "The Corsair Air 5400 offers such a clever and unique approach to CPU cooling, I'm surprised no one did it sooner",
-    "descricao": "Computex 2025This case has triple chambers, but not in the way you might imagine.",
+    "descricao": "ComputexThis case has triple chambers, but not in the way you might imagine.",
     "link": "https://www.pcgamer.com/hardware/pc-cases/the-corsair-air-5400-offers-such-a-clever-and-unique-approach-to-cpu-cooling-im-surprised-no-one-did-it-sooner/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rs5WR7fNgCxMjwd8snBma5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Hints of an exciting new gaming GPU from Intel were just a social media miscommunication and now I'm totally deflated",
@@ -125,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/hints-of-an-exciting-new-gaming-gpu-from-intel-were-just-a-social-media-miscommunication-and-now-im-totally-deflated/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4m4FmdTcxgYiDnhuBkFxnV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   },
   {
     "titulo": "Helldivers 2's new update Heart of Democracy finally adds urban city maps, SEAF redshirts to make you look cool, giant Illuminate sky worms, and civilians to protect from friendly fire",
@@ -133,22 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/helldivers-2s-new-update-heart-of-democracy-finally-adds-urban-city-maps-seaf-redshirts-to-make-you-look-cool-giant-illuminate-sky-worms-and-civilians-to-protect-from-friendly-fire/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MW95zkriaNeGFKQMNFkzWY.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
-  },
-  {
-    "titulo": "This teeny-tiny RTX 5060 is about the size of the wrap I had for lunch and lives in danger of being stolen by a team of mice",
-    "descricao": "ComputexI can't help imagining it with a squeaky voice.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/this-teeny-tiny-rtx-5060-is-about-the-size-of-the-wrap-i-had-for-lunch-and-lives-in-danger-of-being-stolen-by-a-team-of-mice/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/f5v7uGf6osorVjkBeQMoWb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
-  },
-  {
-    "titulo": "Gigabyte unveils its second generation of X3D Turbo Mode, for squeezing up to 15% more performance from Ryzen X3D CPUs",
-    "descricao": "ComputexUp to 15% more performance with one click in the motherboard BIOS? Hmmm…",
-    "link": "https://www.pcgamer.com/hardware/motherboards/gigabyte-unveils-its-second-generation-of-x3d-turbo-mode-for-squeezing-up-to-15-percent-more-performance-from-ryzen-x3d-cpus/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/c2rmBHmVaVrxcpCSgyvpoi.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T08:20:16"
+    "timestamp": "2025-05-20T08:32:38"
   }
 ];
