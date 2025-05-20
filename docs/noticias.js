@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
@@ -61,23 +61,63 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
-    "titulo": "\"Estúpido\": voz de Geralt responde fãs que acham que The Witcher 4 é \"woke\" por colocar Ciri como protagonista",
+    "titulo": "\"Nossa intenção é expandir o R6 Share para todas as orgs afiliadas\": diretor de Esports da Ubisoft na América Latina revela planos para o cenário competitivo de Rainbow Six nos próximos anos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/140426/news/estupido-voz-de-geralt-responde-fas-que-acham-que-the-witcher-4-e-woke-por-colocar-ciri-como-protago",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/thats-just/thats-just-stupid-geralt-actor-slams-suggestion-the-witcher_3swh.280.jpg",
+    "link": "https://br.ign.com/rainbow-six-siege/140422/news/nossa-intencao-e-expandir-o-r6-share-para-todas-as-orgs-afiliadas-diretor-de-esports-da-ubisoft-na-a",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/reload-r6_mykg.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
-    "titulo": "PlayStation 5 com cupom de R$ 100 no Mercado Livre!",
+    "titulo": "Final Fantasy 14 será lançado muito em breve para dispositivos mobile; tudo o que você precisa saber",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140425/news/playstation-5-com-cupom-de-r-100-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ps5-bundle-y37n_277238_sdwz.280.jpg",
+    "link": "https://br.ign.com/final-fantasy-xiv-online-dawntrail/140428/news/final-fantasy-14-sera-lancado-muito-em-breve-para-dispositivos-mobile-tudo-o-que-voce-precisa-saber",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/ffxiv-70-benchmark-007-1717998404843_3uer.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
+  },
+  {
+    "titulo": "The glorious juxtaposition of DOOM: The Dark Ages and Colorful's furry-friend-themed Meow range of PC goodies is one reason why we love Computex",
+    "descricao": "ComputexPlay Doom: The Dark Ages on a PC that's the cat's meow.",
+    "link": "https://www.pcgamer.com/hardware/the-glorious-juxtaposition-of-doom-the-dark-ages-and-colorfuls-furry-friend-themed-meow-range-of-pc-goodies-is-one-reason-why-we-love-computex/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2mL8b4Qtgaz3Td6e2HShbC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T13:40:10"
+  },
+  {
+    "titulo": "Corsair's new MMO mouse has a neat function that can entirely replace your Stream Deck",
+    "descricao": "ComputexThe Scimitar kills two birds with one stone for WOW streamers.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/corsairs-new-mmo-mouse-has-a-neat-function-that-can-entirely-replace-your-stream-deck/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WwjUy4eowmKkgncMrQ2wRk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T13:40:10"
+  },
+  {
+    "titulo": "Stalker remaster reviews crater to 'Mostly Negative' as players lament deleted Soviet monuments, yanked Russian language, and blurry graphics that I didn't notice in 23 hours playing",
+    "descricao": "Such is life in the Zone.",
+    "link": "https://www.pcgamer.com/games/fps/stalker-remaster-reviews-crater-to-mostly-negative-as-players-lament-deleted-soviet-monuments-yanked-russian-language-and-blurry-graphics-that-i-didnt-notice-in-23-hours-playing/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NHMAHL6vWxxQ5X5yu4qJTP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T13:40:10"
+  },
+  {
+    "titulo": "A titanium-shrouded RTX 5090, outrageous cases, big-screen CPU coolers and more: MSI's Computex 2025 lineup is a cavalcade of exotic hardware and unusual delights",
+    "descricao": "And yours truly has been stumbling all over it.",
+    "link": "https://www.pcgamer.com/hardware/a-titanium-shrouded-rtx-5090-outrageous-cases-big-screen-cpu-coolers-and-more-msis-computex-2025-lineup-is-a-cavalcade-of-exotic-hardware-and-unusual-delights/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3rZkxt9PRa2gc3Gyc7NNrm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T13:40:10"
+  },
+  {
+    "titulo": "Former Valve writer Marc Laidlaw says he 'retired too hard', but there's no way he's coming back for Half-Life 3: 'We need new stuff, [not] me going 'Well the G-Man wouldn't do that in my day''",
+    "descricao": "News\"Definitely the Half-Life part of my life is way behind me.\"",
+    "link": "https://www.pcgamer.com/games/fps/former-valve-writer-marc-laidlaw-says-he-retired-too-hard-but-theres-no-way-hes-coming-back-for-half-life-3-we-need-new-stuff-not-me-going-well-the-g-man-wouldnt-do-that-in-my-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CPTn4tR3iHiouLptcGmq4W.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "For this year's Computex, Cooler Master showcases two new PC cases: a fresh look for the legendary Cosmos and a weird-but-cool goldfish bowl 360 Panoramic",
@@ -85,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/for-this-years-computex-cooler-master-showcases-two-new-pc-cases-a-fresh-look-for-the-legendary-cosmos-and-a-weird-but-cool-goldfish-bowl-360-panoramic/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/erFDrxqQ3KmdFZG4GN57vV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "The original Lenovo Legion Go is $100 off at Best Buy and Amazon right now and I'm here to tell you why it's underappreciated",
@@ -93,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-original-lenovo-legion-go-is-usd100-off-at-best-buy-and-amazon-right-now-and-im-here-to-tell-you-why-its-underappreciated/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VzTr4h2M9SgkKUxXuuPeQP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "Razer's new super-skinny Blade 14 gaming laptop is a serious threat to my wallet, but I want a GPU with more than 8 GB VRAM for $2,700",
@@ -101,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/razers-new-super-skinny-blade-14-gaming-laptop-is-a-serious-threat-to-my-wallet-but-i-want-a-gpu-with-more-than-8-gb-vram-for-usd2-700/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/78pHcD5yu3qtrrnBd9L8dZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   },
   {
     "titulo": "'You guys are not Bethesda': During development, The Witcher 3 devs were told by a Walmart rep 'I like you guys, but it's just not gonna happen'",
@@ -109,46 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/you-guys-are-not-bethesda-during-development-the-witcher-3-devs-were-told-by-a-walmart-rep-i-like-you-guys-but-its-just-not-gonna-happen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qCc7RhyF6rWiqjH2mAgwLd.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
-  },
-  {
-    "titulo": "I accidentally forgot to start the Soviet Union in this excellent free game about the Russian Revolution",
-    "descricao": "NewsLenin must have written it on a post-it note.",
-    "link": "https://www.pcgamer.com/games/sim/i-accidentally-forgot-to-start-the-soviet-union-in-this-excellent-free-game-about-the-russian-revolution/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zQCvdGXdycYua3QSgDbnNc.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
-  },
-  {
-    "titulo": "Corsair's Frame series of PC cases is testing a modular DAC/amp accessory prototype, and I'll be the first in line to buy one if it makes it to production",
-    "descricao": "ComputexNot for everyone, but definitely for me.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/corsairs-frame-series-of-pc-cases-is-testing-a-modular-dac-amp-accessory-prototype-and-ill-be-the-first-in-line-to-buy-one-if-it-makes-it-to-production/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/hXzwdCGLNa4BpB5d89ahUk.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
-  },
-  {
-    "titulo": "Nvidia RTX 5060 review live: looks like the 8 GB of VRAM isn't the biggest issue the new card has to face",
-    "descricao": "Live!You're going to learn how the new Nvidia GPU performs alongside me, isn't that exciting? No? Just me then.",
-    "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
-  },
-  {
-    "titulo": "TeamGroup's new portable SSD features a physical kill-switch for spies and definitely not for people who can't stop fiddling with buttons",
-    "descricao": "ComputexFor all your Mission: Impossible fanfic needs.",
-    "link": "https://www.pcgamer.com/hardware/ssds/team-group-touts-a-portable-ssd-that-features-a-data-destruction-trigger-mechanism/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/m5acaaDej7yJmGWrW2FTCX.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
-  },
-  {
-    "titulo": "The new SteelSeries Rival 3 Gen 2 is the perfect reminder of the benefits of removable batteries in gaming mice",
-    "descricao": "NewsGaming like it's 2010 again",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/the-new-steelseries-rival-3-gen-2-is-the-perfect-reminder-of-the-benefits-of-removable-batteries-in-gaming-mice/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/aNWSYpBGM7e6CQpgn6eHse.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T13:10:28"
+    "timestamp": "2025-05-20T13:40:10"
   }
 ];
