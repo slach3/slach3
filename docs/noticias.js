@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
-    "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "Economize R$ 400 no Lenovo LOQ com i5 de 12ª geração e RTX 3050",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140463/news/economize-r-400-no-lenovo-loq-com-i5-de-12a-geracao-e-rtx-3050",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lenovo-loq-essential-thumb-j7y1_320532_wm1b.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
-  },
-  {
-    "titulo": "Teclado magnético com excelente preço e venda nacional na Amazon",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140453/news/teclado-magnetico-com-excelente-preco-e-venda-nacional-na-amazon",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/attack-shark-k85_ca7q.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-20T18:00:15"
+    "titulo": "Gearbox CEO Randy Pitchford tells anyone worried about an $80 Borderlands 4 pricetag that 'if you're a real fan, you'll make it happen,' reminding us all of the value in choosing not to tweet",
+    "descricao": "NewsI simply wouldn't have said that.",
+    "link": "https://www.pcgamer.com/games/fps/gearbox-ceo-randy-pitchford-tells-anyone-worried-about-an-usd80-borderlands-4-pricetag-that-if-youre-a-real-fan-youll-make-it-happen-reminding-us-all-of-the-value-in-choosing-not-to-tweet/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6kRSAGKqtKP9vrvP5cXUAn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "Avowed director Carrie Patel leaves Obsidian after 12 years to join the Netflix studio behind Oxenfree",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/avowed-director-carrie-patel-leaves-obsidian-after-12-years-to-join-the-netflix-studio-behind-oxenfree/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/R5MhLeL73MxfSwd3TXSJBe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "'This has been heartbreaking news for our entire team': Lego nukes Bionicle fangame from orbit after ignoring it for 8 years",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/this-has-been-heartbreaking-news-for-our-entire-team-lego-nukes-bionicle-fangame-from-orbit-after-ignoring-it-for-8-years/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H8m8f668HM55aJARpKHweP.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "THQ Nordic studio that was set to be closed in 2023 somehow escaped the Embracer death spiral and is now working on a new RPG",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/thq-nordic-studio-that-was-set-to-be-closed-in-2023-somehow-escaped-the-embracer-death-spiral-and-is-now-working-on-a-new-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LD2ULekQjRhTLqFQLbKcGb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "Fooled by a false story about Steam account hacks? Have I Been Pwned 2.0 will now shower you with confetti when you have not, in fact, been pwned",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/fooled-by-a-false-story-about-steam-account-hacks-have-i-been-pwned-2-0-will-now-shower-you-with-confetti-when-you-have-not-in-fact-been-pwned/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8NaUUUYSKGJEUWdEkRLAoD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "The 'new era' of Rainbow Six Siege means you're going to need some newer hardware if you want to play",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/rainbow-six-siege-x-pc-system-requirements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TWiJSkVTgyZFWxJErSmLTS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "The glorious juxtaposition of DOOM: The Dark Ages and Colorful's furry-friend-themed Meow range of PC goodies is one reason why we love Computex",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-glorious-juxtaposition-of-doom-the-dark-ages-and-colorfuls-furry-friend-themed-meow-range-of-pc-goodies-is-one-reason-why-we-love-computex/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2mL8b4Qtgaz3Td6e2HShbC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "Corsair's new MMO mouse has a neat function that can entirely replace your Stream Deck",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/corsairs-new-mmo-mouse-has-a-neat-function-that-can-entirely-replace-your-stream-deck/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WwjUy4eowmKkgncMrQ2wRk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
     "titulo": "Stalker remaster reviews crater to 'Mostly Negative' as players lament deleted Soviet monuments, yanked Russian language, and blurry graphics that I didn't notice in 23 hours playing",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/stalker-remaster-reviews-crater-to-mostly-negative-as-players-lament-deleted-soviet-monuments-yanked-russian-language-and-blurry-graphics-that-i-didnt-notice-in-23-hours-playing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NHMAHL6vWxxQ5X5yu4qJTP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "timestamp": "2025-05-20T18:25:02"
   },
   {
-    "titulo": "A titanium-shrouded RTX 5090, outrageous cases, big-screen CPU coolers and more: MSI's Computex 2025 lineup is a cavalcade of exotic hardware and unusual delights",
-    "descricao": "And yours truly has been stumbling all over it.",
-    "link": "https://www.pcgamer.com/hardware/a-titanium-shrouded-rtx-5090-outrageous-cases-big-screen-cpu-coolers-and-more-msis-computex-2025-lineup-is-a-cavalcade-of-exotic-hardware-and-unusual-delights/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3rZkxt9PRa2gc3Gyc7NNrm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-20T18:00:15"
+    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "Fãs acreditam que animação Predador: Assassino de Assassinos tem mais conexões com Alien",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/predator-badlands/140450/news/fas-acreditam-que-animacao-predador-assassino-de-assassinos-tem-mais-conexoes-com-alien",
+    "imagem": "https://sm.ign.com/t/ign_br/news/i/is-that-a-/is-that-a-predator-wearing-a-trophy-cape-of-xenomorph-tails_d8y4.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
+  },
+  {
+    "titulo": "Monster Hunter Rise, Inscryption e mais 4 jogos saem do catálogo da PlayStation Plus Extra e Deluxe em junho",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-plus/140465/news/monster-hunter-rise-inscryption-e-mais-4-jogos-saem-do-catalogo-da-playstation-plus-extra-e-deluxe-e",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/monster-hunter-rise_q7kn.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-20T18:25:02"
   }
 ];
