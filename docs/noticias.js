@@ -1,75 +1,19 @@
 const noticias = [
   {
-    "titulo": "Former Dragon Age writer says Clair Obscur: Expedition 33 and Baldur's Gate 3 prove 'what's possible when a game is given time to cook'",
-    "descricao": "newsTruly exceptional games don't just appeal to their audience, David Gaider says, they expand it.",
-    "link": "https://www.pcgamer.com/games/rpg/former-dragon-age-writer-says-clair-obscur-expedition-33-and-baldurs-gate-3-prove-whats-possible-when-a-game-is-given-time-to-cook/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WL7xcm3qbdZfAWRxGmZd5C.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
+    "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
-    "titulo": "Gearbox boss Randy Pitchford wades back into the Borderlands 4 pricing controversy: 'Game budgets are increasing ... it's getting gnarly out there'",
-    "descricao": "newsPitchford shared a recent video from PAX East to explain \"the truth\" about videogame pricing.",
-    "link": "https://www.pcgamer.com/games/fps/gearbox-boss-randy-pitchford-wades-back-into-the-borderlands-4-pricing-controversy-game-budgets-are-increasing-its-getting-gnarly-out-there/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8XjtPmN84B473EdoitdHv8.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "'It doesn't feel like Blade Runner': Cyberpunk's creator teases one of the Cyberpunk 2077 sequel's new locations, saying that 'it feels more like Chicago gone wrong'",
-    "descricao": "NewsThat sounds good to me.",
-    "link": "https://www.pcgamer.com/games/rpg/it-doesnt-feel-like-blade-runner-cyberpunks-creator-teases-one-of-the-cyberpunk-2077-sequels-new-locations-saying-that-it-feels-more-like-chicago-gone-wrong/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/aisfpyNFJr8hPfWSPQim26.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "It's been on sale for 3 years, but the HyperX Cloud Alpha is still the best wireless headset and its got itself a Memorial Day discount",
-    "descricao": "DealIt's only ever been $10 cheaper by my reckoning.",
-    "link": "https://www.pcgamer.com/hardware/its-been-on-sale-for-3-years-but-the-hyperx-cloud-alpha-is-still-the-best-wireless-headset-and-its-got-itself-a-memorial-day-discount/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/aSRJwkTsfFyAF5bBdpmi4G.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "'We can't just have Geralt for every single game': The Witcher's Doug Cockle tells the Ciri-haters to 'read the damn books, you won't think it's so woke anymore'",
-    "descricao": "NewsThe actor also discusses death, horses and how to talk to girls.",
-    "link": "https://www.pcgamer.com/games/the-witcher/we-cant-just-have-geralt-for-every-single-game-the-witchers-doug-cockle-tells-the-ciri-haters-to-read-the-damn-books-you-wont-think-its-so-woke-anymore/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ewdfgs7uaNZqBpTNrR6vv.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Looks like the latest Nvidia driver has given some RTX 5080 and 5090 laptops a little performance boost",
-    "descricao": "NewsTGP to the max.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/looks-like-the-latest-nvidia-driver-has-given-some-rtx-5080-and-5090-laptops-a-little-performance-boost/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/NjegFSN9PoHeVmKjhQVpKe.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Ducky's year of the snake keyboard is my favourite shown off at Computex so far, and it's limited to just 2025 units",
-    "descricao": "ComputexIt's much prettier than 2013's year of the snake model.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/duckys-year-of-the-snake-keyboard-is-my-favourite-shown-off-at-computex-so-far-and-its-limited-to-just-2025-units/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Bo5j4m6a6YWo6cF7bUScKX.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Cherry proclaims a 'new era' for keyboard switches: induction is 'half the cost of a regular mechanical switch', more reliable, and less power hungry than analog alternatives",
-    "descricao": "ComputexThough whether it gets used for analog gaming keyboards is up to keyboard makers—Cherry says it is aiming at the mass market.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/cherry-proclaims-a-new-era-for-keyboard-switches-induction-is-half-the-cost-of-a-regular-mechanical-switch-more-reliable-and-less-power-hungry-than-analog-alternatives/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tvpUrKfT2oxrQiSy3nmoCm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Nvidia's CEO says attempts to control chip exports to China are a failure: 'If they don’t have enough Nvidia, they will use their own.'",
-    "descricao": "Computex\"AI researchers are still doing AI research in China,\" say Jensen Huang.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-ceo-says-attempts-to-control-chip-exports-to-china-are-a-failure-if-they-dont-have-enough-nvidia-they-will-use-their-own/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/GonuMpGDKyaN2tvaiu62Lb.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T17:50:39"
+    "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -77,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -85,23 +29,15 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
-    "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
+    "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
+    "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -109,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -117,15 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
-  },
-  {
-    "titulo": "Monster Hunter Rise, Inscryption e mais 4 jogos saem do catálogo da PlayStation Plus Extra e Deluxe em junho",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-plus/140465/news/monster-hunter-rise-inscryption-e-mais-4-jogos-saem-do-catalogo-da-playstation-plus-extra-e-deluxe-e",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/monster-hunter-rise_q7kn.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -133,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Controle de Xbox Series com excelente oferta na Amazon Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140537/news/controle-de-xbox-series-com-excelente-oferta-na-amazon-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/controlesemfio-tqzb_214989_zmc9.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
     "titulo": "Converse revela parceria inédita e coleção inspirada em personagens de Naruto Shippuden",
@@ -141,14 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/naruto-shippuden/140535/news/converse-revela-parceria-inedita-e-colecao-inspirada-em-personagens-de-naruto-shippuden",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-21t172012745_53nc.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "timestamp": "2025-05-21T18:00:56"
   },
   {
-    "titulo": "Sua mãe estava errada: PC gamer e consoles consomem até 3 vezes menos energia elétrica que certos eletrodomésticos",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140522/news/sua-mae-estava-errada-pc-gamer-e-consoles-consomem-ate-3-vezes-menos-energia-eletrica-que-certos-ele",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_dvzs.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T17:50:39"
+    "titulo": "Former Dragon Age writer says Clair Obscur: Expedition 33 and Baldur's Gate 3 prove 'what's possible when a game is given time to cook'",
+    "descricao": "newsTruly exceptional games don't just appeal to their audience, David Gaider says, they expand it.",
+    "link": "https://www.pcgamer.com/games/rpg/former-dragon-age-writer-says-clair-obscur-expedition-33-and-baldurs-gate-3-prove-whats-possible-when-a-game-is-given-time-to-cook/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WL7xcm3qbdZfAWRxGmZd5C.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Gearbox boss Randy Pitchford wades back into the Borderlands 4 pricing controversy: 'Game budgets are increasing ... it's getting gnarly out there'",
+    "descricao": "newsPitchford shared a recent video from PAX East to explain \"the truth\" about videogame pricing.",
+    "link": "https://www.pcgamer.com/games/fps/gearbox-boss-randy-pitchford-wades-back-into-the-borderlands-4-pricing-controversy-game-budgets-are-increasing-its-getting-gnarly-out-there/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8XjtPmN84B473EdoitdHv8.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "'It doesn't feel like Blade Runner': Cyberpunk's creator teases one of the Cyberpunk 2077 sequel's new locations, saying that 'it feels more like Chicago gone wrong'",
+    "descricao": "NewsThat sounds good to me.",
+    "link": "https://www.pcgamer.com/games/rpg/it-doesnt-feel-like-blade-runner-cyberpunks-creator-teases-one-of-the-cyberpunk-2077-sequels-new-locations-saying-that-it-feels-more-like-chicago-gone-wrong/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/aisfpyNFJr8hPfWSPQim26.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "It's been on sale for 3 years, but the HyperX Cloud Alpha is still the best wireless headset and its got itself a Memorial Day discount",
+    "descricao": "DealIt's only ever been $10 cheaper by my reckoning.",
+    "link": "https://www.pcgamer.com/hardware/its-been-on-sale-for-3-years-but-the-hyperx-cloud-alpha-is-still-the-best-wireless-headset-and-its-got-itself-a-memorial-day-discount/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/aSRJwkTsfFyAF5bBdpmi4G.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "'We can't just have Geralt for every single game': The Witcher's Doug Cockle tells the Ciri-haters to 'read the damn books, you won't think it's so woke anymore'",
+    "descricao": "NewsThe actor also discusses death, horses and how to talk to girls.",
+    "link": "https://www.pcgamer.com/games/the-witcher/we-cant-just-have-geralt-for-every-single-game-the-witchers-doug-cockle-tells-the-ciri-haters-to-read-the-damn-books-you-wont-think-its-so-woke-anymore/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ewdfgs7uaNZqBpTNrR6vv.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Looks like the latest Nvidia driver has given some RTX 5080 and 5090 laptops a little performance boost",
+    "descricao": "NewsTGP to the max.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/looks-like-the-latest-nvidia-driver-has-given-some-rtx-5080-and-5090-laptops-a-little-performance-boost/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NjegFSN9PoHeVmKjhQVpKe.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Ducky's year of the snake keyboard is my favourite shown off at Computex so far, and it's limited to just 2025 units",
+    "descricao": "ComputexIt's much prettier than 2013's year of the snake model.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/duckys-year-of-the-snake-keyboard-is-my-favourite-shown-off-at-computex-so-far-and-its-limited-to-just-2025-units/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Bo5j4m6a6YWo6cF7bUScKX.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Cherry proclaims a 'new era' for keyboard switches: induction is 'half the cost of a regular mechanical switch', more reliable, and less power hungry than analog alternatives",
+    "descricao": "ComputexThough whether it gets used for analog gaming keyboards is up to keyboard makers—Cherry says it is aiming at the mass market.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/cherry-proclaims-a-new-era-for-keyboard-switches-induction-is-half-the-cost-of-a-regular-mechanical-switch-more-reliable-and-less-power-hungry-than-analog-alternatives/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tvpUrKfT2oxrQiSy3nmoCm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
+  },
+  {
+    "titulo": "Nvidia's CEO says attempts to control chip exports to China are a failure: 'If they don’t have enough Nvidia, they will use their own.'",
+    "descricao": "Computex\"AI researchers are still doing AI research in China,\" say Jensen Huang.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-ceo-says-attempts-to-control-chip-exports-to-china-are-a-failure-if-they-dont-have-enough-nvidia-they-will-use-their-own/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/GonuMpGDKyaN2tvaiu62Lb.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T18:00:56"
   }
 ];
