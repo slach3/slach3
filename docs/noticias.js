@@ -1,11 +1,51 @@
 const noticias = [
   {
+    "titulo": "'We can't just have Geralt for every single game': The Witcher's Doug Cockle tells the Ciri-haters to 'read the damn books, you won't think it's so woke anymore'",
+    "descricao": "NewsThe actor also discusses death, horses and how to talk to girls.",
+    "link": "https://www.pcgamer.com/games/the-witcher/we-cant-just-have-geralt-for-every-single-game-the-witchers-doug-cockle-tells-the-ciri-haters-to-read-the-damn-books-you-wont-think-its-so-woke-anymore/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ewdfgs7uaNZqBpTNrR6vv.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T13:43:51"
+  },
+  {
+    "titulo": "Looks like the latest Nvidia driver has given some RTX 5080 and 5090 laptops a little performance boost",
+    "descricao": "NewsTGP to the max.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/looks-like-the-latest-nvidia-driver-has-given-some-rtx-5080-and-5090-laptops-a-little-performance-boost/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NjegFSN9PoHeVmKjhQVpKe.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T13:43:51"
+  },
+  {
+    "titulo": "Ducky's year of the snake keyboard is my favourite shown off at Computex so far, and it's limited to just 2025 units",
+    "descricao": "ComputexIt's much prettier than 2013's year of the snake model.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/duckys-year-of-the-snake-keyboard-is-my-favourite-shown-off-at-computex-so-far-and-its-limited-to-just-2025-units/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Bo5j4m6a6YWo6cF7bUScKX.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T13:43:51"
+  },
+  {
+    "titulo": "Cherry proclaims a 'new era' for keyboard switches: induction is 'half the cost of a regular mechanical switch', more reliable, and less power hungry than analog alternatives",
+    "descricao": "ComputexThough whether it gets used for analog gaming keyboards is up to keyboard makers—Cherry says it is aiming at the mass market.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/cherry-proclaims-a-new-era-for-keyboard-switches-induction-is-half-the-cost-of-a-regular-mechanical-switch-more-reliable-and-less-power-hungry-than-analog-alternatives/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tvpUrKfT2oxrQiSy3nmoCm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T13:43:51"
+  },
+  {
+    "titulo": "Nvidia's CEO says attempts to control chip exports to China are a failure: 'If they don’t have enough Nvidia, they will use their own.'",
+    "descricao": "Computex\"AI researchers are still doing AI research in China,\" say Jensen Huang.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-ceo-says-attempts-to-control-chip-exports-to-china-are-a-failure-if-they-dont-have-enough-nvidia-they-will-use-their-own/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/GonuMpGDKyaN2tvaiu62Lb.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-21T13:43:51"
+  },
+  {
     "titulo": "Havn's Doom special edition PC case offers not one, but two sets of hollowed eye sockets to judge you while you game",
     "descricao": "ComputexIf it's not your own, give back the bone.",
     "link": "https://www.pcgamer.com/hardware/pc-cases/havns-doom-special-edition-pc-case-offers-two-sets-of-hollowed-eye-sockets-to-judge-you-while-you-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jDXEPFmMxrRqobmHabTjXK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "All hail the biggest PC case to ever grace my eyes, a true monument to Prometheus and other gods of unfathomable technology",
@@ -13,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/all-hail-the-biggest-pc-case-to-ever-grace-my-eyes-a-true-monument-to-prometheus-and-other-gods-of-unfathomable-technology/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vMVkWHUUrx6nKjGE8UbhUT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "I'm all-in for this all-AMD gaming PC, sporting the best gaming CPU of last generation, the mighty RX 9070 XT, and a $400 price cut",
@@ -21,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/im-all-in-for-this-all-amd-gaming-pc-sporting-the-best-gaming-cpu-of-last-generation-the-mighty-rx-9070-xt-and-a-usd400-price-cut/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4wRuDCgpCxajH6xSBaHmja.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Hate RGB software but still want all the pretty LEDs on your AIO cooler? Lian Li might just have the very thing for you",
@@ -29,47 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/hate-rgb-software-but-still-want-all-the-pretty-leds-on-your-aio-cooler-lian-li-might-just-have-the-very-thing-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oG5PTARcbzVAf6KCrJJGeS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
-  },
-  {
-    "titulo": "Surprisingly, this Turtle Beach wireless gaming headset deal is the only one I'd pick right now",
-    "descricao": "DealsNormally, there's an obvious choice at this price. That's no longer the case.",
-    "link": "https://www.pcgamer.com/hardware/gaming-headsets/surprisingly-this-turtle-beach-wireless-gaming-headset-deal-is-the-only-one-id-pick-right-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zbxStjik8SKMKdBD5PmkxD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
-  },
-  {
-    "titulo": "Lian Li's new Rotation PSU has a power connector that swivels and I too have been asking, why?",
-    "descricao": "ComputexWhy, you ask? Allow me to explain.",
-    "link": "https://www.pcgamer.com/hardware/power-supplies/lian-lis-new-rotation-psu-has-a-power-connector-that-swivels-and-i-too-have-been-asking-why/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kteczFwfAEHKqJapa3WwnA.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
-  },
-  {
-    "titulo": "'AH can we please keep them': Helldivers 2 players have fully imprinted onto the game's new SEAF troops like they're a bunch of kittens up for adoption",
-    "descricao": "NewsThey're just little guys. They're just little guys with semi-automatic weapons.",
-    "link": "https://www.pcgamer.com/games/third-person-shooter/ah-can-we-please-keep-them-helldivers-2-players-have-fully-imprinted-onto-the-games-new-seaf-troops-like-theyre-a-bunch-of-kittens-up-for-adoption/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FLnTbTRikWiF5j5Fn6W6ed.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
-  },
-  {
-    "titulo": "'It's not just a gimmick': Noctua is working with Pulsar on a gaming mouse that has a fan in it to cool your sweaty palm",
-    "descricao": "ComputexCool.",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/its-not-just-a-gimmick-noctua-is-working-with-pulsar-on-a-gaming-mouse-that-has-a-fan-in-it-to-cool-your-sweaty-palm/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Xsk8j5PPMQrhvmqkXZdzH3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
-  },
-  {
-    "titulo": "Noctua aims to release its first liquid CPU cooler in 2026, working with Asetek to make the quietest water pump around, though it's not the thermosiphon project",
-    "descricao": "ComputexBut as with all of Noctua's projects, it won't really be released until it's perfect.",
-    "link": "https://www.pcgamer.com/hardware/cooling/noctua-aims-to-release-its-first-liquid-cpu-cooler-in-2026-working-with-asetek-to-make-the-quietest-water-pump-around-though-its-not-the-thermosiphon-project/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ytipwMtFKeVJxC6GQnuYJN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "Monster Hunter Rise, Inscryption e mais 4 jogos saem do catálogo da PlayStation Plus Extra e Deluxe em junho",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus/140465/news/monster-hunter-rise-inscryption-e-mais-4-jogos-saem-do-catalogo-da-playstation-plus-extra-e-deluxe-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/monster-hunter-rise_q7kn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
-    "titulo": "Eventos, batalha contra o Titã Celeste e mais: tudo sobre a versão 3.3 de Honkai Star Rail",
+    "titulo": "Uma bactéria desconhecida na Terra se desenvolveu na estação espacial chinesa; agora, astronautas enfrentam situação digna de um filme de ficção científica",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/honkai-star-rail/140496/news/eventos-batalha-contra-o-tita-celeste-e-mais-tudo-sobre-a-versao-33-de-honkai-star-rail",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-21t123857503_738j.280.jpg",
+    "link": "https://br.ign.com/ciencia/140499/news/uma-bacteria-desconhecida-na-terra-se-desenvolveu-na-estacao-espacial-chinesa-agora-astronautas-enfr",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/chinese-space-station_4pem.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   },
   {
-    "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível de todos",
+    "titulo": "Esta construtora teve a ideia de recriar a casa dos Simpsons para vender e a história terminou de uma maneira inesperada",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_24fu.280.jpg",
+    "link": "https://br.ign.com/os-simpsons/140495/news/esta-construtora-teve-a-ideia-de-recriar-a-casa-dos-simpsons-para-vender-e-a-historia-terminou-de-um",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_297k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T13:14:59"
+    "timestamp": "2025-05-21T13:43:51"
   }
 ];
