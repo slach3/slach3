@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-just-gave-us-our-first-glimpse-of-fsr-4s-redstone-update-with-a-host-of-machine-learning-based-improvements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ebsu6Yg7pfWGnhoYHkFYx.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "AMD announces the long-awaited RX 9060 XT starting at $299, says it's 6% faster than the RTX 5060 Ti at 1440p in 40 games",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-announces-the-long-awaited-rx-9060-xt-in-8-gb-and-16-gb-flavors-but-pricing-and-some-of-the-key-specs-remain-a-mystery/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rTw6voLLHCqzaJgBFFqhFT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Cherry debuts new mechanical, magnetic, and inductive switches with a whole new naming scheme to match",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/cherry-debuts-new-mechanical-magnetic-and-inductive-switches-with-a-whole-new-naming-scheme-to-match/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YkW8r2zrkfaQVjbiWvgHNW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Today's Wordle answer for Wednesday, May 21",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-21-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "AMD unleashes up to 96 cores of Zen 5 with its new Threadripper 9000 Series chips",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/amd-unleashes-up-to-96-cores-of-zen-5-with-its-new-threadripper-9000-series-chips/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DE3cUaFLrWZfPdVmA8tUHS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "One of tech's best leakers drops the GPU specs for the RTX 5080 Super, likely confirming that 24GB VRAM update",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/one-of-techs-best-leaker-drops-the-gpu-specs-for-the-rtx-5080-super-likely-confirming-that-24gb-vram-update/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/egsViELGNtg8LhJYrYfWtk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "1741 days after being kicked off iPhones, Fortnite is back on the US App Store",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/1741-days-after-being-kicked-off-the-apple-app-store-fortnite-is-back-on-iphones-in-the-us/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4eER6eobUL7xHX7q8R7Nqc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Nvidia RTX 5060 review live: looks like the 8 GB of VRAM isn't the biggest issue the new card has to face",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/nvidia-rtx-5060-review-doing-it-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YuNVF5JGRfCDWKsmwubJX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Microsoft's Build conference interrupted by renewed protests over its ties with the Israeli military",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/microsofts-build-conference-interrupted-by-renewed-protests-over-its-ties-with-the-israeli-military/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CJDxsjWwATkXgiL2Ns4uxk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Por menos de R$1000: Monitor Gamer AOC 27\" 180Hz 0,5ms em oferta na Amazon",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140468/news/por-menos-de-r1000-monitor-gamer-aoc-27-180hz-05ms-em-oferta-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-29_j1rp.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   },
   {
     "titulo": "Galaxy S24: saiba como obter R$250 de desconto nos modelos Ultra e Plus",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140467/news/galaxy-s24-saiba-como-obter-r250-de-desconto-nos-modelos-ultra-e-plus",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign_y1az.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T03:38:18"
+    "timestamp": "2025-05-21T03:55:14"
   }
 ];
