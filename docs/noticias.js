@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/havns-doom-special-edition-pc-case-offers-two-sets-of-hollowed-eye-sockets-to-judge-you-while-you-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jDXEPFmMxrRqobmHabTjXK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "All hail the biggest PC case to ever grace my eyes, a true monument to Prometheus and other gods of unfathomable technology",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/all-hail-the-biggest-pc-case-to-ever-grace-my-eyes-a-true-monument-to-prometheus-and-other-gods-of-unfathomable-technology/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vMVkWHUUrx6nKjGE8UbhUT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "I'm all-in for this all-AMD gaming PC, sporting the best gaming CPU of last generation, the mighty RX 9070 XT, and a $400 price cut",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/im-all-in-for-this-all-amd-gaming-pc-sporting-the-best-gaming-cpu-of-last-generation-the-mighty-rx-9070-xt-and-a-usd400-price-cut/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4wRuDCgpCxajH6xSBaHmja.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Hate RGB software but still want all the pretty LEDs on your AIO cooler? Lian Li might just have the very thing for you",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/hate-rgb-software-but-still-want-all-the-pretty-leds-on-your-aio-cooler-lian-li-might-just-have-the-very-thing-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oG5PTARcbzVAf6KCrJJGeS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Surprisingly, this Turtle Beach wireless gaming headset deal is the only one I'd pick right now",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-headsets/surprisingly-this-turtle-beach-wireless-gaming-headset-deal-is-the-only-one-id-pick-right-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zbxStjik8SKMKdBD5PmkxD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Lian Li's new Rotation PSU has a power connector that swivels and I too have been asking, why?",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/power-supplies/lian-lis-new-rotation-psu-has-a-power-connector-that-swivels-and-i-too-have-been-asking-why/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kteczFwfAEHKqJapa3WwnA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "'AH can we please keep them': Helldivers 2 players have fully imprinted onto the game's new SEAF troops like they're a bunch of kittens up for adoption",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/ah-can-we-please-keep-them-helldivers-2-players-have-fully-imprinted-onto-the-games-new-seaf-troops-like-theyre-a-bunch-of-kittens-up-for-adoption/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FLnTbTRikWiF5j5Fn6W6ed.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "'It's not just a gimmick': Noctua is working with Pulsar on a gaming mouse that has a fan in it to cool your sweaty palm",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/its-not-just-a-gimmick-noctua-is-working-with-pulsar-on-a-gaming-mouse-that-has-a-fan-in-it-to-cool-your-sweaty-palm/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Xsk8j5PPMQrhvmqkXZdzH3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Noctua aims to release its first liquid CPU cooler in 2026, working with Asetek to make the quietest water pump around, though it's not the thermosiphon project",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/noctua-aims-to-release-its-first-liquid-cpu-cooler-in-2026-working-with-asetek-to-make-the-quietest-water-pump-around-though-its-not-the-thermosiphon-project/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ytipwMtFKeVJxC6GQnuYJN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Monster Hunter Rise, Inscryption e mais 4 jogos saem do catálogo da PlayStation Plus Extra e Deluxe em junho",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus/140465/news/monster-hunter-rise-inscryption-e-mais-4-jogos-saem-do-catalogo-da-playstation-plus-extra-e-deluxe-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/monster-hunter-rise_q7kn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
+  },
+  {
+    "titulo": "Eventos, batalha contra o Titã Celeste e mais: tudo sobre a versão 3.3 de Honkai Star Rail",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/honkai-star-rail/140496/news/eventos-batalha-contra-o-tita-celeste-e-mais-tudo-sobre-a-versao-33-de-honkai-star-rail",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-21t123857503_738j.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-21T12:41:30"
   },
   {
     "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível de todos",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_24fu.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
-  },
-  {
-    "titulo": "Pela primeira vez na história um quadrinho ganhou um prêmio regular Pulitzer, mas ninguém está falando sobre ele",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/quadrinhos/140492/feature/pela-primeira-vez-na-historia-um-quadrinho-ganhou-um-premio-regular-pulitzer-mas-ninguem-esta-faland",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/t/the-graphi/the-graphic-novel-feeding-ghosts-won-the-pulitzer-prize-but_zx4b.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T12:24:29"
+    "timestamp": "2025-05-21T12:41:30"
   }
 ];
