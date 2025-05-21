@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/noctua-aims-to-release-its-first-liquid-cpu-cooler-in-2026-working-with-asetek-to-make-the-quietest-water-pump-around-though-its-not-the-thermosiphon-project/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ytipwMtFKeVJxC6GQnuYJN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Turns out asking AI chatbots for answers in a specific way can be like leaving them with the key to Trippy McHigh's magic mushroom farm",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/turns-out-asking-ai-chatbots-for-answers-in-a-specific-way-can-be-like-leaving-them-with-the-key-to-trippy-mchighs-magic-mushroom-farm/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AFxofPqhZBqTUgFn9aWzEn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "InWin unveils all-singing, all-dancing 'trophy-inspired' case that also looks a little bit like my morning brew",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/inwin-unveils-all-singing-all-dancing-trophy-inspired-case-that-also-looks-a-bit-like-my-morning-brew/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YpY2CSDPHmSkCNjdHRST2M.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Doug Cockle wasn't the 'obvious' choice for Geralt in The Witcher—but he kept winning out because he was 'the best at being normal'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/doug-cockle-wasnt-the-obvious-choice-for-geralt-in-the-witcher-but-he-kept-winning-out-because-he-was-the-best-at-being-normal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xVadKRK9NJpNzVnwoExW2o.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "If you ever wanted to stick a screen inside your PC case Lian Li's just shown off something surprisingly affordable for you",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/if-you-ever-wanted-to-stick-a-screen-inside-your-pc-case-lian-lis-just-shown-off-something-surprisingly-affordable-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PjEDfnuXxDia2SUtCt8JCZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "'That's it, pre-order cancelled': GTA 6 investigators have managed to find the one slip-up in the second trailer, and it's pretty illuminating",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/thats-it-pre-order-cancelled-gta-6-investigators-have-managed-to-find-the-one-slip-up-in-the-second-trailer-and-its-pretty-illuminating/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NvDKQpF5f45mKFZjbtZSQm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "'We want to be as aggressive as possible, right?' says AMD GPU boss of the Nvidia-baiting pricing of the RX 9060 XT, calling it 'a tremendous value proposition to all our fellow gamers'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/we-want-to-be-as-aggressive-as-possible-right-says-amd-gpu-boss-of-the-nvidia-baiting-pricing-of-the-rx-9060-xt-calling-it-a-tremendous-value-proposition-to-all-our-fellow-gamers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/A4Y6WxARq9k4DXKnNJ2R9S.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Overwatch players freak out over supposed Widowmaker butt nerf, proving that Marvel Rivals gooner skins have wound back the clock 10 years",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/overwatch-players-freak-out-over-supposed-widowmaker-butt-nerf-proving-that-marvel-rivals-gooner-skins-have-wound-back-the-clock-10-years/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SoBCC3eWRMWxZNHVJtZXWf.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Wooting is adding knobs to its gaming keyboards and the good news is existing Wooting owners can knob themselves too",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/wooting-is-adding-knobs-to-its-gaming-keyboards-and-the-good-news-is-existing-wooting-owners-can-knob-themselves-too/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SpstMHGBSxARWJPdw9RSq.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Próximo jogo de Kojima demorará a ser lançado e diretor antecipa futuro dos games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/physint-hideo-kojima-action-espionage-project/140410/news/physint-proximo-jogo-de-hideo-kojima-apos-od-e-death-stranding-2-demorara-a-ser-lancado-e-diretor-an",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62395/62395_bcdc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Novo Missão: Impossível aumenta escopo de Ethan Hunt, mas não acerta como o anterior",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140385/review/missao-impossivel-o-acerto-final-aumenta-escopo-das-aventuras-de-ethan-hunt-mas-nao-acerta-em-tudo-c",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62372/62372_wtc6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "“Eu mesmo senti isso durante os testes”: Hideo Kojima revela que Death Stranding 2 terá diversas semelhanças com Metal Gear Solid 5",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140414/news/eu-mesmo-senti-isso-durante-os-testes-hideo-kojima-revela-que-death-stranding-2-tera-diversas-semelh",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-92_x163.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "Personagem com morte trágica pode retornar ao MCU, segundo sugestão de atriz para Kevin Feige",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/agatha-desde-sempre/140412/news/personagem-com-morte-tragica-pode-retornar-ao-mcu-segundo-sugestao-de-atriz-para-kevin-feige",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/marvel-act/marvel-actress-has-pitched-her-return-to-kevin-feige-despite_mnur.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "\"Isso que é atuação\": atriz de The Last of Us compara Pedro Pascal e Bella Ramsey a uma das maiores atrizes de Hollywood",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140411/news/isso-que-e-atuacao-atriz-de-the-last-of-us-compara-pedro-pascal-e-bella-ramsey-a-uma-das-maiores-atr",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/trxjj8qlvd9ehni9scwfoa-970-80jp_pkqa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
     "titulo": "\"Pedimos desculpas\": Nintendo cometeu erro e fãs perceberam; Switch 2 não terá um recurso quando estiver no modo dock",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140402/news/pedimos-desculpas-nintendo-cometeu-erro-e-fas-perceberam-switch-2-nao-tera-um-recurso-quando-estiver",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_55z5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
-    "titulo": "Esqueça empresa de videogames: para Shigeru Miyamoto, a Nintendo é uma \"agência de talentos\" e todos seus personagens são seus \"artistas\"",
+    "titulo": "Após uma década, diretora de Avowed sai da Obsidian para trabalhar em desenvolvedora da Netflix",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/shigeru-miyamoto-nintendo-change-interview-1677525734403_528a.280.jpg",
+    "link": "https://br.ign.com/avowed/140476/news/apos-uma-decada-diretora-de-avowed-sai-da-obsidian-para-trabalhar-em-desenvolvedora-da-netflix",
+    "imagem": "https://sm.ign.com/t/ign_br/news/a/avowed-dir/avowed-director-quits-obsidian-after-more-than-a-decade-for_pggr.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   },
   {
-    "titulo": "“Extremamente satisfatório”: Atriz de The Boys já leu roteiro da 5ª temporada e tem ótimas notícias para os fãs",
+    "titulo": "Carey Mulligan fará papel ainda não divulgado em futuro filme de As Crônicas de Nárnia",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-boys/140469/news/extremamente-satisfatorio-atriz-de-the-boys-ja-leu-roteiro-da-5a-temporada-e-tem-otimas-noticias-par",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pptp.280.png",
+    "link": "https://br.ign.com/the-chronicles-of-narnia-the-magicians-nephew/140472/news/carey-mulligan-fara-papel-ainda-nao-divulgado-em-futuro-filme-de-as-cronicas-de-narnia",
+    "imagem": "https://sm.ign.com/t/ign_br/news/b/barbie-dir/barbie-directors-narnia-reboot-adds-carey-mulligan-to-its-ca_jhr5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-21T09:54:56"
+    "timestamp": "2025-05-21T10:29:38"
   }
 ];
