@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
-    "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "Galaxy Watch7 com menor preço da internet no Mercado Livre!",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140561/news/galaxy-watch7-com-menor-preco-da-internet-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/galaxy-watch7-creme_rxm6.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
-  },
-  {
-    "titulo": "\"Queremos um audiência maior\": diretor de Lies of Pexplica a decisão de implementar um seletor de dificuldade no game",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lies-of-p/140552/news/queremos-um-audiencia-maior-diretor-de-lies-of-pexplica-a-decisao-de-implementar-um-seletor-de-dific",
-    "imagem": "https://sm.ign.com/t/ign_br/news/l/lies-of-p-/lies-of-p-director-explains-u-turn-on-difficulty-we-wanted-t_jqky.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T12:23:18"
+    "titulo": "CDPR boss says Witcher author Sapkowski's grumpiness is a 'persona,' he's actually lovely and the studio's 'updating everything' to make sure they respect his lore",
+    "descricao": "NewsA cranky old guy with a heart of gold? Why, that sounds just like this witcher I know.",
+    "link": "https://www.pcgamer.com/games/the-witcher/cdpr-boss-says-witcher-author-sapkowskis-grumpiness-is-a-persona-hes-actually-lovely-and-the-studios-always-updating-everything-about-its-games-to-make-sure-they-respect-his-lore/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WDoChfptFTkpZjV3TnMPGS.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "There's a new Warhammer 40,000 version of our favorite Secretlab desk on the way but please don't paint your minis on it",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-desks/theres-a-new-warhammer-40-000-version-of-our-favorite-secretlab-desk-on-the-way-but-please-dont-paint-your-minis-on-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/J6MfdBJ2tggd9sFEPZcJ7d.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "'That magic is back': Peter Molyneux really wants you to know he's not hyping Masters of Albion, while name-dropping Dungeon Keeper, Black and White, and Fable",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/that-magic-is-back-peter-molyneux-really-wants-you-to-know-hes-not-hyping-masters-of-albion-while-name-dropping-dungeon-keeper-black-and-white-and-fable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AR65w2y3DL5mCPALGeFsdY.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "If the endless stream of AIOs with big screens coming out of Computex is making your air cooler jealous, Tryx has you covered",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/if-the-endless-stream-of-aios-with-big-screens-coming-out-of-computex-is-making-your-air-cooler-jealous-tryx-has-you-covered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9svzL39SWQaR5waezkp6eg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "'Just stick to your guns': Neil Druckmann isn't phased by all the hate Intergalactic got, 'There's stuff happening with media right now that you just have to ignore'",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/just-stick-to-your-guns-neil-druckmann-isnt-phased-by-all-the-hate-intergalactic-got-theres-stuff-happening-with-media-right-now-that-you-just-have-to-ignore/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/B4v2F5NAHVBUaLqzu6qY3Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "This retro PC case has a big red button and a turnkey and it hits me square in the chest with nostalgia",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/this-retro-pc-case-has-a-big-red-button-and-a-turnkey-and-it-hits-me-square-in-the-chest-with-nostalgia/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wky4hJfoU3tE8o5edUBq2o.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "This incredible Monster Hunter Wilds PC custom build has something your rig definitely doesn't: an RTX 5070 Ti GPU sword",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/this-incredible-monster-hunter-wilds-pc-custom-build-has-something-your-rig-doesnt-an-rtx-5070-ti-gpu-sword/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sND34woGy5ag3LvpponcEe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "Intel's Core Ultra 265KF is down to $279 this Memorial Day and you get a free 1 TB SSD plus two games to enjoy with this deal",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intels-core-ultra-265kf-is-down-to-usd279-this-memorial-day-and-you-get-a-free-1-tb-ssd-plus-two-games-to-enjoy-with-this-deal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uYvjfVSD7iaHrNpGbwG6We.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
     "titulo": "Monster Hunter Wilds has announced a collaboration with Street Fighter 6, letting you dress up as Akuma and embark on a new side mission",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/monster-hunter-wilds-has-announced-a-collaboration-with-street-fighter-6-letting-you-dress-up-as-akuma-and-embark-on-a-new-side-mission/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DwX3zZkKR5rfB3Xr5qSzhb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "timestamp": "2025-05-22T12:40:40"
   },
   {
-    "titulo": "Fear not, RTX 50-series owners, because ASRock's new PSUs have extra thermal sensors to shut off overheating GPU power cables",
-    "descricao": "ComputexIt should hopefully combat melty connectors.",
-    "link": "https://www.pcgamer.com/hardware/power-supplies/fear-not-rtx-50-series-owners-because-asrocks-new-psus-have-extra-thermal-sensors-to-shut-off-overheating-gpu-power-cables/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DRYLLV3ahdFTNuZgUzbvaB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T12:23:18"
+    "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
+    "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Tudo para atrasar o novo livro de Game of Thrones: George R.R. Martin será produtor de nova versão animada de Hércules",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/140564/news/tudo-para-atrasar-o-novo-livro-de-game-of-thrones-george-rr-martin-sera-produtor-de-nova-versao-anim",
+    "imagem": "https://sm.ign.com/t/ign_br/news/g/game-of-th/game-of-thrones-writer-george-rr-martin-joins-animated-hercu_xrvr.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
+  },
+  {
+    "titulo": "Economize R$ 250 na compra do seu Galaxy S24 Ultra de 256 GB",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140562/news/economize-r-250-na-compra-do-seu-galaxy-s24-ultra-de-256-gb",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/galaxy-s24-ultra-thumb_1r6q.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T12:40:40"
   }
 ];
