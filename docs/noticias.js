@@ -1,11 +1,35 @@
 const noticias = [
   {
+    "titulo": "IO Interactive's upcoming MindsEye system requirements recommend an RTX 4070 or above, which makes my new rig want to cry",
+    "descricao": "NewsEven the minimum requirements feel quite high.",
+    "link": "https://www.pcgamer.com/hardware/io-interactives-upcoming-mindseye-system-requirements-recommend-an-rtx-4070-or-above-which-makes-my-new-rig-want-to-cry/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o4K5zE6sGuc8dkKKWPBdh5.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-22T13:41:41"
+  },
+  {
+    "titulo": "Remedy director says that FBC: Firebreak 'respects player time' instead of relying on FOMO, which has 'infected modern games'",
+    "descricao": "NewsTrying to find some middle ground.",
+    "link": "https://www.pcgamer.com/games/horror/remedy-director-says-that-fbc-firebreak-respects-player-time-instead-of-relying-on-fomo-which-has-infected-modern-games/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/xJwipG3fPpGmmEoHRa7dVN.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-22T13:41:41"
+  },
+  {
+    "titulo": "Tryx's new AIO cooler features two LCD screens and a display shelf, because it's Computex",
+    "descricao": "ComputexNot the anime figure overflow solution I quite had in mind.",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/tryxs-display-shelf-for-the-inside-of-your-pc-case-also-features-two-tiny-hd-screens-for-some-reason/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CnR8EVvFUodxcbddZBcRoA.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-22T13:41:41"
+  },
+  {
     "titulo": "This ginormous caricature of a CPU cooler screen just about sums up Computex 2025, I think",
     "descricao": "ComputexAnd you'd better believe I'm here for it.",
     "link": "https://www.pcgamer.com/hardware/cooling/this-ginormous-caricature-of-a-cpu-cooler-screen-just-about-sums-up-computex-2025-i-think/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VjBUqTekSWpTzSAgJETMtL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "CDPR boss says Witcher author Sapkowski's grumpiness is a 'persona,' he's actually lovely and the studio's 'updating everything' to make sure they respect his lore",
@@ -13,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/cdpr-boss-says-witcher-author-sapkowskis-grumpiness-is-a-persona-hes-actually-lovely-and-the-studios-always-updating-everything-about-its-games-to-make-sure-they-respect-his-lore/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WDoChfptFTkpZjV3TnMPGS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "There's a new Warhammer 40,000 version of our favorite Secretlab desk on the way but please don't paint your minis on it",
@@ -21,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-desks/theres-a-new-warhammer-40-000-version-of-our-favorite-secretlab-desk-on-the-way-but-please-dont-paint-your-minis-on-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/J6MfdBJ2tggd9sFEPZcJ7d.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "'That magic is back': Peter Molyneux really wants you to know he's not hyping Masters of Albion, while name-dropping Dungeon Keeper, Black and White, and Fable",
@@ -29,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/that-magic-is-back-peter-molyneux-really-wants-you-to-know-hes-not-hyping-masters-of-albion-while-name-dropping-dungeon-keeper-black-and-white-and-fable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AR65w2y3DL5mCPALGeFsdY.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "If the endless stream of AIOs with big screens coming out of Computex is making your air cooler jealous, Tryx has you covered",
@@ -37,39 +61,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/if-the-endless-stream-of-aios-with-big-screens-coming-out-of-computex-is-making-your-air-cooler-jealous-tryx-has-you-covered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9svzL39SWQaR5waezkp6eg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
-    "titulo": "'Just stick to your guns': Neil Druckmann isn't phased by all the hate Intergalactic got, 'There's stuff happening with media right now that you just have to ignore'",
+    "titulo": "'Just stick to your guns': Neil Druckmann isn't fazed by all the hate Intergalactic got, 'There's stuff happening with media right now that you just have to ignore'",
     "descricao": "NewsAll you can do is back your creatives.",
     "link": "https://www.pcgamer.com/games/action/just-stick-to-your-guns-neil-druckmann-isnt-phased-by-all-the-hate-intergalactic-got-theres-stuff-happening-with-media-right-now-that-you-just-have-to-ignore/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/B4v2F5NAHVBUaLqzu6qY3Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
-  },
-  {
-    "titulo": "This retro PC case has a big red button and a turnkey and it hits me square in the chest with nostalgia",
-    "descricao": "Computex*Looks into the sky and thinks about the flash games era*",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/this-retro-pc-case-has-a-big-red-button-and-a-turnkey-and-it-hits-me-square-in-the-chest-with-nostalgia/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wky4hJfoU3tE8o5edUBq2o.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
-  },
-  {
-    "titulo": "This incredible Monster Hunter Wilds PC custom build has something your rig definitely doesn't: an RTX 5070 Ti GPU sword",
-    "descricao": "ComputexPowerful in every sense.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/this-incredible-monster-hunter-wilds-pc-custom-build-has-something-your-rig-doesnt-an-rtx-5070-ti-gpu-sword/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sND34woGy5ag3LvpponcEe.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
-  },
-  {
-    "titulo": "Intel's Core Ultra 265KF is down to $279 this Memorial Day and you get a free 1 TB SSD plus two games to enjoy with this deal",
-    "descricao": "DealIt might not be the best gaming CPU around but it is great value for money.",
-    "link": "https://www.pcgamer.com/hardware/processors/intels-core-ultra-265kf-is-down-to-usd279-this-memorial-day-and-you-get-a-free-1-tb-ssd-plus-two-games-to-enjoy-with-this-deal/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/uYvjfVSD7iaHrNpGbwG6We.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
-    "titulo": "\"Cresci com Battlefront 2\": estrela de Andor se junta ao movimento e clama por Battlefront 3",
+    "titulo": "EWC 2025: Line-up completa de jogos, cronograma, regras do campeonato de clubes e tudo o que você precisa saber sobre a Esports World Cup",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-battlefront-2/140549/news/cresci-com-battlefront-2-estrela-de-andor-se-junta-ao-movimento-e-clama-por-battlefront-3",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-actor-joins-calls-for-battlefront-3-as-battl_vjqq.280.jpg",
+    "link": "https://br.ign.com/esports-world-cup/140572/news/ewc-2025-line-up-completa-de-jogos-cronograma-regras-do-campeonato-de-clubes-e-tudo-o-que-voce-preci",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9tfe.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   },
   {
-    "titulo": "Disney está tão confiante com o sucesso do live-action de Lilo & Stitch que já considera próximos passos com a franquia",
+    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado atual",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140569/news/disney-esta-tao-confiante-com-o-sucesso-do-live-action-de-lilo-stitch-que-ja-considera-proximos-pass",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/disney-is-/disney-is-so-confident-in-the-live-action-lilo-stitch-movie_9anj.280.png",
+    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_td3s.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T13:12:15"
+    "timestamp": "2025-05-22T13:41:41"
   }
 ];
