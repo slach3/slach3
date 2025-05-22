@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/jason-momoas-videogame-movie-streak-wont-end-here-hes-already-in-talks-to-star-in-street-fighter-alongside-3-other-big-names/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/be44Si2b6Tzkq6n6dXt6iQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "The Last of Us showrunner confirms it'll take 4 seasons to wrap things up: \"there's no way to complete this narrative in a 3rd season\"",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/the-last-of-us-showrunner-confirms-itll-take-4-seasons-to-wrap-things-up-theres-no-way-to-complete-this-narrative-in-a-3rd-season/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jX9L3YyFNKAdapf3a2mNLV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "PC Gamer magazine's new issue is on sale now: The Witcher 3: Wild Hunt – 10th anniversary",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gamer-magazines-new-issue-is-on-sale-now-the-witcher-3-wild-hunt-10th-anniversary/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jWCK9csUDbrTC3yej7DcEZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "A writer used AI to generate this widely circulated summer reading list which includes fake books, and is published in the Chicago Sun-Times",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/a-writer-used-ai-to-generate-this-widely-circulated-summer-reading-list-which-includes-fake-books-and-is-published-in-the-chicago-sun-times/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nM4SPgHkTDrY8tokBUdVoK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "This $6,000 professional grade direct transfer printer comes with plenty of viruses for no extra cost, unless it also steals your crypto",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/this-usd6-000-professional-grade-direct-transfer-printer-comes-with-plenty-of-viruses-for-no-extra-cost-unless-it-also-steals-your-crypto/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/faK48vwwPLoQsLdzcLnGBP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "This origami-powered shape-shifting device could provide VR gamers with unique tactile feedback",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/vr-hardware/this-origami-powered-shape-shifting-device-could-provide-vr-gamers-with-unique-tactile-feedback/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/K3d4PuNoBDQn5AR83MhniL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, May 22",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-22-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "In an uncontroversial move that will bother no one, Lies of P is getting an easy mode",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/in-an-uncontroversial-move-that-will-bother-no-one-lies-of-p-is-getting-an-easy-mode/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NfxpYNcSU28A42C7RJ36Z5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Final Fantasy 15's longest boss fight is coming to Magic: The Gathering, hopefully it won't take 30 days to defeat",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/card-games/final-fantasy-15s-longest-boss-fight-is-coming-to-magic-the-gathering-hopefully-it-wont-take-30-days-to-defeat/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3ooVV6BLJEPke3YuMBSBzb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Nem Protocolo Fantasma, nem Efeito Fallout: este é o melhor Missão Impossível",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Smartphone em promoção! Samsung Galaxy A35 5G 128GB por apenas R$1.357",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140543/news/smartphone-em-promocao-samsung-galaxy-a35-5g-128gb-por-apenas-r1357",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/galaxy-a35-azul-escuro-z8xs_319235_7a8f.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   },
   {
     "titulo": "Oferta do dia! Smart TV LG 55\" 4K Ultra HD por R$2199 no Mercado Livre",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140542/news/oferta-do-dia-smart-tv-lg-55-4k-ultra-hd-por-r2199-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/4902680258029924349_up21.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T07:41:35"
+    "timestamp": "2025-05-22T07:52:44"
   }
 ];
