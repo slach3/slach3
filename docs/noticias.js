@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/140485/feature/nem-protocolo-fantasma-nem-efeito-fallout-este-e-o-melhor-missao-impossivel-de-todos",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62548/62548_7u6d.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Miyamoto: Nintendo é uma \"agência de talentos\" e personagens são \"artistas\"",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo/140470/news/esqueca-empresa-de-videogames-para-shigeru-miyamoto-a-nintendo-e-uma-agencia-de-talentos-e-todos-seu",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62549/62549_2xb3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "\"Não tem como completar a narrativa\": Showrunner de TLOU sugere 4ª temporada",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series-1/140416/news/nao-tem-como-completar-a-narrativa-em-apenas-3-temporadas-showrunner-de-the-last-of-us-sugere-que-se",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62394/62394_sstf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Finalmente! AMD confirma mais nova placa de vídeo Radeon RX 9060 XT na Computex 2025",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140506/news/finalmente-amd-confirma-mais-nova-placa-de-video-radeon-rx-9060-xt-na-computex-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-amd-ra/the-amd-radeon-rx-9060-xt-is-finally-confirmed_yxa6.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "\"Me perguntam todo dia 'já matou a Rennala?'\": Luísa Sonza recebe ajuda da comunidade com Elden Ring e revela paixão por outra franquia aclamada dos games",
@@ -61,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/jogoeldenring/140290/feature/me-perguntam-todo-dia-ja-matou-a-rennala-luisa-sonza-recebe-ajuda-da-comunidade-com-elden-ring-e-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_wt53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
+  },
+  {
+    "titulo": "Konami afirma que Silent Hill f é um título completamente novo e quem não conhece a franquia poderá aproveitar",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/silent-hill-f/140546/news/konami-afirma-que-silent-hill-f-e-um-titulo-completamente-novo-e-quem-nao-conhece-a-franquia-podera",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/silent-hil/silent-hill-f-a-completely-new-title-that-people-who-have-ne_1ynh.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Estrela de Duna: A Profecia sugere que a 2ª temporada da série deve chegar no final de 2026",
@@ -69,23 +77,23 @@ const noticias = [
     "link": "https://br.ign.com/dune-prophecy/140545/news/estrela-de-duna-a-profecia-sugere-que-a-2a-temporada-da-serie-deve-chegar-no-final-de-2026",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/duna-profecia-2_uy77.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
-    "titulo": "O que aconteceu com Jar Jar Binks após a ascensão do Império? Destino do personagem de Star Wars é incrivelmente trágico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-episodio-iii-a-vinganca-dos-sith/140544/news/o-que-aconteceu-com-jar-jar-binks-apos-a-ascensao-do-imperio-destino-do-personagem-de-star-wars-e-in",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jjb_j2ae.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-22T09:55:05"
+    "titulo": "This retro PC case has a big red button and a turnkey and it hits me square in the chest with nostalgia",
+    "descricao": "Computex*Looks into the sky and thinks about the flash games era*",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/this-retro-pc-case-has-a-big-red-button-and-a-turnkey-and-it-hits-me-square-in-the-chest-with-nostalgia/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/wky4hJfoU3tE8o5edUBq2o.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "This incredible Monster Hunter Wilds PC custom build has something your rig definitely doesn't: an RTX 5070 Ti GPU sword",
     "descricao": "ComputexPowerful in every sense.",
     "link": "https://www.pcgamer.com/hardware/pc-cases/this-incredible-monster-hunter-wilds-pc-custom-build-has-something-your-rig-doesnt-an-rtx-5070-ti-gpu-sword/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wDTA5QmgJGcuuKMvGuePT.jpg",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sND34woGy5ag3LvpponcEe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Intel's Core Ultra 265KF is down to $279 this Memorial Day and you get a free 1 TB SSD plus two games to enjoy with this deal",
@@ -93,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intels-core-ultra-265kf-is-down-to-usd279-this-memorial-day-and-you-get-a-free-1-tb-ssd-plus-two-games-to-enjoy-with-this-deal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uYvjfVSD7iaHrNpGbwG6We.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Monster Hunter Wilds has announced a collaboration with Street Fighter 6, letting you dress up as Akuma and embark on a new side mission",
@@ -101,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/monster-hunter-wilds-has-announced-a-collaboration-with-street-fighter-6-letting-you-dress-up-as-akuma-and-embark-on-a-new-side-mission/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DwX3zZkKR5rfB3Xr5qSzhb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Fear not, RTX 50-series owners, because ASRock's new PSUs have extra thermal sensors to shut off overheating GPU power cables",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/power-supplies/fear-not-rtx-50-series-owners-because-asrocks-new-psus-have-extra-thermal-sensors-to-shut-off-overheating-gpu-power-cables/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DRYLLV3ahdFTNuZgUzbvaB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "Jason Momoa's videogame movie streak won't end here, he's already in talks to star in Street Fighter alongside 3 other big names",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/jason-momoas-videogame-movie-streak-wont-end-here-hes-already-in-talks-to-star-in-street-fighter-alongside-3-other-big-names/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/be44Si2b6Tzkq6n6dXt6iQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "The Last of Us showrunner confirms it'll take 4 seasons to wrap things up: \"there's no way to complete this narrative in a 3rd season\"",
@@ -125,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/the-last-of-us-showrunner-confirms-itll-take-4-seasons-to-wrap-things-up-theres-no-way-to-complete-this-narrative-in-a-3rd-season/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jX9L3YyFNKAdapf3a2mNLV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "PC Gamer magazine's new issue is on sale now: The Witcher 3: Wild Hunt – 10th anniversary",
@@ -133,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gamer-magazines-new-issue-is-on-sale-now-the-witcher-3-wild-hunt-10th-anniversary/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jWCK9csUDbrTC3yej7DcEZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   },
   {
     "titulo": "A writer used AI to generate this widely circulated summer reading list which includes fake books, and is published in the Chicago Sun-Times",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/a-writer-used-ai-to-generate-this-widely-circulated-summer-reading-list-which-includes-fake-books-and-is-published-in-the-chicago-sun-times/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nM4SPgHkTDrY8tokBUdVoK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
-  },
-  {
-    "titulo": "This $6,000 professional grade direct transfer printer comes with plenty of viruses for no extra cost, unless it also steals your crypto",
-    "descricao": "NewsA backdoor and a clipbanker were found in the download software, and a potentially very harmful worm might be on the included USB for software installation.",
-    "link": "https://www.pcgamer.com/hardware/processors/this-usd6-000-professional-grade-direct-transfer-printer-comes-with-plenty-of-viruses-for-no-extra-cost-unless-it-also-steals-your-crypto/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/faK48vwwPLoQsLdzcLnGBP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-22T09:55:05"
+    "timestamp": "2025-05-22T10:29:50"
   }
 ];
