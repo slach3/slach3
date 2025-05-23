@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Neil Druckmann põe fim a uma das maiores discussões da comunidade de TLOU",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-part-1/140555/news/neil-druckmann-poe-fim-em-uma-das-maiores-discussoes-da-comunidade-de-the-last-of-us-apos-mais-de-10",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-part-1-finale-question-definitively-answered_evdq.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Filme live-action de Elden Ring é oficialmente confirmado pela A24 e Bandai Namco",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
-    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "\"Acho que não\": uma das maiores estrelas da Marvel descarta retorno ao MCU",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ant-man-and-the-wasp-quantumania/140566/news/acho-que-nao-uma-das-maiores-estrelas-da-marvel-descarta-retorno-ao-mcu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_513j.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "\"Cresci com Battlefront 2\": estrela de Andor se junta ao movimento e clama por Battlefront 3",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-battlefront-2/140549/news/cresci-com-battlefront-2-estrela-de-andor-se-junta-ao-movimento-e-clama-por-battlefront-3",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-actor-joins-calls-for-battlefront-3-as-battl_vjqq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
-    "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "Os EUA não ficarão felizes: Xiaomi desenvolveu um chip tão poderoso para celulares que recebeu elogios até do governo chinês",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140636/news/os-eua-nao-ficarao-felizes-xiaomi-desenvolveu-um-chip-tao-poderoso-para-celulares-que-recebeu-elogio",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/xiaomi-xring-01-12_d8m2.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
-  },
-  {
-    "titulo": "\"Caso contrário, uma tarifa de 25% será aplicada\": Trump exige que a Apple produza os próximos iPhones nos EUA",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140614/news/caso-contrario-uma-tarifa-de-25-sera-aplicada-trump-exige-que-a-apple-produza-os-proximos-iphones-no",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_6why.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T13:44:21"
+    "titulo": "Secretlab's Memorial Day sale means the best gaming chair is cheaper than Black Friday",
+    "descricao": "DealsAnd the desks are on discount, too; a real two-in-one.",
+    "link": "https://www.pcgamer.com/hardware/secretlabs-memorial-day-sale-means-the-best-gaming-chair-is-cheaper-than-black-friday/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TyNwfZ9zG3YKJgmdCp9uUN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "Brian Eno, creator of the Windows 95 startup sound, calls on Microsoft to sever ties with Israel: 'If you knowingly build systems that can enable war crimes, you inevitably become complicit in those crimes'",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/brian-eno-creator-of-the-windows-95-startup-sound-calls-on-microsoft-to-sever-ties-with-israel-if-you-knowingly-build-systems-that-can-enable-war-crimes-you-inevitably-become-complicit-in-those-crimes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EtBdUWd7LebrtajDnMW2CM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "This XCOM-style strategy game dares to ask: What if Napoleon Bonaparte was a woman who had an army of battlemechs?",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/this-xcom-style-strategy-game-dares-to-ask-what-if-napoleon-bonaparte-was-a-woman-who-had-an-army-of-battlemechs/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XLcPcxjpc5GtBZgZMQtcdj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "If there was one non-AI Computex trend this year it's that everything needs a damned screen in or on it",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/if-there-was-one-non-ai-computex-trend-this-year-its-that-everything-needs-a-damned-screen-in-or-on-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FVsSxSdiHwUc8ph6rimCCj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "REPO will feature 'moon phases' as part of the new update, ramping up the difficulty every 5 levels",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/repo-will-feature-moon-phases-as-part-of-the-new-update-ramping-up-the-difficulty-every-5-levels/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/j5QcbWxtGb7ZhrVPheiGkS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "Helldivers 2 and Palworld devs wish players understood that 'easy' additions and updates are sometimes really hard: 'That's half a year's work. That takes six months'",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/game-development/helldivers-2-and-palworld-devs-wish-players-understood-that-easy-additions-and-updates-are-sometimes-really-hard-thats-half-a-years-work-that-takes-six-months/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sTCF3L7cVHsa4AYuDFktvj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "'They listened! They listened!': Stalker restores Soviet monument after angry fans tanked its Steam reviews, and they couldn't be happier",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/they-listened-they-listened-stalker-restores-soviet-monument-after-angry-fans-tanked-its-steam-reviews-and-they-couldnt-be-happier/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8Fxj2PhXcJxQboMgkV9WZM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "The SteelSeries Arctis Nova Pro Wireless headset is now at the best price I've seen at only $229",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-headsets/the-steelseries-arctis-nova-pro-wireless-headset-is-now-at-the-best-price-ive-seen-at-only-usd229/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/abRMSThsMYowZjRTxx4ovf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
     "titulo": "Anthropic says its Claude AI will resort to blackmail in '84% of rollouts' while an independent AI safety researcher also notes it 'engages in strategic deception more than any other frontier model that we have previously studied'",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/anthropic-says-its-claude-ai-will-resort-to-blackmail-in-84-percent-of-rollouts-while-an-independent-ai-safety-researcher-also-notes-it-engages-in-strategic-deception-more-than-any-other-frontier-model-that-we-have-previously-studied/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5uhPjUweP3AHvsFS9zSuHL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "timestamp": "2025-05-23T13:55:31"
   },
   {
-    "titulo": "Noctua finally cracks the case market with a fan-equipped chassis that 'can substantially reduce noise' and now I want an all-Noctua rig",
-    "descricao": "ComputexThe new case is a collaboration with Antec.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/noctua-finally-cracks-the-case-market-with-a-fan-equipped-chassis-that-can-substantially-reduce-noise-and-now-i-want-an-all-noctua-rig/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CouUzBDrer8PZqxjw58CaB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T13:44:21"
+    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Neil Druckmann põe fim a uma das maiores discussões da comunidade de TLOU",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-part-1/140555/news/neil-druckmann-poe-fim-em-uma-das-maiores-discussoes-da-comunidade-de-the-last-of-us-apos-mais-de-10",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-part-1-finale-question-definitively-answered_evdq.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Filme live-action de Elden Ring é oficialmente confirmado pela A24 e Bandai Namco",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
+    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "\"Acho que não\": uma das maiores estrelas da Marvel descarta retorno ao MCU",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ant-man-and-the-wasp-quantumania/140566/news/acho-que-nao-uma-das-maiores-estrelas-da-marvel-descarta-retorno-ao-mcu",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_513j.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "\"Cresci com Battlefront 2\": estrela de Andor se junta ao movimento e clama por Battlefront 3",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-battlefront-2/140549/news/cresci-com-battlefront-2-estrela-de-andor-se-junta-ao-movimento-e-clama-por-battlefront-3",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-actor-joins-calls-for-battlefront-3-as-battl_vjqq.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
+    "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "Os EUA não ficarão felizes: Xiaomi desenvolveu um chip tão poderoso para celulares que recebeu elogios até do governo chinês",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140636/news/os-eua-nao-ficarao-felizes-xiaomi-desenvolveu-um-chip-tao-poderoso-para-celulares-que-recebeu-elogio",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/xiaomi-xring-01-12_d8m2.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
+  },
+  {
+    "titulo": "\"Caso contrário, uma tarifa de 25% será aplicada\": Trump exige que a Apple produza os próximos iPhones nos EUA",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140614/news/caso-contrario-uma-tarifa-de-25-sera-aplicada-trump-exige-que-a-apple-produza-os-proximos-iphones-no",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_6why.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-23T13:55:31"
   }
 ];
