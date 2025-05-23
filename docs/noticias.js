@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "'They listened! They listened!': Stalker restores Soviet monument after angry fans tanked its Steam reviews, and they couldn't be happier",
+    "descricao": "NewsI guess he really will live again.",
+    "link": "https://www.pcgamer.com/games/fps/they-listened-they-listened-stalker-restores-soviet-monument-after-angry-fans-tanked-its-steam-reviews-and-they-couldnt-be-happier/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8Fxj2PhXcJxQboMgkV9WZM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T10:49:19"
+  },
+  {
     "titulo": "The SteelSeries Arctis Nova Pro Wireless headset is now at the best price I've seen at only $229",
     "descricao": "DealBut will it improve my parry-game?",
     "link": "https://www.pcgamer.com/hardware/gaming-headsets/the-steelseries-arctis-nova-pro-wireless-headset-is-now-at-the-best-price-ive-seen-at-only-usd229/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/abRMSThsMYowZjRTxx4ovf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Anthropic says its Claude AI will resort to blackmail in '84% of rollouts' while an independent AI safety researcher also notes it 'engages in strategic deception more than any other frontier model that we have previously studied'",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/anthropic-says-its-claude-ai-will-resort-to-blackmail-in-84-percent-of-rollouts-while-an-independent-ai-safety-researcher-also-notes-it-engages-in-strategic-deception-more-than-any-other-frontier-model-that-we-have-previously-studied/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5uhPjUweP3AHvsFS9zSuHL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Noctua finally cracks the case market with a fan-equipped chassis that 'can substantially reduce noise' and now I want an all-Noctua rig",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/noctua-finally-cracks-the-case-market-with-a-fan-equipped-chassis-that-can-substantially-reduce-noise-and-now-i-want-an-all-noctua-rig/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CouUzBDrer8PZqxjw58CaB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "'We'll call you back': BioWare's first impression of The Witcher 1 was a bad demo, followed by CDPR declaring that they wanted to 'create the best RPG game ever'",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/well-call-you-back-biowares-first-impression-of-the-witcher-1-was-a-bad-demo-followed-by-cdpr-declaring-that-they-wanted-to-create-the-best-rpg-game-ever/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xbqnBGEizHts6SqzVeHBFD.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "This hacking sim is like if Uplink was more of a puzzle game, and if you live for snooping through other people's emails you're going to be well-served",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/this-hacking-sim-is-like-if-uplink-was-more-of-a-puzzle-game-and-if-you-live-for-snooping-through-other-peoples-emails-youre-going-to-be-well-served/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6dLM8jkp3J5MQ534UMtYBf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "The voice actor for FF14's Alphinaud finally reaches Heavensward, sees his own work after 10 years in all its 'jumpscare' glory",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/the-voice-actor-for-ff14s-alphinaud-finally-reaches-heavensward-sees-his-own-work-after-10-years-in-all-its-jumpscare-glory/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tVGEQB4xoeh8arLJzzW68o.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Audeze's Summer B-Stock sale might come with some 'minor cosmetic blemishes' but the astounding Maxwell headset will still sound incredible",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/audezes-summer-b-stock-sale-might-come-with-some-minor-cosmetic-blemishes-but-the-astounding-maxwell-headset-will-still-sound-incredible/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fbS7hicGYi45XHdi2H4DV6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "If you never played the original The Witcher RPG then here's a heads-up—the censorship-free Enhanced Edition is now dirt cheap",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/if-you-never-played-the-original-the-witcher-rpg-then-heres-a-heads-up-the-censorship-free-enhanced-edition-is-now-dirt-cheap/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bdbdbheT52qq3MywwgWpk9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
-  },
-  {
-    "titulo": "PNY and Palit have stolen my heart at Computex with their clean and shiny RTX 50-series graphics cards",
-    "descricao": "Computex*Snaps fingers* Have you finished polishing my Chrome GPU, yet?",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/pny-and-palit-have-stolen-my-heart-at-computex-with-their-clean-and-shiny-rtx-50-series-graphics-cards/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/hbR9DqBM228F4FfKuD5RUD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Neil Druckmann põe fim a uma das maiores discussões da comunidade de TLOU",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-part-1/140555/news/neil-druckmann-poe-fim-em-uma-das-maiores-discussoes-da-comunidade-de-the-last-of-us-apos-mais-de-10",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-part-1-finale-question-definitively-answered_evdq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Filme live-action de Elden Ring é oficialmente confirmado pela A24 e Bandai Namco",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
     "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "\"Acho que não\": uma das maiores estrelas da Marvel descarta retorno ao MCU",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/ant-man-and-the-wasp-quantumania/140566/news/acho-que-nao-uma-das-maiores-estrelas-da-marvel-descarta-retorno-ao-mcu",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_513j.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "\"Cresci com Battlefront 2\": estrela de Andor se junta ao movimento e clama por Battlefront 3",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-battlefront-2/140549/news/cresci-com-battlefront-2-estrela-de-andor-se-junta-ao-movimento-e-clama-por-battlefront-3",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-actor-joins-calls-for-battlefront-3-as-battl_vjqq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Com um dos melhores jogos de 2024, Xbox revela títulos da segunda leva de maio de 2025 do Xbox Game Pass",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/140487/news/com-um-dos-melhores-jogos-de-2024-xbox-revela-titulos-da-segunda-leva-de-maio-de-2025-do-xbox-game-p",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-game-/xbox-game-pass-may-2025-wave-2-lineup-confirmed_d8u7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
     "titulo": "Um ano após o lançamento, Senua's Saga: Hellblade 2 chega ao PlayStation 5 com versão aprimorada",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/hellblade-2/140486/news/um-ano-apos-o-lancamento-senuas-saga-hellblade-2-chega-ao-playstation-5-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/senuas-sag/senuas-saga-hellblade-2-enhanced-edition-announced-for-ps5-w_7an7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
-    "titulo": "Onde e quando assistir ao Crunchyroll Anime Awards?",
+    "titulo": "inZOI atinge sua maior queda e perde 98% de seus jogadores do Steam nas últimas 24 horas",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/crunchyroll/140606/news/onde-e-quando-assistir-ao-crunchyroll-anime-awards",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-24_py9q.280.jpg",
+    "link": "https://br.ign.com/inzoi/140611/news/inzoi-atinge-sua-maior-queda-e-perde-98-de-seus-jogadores-do-steam-nas-ultimas-24-horas",
+    "imagem": "https://sm.ign.com/t/ign_br/blogroll/t/the-sims-c/the-sims-competitor-inzoi-sells-1-million-in-a-week-krafton_us6k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   },
   {
-    "titulo": "Com 7 painéis temáticos sobre games e esports, Player1 reúne especialistas e grandes nomes do mercado para agenda gamer no Rio2C",
+    "titulo": "paiN amplia parceria com Melitta e inaugura espaço da marca de café na sede da organização",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140574/news/com-7-paineis-tematicos-sobre-games-e-esports-player1-reune-especialistas-e-grandes-nomes-do-mercado",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-22_xzcj.280.jpg",
+    "link": "https://br.ign.com/esports/140607/news/pain-amplia-parceria-com-melitta-e-inaugura-espaco-da-marca-de-cafe-na-sede-da-organizacao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_rtg3.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T10:35:55"
+    "timestamp": "2025-05-23T10:49:19"
   }
 ];
