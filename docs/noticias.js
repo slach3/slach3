@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Fábula TCG: jogo de cartas 100% brasileiro que pode preencher vazio deixado por MTG",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140638/feature/conheca-fabula-tcg-o-jogo-de-cartas-100-brasileiro-que-pode-preencher-o-vazio-deixado-por-magic-the",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vbw.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Filme live-action de Elden Ring é confirmado pela A24 e Bandai Namco",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
-    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Será que presta? Game of Thrones Kingsroad é lançado; especialistas e público opinam sobre novo RPG para celulares e PCs",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/game-of-thrones-kingsroad/140630/feature/sera-que-presta-game-of-thrones-kingsroad-e-lancado-especialistas-e-publico-opinam-sobre-novo-rpg-pa",
-    "imagem": "https://sm.ign.com/t/ign_br/cover/g/game-of-th/game-of-thrones-kingsroad_9cz5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "\"Não espero que seja anunciado\": ex-desenvolvedor da DICE não acredita no lançamento de Star Wars Battlefront 3",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-battlefront-2/140623/news/nao-espero-que-seja-anunciado-ex-desenvolvedor-da-dice-nao-acredita-no-lancamento-de-star-wars-battl",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/dont-expec/dont-expect-star-wars-battlefront-3-any-time-soon-former-dic_vcup.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "\"Isso me dá esperança\": imagens muito antigas de Clair Obscur Expedition 33 vêm à tona e fãs estão encantados em ver evolução",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/140458/news/isso-me-da-esperanca-imagens-muito-antigas-de-clair-obscur-expedition-33-vem-a-tona-e-fas-estao-enca",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/clair-obscur-expedition-33-overview-1737657892791_5uwu.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "28 anos depois, diretor de Final Fantasy 7 Remake revela algo inusitado sobre Sephiroth que pode mudar totalmente a maneira como você vê o personagem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-vii-remake/140591/news/28-anos-depois-diretor-de-final-fantasy-7-remake-revela-algo-inusitado-sobre-sephiroth-que-pode-muda",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-vii-rebirth-pc-ann_qv31.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Google finalmente encontrou uma maneira de fazer com que seus usuários gratuitos paguem pelos serviços",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/google/140523/news/google-finalmente-encontrou-uma-maneira-de-fazer-com-que-seus-usuarios-gratuitos-paguem-pelos-servic",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sascha-bosshard-et3fex4jibw-unsplash_81f2.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
-    "titulo": "Pai jogou no PS2 com filho durante anos porque não podia comprar nada melhor; anos depois, o menino, já adulto, lhe deu um PS4 Pro",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ps4/140519/news/pai-jogou-no-ps2-com-filho-durante-anos-porque-nao-podia-comprar-nada-melhor-anos-depois-o-menino-ja",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fabian-albert-epjucf48vgo-unsplash_b8jp.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-24T18:11:49"
-  },
-  {
     "titulo": "Indie Fallout wiki joins forces with the Unofficial Elder Scrolls Pages, ensuring a bright future for looking up RPG lore uninterrupted by half-page video ads",
     "descricao": "newsUESP, the Independent Fallout Wiki, and their like are a real breath of fresh air on the 2020s internet.",
     "link": "https://www.pcgamer.com/games/fallout/indie-fallout-wiki-joins-forces-with-the-unofficial-elder-scrolls-pages-ensuring-a-bright-future-for-looking-up-rpg-lore-uninterrupted-by-half-page-video-ads/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8NaUUUYSKGJEUWdEkRLAoD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "'Son, you did a good job:' Doom grandaddy John Romero streamed hit indie FPS Dusk and absolutely loved it",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/son-you-did-a-good-job-doom-grandaddy-john-romero-streamed-hit-indie-fps-dusk-and-absolutely-loved-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wW8U58BtorykXvm8gdC99m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "The Finals' latest update adds a limited-time mode that's mostly just hitting each other with hammers",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-finals-latest-update-adds-a-limited-time-mode-thats-mostly-just-hitting-each-other-with-hammers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RnztQhvvtj8XkkwNU3q4Z8.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "A24 is making a movie based on The Backrooms, the 2019 creepypasta that now forms the basis for every other game on Steam",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/a24-is-making-a-movie-based-on-the-backrooms-the-2019-creepypasta-that-now-forms-the-basis-for-every-other-game-on-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pdaUGyxDy9RwpPkFYJdQBb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "Mech farming sim Lightyear Frontier is getting a complete overhaul, adding a bigger map, massive tornados, and an interplanetary delivery cannon: 'It's been clear that we were not living up to the fantasy'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/mech-farming-sim-lightyear-frontier-is-getting-a-complete-overhaul-adding-a-bigger-map-massive-tornados-and-an-interplanetary-delivery-cannon-its-been-clear-that-we-were-not-living-up-to-the-fantasy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TmzjpQWXKhsJtCvgMk3JUN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "Microsoft's take on Civilization is getting an expansion that lets you play through the Bronze Age collapse, the Mongol invasion, and something inexplicably called 'Spider World'",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/microsofts-take-on-civilization-is-getting-an-expansion-that-lets-you-play-through-the-bronze-age-collapse-the-mongol-invasion-and-something-inexplicably-called-spider-world/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qzAMqRyy9AB3shQsbo3S9Z.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "Today's Wordle answer for Saturday, May 24",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-24-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "Paradox is bringing back White Wolf for tabletop RPGs and at least one videogame",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/paradox-is-bringing-back-white-wolf-for-tabletop-rpgs-and-at-least-one-videogame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PPqAgbdJpMi678Dfdp6MjZ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
   },
   {
     "titulo": "Most players 'know next to nothing about how games are made': New Blood devs sound off on gamedev misconceptions",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/most-players-know-next-to-nothing-about-how-games-are-made-new-blood-devs-sound-off-on-gamedev-misconceptions/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/aGkJnuRGtJPhzGkpqMG7fX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-24T18:11:49"
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Fábula TCG: jogo de cartas 100% brasileiro que pode preencher vazio deixado por MTG",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140638/feature/conheca-fabula-tcg-o-jogo-de-cartas-100-brasileiro-que-pode-preencher-o-vazio-deixado-por-magic-the",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vbw.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Filme live-action de Elden Ring é confirmado pela A24 e Bandai Namco",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
+    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Será que presta? Game of Thrones Kingsroad é lançado; especialistas e público opinam sobre novo RPG para celulares e PCs",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/game-of-thrones-kingsroad/140630/feature/sera-que-presta-game-of-thrones-kingsroad-e-lancado-especialistas-e-publico-opinam-sobre-novo-rpg-pa",
+    "imagem": "https://sm.ign.com/t/ign_br/cover/g/game-of-th/game-of-thrones-kingsroad_9cz5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "\"Não espero que seja anunciado\": ex-desenvolvedor da DICE não acredita no lançamento de Star Wars Battlefront 3",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-battlefront-2/140623/news/nao-espero-que-seja-anunciado-ex-desenvolvedor-da-dice-nao-acredita-no-lancamento-de-star-wars-battl",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/dont-expec/dont-expect-star-wars-battlefront-3-any-time-soon-former-dic_vcup.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "\"Isso me dá esperança\": imagens muito antigas de Clair Obscur Expedition 33 vêm à tona e fãs estão encantados em ver evolução",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/140458/news/isso-me-da-esperanca-imagens-muito-antigas-de-clair-obscur-expedition-33-vem-a-tona-e-fas-estao-enca",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/clair-obscur-expedition-33-overview-1737657892791_5uwu.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "28 anos depois, diretor de Final Fantasy 7 Remake revela algo inusitado sobre Sephiroth que pode mudar totalmente a maneira como você vê o personagem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-vii-remake/140591/news/28-anos-depois-diretor-de-final-fantasy-7-remake-revela-algo-inusitado-sobre-sephiroth-que-pode-muda",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-vii-rebirth-pc-ann_qv31.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Google finalmente encontrou uma maneira de fazer com que seus usuários gratuitos paguem pelos serviços",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/google/140523/news/google-finalmente-encontrou-uma-maneira-de-fazer-com-que-seus-usuarios-gratuitos-paguem-pelos-servic",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sascha-bosshard-et3fex4jibw-unsplash_81f2.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
+  },
+  {
+    "titulo": "Pai jogou no PS2 com filho durante anos porque não podia comprar nada melhor; anos depois, o menino, já adulto, lhe deu um PS4 Pro",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ps4/140519/news/pai-jogou-no-ps2-com-filho-durante-anos-porque-nao-podia-comprar-nada-melhor-anos-depois-o-menino-ja",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fabian-albert-epjucf48vgo-unsplash_b8jp.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-24T18:28:15"
   }
 ];
