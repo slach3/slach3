@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Paradox is bringing back White Wolf for tabletop RPGs and at least one videogame",
-    "descricao": "newsWhite Wolf, which was effectively shuttered in 2018, will serve as co-publisher of Vampire: The Masquerade - Bloodlines 2.",
-    "link": "https://www.pcgamer.com/games/rpg/paradox-is-bringing-back-white-wolf-for-tabletop-rpgs-and-at-least-one-videogame/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/PPqAgbdJpMi678Dfdp6MjZ.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "Most players 'know next to nothing about how games are made': New Blood devs sound off on gamedev misconceptions",
-    "descricao": "NEWSIt's now easier than ever to make \"broad incorrect assumptions\" about how games work.",
-    "link": "https://www.pcgamer.com/gaming-industry/most-players-know-next-to-nothing-about-how-games-are-made-new-blood-devs-sound-off-on-gamedev-misconceptions/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/aGkJnuRGtJPhzGkpqMG7fX.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "Konami re-recorded the Snake Eater theme for Metal Gear Solid Delta, but don't worry—it's still the same excellent vocalist belting \"Snaaaaaaaaake Eaaaterrrrrrrrr\"",
-    "descricao": "NewsStill in a dream.",
-    "link": "https://www.pcgamer.com/games/action/konami-re-recorded-the-snake-eater-theme-for-metal-gear-solid-delta-but-dont-worry-its-still-the-same-excellent-vocalist-belting-snaaaaaaaaake-eaaaterrrrrrrrr/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/82kKTvPAHoaDo8QhZJBQZk.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "'We're gonna do right by you': Splitgate 2 CEO apologizes for server meltdown after the open beta goes live",
-    "descricao": "newsThe Splitgate 2 servers were taken offline just hours after the beta began, and they're still not back.",
-    "link": "https://www.pcgamer.com/games/fps/were-gonna-do-right-by-you-splitgate-2-ceo-apologizes-for-server-meltdown-after-the-open-beta-goes-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/LbiXNJsGSS6KxK5FCBAPEN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "Larian insists it did not accidentally leak Divinity: Original Sin 3, it was just a glitch on X",
-    "descricao": "newsA brief and unexpected change to the studio's social media handle had followers pretty excited.",
-    "link": "https://www.pcgamer.com/games/rpg/larian-insists-it-did-not-accidentally-leak-divinity-original-sin-3-it-was-just-a-glitch-on-x/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ddvVcHngZm2jxozdx6obGD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "Secretlab's Memorial Day sale means the best gaming chair is cheaper than Black Friday",
-    "descricao": "DealsAnd the desks are on discount, too; a real two-in-one.",
-    "link": "https://www.pcgamer.com/hardware/secretlabs-memorial-day-sale-means-the-best-gaming-chair-is-cheaper-than-black-friday/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TyNwfZ9zG3YKJgmdCp9uUN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "Brian Eno, creator of the Windows 95 startup sound, calls on Microsoft to sever ties with Israel: 'If you knowingly build systems that can enable war crimes, you inevitably become complicit in those crimes'",
-    "descricao": "newsThe art rock legend says he stands with Microsoft workers protesting the company's support of the Israeli military's ongoing attacks in Gaza.",
-    "link": "https://www.pcgamer.com/gaming-industry/brian-eno-creator-of-the-windows-95-startup-sound-calls-on-microsoft-to-sever-ties-with-israel-if-you-knowingly-build-systems-that-can-enable-war-crimes-you-inevitably-become-complicit-in-those-crimes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/EtBdUWd7LebrtajDnMW2CM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "This XCOM-style strategy game dares to ask: What if Napoleon Bonaparte was a woman who had an army of battlemechs?",
-    "descricao": "NewsI've long wondered this myself.",
-    "link": "https://www.pcgamer.com/games/strategy/this-xcom-style-strategy-game-dares-to-ask-what-if-napoleon-bonaparte-was-a-woman-who-had-an-army-of-battlemechs/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XLcPcxjpc5GtBZgZMQtcdj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
-    "titulo": "If there was one non-AI Computex trend this year it's that everything needs a damned screen in or on it",
-    "descricao": "ComputexWe heard you like screens...",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/if-there-was-one-non-ai-computex-trend-this-year-its-that-everything-needs-a-damned-screen-in-or-on-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FVsSxSdiHwUc8ph6rimCCj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-23T22:03:57"
-  },
-  {
     "titulo": "Fábula TCG: jogo de cartas 100% brasileiro que pode preencher vazio deixado por MTG",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/games/140638/feature/conheca-fabula-tcg-o-jogo-de-cartas-100-brasileiro-que-pode-preencher-o-vazio-deixado-por-magic-the",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vbw.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "Filme live-action de Elden Ring é confirmado pela A24 e Bandai Namco",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
     "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "Será que presta? Game of Thrones Kingsroad é lançado; especialistas e público opinam sobre novo RPG para celulares e PCs",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/game-of-thrones-kingsroad/140630/feature/sera-que-presta-game-of-thrones-kingsroad-e-lancado-especialistas-e-publico-opinam-sobre-novo-rpg-pa",
     "imagem": "https://sm.ign.com/t/ign_br/cover/g/game-of-th/game-of-thrones-kingsroad_9cz5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "\"Não espero que seja anunciado\": ex-desenvolvedor da DICE não acredita no lançamento de Star Wars Battlefront 3",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-battlefront-2/140623/news/nao-espero-que-seja-anunciado-ex-desenvolvedor-da-dice-nao-acredita-no-lancamento-de-star-wars-battl",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dont-expec/dont-expect-star-wars-battlefront-3-any-time-soon-former-dic_vcup.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "\"Isso me dá esperança\": imagens muito antigas de Clair Obscur Expedition 33 vêm à tona e fãs estão encantados em ver evolução",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140458/news/isso-me-da-esperanca-imagens-muito-antigas-de-clair-obscur-expedition-33-vem-a-tona-e-fas-estao-enca",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/clair-obscur-expedition-33-overview-1737657892791_5uwu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
     "titulo": "28 anos depois, diretor de Final Fantasy 7 Remake revela algo inusitado sobre Sephiroth que pode mudar totalmente a maneira como você vê o personagem",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-remake/140591/news/28-anos-depois-diretor-de-final-fantasy-7-remake-revela-algo-inusitado-sobre-sephiroth-que-pode-muda",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-vii-rebirth-pc-ann_qv31.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
-    "titulo": "4 jogos para PS5 com R$100 de desconto na Amazon",
+    "titulo": "Xiaomi Poco X7: smartphone de 512GB com preço especial na Amazon",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140669/news/4-jogos-para-ps5-com-r100-de-desconto-na-amazon",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/nik-5kpnnylijoc-unsplash_f542.280.jpg",
+    "link": "https://br.ign.com/descontos/140672/news/xiaomi-poco-x7-smartphone-de-512gb-com-preco-especial-na-amazon",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-6_bgny.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
   },
   {
-    "titulo": "\"Estamos oferecendo uma nova experiência e uma nova maneira de competir\", vice-presidente Esports da Ubisoft fala sobre \"nova era competitiva\" com chegada do Rainbow Six Siege X",
+    "titulo": "SÓ R$3.347: PS5 Digital Slim de 1TB com 2 jogos em oferta hoje no Mercado Livre",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rainbow-six-siege/140664/news/estamos-oferecendo-uma-nova-experiencia-e-uma-nova-maneira-de-competir-vice-presidente-esports-da-ub",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/rainbox-six-siege-x_zykr.280.jpg",
+    "link": "https://br.ign.com/descontos/140671/news/so-r3347-ps5-digital-slim-de-1tb-com-2-jogos-em-oferta-hoje-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ps5-returnal-ratchet_nef6.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-23T22:03:57"
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Paradox is bringing back White Wolf for tabletop RPGs and at least one videogame",
+    "descricao": "newsWhite Wolf, which was effectively shuttered in 2018, will serve as co-publisher of Vampire: The Masquerade - Bloodlines 2.",
+    "link": "https://www.pcgamer.com/games/rpg/paradox-is-bringing-back-white-wolf-for-tabletop-rpgs-and-at-least-one-videogame/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/PPqAgbdJpMi678Dfdp6MjZ.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Most players 'know next to nothing about how games are made': New Blood devs sound off on gamedev misconceptions",
+    "descricao": "NEWSIt's now easier than ever to make \"broad incorrect assumptions\" about how games work.",
+    "link": "https://www.pcgamer.com/gaming-industry/most-players-know-next-to-nothing-about-how-games-are-made-new-blood-devs-sound-off-on-gamedev-misconceptions/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/aGkJnuRGtJPhzGkpqMG7fX.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Konami re-recorded the Snake Eater theme for Metal Gear Solid Delta, but don't worry—it's still the same excellent vocalist belting \"Snaaaaaaaaake Eaaaterrrrrrrrr\"",
+    "descricao": "NewsStill in a dream.",
+    "link": "https://www.pcgamer.com/games/action/konami-re-recorded-the-snake-eater-theme-for-metal-gear-solid-delta-but-dont-worry-its-still-the-same-excellent-vocalist-belting-snaaaaaaaaake-eaaaterrrrrrrrr/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/82kKTvPAHoaDo8QhZJBQZk.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "'We're gonna do right by you': Splitgate 2 CEO apologizes for server meltdown after the open beta goes live",
+    "descricao": "newsThe Splitgate 2 servers were taken offline just hours after the beta began, and they're still not back.",
+    "link": "https://www.pcgamer.com/games/fps/were-gonna-do-right-by-you-splitgate-2-ceo-apologizes-for-server-meltdown-after-the-open-beta-goes-live/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/LbiXNJsGSS6KxK5FCBAPEN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Larian insists it did not accidentally leak Divinity: Original Sin 3, it was just a glitch on X",
+    "descricao": "newsA brief and unexpected change to the studio's social media handle had followers pretty excited.",
+    "link": "https://www.pcgamer.com/games/rpg/larian-insists-it-did-not-accidentally-leak-divinity-original-sin-3-it-was-just-a-glitch-on-x/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ddvVcHngZm2jxozdx6obGD.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Secretlab's Memorial Day sale means the best gaming chair is cheaper than Black Friday",
+    "descricao": "DealsAnd the desks are on discount, too; a real two-in-one.",
+    "link": "https://www.pcgamer.com/hardware/secretlabs-memorial-day-sale-means-the-best-gaming-chair-is-cheaper-than-black-friday/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TyNwfZ9zG3YKJgmdCp9uUN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "Brian Eno, creator of the Windows 95 startup sound, calls on Microsoft to sever ties with Israel: 'If you knowingly build systems that can enable war crimes, you inevitably become complicit in those crimes'",
+    "descricao": "newsThe art rock legend says he stands with Microsoft workers protesting the company's support of the Israeli military's ongoing attacks in Gaza.",
+    "link": "https://www.pcgamer.com/gaming-industry/brian-eno-creator-of-the-windows-95-startup-sound-calls-on-microsoft-to-sever-ties-with-israel-if-you-knowingly-build-systems-that-can-enable-war-crimes-you-inevitably-become-complicit-in-those-crimes/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EtBdUWd7LebrtajDnMW2CM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "This XCOM-style strategy game dares to ask: What if Napoleon Bonaparte was a woman who had an army of battlemechs?",
+    "descricao": "NewsI've long wondered this myself.",
+    "link": "https://www.pcgamer.com/games/strategy/this-xcom-style-strategy-game-dares-to-ask-what-if-napoleon-bonaparte-was-a-woman-who-had-an-army-of-battlemechs/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XLcPcxjpc5GtBZgZMQtcdj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
+  },
+  {
+    "titulo": "If there was one non-AI Computex trend this year it's that everything needs a damned screen in or on it",
+    "descricao": "ComputexWe heard you like screens...",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/if-there-was-one-non-ai-computex-trend-this-year-its-that-everything-needs-a-damned-screen-in-or-on-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/FVsSxSdiHwUc8ph6rimCCj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-23T23:42:22"
   }
 ];
