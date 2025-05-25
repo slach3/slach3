@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Fábula TCG: jogo de cartas 100% brasileiro que pode preencher vazio deixado por MTG",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140638/feature/conheca-fabula-tcg-o-jogo-de-cartas-100-brasileiro-que-pode-preencher-o-vazio-deixado-por-magic-the",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vbw.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Filme live-action de Elden Ring é confirmado pela A24 e Bandai Namco",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
-    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Será que presta? Game of Thrones Kingsroad é lançado; especialistas e público opinam sobre novo RPG para celulares e PCs",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/game-of-thrones-kingsroad/140630/feature/sera-que-presta-game-of-thrones-kingsroad-e-lancado-especialistas-e-publico-opinam-sobre-novo-rpg-pa",
-    "imagem": "https://sm.ign.com/t/ign_br/cover/g/game-of-th/game-of-thrones-kingsroad_9cz5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "\"Não espero que seja anunciado\": ex-desenvolvedor da DICE não acredita no lançamento de Star Wars Battlefront 3",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-battlefront-2/140623/news/nao-espero-que-seja-anunciado-ex-desenvolvedor-da-dice-nao-acredita-no-lancamento-de-star-wars-battl",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/dont-expec/dont-expect-star-wars-battlefront-3-any-time-soon-former-dic_vcup.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "\"Isso me dá esperança\": imagens muito antigas de Clair Obscur Expedition 33 vêm à tona e fãs estão encantados em ver evolução",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/140458/news/isso-me-da-esperanca-imagens-muito-antigas-de-clair-obscur-expedition-33-vem-a-tona-e-fas-estao-enca",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/clair-obscur-expedition-33-overview-1737657892791_5uwu.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "28 anos depois, diretor de Final Fantasy 7 Remake revela algo inusitado sobre Sephiroth que pode mudar totalmente a maneira como você vê o personagem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-vii-remake/140591/news/28-anos-depois-diretor-de-final-fantasy-7-remake-revela-algo-inusitado-sobre-sephiroth-que-pode-muda",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-vii-rebirth-pc-ann_qv31.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Este é o clã menos aproveitado e mais subestimado em Naruto — e não são os Hyuuga",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/naruto/140627/feature/este-e-o-cla-menos-aproveitado-e-mais-subestimado-em-naruto-e-nao-sao-os-hyuuga",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mito-e-kushina_13rh.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
-  },
-  {
-    "titulo": "Mais de dois anos após o lançamento, fãs de Zelda percebem detalhe curioso ao fazerem Link dormir em Tears of the Kingdom",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-tears-of-the-kingdom/140547/news/mais-de-dois-anos-apos-o-lancamento-fas-de-zelda-percebem-detalhe-curioso-ao-fazerem-link-dormir-em",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/zelda-totk-wasser-gp-6241822_3xtx.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-25T09:48:41"
+    "titulo": "Helldivers 2 player embraces their inner Lisan al-Gaib, discovering a way to surf on the back of the game's giant floating Leviathans: 'I spent longer than I would like to admit setting this up'",
+    "descricao": "NewsTaken for a ride.",
+    "link": "https://www.pcgamer.com/games/action/helldivers-2-player-embraces-their-inner-lisan-al-gaib-discovering-a-way-to-surf-on-the-back-of-the-games-giant-floating-leviathans-i-spent-longer-than-i-would-like-to-admit-setting-this-up/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/f4xowbFKKMoyCtSvhwXwXD.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "Double Fine dev embarks on a quest to discover Full Throttle's true release date: 'Perhaps the best 30th birthday present I could give Full Throttle was a real birthday'",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/double-fine-dev-embarks-on-a-quest-to-discover-full-throttles-true-release-date-perhaps-the-best-30th-birthday-present-i-could-give-full-throttle-was-a-real-birthday/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2k4nwmcGDYSucMzwMSrBii.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "Move over, Daggerfall Unity—now there's a project to make the oldest, least accessible Elder Scrolls game actually playable",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/move-over-daggerfall-unity-now-theres-a-project-to-make-the-oldest-least-accessible-elder-scrolls-game-actually-playable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LGSRAa39byNiU96wSUU2AK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "CD Projekt Red reflects on its hubris following The Witcher 3's success, and how that led to Cyberpunk 2077's problems: 'I think that was the beginning of a bit of magical thinking for the company'",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/cd-projekt-red-reflects-on-its-hubris-following-the-witcher-3s-success-and-how-that-led-to-cyberpunk-2077s-problems-i-think-that-was-the-beginning-of-a-bit-of-magical-thinking-for-the-company/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FTQTAuYPDCywofChz3qZa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, May 25",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-25-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "Indie Fallout wiki joins forces with the Unofficial Elder Scrolls Pages, ensuring a bright future for looking up RPG lore uninterrupted by half-page video ads",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fallout/indie-fallout-wiki-joins-forces-with-the-unofficial-elder-scrolls-pages-ensuring-a-bright-future-for-looking-up-rpg-lore-uninterrupted-by-half-page-video-ads/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8NaUUUYSKGJEUWdEkRLAoD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "'Son, you did a good job:' Doom grandaddy John Romero streamed hit indie FPS Dusk and absolutely loved it",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/son-you-did-a-good-job-doom-grandaddy-john-romero-streamed-hit-indie-fps-dusk-and-absolutely-loved-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wW8U58BtorykXvm8gdC99m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "The Finals' latest update adds a limited-time mode that's mostly just hitting each other with hammers",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-finals-latest-update-adds-a-limited-time-mode-thats-mostly-just-hitting-each-other-with-hammers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RnztQhvvtj8XkkwNU3q4Z8.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
     "titulo": "A24 is making a movie based on The Backrooms, the 2019 creepypasta that now forms the basis for every other game on Steam",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/a24-is-making-a-movie-based-on-the-backrooms-the-2019-creepypasta-that-now-forms-the-basis-for-every-other-game-on-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pdaUGyxDy9RwpPkFYJdQBb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "timestamp": "2025-05-25T10:15:40"
   },
   {
-    "titulo": "Mech farming sim Lightyear Frontier is getting a complete overhaul, adding a bigger map, massive tornados, and an interplanetary delivery cannon: 'It's been clear that we were not living up to the fantasy'",
-    "descricao": "News\"Many of you quickly explored the entire map and were left wanting more.\"",
-    "link": "https://www.pcgamer.com/games/survival-crafting/mech-farming-sim-lightyear-frontier-is-getting-a-complete-overhaul-adding-a-bigger-map-massive-tornados-and-an-interplanetary-delivery-cannon-its-been-clear-that-we-were-not-living-up-to-the-fantasy/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TmzjpQWXKhsJtCvgMk3JUN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-25T09:48:41"
+    "titulo": "Fábula TCG: jogo de cartas 100% brasileiro que pode preencher vazio deixado por MTG",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/140638/feature/conheca-fabula-tcg-o-jogo-de-cartas-100-brasileiro-que-pode-preencher-o-vazio-deixado-por-magic-the",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vbw.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "Filme live-action de Elden Ring é confirmado pela A24 e Bandai Namco",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring/140598/news/com-diretor-de-guerra-civil-na-direcao-filme-live-action-de-elden-ring-e-oficialmente-confirmado",
+    "imagem": "https://sm.ign.com/t/ign_br/news/l/live-actio/live-action-elden-ring-movie-on-the-way-from-a24-and-directo_cs52.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "Shuhei Yoshida elogia game brasileiro e diz que jogos indie podem superar \"maior desafio\" do mercado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mullet-madjack/140560/news/shuhei-yoshida-elogia-game-brasileiro-e-diz-que-jogos-indie-podem-superar-maior-desafio-do-mercado-a",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62592/62592_5hgu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "Lilo & Stitch é como brisa suave após a tempestade, trazendo adaptação que honra obra original",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/140424/review/lilo-stitch-e-como-uma-brisa-suave-apos-a-tempestade-trazendo-adaptacao-que-honra-obra-original-revi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62438/62438_qedf.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "Será que presta? Game of Thrones Kingsroad é lançado; especialistas e público opinam sobre novo RPG para celulares e PCs",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/game-of-thrones-kingsroad/140630/feature/sera-que-presta-game-of-thrones-kingsroad-e-lancado-especialistas-e-publico-opinam-sobre-novo-rpg-pa",
+    "imagem": "https://sm.ign.com/t/ign_br/cover/g/game-of-th/game-of-thrones-kingsroad_9cz5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "\"Não espero que seja anunciado\": ex-desenvolvedor da DICE não acredita no lançamento de Star Wars Battlefront 3",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-battlefront-2/140623/news/nao-espero-que-seja-anunciado-ex-desenvolvedor-da-dice-nao-acredita-no-lancamento-de-star-wars-battl",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/dont-expec/dont-expect-star-wars-battlefront-3-any-time-soon-former-dic_vcup.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "\"Isso me dá esperança\": imagens muito antigas de Clair Obscur Expedition 33 vêm à tona e fãs estão encantados em ver evolução",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/140458/news/isso-me-da-esperanca-imagens-muito-antigas-de-clair-obscur-expedition-33-vem-a-tona-e-fas-estao-enca",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/clair-obscur-expedition-33-overview-1737657892791_5uwu.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "28 anos depois, diretor de Final Fantasy 7 Remake revela algo inusitado sobre Sephiroth que pode mudar totalmente a maneira como você vê o personagem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-vii-remake/140591/news/28-anos-depois-diretor-de-final-fantasy-7-remake-revela-algo-inusitado-sobre-sephiroth-que-pode-muda",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-vii-rebirth-pc-ann_qv31.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "\"Não vou fazer pré-venda\": alguns fãs desistem de GTA 6 devido a um detalhe do trailer que o torna \"injogável\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/140634/news/nao-vou-fazer-pre-venda-alguns-fas-desistem-de-gta-6-devido-a-um-detalhe-do-trailer-que-o-torna-injo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jason-pointing-gun-in-gta-6_ggh8.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
+  },
+  {
+    "titulo": "Este é o clã menos aproveitado e mais subestimado em Naruto — e não são os Hyuuga",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/naruto/140627/feature/este-e-o-cla-menos-aproveitado-e-mais-subestimado-em-naruto-e-nao-sao-os-hyuuga",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mito-e-kushina_13rh.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-25T10:15:40"
   }
 ];
