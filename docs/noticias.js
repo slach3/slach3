@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "Último episódio de The Last of Us é encerramento apático de temporada irregular",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140679/feature/ultimo-episodio-de-the-last-of-us-e-encerramento-apatico-de-temporada-irregular",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rqxq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "\"Não vou fazer pré-venda\": alguns fãs desistem de GTA 6 devido a um detalhe do trailer que o torna \"injogável\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140634/news/nao-vou-fazer-pre-venda-alguns-fas-desistem-de-gta-6-devido-a-um-detalhe-do-trailer-que-o-torna-injo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jason-pointing-gun-in-gta-6_ggh8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "Visitamos: café temático de Cardcaptor Sakura é realização de muitos sonhos: dos fãs e de toda equipe envolvida nos bastidores",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cardcaptor-sakura-1/140639/feature/visitamos-cafe-tematico-de-cardcaptor-sakura-e-realizacao-de-muitos-sonhos-dos-fas-e-de-toda-equipe",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cs_mdf8.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "“10 anos e além”: criador de Irmão do Jorel dá spoilers da sexta temporada e quer animação brasileira durando para sempre",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/irmao-do-jorel/140558/feature/10-anos-e-alem-criador-de-irmao-do-jorel-da-spoilers-da-sexta-temporada-e-quer-animacao-brasileira-d",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-22-112734960_v48a.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "\"Não podemos reproduzir o choque de se tornar outra pessoa\": diretores da série de The Last of Us explicam como a diferença de videogame e série impacta a trama",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140706/news/nao-podemos-reproduzir-o-choque-de-se-tornar-outra-pessoa-diretores-da-serie-de-the-last-of-us-expli",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_sfxa.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
-    "titulo": "Ellie estará na 3ª temporada de The Last of Us? Bella Ramsey confirma o que outra atriz da série revelou sobre o futuro da adaptação",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140714/news/ellie-estara-na-3a-temporada-de-the-last-of-us-bella-ramsey-confirma-o-que-outra-atriz-da-serie-reve",
-    "imagem": "https://sm.ign.com/t/ign_br/gallery/e/every-ign-/every-ign-the-last-of-us-review_4bjx.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-26T15:29:22"
-  },
-  {
     "titulo": "Gabe Newell co-founded a neuroscience company in 2019 and its first brain chip is expected to ship later this year",
     "descricao": "newsIt's very preliminary at this stage, but things are happening.",
     "link": "https://www.pcgamer.com/hardware/gabe-newell-co-founded-a-neuroscience-company-in-2019-and-its-first-brain-chip-is-expected-to-ship-later-this-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RVzbiZdLqZ8hj6rLXUK9Yd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "NetherRealm says it's done releasing major updates for Mortal Kombat 1: 'Our team … needs to shift focus to the next project'",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fighting/netherrealm-says-its-done-releasing-major-updates-for-mortal-kombat-1-our-team-needs-to-shift-focus-to-the-next-project/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kRLXM3UQZobqgcGFEy9yFW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "Who needs a day off?! I'm here tracking down the best Memorial Day PC gaming deals so you can take it easy",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/memorial-day-2025-pc-gaming-deals-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/o4FiQcFcigpdGoWyieBZaf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "Morrowind with every texture deleted is a beautiful magenta fever dream",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/morrowind-with-every-texture-deleted-is-a-beautiful-magenta-fever-dream/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xzgrhJqvvoZo7dzVCeDTUF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "Tim Cain talks about the challenges facing a Fallout remaster: 'How much are we now changing the original Fallout? Is this a quality of life thing or are you making a new game?'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/tim-cain-talks-about-the-challenges-facing-a-fallout-remaster-how-much-are-we-now-changing-the-original-fallout-is-this-a-quality-of-life-thing-or-are-you-making-a-new-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MgNn2HsHWpppaKvUTVxpEP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "These Memorial Day gaming monitor deals are absolutely killer and the very best of the bunch starts at just $153",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/these-memorial-day-gaming-monitor-deals-are-absolutely-killer-and-the-very-best-of-the-bunch-starts-at-just-usd153/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DGdpFuTyyoHETdHVepwWZ4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "It turns out the gigantic rats you have to kill in so many RPG quests are totally real, and now I need to apologise to RPG designers",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/it-turns-out-the-gigantic-rats-you-have-to-kill-in-so-many-rpg-quests-are-totally-real-and-now-i-need-to-apologise-to-rpg-designers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/o2ZsD4muZEDHRCXcnvKaEg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "Oblivion Remastered player gets flung in jail for 20 million days just for some petty crime",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-player-gets-flung-in-jail-for-20-million-days-just-for-some-petty-crime/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
   },
   {
     "titulo": "This Memorial Day MSI gaming laptop deal for $770 is as cheap as RTX 4060 mobile gaming gets",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/this-memorial-day-msi-gaming-laptop-deal-for-usd770-is-as-cheap-as-rtx-4060-mobile-gaming-gets/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Z7PrEvkzm9GTEPYRgCKsXi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-26T15:29:22"
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Último episódio de The Last of Us é encerramento apático de temporada irregular",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/140679/feature/ultimo-episodio-de-the-last-of-us-e-encerramento-apatico-de-temporada-irregular",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rqxq.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "\"Não vou fazer pré-venda\": alguns fãs desistem de GTA 6 devido a um detalhe do trailer que o torna \"injogável\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/140634/news/nao-vou-fazer-pre-venda-alguns-fas-desistem-de-gta-6-devido-a-um-detalhe-do-trailer-que-o-torna-injo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jason-pointing-gun-in-gta-6_ggh8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Visitamos: café temático de Cardcaptor Sakura é realização de muitos sonhos: dos fãs e de toda equipe envolvida nos bastidores",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cardcaptor-sakura-1/140639/feature/visitamos-cafe-tematico-de-cardcaptor-sakura-e-realizacao-de-muitos-sonhos-dos-fas-e-de-toda-equipe",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cs_mdf8.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "“10 anos e além”: criador de Irmão do Jorel dá spoilers da sexta temporada e quer animação brasileira durando para sempre",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/irmao-do-jorel/140558/feature/10-anos-e-alem-criador-de-irmao-do-jorel-da-spoilers-da-sexta-temporada-e-quer-animacao-brasileira-d",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-22-112734960_v48a.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "Esquecido ator da Marvel \"ficou de olho\" no papel de Reed Richards em Quarteto Fantástico: Primeiros Passos antes de Pedro Pascal ser escolhido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/quarteto-fantastico-mcu/140718/news/esquecido-ator-da-marvel-ficou-de-olho-no-papel-de-reed-richards-em-quarteto-fantastico-primeiros-pa",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/screenshot-245-1738675962869_cn6m.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
+  },
+  {
+    "titulo": "\"É muito melhor que Star Wars\": George Lucas acredita que este filme sci-fi definitivo é difícil de ser superado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars/140717/news/e-muito-melhor-que-star-wars-george-lucas-acredita-que-este-filme-sci-fi-definitivo-e-dificil-de-ser",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_jsx4.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-26T15:48:53"
   }
 ];
