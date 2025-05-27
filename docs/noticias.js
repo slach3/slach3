@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Último episódio de The Last of Us é encerramento apático de temporada irregular",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140679/feature/ultimo-episodio-de-the-last-of-us-e-encerramento-apatico-de-temporada-irregular",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rqxq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "\"Não vou fazer pré-venda\": alguns fãs desistem de GTA 6 devido a um detalhe do trailer que o torna \"injogável\"",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/140634/news/nao-vou-fazer-pre-venda-alguns-fas-desistem-de-gta-6-devido-a-um-detalhe-do-trailer-que-o-torna-injo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jason-pointing-gun-in-gta-6_ggh8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Visitamos: café temático de Cardcaptor Sakura é realização de muitos sonhos: dos fãs e de toda equipe envolvida nos bastidores",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/cardcaptor-sakura-1/140639/feature/visitamos-cafe-tematico-de-cardcaptor-sakura-e-realizacao-de-muitos-sonhos-dos-fas-e-de-toda-equipe",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cs_mdf8.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "“10 anos e além”: criador de Irmão do Jorel dá spoilers da sexta temporada e quer animação brasileira durando para sempre",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/irmao-do-jorel/140558/feature/10-anos-e-alem-criador-de-irmao-do-jorel-da-spoilers-da-sexta-temporada-e-quer-animacao-brasileira-d",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-22-112734960_v48a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Pela primeira vez em 4 anos, jogadores têm oportunidade de ouro de experimentar gratuitamente um MMO de mundo aberto com gráficos incríveis que quer revolucionar o mercado",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/chrono-odyssey/140660/news/pela-primeira-vez-em-4-anos-jogadores-tem-oportunidade-de-ouro-de-experimentar-gratuitamente-um-mmo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_58j8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "\"Nascemos de uma necessidade real\": Compare Games quer oferecer uma experiência de compra segura e vantajosa",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140735/news/nascemos-de-uma-necessidade-real-compare-games-quer-oferecer-uma-experiencia-de-compra-segura-e-vant",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image1_feae.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "I've seen every PC case that Computex has to offer and this new Havn chassis is my top pick thanks to its abnormally large fans, front grille and airflow optimisation",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/ive-seen-every-pc-case-that-computex-has-to-offer-and-this-new-havn-chassis-is-my-top-pick-thanks-to-its-abnormally-large-fans-front-grille-and-airflow-optimisation/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NmC3xLzLdbcCHqorqpKAyL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "After 4 years, Final Fantasy 14 finally has a new exploration zone in the Occult Crescent—and even if I'd have liked one sooner, I can't wait to get stuck in",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/after-4-years-final-fantasy-14-finally-has-a-new-exploration-zone-in-the-occult-crescent-and-even-if-id-have-liked-one-sooner-i-cant-wait-to-get-stuck-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pUKZtoJvyebZPjpC9y93Nk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Zoom's Eric Yuan becomes second CEO to use AI avatar on important investment call, ahead of the platform's new custom avatar addon release",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/zooms-eric-yuan-becomes-second-ceo-to-use-ai-avatar-on-important-investment-call-ahead-of-the-platforms-new-custom-avatar-addon-release/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QG2MyLtH66SLwT7XKMK2uM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "MSI shows off new weirdly flat PinSafe Design motherboards at Computex, possibly saving lives",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/msi-shows-off-new-weirdly-flat-pinsafe-design-motherboards-at-computex-possibly-saving-lives/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9QaxUx7moGY5gaxh6e9c6U.webp",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Moza releases replica Essenza SCV12 wheel, giving us poors a chance at going hands on with a Lamborghini",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/moza-releases-replica-essenza-scv12-wheel-giving-us-poors-a-chance-at-going-hands-on-with-a-lamborghini/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4CLBRReqAmogoFuMyEdSri.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, May 27",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-27-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Byond game engine suffers a weeks-long DDoS attack, apparently because a wanna-be Bond villain is trying to force it to go open source: 'Attacks on Byond servers are a symptom of your obstinance'",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/byond-game-engine-suffers-a-weeks-long-ddos-attack-apparently-because-a-wanna-be-bond-villain-is-trying-to-force-it-to-go-open-source-attacks-on-byond-servers-are-a-symptom-of-your-obstinance/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QKQUWKQ2ncr4ZuUxdDt544.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "Pick up the Left 4 Dead games for cheaper than a pack of gum in the new Steam sale that's all about zombies, and also vampires",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/pick-up-the-left-4-dead-games-for-cheaper-than-a-pack-of-gum-in-the-new-steam-sale-thats-all-about-zombies-and-also-vampires/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LS2xVBQ2LVKGfFWekE3Pmm.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   },
   {
     "titulo": "A month after Electronic Arts mashed the brakes, WRC rally racing games are coming back with a 'complete reboot' under a new publisher",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/a-month-after-electronic-arts-mashed-the-brakes-wrc-rally-racing-games-are-coming-back-with-a-complete-reboot-under-a-new-publisher/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dYautWHFY7HGVzjHZcgAKo.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T08:28:07"
+    "timestamp": "2025-05-27T08:40:58"
   }
 ];
