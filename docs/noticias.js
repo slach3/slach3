@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/pump-noise-what-pump-noise-aseteks-new-liquid-cooler-pump-is-so-quiet-its-on-a-level-where-you-cant-hear-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/grcjZgTrGU2B6VbrK9PvFd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Assassin's Creed Shadows has Dead By Daylight content in it now for reasons fathomless to man",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/assassins-creed/assassins-creed-shadows-has-dead-by-daylight-content-in-it-now-for-reasons-fathomless-to-man/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WDvScxeQuTPRTY8Kyjz7hb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Valve buys fan favourite Counter-Strike map from creator: 'They reached out to buy it on day 1…. a great honor and I don't want anyone to think we hesitated for one moment'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/valve-buys-fan-favourite-counter-strike-map-from-creator-they-reached-out-to-buy-it-on-day-1-a-great-honor-and-i-dont-want-anyone-to-think-we-hesitated-for-one-moment/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xz2HxeuCGUzmZKoWCdp8JV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "'Brevity should be more of a virtue': Clair Obscur: Expedition 33's devs are happy they made an 'intense and short' 30-60 hours of RPG",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/brevity-should-be-more-of-a-virtue-clair-obscur-expedition-33s-devs-are-happy-they-made-an-intense-and-short-30-60-hours-of-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/axs8mMhbx49BNtdfBtj7pd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "The bargains ain't over yet: Grab a QD-OLED ultrawide for $660 with this luscious 34-inch MSI display",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-bargains-aint-over-yet-grab-a-qd-oled-ultrawide-for-usd660-with-this-luscious-34-inch-msi-display/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DnCSGY6uNx8e6wzLsp7iec.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Aureole – Wings of Hope is a high-speed, nifty platformer where you wrangle a supersonic, physics-based ring to eventually thwart a jacked devil",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/aureole-wings-of-hope-is-a-high-speed-nifty-platformer-where-you-wrangle-a-supersonic-physics-based-ring-to-eventually-thwart-a-jacked-devil/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kv7E62VLB9SGt9WpqpCvNY.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Dulcet-voiced Sony tech god Mark Cerny is better than you at Balatro, joins the 0.1% of players to platinum the whole game",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/dulcet-voiced-sony-tech-god-mark-cerny-is-better-than-you-at-balatro-joins-the-0-1-percent-of-players-to-platinum-the-whole-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WHtDVA5L9fvWvdW8MXGaJP.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Cities: Skylines 2 can't catch a break, as the long-awaited Bridges and Ports expansion is delayed again",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/cities-skylines-2-cant-catch-a-break-as-the-long-awaited-bridges-and-ports-expansion-is-delayed-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SVuDLkiJ28nHZn3QKWFDT7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "CDPR didn't put harsh themes in Cyberpunk 2077 or The Witcher 3 'for the sake of edginess', but because 'you're probably not making art' if the devs are never challenged",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/cdpr-didnt-put-harsh-themes-in-cyberpunk-2077-or-the-witcher-3-for-the-sake-of-edginess-but-because-youre-probably-not-making-art-if-the-devs-are-never-challenged/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uWoYgUJeRYuuEES7URG4yV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Geoff Keighley confirma participação de Hideo Kojima na transmissão da Summer Game Fest; veja data e horário",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/140749/news/geoff-keighley-confirma-partiicipacao-de-hideo-kojima-na-transmissao-da-summer-game-fest-veja-data-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_9bju.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Pode parecer loucura, mas os animes são o real motivo da queda de audiência dos esportes mais populares dos EUA",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/140744/news/pode-parecer-loucura-mas-os-animes-sao-o-real-motivo-da-queda-de-audiencia-dos-esportes-mais-popular",
     "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-new-a/best-new-anime-to-watch-spring-season-2025_ddre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Remake de Dragon Quest 1 & 2 HD-2D recebe data de lançamento e informações sobre conteúdos de colecionador",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/dragon-quest-12-hd-2d-remake/140740/news/remake-de-dragon-quest-1-2-hd-2d-recebe-data-de-estreia-e-informacoes-sobre-conteudos-de-colecionado",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dragon-que/dragon-quest-1-2-hd-2d-remake-gets-a-release-date-pre-order_ggqu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
     "titulo": "Esquecido ator da Marvel \"ficou de olho\" no papel de Reed Richards em Quarteto Fantástico: Primeiros Passos antes de Pedro Pascal ser escolhido",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140718/news/esquecido-ator-da-marvel-ficou-de-olho-no-papel-de-reed-richards-em-quarteto-fantastico-primeiros-pa",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/screenshot-245-1738675962869_cn6m.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
-    "titulo": "Ironia do destino: Clair Obscur: Expedition 33 vende 3,3 milhões de cópias em 33 dias",
+    "titulo": "Fortnite entrará novamente na febre de Sabrina Carpenter com evento no modo Festival que destacará canções da artista",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/140763/news/ironia-do-destino-clair-obscur-expedition-33-vende-33-milhoes-de-copias-em-33-dias",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.280.jpg",
+    "link": "https://br.ign.com/fortnite/140767/news/fortnite-entrara-novamente-na-febre-de-sabrina-carpenter-com-evento-no-modo-festival-que-destacara-c",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/unnamed-1_e2zd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   },
   {
-    "titulo": "Monitor Gamer de 180 Hz por menos de R$ 800",
+    "titulo": "Teclado mecânico da Attack Shark por menos de R$ 300",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140762/news/monitor-gamer-de-180-hz-por-menos-de-r-800",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/aoc-24g30e_n7ze.280.jpg",
+    "link": "https://br.ign.com/descontos/140766/news/teclado-mecanico-da-attack-shark-por-menos-de-r-300",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/attack-shark-ak820_yay5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T14:11:29"
+    "timestamp": "2025-05-27T14:31:25"
   }
 ];
