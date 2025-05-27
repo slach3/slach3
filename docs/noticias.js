@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "Elden Ring Nightreign director says FromSoft will be fine-tuning game balance right up until launch: 'We really try to tweak things until the last minute'",
+    "descricao": "NewsFinding the right level of brutality is a tricky business.",
+    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-director-says-fromsoft-will-be-fine-tuning-game-balance-right-up-until-launch-we-really-try-to-tweak-things-until-the-last-minute/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zSqK9QeKRBx8QH9H3sUr2i.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-27T18:15:52"
+  },
+  {
+    "titulo": "More than 60% of Capcom's digital game sales last year were on PC",
+    "descricao": "newsRemember the days when Capcom didn't really play with PC? A lot has changed.",
+    "link": "https://www.pcgamer.com/gaming-industry/more-than-60-percent-of-capcoms-digital-game-sales-last-year-were-on-pc/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/U8oYkTsiUopnySNDcjSNxf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-27T18:15:52"
+  },
+  {
     "titulo": "OlliOlli World and Rollerdrome are back on Steam after being delisted 4 months ago when 2K sold off Private Division",
     "descricao": "newsThe formerly Private Division games are now published by 2K.",
     "link": "https://www.pcgamer.com/games/olliolli-world-and-rollerdrome-are-back-on-steam-after-being-delisted-4-months-ago-when-2k-sold-off-private-division/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dsr7WUmcxCwRHptUhK4sRN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "The CIA operated a network of gaming sites and even a Star Wars fanpage that were part of one of its worst-ever intelligence catastrophes",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/the-cia-operated-a-network-of-gaming-sites-and-even-a-star-wars-fanpage-that-were-part-of-one-of-its-worst-ever-intelligence-catastrophes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/d8qUZhuwc4ChsCsFykectB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Pump noise, what pump noise? Asetek's new liquid cooler pump is so quiet 'it's on a level where you can't hear it'",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/pump-noise-what-pump-noise-aseteks-new-liquid-cooler-pump-is-so-quiet-its-on-a-level-where-you-cant-hear-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/grcjZgTrGU2B6VbrK9PvFd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Assassin's Creed Shadows has Dead By Daylight content in it now for reasons fathomless to man",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/assassins-creed/assassins-creed-shadows-has-dead-by-daylight-content-in-it-now-for-reasons-fathomless-to-man/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WDvScxeQuTPRTY8Kyjz7hb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Valve buys fan favourite Counter-Strike map from creator: 'They reached out to buy it on day 1, a great honor and I don't want anyone to think we hesitated for one moment'",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/valve-buys-fan-favourite-counter-strike-map-from-creator-they-reached-out-to-buy-it-on-day-1-a-great-honor-and-i-dont-want-anyone-to-think-we-hesitated-for-one-moment/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xz2HxeuCGUzmZKoWCdp8JV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "'Brevity should be more of a virtue': Clair Obscur: Expedition 33's devs are happy they made an 'intense and short' 30-60 hours of RPG",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/brevity-should-be-more-of-a-virtue-clair-obscur-expedition-33s-devs-are-happy-they-made-an-intense-and-short-30-60-hours-of-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/axs8mMhbx49BNtdfBtj7pd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "The bargains ain't over yet: Grab a QD-OLED ultrawide for $660 with this luscious 34-inch MSI display",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/the-bargains-aint-over-yet-grab-a-qd-oled-ultrawide-for-usd660-with-this-luscious-34-inch-msi-display/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DnCSGY6uNx8e6wzLsp7iec.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
-  },
-  {
-    "titulo": "Aureole – Wings of Hope is a high-speed, nifty platformer where you wrangle a supersonic, physics-based ring to eventually thwart a jacked devil",
-    "descricao": "NewsRing around the foe-sies.",
-    "link": "https://www.pcgamer.com/games/action/aureole-wings-of-hope-is-a-high-speed-nifty-platformer-where-you-wrangle-a-supersonic-physics-based-ring-to-eventually-thwart-a-jacked-devil/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kv7E62VLB9SGt9WpqpCvNY.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
-  },
-  {
-    "titulo": "Dulcet-voiced Sony tech god Mark Cerny is better than you at Balatro, joins the 0.1% of players to platinum the whole game",
-    "descricao": "Who's this Joker?",
-    "link": "https://www.pcgamer.com/games/roguelike/dulcet-voiced-sony-tech-god-mark-cerny-is-better-than-you-at-balatro-joins-the-0-1-percent-of-players-to-platinum-the-whole-game/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WHtDVA5L9fvWvdW8MXGaJP.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Geoff Keighley confirma participação de Hideo Kojima na transmissão da Summer Game Fest; veja data e horário",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/140749/news/geoff-keighley-confirma-partiicipacao-de-hideo-kojima-na-transmissao-da-summer-game-fest-veja-data-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_9bju.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Pode parecer loucura, mas os animes são o real motivo da queda de audiência dos esportes mais populares dos EUA",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/140744/news/pode-parecer-loucura-mas-os-animes-sao-o-real-motivo-da-queda-de-audiencia-dos-esportes-mais-popular",
     "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-new-a/best-new-anime-to-watch-spring-season-2025_ddre.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Remake de Dragon Quest 1 & 2 HD-2D recebe data de lançamento e informações sobre conteúdos de colecionador",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/dragon-quest-12-hd-2d-remake/140740/news/remake-de-dragon-quest-1-2-hd-2d-recebe-data-de-estreia-e-informacoes-sobre-conteudos-de-colecionado",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dragon-que/dragon-quest-1-2-hd-2d-remake-gets-a-release-date-pre-order_ggqu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Esquecido ator da Marvel \"ficou de olho\" no papel de Reed Richards em Quarteto Fantástico: Primeiros Passos antes de Pedro Pascal ser escolhido",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/140718/news/esquecido-ator-da-marvel-ficou-de-olho-no-papel-de-reed-richards-em-quarteto-fantastico-primeiros-pa",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/screenshot-245-1738675962869_cn6m.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
+  },
+  {
+    "titulo": "Com quantos anos você descobriu que não pode ficar com smartwatch 24 horas por dia? Especialistas recomendam 4 momentos para retirá-lo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140787/feature/com-quantos-anos-voce-descobriu-que-nao-pode-ficar-com-smartwatch-24-horas-por-dia-especialistas-rec",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/celularzinho_dgay.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-27T18:15:52"
   },
   {
     "titulo": "Mickey & Amigos desembarcam no Brasil para edição inédita da turnê global House of Mouse",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140759/news/mickey-amigos-desembarcam-no-brasil-para-edicao-inedita-da-turne-global-house-of-mouse",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-27t125851423_ukqe.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
-  },
-  {
-    "titulo": "Visão: Quem é Jocasta? Criação de Ultron será finalmente apresentada no MCU",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/vision-quest/140784/news/visao-quem-e-jocasta-criacao-de-ultron-sera-finalmente-apresentada-no-mcu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/j1_j7hq.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T17:54:36"
+    "timestamp": "2025-05-27T18:15:52"
   }
 ];
