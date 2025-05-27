@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/cities-skylines-2-cant-catch-a-break-as-the-long-awaited-bridges-and-ports-expansion-is-delayed-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SVuDLkiJ28nHZn3QKWFDT7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "CDPR didn't put harsh themes in Cyberpunk 2077 or The Witcher 3 'for the sake of edginess', but because 'you're probably not making art' if the devs are never challenged",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/cdpr-didnt-put-harsh-themes-in-cyberpunk-2077-or-the-witcher-3-for-the-sake-of-edginess-but-because-youre-probably-not-making-art-if-the-devs-are-never-challenged/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uWoYgUJeRYuuEES7URG4yV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Dragon Age creator says EA execs thought BioWare fans would eat whatever slop they were given since 'the nerds in the cave would always show up for an RPG, because it was an RPG'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/dragon-age-creator-says-ea-execs-thought-bioware-fans-would-eat-whatever-slop-they-were-given-since-the-nerds-in-the-cave-would-always-show-up-for-an-rpg-because-it-was-an-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fNNgH5EgzaDpKXHt8HQCe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "A fabric-covered PC case was not on my Computex 2025 bingo card but I'm surprisingly into it",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/a-fabric-covered-pc-case-was-not-on-my-computex-2025-bingo-card-but-im-surprisingly-into-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9yRhoYNTSSK7xiZBnFumRS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "I've seen every PC case that Computex has to offer and this new Havn chassis is my top pick thanks to its abnormally large fans, front grille and airflow optimisation",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/ive-seen-every-pc-case-that-computex-has-to-offer-and-this-new-havn-chassis-is-my-top-pick-thanks-to-its-abnormally-large-fans-front-grille-and-airflow-optimisation/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NmC3xLzLdbcCHqorqpKAyL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "After 4 years, Final Fantasy 14 finally has a new exploration zone in the Occult Crescent—and even if I'd have liked one sooner, I can't wait to get stuck in",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/after-4-years-final-fantasy-14-finally-has-a-new-exploration-zone-in-the-occult-crescent-and-even-if-id-have-liked-one-sooner-i-cant-wait-to-get-stuck-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pUKZtoJvyebZPjpC9y93Nk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Zoom's Eric Yuan becomes second CEO to use AI avatar on important investment call, ahead of the platform's new custom avatar addon release",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/zooms-eric-yuan-becomes-second-ceo-to-use-ai-avatar-on-important-investment-call-ahead-of-the-platforms-new-custom-avatar-addon-release/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QG2MyLtH66SLwT7XKMK2uM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "MSI shows off new weirdly flat PinSafe Design motherboards at Computex, possibly saving lives",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/msi-shows-off-new-weirdly-flat-pinsafe-design-motherboards-at-computex-possibly-saving-lives/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9QaxUx7moGY5gaxh6e9c6U.webp",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Moza releases replica Essenza SCV12 wheel, giving us poors a chance at going hands on with a Lamborghini",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/moza-releases-replica-essenza-scv12-wheel-giving-us-poors-a-chance-at-going-hands-on-with-a-lamborghini/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4CLBRReqAmogoFuMyEdSri.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "2ª temporada de TLOU é casca vazia com poucas emoções do que game realmente é | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2-temporada/140681/review/com-bons-momentos-2a-temporada-de-the-last-of-us-e-casca-vazia-com-poucas-emocoes-do-que-game-realme",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62725/62725_9yrv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Hell Clock, roguelike inspirado na Guerra de Canudos, ganha data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/hell-clock/140622/news/hell-clock-roguelike-brasileiro-inspirado-na-guerra-de-canudos-ganha-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hell-clock-capa_h622.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Temos que pegar: a história do homem que criou o logo de Pokémon por apenas \"um centavo\"",
@@ -101,47 +101,47 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140418/news/conheca-o-homem-que-criou-o-logo-de-pokemon-por-apenas-um-centavo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62727/62727_gxwv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
-  },
-  {
-    "titulo": "Último episódio de The Last of Us é encerramento apático de temporada irregular",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/140679/feature/ultimo-episodio-de-the-last-of-us-e-encerramento-apatico-de-temporada-irregular",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rqxq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
-  },
-  {
-    "titulo": "\"Não vou fazer pré-venda\": alguns fãs desistem de GTA 6 devido a um detalhe do trailer que o torna \"injogável\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/140634/news/nao-vou-fazer-pre-venda-alguns-fas-desistem-de-gta-6-devido-a-um-detalhe-do-trailer-que-o-torna-injo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jason-pointing-gun-in-gta-6_ggh8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
-  },
-  {
-    "titulo": "Visitamos: café temático de Cardcaptor Sakura é realização de muitos sonhos: dos fãs e de toda equipe envolvida nos bastidores",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cardcaptor-sakura-1/140639/feature/visitamos-cafe-tematico-de-cardcaptor-sakura-e-realizacao-de-muitos-sonhos-dos-fas-e-de-toda-equipe",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cs_mdf8.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
-  },
-  {
-    "titulo": "“10 anos e além”: criador de Irmão do Jorel dá spoilers da sexta temporada e quer animação brasileira durando para sempre",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/irmao-do-jorel/140558/feature/10-anos-e-alem-criador-de-irmao-do-jorel-da-spoilers-da-sexta-temporada-e-quer-animacao-brasileira-d",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-05-22-112734960_v48a.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Geoff Keighley confirma partiicipação de Hideo Kojima na transmissão da Summer Game Fest; veja data e horário",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/summer-game-fest/140749/news/geoff-keighley-confirma-partiicipacao-de-hideo-kojima-na-transmissao-da-summer-game-fest-veja-data-e",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_9bju.280.jpg",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_9bju.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
+  },
+  {
+    "titulo": "Pode parecer loucura, mas os animes são o real motivo da queda de audiência dos esportes mais populares dos EUA",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/anime/140744/news/pode-parecer-loucura-mas-os-animes-sao-o-real-motivo-da-queda-de-audiencia-dos-esportes-mais-popular",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/b/best-new-a/best-new-anime-to-watch-spring-season-2025_ddre.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-27T12:13:24"
+  },
+  {
+    "titulo": "Remake de Dragon Quest 1 & 2 HD-2D recebe data de lançamento e informações sobre conteúdos de colecionador",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dragon-quest-12-hd-2d-remake/140740/news/remake-de-dragon-quest-1-2-hd-2d-recebe-data-de-estreia-e-informacoes-sobre-conteudos-de-colecionado",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/dragon-que/dragon-quest-1-2-hd-2d-remake-gets-a-release-date-pre-order_ggqu.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-27T12:13:24"
+  },
+  {
+    "titulo": "Esquecido ator da Marvel \"ficou de olho\" no papel de Reed Richards em Quarteto Fantástico: Primeiros Passos antes de Pedro Pascal ser escolhido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/quarteto-fantastico-mcu/140718/news/esquecido-ator-da-marvel-ficou-de-olho-no-papel-de-reed-richards-em-quarteto-fantastico-primeiros-pa",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/screenshot-245-1738675962869_cn6m.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-27T12:13:24"
+  },
+  {
+    "titulo": "Samsung Galaxy S24 por menos de R$ 3,1 mil no Mercado Livre",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140751/news/samsung-galaxy-s24-por-menos-de-r-31-mil-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/galaxy-s24-thumb-2_p3n8.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-27T12:13:24"
   },
   {
     "titulo": "Sony confirma diminuição de preços do PS5 e PS5 Pro nos Estados Unidos e Canadá",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5-2/140745/news/sony-confirma-diminuicao-de-precos-do-ps5-e-ps5-pro-nos-estados-unidos-e-canada",
     "imagem": "https://sm.ign.com/t/ign_br/news/u/update-son/update-sony-confirms-ps5-and-ps5-pro-price-cuts-during-days_vb11.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-27T11:52:36"
+    "timestamp": "2025-05-27T12:13:24"
   }
 ];
