@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/board-games/the-core-of-the-new-dungeons-and-dragons-rules-have-been-released-into-the-creative-commons-so-you-can-use-them-when-you-publish-your-own-d-and-d-material/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MKpYyxdu4xwnP5ntWe4nJD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Today's Wordle answer for Wednesday, May 28",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-28-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Physics-based survival city-builder All Will Fall is having an open beta test in June",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/physics-based-survival-city-builder-all-will-fall-is-having-an-open-beta-test-in-june/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VRPib6YCHqL9xNXY3XjKyB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Battlefront 2's huge Steam resurgence isn't a mystery when you realize it's just really good",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/battlefront-2s-huge-steam-resurgence-isnt-a-mystery-when-you-realize-its-just-really-good/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4JuQJNURzESZovKSP99kcg.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Elden Ring Nightreign director says FromSoft will be fine-tuning game balance right up until launch: 'We really try to tweak things until the last minute'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-director-says-fromsoft-will-be-fine-tuning-game-balance-right-up-until-launch-we-really-try-to-tweak-things-until-the-last-minute/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zSqK9QeKRBx8QH9H3sUr2i.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "More than 60% of Capcom's digital game sales last year were on PC",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/more-than-60-percent-of-capcoms-digital-game-sales-last-year-were-on-pc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U8oYkTsiUopnySNDcjSNxf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "OlliOlli World and Rollerdrome are back on Steam after being delisted 4 months ago when 2K sold off Private Division",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/olliolli-world-and-rollerdrome-are-back-on-steam-after-being-delisted-4-months-ago-when-2k-sold-off-private-division/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dsr7WUmcxCwRHptUhK4sRN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "The CIA operated a network of gaming sites and even a Star Wars fanpage that were part of one of its worst-ever intelligence catastrophes",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/the-cia-operated-a-network-of-gaming-sites-and-even-a-star-wars-fanpage-that-were-part-of-one-of-its-worst-ever-intelligence-catastrophes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/d8qUZhuwc4ChsCsFykectB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Pump noise, what pump noise? Asetek's new liquid cooler pump is so quiet 'it's on a level where you can't hear it'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/pump-noise-what-pump-noise-aseteks-new-liquid-cooler-pump-is-so-quiet-its-on-a-level-where-you-cant-hear-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/grcjZgTrGU2B6VbrK9PvFd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Trailer de MindsEye mostra game que parece da Rockstar, mas que não será tão caro",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/mindseye/140777/news/isso-e-gta-trailer-de-mindseye-mostra-game-que-parece-da-rockstar-mas-que-nao-sera-tao-caro",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62791/62791_f7kz.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Diretores da série de TLOU explicam como a diferença de videogame e série impacta a trama",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140706/news/nao-podemos-reproduzir-o-choque-de-se-tornar-outra-pessoa-diretores-da-serie-de-the-last-of-us-expli",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62792/62792_ym78.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Solo Leveling domina Crunchyroll Anime Awards 2025; veja todos os vencedores",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/crunchyroll/140682/news/solo-leveling-vence-anime-do-ano-e-domina-categorias-do-crunchyroll-anime-awards-2025-confira-todos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-3_su71.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Final da 2ª temporada de The Last of Us teve menos de metade da audiência do encerramento da 1ª",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140748/news/final-da-2a-temporada-de-the-last-of-us-teve-menos-de-metade-da-audiencia-do-encerramento-da-1a",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/the-last-of-us-season-2-episode-5-review-1747245017418_g61j.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Visão: Spin-off de WandaVision apresentará nova personagem dos quadrinhos da Marvel",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/vision-quest/140752/news/visao-spin-off-de-wandavision-apresentara-nova-personagem-dos-quadrinhos-da-marvel",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/wandavision-vision-1280a-1611362934127-160w-1666995943939-17_6qu5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Ironia do destino: Clair Obscur: Expedition 33 vende 3,3 milhões de cópias em 33 dias",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140763/news/ironia-do-destino-clair-obscur-expedition-33-vende-33-milhoes-de-copias-em-33-dias",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/clair-obscur_kymh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "ASUS VivoBook: Notebook sai por apenas R$2.248 na Amazon",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140798/news/asus-vivobook-notebook-sai-por-apenas-r2248-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/asus-vivobook-go-15-x89a_296545_ugnc.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   },
   {
     "titulo": "Cloud Stinger 2 Core da HyperX com 10% de desconto",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140790/news/cloud-stinger-2-core-da-hyperx-com-10-de-desconto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hyperx-cloud-stinger-2-core_k7u5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T01:12:45"
+    "timestamp": "2025-05-28T01:40:23"
   }
 ];
