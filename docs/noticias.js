@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Someone found Skyrim's most relatable NPC: A dude with no possessions who just sleeps all day, every day",
-    "descricao": "NewsLife goals.",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/someone-found-skyrims-most-relatable-npc-a-dude-with-no-possessions-who-just-sleeps-all-day-every-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FAaxT6yJrFC84e8mGv5GxV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Cyberpunk 2, which is now officially called Cyberpunk 2, has entered pre-production, but don't expect it out before 2030",
-    "descricao": "newsCD Projekt said the conclusion of the game's conceptual phase is \"another important stage in our work.\"",
-    "link": "https://www.pcgamer.com/games/rpg/cyberpunk-2-which-is-now-officially-called-cyberpunk-2-has-entered-pre-production-but-dont-expect-it-out-before-2030/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sSbEMjUTdfhKftKfY7Dvh8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Former BioWare lead writer says the best level in Vampire: The Masquerade – Bloodlines gave him 'ammunition' to argue that story can be just as engaging as combat",
-    "descricao": "NewsEspecially spooky stories.",
-    "link": "https://www.pcgamer.com/games/rpg/former-bioware-lead-writer-says-the-best-level-in-vampire-the-masquerade-bloodlines-gave-him-ammunition-to-argue-that-story-can-be-just-as-engaging-as-combat/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/H2b4xzWUGcp4CJ2S7SpJnL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "AMD's exciting new mainstream RX 9060 XT GPU spotted in online benchmarks as June 5 launch day fast approaches",
-    "descricao": "newsThe 9060 XT looks like it will be pretty quick, but just how quick?",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-exciting-new-mainstream-rx-9060-xt-gpu-spotted-in-online-benchmarks-as-june-5-launch-day-fast-approaches/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rTw6voLLHCqzaJgBFFqhFT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Grub's up: The hungry, hungry Necrophage faction is coming to Endless Legend 2",
-    "descricao": "NewsDinner time.",
-    "link": "https://www.pcgamer.com/games/strategy/grubs-up-the-hungry-hungry-necrophage-faction-is-coming-to-endless-legend-2/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/bY6Y6LmiAxMNAgewucd7uW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Listening to Google's CEO talking about what about the future of AI holds just reinforces the fact that nobody can know what the future of AI holds",
-    "descricao": "NewsA little of column A through Z, probably.",
-    "link": "https://www.pcgamer.com/software/ai/listening-to-googles-ceo-talking-what-about-the-future-of-ai-holds-just-reinforces-that-nobody-can-know-what-the-future-of-ai-holds/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jXqdZNznwAgMFVjiRtMsaj.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Our favourite gaming keyboard of this year has already received a tidy discount, and it may just be the quietest keeb we've ever used",
-    "descricao": "DealsThis Be Quiet! keyboard lives up to the name.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/our-favourite-gaming-keyboard-of-this-year-has-already-received-a-tidy-discount-and-it-may-just-be-the-quietest-keeb-weve-ever-used/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2NkT4oWK3cknQaY9q9QjmM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Yuri Lowenthal spills the beans on a Persona 4 remake by announcing that Atlus doesn't want him in it: 'Maybe I even begged, but they don’t want me to come back'",
-    "descricao": "NewsWhich is probably not what Sega PR had in mind.",
-    "link": "https://www.pcgamer.com/games/rpg/yuri-lowenthal-spills-the-beans-on-a-persona-4-remake-by-announcing-that-atlus-doesnt-want-him-in-it-maybe-i-even-begged-but-they-dont-want-me-to-come-back/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WVRjS7CeUwKJwPVVsMrFiN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
-    "titulo": "Rejoice, hammer users—Monster Hunter Wild's new patch just buffed the bonk squad, alongside a huge quality-of-life feature for hoarders and optimisation improvements on PC",
-    "descricao": "NewsIt's hammer time.",
-    "link": "https://www.pcgamer.com/games/rpg/rejoice-hammer-users-monster-hunter-wilds-new-patch-just-buffed-the-bonk-squad-alongside-a-huge-quality-of-life-feature-for-hoarders-and-optimisation-improvements-on-pc/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zPswC68irLQLwFWENprjS5.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-28T16:51:31"
-  },
-  {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Diretores da série de TLOU explicam como a diferença de videogame e série impacta a trama",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140706/news/nao-podemos-reproduzir-o-choque-de-se-tornar-outra-pessoa-diretores-da-serie-de-the-last-of-us-expli",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62792/62792_ym78.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Pessoas conseguem acesso ao Switch 2 antes do lançamento e Nintendo começa a derrubar vídeos vazados",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140806/news/pessoas-conseguem-acesso-ao-switch-2-antes-do-lancamento-e-nintendo-comeca-a-derrubar-videos-vazados",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/someone-go/someone-got-their-hands-on-a-nintendo-switch-2-early-and-the_aksh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Nova Pokémon Presents, tradicional apresentação que destaca conteúdos da franquia, é confirmada",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140807/news/novo-pokemon-presents-tradicional-apresentacao-que-destaca-conteudos-da-franquia-e-confirmado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_k9q6.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
     "titulo": "Final da 2ª temporada de The Last of Us teve menos de metade da audiência do encerramento da 1ª",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140748/news/final-da-2a-temporada-de-the-last-of-us-teve-menos-de-metade-da-audiencia-do-encerramento-da-1a",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/the-last-of-us-season-2-episode-5-review-1747245017418_g61j.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
-    "titulo": "Um dos melhores notebook custo-benefício por até R$ 3 mil",
+    "titulo": "Nunca saberemos o fim: Amazon cancela série de fantasia melhor que O Senhor dos Anéis",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140861/news/um-dos-melhores-notebook-custo-beneficio-por-ate-r-3-mil",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/notebook-thumb-4_gr7q.280.jpg",
+    "link": "https://br.ign.com/a-roda-do-tempo/140862/feature/nunca-saberemos-o-fim-amazon-cancela-serie-de-fantasia-melhor-que-o-senhor-dos-aneis",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a-roda-do-tempo_25z2.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
   },
   {
-    "titulo": "Days of Play 2025: confira os jogos para PS5 em oferta na Amazon",
+    "titulo": "Seguindo a onda dos live-actions: 4 revivals de animações nostálgicas que chegam ainda em 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140834/news/days-of-play-2025-confira-os-jogos-para-ps5-em-oferta-na-amazon",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-16_6sbw.280.png",
+    "link": "https://br.ign.com/cinema-tv/140860/feature/seguindo-a-onda-dos-live-actions-4-revivals-de-animacoes-nostalgicas-que-chegam-ainda-em-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/blogroll/p/phineas-an/phineas-and-ferb-series-finale-announced-creators-working-on_gge4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-28T16:51:31"
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "'Nightreign is a weird one': Elden Ring Nightreign promises to be a divisive spinoff as reviewers say it's both 'deeply satisfying' and a 'frustrating slog'",
+    "descricao": "NewsFromSoft's Elden Ring remix is magical when it's not being miserable.",
+    "link": "https://www.pcgamer.com/games/rpg/nightreign-is-a-weird-one-elden-ring-nightreign-promises-to-be-a-divisive-spinoff-as-reviewers-say-its-both-deeply-satisfying-and-a-frustrating-slog/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Electronic Arts cancels Black Panther game and closes the studio making it",
+    "descricao": "newsCliffhanger Games, and the singleplayer Black Panther project, were announced less than two years ago.",
+    "link": "https://www.pcgamer.com/gaming-industry/electronic-arts-cancels-black-panther-game-and-closes-the-studio-making-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZT2fSFkqJ8pufZivicnok9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Someone found Skyrim's most relatable NPC: A dude with no possessions who just sleeps all day, every day",
+    "descricao": "NewsLife goals.",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/someone-found-skyrims-most-relatable-npc-a-dude-with-no-possessions-who-just-sleeps-all-day-every-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/FAaxT6yJrFC84e8mGv5GxV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Cyberpunk 2, which is now officially called Cyberpunk 2, has entered pre-production, but don't expect it out before 2030",
+    "descricao": "newsCD Projekt said the conclusion of the game's conceptual phase is \"another important stage in our work.\"",
+    "link": "https://www.pcgamer.com/games/rpg/cyberpunk-2-which-is-now-officially-called-cyberpunk-2-has-entered-pre-production-but-dont-expect-it-out-before-2030/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sSbEMjUTdfhKftKfY7Dvh8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Former BioWare lead writer says the best level in Vampire: The Masquerade – Bloodlines gave him 'ammunition' to argue that story can be just as engaging as combat",
+    "descricao": "NewsEspecially spooky stories.",
+    "link": "https://www.pcgamer.com/games/rpg/former-bioware-lead-writer-says-the-best-level-in-vampire-the-masquerade-bloodlines-gave-him-ammunition-to-argue-that-story-can-be-just-as-engaging-as-combat/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/H2b4xzWUGcp4CJ2S7SpJnL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "AMD's exciting new mainstream RX 9060 XT GPU spotted in online benchmarks as June 5 launch day fast approaches",
+    "descricao": "newsThe 9060 XT looks like it will be pretty quick, but just how quick?",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-exciting-new-mainstream-rx-9060-xt-gpu-spotted-in-online-benchmarks-as-june-5-launch-day-fast-approaches/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rTw6voLLHCqzaJgBFFqhFT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Grub's up: The hungry, hungry Necrophage faction is coming to Endless Legend 2",
+    "descricao": "NewsDinner time.",
+    "link": "https://www.pcgamer.com/games/strategy/grubs-up-the-hungry-hungry-necrophage-faction-is-coming-to-endless-legend-2/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/bY6Y6LmiAxMNAgewucd7uW.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Listening to Google's CEO talking about what about the future of AI holds just reinforces the fact that nobody can know what the future of AI holds",
+    "descricao": "NewsA little of column A through Z, probably.",
+    "link": "https://www.pcgamer.com/software/ai/listening-to-googles-ceo-talking-what-about-the-future-of-ai-holds-just-reinforces-that-nobody-can-know-what-the-future-of-ai-holds/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jXqdZNznwAgMFVjiRtMsaj.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
+  },
+  {
+    "titulo": "Our favourite gaming keyboard of this year has already received a tidy discount, and it may just be the quietest keeb we've ever used",
+    "descricao": "DealsThis Be Quiet! keyboard lives up to the name.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/our-favourite-gaming-keyboard-of-this-year-has-already-received-a-tidy-discount-and-it-may-just-be-the-quietest-keeb-weve-ever-used/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2NkT4oWK3cknQaY9q9QjmM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-28T17:11:20"
   }
 ];
