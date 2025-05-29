@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-game-informer-archive-just-got-upgraded-with-its-entire-backlog-so-go-experience-the-eye-melting-world-of-90s-game-advertising/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Za7Q9nUxXUZ439pw6mNgtm.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "4 years after being delisted, Lost Planet 2 finally got a Steam update to remove Games for Windows Live—but it also removed online multiplayer and blew up everyone's saves",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/4-years-after-being-delisted-lost-planet-2-finally-got-a-steam-update-to-remove-games-for-windows-live-but-it-also-removed-online-multiplayer-and-blew-up-everyones-saves/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SBbMb4McHwyw3iGCELzUe.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "After a year and a half of updates, WoW Classic's Season of Discovery is finally winding down in favor of something new: 'We need to get in the proverbial kitchen and cook'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/after-a-year-and-a-half-of-updates-wow-classics-season-of-discovery-is-finally-winding-down-in-favor-of-something-new-we-need-to-get-in-the-proverbial-kitchen-and-cook/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FMANT4DGMrKnDjrSVT8sui.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Mount & Blade 2: Bannerlord's big naval expansion is delayed: 'After taking a hard look at where things stand, it became clear we won’t be ready'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/mount-and-blade-2-bannerlords-big-naval-expansion-is-delayed-after-taking-a-hard-look-at-where-things-stand-it-became-clear-we-wont-be-ready/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jrYJNW4gvtAXR3y33qWdAP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Warhammer's latest shiny CG trailer somehow makes space marine shoulder pads even bigger",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/warhammers-latest-shiny-cg-trailer-somehow-makes-space-marine-shoulder-pads-even-bigger/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zcBzMWayySRVLwmcM9keNm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Is it a chair? Is it a PC? Actually, this stealth PC build is both—and probably very toasty",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/is-it-a-chair-is-it-a-pc-this-stealth-pc-build-is-both-and-probably-very-toasty/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ch4Gnifmgb2XcrQ5ndPmmD.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Elden Ring Nightreign's first patch warns of possible PC performance problems on some setups",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/elden-ring-nightreigns-first-patch-warns-of-possible-pc-performance-problems-on-some-setups/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "If you're getting a blank screen on reboot with an RTX 50-series GPU, use this Nvidia firmware updater",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/if-youre-getting-a-blank-screen-on-reboot-with-an-rtx-50-series-gpu-use-this-nvidia-firmware-updater/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zvXdnuoU2WLrc3rtWJaRfm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Yes a US court has blocked Trump's tariffs but PC hardware isn't out of the water just yet",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/yes-a-us-court-has-blocked-trumps-tariffs-but-pc-hardware-isnt-out-of-the-water-just-yet/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SCpNk6KARoGViPpak8gfNK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Boas notícias para quem gostou de Clair Obscur: Expedition 33 — estúdio já planeja outros RPGs",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140890/news/boas-noticias-para-quem-gostou-de-clair-obscur-expedition-33-estudio-ja-planeja-outros-rpgs",
     "imagem": "https://sm.ign.com/t/ign_br/photo/m/maxrolls-c/maxrolls-clair-obscur-expedition-33-branch-with-guides-codex_g6px.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "\"Quebra meu coração\": devs de jogo cancelado do Pantera Negra desabafam nas redes sociais sobre fim do projeto",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140888/news/quebra-meu-coracao-devs-de-jogo-cancelado-do-pantera-negra-desabafam-nas-redes-sociais-sobre-fim-do",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/eas-black-/eas-black-panther-appears-to-be-an-open-world-sandbox-based_dk3s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Chris Hemsworth posta video homenageando Thor e fãs se preocupam com destino do personagem",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/avengers-doomsday/140876/news/chris-hemsworth-posta-video-homenageando-thor-e-fas-se-preocupam-com-destino-do-personagem",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/chris-hems/chris-hemsworth-posted-a-thor-tribute-video-and-now-fans-are_82zq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
+  },
+  {
+    "titulo": "Este game de realidade virtual desenvolvido por cientistas japoneses pode melhorar sua visão",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/meta-quest-2/140937/news/este-game-de-realidade-virtual-desenvolvido-por-cientistas-japoneses-pode-melhorar-sua-visao",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/this-vr-ga/this-vr-game-developed-by-japanese-scientists-could-improve_x41q.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-29T18:31:49"
   },
   {
     "titulo": "Premiado jogo de terror indie e spin-off de Borderlands estão de graça na Epic Games Store por tempo limitado",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/games/140936/news/premiado-jogo-de-terror-indie-e-spin-off-de-borderlands-estao-de-graca-na-epic-games-store-por-tempo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_37en.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
-  },
-  {
-    "titulo": "Se você tem caixinhas de som antigas na sua casa, tem um tesouro: elas podem se transformar em muito mais",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140927/feature/se-voce-tem-caixinhas-de-som-antigas-na-sua-casa-tem-um-tesouro-elas-podem-se-transformar-em-muito-m",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_r5t2.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T18:16:20"
+    "timestamp": "2025-05-29T18:31:49"
   }
 ];
