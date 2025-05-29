@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Diretores da série de TLOU explicam como a diferença de videogame e série impacta a trama",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140706/news/nao-podemos-reproduzir-o-choque-de-se-tornar-outra-pessoa-diretores-da-serie-de-the-last-of-us-expli",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62792/62792_ym78.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Pessoas conseguem acesso ao Switch 2 antes do lançamento e Nintendo começa a derrubar vídeos vazados",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/140806/news/pessoas-conseguem-acesso-ao-switch-2-antes-do-lancamento-e-nintendo-comeca-a-derrubar-videos-vazados",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/someone-go/someone-got-their-hands-on-a-nintendo-switch-2-early-and-the_aksh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Nova Pokémon Presents, tradicional apresentação que destaca conteúdos da franquia, é confirmada",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon/140807/news/novo-pokemon-presents-tradicional-apresentacao-que-destaca-conteudos-da-franquia-e-confirmado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_k9q6.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Final da 2ª temporada de The Last of Us teve menos de metade da audiência do encerramento da 1ª",
@@ -61,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/140748/news/final-da-2a-temporada-de-the-last-of-us-teve-menos-de-metade-da-audiencia-do-encerramento-da-1a",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/the-last-of-us-season-2-episode-5-review-1747245017418_g61j.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
+  },
+  {
+    "titulo": "\"É ridículo\": atriz de Dragon Age The Veilguard não entende por que jogadores criticaram o game antes do lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dragon-age-the-veilguard/140733/news/e-ridiculo-atriz-de-dragon-age-the-veilguard-nao-entende-por-que-jogadores-criticaram-o-game-antes-d",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_fy5j.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "PlayStation Hits: clássicos da Sony por R$49,90 na Amazon",
@@ -69,15 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140874/news/playstation-hits-classicos-da-sony-por-r4990-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-21_dwhv.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
-  },
-  {
-    "titulo": "Jogos para PS4 por R$99 no Days of Play da Amazon",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/140866/news/jogos-para-ps4-por-r99-no-days-of-play-da-amazon",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-17_ffae.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Nvidia's Hopper GPUs are now dead to the Chinese market after export controls that made the company take a 'multibillion-dollar write-off'",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-hopper-gpus-are-now-dead-to-the-chinese-market-after-export-controls-that-made-the-company-take-a-multibillion-dollar-write-off/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bLqSjQze5JVwnLLPQ5Ks2N.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Texas Senate to vote on bill that restricts social media access for children, while parental consent for app downloads will be required from next year",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/texas-senate-to-vote-on-bill-that-restricts-social-media-access-for-children-while-parental-consent-for-app-downloads-will-be-required-from-next-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cqdChcM5yeA5B8QT4kESdR.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Razer releases AI plugin for game engines to assist with logging bugs and Quality Assurance testing in games",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/razer-releases-ai-plugin-for-game-engines-to-assist-with-logging-bugs-and-quality-assurance-testing-in-games/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BuMyYf3nqdm4QbEQ8myu8c.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "A mod that lets you play Half-Life 2 multiplayer as the mercs from Team Fortress 2 is coming to Steam",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/a-mod-that-lets-you-play-half-life-2-multiplayer-as-the-mercs-from-team-fortress-2-is-coming-to-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cHEPnokz74QKvMgjp3jnTZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Forget saving thousands for the newest iPhone. One hacker has turned his NES Zapper gun from Duck Hunt into a laser driven wireless phone",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/forget-saving-thousands-for-the-newest-iphone-one-hacker-has-turned-his-nes-zapper-gun-from-duck-hunt-into-a-laser-driven-wireless-phone/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kn289aHaVBeB39tzercCGF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Teenage Mutant Ninja Turtles: Empire City is a TMNT parkour-action game for VR",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/vr/teenage-mutant-ninja-turtles-empire-city-is-a-tmnt-parkour-action-game-for-vr/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UEewH8CAapmBmjwGDJ3eLD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Corsair's new One i600 mini PC packs an RTX 5080 into a stunning understated wood panel case",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/corsairs-new-one-i600-mini-pc-packs-an-rtx-5080-into-a-stunning-understated-wood-panel-case/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Wm5QuvFnaSy7HNPUd7TPTL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Top-down modded Morrowind lets you experience Vvardenfell like it's Baldur's Gate",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/top-down-modded-morrowind-lets-you-experience-vvardenfell-like-its-baldurs-gate/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8NyJAvwLxQYxvduvvGmJiH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, May 29",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-29-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-29T07:52:39"
+    "timestamp": "2025-05-29T08:10:50"
   }
 ];
