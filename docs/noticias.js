@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-witcher-3-is-getting-one-more-patch-that-will-add-cross-platform-mod-support/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rYo9mVpawBtrnH93pJthSU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "This underwater city builder had me more emotionally invested in my corals than SimCity does in my human citizens, and you can try it at the next Steam Next Fest",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/this-underwater-city-builder-had-me-more-emotionally-invested-in-my-corals-than-simcity-does-in-my-human-citizens-and-you-can-try-it-at-the-next-steam-next-fest/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zteHYbT39HQFj5KYhFQnUP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "The Kingmakers system requirements show that the hardest part of running the game may be finding 80 GB free for the install",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-kingmakers-system-requirements-show-that-the-hardest-part-of-running-the-game-may-be-finding-80-gb-free-for-the-install/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cmECkjGHqGLQEkUUNtUYgE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "It's taken the genius behind Elden Ring's seamless co-op mod less than 24 hours to get a working prototype going for Nightreign, allowing 2-person matches",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/its-taken-the-genius-behind-elden-rings-seamless-co-op-mod-less-than-24-hours-to-get-a-working-prototype-going-for-nightreign-allowing-2-person-matches/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CaMSLF9S7YVEUEqMcKhbmT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Civilization 7's senior historian once deleted Civ 6's massive Civilopedia, replacing every entry with a single warmongering emperor: 'The entire folder just went, and I looked, and it was just my one little entry'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/civilization-7s-senior-historian-once-deleted-civ-6s-massive-civilopedia-replacing-every-entry-with-a-single-warmongering-emperor-the-entire-folder-just-went-and-i-looked-and-it-was-just-my-one-little-entry/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6UforF38ydQsYbXtoWYGwU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "REPO 'literally saved semiwork as a studio' according to a new video published by developers",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/repo-literally-saved-semiwork-as-a-studio-according-to-a-new-video-published-by-developers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XvucmF9HdjsqCq3mqpAeqE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "ASRock acknowledges AMD is not at fault for recent CPU failures and recommends updating the BIOS now, though we still don't know if problems have actually been fixed",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/motherboards/asrock-acknowledges-amd-is-not-at-fault-for-recent-cpu-failures-and-recommends-updating-the-bios-now-though-we-still-dont-know-if-problems-have-actually-been-fixed/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sEX67NEZpKM2ABY3RVqEd6.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "REPO has published yet another video promising more content in its long-awaited first update: 'We are in the homestretch now'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/repo-has-published-yet-another-video-promising-more-content-in-its-long-awaited-first-update-we-are-in-the-homestretch-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GXXf5KYPuve3HPnAP8eC8P.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Our favorite 8 TB NVMe SSD is now cheaper than picking up two 4 TB drives, at only ¢7 per gigabyte",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ssds/our-favorite-8-tb-nvme-ssd-is-now-cheaper-than-picking-up-two-4-tb-drives-at-only-7-per-gigabyte/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6wQRkuvnEViuPZ9eVZnmbG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Sea of Stars: Throes of the Watchmaker fecha com chave de ouro trajetória de um jogo encantador | Review",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/sea-of-stars-throes-of-the-watchmaker-1/140902/review/sea-of-stars-throes-of-the-watchmaker-fecha-com-chave-de-ouro-trajetoria-de-um-jogo-encantador-revie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sea-of-stars-throes-dlc_yees.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Boas notícias para quem gostou de Clair Obscur: Expedition 33 — estúdio já planeja outros RPGs",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140890/news/boas-noticias-para-quem-gostou-de-clair-obscur-expedition-33-estudio-ja-planeja-outros-rpgs",
     "imagem": "https://sm.ign.com/t/ign_br/photo/m/maxrolls-c/maxrolls-clair-obscur-expedition-33-branch-with-guides-codex_g6px.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "\"Quebra meu coração\": devs de jogo cancelado do Pantera Negra desabafam nas redes sociais sobre fim do projeto",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140888/news/quebra-meu-coracao-devs-de-jogo-cancelado-do-pantera-negra-desabafam-nas-redes-sociais-sobre-fim-do",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/eas-black-/eas-black-panther-appears-to-be-an-open-world-sandbox-based_dk3s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
+  },
+  {
+    "titulo": "Últimos dias de pré-venda! Garanta seu Street Fighter 6 para Nintendo Switch 2 com menor preço",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140966/news/ultimos-dias-de-pre-venda-garanta-seu-street-fighter-6-para-nintendo-switch-2-com-menor-preco",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/street-fighter-6-year-1-2-switch-2_xgrt.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-30T14:59:44"
   },
   {
     "titulo": "TicWatch Pro 5 com 22% de desconto na Amazon Brasil",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140964/news/ticwatch-pro-5-com-22-de-desconto-na-amazon-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ticwatch-pro-5-aajw_319095_e5y9.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
-  },
-  {
-    "titulo": "NVIDIA anuncia chegada do app GeForce Now para Steam Deck",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/steam-deck/140960/news/nvidia-anuncia-chegada-do-app-geforce-now-para-steam-deck",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/geforce-now_gfvt.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T14:49:58"
+    "timestamp": "2025-05-30T14:59:44"
   }
 ];
