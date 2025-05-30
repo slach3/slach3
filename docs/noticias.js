@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Yooka-Laylee developer Playtonic confirms layoffs: 'The landscape is shifting, and with it, so must we'",
+    "descricao": "newsFormer employees began sharing reports of cuts at Playtonic last week.",
+    "link": "https://www.pcgamer.com/gaming-industry/yooka-laylee-developer-playtonic-confirms-layoffs-the-landscape-is-shifting-and-with-it-so-must-we/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/t9xNv7kEDsPGZ2jDSu5A6E.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-30T18:49:34"
+  },
+  {
     "titulo": "If you're playing Elden Ring Nightreign solo, every merchant carries a revive item, you can carry two at once, and there are more solo QoL changes coming next week",
     "descricao": "newsThe first patch already made a world of difference.",
     "link": "https://www.pcgamer.com/games/roguelike/if-youre-playing-elden-ring-nightreign-solo-every-merchant-carries-a-revive-item-you-can-carry-two-at-once-and-there-are-more-solo-qol-changes-coming-next-week/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/s5omLRS5sXZdBBXDDo5FWD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "ZeniMax QA union reaches a tentative contract agreement with Microsoft including 'substantial across-the-board wage increases,' worker protections, and more",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/zenimax-qa-union-reaches-a-tentative-contract-agreement-with-microsoft-including-substantial-across-the-board-wage-increases-worker-protections-and-more/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XTHUUha2hSdpQMvhRTL2VV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Honoring its Pride Month tradition, Tell Me Why is free to keep until the end of June for the fifth year in a row",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/honoring-its-pride-month-tradition-tell-me-why-is-free-to-keep-until-the-end-of-june-for-the-fifth-year-in-a-row/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xa3ACcJPsc6ePeVy5gwAoS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "More than 2 million people have played/been brutalized by Elden Ring Nightreign in its first 24 hours",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/more-than-2-million-people-have-played-been-brutalized-by-elden-ring-nightreign-in-its-first-24-hours/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mqqYq4iKoZBsgVzneCV7Ag.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Update: The Elden Ring Nightreign Duos mod from the creator of Seamless Co-op is already available to download and play",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/its-taken-the-genius-behind-elden-rings-seamless-co-op-mod-less-than-24-hours-to-get-a-working-prototype-going-for-nightreign-allowing-2-person-matches/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CaMSLF9S7YVEUEqMcKhbmT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "The Witcher 3 is getting 'one more patch' that will add cross-platform mod support",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-witcher-3-is-getting-one-more-patch-that-will-add-cross-platform-mod-support/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rYo9mVpawBtrnH93pJthSU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "This underwater city builder had me more emotionally invested in my corals than SimCity does in my human citizens, and you can try it at the next Steam Next Fest",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/city-builder/this-underwater-city-builder-had-me-more-emotionally-invested-in-my-corals-than-simcity-does-in-my-human-citizens-and-you-can-try-it-at-the-next-steam-next-fest/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zteHYbT39HQFj5KYhFQnUP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "The Kingmakers system requirements show that the hardest part of running the game may be finding 80 GB free for the install",
@@ -61,15 +69,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-kingmakers-system-requirements-show-that-the-hardest-part-of-running-the-game-may-be-finding-80-gb-free-for-the-install/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cmECkjGHqGLQEkUUNtUYgE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
-    "titulo": "Civilization 7's senior historian once deleted Civ 6's massive Civilopedia, replacing every entry with a single warmongering emperor: 'The entire folder just went, and I looked, and it was just my one little entry'",
-    "descricao": "NewsHow Emperor Basil II conquered all of history.",
-    "link": "https://www.pcgamer.com/games/strategy/civilization-7s-senior-historian-once-deleted-civ-6s-massive-civilopedia-replacing-every-entry-with-a-single-warmongering-emperor-the-entire-folder-just-went-and-i-looked-and-it-was-just-my-one-little-entry/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6UforF38ydQsYbXtoWYGwU.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T18:39:29"
+    "titulo": "The Witcher 3 receberá patch em 2025: mods serão oficialmente adicionados no console",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-witcher-3-wild-hunt-1/140949/news/the-witcher-3-recebera-patch-em-2025-mods-serao-oficialmente-adicionados-no-console-pela-primeira-ve",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62922/62922_e28y.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -77,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -85,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -93,15 +101,15 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
-    "titulo": "Com volta de modo querido pelos fãs, F1 25 se destaca como melhor game EA Sports",
+    "titulo": "Tomou o suco? Atriz de Abby admite que 2ª temporada de The Last of Us usou CGI — mas não pelo motivo que você imagina",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ea-f1-25/140794/review/com-volta-de-modo-querido-pelos-fas-f1-25-se-destaca-como-melhor-game-ea-sports-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62790/62790_26ut.800.jpg",
+    "link": "https://br.ign.com/cinema-tv/140945/news/tomou-o-suco-atriz-de-abby-admite-que-2a-temporada-de-the-last-of-us-usou-cgi-mas-nao-pelo-motivo-qu",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-had-to-use-cgi-on-abby-actor-kaitlyn-dever-he_uktn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Sea of Stars: Throes of the Watchmaker fecha com chave de ouro trajetória de um jogo encantador | Review",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/sea-of-stars-throes-of-the-watchmaker-1/140902/review/sea-of-stars-throes-of-the-watchmaker-fecha-com-chave-de-ouro-trajetoria-de-um-jogo-encantador-revie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sea-of-stars-throes-dlc_yees.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Boas notícias para quem gostou de Clair Obscur: Expedition 33 — estúdio já planeja outros RPGs",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140890/news/boas-noticias-para-quem-gostou-de-clair-obscur-expedition-33-estudio-ja-planeja-outros-rpgs",
     "imagem": "https://sm.ign.com/t/ign_br/photo/m/maxrolls-c/maxrolls-clair-obscur-expedition-33-branch-with-guides-codex_g6px.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "\"Quebra meu coração\": devs de jogo cancelado do Pantera Negra desabafam nas redes sociais sobre fim do projeto",
@@ -125,23 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140888/news/quebra-meu-coracao-devs-de-jogo-cancelado-do-pantera-negra-desabafam-nas-redes-sociais-sobre-fim-do",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/eas-black-/eas-black-panther-appears-to-be-an-open-world-sandbox-based_dk3s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
-  },
-  {
-    "titulo": "Desenvolvedores brasileiros publicam carta aberta à gamescom latam e pedem mudanças para próxima edição",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gamescom-latam/140775/news/desenvolvedores-brasileiros-publicam-carta-aberta-a-gamescom-latam-e-pedem-mudancas-para-proxima-edi",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_bdkt.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
-  },
-  {
-    "titulo": "Mentirosos, Todos Menos Você e mais: todas as estreias do Prime Video em junho de 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/prime-video/140980/news/mentirosos-todos-menos-voce-e-mais-todas-as-estreias-do-prime-video-em-junho-de-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-30t171031478_4pj4.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
   },
   {
     "titulo": "Promete hitar em todos os charts: novo filme de animação da Netflix contém música original do TWICE na trilha sonora",
@@ -149,6 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140981/news/promete-hitar-em-todos-os-charts-novo-filme-de-animacao-da-netflix-contem-musica-original-do-twice-n",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_vzp8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T18:39:29"
+    "timestamp": "2025-05-30T18:49:34"
+  },
+  {
+    "titulo": "Tão bom que funcionará até no Switch 2: controle para Nintendo Switch com 23% de desconto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/140978/news/tao-bom-que-funcionara-ate-no-switch-2-controle-para-nintendo-switch-com-23-de-desconto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/controle-nintendo-switch-pro-thumb_6r83.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-05-30T18:49:34"
   }
 ];
