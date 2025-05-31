@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Today's Wordle answer for Saturday, May 31",
+    "descricao": "regular riddleGet all the help you need with today's Wordle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-may-31-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-05-31T00:32:21"
+  },
+  {
     "titulo": "If you want to play Elden Ring Nightreign in a duo, the Seamless Co-op mod is already out, dead simple to use, and it won't mess up your vanilla save",
     "descricao": "newsA bafflingly good mod, out less than a day after launch.",
     "link": "https://www.pcgamer.com/games/action/if-you-want-to-play-elden-ring-nightreign-in-a-duo-the-seamless-co-op-mod-is-already-out-dead-simple-to-use-and-it-wont-mess-up-your-vanilla-save/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Ubisoft marks 10 years of trolling Splinter Cell fans with a new tease and I can't believe I'm saying this but they used the wrong picture of Sam Fisher",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/ubisoft-marks-10-year-of-trolling-splinter-cell-fans-with-a-new-tease-and-i-cant-believe-im-saying-this-but-they-used-the-wrong-picture-of-sam-fisher/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6Gfz8qEpqz9LDUJ24SdEE7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Path of Exile 2 director says GGG is learning from its mistakes while supporting 2 games at once: 'If you want to lock the date, you can't lock the features'",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/path-of-exile-2-director-says-ggg-is-learning-from-its-mistakes-while-supporting-2-games-at-once-if-you-want-to-lock-the-date-you-cant-lock-the-features/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mFbXXcYdqxRHpC9QjhVCh8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Yooka-Laylee developer Playtonic confirms layoffs: 'The landscape is shifting, and with it, so must we'",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/yooka-laylee-developer-playtonic-confirms-layoffs-the-landscape-is-shifting-and-with-it-so-must-we/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t9xNv7kEDsPGZ2jDSu5A6E.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "If you're playing Elden Ring Nightreign solo, every merchant carries a revive item, you can carry two at once, and there are more solo QoL changes coming next week",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/if-youre-playing-elden-ring-nightreign-solo-every-merchant-carries-a-revive-item-you-can-carry-two-at-once-and-there-are-more-solo-qol-changes-coming-next-week/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/s5omLRS5sXZdBBXDDo5FWD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "ZeniMax QA union reaches a tentative contract agreement with Microsoft including 'substantial across-the-board wage increases,' worker protections, and more",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/zenimax-qa-union-reaches-a-tentative-contract-agreement-with-microsoft-including-substantial-across-the-board-wage-increases-worker-protections-and-more/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XTHUUha2hSdpQMvhRTL2VV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Honoring its Pride Month tradition, Tell Me Why is free to keep until the end of June for the fifth year in a row",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/honoring-its-pride-month-tradition-tell-me-why-is-free-to-keep-until-the-end-of-june-for-the-fifth-year-in-a-row/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xa3ACcJPsc6ePeVy5gwAoS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "More than 2 million people have played/been brutalized by Elden Ring Nightreign in its first 24 hours",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/more-than-2-million-people-have-played-been-brutalized-by-elden-ring-nightreign-in-its-first-24-hours/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mqqYq4iKoZBsgVzneCV7Ag.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
-  },
-  {
-    "titulo": "Update: The Elden Ring Nightreign Duos mod from the creator of Seamless Co-op is already available to download and play",
-    "descricao": "News\"There's also potential for a player cap increase in the future.\"",
-    "link": "https://www.pcgamer.com/games/rpg/its-taken-the-genius-behind-elden-rings-seamless-co-op-mod-less-than-24-hours-to-get-a-working-prototype-going-for-nightreign-allowing-2-person-matches/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CaMSLF9S7YVEUEqMcKhbmT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "The Witcher 3 receberá patch em 2025: mods serão oficialmente adicionados no console",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-3-wild-hunt-1/140949/news/the-witcher-3-recebera-patch-em-2025-mods-serao-oficialmente-adicionados-no-console-pela-primeira-ve",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62922/62922_e28y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Tomou o suco? Atriz de Abby admite que 2ª temporada de The Last of Us usou CGI — mas não pelo motivo que você imagina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140945/news/tomou-o-suco-atriz-de-abby-admite-que-2a-temporada-de-the-last-of-us-usou-cgi-mas-nao-pelo-motivo-qu",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-had-to-use-cgi-on-abby-actor-kaitlyn-dever-he_uktn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Sea of Stars: Throes of the Watchmaker fecha com chave de ouro trajetória de um jogo encantador | Review",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/sea-of-stars-throes-of-the-watchmaker-1/140902/review/sea-of-stars-throes-of-the-watchmaker-fecha-com-chave-de-ouro-trajetoria-de-um-jogo-encantador-revie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sea-of-stars-throes-dlc_yees.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Boas notícias para quem gostou de Clair Obscur: Expedition 33 — estúdio já planeja outros RPGs",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140890/news/boas-noticias-para-quem-gostou-de-clair-obscur-expedition-33-estudio-ja-planeja-outros-rpgs",
     "imagem": "https://sm.ign.com/t/ign_br/photo/m/maxrolls-c/maxrolls-clair-obscur-expedition-33-branch-with-guides-codex_g6px.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "\"Quebra meu coração\": devs de jogo cancelado do Pantera Negra desabafam nas redes sociais sobre fim do projeto",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/games/140888/news/quebra-meu-coracao-devs-de-jogo-cancelado-do-pantera-negra-desabafam-nas-redes-sociais-sobre-fim-do",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/eas-black-/eas-black-panther-appears-to-be-an-open-world-sandbox-based_dk3s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Razer lançará ferramentas de IA na Amazon Web Services com a promessa de \"desenvolvimento revolucionário de jogos\"",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140985/news/razer-lancara-ferramentas-de-ia-na-amazon-web-services-com-a-promessa-de-desenvolvimento-revoluciona",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-05-30t193309875_e6kq.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   },
   {
     "titulo": "Samsung Galaxy S24 Plus em oferta: 12 GB de RAM e 5G por menos de R$ 3.400",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/140994/news/samsung-galaxy-s24-plus-em-oferta-12-gb-de-ram-e-5g-por-menos-de-r-3400",
     "imagem": "https://sm.ign.com/t/ign_br/cover/s/samsung-ga/samsung-galaxy-s24-plus_uhwm.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-05-30T23:42:14"
+    "timestamp": "2025-05-31T00:32:21"
   }
 ];
