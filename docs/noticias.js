@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-journey-was-long-two-years-later-than-planned-boomer-shooter-project-warlock-2-blasts-out-of-early-access-with-a-50-percent-discount-and-a-request-to-submit-your-own-loading-screen-tips/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MK92rhbhuxUhtXxHxe2ygQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "PowerWash Simulator's last free update is out now, letting you scrub up a subway train and polish a sculpture park",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/powerwash-simulators-last-free-update-is-out-now-letting-you-scrub-up-a-subway-train-and-polish-a-sculpture-park/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jTGYwkqWqUMbNojHk8aEyf.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "This gravity-defying dungeon crawler is basically Legend of Grimrock meets Portal, and while the trailer had me dizzy, the demo made me feel like a genius",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/this-gravity-defying-dungeon-crawler-is-basically-legend-of-grimrock-meets-portal-and-while-the-trailer-had-me-dizzy-the-demo-made-me-feel-like-a-genius/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QJs7WQ9QDNfUBKzMatafxY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Atomfall is getting a spooky DLC set on an offshore island that also lets you blast pretend pirates with a blunderbuss",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/atomfall-is-getting-a-spooky-dlc-set-on-an-offshore-island-that-also-lets-you-blast-pretend-pirates-with-a-blunderbuss/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GJg6GwoUmcZwiVZ2Nfzx2G.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, June 1",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-1-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "The GOAT of Sekiro has already soloed Elden Ring Nightreign's final boss as its katana-parrying samurai guy",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/the-goat-of-sekiro-has-already-soloed-elden-ring-nightreigns-final-boss-as-its-katana-parrying-samurai-guy/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "It's not just you: Elden Ring Nightreign's matchmaking is taking forever if it works at all, and there doesn't seem to be a fix⁠—aside from queueing with a full group",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/its-not-just-you-elden-ring-nightreigns-matchmaking-is-taking-forever-if-it-works-at-all-and-there-doesnt-seem-to-be-a-fix-aside-from-queueing-with-a-full-group/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3An84jaA3VAhRCZ2D6V3n4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "All the The Elder Scrolls games are up to 75% off in Bethesda's weekend sale, with 20% off Oblivion Remastered",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/all-the-the-elder-scrolls-games-are-up-to-75-percent-off-in-bethesdas-weekend-sale-with-20-percent-off-oblivion-remastered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t8UPd6CdqGRxGm3Vew4yAg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Planet Coaster 2's latest update introduces crime and punishment to your theme park, adding pickpockets, vandals, and security guards to stop them",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/planet-coaster-2s-latest-update-introduces-crime-and-punishment-to-your-theme-park-adding-pickpockets-vandals-and-security-guards-to-stop-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zU9SCEjUtBSz5b4Z3GuGk7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "The Witcher 3 receberá patch em 2025: mods serão oficialmente adicionados no console",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-3-wild-hunt-1/140949/news/the-witcher-3-recebera-patch-em-2025-mods-serao-oficialmente-adicionados-no-console-pela-primeira-ve",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62922/62922_e28y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Pokémon Legends Z-A recebe data de lançamento e novos detalhes são revelados",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/pokemon-legends-z-a/140810/news/pokemon-legends-z-a-recebe-data-de-lancamento-jogo-saira-tambem-para-switch-2-com-versao-aprimorada",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62835/62835_8ck9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Tomou o suco? Atriz de Abby admite que 2ª temporada de The Last of Us usou CGI — mas não pelo motivo que você imagina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/140945/news/tomou-o-suco-atriz-de-abby-admite-que-2a-temporada-de-the-last-of-us-usou-cgi-mas-nao-pelo-motivo-qu",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-last-o/the-last-of-us-had-to-use-cgi-on-abby-actor-kaitlyn-dever-he_uktn.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Sea of Stars: Throes of the Watchmaker fecha com chave de ouro trajetória de um jogo encantador | Review",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/sea-of-stars-throes-of-the-watchmaker-1/140902/review/sea-of-stars-throes-of-the-watchmaker-fecha-com-chave-de-ouro-trajetoria-de-um-jogo-encantador-revie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sea-of-stars-throes-dlc_yees.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "Boas notícias para quem gostou de Clair Obscur: Expedition 33 — estúdio já planeja outros RPGs",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/140890/news/boas-noticias-para-quem-gostou-de-clair-obscur-expedition-33-estudio-ja-planeja-outros-rpgs",
     "imagem": "https://sm.ign.com/t/ign_br/photo/m/maxrolls-c/maxrolls-clair-obscur-expedition-33-branch-with-guides-codex_g6px.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "\"Quebra meu coração\": devs de jogo cancelado do Pantera Negra desabafam nas redes sociais sobre fim do projeto",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/games/140888/news/quebra-meu-coracao-devs-de-jogo-cancelado-do-pantera-negra-desabafam-nas-redes-sociais-sobre-fim-do",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/eas-black-/eas-black-panther-appears-to-be-an-open-world-sandbox-based_dk3s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
+  },
+  {
+    "titulo": "Há 300 anos, esta família inventou uma das receitas mais raras do mundo e nem mesmo tecnologia é capaz de reproduzi-la",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140873/news/ha-300-anos-esta-familia-inventou-uma-das-receitas-mais-raras-do-mundo-e-nem-mesmo-tecnologia-e-capa",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1zw7.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-01T12:20:32"
   },
   {
     "titulo": "10 anos de The Witcher 3: RPG da CD Projekt foi marco para indústria e continua como referência para RPGs e jogos de mundo aberto",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-3/140984/news/10-anos-de-the-witcher-3-rpg-da-cd-projekt-foi-marco-para-industria-e-continua-como-referencia-para",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-witcher-3-wild-hunt_zdnj.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
-  },
-  {
-    "titulo": "Este jogo violou padrões éticos globais e foi censurado no mundo todo, mas possui 96% de aprovação no Steam",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/140970/news/este-jogo-violou-padroes-eticos-globais-e-foi-censurado-no-mundo-todo-mas-possui-96-de-aprovacao-no",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1g53.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-01T11:56:49"
+    "timestamp": "2025-06-01T12:20:32"
   }
 ];
