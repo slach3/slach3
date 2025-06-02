@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "I wouldn't pass up this gaming PC deal: the latest AMD components and 32 GB of RAM for way under $2000",
+    "descricao": "DealYes, another all-AMD gaming PC—it's hard not to when they're this good value.",
+    "link": "https://www.pcgamer.com/hardware/gaming-pcs/i-wouldnt-pass-up-this-gaming-pc-deal-the-latest-amd-components-and-32-gb-of-ram-for-way-under-usd2000/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pb7LgYA5xANvipSh6WgFCH.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-02T11:40:57"
+  },
+  {
     "titulo": "Elden Ring's first major patch sees FromSoft belatedly admit singleplayer is all sorts of unfair, adds an auto-resurrect and buffs the levelling curve",
     "descricao": "NewsYou Died (a lot).",
     "link": "https://www.pcgamer.com/games/rpg/elden-rings-first-major-patch-sees-fromsoft-belatedly-admit-singleplayer-is-all-sorts-of-unfair-adds-an-auto-resurrect-and-buffs-the-levelling-curve/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8mQuXjgEXqNaAdPsLfoQWP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "American RuneScape players are recreating the Boston Tea Party after Jagex hiked taxes: 'They took a page from the British Empire, rather poetic from a British game'",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/american-old-school-runescape-players-are-recreating-the-boston-tea-party-after-jagex-hiked-taxes-they-took-a-page-from-the-british-empire-rather-poetic-from-a-british-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Vt4FEWK2hwaEZMiQPNUFdR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Lethal Company's biggest update for months is finally out, and with it comes the much awaited first look at a new monster",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/lethal-companys-biggest-update-for-months-is-finally-out-and-with-it-comes-the-much-awaited-first-look-at-a-new-monster/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8EFRdkwsF7q5eyeXegqgMH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "89-year-old Skyrim Grandma starts streaming Oblivion Remastered, has to deal with its mystifying lockpicking minigame and 'absolutely ugly movement' just like we did in 2006",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/89-year-old-skyrim-grandma-starts-streaming-oblivion-remastered-has-to-deal-with-its-mystifying-lockpicking-minigame-and-absolutely-ugly-movement-just-like-we-did-in-2006/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YDppQ3nkYYtGakqbovfF7j.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Someone's already completed a solo Elden Ring Nightreign run at level 1 and, as is tradition, the power of status effects pulled through",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/someones-already-completed-a-solo-elden-ring-nightreign-run-at-level-1-and-as-is-tradition-the-power-of-status-effects-pulled-through/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/StT5tt63kj6HR3242Ed3Xh.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Here's another terrifying trailer for that creepy retro survival horror game that's half FMV, half pixel-art",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/heres-another-terrifying-trailer-for-that-creepy-retro-survival-horror-game-thats-half-fmv-half-pixel-art/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xtUBWJMLp5TPRbBwDSPswJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Today's Wordle answer for Monday, June 2",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-2-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "D&D podcasters 3D printed a giant model of Castle Ravenloft, from Curse of Strahd, and it's truly beautiful",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/d-and-d-podcasters-3d-printed-a-giant-model-of-castle-ravenloft-from-curse-of-strahd-and-its-truly-beautiful/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yFAeNiruSorSrBJVTMKccd.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
-  },
-  {
-    "titulo": "Moza releases replica Revuelto wheel, giving us poors a chance at going hands on with a Lamborghini",
-    "descricao": "newsThe wheel debuted at the Dallas Dreamhack in a killer sounding sim.",
-    "link": "https://www.pcgamer.com/hardware/moza-releases-replica-essenza-scv12-wheel-giving-us-poors-a-chance-at-going-hands-on-with-a-lamborghini/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4CLBRReqAmogoFuMyEdSri.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "10 anos de The Witcher 3: game continua como referência para RPGs e jogos de mundo aberto",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-3/140984/news/10-anos-de-the-witcher-3-rpg-da-cd-projekt-foi-marco-para-industria-e-continua-como-referencia-para",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62988/62988_zy4x.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "G-Sync e FreeSync: entenda como essas tecnologias melhoram o seu game",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/140979/news/g-sync-e-freesync-entenda-de-uma-vez-por-todas-como-essas-tecnologias-melhoram-o-seu-game",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vtd.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "Final de Stranger Things terá episódios liberados nas noites de Natal e Ano Novo; veja horários e trailer revelados no TUDUM",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/stranger-things-1/141005/news/final-de-stranger-things-tera-episodios-liberados-nas-noites-de-natal-e-ano-novo-veja-horarios-e-tra",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/stranger-t/stranger-things-season-5-release-dates-revealed-alongside-ne_7bp9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "\"É uma oportunidade de olhar para isso\": Danny Boyle conta o que o motivou a retornar para franquia de zumbis que ele criou no começo dos anos 2000",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/28-years-later/140957/feature/e-uma-oportunidade-de-olhar-para-isso-danny-boyle-conta-o-que-o-motivou-a-retornar-para-franquia-de",
     "imagem": "https://sm.ign.com/t/ign_br/feature/2/28-years-l/28-years-later-director-danny-boyle-goes-big-with-the-horror_xzgm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "E se filmes do Studio Ghibli se passassem no Brasil? Artista mistura personagens com as religiões afro-brasileiras",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/studio-ghibli/140959/news/e-se-filmes-do-studio-ghibli-se-passassem-no-brasil-artista-mistura-personagens-com-as-religioes-afr",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ponyo3-scaled_vdyp.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
     "titulo": "One Piece: Novas imagens do live-action da Netflix revelam visual completo de Chopper interpretado por atriz de Guardiões da Galáxia",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/one-piece-2/140974/news/one-piece-novas-imagens-do-live-action-da-netflix-revelam-visual-completo-de-chopper-interpretado-po",
     "imagem": "https://sm.ign.com/t/ign_br/photo/o/one-piece-/one-piece-season-2-netflix-reveals-first-look-at-chopper-in_9gxs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
-    "titulo": "Stellar Blade com tela dividida? Modders acham resquícios de modo multiplayer nos arquivos do jogo",
+    "titulo": "\"Não preciso mais\": Jackie Chan não se preparou para Karate Kid: Lendas porque faz cenas coreografadas de luta há mais de 60 anos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/stellar-blade/141010/news/stellar-blade-com-tela-dividida-modders-acham-resquicios-de-modo-multiplayer-nos-arquivos-do-jogo",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/theres-no-/theres-no-stellar-blade-multiplayer-mod-but-there-are-signs_jny7.280.jpg",
+    "link": "https://br.ign.com/karate-kid-legends/141021/news/nao-preciso-mais-jackie-chan-nao-se-preparou-para-karate-kid-lendas-porque-faz-cenas-coreografadas-d",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kk_tzfu.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   },
   {
-    "titulo": "Desenvolvedora de Hi-Fi RUSH e The Evil Within, Tango Gameworks reabre escritório e já está trabalhando em novo jogo",
+    "titulo": "Victory Banner, um misto de RTS com shooter em terceira pessoa, é anunciado para PC",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hi-fi-rush/141013/news/desenvolvedora-de-hi-fi-rush-e-the-evil-within-tango-gameworks-reabre-escritorio-e-ja-esta-trabalhan",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hi-fi-rush/hi-fi-rush-2-dev-wants-it-to-offer-a-more-open-world-type-of_myat.280.jpg",
+    "link": "https://br.ign.com/games/141023/news/victory-banner-um-misto-de-rts-com-shooter-em-terceira-pessoa-e-anunciado-para-pc",
+    "imagem": "https://sm.ign.com/t/ign_br/news/v/victory-ba/victory-banner-a-wwii-rtsthird-person-shooter-hybrid-announc_717k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T11:14:26"
+    "timestamp": "2025-06-02T11:40:57"
   }
 ];
