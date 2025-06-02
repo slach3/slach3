@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "10 anos de The Witcher 3: game continua como referência para RPGs e jogos de mundo aberto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-3/140984/news/10-anos-de-the-witcher-3-rpg-da-cd-projekt-foi-marco-para-industria-e-continua-como-referencia-para",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62988/62988_zy4x.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "G-Sync e FreeSync: entenda como essas tecnologias melhoram o seu game",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/140979/news/g-sync-e-freesync-entenda-de-uma-vez-por-todas-como-essas-tecnologias-melhoram-o-seu-game",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vtd.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "Final de Stranger Things terá episódios liberados nas noites de Natal e Ano Novo; veja horários e trailer revelados no TUDUM",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/stranger-things-1/141005/news/final-de-stranger-things-tera-episodios-liberados-nas-noites-de-natal-e-ano-novo-veja-horarios-e-tra",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/stranger-t/stranger-things-season-5-release-dates-revealed-alongside-ne_7bp9.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "\"É uma oportunidade de olhar para isso\": Danny Boyle conta o que o motivou a retornar para franquia de zumbis que ele criou no começo dos anos 2000",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/28-years-later/140957/feature/e-uma-oportunidade-de-olhar-para-isso-danny-boyle-conta-o-que-o-motivou-a-retornar-para-franquia-de",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/2/28-years-l/28-years-later-director-danny-boyle-goes-big-with-the-horror_xzgm.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "E se filmes do Studio Ghibli se passassem no Brasil? Artista mistura personagens com as religiões afro-brasileiras",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/studio-ghibli/140959/news/e-se-filmes-do-studio-ghibli-se-passassem-no-brasil-artista-mistura-personagens-com-as-religioes-afr",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ponyo3-scaled_vdyp.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "One Piece: Novas imagens do live-action da Netflix revelam visual completo de Chopper interpretado por atriz de Guardiões da Galáxia",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/one-piece-2/140974/news/one-piece-novas-imagens-do-live-action-da-netflix-revelam-visual-completo-de-chopper-interpretado-po",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/o/one-piece-/one-piece-season-2-netflix-reveals-first-look-at-chopper-in_9gxs.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "Os 5 anos do VALORANT me deixaram nostálgica sobre os primeiros passos da liga inclusiva",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/esports/141042/feature/os-5-anos-do-valorant-me-deixaram-nostalgica-sobre-os-primeiros-passos-da-liga-inclusiva",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_dctj.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
-    "titulo": "Bond, James Bond! Novo game de 007 feito por desenvolvedores de Hitman ganha título oficial e mais informações antes da revelação completa",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
-    "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-02T15:13:55"
-  },
-  {
     "titulo": "Dune: Awakening will have private servers at launch where players can disable taxes and enable 'free for all' PvP",
     "descricao": "NewsOne of the most-requested Dune: Awakening features is now a reality.",
     "link": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-will-have-private-servers-at-launch-where-players-can-disable-taxes-and-enable-free-for-all-pvp/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/s9nWmuRRrPn6piqnqVyaN4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "IO's James Bond game is called 007 First Light, will be revealed later this week",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/ios-james-bond-game-is-called-007-first-light-will-be-revealed-later-this-week/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tHxuBHofcNdWKFSMSwccNn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "Assassin's Creed: Black Flag remake is such a badly kept secret it's been leaked by a statue maker who just assumed we all knew it was coming",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-remake-is-such-a-badly-kept-secret-its-been-leaked-by-a-statue-maker-who-just-assumed-we-all-knew-it-was-coming/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XsFoKun4uZqXSuBpamqhwc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "Over $90,000 worth of RTX 5090 GPUs have been replaced in-box by crossbody backpacks at just one Silicon Valley Micro Center",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/over-usd90-000-worth-of-rtx-5090-gpus-have-been-replaced-in-box-by-crossbody-backpacks-at-just-one-silicon-valley-micro-center/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Fn2zkTbWmT2GnW7wYcDudb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "'The complexity of mods we can make just shot up big time': Oblivion Remastered modders breach a new frontier even without Bethesda support—making it play nice with Lua scripts",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-complexity-of-mods-we-can-make-just-shot-up-big-time-oblivion-remastered-modders-breach-a-new-frontier-even-without-bethesda-support-making-it-play-nice-with-lua-scripts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/e3sT9yivqnjKHFVtT25Wyg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "I wouldn't pass up this gaming PC deal: the latest AMD components and 32 GB of RAM for way under $2000",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/i-wouldnt-pass-up-this-gaming-pc-deal-the-latest-amd-components-and-32-gb-of-ram-for-way-under-usd2000/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pb7LgYA5xANvipSh6WgFCH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "Elden Ring's first major patch sees FromSoft belatedly admit singleplayer is all sorts of unfair, adds an auto-resurrect and buffs the levelling curve",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-rings-first-major-patch-sees-fromsoft-belatedly-admit-singleplayer-is-all-sorts-of-unfair-adds-an-auto-resurrect-and-buffs-the-levelling-curve/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8mQuXjgEXqNaAdPsLfoQWP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "American RuneScape players are recreating the Boston Tea Party after Jagex hiked taxes: 'They took a page from the British Empire, rather poetic from a British game'",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/american-old-school-runescape-players-are-recreating-the-boston-tea-party-after-jagex-hiked-taxes-they-took-a-page-from-the-british-empire-rather-poetic-from-a-british-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Vt4FEWK2hwaEZMiQPNUFdR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
   },
   {
     "titulo": "Lethal Company's biggest update for months is finally out, and with it comes the much awaited first look at a new monster",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/lethal-companys-biggest-update-for-months-is-finally-out-and-with-it-comes-the-much-awaited-first-look-at-a-new-monster/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8EFRdkwsF7q5eyeXegqgMH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-02T15:13:55"
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "10 anos de The Witcher 3: game continua como referência para RPGs e jogos de mundo aberto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-witcher-3/140984/news/10-anos-de-the-witcher-3-rpg-da-cd-projekt-foi-marco-para-industria-e-continua-como-referencia-para",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62988/62988_zy4x.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "G-Sync e FreeSync: entenda como essas tecnologias melhoram o seu game",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/140979/news/g-sync-e-freesync-entenda-de-uma-vez-por-todas-como-essas-tecnologias-melhoram-o-seu-game",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9vtd.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "Hideo Kojima estará na BGS 2025 como parte da turnê mundial de Death Stranding 2",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/140884/news/hideo-kojima-estara-na-brasil-game-show-2025-como-parte-da-turne-mundial-de-death-stranding-2",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62878/62878_mtbn.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "Apesar de divertido, Elden Ring Nightreign é um espetáculo vazio e superficial | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring-nightreign/140786/review/apesar-de-divertido-elden-ring-nightreign-e-um-espetaculo-vazio-e-superficial-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/62834/62834_4kbc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "Final de Stranger Things terá episódios liberados nas noites de Natal e Ano Novo; veja horários e trailer revelados no TUDUM",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/stranger-things-1/141005/news/final-de-stranger-things-tera-episodios-liberados-nas-noites-de-natal-e-ano-novo-veja-horarios-e-tra",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/stranger-t/stranger-things-season-5-release-dates-revealed-alongside-ne_7bp9.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "\"É uma oportunidade de olhar para isso\": Danny Boyle conta o que o motivou a retornar para franquia de zumbis que ele criou no começo dos anos 2000",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/28-years-later/140957/feature/e-uma-oportunidade-de-olhar-para-isso-danny-boyle-conta-o-que-o-motivou-a-retornar-para-franquia-de",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/2/28-years-l/28-years-later-director-danny-boyle-goes-big-with-the-horror_xzgm.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "E se filmes do Studio Ghibli se passassem no Brasil? Artista mistura personagens com as religiões afro-brasileiras",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/studio-ghibli/140959/news/e-se-filmes-do-studio-ghibli-se-passassem-no-brasil-artista-mistura-personagens-com-as-religioes-afr",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ponyo3-scaled_vdyp.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "One Piece: Novas imagens do live-action da Netflix revelam visual completo de Chopper interpretado por atriz de Guardiões da Galáxia",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/one-piece-2/140974/news/one-piece-novas-imagens-do-live-action-da-netflix-revelam-visual-completo-de-chopper-interpretado-po",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/o/one-piece-/one-piece-season-2-netflix-reveals-first-look-at-chopper-in_9gxs.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "Geração Z da China tem tanta vergonha do desemprego que vai para escritórios falsos e finge que está trabalhando",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/141039/news/geracao-z-da-china-tem-tanta-vergonha-do-desemprego-que-vai-para-escritorios-falsos-e-finge-que-esta",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_147e.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
+  },
+  {
+    "titulo": "Live-action de Lilo & Stitch pagou um preço muito alto para fazer sucesso e fãs notam ausência de detalhes importantes",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/lilo-stitch-2025/141028/news/live-action-de-lilo-stitch-pagou-um-preco-muito-alto-para-fazer-sucesso-e-fas-notam-ausencia-de-deta",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-02t152218395_x8br.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-02T15:43:53"
   }
 ];
