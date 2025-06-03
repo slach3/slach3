@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "PlayStation anuncia State of Play para esta quarta-feira (4)",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141078/news/playstation-anuncia-state-of-play-para-esta-quarta-feira-4",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63194/63194_texk.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63055/63055_1yvq.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Novo game de 007 feito ganha título oficial e mais informações antes da revelação completa",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
-    "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Criador de Andor precisou lutar por orçamento gigantesco para série de Star Wars após Disney dizer que \"o streaming está morto\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-andor/141098/news/criador-de-andor-precisou-lutar-por-orcamento-gigantesco-para-serie-de-star-wars-apos-disney-dizer-q",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-creator-fought-hard-for-650m-budget-after-di_1ywm.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Elden Ring Nightreign atinge marca de 3.5 milhões de cópias vendidas e confirma modo para duplas",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring-nightreign/141091/news/elden-ring-nightreign-atinge-marca-de-35-milhoes-de-copias-vendidas-e-confirma-modo-para-duplas",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-nightreign-duo-expeditions-on-the-way-fromsoftwar_hcnt.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Loja da Epic Games já pagou mais de US$ 2 bilhões a desenvolvedoras parceiras, diz empresa",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/141071/news/loja-da-epic-games-ja-pagou-mais-de-us-2-bilhoes-a-desenvolvedoras-parceiras-diz-empresa",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rb89.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Página de Hollow Knight: Silksong no Steam foi silenciosamente atualizada e jogadores voltam a ter esperança sobre anúncio",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hollow-knight-silksong/141066/news/pagina-de-hollow-knight-silksong-no-steam-foi-silenciosamente-atualizada-e-jogadores-voltam-a-ter-es",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hollow-knight-fans-crushed-as-summer-showcases-pass-with-no_309755_cmk9.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "O iPhone 16 está com preço imperdível na Amazon Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141118/news/o-iphone-16-esta-com-preco-imperdivel-na-amazon-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone-16-thumb-2_sma7.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
-    "titulo": "Usuário compra a placa de vídeo mais potente do mercado, mas tem surpresa ao abrir — e esse não é um caso isolado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/141115/news/usuario-compra-a-placa-de-video-mais-potente-do-mercado-mas-tem-surpresa-ao-abrir-e-esse-nao-e-um-ca",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_6y7x.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T15:30:17"
-  },
-  {
     "titulo": "This Russian fishing sim is bizarrely popular on Steam but players can't decide if they love or hate it, perhaps because of the $2000 microtransaction",
     "descricao": "NewsIt's no Get Bass, but then what is.",
     "link": "https://www.pcgamer.com/games/this-russian-fishing-sim-is-bizarrely-popular-on-steam-but-players-cant-decide-if-they-love-or-hate-it-perhaps-because-of-the-usd2000-microtransaction/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tp7vssC2KWYPDzEiyggz4U.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "This Final Fantasy Tactics-like RPG from former Octopath and Destiny devs lets you do the best thing a videogame can: Make a town look cooler while you rebuild it",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/this-final-fantasy-tactics-like-rpg-from-former-octopath-and-destiny-devs-lets-you-do-the-best-thing-a-videogame-can-make-a-town-look-cooler-while-you-rebuild-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qJZH2V5MXeyxYxKPTUFeRZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "The Witcher 4's leafy glory is all down to Epic's Nanite Foliage, and largely so is the fact it can run ray-traced at 60 fps on a lowly PS5",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-witcher-4s-leafy-glory-is-all-down-to-epics-nanite-foliage-and-largely-so-is-the-fact-it-can-run-ray-traced-at-60-fps-on-a-lowly-ps5/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uQH7M2HPLAH8SxSmpoWTPo.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "Dead Take is a first-person horror game out to expose 'the darkest secrets' of the entertainment industry: 'I want players to think, I can't believe they actually did this'",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/dead-take-is-a-first-person-horror-game-out-to-expose-the-darkest-secrets-of-the-entertainment-industry-i-want-players-to-think-i-cant-believe-they-actually-did-this/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sKeMu9ZpZCpPYQEk9jx4GG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "The Elder Scrolls Online's subclassing feature shakes up the meta in its newest update, Seasons of the Worm Cult, as the devs set their sights on harder difficulties: 'It's in the works'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/the-elder-scrolls-onlines-subclassing-feature-shakes-up-the-meta-in-its-newest-update-seasons-of-the-worm-cult-as-the-devs-set-their-sights-on-harder-difficulties-its-in-the-works/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G9S5y5Go3hSdCMLpWfVgi3.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "Destiny 2: The Edge of Fate's new exotics include the most powerful primary weapon I've ever used and gloves that enable one of the coolest player-requested abilities",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/destiny-2-edge-of-fate-exotics/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cwf956ittNc9gdnbW3Zzdj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "Unreal's MetaHuman Animator can generate surprisingly lifelike animation with just your phone and it's now integrated directly into Unreal Engine 5.6",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/unreals-metahuman-animator-can-generate-surprisingly-lifelike-animation-with-just-your-phone-and-its-now-integrated-directly-into-unreal-engine-5-6/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2ZfwB9CRoBbrXw5emGsBUL.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "The 'main goal' for Epic Games' new Unreal 5.6 engine is more performance on the PS5 and that should be good news for gaming on affordable PC hardware",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-main-goal-for-epic-games-new-unreal-5-6-engine-is-more-performance-on-the-ps5-and-that-should-be-good-news-for-gaming-on-affordable-pc-hardware/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/22rUW9toSJ8CXNZFNWSKhJ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
   },
   {
     "titulo": "Penguins confront Lovecraftian cosmic horror in the next game from the developers of Umurangi Generation",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/penguins-confront-lovecraftian-cosmic-horror-in-the-next-game-from-the-developers-of-umurangi-generation/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MkoaipKUTtUXgKhn8iepTD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T15:30:17"
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "PlayStation anuncia State of Play para esta quarta-feira (4)",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141078/news/playstation-anuncia-state-of-play-para-esta-quarta-feira-4",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63194/63194_texk.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63055/63055_1yvq.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Novo game de 007 feito ganha título oficial e mais informações antes da revelação completa",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
+    "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Criador de Andor precisou lutar por orçamento gigantesco para série de Star Wars após Disney dizer que \"o streaming está morto\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/star-wars-andor/141098/news/criador-de-andor-precisou-lutar-por-orcamento-gigantesco-para-serie-de-star-wars-apos-disney-dizer-q",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-creator-fought-hard-for-650m-budget-after-di_1ywm.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Elden Ring Nightreign atinge marca de 3.5 milhões de cópias vendidas e confirma modo para duplas",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring-nightreign/141091/news/elden-ring-nightreign-atinge-marca-de-35-milhoes-de-copias-vendidas-e-confirma-modo-para-duplas",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-nightreign-duo-expeditions-on-the-way-fromsoftwar_hcnt.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Loja da Epic Games já pagou mais de US$ 2 bilhões a desenvolvedoras parceiras, diz empresa",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/141071/news/loja-da-epic-games-ja-pagou-mais-de-us-2-bilhoes-a-desenvolvedoras-parceiras-diz-empresa",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rb89.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Página de Hollow Knight: Silksong no Steam foi silenciosamente atualizada e jogadores voltam a ter esperança sobre anúncio",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hollow-knight-silksong/141066/news/pagina-de-hollow-knight-silksong-no-steam-foi-silenciosamente-atualizada-e-jogadores-voltam-a-ter-es",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hollow-knight-fans-crushed-as-summer-showcases-pass-with-no_309755_cmk9.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "Muita calma nessa hora: CD Projekt Red reforça que apresentação técnica de Witcher 4 não 'representa totalmente game final'",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-witcher-4-1/141121/news/muita-calma-nessa-hora-cd-projekt-red-reforca-que-apresentacao-tecnica-de-witcher-4-nao-representa-t",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-tech-demo-does-not-fully-represent-the-final-g_u27c.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
+  },
+  {
+    "titulo": "O iPhone 16 está com preço imperdível na Amazon Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141118/news/o-iphone-16-esta-com-preco-imperdivel-na-amazon-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone-16-thumb-2_sma7.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-03T15:52:43"
   }
 ];
