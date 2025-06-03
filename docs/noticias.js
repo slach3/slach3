@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Here's when Dune: Awakening pre-loads and unlocks in your time zone",
-    "descricao": "NewsWhen you can begin preloading Dune: Awakening, and when the \"head start\" and full launch happens on Steam.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-preload-time-release-date/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fuqkq7Hc57zgzn63kqgqp4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "RuneScape studio Jagex confirms layoffs 'to reduce complexity, increase agility, and ensure we are fully focused on the areas that matter most'",
-    "descricao": "newsJagex said the cuts won't impact ongoing development of its game.",
-    "link": "https://www.pcgamer.com/gaming-industry/runescape-studio-jagex-confirms-layoffs-to-reduce-complexity-increase-agility-and-ensure-we-are-fully-focused-on-the-areas-that-matter-most/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XQoFq6VMmMTq3Yw2VjtaCb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "This Russian fishing sim is bizarrely popular on Steam but players hate the monetisation, and to be fair it has a $2000 microtransaction",
-    "descricao": "NewsIt's no Get Bass, but then what is.",
-    "link": "https://www.pcgamer.com/games/this-russian-fishing-sim-is-bizarrely-popular-on-steam-but-players-cant-decide-if-they-love-or-hate-it-perhaps-because-of-the-usd2000-microtransaction/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tp7vssC2KWYPDzEiyggz4U.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "This Final Fantasy Tactics-like RPG from former Octopath and Destiny devs lets you do the best thing a videogame can: Make a town look cooler while you rebuild it",
-    "descricao": "NewsAlso vanquish your foes or something, I think.",
-    "link": "https://www.pcgamer.com/games/rpg/this-final-fantasy-tactics-like-rpg-from-former-octopath-and-destiny-devs-lets-you-do-the-best-thing-a-videogame-can-make-a-town-look-cooler-while-you-rebuild-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/qJZH2V5MXeyxYxKPTUFeRZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "The Witcher 4's leafy glory is all down to Epic's Nanite Foliage, and largely so is the fact it can run ray-traced at 60 fps on a lowly PS5",
-    "descricao": "That level of performance on an aging console suggests good things for the PC version.",
-    "link": "https://www.pcgamer.com/hardware/the-witcher-4s-leafy-glory-is-all-down-to-epics-nanite-foliage-and-largely-so-is-the-fact-it-can-run-ray-traced-at-60-fps-on-a-lowly-ps5/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/uQH7M2HPLAH8SxSmpoWTPo.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "Dead Take is a first-person horror game out to expose 'the darkest secrets' of the entertainment industry: 'I want players to think, I can't believe they actually did this'",
-    "descricao": "newsThe new game from Surgent Studios will be out later this year.",
-    "link": "https://www.pcgamer.com/games/horror/dead-take-is-a-first-person-horror-game-out-to-expose-the-darkest-secrets-of-the-entertainment-industry-i-want-players-to-think-i-cant-believe-they-actually-did-this/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sKeMu9ZpZCpPYQEk9jx4GG.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "The Elder Scrolls Online's subclassing feature shakes up the meta in its newest update, Seasons of the Worm Cult, as the devs set their sights on harder difficulties: 'It's in the works'",
-    "descricao": "News10 years on, and things are changing for The Elder Scrolls Online.",
-    "link": "https://www.pcgamer.com/games/mmo/the-elder-scrolls-onlines-subclassing-feature-shakes-up-the-meta-in-its-newest-update-seasons-of-the-worm-cult-as-the-devs-set-their-sights-on-harder-difficulties-its-in-the-works/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/G9S5y5Go3hSdCMLpWfVgi3.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "Destiny 2: The Edge of Fate's new exotics include the most powerful primary weapon I've ever used and gloves that enable one of the coolest player-requested abilities",
-    "descricao": "NewsI tested the weird and wild new exotic weapons and armor coming with next month's expansion.",
-    "link": "https://www.pcgamer.com/games/fps/destiny-2-edge-of-fate-exotics/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cwf956ittNc9gdnbW3Zzdj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
-    "titulo": "Unreal's MetaHuman Animator can generate surprisingly lifelike animation with just your phone and it's now integrated directly into Unreal Engine 5.6",
-    "descricao": "NewsJust look at the way the mouth moves as they speak.",
-    "link": "https://www.pcgamer.com/hardware/unreals-metahuman-animator-can-generate-surprisingly-lifelike-animation-with-just-your-phone-and-its-now-integrated-directly-into-unreal-engine-5-6/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2ZfwB9CRoBbrXw5emGsBUL.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T16:57:05"
-  },
-  {
     "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "PlayStation anuncia State of Play para esta quarta-feira (4)",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141078/news/playstation-anuncia-state-of-play-para-esta-quarta-feira-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63194/63194_texk.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63055/63055_1yvq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Novo game de 007 feito ganha título oficial e mais informações antes da revelação completa",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
     "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Criador de Andor precisou lutar por orçamento gigantesco para série de Star Wars após Disney dizer que \"o streaming está morto\"",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/141098/news/criador-de-andor-precisou-lutar-por-orcamento-gigantesco-para-serie-de-star-wars-apos-disney-dizer-q",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-creator-fought-hard-for-650m-budget-after-di_1ywm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Elden Ring Nightreign atinge marca de 3.5 milhões de cópias vendidas e confirma modo para duplas",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/141091/news/elden-ring-nightreign-atinge-marca-de-35-milhoes-de-copias-vendidas-e-confirma-modo-para-duplas",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-nightreign-duo-expeditions-on-the-way-fromsoftwar_hcnt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Loja da Epic Games já pagou mais de US$ 2 bilhões a desenvolvedoras parceiras, diz empresa",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141071/news/loja-da-epic-games-ja-pagou-mais-de-us-2-bilhoes-a-desenvolvedoras-parceiras-diz-empresa",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rb89.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Página de Hollow Knight: Silksong no Steam foi silenciosamente atualizada e jogadores voltam a ter esperança sobre anúncio",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/hollow-knight-silksong/141066/news/pagina-de-hollow-knight-silksong-no-steam-foi-silenciosamente-atualizada-e-jogadores-voltam-a-ter-es",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hollow-knight-fans-crushed-as-summer-showcases-pass-with-no_309755_cmk9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "\"Tentei convencê-lo a não fazer\": esta cena de Missão Impossível era perigosa demais para ser filmada, mas Tom Cruise conseguiu com o pé quebrado",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/missao-impossivel-acerto-final/141123/news/tentei-convence-lo-a-nao-fazer-esta-cena-de-missao-impossivel-era-perigosa-demais-para-ser-filmada-m",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-03t153501773_cysf.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
   },
   {
     "titulo": "Avatar 4 terá que esperar: James Cameron anuncia filme de fantasia baseado em romance de Joe Abercrombie",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/141127/news/avatar-4-tera-que-esperar-james-cameron-anuncia-filme-de-fantasia-baseado-em-romance-de-joe-abercrom",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycvp.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T16:57:05"
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "Here's when Dune: Awakening pre-loads and unlocks in your time zone",
+    "descricao": "NewsWhen you can begin preloading Dune: Awakening, and when the \"head start\" and full launch happens on Steam.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-preload-time-release-date/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fuqkq7Hc57zgzn63kqgqp4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "RuneScape studio Jagex confirms layoffs 'to reduce complexity, increase agility, and ensure we are fully focused on the areas that matter most'",
+    "descricao": "newsJagex said the cuts won't impact ongoing development of its game.",
+    "link": "https://www.pcgamer.com/gaming-industry/runescape-studio-jagex-confirms-layoffs-to-reduce-complexity-increase-agility-and-ensure-we-are-fully-focused-on-the-areas-that-matter-most/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XQoFq6VMmMTq3Yw2VjtaCb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "This Russian fishing sim is bizarrely popular on Steam but players hate the monetisation, and to be fair it has a $2000 microtransaction",
+    "descricao": "NewsIt's no Get Bass, but then what is.",
+    "link": "https://www.pcgamer.com/games/this-russian-fishing-sim-is-bizarrely-popular-on-steam-but-players-cant-decide-if-they-love-or-hate-it-perhaps-because-of-the-usd2000-microtransaction/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tp7vssC2KWYPDzEiyggz4U.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "This Final Fantasy Tactics-like RPG from former Octopath and Destiny devs lets you do the best thing a videogame can: Make a town look cooler while you rebuild it",
+    "descricao": "NewsAlso vanquish your foes or something, I think.",
+    "link": "https://www.pcgamer.com/games/rpg/this-final-fantasy-tactics-like-rpg-from-former-octopath-and-destiny-devs-lets-you-do-the-best-thing-a-videogame-can-make-a-town-look-cooler-while-you-rebuild-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/qJZH2V5MXeyxYxKPTUFeRZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "The Witcher 4's leafy glory is all down to Epic's Nanite Foliage, and largely so is the fact it can run ray-traced at 60 fps on a lowly PS5",
+    "descricao": "That level of performance on an aging console suggests good things for the PC version.",
+    "link": "https://www.pcgamer.com/hardware/the-witcher-4s-leafy-glory-is-all-down-to-epics-nanite-foliage-and-largely-so-is-the-fact-it-can-run-ray-traced-at-60-fps-on-a-lowly-ps5/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/uQH7M2HPLAH8SxSmpoWTPo.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "Dead Take is a first-person horror game out to expose 'the darkest secrets' of the entertainment industry: 'I want players to think, I can't believe they actually did this'",
+    "descricao": "newsThe new game from Surgent Studios will be out later this year.",
+    "link": "https://www.pcgamer.com/games/horror/dead-take-is-a-first-person-horror-game-out-to-expose-the-darkest-secrets-of-the-entertainment-industry-i-want-players-to-think-i-cant-believe-they-actually-did-this/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sKeMu9ZpZCpPYQEk9jx4GG.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "The Elder Scrolls Online's subclassing feature shakes up the meta in its newest update, Seasons of the Worm Cult, as the devs set their sights on harder difficulties: 'It's in the works'",
+    "descricao": "News10 years on, and things are changing for The Elder Scrolls Online.",
+    "link": "https://www.pcgamer.com/games/mmo/the-elder-scrolls-onlines-subclassing-feature-shakes-up-the-meta-in-its-newest-update-seasons-of-the-worm-cult-as-the-devs-set-their-sights-on-harder-difficulties-its-in-the-works/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/G9S5y5Go3hSdCMLpWfVgi3.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "Destiny 2: The Edge of Fate's new exotics include the most powerful primary weapon I've ever used and gloves that enable one of the coolest player-requested abilities",
+    "descricao": "NewsI tested the weird and wild new exotic weapons and armor coming with next month's expansion.",
+    "link": "https://www.pcgamer.com/games/fps/destiny-2-edge-of-fate-exotics/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cwf956ittNc9gdnbW3Zzdj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
+  },
+  {
+    "titulo": "Unreal's MetaHuman Animator can generate surprisingly lifelike animation with just your phone and it's now integrated directly into Unreal Engine 5.6",
+    "descricao": "NewsJust look at the way the mouth moves as they speak.",
+    "link": "https://www.pcgamer.com/hardware/unreals-metahuman-animator-can-generate-surprisingly-lifelike-animation-with-just-your-phone-and-its-now-integrated-directly-into-unreal-engine-5-6/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2ZfwB9CRoBbrXw5emGsBUL.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T17:25:56"
   }
 ];
