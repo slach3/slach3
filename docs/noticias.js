@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "At just $23 the Razer DeathAdder Essential is virtually an impulse purchase, so surely it's time to replace your clattered old mouse",
+    "descricao": "DealIt's not exactly high-specced, but for $23? You could buy a pair and wear them as earrings.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/at-just-usd23-the-razer-deathadder-essential-is-virtually-an-impulse-purchase-so-surely-its-time-to-replace-your-clattered-old-mouse/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/QPKv3yNowVfXQ9DViFee2i.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T12:43:39"
+  },
+  {
+    "titulo": "SteamDB changes might finally herald the end of a long wait for Silksong (again), though with SGF on the horizon, I think Team Cherry has the potential to do the funniest thing of all time",
+    "descricao": "NewsDeluded chanting: Shadow drop! Shadow drop!",
+    "link": "https://www.pcgamer.com/games/action/steamdb-changes-might-finally-herald-the-end-of-a-long-wait-for-silksong-again-though-with-sgf-on-the-horizon-i-think-team-cherry-has-the-potential-to-do-the-funniest-thing-of-all-time/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BNj3QwCw4s8eEhVyonN59N.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-03T12:43:39"
+  },
+  {
     "titulo": "Pick up enough Witcher and Cyberpunk 2077 comics to keep you going until The Witcher 4 comes out for $24 with this digital bundle",
     "descricao": "NEWSIt even includes the original Polish Witcher comics, translated into English.",
     "link": "https://www.pcgamer.com/games/the-witcher/pick-up-enough-witcher-and-cyberpunk-2077-comics-to-keep-you-going-until-the-witcher-4-comes-out-for-usd24-with-this-digital-bundle/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZjuMshVJVQbXX2zhrXBPc6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "You won't have to rely on co-ordinates to track down your friends in Minecraft thanks to its upcoming drop",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/you-wont-have-to-rely-on-co-ordinates-to-track-down-your-friends-in-minecraft-thanks-to-its-upcoming-drop/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WvaWp8fC2nzCgJq2riTPMi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "How to watch the PC Gaming Show 2025",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KMR2aexrKbwWDRtWUsH4KF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Elden Ring Nightreign has a BuzzFeed-like personality test to help you figure out which Nightfarer suits you best",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-has-a-buzzfeed-like-personality-test-to-help-you-figure-out-which-nightfarer-suits-you-best/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "We just got a look at someone actually playing The Witcher 4 as CDPR promises 'the most immersive and ambitious open-world Witcher game ever'",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/we-just-got-a-look-at-someone-actually-playing-the-witcher-4-as-cdpr-promises-the-most-immersive-and-ambitious-open-world-witcher-game-ever/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PWgUAgEsdpNjjKBKpoRNJW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Splitgate 2's official launch is just days away as devs tease 'a massive surprise' which will be unveiled at Summer Game Fest",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/splitgate-2s-official-launch-is-just-days-away-as-devs-tease-a-massive-surprise-which-will-be-unveiled-at-summer-game-fest/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RStZBGtmX7p2333LaKKgZ5.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Microsoft agrees that USB is a mess and it's making changes to fix it: 'Manufacturers can implement ports that look identical but differ wildly in functionality'",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/microsoft-agrees-that-usb-is-a-mess-and-its-making-changes-to-fix-it-manufacturers-can-implement-ports-that-look-identical-but-differ-wildly-in-functionality/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tu2rE7RJRQYDmJxqGauRXY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
-  },
-  {
-    "titulo": "Jajaja! Microsoft finally gives up pestering EU users about goddamn Edge",
-    "descricao": "NewsChalk another one up to the Digital Markets Act.",
-    "link": "https://www.pcgamer.com/gaming-industry/jajaja-microsoft-finally-gives-up-pestering-eu-users-about-goddamn-edge/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/J6q9JPs7o8VPPwCEheXaQN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
-  },
-  {
-    "titulo": "FF14 unofficial census finds what we were all pretty much feeling—before patch 7.25, Dawntrail's playerbase has likely been on the decline",
-    "descricao": "NewsNearly 12 months for somethin' to do.",
-    "link": "https://www.pcgamer.com/games/final-fantasy/ff14-unofficial-census-finds-what-we-were-all-pretty-much-feeling-before-patch-7-25-dawntrails-playerbase-has-likely-been-on-the-decline/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/KjQyjuD7Jhvrno8yPsmKf4.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "PlayStation anuncia State of Play para esta quarta-feira (4)",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141078/news/playstation-anuncia-state-of-play-para-esta-quarta-feira-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63194/63194_texk.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63055/63055_1yvq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Novo game de 007 feito ganha título oficial e mais informações antes da revelação completa",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
     "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Página de Hollow Knight: Silksong no Steam foi silenciosamente atualizada e jogadores voltam a ter esperança sobre anúncio",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/hollow-knight-silksong/141066/news/pagina-de-hollow-knight-silksong-no-steam-foi-silenciosamente-atualizada-e-jogadores-voltam-a-ter-es",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/hollow-knight-fans-crushed-as-summer-showcases-pass-with-no_309755_cmk9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Os 5 anos do VALORANT me deixaram nostálgica sobre os primeiros passos da liga inclusiva",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/esports/141042/feature/os-5-anos-do-valorant-me-deixaram-nostalgica-sobre-os-primeiros-passos-da-liga-inclusiva",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_dctj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "Final de Stranger Things terá episódios liberados nas noites de Natal e Ano Novo; veja horários e trailer revelados no TUDUM",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/stranger-things-1/141005/news/final-de-stranger-things-tera-episodios-liberados-nas-noites-de-natal-e-ano-novo-veja-horarios-e-tra",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/stranger-t/stranger-things-season-5-release-dates-revealed-alongside-ne_7bp9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
     "titulo": "\"É uma oportunidade de olhar para isso\": Danny Boyle conta o que o motivou a retornar para franquia de zumbis que ele criou no começo dos anos 2000",
@@ -133,14 +133,14 @@ const noticias = [
     "link": "https://br.ign.com/28-years-later/140957/feature/e-uma-oportunidade-de-olhar-para-isso-danny-boyle-conta-o-que-o-motivou-a-retornar-para-franquia-de",
     "imagem": "https://sm.ign.com/t/ign_br/feature/2/28-years-l/28-years-later-director-danny-boyle-goes-big-with-the-horror_xzgm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   },
   {
-    "titulo": "Arraiá do Pokémon Go traz evento temático de festa junina e Snorlax exclusivo",
+    "titulo": "Este filme foi a resposta japonesa para Bambi da Disney — e vai te traumatizar ainda mais do que a morte da mãe do protagonista",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/pokemon-go/141097/news/arraia-do-pokemon-go-traz-evento-tematico-de-festa-junina-e-snorlax-exclusivo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/pokemon-go_p1fv.280.jpg",
+    "link": "https://br.ign.com/bambi/141102/news/este-filme-foi-a-resposta-japonesa-para-bambi-da-disney-e-vai-te-traumatizar-ainda-mais-do-que-a-mor",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/b1_cdjq.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-03T12:24:58"
+    "timestamp": "2025-06-03T12:43:39"
   }
 ];
