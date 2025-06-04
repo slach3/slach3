@@ -1,11 +1,35 @@
 const noticias = [
   {
+    "titulo": "Suda51 just announced a delightfully bizarre action game about a cyborg man with a chainsaw sword",
+    "descricao": "newsNow that's a lot of particle effects.",
+    "link": "https://www.pcgamer.com/games/action/suda51-just-announced-a-delightfully-bizarre-action-game-about-a-cyborg-man-with-a-chainsaw-sword/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ndQV37MywMiHbpCtfNA6dS.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T19:18:30"
+  },
+  {
+    "titulo": "Oh hell yeah, that Final Fantasy Tactics remaster is real, and it's out later this year",
+    "descricao": "NewsWell, it's out on consoles. I'm praying to any god that'll listen for PC in 2025.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/oh-hell-yeah-that-final-fantasy-tactics-remaster-is-real-and-its-out-later-this-year/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3JTwMWiHbZK43L9NXuNMYi.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T19:18:30"
+  },
+  {
+    "titulo": "Nioh 3 stars the first Tokugawa Shogun, and it's coming in 2026—for PlayStation, at least",
+    "descricao": "NewsI'm not an expert, but I think the glowing spirit beasts are a product of creative license.",
+    "link": "https://www.pcgamer.com/games/rpg/nioh-3-stars-the-first-tokugawa-shogun-and-its-coming-in-2026-for-playstation-at-least/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/iygh6QnxiRyRin9H9ZxLa8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T19:18:30"
+  },
+  {
     "titulo": "Oh dang, we're getting an all-new Lumines, and this one's got 'over 30 stages of synesthetic sensory wonderlands'",
     "descricao": "NewsThat's my favorite kind of sensory wonderland!",
     "link": "https://www.pcgamer.com/games/puzzle/oh-dang-were-getting-an-all-new-lumines-and-this-ones-got-over-30-stages-of-synesthetic-sensory-wonderlands/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wL9EFTUX6k6JAdk9YDJRxB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Almost exactly 5 years after it was announced, Capcom's astronaut action game Pragmata finally has a release date: 'It's real'",
@@ -13,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/almost-exactly-5-years-after-it-was-announced-capcoms-astronaut-action-game-pragmata-finally-has-a-release-date-its-real/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Y3EBCM9fqqFwzMZwD47GiF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "A 'vast medieval sandbox' with a former Cyberpunk 2077 designer working on it may be revealed at Summer Game Fest, but there's a twist: the studio is really into generative AI",
@@ -21,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/raw-power-games-medieval-sandbox-sgf/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wqYpzndBsuk3vrpCBq7gpg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Balatro doesn't have microtransactions for a very good reason: 'It makes me want to put my computer in the dishwasher and set it to pots and pans,\" LocalThunk says",
@@ -29,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/card-games/balatro-doesnt-have-microtransactions-for-a-very-good-reason-it-makes-me-want-to-put-my-computer-in-the-dishwasher-and-set-it-to-pots-and-pans-localthunk-says/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/E96WR4A6L6LMN4ApdsC3iE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Deltarune shoots to the stop of the Steam best-seller chart as chapters 3 and 4 finally go live",
@@ -37,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/deltarune-shoots-to-the-stop-of-the-steam-best-seller-chart-as-chapters-3-and-4-finally-go-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/brfsuq54nMuweq8UqndA4F.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Bungie makes the (correct) decision to roll back Destiny 2's most severe Edge of Fate nerfs before they've even happened",
@@ -45,39 +69,31 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/bungie-makes-the-correct-decision-to-roll-back-destiny-2s-most-severe-edge-of-fate-nerfs-before-theyve-even-happened/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TPvFNUtXRPwFeKeoNx7z4A.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "CDPR says the Kingdom Come style of systems-heavy RPG is 'super great' and, when it comes to The Witcher 4's direction of travel, 'these are our next steps for sure'",
-    "descricao": "News\"I love Kingdom Come because of the realism and the feeling, the sense of humor.\"",
-    "link": "https://www.pcgamer.com/games/the-witcher/cdpr-says-the-kingdom-come-style-of-systems-heavy-rpg-is-super-great-and-when-it-comes-to-the-witcher-4s-direction-of-travel-these-are-our-next-steps-for-sure/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/EoRvvdQR4S3oXLEbTYPxFW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
-  },
-  {
-    "titulo": "No Man's Sky just got another mondo update and I think it's a management game now?",
-    "descricao": "NewsYou're mayor now. No, you can't refuse.",
-    "link": "https://www.pcgamer.com/games/sim/no-mans-sky-just-got-another-mondo-update-and-i-think-its-a-management-game-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dXvAHAC4BbwmaCKv3Qssei.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
-  },
-  {
-    "titulo": "CD Projekt Red and Epic claim Witcher 4 development 'ramped up dramatically' Unreal Engine's open world game capabilities",
-    "descricao": "NewsIt's going to be a long wait until 2027...",
-    "link": "https://www.pcgamer.com/hardware/cd-projekt-red-and-epic-claim-witcher-4-development-ramped-up-dramatically-unreal-engines-open-world-game-capabilities/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/SZZMfZ5sbBLvDcfriQ8KjR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:56:25"
-  },
-  {
-    "titulo": "Bailarina tropeça ao se prender tanto a John Wick | Review",
+    "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/bailarina/141190/review/bailarina-tropeca-ao-se-prender-tanto-a-john-wick-review",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_fnsk.800.jpg",
+    "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
+  },
+  {
+    "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T19:18:30"
+  },
+  {
+    "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
@@ -85,55 +101,39 @@ const noticias = [
     "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "Mario, Zelda, Pokémon e mais: Nintendo libera atualização de games do Switch e do Switch 2",
+    "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141142/news/mario-the-legend-of-zelda-pokemon-e-mais-nintendo-libera-atualizacao-de-games-do-switch-e-do-switch",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-updates-for-mario-zelda-pokemon-switch-gam_fwr7.800.jpg",
+    "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
+    "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
+    "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "Após 86 anos, a Marvel finalmente cria um herói mais poderoso que o Superman — e ele faz parte dos X-Men",
+    "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/comics/141155/news/apos-86-anos-a-marvel-finalmente-cria-um-heroi-mais-poderoso-que-o-superman-e-ele-faz-parte-dos-x-me",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_temx.320.jpg",
+    "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "“O conflito não pode ser só uma briga de bonecos”: Dan Trachtenberg explica como trouxe humanidade e legado para Predador: Assassino de Assassinos",
+    "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/predador-assassino-de-assassinos/141120/feature/o-conflito-nao-pode-ser-so-uma-briga-de-bonecos-dan-trachtenberg-explica-como-trouxe-humanidade-e-le",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dan-trachtenberg_45vp.320.jpg",
+    "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
-  },
-  {
-    "titulo": "Localização em português do Brasil de Breath of the Wild e Tears of the Kingdom tem possível referência à tupi-guarani",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch/141144/news/localizacao-em-portugues-do-brasil-de-breath-of-the-wild-e-tears-of-the-kingdom-tem-possivel-referen",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-w/nintendo-will-keep-making-amiibo-for-nintendo-switch-2-start_sd8j.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
-  },
-  {
-    "titulo": "Muita calma nessa hora: CD Projekt Red reforça que apresentação técnica de Witcher 4 não 'representa totalmente game final'",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/141121/news/muita-calma-nessa-hora-cd-projekt-red-reforca-que-apresentacao-tecnica-de-witcher-4-nao-representa-t",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-tech-demo-does-not-fully-represent-the-final-g_u27c.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
     "titulo": "Novo trailer revelado no State of Play 2025 mostra que Ape Scape estará em Metal Gear Solid Delta: Snake Eater",
@@ -141,14 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/metal-gear-solid-3-snake-eater-remake/141229/news/novo-trailer-revelado-no-state-of-play-2025-mostra-que-ape-scape-estara-em-metal-gear-solid-delta-sn",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/metal-gear/metal-gear-solid-delta-snake-eater-new-state-of-play-trailer_4yuh.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   },
   {
-    "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
+    "titulo": "Bloodstained: The Scarlet Engagement é revelado no State of Play",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.280.jpg",
+    "link": "https://br.ign.com/bloodstained-the-scarlet-engagement/141215/news/bloodstained-the-scarlet-engagement-e-revelado-no-state-of-play",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-04t183518738_dh1n.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:56:25"
+    "timestamp": "2025-06-04T19:18:30"
   }
 ];
