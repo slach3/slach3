@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "'You shall main Wylder Spooderman': An Elden Ring Nightreign player has found the best Wylder setup 55 hours in, letting them use their grappling hook every 4 seconds",
-    "descricao": "NewsWith great power comes great skill cooldown.",
-    "link": "https://www.pcgamer.com/games/rpg/you-shall-main-wylder-spooderman-an-elden-ring-nightreign-player-has-found-the-best-wylder-setup-55-hours-in-letting-them-use-their-grappling-hook-every-4-seconds/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/89aAz6rJTev7EvLwS3gQxP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "Linux enjoys a small usage uptick with Steam users, though at 2.69% it still has a long way to go to topple Windows",
-    "descricao": "NewsHey, at least that's fewer folks on Windows 10.",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/linux-enjoys-a-small-usage-uptick-with-steam-users-though-at-2-69-percent-it-still-has-a-long-way-to-go-to-topple-windows/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HVrAYA3MuYFVkosYqGcQeP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "'I want you to have the confidence to give it a try': Elden Ring Nightreign's combat director politely tells you to git gud, says he's beat all the game's bosses, solo, without relics",
-    "descricao": "NewsI dunno if \"confidence\" is the word I'd use to describe how I feel.",
-    "link": "https://www.pcgamer.com/games/rpg/i-want-you-to-have-the-confidence-to-give-it-a-try-elden-ring-nightreigns-combat-director-politely-tells-you-to-git-gud-says-hes-beat-all-the-games-bosses-solo-without-relics/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZVGjv64AmZCRFJspobodTJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "TSMC boss claims the chipmaker doesn't need to pick winners to work with, just wait patiently 'because they will all come to us in the end'",
-    "descricao": "NewsIf you build it, they will come.",
-    "link": "https://www.pcgamer.com/hardware/processors/tsmc-boss-claims-the-chipmaker-doesnt-need-to-pick-winners-to-work-with-just-wait-patiently-because-they-will-all-come-to-us-in-the-end/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/K9uYnQH7zFqsKZ4cLofDfn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "The UK House of Lords denies the government's AI bill for 'state sanctioned theft' of copyrighted data for the fourth time",
-    "descricao": "NewsThe UK and US governments seem aligned on letting AI do whatever it wants.",
-    "link": "https://www.pcgamer.com/software/ai/the-uk-house-of-lords-denies-the-governments-ai-bill-for-state-sanctioned-theft-of-copyrighted-data-for-the-fourth-time/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "Spooky friend-time ghost-em-up Phasmophobia is the next videogame to get the movie treatment",
-    "descricao": "NewsWho you gonna call?",
-    "link": "https://www.pcgamer.com/games/horror/spooky-friend-time-ghost-em-up-phasmophobia-is-the-next-videogame-to-get-the-movie-treatment/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6LkUqdCieGtYZFUW2fott9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "The new Arctis Nova 3 looks like SteelSeries is min-maxing the midranged headset with both hardware and software",
-    "descricao": "newsThe lavendar and aqua colourways are also really nice to see as a standard option.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/the-new-arctis-nova-3-looks-like-steelseries-is-min-maxing-the-midranged-headset-with-both-hardware-and-software/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6Co6nuW7TmYk6bsdjgMeZP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "Remedy announces very friendly minimum specs for its co-op Control spinoff, FBC: FIrebreak. You only need a GTX 1070 for 1080 60 FPS play.",
-    "descricao": "newsThe hardware you need to not set your PC on fire.",
-    "link": "https://www.pcgamer.com/hardware/remedy-announces-very-friendly-minimum-specs-for-its-control-spinoff-fbc-firebreak-you-only-need-a-gtx-1070-for-1080-60-fps-play/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kAVNZ2g5v9aVKwCAgzojgU.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
-    "titulo": "MindsEye is set to launch next week, so it's probably not great that the studio's chief financial officer and chief legal officer have both resigned",
-    "descricao": "newsThe MindsEye saga gets weirder.",
-    "link": "https://www.pcgamer.com/gaming-industry/mindseye-is-set-to-launch-next-week-so-its-probably-not-great-that-the-studios-chief-financial-officer-and-chief-legal-officer-have-both-resigned/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/AouFrHWQbromyvERgYGvqL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T08:47:39"
-  },
-  {
     "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "PlayStation anuncia State of Play para esta quarta-feira (4)",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141078/news/playstation-anuncia-state-of-play-para-esta-quarta-feira-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63194/63194_texk.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63055/63055_1yvq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Novo game de 007 feito ganha título oficial e mais informações antes da revelação completa",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/project-007/141036/news/bond-james-bond-novo-game-de-007-feito-por-desenvolvedores-de-hitman-ganha-titulo-oficial-e-mais-inf",
     "imagem": "https://sm.ign.com/t/ign_br/news/j/james-bond/james-bond-game-from-hitman-dev-has-a-new-title-007-first-li_eed9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Muita calma nessa hora: CD Projekt Red reforça que apresentação técnica de Witcher 4 não 'representa totalmente game final'",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-4-1/141121/news/muita-calma-nessa-hora-cd-projekt-red-reforca-que-apresentacao-tecnica-de-witcher-4-nao-representa-t",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-tech-demo-does-not-fully-represent-the-final-g_u27c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Criador de Andor precisou lutar por orçamento gigantesco para série de Star Wars após Disney dizer que \"o streaming está morto\"",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/star-wars-andor/141098/news/criador-de-andor-precisou-lutar-por-orcamento-gigantesco-para-serie-de-star-wars-apos-disney-dizer-q",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/star-wars-/star-wars-andor-creator-fought-hard-for-650m-budget-after-di_1ywm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Elden Ring Nightreign atinge marca de 3.5 milhões de cópias vendidas e confirma modo para duplas",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring-nightreign/141091/news/elden-ring-nightreign-atinge-marca-de-35-milhoes-de-copias-vendidas-e-confirma-modo-para-duplas",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-nightreign-duo-expeditions-on-the-way-fromsoftwar_hcnt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Loja da Epic Games já pagou mais de US$ 2 bilhões a desenvolvedoras parceiras, diz empresa",
@@ -133,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/games/141071/news/loja-da-epic-games-ja-pagou-mais-de-us-2-bilhoes-a-desenvolvedoras-parceiras-diz-empresa",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rb89.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "Diretor de Quarteto Fantástico: Primeiros Passos afirma que Doutor Destino de Robert Downey Jr. não está no filme, mas isso não é o suficiente para convencer os fãs",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/avengers-doomsday/141141/news/diretor-de-quarteto-fantastico-primeiros-passos-afirma-que-doutor-destino-de-robert-downey-jr-nao-es",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-director-claims-doctor-doom-n_t862.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
     "titulo": "Aranha mutante: cientistas alteram genética de aracnídeo para produzir teia vermelha fluorescente — e as implicações disso são promissoras",
@@ -141,14 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/141054/news/aranha-mutante-cientistas-alteram-genetica-de-aracnideo-para-produzir-teia-vermelha-fluorescente-e-a",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gabw.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "timestamp": "2025-06-04T08:57:39"
   },
   {
-    "titulo": "Zelda em PT-BR: versões de Breath of the Wild e Tears of the Kingdom são atualizados com legendas em português!",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141140/news/zelda-em-pt-br-versoes-de-breath-of-the-wild-e-tears-of-the-kingdom-sao-atualizados-com-legendas-em",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-5_rqtv.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T08:47:39"
+    "titulo": "'You shall main Wylder Spooderman': An Elden Ring Nightreign player has found the best Wylder setup 55 hours in, letting them use their grappling hook every 4 seconds",
+    "descricao": "NewsWith great power comes great skill cooldown.",
+    "link": "https://www.pcgamer.com/games/rpg/you-shall-main-wylder-spooderman-an-elden-ring-nightreign-player-has-found-the-best-wylder-setup-55-hours-in-letting-them-use-their-grappling-hook-every-4-seconds/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/89aAz6rJTev7EvLwS3gQxP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "Linux enjoys a small usage uptick with Steam users, though at 2.69% it still has a long way to go to topple Windows",
+    "descricao": "NewsHey, at least that's fewer folks on Windows 10.",
+    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/linux-enjoys-a-small-usage-uptick-with-steam-users-though-at-2-69-percent-it-still-has-a-long-way-to-go-to-topple-windows/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/HVrAYA3MuYFVkosYqGcQeP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "'I want you to have the confidence to give it a try': Elden Ring Nightreign's combat director politely tells you to git gud, says he's beat all the game's bosses, solo, without relics",
+    "descricao": "NewsI dunno if \"confidence\" is the word I'd use to describe how I feel.",
+    "link": "https://www.pcgamer.com/games/rpg/i-want-you-to-have-the-confidence-to-give-it-a-try-elden-ring-nightreigns-combat-director-politely-tells-you-to-git-gud-says-hes-beat-all-the-games-bosses-solo-without-relics/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZVGjv64AmZCRFJspobodTJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "TSMC boss claims the chipmaker doesn't need to pick winners to work with, just wait patiently 'because they will all come to us in the end'",
+    "descricao": "NewsIf you build it, they will come.",
+    "link": "https://www.pcgamer.com/hardware/processors/tsmc-boss-claims-the-chipmaker-doesnt-need-to-pick-winners-to-work-with-just-wait-patiently-because-they-will-all-come-to-us-in-the-end/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/K9uYnQH7zFqsKZ4cLofDfn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "The UK House of Lords denies the government's AI bill for 'state sanctioned theft' of copyrighted data for the fourth time",
+    "descricao": "NewsThe UK and US governments seem aligned on letting AI do whatever it wants.",
+    "link": "https://www.pcgamer.com/software/ai/the-uk-house-of-lords-denies-the-governments-ai-bill-for-state-sanctioned-theft-of-copyrighted-data-for-the-fourth-time/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "Spooky friend-time ghost-em-up Phasmophobia is the next videogame to get the movie treatment",
+    "descricao": "NewsWho you gonna call?",
+    "link": "https://www.pcgamer.com/games/horror/spooky-friend-time-ghost-em-up-phasmophobia-is-the-next-videogame-to-get-the-movie-treatment/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6LkUqdCieGtYZFUW2fott9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "The new Arctis Nova 3 looks like SteelSeries is min-maxing the midranged headset with both hardware and software",
+    "descricao": "newsThe lavendar and aqua colourways are also really nice to see as a standard option.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/the-new-arctis-nova-3-looks-like-steelseries-is-min-maxing-the-midranged-headset-with-both-hardware-and-software/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6Co6nuW7TmYk6bsdjgMeZP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "Remedy announces very friendly minimum specs for its co-op Control spinoff, FBC: FIrebreak. You only need a GTX 1070 for 1080 60 FPS play.",
+    "descricao": "newsThe hardware you need to not set your PC on fire.",
+    "link": "https://www.pcgamer.com/hardware/remedy-announces-very-friendly-minimum-specs-for-its-control-spinoff-fbc-firebreak-you-only-need-a-gtx-1070-for-1080-60-fps-play/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/kAVNZ2g5v9aVKwCAgzojgU.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
+  },
+  {
+    "titulo": "MindsEye is set to launch next week, so it's probably not great that the studio's chief financial officer and chief legal officer have both resigned",
+    "descricao": "newsThe MindsEye saga gets weirder.",
+    "link": "https://www.pcgamer.com/gaming-industry/mindseye-is-set-to-launch-next-week-so-its-probably-not-great-that-the-studios-chief-financial-officer-and-chief-legal-officer-have-both-resigned/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/AouFrHWQbromyvERgYGvqL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T08:57:39"
   }
 ];
