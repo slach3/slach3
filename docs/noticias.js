@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "Oh dang, we're getting an all-new Lumines, and this one's got 'over 30 stages of synesthetic sensory wonderlands'",
+    "descricao": "NewsThat's my favorite kind of sensory wonderland!",
+    "link": "https://www.pcgamer.com/games/puzzle/oh-dang-were-getting-an-all-new-lumines-and-this-ones-got-over-30-stages-of-synesthetic-sensory-wonderlands/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/wL9EFTUX6k6JAdk9YDJRxB.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T18:36:46"
+  },
+  {
+    "titulo": "Almost exactly 5 years after it was announced, Capcom's astronaut action game Pragmata finally has a release date: 'It's real'",
+    "descricao": "But it's still a wait: Pragmata's due in 2026.",
+    "link": "https://www.pcgamer.com/games/action/almost-exactly-5-years-after-it-was-announced-capcoms-astronaut-action-game-pragmata-finally-has-a-release-date-its-real/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Y3EBCM9fqqFwzMZwD47GiF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T18:36:46"
+  },
+  {
     "titulo": "A 'vast medieval sandbox' with a former Cyberpunk 2077 designer working on it may be revealed at Summer Game Fest, but there's a twist: the studio is really into generative AI",
     "descricao": "newsThe first RPG from Raw Power Games has piqued my interest, but the Midjourney concept art might not go over well.",
     "link": "https://www.pcgamer.com/games/rpg/raw-power-games-medieval-sandbox-sgf/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wqYpzndBsuk3vrpCBq7gpg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Balatro doesn't have microtransactions for a very good reason: 'It makes me want to put my computer in the dishwasher and set it to pots and pans,\" LocalThunk says",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/card-games/balatro-doesnt-have-microtransactions-for-a-very-good-reason-it-makes-me-want-to-put-my-computer-in-the-dishwasher-and-set-it-to-pots-and-pans-localthunk-says/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/E96WR4A6L6LMN4ApdsC3iE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Deltarune shoots to the stop of the Steam best-seller chart as chapters 3 and 4 finally go live",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/deltarune-shoots-to-the-stop-of-the-steam-best-seller-chart-as-chapters-3-and-4-finally-go-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/brfsuq54nMuweq8UqndA4F.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Bungie makes the (correct) decision to roll back Destiny 2's most severe Edge of Fate nerfs before they've even happened",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/bungie-makes-the-correct-decision-to-roll-back-destiny-2s-most-severe-edge-of-fate-nerfs-before-theyve-even-happened/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TPvFNUtXRPwFeKeoNx7z4A.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "CDPR says the Kingdom Come style of systems-heavy RPG is 'super great' and, when it comes to The Witcher 4's direction of travel, 'these are our next steps for sure'",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/cdpr-says-the-kingdom-come-style-of-systems-heavy-rpg-is-super-great-and-when-it-comes-to-the-witcher-4s-direction-of-travel-these-are-our-next-steps-for-sure/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EoRvvdQR4S3oXLEbTYPxFW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "No Man's Sky just got another mondo update and I think it's a management game now?",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/no-mans-sky-just-got-another-mondo-update-and-i-think-its-a-management-game-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dXvAHAC4BbwmaCKv3Qssei.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "CD Projekt Red and Epic claim Witcher 4 development 'ramped up dramatically' Unreal Engine's open world game capabilities",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cd-projekt-red-and-epic-claim-witcher-4-development-ramped-up-dramatically-unreal-engines-open-world-game-capabilities/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SZZMfZ5sbBLvDcfriQ8KjR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
-  },
-  {
-    "titulo": "Elden Ring Nightreign hits 3.5 million copies sold in just 5 days, with 7.5% of players already managing to beat all the Nightlords",
-    "descricao": "NewsThat's a lot of work in not a lot of time.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-hits-3-5-million-copies-sold-in-just-5-days-with-7-5-percent-of-players-already-managing-to-beat-all-the-nightlords/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/7vsNswSZb4joWrmGSe7vr4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
-  },
-  {
-    "titulo": "WoW developers step in to try and calm tensions between themselves and the UI addon community: 'We are embarking on this project with the aim of leveling the playing field'",
-    "descricao": "NewsAs a FF14 and WoW player both, I don't think this is gonna go as well as they think it will.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-developers-step-in-to-try-and-calm-tensions-between-themselves-and-the-ui-addon-community-we-are-embarking-on-this-project-with-the-aim-of-leveling-the-playing-field/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kWHRPSfhbzTWgTRpEnW9Gc.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Bailarina tropeça ao se prender tanto a John Wick | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/bailarina/141190/review/bailarina-tropeca-ao-se-prender-tanto-a-john-wick-review",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_fnsk.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Mario, Zelda, Pokémon e mais: Nintendo libera atualização de games do Switch e do Switch 2",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141142/news/mario-the-legend-of-zelda-pokemon-e-mais-nintendo-libera-atualizacao-de-games-do-switch-e-do-switch",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-updates-for-mario-zelda-pokemon-switch-gam_fwr7.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Clipe de The Witcher 4 no Unreal Engine 5 mostra Ciri em região inédita da franquia",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-4-1/141067/news/clipe-de-the-witcher-4-no-unreal-engine-5-mostra-ciri-em-regiao-inedita-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63193/63193_um8f.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Após 86 anos, a Marvel finalmente cria um herói mais poderoso que o Superman — e ele faz parte dos X-Men",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/comics/141155/news/apos-86-anos-a-marvel-finalmente-cria-um-heroi-mais-poderoso-que-o-superman-e-ele-faz-parte-dos-x-me",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_temx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "“O conflito não pode ser só uma briga de bonecos”: Dan Trachtenberg explica como trouxe humanidade e legado para Predador: Assassino de Assassinos",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/predador-assassino-de-assassinos/141120/feature/o-conflito-nao-pode-ser-so-uma-briga-de-bonecos-dan-trachtenberg-explica-como-trouxe-humanidade-e-le",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dan-trachtenberg_45vp.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Localização em português do Brasil de Breath of the Wild e Tears of the Kingdom tem possível referência à tupi-guarani",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch/141144/news/localizacao-em-portugues-do-brasil-de-breath-of-the-wild-e-tears-of-the-kingdom-tem-possivel-referen",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-w/nintendo-will-keep-making-amiibo-for-nintendo-switch-2-start_sd8j.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
     "titulo": "Muita calma nessa hora: CD Projekt Red reforça que apresentação técnica de Witcher 4 não 'representa totalmente game final'",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-4-1/141121/news/muita-calma-nessa-hora-cd-projekt-red-reforca-que-apresentacao-tecnica-de-witcher-4-nao-representa-t",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-tech-demo-does-not-fully-represent-the-final-g_u27c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
-    "titulo": "Silent Hill f ganha data de lançamento e trailer de jogabilidade no State of Play 2025",
+    "titulo": "Bloodstained: The Scarlet Engagement é revelado no State of Play",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/silent-hill-f/141213/news/silent-hill-f-ganha-data-de-lancamento-e-trailer-de-jogabilidade-no-state-of-play-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_5bxm.280.png",
+    "link": "https://br.ign.com/bloodstained-the-scarlet-engagement/141215/news/bloodstained-the-scarlet-engagement-e-revelado-no-state-of-play",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-04t183518738_dh1n.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   },
   {
-    "titulo": "Fortnite chega ao Switch 2 rodando a 60 FPS e com suporte a mouse",
+    "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fortnite/141203/news/fortnite-chega-ao-switch-2-rodando-a-60-fps-e-com-suporte-a-mouse",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fortnite-last-resort_98td.280.jpg",
+    "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T18:26:04"
+    "timestamp": "2025-06-04T18:36:46"
   }
 ];
