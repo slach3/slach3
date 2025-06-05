@@ -1,83 +1,27 @@
 const noticias = [
   {
-    "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "'The will to resist is in your hands': Final Fantasy Tactics director makes statement on the political backdrop of the original and the 'inequality and division' that persists today",
+    "descricao": "newsWith an FF Tactics remaster coming, designer Yasumi Matsuno recalls the economic disaster that shaped the original.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/the-will-to-resist-is-in-your-hands-final-fantasy-tactics-director-makes-statement-on-the-political-backdrop-of-the-original-and-the-inequality-and-division-that-persists-today/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/wHjC5Ca3dT9kPZE9p4zwZa.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
-    "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "Nioh 3 stars legendary warlord Tokugawa (the inspiration for FX's Shogun), and it's coming to PC in early 2026",
+    "descricao": "NewsI'm not an expert, but I think the glowing guardian spirits are a product of creative license.",
+    "link": "https://www.pcgamer.com/games/rpg/nioh-3-stars-the-first-tokugawa-shogun-and-its-coming-in-2026-for-playstation-at-least/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/iygh6QnxiRyRin9H9ZxLa8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
-    "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Economize 11% no seu Xbox Series S hoje mesmo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141237/news/economize-11-no-seu-xbox-series-s-hoje-mesmo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/xbox-series-s-thumb_gdue.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
-  },
-  {
-    "titulo": "Headset PULSE 3D por menos de R$ 500 no Mercado Livre",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141236/news/headset-pulse-3d-por-menos-de-r-500-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/headset-pulse-3d-thumb_mbmg.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "Bloodstained is back after 6 years with 3D cutscenes that look like they're from a different era of videogames",
+    "descricao": "newsWhy is everyone made out of plastic?",
+    "link": "https://www.pcgamer.com/games/action/bloodstained-is-back-after-6-years-with-3d-cutscenes-that-look-like-theyre-from-a-different-era-of-videogames/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nkrHeygHg6ydH6QRW7sUC9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "If an NPC hates you in this adventure from the makers of Road 96, it's probably because another player was mean to them earlier",
@@ -85,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/if-an-npc-hates-you-in-this-adventure-from-the-makers-of-road-96-its-probably-because-another-player-was-mean-to-them-earlier/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tDm8mtz2dzA23McdLqsUab.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "An all-new Thief game was announced during State of Play, but it's a VR game so who cares",
@@ -93,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/vr/an-all-new-thief-game-was-announced-during-state-of-play-but-its-a-vr-game-so-who-cares/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BVUVEBx2U5pcsuymBZcbu9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "Silent Hill f is coming in September, so here's a deeply disturbing new trailer to give you something to think about while you wait",
@@ -101,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/silent-hill-f-is-coming-in-september-so-heres-a-deeply-disturbing-new-trailer-to-give-you-something-to-think-about-while-you-wait/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Lx2zf38EDbxYqxNT6b5LpF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "Our first look at 007 First Light is finally here, and oh no: I'm pretty sure this Bond was born in the year 2000",
@@ -109,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/our-first-look-at-007-first-light-is-finally-here-and-oh-no-im-pretty-sure-this-bond-was-born-in-the-year-2000/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WqNZXcLriVBq8jLm5M3VV3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "Suda51 just announced a delightfully bizarre action game about a cyborg man with a chainsaw sword",
@@ -117,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/suda51-just-announced-a-delightfully-bizarre-action-game-about-a-cyborg-man-with-a-chainsaw-sword/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ndQV37MywMiHbpCtfNA6dS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
     "titulo": "Oh hell yeah, that Final Fantasy Tactics remaster is real, and it's out later this year",
@@ -125,30 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/oh-hell-yeah-that-final-fantasy-tactics-remaster-is-real-and-its-out-later-this-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3JTwMWiHbZK43L9NXuNMYi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
-    "titulo": "Nioh 3 stars legendary warlord Tokugawa (the inspiration for FX's Shogun), and it's coming in 2026—for PlayStation, at least",
-    "descricao": "NewsI'm not an expert, but I think the glowing guardian spirits are a product of creative license.",
-    "link": "https://www.pcgamer.com/games/rpg/nioh-3-stars-the-first-tokugawa-shogun-and-its-coming-in-2026-for-playstation-at-least/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/iygh6QnxiRyRin9H9ZxLa8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
-    "titulo": "Oh dang, we're getting an all-new Lumines, and this one's got 'over 30 stages of synesthetic sensory wonderlands'",
-    "descricao": "NewsThat's my favorite kind of sensory wonderland!",
-    "link": "https://www.pcgamer.com/games/puzzle/oh-dang-were-getting-an-all-new-lumines-and-this-ones-got-over-30-stages-of-synesthetic-sensory-wonderlands/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wL9EFTUX6k6JAdk9YDJRxB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
   },
   {
-    "titulo": "Almost exactly 5 years after it was announced, Capcom's astronaut action game Pragmata finally has a release date: 'It's real'",
-    "descricao": "NewsBut it's still a wait: Pragmata's due in 2026.",
-    "link": "https://www.pcgamer.com/games/action/almost-exactly-5-years-after-it-was-announced-capcoms-astronaut-action-game-pragmata-finally-has-a-release-date-its-real/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Y3EBCM9fqqFwzMZwD47GiF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-04T20:53:51"
+    "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Notebook perfeito para produtividade por menos de R$ 2,5 mil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141238/news/notebook-perfeito-para-produtividade-por-menos-de-r-25-mil",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/notebook-thumb-2_a9bs.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
+  },
+  {
+    "titulo": "Economize 11% no seu Xbox Series S hoje mesmo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141237/news/economize-11-no-seu-xbox-series-s-hoje-mesmo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/xbox-series-s-thumb_gdue.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-04T22:13:12"
   }
 ];
