@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-players-have-figured-out-how-to-guarantee-you-always-reach-max-level-by-the-time-you-fight-your-runs-nightlord-but-unfortunately-its-super-boring/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "The secret stand-out of Sony's State of Play was the bizarre resurrection of Deus Ex's PS2 version",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-secret-stand-out-of-sonys-state-of-play-was-the-bizarre-resurrection-of-deus-exs-ps2-version/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uUSwBz5WU2vaLiXe7htoGZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Dune: Awakening isn't even officially out yet and it already has almost 100,000 players",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-isnt-even-officially-out-yet-and-it-already-has-almost-100-000-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/323JGL4dvibCckKx5jDZEc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Arkane's timewarp shooter Deathloop is free on the Epic Games Store for the first time ever",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/arkanes-timewarp-shooter-deathloop-is-free-on-the-epic-games-store-for-the-first-time-ever/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FAprnoVi6JcEeYiqEdmjCX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "The only good MOBA celebrates its 10th anniversary, so I booted up Heroes of the Storm again and was so bad one of my teammates called me an NPC",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-only-good-moba-celebrates-its-10th-anniversary-so-i-booted-up-heroes-of-the-storm-again-and-was-so-bad-one-of-my-teammates-called-me-an-npc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Njo3noJpKxnPmJ3QP45RjV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Kept you waiting huh: Metal Gear Solid Delta teases the long-awaited return of Metal Gear Online",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/kept-you-waiting-huh-metal-gear-solid-delta-teases-the-long-awaited-return-of-metal-gear-online/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UTemgWwBaBNspSQNTxG875.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Surf on a magic sword and kickflip over flying dolphins in Sword of the Sea, hitting Steam in August",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/surf-on-a-magic-sword-and-kickflip-over-flying-dolphins-in-sword-of-the-sea-hitting-steam-in-august/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UgtUgfWUrsj7NtnSf5HEMR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "OpenAI removes incredibly grim, previously recommended chatbot suggesting invasive surgeries to men it deems 'subhuman'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/openai-removes-incredibly-grim-previously-recommended-chatbot-suggesting-invasive-surgeries-to-men-it-deems-subhuman/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eQ4QvnT5n24R9f4nQNq5MP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Dune: Awakening lives up to MMO tradition with server woes at launch, but with these simple fixes the spice shall flow",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-lives-up-to-mmo-tradition-with-server-woes-at-launch-but-with-these-simple-fixes-the-spice-shall-flow/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t4rtg4x3prVLsN8cgsweRc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Deltarune estreia com 98% de avaliações positivas no Steam e alcança pico de 133 mil jogadores em menos de 24 horas após seu lançamento",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/deltarune/141284/news/deltarune-estreia-com-98-de-avaliacoes-positivas-no-steam-e-alcanca-pico-de-133-mil-jogadores-em-men",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/deltarune-z_gg8t.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   },
   {
     "titulo": "Nem Angelina Jolie, nem Scarlett Johansson: atriz mais rica de Hollywood nunca fez um filme que bombou nas bilheterias",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/only-murders-in-the-building/141285/news/nem-angelina-jolie-nem-scarlett-johansson-atriz-mais-rica-de-hollywood-nunca-fez-um-filme-que-bombou",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_3gsz.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T16:53:11"
+    "timestamp": "2025-06-05T17:12:36"
   }
 ];
