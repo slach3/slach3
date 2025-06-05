@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "One bored GTA 6 fan managed to recreate Jason's house in Far Cry 5 Arcade, and it's almost a shot-for-shot recreation",
+    "descricao": "NewsThey're the same picture.",
+    "link": "https://www.pcgamer.com/games/rpg/one-bored-gta-6-fan-managed-to-recreate-jasons-house-in-far-cry-5-arcade-and-its-almost-a-shot-for-shot-recreation/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/DWro25PZvaLfXnuAFUcYnh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-05T08:36:25"
+  },
+  {
     "titulo": "'When's Marvel?' Next year, as Guilty Gear studio Arc System Works takes the classic superhero tag-team fighter for a ride with a new 4v4 format",
     "descricao": "NewsMarvel Tōkon: Fighting Souls gives America's iconic superheroes an anime makeover.",
     "link": "https://www.pcgamer.com/games/fighting/whens-marvel-next-year-as-guilty-gear-studio-arc-system-works-takes-the-classic-superhero-tag-team-fighter-for-a-ride-with-a-new-4v4-format/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/irBS5FcLFiDV6hagRPd7SL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Apparently there's going to be a Sam Altman movie about his Lazarus-like career stumble, which I'm sure I'll reluctantly watch on a plane at some point",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/apparently-theres-going-to-be-a-sam-altman-movie-about-his-lazarus-like-career-stumble-which-im-sure-ill-reluctantly-watch-on-a-plane-at-some-point/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7SgMkpRYD8AxXct7TUfUC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "'Widespread theft': The UK government's fifth attempt to push through a bill allowing AI companies to scrape any data they like shut down by the House of Lords",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/the-uk-house-of-lords-denies-the-governments-ai-bill-for-state-sanctioned-theft-of-copyrighted-data-for-the-fourth-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Udon, publisher of Street Fighter, Mega Man, Elden Ring, and other videogame comics and art books, is the latest to cut ties with bankrupt distributor Diamond Comics",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/udon-publisher-of-street-fighter-mega-man-elden-ring-and-other-videogame-comics-and-art-books-is-the-latest-to-cut-ties-with-bankrupt-distributor-diamond-comics/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gntSjzBjALDGggxkii4SVB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, June 5",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-5-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "'The will to resist is in your hands': Final Fantasy Tactics director makes statement on the political backdrop of the original and the 'inequality and division' that persists today",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/the-will-to-resist-is-in-your-hands-final-fantasy-tactics-director-makes-statement-on-the-political-backdrop-of-the-original-and-the-inequality-and-division-that-persists-today/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wHjC5Ca3dT9kPZE9p4zwZa.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Nioh 3 stars legendary warlord Tokugawa (the inspiration for FX's Shogun), and it's coming to PC in early 2026",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/nioh-3-stars-the-first-tokugawa-shogun-and-its-coming-in-2026-for-playstation-at-least/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iygh6QnxiRyRin9H9ZxLa8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Bloodstained is back after 6 years with 3D cutscenes that look like they're from a different era of videogames",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/bloodstained-is-back-after-6-years-with-3d-cutscenes-that-look-like-theyre-from-a-different-era-of-videogames/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nkrHeygHg6ydH6QRW7sUC9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
-  },
-  {
-    "titulo": "If an NPC hates you in this adventure from the makers of Road 96, it's probably because another player was mean to them earlier",
-    "descricao": "NewsTides of Tomorrow's asynchronous multiplayer system lets other players' choices impact your own game. And vice versa.",
-    "link": "https://www.pcgamer.com/games/adventure/if-an-npc-hates-you-in-this-adventure-from-the-makers-of-road-96-its-probably-because-another-player-was-mean-to-them-earlier/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tDm8mtz2dzA23McdLqsUab.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Control + G: para que serve e como usar o novo atalho de teclado do Windows",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/141061/news/control-g-para-que-serve-e-como-usar-o-novo-atalho-de-teclado-do-windows",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/branislav-herc-qlg5vtmajfy-unsplash_2j5k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   },
   {
     "titulo": "Notebook perfeito para produtividade por menos de R$ 2,5 mil",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/141238/news/notebook-perfeito-para-produtividade-por-menos-de-r-25-mil",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/notebook-thumb-2_a9bs.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T08:22:50"
+    "timestamp": "2025-06-05T08:36:25"
   }
 ];
