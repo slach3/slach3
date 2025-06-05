@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "Surf on a magic sword and kickflip over flying dolphins in Sword of the Sea, hitting Steam in August",
+    "descricao": "NewsYes, you can pet the magic flying dolphins.",
+    "link": "https://www.pcgamer.com/games/action/surf-on-a-magic-sword-and-kickflip-over-flying-dolphins-in-sword-of-the-sea-hitting-steam-in-august/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UgtUgfWUrsj7NtnSf5HEMR.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-05T13:41:01"
+  },
+  {
+    "titulo": "OpenAI removes incredibly grim, previously recommended chatbot suggesting invasive surgeries to men it deems 'subhuman'",
+    "descricao": "NewsI cannot stress this enough: the chatbot knows less than nothing.",
+    "link": "https://www.pcgamer.com/software/ai/openai-removes-incredibly-grim-previously-recommended-chatbot-suggesting-invasive-surgeries-to-men-it-deems-subhuman/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/eQ4QvnT5n24R9f4nQNq5MP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-05T13:41:01"
+  },
+  {
     "titulo": "Dune: Awakening lives up to MMO tradition with server woes at launch, but with these simple fixes the spice shall flow",
     "descricao": "newsSome early access players have been unable to find available servers, but luckily there's a quick and easy fix.",
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-lives-up-to-mmo-tradition-with-server-woes-at-launch-but-with-these-simple-fixes-the-spice-shall-flow/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t4rtg4x3prVLsN8cgsweRc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Nvidia's research boss claims the company's Chinese AI researchers are now writing programs for Huawei instead and is blaming the US chip exports",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/nvidias-research-boss-claims-the-companys-chinese-ai-researchers-are-now-writing-programs-for-huawei-instead-and-is-blaming-the-us-chip-exports/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tCAFND4AA2pfArrBZofWeW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Goon it yourself with the new editor for pulp-noir immersive sim Fallen Aces, or just visit a '20s nightclub version of Doom's famed first level",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/goon-it-yourself-with-the-new-editor-for-pulp-noir-immersive-sim-fallen-aces-or-just-visit-a-20s-nightclub-version-of-dooms-famed-first-level/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nAPGPJULAJ3UCYpbf9BAHW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Russia assures World of Tanks players they won't end up in prison as it takes full control of the studio in charge of it domestically, accusing it of funnelling funds to Ukraine",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/russia-assures-world-of-tanks-players-they-wont-end-up-in-prison-as-it-takes-full-control-of-the-studio-in-charge-of-it-domestically-accusing-it-of-funnelling-funds-to-ukraine/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qASbBSV3gtRYMEoMRJktb6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Fill the Marathon-shaped hole in your life with Supplice, the best prog-heavy boomer shooter you've never heard of",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/fill-the-marathon-shaped-hole-in-your-life-with-supplice-the-best-prog-heavy-boomer-shooter-youve-never-heard-of/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/n6fqPLTBhVuEgikwNFrJoH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Bethesda remembers it just released an Elder Scrolls game, announces gameplay-focused Oblivion patch that addresses about 5% of player complaints",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-remembers-it-just-released-an-elder-scrolls-game-announces-gameplay-focused-oblivion-patch-that-addresses-about-5-percent-of-player-complaints/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BLmXNVXnXMM3RUBpUq3cNE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "AMD claims 'regional market demand' is why we've seen few 8 GB RX 9060 XT reviews, implying low VRAM isn't really for the West",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/amd-claims-regional-market-demand-is-why-weve-seen-few-8-gb-rx-9060-xt-reviews-implying-low-vram-isnt-really-for-the-west/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Wkmob6ioH83WVGe7x5YdeW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
-  },
-  {
-    "titulo": "Nvidia CEO Jensen Huang says the Switch 2 features 'the most advanced graphics ever in a mobile device' and I'm once again here to say 'um, actually'",
-    "descricao": "NewsPassing the time as I wait for my own pre-order to arrive.",
-    "link": "https://www.pcgamer.com/hardware/nvidia-ceo-jensen-huang-says-the-switch-2-features-the-most-advanced-graphics-ever-in-a-mobile-device-and-im-once-again-saying-um-actually/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RSJe5bom32R9iLQS6oW5sf.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
-  },
-  {
-    "titulo": "One bored GTA 6 fan managed to recreate Jason's house in Far Cry 5 Arcade, and it's almost a shot-for-shot recreation",
-    "descricao": "NewsThey're the same picture.",
-    "link": "https://www.pcgamer.com/games/rpg/one-bored-gta-6-fan-managed-to-recreate-jasons-house-in-far-cry-5-arcade-and-its-almost-a-shot-for-shot-recreation/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DWro25PZvaLfXnuAFUcYnh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Final Fantasy Tactics The Ivalice Chronicles ganha trailer e data de lançamento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141207/news/final-fantasy-tactics-the-ivalice-chronicles-remasterizacao-do-classico-do-ps1-ganha-trailer-e-data",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/259e46e3-9b10-47ba-950f-3b3188c3_6zbc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Naoki Hamaguchi, diretor de Final Fantasy VII Rebirth, estará na BGS 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/brasil-game-show/141149/news/naoki-hamaguchi-diretor-de-final-fantasy-vii-remake-estara-na-brasil-game-show-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_5zec.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Dos criadores de Guilty Gear, Marvel Tokon Fighting Souls, game de luta dos heróis e vilões da Casa das Ideias, é anunciado durante State of Play",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-tokon-fighting-souls/141209/news/dos-criadores-de-guilty-gear-marvel-tokon-fighting-souls-game-de-luta-dos-herois-e-viloes-da-casa-da",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gsoxpd-asaend9r_ut7g.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Nioh 3, revelado no State of Play, tem janela de lançamento confirmada e demo já está disponível",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141222/news/nioh-3-revelado-no-state-of-play-tem-janela-de-lancamento-confirmada-e-demo-ja-esta-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_v2zx.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Mortal Kombat Legacy Kollection, coletânea com clássicos da franquia, é revelado no State of Play e chega ainda este ano",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141224/news/mortal-kombat-legacy-kollection-coletanea-com-classicos-da-franquia-e-revelado-no-state-of-play-e-ch",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mortal-kombat-legacy-kollection_y4kj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Criado por Suda51, Romeo is a Dead Man ganha janela de lançamento no State of Play 2025",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141214/news/criado-por-suda51-romeo-is-a-dead-man-ganha-janela-de-lancamento-no-state-of-play-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ycp7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Rivalidade até em efeitos práticos! Superman e Quarteto Fantástico compartilham que robôs dos filmes são reais e não CGI",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/141273/news/rivalidade-ate-em-efeitos-praticos-superman-e-quarteto-fantastico-compartilham-que-robos-dos-filmes",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sem-titulo-1_k7g4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   },
   {
     "titulo": "Baldur's Gate 1 e 2 chegam de surpresa ao catálogo Xbox Game Pass de junho",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/xbox-game-pass/141261/news/baldurs-gate-1-e-2-chegam-de-surpresa-ao-catalogo-xbox-game-pass-de-junho",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/baldurs-gate-ii_yzrf.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-05T13:10:57"
+    "timestamp": "2025-06-05T13:41:01"
   }
 ];
