@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Está chegando a hora: quando, onde e como assistir ao Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141032/news/quando-onde-e-como-assistir-ao-summer-game-fest-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63635/63635_bd72.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63636/63636_kk64.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "O que aconteceu aqui? Alguns cartuchos do Nintendo Switch 2 funcionam no Switch 1",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141274/news/o-que-aconteceu-aqui-alguns-cartuchos-do-nintendo-switch-2-funcionam-no-switch-1",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-surprised-to-find-switch-2-edition-game-cartri_qrcs.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Lançamento arruinado: jogadores recebem o Nintendo Switch 2 com furos na tela após lojas grampearem recibos de compra na caixa do console",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141240/news/lancamento-arruinado-jogadores-recebem-o-nintendo-switch-2-com-furos-na-tela-apos-lojas-grampearem-r",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-screen-punctures-ruin-launch-day-for-fans_uxr6.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Avante, easter eggs! Marvel Tokon Fighting Souls nem chegou e fãs já encontraram diversas referências no trailer — com direito a herói escondido",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-tokon-fighting-souls/141267/news/avante-easter-eggs-marvel-tokon-fighting-souls-nem-chegou-e-fas-ja-encontraram-diversas-referencias",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1gzd.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Anúncio de Final Fantasy Tactics: The Ivalice Chronicles prova que vazamento da Nvidia é bastante preciso, mas ainda falta um jogo da Square Enix que todos esperam",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141260/news/anuncio-de-final-fantasy-tactics-the-ivalice-chronicles-prova-que-vazamento-da-nvidia-e-bastante-pre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "Cyberpunk 2077 receberá outro \"patch final\" surpresa que promete encerrar adições ao jogo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cyberpunk-2077-1/141315/news/cyberpunk-2077-recebera-outro-patch-final-surpresa-que-promete-encerrar-adicoes-ao-jogo",
-    "imagem": "https://sm.ign.com/t/ign_br/news/c/cyberpunk-/cyberpunk-2077-is-getting-another-surprise-final-patch-we-ha_8zn8.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
-    "titulo": "\"Não assistir aos filmes certamente ajudou\": pai de Emma Watson dá conselho para família do trio de atores no reboot de Harry Potter",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/harry-potter-the-series/141318/news/nao-assistir-aos-filmes-certamente-ajudou-pai-de-emma-watson-da-conselho-para-familia-do-trio-de-ato",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/h/harry-pott/harry-potter-hbo-tv-series-cast-and-characters-whos-confirme_87hu.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T10:53:26"
-  },
-  {
     "titulo": "A Gamestop store has reportedly been stapling customer receipts to Switch 2 boxes and puncturing holes in the screens",
     "descricao": "NewsStaplers and LCD displays: a terrible, no-good, very bad combination.",
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/a-gamestop-store-has-reportedly-been-stapling-customer-receipts-to-switch-2-boxes-and-puncturing-holes-in-the-screens/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QH6ob6JcuXFyTzqhABLw8A.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "Half-Life 2 becomes a loot-hoarding roguelike dungeon crawl in this Next Fest mod demo",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/half-life-2-becomes-a-loot-hoarding-roguelike-dungeon-crawl-in-this-next-fest-mod-demo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cKqGtD5kGZojrA7kfRSzZB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "Dune: Awakening's Steam reviews have done a complete 180, climbing the ranks to Very Positive just a day after a player pile-on: ‘This game is great with friends, and lets me live out my fantasy of getting eaten by a sandworm’",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakenings-steam-reviews-have-done-a-complete-180-climbing-the-ranks-to-very-positive-just-a-day-after-a-player-pile-on-this-game-is-great-with-friends-and-lets-me-live-out-my-fantasy-of-getting-eaten-by-a-sandworm/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/t4rtg4x3prVLsN8cgsweRc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "Epic CEO Tim Sweeney takes yet another victory lap after Apple's latest appeal fails: 'The long national nightmare of the Apple tax is ended'",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/epic-ceo-tim-sweeney-takes-yet-another-victory-lap-after-apples-latest-appeal-fails-the-long-national-nightmare-of-the-apple-tax-is-ended/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/McACmK9ZAcgBwf7tsM9Qg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "All Genshin Impact 5.7 livestream codes",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/genshin-impact-codes-5-7-livestream/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/M4wHqHj8SU22bGAPGmTSFM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "Sneeze and this incredibly tiny postage-stamp-sized Atari computer recreation is a goner",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/sneeze-and-this-incredibly-tiny-postage-stamp-sized-atari-computer-recreation-is-a-goner/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZvkLhyYJRfrqfg8iTeNNQ5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "Elden Ring Nightreign servers shut down this morning 'to improve expedition matchmaking' but it's royally screwed some unprepared players",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-servers-shut-down-this-morning-to-improve-expedition-matchmaking-but-its-royally-screwed-some-unprepared-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "A long-lost Duke Nukem prototype resurfaces after 24 years",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/a-long-lost-duke-nukem-prototype-resurfaces-after-24-years/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mqxFCR5KKArfxucH7P3wRh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
   },
   {
     "titulo": "This camo-wrapped RTX 5060 has a real nostalgic flair, but I prefer the screen-integrated prototype GPU MSI showed me at Computex 2025",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/this-camo-wrapped-rtx-5060-has-a-real-nostalgic-flair-but-i-prefer-the-screen-integrated-prototype-gpu-msi-showed-me-at-computex-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/swSaqFifkDCrYqd9HzrX5Z.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T10:53:26"
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Está chegando a hora: quando, onde e como assistir ao Summer Game Fest 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141032/news/quando-onde-e-como-assistir-ao-summer-game-fest-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63635/63635_bd72.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63636/63636_kk64.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "O que aconteceu aqui? Alguns cartuchos do Nintendo Switch 2 funcionam no Switch 1",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141274/news/o-que-aconteceu-aqui-alguns-cartuchos-do-nintendo-switch-2-funcionam-no-switch-1",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-surprised-to-find-switch-2-edition-game-cartri_qrcs.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Lançamento arruinado: jogadores recebem o Nintendo Switch 2 com furos na tela após lojas grampearem recibos de compra na caixa do console",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141240/news/lancamento-arruinado-jogadores-recebem-o-nintendo-switch-2-com-furos-na-tela-apos-lojas-grampearem-r",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-screen-punctures-ruin-launch-day-for-fans_uxr6.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Avante, easter eggs! Marvel Tokon Fighting Souls nem chegou e fãs já encontraram diversas referências no trailer — com direito a herói escondido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-tokon-fighting-souls/141267/news/avante-easter-eggs-marvel-tokon-fighting-souls-nem-chegou-e-fas-ja-encontraram-diversas-referencias",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1gzd.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Anúncio de Final Fantasy Tactics: The Ivalice Chronicles prova que vazamento da Nvidia é bastante preciso, mas ainda falta um jogo da Square Enix que todos esperam",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141260/news/anuncio-de-final-fantasy-tactics-the-ivalice-chronicles-prova-que-vazamento-da-nvidia-e-bastante-pre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Com quantos anos você descobriu a função do cilindro no cabo do seu carregador?",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/141319/news/com-quantos-anos-voce-descobriu-a-funcao-do-cilindro-no-cabo-do-seu-carregador",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rnj4.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
+  },
+  {
+    "titulo": "Cyberpunk 2077 receberá outro \"patch final\" surpresa que promete encerrar adições ao jogo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cyberpunk-2077-1/141315/news/cyberpunk-2077-recebera-outro-patch-final-surpresa-que-promete-encerrar-adicoes-ao-jogo",
+    "imagem": "https://sm.ign.com/t/ign_br/news/c/cyberpunk-/cyberpunk-2077-is-getting-another-surprise-final-patch-we-ha_8zn8.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-06T11:13:47"
   }
 ];
