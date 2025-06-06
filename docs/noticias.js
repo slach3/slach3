@@ -5,15 +5,47 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/live/news/summer-game-fest-2025-announcements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Snxe3qDzExetkiynzrtuJK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
-    "titulo": "Chronicles: Medieval is a stunning sandbox RPG coming in 2026, and despite a past commitment to generative AI, its studio says it's '100% handcrafted'",
+    "titulo": "It's a real game—Lies of P: Overture, the Sekiro-like's first major DLC, shadowdrops during Summer Game Fest and is available now",
+    "descricao": "NewsI've got no release dates to hold me down.",
+    "link": "https://www.pcgamer.com/games/rpg/its-a-real-game-lies-of-p-overture-the-sekiro-likes-first-major-dlc-shadowdrops-during-summer-game-fest-and-is-available-now/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mugMksxSnUenRRfShuyzWh.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T19:11:30"
+  },
+  {
+    "titulo": "The Shovel Knight dev's new gothic action game has a demo that has awakened the GBA kid in me",
+    "descricao": "newsI'm digging this little mouse game.",
+    "link": "https://www.pcgamer.com/games/action/the-shovel-knight-devs-new-gothic-action-game-has-a-demo-that-has-awakened-the-gba-kid-in-me/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2HncAcBx453YUhAj5sveZV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T19:11:30"
+  },
+  {
+    "titulo": "Your battleworld is like a giant Rubik's Cube with edges and rows that keep rotating, in yet another unhinged shooter from Atomic Heart dev Mundfish",
+    "descricao": "NewsThe Multiplayer MMO was announced today at Summer Games Fest.",
+    "link": "https://www.pcgamer.com/games/rpg/your-battleworld-is-like-a-giant-rubiks-cube-with-edges-and-rows-that-keep-rotating-in-yet-another-unhinged-shooter-from-atomic-heart-dev-mundfish/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XQCsXCBAakQLvUTynUa3Mj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T19:11:30"
+  },
+  {
+    "titulo": "Capcom continues its victory lap with killer new Onimusha: Way of the Sword trailer at Summer Game Fest",
+    "descricao": "NEWSIt's never too late to become an Onimusha guy, right?",
+    "link": "https://www.pcgamer.com/games/action/capcom-continues-its-victory-lap-with-killer-new-onimusha-way-of-the-sword-trailer-at-summer-game-fest/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rqdksVARLrDfH8mX6qiK7U.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T19:11:30"
+  },
+  {
+    "titulo": "Chronicles: Medieval is a stunning sandbox RPG coming in 2026—despite a past commitment to using generative AI, the studio now says the game is '100% handcrafted'",
     "descricao": "newsA new Danish studio, Raw Power Games, is behind the medieval sandbox RPG shown early in this year's Summer Game Fest stream.",
     "link": "https://www.pcgamer.com/games/rpg/chronicles-medieval-announcement-sgf/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CKWPEHEse9cxfCAd3Kyw5Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Go to war for Westeros in a new Game of Thrones RTS coming in 2026",
@@ -21,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rts/go-to-war-for-westeros-in-a-new-game-of-thrones-rts-coming-in-2026/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fqWt6hDuLPXyaJGEsBzCjg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Sonic Racing: Crossworlds just declared war on Mario Kart by becoming the true Smash Bros. of kart racers, bringing drivers from Minecraft, Persona, Yakuza—oh, and Hatsune Miku",
@@ -29,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/sonic-racing-crossworlds-just-declared-war-on-mario-kart-by-becoming-the-smash-bros-of-kart-racers-bringing-drivers-from-minecraft-persona-yakuza-oh-and-hatsune-miku/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CKhwfBrWbYGLjEErJjJENQ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Square Enix just revealed a 'murder mystery action game' and as far as I can tell it's like Among Us in a spooky mansion full of hot people",
@@ -37,39 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/square-enix-just-revealed-a-murder-mystery-action-game-and-as-far-as-i-can-tell-its-like-among-us-in-a-spooky-mansion-full-of-hot-people/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JvZ7ag37kBb54KDqAPpMrc.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
-  },
-  {
-    "titulo": "Arc Raiders sets release date for Fall 2025, just 37 days after Marathon",
-    "descricao": "NEWSThe showdown between two big extraction shooters is set for Fall.",
-    "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-sets-release-date-for-fall-2025-just-37-days-after-marathon/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/g89kJCZ4aj38maV4UKU87G.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
-  },
-  {
-    "titulo": "Troy Baker becomes a mouse with a machine gun in Mouse: PI for Hire, coming later this year",
-    "descricao": "newsThe world's busiest voice actor gets a little busier.",
-    "link": "https://www.pcgamer.com/games/fps/troy-baker-becomes-a-mouse-with-a-machine-gun-in-mouse-pi-for-hire-coming-later-this-year/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2GgbdAV79aobNWw9eVjUuG.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
-  },
-  {
-    "titulo": "They put a revolver in Dark Souls—Mortal Shell 2 looks like it wandered out of an edgy teenager's heavy-metal fantasies, and I cannot wait to play it",
-    "descricao": "NewsSo stupid, so edgy, so sold.",
-    "link": "https://www.pcgamer.com/games/rpg/they-put-a-revolver-in-dark-souls-mortal-shell-2-looks-like-it-wandered-out-of-an-edgy-teenagers-heavy-metal-fantasies-and-i-cannot-wait-to-play-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/uUe2XRsFCmZ35m6M533mPW.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
-  },
-  {
-    "titulo": "Elden Ring Nightreign no-hit prodigy finds new, exciting ways to make us feel bad about all the runs we've thrown, beats the final Nightlord solo without a scratch",
-    "descricao": "NewsFirst, dodge … then inadequate feelings ahead.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-no-hit-prodigy-finds-new-exciting-ways-to-make-us-feel-bad-about-all-the-runs-weve-thrown-beats-the-final-nightlord-solo-without-a-scratch/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Cyberpunk 2077 chega para acabar com dúvidas e prova potência do Switch 2",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141339/news/rumores-apontavam-que-o-switch-2-tinha-a-mesma-potencia-do-ps4-pro-agora-cyberpunk-2077-chega-para-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cyberpunk-2077_1uuz.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Está chegando a hora: quando, onde e como assistir ao Summer Game Fest 2025",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141032/news/quando-onde-e-como-assistir-ao-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63635/63635_bd72.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63636/63636_kk64.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "\"Grampeadores foram confiscados\": compradores do Nintendo Switch 2 com furos na tela terão consoles substituídos",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141335/news/grampeadores-foram-confiscados-compradores-do-nintendo-switch-2-com-furos-na-tela-terao-consoles-sub",
     "imagem": "https://sm.ign.com/t/ign_br/news/a/as-switch-/as-switch-2-customers-with-damaged-consoles-are-offered-repl_g9up.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Um dos maiores destaques dos games em 2024, Black Myth: Wukong chegará ao Xbox Series X|S em breve; confira data",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/black-myth-wukong/141321/news/um-dos-maiores-destaques-dos-games-em-2024-black-myth-wukong-chegara-ao-xbox-series-xs-em-breve-conf",
     "imagem": "https://sm.ign.com/t/ign_br/news/b/black-myth/black-myth-wukong-finally-makes-its-way-to-xbox-series-xs-on_gk93.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "Como é a participação de John Wick em Bailarina?",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/bailarina/141204/news/como-e-a-participacao-de-john-wick-em-bailarina",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_np5w.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
     "titulo": "O que aconteceu aqui? Alguns cartuchos do Nintendo Switch 2 funcionam no Switch 1",
@@ -133,14 +133,14 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141274/news/o-que-aconteceu-aqui-alguns-cartuchos-do-nintendo-switch-2-funcionam-no-switch-1",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-surprised-to-find-switch-2-edition-game-cartri_qrcs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   },
   {
-    "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
+    "titulo": "Sonic Racing: CrossWorlds apresenta novos personagens e mundo de Minecraft no Summer Game Fest 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.280.jpg",
+    "link": "https://br.ign.com/sonic-racing-crossworlds/141377/news/sonic-racing-crossworlds-apresenta-novos-personagens-e-mundo-de-minecraft-no-summer-game-fest-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-06-182401175_v4k8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T18:52:27"
+    "timestamp": "2025-06-06T19:11:30"
   }
 ];
