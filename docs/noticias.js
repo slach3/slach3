@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Sneeze and this incredibly tiny postage-stamp-sized Atari computer recreation is a goner",
-    "descricao": "NewsA tiny but timely reminder of a more optimistic era of computing...",
-    "link": "https://www.pcgamer.com/hardware/sneeze-and-this-incredibly-tiny-postage-stamp-sized-atari-computer-recreation-is-a-goner/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZvkLhyYJRfrqfg8iTeNNQ5.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "Elden Ring Nightreign servers shut down this morning 'to improve expedition matchmaking' but it's royally screwed some unprepared players",
-    "descricao": "NewsImagine being one hit away from a win and poof, no server.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-servers-shut-down-this-morning-to-improve-expedition-matchmaking-but-its-royally-screwed-some-unprepared-players/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "A long-lost Duke Nukem prototype resurfaces after 24 years",
-    "descricao": "NewsLong considered lost media, Duke Nukem: D-Day is rediscovered a quarter-century late.",
-    "link": "https://www.pcgamer.com/games/action/a-long-lost-duke-nukem-prototype-resurfaces-after-24-years/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/mqxFCR5KKArfxucH7P3wRh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "This camo-wrapped RTX 5060 has a real nostalgic flair, but I prefer the screen-integrated prototype GPU MSI showed me at Computex 2025",
-    "descricao": "NewsBuilt for the arctic slopes. Or something.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/this-camo-wrapped-rtx-5060-has-a-real-nostalgic-flair-but-i-prefer-the-screen-integrated-prototype-gpu-msi-showed-me-at-computex-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/swSaqFifkDCrYqd9HzrX5Z.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "Today's Wordle answer for Friday, June 6",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-6-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "Borderlands 2 is free to keep on Steam and it's getting review-bombed at the same time because of, uh, the EULA?",
-    "descricao": "newsYou've got until June 8 to pick up the best Borderlands game for free, but some people think you shouldn't.",
-    "link": "https://www.pcgamer.com/games/fps/borderlands-2-is-free-to-keep-on-steam-and-its-getting-review-bombed-at-the-same-time-because-of-uh-the-eula/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/bdDmQK7xNX9ZZ2eMHGWvyk.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "Path of Exile's 31st expansion follows action RPG tradition and will let you hire mercenaries to fight by your side",
-    "descricao": "newsThe massive update drops next week.",
-    "link": "https://www.pcgamer.com/games/rpg/path-of-exiles-31st-expansion-follows-action-rpg-tradition-and-will-let-you-hire-mercenaries-to-fight-by-your-side/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Zbpfu7b5aigwupceSzp2d5.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "'The last one wasn't the last one': CD Projekt has cyber punked us again, announcing another surprise update for Cyberpunk 2077",
-    "descricao": "newsCyberpunk 2077 version 2.3 was revealed during today's devstream.",
-    "link": "https://www.pcgamer.com/games/rpg/the-last-one-wasnt-the-last-one-cd-projekt-has-cyber-punked-us-again-announcing-another-surprise-update-for-cyberpunk-2077/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DfesHEdVVgn2Hw6ErqJyFB.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
-    "titulo": "Nightreign players have figured out a way to guarantee you'll be at max level when fighting a Nightlord, but unfortunately it's super boring",
-    "descricao": "NewsSuccess isn't always exciting.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-players-have-figured-out-how-to-guarantee-you-always-reach-max-level-by-the-time-you-fight-your-runs-nightlord-but-unfortunately-its-super-boring/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-06T08:53:13"
-  },
-  {
     "titulo": "Está chegando a hora: quando, onde e como assistir ao Summer Game Fest 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/summer-game-fest/141032/news/quando-onde-e-como-assistir-ao-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63635/63635_bd72.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "Resident Evil 9, Silksong, GTA 6 e mais: expectativas para o SGF 2025",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141047/feature/resident-evil-9-data-de-lancamento-de-silksong-gameplay-de-gta-6-e-mais-quais-as-expectativas-para-o",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63636/63636_kk64.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "Nioh 3, 007, novo game de luta da Marvel e mais: todos os anúncios do State of Play",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141211/news/nioh-3-silent-hill-f-007-marvel-tokon-fighting-souls-e-mais-tudo-o-que-foi-anunciado-no-state-of-pla",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63547/63547_r21n.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "007 First Light recebe primeiro trailer com visual mais diferente de James Bond até hoje",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/state-of-play/141228/news/origens-de-um-espiao-007-first-light-recebe-primeiro-trailer-com-visual-mais-diferente-de-james-bond",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63526/63526_kyz8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "O que aconteceu aqui? Alguns cartuchos do Nintendo Switch 2 funcionam no Switch 1",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141274/news/o-que-aconteceu-aqui-alguns-cartuchos-do-nintendo-switch-2-funcionam-no-switch-1",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-surprised-to-find-switch-2-edition-game-cartri_qrcs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "Lançamento arruinado: jogadores recebem o Nintendo Switch 2 com furos na tela após lojas grampearem recibos de compra na caixa do console",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141240/news/lancamento-arruinado-jogadores-recebem-o-nintendo-switch-2-com-furos-na-tela-apos-lojas-grampearem-r",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-screen-punctures-ruin-launch-day-for-fans_uxr6.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "Avante, easter eggs! Marvel Tokon Fighting Souls nem chegou e fãs já encontraram diversas referências no trailer — com direito a herói escondido",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-tokon-fighting-souls/141267/news/avante-easter-eggs-marvel-tokon-fighting-souls-nem-chegou-e-fas-ja-encontraram-diversas-referencias",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1gzd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
     "titulo": "Anúncio de Final Fantasy Tactics: The Ivalice Chronicles prova que vazamento da Nvidia é bastante preciso, mas ainda falta um jogo da Square Enix que todos esperam",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/141260/news/anuncio-de-final-fantasy-tactics-the-ivalice-chronicles-prova-que-vazamento-da-nvidia-e-bastante-pre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
-    "titulo": "“Ele falou que não tem problema”: internauta monta PC para namorada, mas o que ele fez com a fonte de alimentação é um absurdo completo",
+    "titulo": "Jogos para Nintendo Switch 2: confira a lista completa disponível no Brasil",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/141064/news/ele-falou-que-nao-tem-problema-internauta-monta-pc-para-namorada-mas-o-que-ele-fez-com-a-fonte-de-al",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_m9j2.280.jpg",
+    "link": "https://br.ign.com/descontos/141307/news/jogos-para-nintendo-switch-2-confira-a-lista-completa-disponivel-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-13_bx3g.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
   },
   {
-    "titulo": "COMEÇOU 6.6! Acessórios para Nintendo Switch 2 com 20% de desconto",
+    "titulo": "Jogador de Stardew Valley constrói sacada para observar estrelas no sótão da casa do personagem e resultado fica fantástico",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141308/news/comecou-66-acessorios-para-nintendo-switch-2-com-20-de-desconto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-14_dyrp.280.png",
+    "link": "https://br.ign.com/stardew-valley/141107/news/jogador-de-stardew-valley-constroi-sacada-para-observar-estrelas-no-sotao-da-casa-do-personagem-e-re",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ddu2.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-06T08:53:13"
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Epic CEO Tim Sweeney takes yet another victory lap after Apple's latest appeal fails: 'The long national nightmare of the Apple tax is ended'",
+    "descricao": "News\"Tim, you're gonna make Tim Cook retire early.\"",
+    "link": "https://www.pcgamer.com/gaming-industry/epic-ceo-tim-sweeney-takes-yet-another-victory-lap-after-apples-latest-appeal-fails-the-long-national-nightmare-of-the-apple-tax-is-ended/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/McACmK9ZAcgBwf7tsM9Qg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "All Genshin Impact 5.7 livestream codes",
+    "descricao": "FreemogemsCollect the latest livestream Primogem bonus before it expires.",
+    "link": "https://www.pcgamer.com/games/rpg/genshin-impact-codes-5-7-livestream/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/M4wHqHj8SU22bGAPGmTSFM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Sneeze and this incredibly tiny postage-stamp-sized Atari computer recreation is a goner",
+    "descricao": "NewsA tiny but timely reminder of a more optimistic era of computing...",
+    "link": "https://www.pcgamer.com/hardware/sneeze-and-this-incredibly-tiny-postage-stamp-sized-atari-computer-recreation-is-a-goner/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZvkLhyYJRfrqfg8iTeNNQ5.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Elden Ring Nightreign servers shut down this morning 'to improve expedition matchmaking' but it's royally screwed some unprepared players",
+    "descricao": "NewsImagine being one hit away from a win and poof, no server.",
+    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-servers-shut-down-this-morning-to-improve-expedition-matchmaking-but-its-royally-screwed-some-unprepared-players/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "A long-lost Duke Nukem prototype resurfaces after 24 years",
+    "descricao": "NewsLong considered lost media, Duke Nukem: D-Day is rediscovered a quarter-century late.",
+    "link": "https://www.pcgamer.com/games/action/a-long-lost-duke-nukem-prototype-resurfaces-after-24-years/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mqxFCR5KKArfxucH7P3wRh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "This camo-wrapped RTX 5060 has a real nostalgic flair, but I prefer the screen-integrated prototype GPU MSI showed me at Computex 2025",
+    "descricao": "NewsBuilt for the arctic slopes. Or something.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/this-camo-wrapped-rtx-5060-has-a-real-nostalgic-flair-but-i-prefer-the-screen-integrated-prototype-gpu-msi-showed-me-at-computex-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/swSaqFifkDCrYqd9HzrX5Z.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Today's Wordle answer for Friday, June 6",
+    "descricao": "regular riddleGet all the help you need with today's Wordle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-6-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Borderlands 2 is free to keep on Steam and it's getting review-bombed at the same time because of, uh, the EULA?",
+    "descricao": "newsYou've got until June 8 to pick up the best Borderlands game for free, but some people think you shouldn't.",
+    "link": "https://www.pcgamer.com/games/fps/borderlands-2-is-free-to-keep-on-steam-and-its-getting-review-bombed-at-the-same-time-because-of-uh-the-eula/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/bdDmQK7xNX9ZZ2eMHGWvyk.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
+  },
+  {
+    "titulo": "Path of Exile's 31st expansion follows action RPG tradition and will let you hire mercenaries to fight by your side",
+    "descricao": "newsThe massive update drops next week.",
+    "link": "https://www.pcgamer.com/games/rpg/path-of-exiles-31st-expansion-follows-action-rpg-tradition-and-will-let-you-hire-mercenaries-to-fight-by-your-side/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Zbpfu7b5aigwupceSzp2d5.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-06T09:26:43"
   }
 ];
