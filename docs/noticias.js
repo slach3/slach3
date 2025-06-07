@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "RE9, Death Stranding 2, Onimusha e mais: todos os anúncios do Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63794/63794_eyjw.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Stranger Than Heaven, novo jogo da RGG Studio, ganha trailer de gameplay no SGF 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/stranger-than-heaven/141403/news/project-century-novo-jogo-da-rgg-studio-e-nomeado-oficialmente-como-stranger-than-heaven-no-summer-g",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63954/63954_9d2u.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Dying Light: The Beast ganha data de lançamento no Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141405/news/dying-light-the-beast-ganha-data-de-lancamento-no-summer-game-fest-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/dying-ligh/dying-light-the-beast-release-date-set-for-august-with-gamep_2xwu.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Música e memórias: Mixtape ganha trailer de gameplay no Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mixtape/141395/news/musica-e-memorias-mixtape-ganha-trailer-de-gameplay-no-summer-game-fest-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ms1_dbfb.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Lies of P: Overture é lançado de surpresa durante Summer Game Fest e já está à venda",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141393/news/lies-of-p-overture-e-lancado-de-surpresa-durante-summer-game-fest-e-ja-esta-a-venda",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/lies-of-p-overture-screenshot-02-wm-1747787628735_5sjh.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Elon Musk entrou para governo dos EUA com objetivo de criar uma NASA mais favorável aos seus interesses; mas ele não se saiu bem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/espaco/141111/news/elon-musk-entrou-para-governo-dos-eua-com-objetivo-de-criar-uma-nasa-mais-favoravel-aos-seus-interes",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_hem6.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
-    "titulo": "Street Fighter 6 revela novo passe de temporada com Sagat e mais três personagens",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141418/news/street-fighter-6-revela-novo-passe-de-temporada-com-sagat-e-mais-tres-personagens",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/street-fighter-6-season-pass-3_vg9e.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-07T08:10:02"
-  },
-  {
     "titulo": "Here's how to watch the Future Games Show Summer Showcase",
     "descricao": "newsThis year's showcase will have over 50 upcoming games.",
     "link": "https://www.pcgamer.com/gaming-industry/events-conferences/heres-how-to-watch-the-future-games-show-summer-showcase/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sawzN9bsjRaxLjRWSikWxM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "Today's Wordle answer for Saturday, June 7",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-7-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "'I'm not here to apologize but I am here to clarify': Splitgate 2 boss says his Make FPS Great Again hat is 'not a political statement'",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/im-not-here-to-apologize-but-i-am-here-to-clarify-splitgate-2-boss-says-his-make-fps-great-again-hat-is-not-a-political-statement/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/39chYZYRGi9PhsyLgBEmqa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "Everything announced at Summer Game Fest 2025",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/live/news/summer-game-fest-2025-announcements/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Snxe3qDzExetkiynzrtuJK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "I can see why Devolver dedicated its whole show to Ball X Pit: It's like Atari's Breakout meets Vampire Survivors and the demo is curing my roguelike fatigue",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/i-can-see-why-devolver-dedicated-its-whole-show-to-ball-x-pit-its-like-ataris-breakout-meets-vampire-survivors-and-the-demo-is-curing-my-roguelike-fatigue/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UGgHg47xswnCv4W65eYdSJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "'No one cooks anymore': Dosa Divas is an RPG about food, death, and big robots",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/no-one-cooks-anymore-dosa-divas-is-an-rpg-about-food-death-and-big-robots/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RprMrTHwCb99as4idVjkBM.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "PC finally has its own Breath of the Wild killer, and it's indistinguishable from the Nintendo game except that you are a boy who is also a tire",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/pc-finally-has-its-own-breath-of-the-wild-killer-and-its-indistinguishable-from-the-nintendo-game-except-that-you-are-a-boy-who-is-also-a-tire/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4PfdHfWRtsRpSRRxzuvf4b.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "I just discovered in Dune: Awakening that the only thing worse than seeing a sandworm coming right at you is being stuck in quicksand and seeing a sandworm coming right at you",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/i-just-discovered-in-dune-awakening-that-the-only-thing-worse-than-seeing-a-sandworm-coming-right-at-you-is-being-stuck-in-quicksand-and-seeing-a-sandworm-coming-right-at-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ybGatMHVsQihvai5oniTtX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
   },
   {
     "titulo": "To be a master heister in Thick as Thieves, Warren Spector's 'player-powered' multiplayer Thief successor, the devs say you'll have to 'play with your ears'",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/to-be-a-master-heister-in-thick-as-thieves-warren-spectors-player-powered-multiplayer-thief-successor-the-devs-say-youll-have-to-play-with-your-ears/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FVA2uoTBcqzhYALwGWaFr6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-07T08:10:02"
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "RE9, Death Stranding 2, Onimusha e mais: todos os anúncios do Summer Game Fest 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63794/63794_eyjw.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Stranger Than Heaven, novo jogo da RGG Studio, ganha trailer de gameplay no SGF 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/stranger-than-heaven/141403/news/project-century-novo-jogo-da-rgg-studio-e-nomeado-oficialmente-como-stranger-than-heaven-no-summer-g",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63954/63954_9d2u.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Dying Light: The Beast ganha data de lançamento no Summer Game Fest 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141405/news/dying-light-the-beast-ganha-data-de-lancamento-no-summer-game-fest-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/dying-ligh/dying-light-the-beast-release-date-set-for-august-with-gamep_2xwu.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Música e memórias: Mixtape ganha trailer de gameplay no Summer Game Fest 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mixtape/141395/news/musica-e-memorias-mixtape-ganha-trailer-de-gameplay-no-summer-game-fest-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ms1_dbfb.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Lies of P: Overture é lançado de surpresa durante Summer Game Fest e já está à venda",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141393/news/lies-of-p-overture-e-lancado-de-surpresa-durante-summer-game-fest-e-ja-esta-a-venda",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/lies-of-p-overture-screenshot-02-wm-1747787628735_5sjh.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Elon Musk entrou para governo dos EUA com objetivo de criar uma NASA mais favorável aos seus interesses; mas ele não se saiu bem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/espaco/141111/news/elon-musk-entrou-para-governo-dos-eua-com-objetivo-de-criar-uma-nasa-mais-favoravel-aos-seus-interes",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_hem6.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
+  },
+  {
+    "titulo": "Street Fighter 6 revela novo passe de temporada com Sagat e mais três personagens",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/summer-game-fest/141418/news/street-fighter-6-revela-novo-passe-de-temporada-com-sagat-e-mais-tres-personagens",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/street-fighter-6-season-pass-3_vg9e.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-07T08:25:22"
   }
 ];
