@@ -5,7 +5,23 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/live/news/xbox-games-showcase-2025-everything-announced/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/52jxcwNSSdFJNLZu8XgZwS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
+  },
+  {
+    "titulo": "'What if Blade was a witcher?' is the scary question asked as Blood of Dawnwalker from former CDPR devs announces 2026 release",
+    "descricao": "NewsHow gruff can a protagonist get? Scientists aim to find out.",
+    "link": "https://www.pcgamer.com/games/rpg/what-if-blade-was-a-witcher-is-the-scary-question-asked-as-blood-of-dawnwalker-from-former-cdpr-devs-announces-2026-release/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/SjVwfckQzAgzLSEhiZVRWD.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T14:32:25"
+  },
+  {
+    "titulo": "Game Freak is reminding us all that it doesn't just make Pokémon with Beast of Reincarnation, a 'one-person, one-dog action RPG' about fighting robots and corrupted beasts in post-apocalyptic Japan",
+    "descricao": "News",
+    "link": "https://www.pcgamer.com/games/action/game-freak-is-reminding-us-all-that-it-doesnt-just-make-pokemon-with-beast-of-reincarnation-a-one-person-one-dog-action-rpg-about-fighting-robots-and-corrupted-beasts-in-post-apocalyptic-japan/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EZWkFp6cUauxuSawX8ZgUR.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "AMD's baffling 'new' Ryzen Z2 APUs for handheld gaming PCs include a premium 'AI' model with an NPU and seemingly the ancient chip from Valve's Steam Deck",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amds-baffling-new-ryzen-z2-apus-for-handheld-gaming-pcs-include-a-premium-ai-model-with-an-npu-and-seemingly-the-ancient-chip-from-valves-steam-deck/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VCkwq2FV7M7bUiVenTvcmb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Ark: Survival Ascended celebrates 10 years of dino-dodging with a visual upgrade and letting you run around in your birthday suit",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/ark-survival-ascended-celebrates-10-years-of-dino-dodging-with-a-visual-upgrade-and-letting-you-run-around-in-your-birthday-suit/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rioghQFE2j83yy8nbWmUkP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Baby Steps, Bennett Foddy's slapstick walking simulator about a slob climbing a mountain, stumbles onto Steam in September",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/baby-steps-bennett-foddys-slapstick-walking-simulator-about-a-slob-climbing-a-mountain-stumbles-onto-steam-in-september/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zinc6mTjgALqELsqz9QvvQ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Rust's recently added rainforest is so dense the developers changed how resources spawn because players couldn't find them: 'The jungle was a bit too good at being a jungle'",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/rusts-recently-added-rainforest-is-so-dense-the-developers-changed-how-resources-spawn-because-players-couldnt-find-them-the-jungle-was-a-bit-too-good-at-being-a-jungle/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RP6j7TqrPfuUgKELNHA4C6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Amazon may have cancelled the Wheel of Time show, but the open world RPG ploughs ahead with talent from games like Dark Age of Camelot and Lord of the Rings Online",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/amazon-may-have-cancelled-the-wheel-of-time-show-but-the-open-world-rpg-ploughs-ahead-with-talent-from-games-like-dark-age-of-camelot-and-lord-of-the-rings-online/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NGxDBGUAenysV75xaxbWf4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "I defeated a bird by talking to it about the Bible in this lo-fi first-person RPG where you're a 19th century daemon summoner",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/i-defeated-a-bird-by-talking-to-it-about-the-bible-in-this-lo-fi-first-person-rpg-where-youre-a-19th-century-daemon-summoner/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rMqNrm9aFw932sWiS2PpzU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
-  },
-  {
-    "titulo": "Innkeep lets you play an extremely suspect fantasy innkeeper, though I'm sure the bloodstains on your apron can be easily explained",
-    "descricao": "NewsProbably tomato juice. You serve tomato juice here?",
-    "link": "https://www.pcgamer.com/games/life-sim/innkeep-lets-you-play-an-extremely-suspect-fantasy-innkeeper-though-im-sure-the-bloodstains-on-your-apron-can-be-easily-explained/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Jgw5EtaVegFbqYJ4kuqDU9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
-  },
-  {
-    "titulo": "Today's Wordle answer for Sunday, June 8",
-    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-8-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "RE9, Death Stranding 2, Onimusha e mais: todos os anúncios do Summer Game Fest 2025",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63794/63794_eyjw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Stranger Than Heaven, novo jogo da RGG Studio, ganha trailer de gameplay no SGF 2025",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/stranger-than-heaven/141403/news/project-century-novo-jogo-da-rgg-studio-e-nomeado-oficialmente-como-stranger-than-heaven-no-summer-g",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63954/63954_9d2u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Dying Light: The Beast ganha data de lançamento no Summer Game Fest 2025",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141405/news/dying-light-the-beast-ganha-data-de-lancamento-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dying-ligh/dying-light-the-beast-release-date-set-for-august-with-gamep_2xwu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Música e memórias: Mixtape ganha trailer de gameplay no Summer Game Fest 2025",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/mixtape/141395/news/musica-e-memorias-mixtape-ganha-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ms1_dbfb.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
     "titulo": "Lies of P: Overture é lançado de surpresa durante Summer Game Fest e já está à venda",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141393/news/lies-of-p-overture-e-lancado-de-surpresa-durante-summer-game-fest-e-ja-esta-a-venda",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/lies-of-p-overture-screenshot-02-wm-1747787628735_5sjh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
-    "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
+    "titulo": "The Outer Worlds 2 ganha novo trailer e data de lançamento no Xbox Games Showcase",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.280.jpg",
+    "link": "https://br.ign.com/the-outer-worlds-2/141451/news/the-outer-worlds-2-ganha-novo-trailer-e-data-de-lancamento-no-xbox-games-showcase",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/the-outer-worlds-22025-04-16-07h13m10s928-1744812865795_93q5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   },
   {
-    "titulo": "Nova temporada de Fortnite traz temática de super-heróis ao game e tem Superman e Robin como destaque",
+    "titulo": "Resonance: A Plague Tale Legacy é anunciado no Xbox Games Showcase 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fortnite/141402/news/nova-temporada-de-fortnite-traz-tematica-de-super-herois-ao-game-e-tem-superman-e-robin-como-destaqu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/unnamed-14_4uq5.280.jpg",
+    "link": "https://br.ign.com/xbox-showcase/141452/news/resonance-a-plague-tale-legacy-e-anunciado-no-xbox-games-showcase-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/news/r/resonance-/resonance-a-plague-tale-legacy-revealed-for-2026-release-at_crpd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:16:25"
+    "timestamp": "2025-06-08T14:32:25"
   }
 ];
