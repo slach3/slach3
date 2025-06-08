@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Amazon may have cancelled the Wheel of Time show, but the open world RPG ploughs ahead with talent from games like Dark Age of Camelot and Lord of the Rings Online",
-    "descricao": "NewsThe Wheel of Time turns, and adaptations come and go.",
-    "link": "https://www.pcgamer.com/games/rpg/amazon-may-have-cancelled-the-wheel-of-time-show-but-the-open-world-rpg-ploughs-ahead-with-talent-from-games-like-dark-age-of-camelot-and-lord-of-the-rings-online/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/NGxDBGUAenysV75xaxbWf4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "I defeated a bird by talking to it about the Bible in this lo-fi first-person RPG where you're a 19th century daemon summoner",
-    "descricao": "NewsPlay the demo for Your Holy & Virtuous Heretic now.",
-    "link": "https://www.pcgamer.com/games/rpg/i-defeated-a-bird-by-talking-to-it-about-the-bible-in-this-lo-fi-first-person-rpg-where-youre-a-19th-century-daemon-summoner/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rMqNrm9aFw932sWiS2PpzU.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "Innkeep lets you play an extremely suspect fantasy innkeeper, though I'm sure the bloodstains on your apron can be easily explained",
-    "descricao": "NewsProbably tomato juice. You serve tomato juice here?",
-    "link": "https://www.pcgamer.com/games/life-sim/innkeep-lets-you-play-an-extremely-suspect-fantasy-innkeeper-though-im-sure-the-bloodstains-on-your-apron-can-be-easily-explained/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Jgw5EtaVegFbqYJ4kuqDU9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "Today's Wordle answer for Sunday, June 8",
-    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-8-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "Here's an alchemy shop-sim that is also a mech-builder deckbuilder",
-    "descricao": "NewsApothecary of City X is a mortar-and-pestle mashup.",
-    "link": "https://www.pcgamer.com/games/card-games/heres-an-alchemy-shop-sim-that-is-also-a-mech-builder-deckbuilder/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kEB3LafieKT558YfiMj5yQ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "'Dominate the Waifu Industrial Complex': There's a new 3v3 movement shooter called Waifu Tactical Force because of course there is",
-    "descricao": "newsThe tactical movement shooter is coming to Steam next year, with an alpha starting now.",
-    "link": "https://www.pcgamer.com/games/fps/dominate-the-waifu-industrial-complex-theres-a-new-3v3-movement-shooter-called-waifu-tactical-force-because-of-course-there-is/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/XrNLZLExc9N62VDc8SqUxj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "This 2018 early access survival game notorious for poop mechanics and penis sliders will finally go 1.0 this month",
-    "descricao": "NewsScum is almost done.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/this-2018-early-access-survival-game-notorious-for-poop-mechanics-and-penis-sliders-will-finally-go-1-0-this-month/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/nZLpWKpqrWNkyXpNRfvB5M.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "I can already tell that this co-op firefighting game is going to lead to some hilarious highlight clips",
-    "descricao": "NewsFirefighting Simulator: Ignite pits four players against blazing buildings and rescue scenarios.",
-    "link": "https://www.pcgamer.com/games/sim/firefighting-simulator-co-op-trailer/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/r5sW8LXaigQktsYcqJNrv5.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
-    "titulo": "A Hitman co-op mode is in development, featuring two familiar faces from Agent 47's past",
-    "descricao": "newsStone and Knight are coming back, and this time they're getting their hands dirty.",
-    "link": "https://www.pcgamer.com/games/action/a-hitman-co-op-mode-is-in-development-featuring-two-familiar-faces-from-agent-47s-past/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DfsioBsBcsYRC3NfvhDoQd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T08:55:52"
-  },
-  {
     "titulo": "RE9, Death Stranding 2, Onimusha e mais: todos os anúncios do Summer Game Fest 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63794/63794_eyjw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Stranger Than Heaven, novo jogo da RGG Studio, ganha trailer de gameplay no SGF 2025",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/stranger-than-heaven/141403/news/project-century-novo-jogo-da-rgg-studio-e-nomeado-oficialmente-como-stranger-than-heaven-no-summer-g",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63954/63954_9d2u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Dying Light: The Beast ganha data de lançamento no Summer Game Fest 2025",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141405/news/dying-light-the-beast-ganha-data-de-lancamento-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dying-ligh/dying-light-the-beast-release-date-set-for-august-with-gamep_2xwu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Música e memórias: Mixtape ganha trailer de gameplay no Summer Game Fest 2025",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/mixtape/141395/news/musica-e-memorias-mixtape-ganha-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ms1_dbfb.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Lies of P: Overture é lançado de surpresa durante Summer Game Fest e já está à venda",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141393/news/lies-of-p-overture-e-lancado-de-surpresa-durante-summer-game-fest-e-ja-esta-a-venda",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/lies-of-p-overture-screenshot-02-wm-1747787628735_5sjh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "Criminoso? Robert Downey Jr. conseguiu entrar no Japão para promover Homem de Ferro, mas em troca de um preço alto",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/141205/news/criminoso-robert-downey-jr-conseguiu-entrar-no-japao-para-promover-homem-de-ferro-mas-em-troca-de-um",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nawr.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
   },
   {
     "titulo": "\"É difícil ver a lógica disso\": criador de Ori mira na Valve e em seu sistema punitivo de monetização contra estúdios pequenos no Steam",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/steam/141137/news/e-dificil-ver-a-logica-disso-criador-de-ori-mira-na-valve-e-em-seu-sistema-punitivo-de-monetizacao-c",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_nyj4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T08:55:52"
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "Rust's recently added rainforest is so dense the developers changed how resources spawn because players couldn't find them: 'The jungle was a bit too good at being a jungle'",
+    "descricao": "NewsFacepunch's latest update also gives interiors a lighting pass and adds bee bombs for catapults.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/rusts-recently-added-rainforest-is-so-dense-the-developers-changed-how-resources-spawn-because-players-couldnt-find-them-the-jungle-was-a-bit-too-good-at-being-a-jungle/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RP6j7TqrPfuUgKELNHA4C6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "Amazon may have cancelled the Wheel of Time show, but the open world RPG ploughs ahead with talent from games like Dark Age of Camelot and Lord of the Rings Online",
+    "descricao": "NewsThe Wheel of Time turns, and adaptations come and go.",
+    "link": "https://www.pcgamer.com/games/rpg/amazon-may-have-cancelled-the-wheel-of-time-show-but-the-open-world-rpg-ploughs-ahead-with-talent-from-games-like-dark-age-of-camelot-and-lord-of-the-rings-online/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NGxDBGUAenysV75xaxbWf4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "I defeated a bird by talking to it about the Bible in this lo-fi first-person RPG where you're a 19th century daemon summoner",
+    "descricao": "NewsPlay the demo for Your Holy & Virtuous Heretic now.",
+    "link": "https://www.pcgamer.com/games/rpg/i-defeated-a-bird-by-talking-to-it-about-the-bible-in-this-lo-fi-first-person-rpg-where-youre-a-19th-century-daemon-summoner/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rMqNrm9aFw932sWiS2PpzU.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "Innkeep lets you play an extremely suspect fantasy innkeeper, though I'm sure the bloodstains on your apron can be easily explained",
+    "descricao": "NewsProbably tomato juice. You serve tomato juice here?",
+    "link": "https://www.pcgamer.com/games/life-sim/innkeep-lets-you-play-an-extremely-suspect-fantasy-innkeeper-though-im-sure-the-bloodstains-on-your-apron-can-be-easily-explained/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Jgw5EtaVegFbqYJ4kuqDU9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "Today's Wordle answer for Sunday, June 8",
+    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-8-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "Here's an alchemy shop-sim that is also a mech-builder deckbuilder",
+    "descricao": "NewsApothecary of City X is a mortar-and-pestle mashup.",
+    "link": "https://www.pcgamer.com/games/card-games/heres-an-alchemy-shop-sim-that-is-also-a-mech-builder-deckbuilder/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/kEB3LafieKT558YfiMj5yQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "'Dominate the Waifu Industrial Complex': There's a new 3v3 movement shooter called Waifu Tactical Force because of course there is",
+    "descricao": "newsThe tactical movement shooter is coming to Steam next year, with an alpha starting now.",
+    "link": "https://www.pcgamer.com/games/fps/dominate-the-waifu-industrial-complex-theres-a-new-3v3-movement-shooter-called-waifu-tactical-force-because-of-course-there-is/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XrNLZLExc9N62VDc8SqUxj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "This 2018 early access survival game notorious for poop mechanics and penis sliders will finally go 1.0 this month",
+    "descricao": "NewsScum is almost done.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/this-2018-early-access-survival-game-notorious-for-poop-mechanics-and-penis-sliders-will-finally-go-1-0-this-month/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nZLpWKpqrWNkyXpNRfvB5M.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
+  },
+  {
+    "titulo": "I can already tell that this co-op firefighting game is going to lead to some hilarious highlight clips",
+    "descricao": "NewsFirefighting Simulator: Ignite pits four players against blazing buildings and rescue scenarios.",
+    "link": "https://www.pcgamer.com/games/sim/firefighting-simulator-co-op-trailer/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/r5sW8LXaigQktsYcqJNrv5.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T09:36:22"
   }
 ];
