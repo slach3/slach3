@@ -1,19 +1,27 @@
 const noticias = [
   {
-    "titulo": "Indiana Jones and the Great Circle heads for the catacombs of Rome in its first DLC, coming in September",
-    "descricao": "newsThe Order of Giants was revealed during today's Xbox Showcase.",
-    "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-heads-for-the-catacombs-of-rome-in-its-first-dlc-coming-in-september/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/KvjNK9CTgszVadVyBhdDGa.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
-  },
-  {
     "titulo": "Xbox Games Showcase 2025 live: All the announcements in real-time",
     "descricao": "LiveJoin us for another round of new trailers and big announcements as we cover this year's Xbox Games Showcase.",
     "link": "https://www.pcgamer.com/games/live/news/xbox-games-showcase-2025-everything-announced/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/52jxcwNSSdFJNLZu8XgZwS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
+  },
+  {
+    "titulo": "Obsidian announces a sequel to its backyard co-op survival game Grounded—and surprisingly, it'll be in early access next month",
+    "descricao": "NewsGrounded 2 comes to game preview in July.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/obsidian-announces-a-sequel-to-its-backyard-co-op-survival-game-grounded-and-surprisingly-itll-be-in-early-access-next-month/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/XMhW3PodP7hqctyJoh9RqT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T14:53:46"
+  },
+  {
+    "titulo": "Indiana Jones and the Great Circle heads for the catacombs of Rome in its first DLC, coming in September",
+    "descricao": "newsThe Order of Giants was revealed during today's Xbox Showcase.",
+    "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-heads-for-the-catacombs-of-rome-in-its-first-dlc-coming-in-september/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/KvjNK9CTgszVadVyBhdDGa.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "If High on Life 2's skateboard shooting is as fun as they make it look in the trailer, I can tolerate wisecracking guns",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/if-high-on-life-2s-skateboard-shooting-is-as-fun-as-they-make-it-look-in-the-trailer-i-can-tolerate-wisecracking-guns/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ykRLyYMRaTemCedY2PFjLE.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Resonance: A Plague Tale Legacy has a suspicious dearth of killer rats",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/resonance-a-plague-tale-legacy-has-a-suspicious-dearth-of-killer-rats/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ktZQNLyYxe6pMhgCoJVRoC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Super Meat Boy 3D looks a bit like plasticine but I'm not hating it",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/super-meat-boy-3d-looks-a-bit-like-plasticine-but-im-not-hating-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FUxQjwZTx2WJL6LY3WTtn8.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Bloober Team's upcoming horror game Cronos: The New Dawn just got even harder to survive as the 'body-horror monstrosities' can work together",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/bloober-teams-upcoming-horror-game-cronos-the-new-dawn-just-got-even-harder-to-survive-as-the-body-horror-monstrosities-can-work-together/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TmHp6EspgQ9GJRJFHEdcEc.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "'What if Blade was a witcher?' is the scary question asked as Blood of Dawnwalker from former CDPR devs announces 2026 release",
@@ -53,23 +61,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/what-if-blade-was-a-witcher-is-the-scary-question-asked-as-blood-of-dawnwalker-from-former-cdpr-devs-announces-2026-release/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SjVwfckQzAgzLSEhiZVRWD.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
-    "titulo": "Game Freak is reminding us all that it doesn't just make Pokémon with Beast of Reincarnation, a 'one-person, one-dog action RPG' about fighting robots and corrupted beasts in post-apocalyptic Japan",
-    "descricao": "News",
+    "titulo": "Game Freak reminds us that it's more than Pokémon with Beast of Reincarnation, a 'one-person, one-dog action RPG' about fighting robots and corrupted beasts in post-apocalyptic Japan",
+    "descricao": "NewsBeast of Reincarnation was revealed at the Xbox Games Showcase today.",
     "link": "https://www.pcgamer.com/games/action/game-freak-is-reminding-us-all-that-it-doesnt-just-make-pokemon-with-beast-of-reincarnation-a-one-person-one-dog-action-rpg-about-fighting-robots-and-corrupted-beasts-in-post-apocalyptic-japan/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EZWkFp6cUauxuSawX8ZgUR.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
-  },
-  {
-    "titulo": "AMD's baffling 'new' Ryzen Z2 APUs for handheld gaming PCs include a premium 'AI' model with an NPU and seemingly the ancient chip from Valve's Steam Deck",
-    "descricao": "newsThe Z2 family now includes fully four different generations of AMD APU. Seriously?",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amds-baffling-new-ryzen-z2-apus-for-handheld-gaming-pcs-include-a-premium-ai-model-with-an-npu-and-seemingly-the-ancient-chip-from-valves-steam-deck/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/VCkwq2FV7M7bUiVenTvcmb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "RE9, Death Stranding 2, Onimusha e mais: todos os anúncios do Summer Game Fest 2025",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63794/63794_eyjw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Stranger Than Heaven, novo jogo da RGG Studio, ganha trailer de gameplay no SGF 2025",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/stranger-than-heaven/141403/news/project-century-novo-jogo-da-rgg-studio-e-nomeado-oficialmente-como-stranger-than-heaven-no-summer-g",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63954/63954_9d2u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Switch 2 é significativo para reposicionar Nintendo no mercado | Primeiras impressões",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141355/feature/switch-2-aprimora-o-que-funciona-e-abre-espaco-para-novo-mercado-primeiras-impressoes",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63679/63679_bru7.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Dying Light: The Beast ganha data de lançamento no Summer Game Fest 2025",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141405/news/dying-light-the-beast-ganha-data-de-lancamento-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/dying-ligh/dying-light-the-beast-release-date-set-for-august-with-gamep_2xwu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Música e memórias: Mixtape ganha trailer de gameplay no Summer Game Fest 2025",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/mixtape/141395/news/musica-e-memorias-mixtape-ganha-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ms1_dbfb.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Onimusha: Way of the Sword ganha novo trailer de gameplay no Summer Game Fest 2025",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/onimusha-way-of-the-sword/141387/news/onimusha-way-of-the-sword-ganha-novo-trailer-de-gameplay-no-summer-game-fest-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/o/onimusha-w/onimusha-way-of-the-sword-gets-new-summer-game-fest-trailer_cq37.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
     "titulo": "Lies of P: Overture é lançado de surpresa durante Summer Game Fest e já está à venda",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141393/news/lies-of-p-overture-e-lancado-de-surpresa-durante-summer-game-fest-e-ja-esta-a-venda",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/lies-of-p-overture-screenshot-02-wm-1747787628735_5sjh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
-    "titulo": "Dos criadores de Silent Hill 2 Remake, Cronos: The New Dawn recebe novo trailer de jogabilidade no Xbox Showcase 2025",
+    "titulo": "The Outer Worlds 2, PC portátil, Ninja Gaiden 4 e mais: os principais anúncios do Xbox Showcase de junho de 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141456/news/dos-criadores-de-silent-hill-2-remake-cronos-the-new-dawn-recebe-novo-trailer-de-jogabilidade-no-xbo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-10-21-101113954_aseh.280.jpg",
+    "link": "https://br.ign.com/xbox-showcase/141445/news/the-outer-worlds-2-pc-portatil-ninja-gaiden-4-e-mais-os-principais-anuncios-do-xbox-showcase-de-junh",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ninja-gaiden-4-10-3e64b6796df08cb4473d_wsnh.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   },
   {
-    "titulo": "Estúdio de Pokémon apresenta novo game - e é bonito - no Xbox Games Showcase 2025: Beast of Reincarnation",
+    "titulo": "Mudang: Two Hearts - Trailer de revelação | Xbox Games Showcase 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141459/news/estudio-de-pokemon-apresenta-novo-game-e-e-bonito-no-xbox-games-showcase-2025-beast-of-reincarnation",
-    "imagem": "https://sm.ign.com/t/ign_br/news/b/beast-of-r/beast-of-reincarnation-is-a-game-freak-action-game-due-out-2_qswq.280.jpg",
+    "link": "https://br.ign.com/xbox-showcase/141468/video/mudang-two-hearts-trailer-de-revelacao-xbox-games-showcase-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/video/m/mudang-two/mudang-two-hearts-official-reveal-trailer-xbox-games-showcas_6zuy.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T14:43:46"
+    "timestamp": "2025-06-08T14:53:46"
   }
 ];
