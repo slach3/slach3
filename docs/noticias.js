@@ -1,11 +1,83 @@
 const noticias = [
   {
+    "titulo": "Dinkum is a co-op farming game that's as Australian as trolling foreigners by making them eat Vegemite with a spoon",
+    "descricao": "PCGS 2025You're supposed to spread it thinly on buttered toast, you drongo.",
+    "link": "https://www.pcgamer.com/games/sim/dinkum-is-a-co-op-farming-game-thats-as-australian-as-trolling-foreigners-by-making-them-eat-vegemite-with-a-spoon/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RNtrChvjreNFsTywBrQ7wh.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "PSA: Dune: Awakening's sandworm is 'currently missing', says Funcom, but 'we're working on it and he'll soon be back prowling the sands'",
+    "descricao": "NewsShai-Hulud is a bit shy at the moment, it seems.",
+    "link": "https://www.pcgamer.com/games/mmo/psa-dune-awakenings-sandworm-is-currently-missing-says-funcom-but-were-working-on-it-and-hell-soon-be-back-prowling-the-sands/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fuqkq7Hc57zgzn63kqgqp4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Hotline Miami meets Gunpoint? Top-down hack 'em up DeadWire sets sights on September at the PC Gaming Show 2025",
+    "descricao": "PCGS 2025Murderous chain reactions are the name of the game—check out DeadWire's latest trailer",
+    "link": "https://www.pcgamer.com/games/action/hotline-miami-meets-gunpoint-top-down-hack-em-up-deadwire-sets-sights-on-september-at-the-pc-gaming-show-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/t8XEAEK7TweKqTvF57uJcM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Xbox Games Showcase 2025 live: All the announcements in real-time",
+    "descricao": "LiveJoin us for another round of new trailers and big announcements as we cover this year's Xbox Games Showcase.",
+    "link": "https://www.pcgamer.com/games/live/news/xbox-games-showcase-2025-everything-announced/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/52jxcwNSSdFJNLZu8XgZwS.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "GOG takes on the Steam Workshop with the official launch of one-click modding, and Skyblivion is headed to the store later this year",
+    "descricao": "NewsHello modder, hello fadder.",
+    "link": "https://www.pcgamer.com/software/platforms/gog-takes-on-the-steam-workshop-with-the-official-launch-of-one-click-modding-and-skyblivion-is-headed-to-the-store-later-this-year/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/uCwuE8fLzLXaKATLGTmXD3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Blumhouse's new multiplayer horror game Eyes of Hellfire has you trying to solve a curse and either 'escape the lodge with your friends, betray them, or die'",
+    "descricao": "PCGS 2025I didn't do it, you can trust me (doubt).",
+    "link": "https://www.pcgamer.com/games/horror/blumhouses-new-multiplayer-horror-game-eyes-of-hellfire-has-you-trying-to-solve-a-curse-and-either-escape-the-lodge-with-your-friends-betray-them-or-die/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZAfotSNFx3d3VFvGVRNCbg.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Spooky farming sim Grave Seasons drops first-ever gameplay trailer at the PC Gaming Show 2025, but it's not your typical Stardew Valley-like",
+    "descricao": "PCGS 2025Solve mysteries, discover murders, and… sow crops, obviously.",
+    "link": "https://www.pcgamer.com/games/sim/spooky-farming-sim-grave-seasons-drops-first-ever-gameplay-trailer-at-the-pc-gaming-show-2025-but-its-not-your-typical-stardew-valley-like/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mozqemeUXfMaKt6F26C6RV.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Void/Breaker is a roguelike sci-fi FPS is like having modding tools for you guns and it looks absolutely great for it",
+    "descricao": "PCGS 2025Create-a-gun.",
+    "link": "https://www.pcgamer.com/games/fps/void-breaker-is-a-roguelike-sci-fi-fps-is-like-having-modding-tools-for-you-guns-and-it-looks-absolutely-great-for-it/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WPUr8qNc5USbQpPZVGo6fj.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
+    "titulo": "Where do survival games go from here? Atmosfar's answer is a sci-fi road trip",
+    "descricao": "PCGS 2025The self-described \"sky-high survival odyssey\" just announced an early access release window.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/where-do-survival-games-go-from-here-atmosfars-answer-is-a-sci-fi-road-trip/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/qgqgCcatwpDPjCbnz6Brba.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-08T17:58:51"
+  },
+  {
     "titulo": "CoD Black Ops 7, Xbox portátil e mais: os principais anúncios do Xbox Showcase 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/xbox-showcase/141445/news/the-outer-worlds-2-pc-portatil-ninja-gaiden-4-e-mais-os-principais-anuncios-do-xbox-showcase-de-junh",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64040/64040_z1qp.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Em parceria com a Asus, Microsoft anuncia ROG Xbox Ally, PC portátil da marca",
@@ -13,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-showcase/141443/news/em-parceria-com-a-asus-microsoft-anuncia-rog-xbox-ally-pc-portatil-da-marca-com-duas-versoes",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64020/64020_ayqv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "The Outer Worlds 2 ganha novo trailer e data de lançamento no Xbox Games Showcase",
@@ -21,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-outer-worlds-2/141451/news/the-outer-worlds-2-ganha-novo-trailer-e-data-de-lancamento-no-xbox-games-showcase",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63997/63997_9k7z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
@@ -29,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Com retorno de vilão conhecido da franquia, Call of Duty Black Ops 7 é confirmado e trará era futurista de volta à série",
@@ -37,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-showcase/141465/news/com-retorno-de-vilao-conhecido-da-franquia-call-of-duty-black-ops-7-e-confirmado-e-trara-era-futuris",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-4-4_zc1n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Dos criadores de Silent Hill 2 Remake, Cronos: The New Dawn recebe novo trailer de jogabilidade no Xbox Showcase 2025",
@@ -45,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-showcase/141456/news/dos-criadores-de-silent-hill-2-remake-cronos-the-new-dawn-recebe-novo-trailer-de-jogabilidade-no-xbo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-10-21-101113954_aseh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Estúdio de Pokémon apresenta novo game - e é bonito - no Xbox Games Showcase 2025: Beast of Reincarnation",
@@ -53,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-showcase/141459/news/estudio-de-pokemon-apresenta-novo-game-e-e-bonito-no-xbox-games-showcase-2025-beast-of-reincarnation",
     "imagem": "https://sm.ign.com/t/ign_br/news/b/beast-of-r/beast-of-reincarnation-is-a-game-freak-action-game-due-out-2_qswq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Resonance: A Plague Tale Legacy é anunciado no Xbox Games Showcase 2025",
@@ -61,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-showcase/141452/news/resonance-a-plague-tale-legacy-e-anunciado-no-xbox-games-showcase-2025",
     "imagem": "https://sm.ign.com/t/ign_br/news/r/resonance-/resonance-a-plague-tale-legacy-revealed-for-2026-release-at_crpd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
@@ -69,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   },
   {
     "titulo": "Death Stranding 2, Sonic Racing: CrossWorlds e Onimusha: Way of the Sword e mais: todos os anúncios do Summer Game Fest 2025",
@@ -77,78 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/summer-game-fest-900x503_m6qr.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Love Eternal is a 'gravity-defying horror platformer' within which a teenager must escape the clutches of an angry ancient god",
-    "descricao": "PCGS 2025That's way too much to deal with, even by horror game standards.",
-    "link": "https://www.pcgamer.com/games/horror/love-eternal-is-a-gravity-defying-horror-platformer-within-which-a-teenager-must-escape-the-clutches-of-an-angry-ancient-god/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/QVvEBhdvTrUa8xvZmErVE7.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "I'm as surprised as you are, but Gears of War: Reloaded is showing every other major publisher how a remake should be handled",
-    "descricao": "NewsThe Cole Train is coming.",
-    "link": "https://www.pcgamer.com/games/action/im-as-surprised-as-you-are-but-gears-of-war-reloaded-is-showing-every-other-major-publisher-how-a-remake-should-be-handled/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RN9TNzpqauvpL7ivdFtnZc.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Morbid Metal looks like a techno-amalgam of Risk of Rain, Warframe, and Devil May Cry—with a playable demo around the corner, and early access later this year",
-    "descricao": "PCGS 2025It’s all robot rock at the PC Gaming Show 2025",
-    "link": "https://www.pcgamer.com/games/roguelike/morbid-metal-looks-like-a-techno-amalgam-of-risk-of-rain-warframe-and-devil-may-cry-with-a-playable-demo-around-the-corner-and-early-access-later-this-year/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xdHdWFcTdwr3b58LR5cYoZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Blippo+ is an uncanny, Hypnospace Outlaw-style game where you must flick through an alien off-cable TV network full of 'cloned opera stars and spooky raconteurs'",
-    "descricao": "PCGS 2025Anything can happen in the next half-hour! Anything. Any. Thing.",
-    "link": "https://www.pcgamer.com/games/sim/blippo-is-an-uncanny-hypnospace-outlaw-style-game-where-you-must-flick-through-an-alien-off-cable-tv-network-full-of-cloned-opera-stars-and-spooky-raconteurs/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/iVc8WYuaQKrEGjL85Em8kN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Mycopunk, the co-op shooter of the summer, gets a release date at the PC Gaming Show 2025",
-    "descricao": "PCGS 2025Fungus becomes enemy number one in July.",
-    "link": "https://www.pcgamer.com/games/fps/mycopunk-the-co-op-shooter-of-the-summer-gets-a-release-date-at-the-pc-gaming-show-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/5i2yPJy32zHWFD44zkRPRP.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "The first published game from the Vampire Survivors' devs is a ludicrous hack-n-slash you control by mashing your keyboard and, oh, it's out right now",
-    "descricao": "PCGS 2025You've got two options: Berserk or Die.",
-    "link": "https://www.pcgamer.com/games/action/the-first-published-game-from-the-vampire-survivors-devs-is-a-ludicrous-hack-n-slash-you-control-by-mashing-your-keyboard-and-oh-its-out-right-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/nSYLDYK49ZECPPgMHXvHy6.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Endless Legend 2 is hitting early access in August, after which I won't be leaving my office for the rest of the summer",
-    "descricao": "PCGS 2025Screw the sunshine, I'm off to Saiadha.",
-    "link": "https://www.pcgamer.com/games/strategy/endless-legend-2-is-hitting-early-access-in-august-after-which-i-wont-be-leaving-my-office-for-the-rest-of-the-summer/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/hDVbZJLHW8kXoERYTNxGBD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Warhammer 40,000: Darktide's first new class is the cop from hell and his robot dog",
-    "descricao": "PCGS 2025The Adeptus Arbites arrive June 23 to dispense law and order.",
-    "link": "https://www.pcgamer.com/games/fps/warhammer-40-000-darktides-first-new-class-is-the-cop-from-hell-and-his-robot-dog/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/9zn5UyxG4vaAm7mwjccDb8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
-  },
-  {
-    "titulo": "Open world failson walking simulator Baby Steps is clumsily waddling our way in a dirty onesie—play the Steam demo now",
-    "descricao": "PCGS 2025Safe to assume there'll be a lot of stumbling in the process.",
-    "link": "https://www.pcgamer.com/games/sim/open-world-failson-walking-simulator-baby-steps-is-clumsily-waddling-our-way-in-a-dirty-onesie-play-the-steam-demo-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zinc6mTjgALqELsqz9QvvQ.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-08T17:48:59"
+    "timestamp": "2025-06-08T17:58:51"
   }
 ];
