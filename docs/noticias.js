@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "CoD Black Ops 7, Xbox portátil e mais: os principais anúncios do Xbox Showcase 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141445/news/the-outer-worlds-2-pc-portatil-ninja-gaiden-4-e-mais-os-principais-anuncios-do-xbox-showcase-de-junh",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64040/64040_z1qp.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Em parceria com a Asus, Microsoft anuncia ROG Xbox Ally, PC portátil da marca",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141443/news/em-parceria-com-a-asus-microsoft-anuncia-rog-xbox-ally-pc-portatil-da-marca-com-duas-versoes",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64020/64020_ayqv.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "The Outer Worlds 2 ganha novo trailer e data de lançamento no Xbox Games Showcase",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-outer-worlds-2/141451/news/the-outer-worlds-2-ganha-novo-trailer-e-data-de-lancamento-no-xbox-games-showcase",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/63997/63997_9k7z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Com retorno de vilão conhecido da franquia, Call of Duty Black Ops 7 é confirmado e trará era futurista de volta à série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141465/news/com-retorno-de-vilao-conhecido-da-franquia-call-of-duty-black-ops-7-e-confirmado-e-trara-era-futuris",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-4-4_zc1n.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Dos criadores de Silent Hill 2 Remake, Cronos: The New Dawn recebe novo trailer de jogabilidade no Xbox Showcase 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141456/news/dos-criadores-de-silent-hill-2-remake-cronos-the-new-dawn-recebe-novo-trailer-de-jogabilidade-no-xbo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-10-21-101113954_aseh.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Estúdio de Pokémon apresenta novo game - e é bonito - no Xbox Games Showcase 2025: Beast of Reincarnation",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141459/news/estudio-de-pokemon-apresenta-novo-game-e-e-bonito-no-xbox-games-showcase-2025-beast-of-reincarnation",
-    "imagem": "https://sm.ign.com/t/ign_br/news/b/beast-of-r/beast-of-reincarnation-is-a-game-freak-action-game-due-out-2_qswq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Resonance: A Plague Tale Legacy é anunciado no Xbox Games Showcase 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-showcase/141452/news/resonance-a-plague-tale-legacy-e-anunciado-no-xbox-games-showcase-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/news/r/resonance-/resonance-a-plague-tale-legacy-revealed-for-2026-release-at_crpd.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
-    "titulo": "Death Stranding 2, Sonic Racing: CrossWorlds e Onimusha: Way of the Sword e mais: todos os anúncios do Summer Game Fest 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/summer-game-fest/141367/news/death-stranding-2-sonic-racing-crossworlds-e-onimusha-way-of-the-sword-e-mais-todos-os-anuncios-do-s",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/summer-game-fest-900x503_m6qr.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-09T11:42:14"
-  },
-  {
     "titulo": "'MSI Afterburner is a bit PowerColor Afterburner now' as the dev had to buy another manufacturer's GPU to build support for AMD's RDNA 4 graphics cards into the next beta",
     "descricao": "NewsNo MSI RDNA 4 cards means no MSI RDNA 4 hardware for the Afterburner dev.",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/msi-afterburner-is-a-bit-powercolor-afterburner-now-as-the-dev-had-to-buy-another-manufacturers-gpu-to-build-support-for-amds-rdna-4-graphics-cards-into-the-next-beta/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gdTrKHGoFe4a3yr8zfFcoZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Atlus promises it hasn't forgotten how to make new Persona games, says it's 'actively preparing for' something I'd bet money is Persona 6",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/atlus-promises-it-hasnt-forgotten-how-to-make-new-persona-games-says-its-actively-preparing-for-something-id-bet-money-is-persona-6/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/efjnR4D3ixAR2KAHt5z2Qi.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Move over Ashcroft, Resident Evil 9 will have its T-virus poster boy back in the limelight according to notable Resi leaker: 'Leon Kennedy is not the only playable character but he is the main character'",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/move-over-ashcroft-resident-evil-9-will-have-its-t-virus-poster-boy-back-in-the-limelight-according-to-notable-resi-leaker-leon-kennedy-is-not-the-only-playable-character-but-he-is-the-main-character/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CNPWchWpstNnuef5GkJUng.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Our favorite budget VR headset is at its lowest ever price right now and I can't get over how cheap it is to get into virtual reality these days",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/vr-hardware/our-favorite-budget-vr-headset-is-at-its-lowest-ever-price-right-now-and-i-cant-get-over-how-cheap-it-is-to-get-into-virtual-reality-these-days/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eMcoPYyB3XXhBFy42JJNXM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "I grabbed the free demo of dark new fantasy RPG The Fall of Avalon: Tainted Grail and, boy, does it take Bethesda back to school",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/i-grabbed-the-free-demo-of-dark-new-fantasy-rpg-the-fall-of-avalon-tainted-grail-and-boy-does-it-take-bethesda-back-to-school/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/etC6RnWJvvoxA5ChHY2C6Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Lian Li's new Hydroshift AIO cooler doesn't work properly on some motherboards but it will send you a replacement part if you can't get around the issue in the BIOS",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/lian-lis-new-hydroshift-aio-cooler-doesnt-work-properly-on-some-motherboards-but-it-will-send-you-a-replacement-part-if-you-cant-get-around-the-issue-in-the-bios/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oG5PTARcbzVAf6KCrJJGeS.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Xbox is headed to handhelds but its gaming-first UI will also land on existing ROG Ally and ROG Ally X and 'other Windows handhelds starting next year'",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/xbox-is-headed-to-handhelds-but-its-gaming-first-ui-will-also-land-on-existing-rog-ally-and-rog-ally-x-and-other-windows-handhelds-starting-next-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Z4vDy4ZTq3Ez22wJVGnKse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "Of course, Team Cherry didn't deign to tell anyone that Hollow Knight: Silksong is arriving before Christmas in a weekend of showcases—but via a random Discord message",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/of-course-team-cherry-didnt-deign-to-tell-anyone-that-hollow-knight-silksong-is-arriving-before-christmas-in-a-weekend-of-showcases-but-via-a-random-discord-message/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ThYcoVdoxVUpSu6DUNwyQB.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
   },
   {
     "titulo": "The Witcher 3 once had a suicide mission ending 'inspired by Mass Effect 2,' a quest where Geralt joined the Wild Hunt, and a version of its vampire-focused Blood and Wine DLC without vampires",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-witcher/the-witcher-3-once-had-a-suicide-mission-ending-inspired-by-mass-effect-2-a-quest-where-geralt-joined-the-wild-hunt-and-a-version-of-its-vampire-focused-blood-and-wine-dlc-without-vampires/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/W3pCVF8WHGgNURAVGL7dUY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-09T11:42:14"
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Xbox antecipa retorno de Halo em 2026 e tudo indica para um novo remaster de Halo: CE",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/halo-combat-evolved/141483/news/phil-spencer-chefe-do-xbox-antecipa-retorno-de-halo-em-2026-e-tudo-indica-para-um-novo-remaster-de-h",
+    "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-boss-/xbox-boss-phil-spencer-teases-return-of-halo-in-2026-and-its_rs5m.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "CoD Black Ops 7, Xbox portátil e mais: os principais anúncios do Xbox Showcase 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox-showcase/141445/news/the-outer-worlds-2-pc-portatil-ninja-gaiden-4-e-mais-os-principais-anuncios-do-xbox-showcase-de-junh",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64040/64040_z1qp.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Em parceria com a Asus, Microsoft anuncia ROG Xbox Ally, PC portátil da marca",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox-showcase/141443/news/em-parceria-com-a-asus-microsoft-anuncia-rog-xbox-ally-pc-portatil-da-marca-com-duas-versoes",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64020/64020_ayqv.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Resident Evil 9: Requiem é anunciado e mostra retorno a Raccoon City com nova personagem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-9/141410/news/resident-evil-9-requiem-e-anunciado-e-mostra-retorno-a-raccoon-city",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_35gj.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Mesmo sem mostrar novidades no Xbox Showcase, Microsoft mantém promessa de Gears of War: E-Day para 2026",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/gears-of-war-e-day/141508/news/mesmo-sem-mostrar-novidades-no-xbox-showcase-microsoft-mantem-promessa-de-gears-of-war-e-day-para-20",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-didnt-show-gears-of-war-e-day-at-xbox-games-showca_da26.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Há mais de 20 anos isso sempre aconteceu, mas fãs da Nintendo percebem mudança envolvendo Shigeru Miyamoto em Mario Kart World",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mario-kart-world/141502/news/ha-mais-de-20-anos-isso-sempre-aconteceu-mas-fas-da-nintendo-percebem-mudanca-envolvendo-shigeru-miy",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-spot-shigeru-miyamoto-missing-from-mario-kart_q8s7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Desenvolvedor de Hollow Knight: Silksong esclarece que game não está atrelado ao lançamento do portátil do Xbox e chegará antes do Natal",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hollow-knight-silksong/141492/news/desenvolvedor-de-hollow-knight-silksong-esclarece-que-game-nao-esta-atrelado-ao-lancamento-do-portat",
+    "imagem": "https://sm.ign.com/t/ign_br/news/h/hollow-kni/hollow-knight-silksong-developer-responds-to-release-date-co_emb7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Seguindo onda de aumentos de preços, The Outer Worlds 2 será o primeiro jogo do Xbox a custar US$ 80",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-outer-worlds-2/141484/news/seguindo-onda-de-aumentos-de-precos-the-outer-worlds-2-sera-o-primeiro-jogo-do-xbox-a-custar-us-80",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-outer-/the-outer-worlds-2-is-microsofts-first-confirmed-80-game_aqnp.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Shinobi: Art of Vengeance brilha com uma gameplay muito responsiva e fluida | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/shinobi-art-of-vengeance/141522/preview/shinobi-art-of-vengeance-brilha-com-uma-gameplay-muito-responsiva-e-fluida-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fire-ninpo-1_dqqg.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
+  },
+  {
+    "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-09T11:54:19"
   }
 ];
