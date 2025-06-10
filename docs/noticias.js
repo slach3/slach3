@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "After 10 months, SAG-AFTRA union has reached a 'tentative agreement' with major companies including EA, Warner Bros, and Epic over AI voice acting protections",
+    "descricao": "NewsSAG-AFTRA will remain on strike until the \"agreement is reached\".",
+    "link": "https://www.pcgamer.com/gaming-industry/after-10-months-sag-aftra-union-has-reached-a-tentative-agreement-with-major-companies-including-ea-warner-bros-and-epic-over-ai-voice-acting-protections/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dy5JNPBmSYKiM6XDNw4gCN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-10T08:32:17"
+  },
+  {
+    "titulo": "Dying Light: The Beast director explains how the team caved to popular demand, 'Let's give the players the guns if they want'",
+    "descricao": "NewsMelee is better than guns, change my mind.",
+    "link": "https://www.pcgamer.com/games/horror/dying-light-the-beast-director-explains-how-the-team-caved-to-popular-demand-lets-give-the-players-the-guns-if-they-want/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3Q58NpEx9EAs69UeUPfNAU.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-10T08:32:17"
+  },
+  {
     "titulo": "Great, so now farms are going to be crawling with giant robobugs like something straight out of Horizon Zero Dawn",
     "descricao": "NewsHow long before the 'derangement' occurs?",
     "link": "https://www.pcgamer.com/hardware/great-so-now-farms-are-going-to-be-crawling-with-giant-robobugs-like-something-straight-out-of-horizon-zero-dawn/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rtmiBmY7y5vLJHKKDKE6hC.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "The most convenient handheld gaming PC I've ever used is getting upgraded with an OLED screen, Ryzen HX 370, and a repositioned mouse nub (that's the best bit)",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-most-convenient-handheld-gaming-pc-ive-ever-used-is-getting-upgraded-with-an-oled-screen-ryzen-hx-370-and-a-repositioned-mouse-nub-thats-the-best-bit/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6sNsSXPLntgKfX66CBpDsM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Elden Ring Nightreign update aims to fix one Nightlord boss tanking your framerate—the other from going berserk and mashing you into paste with '72 consecutive attacks'",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-update-aims-to-fix-one-nightlord-boss-tanking-your-framerate-the-other-from-going-berserk-and-mashing-you-into-paste-with-72-consecutive-attacks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/y4nCcYPKxvrujepWFrbRBH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "I grabbed the free demo of dark new fantasy RPG The Fall of Avalon: Tainted Grail and, boy, does it take Bethesda back to school",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/i-grabbed-the-free-demo-of-dark-new-fantasy-rpg-the-fall-of-avalon-tainted-grail-and-boy-does-it-take-bethesda-back-to-school/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/etC6RnWJvvoxA5ChHY2C6Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, June 10",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-10-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Lisan al-Gaib! Sandworm-riding isn't a feature in Dune: Awakening, but players are doing it anyway",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/lisan-al-gaib-sandworm-riding-isnt-a-feature-in-dune-awakening-but-players-are-doing-it-anyway/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/323JGL4dvibCckKx5jDZEc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Apple's new UI for Macs and iPhones 'combines the optical qualities of glass with a fluidity only Apple can achieve,' but it sure looks like an awful lot like Windows Vista circa 2007",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/apples-new-ui-for-macs-and-iphones-combines-the-optical-qualities-of-glass-with-a-fluidity-only-apple-can-achieve-but-it-sure-looks-like-an-awful-lot-like-windows-vista-circa-2007/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gkGjr6mcBKL6C8jYsCoea.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
-  },
-  {
-    "titulo": "13 years after it was first teased, and 2 months after committing to a 2025 release, Mewgenics is delayed into 2026",
-    "descricao": "newsEarly 2026, though, so that's not so bad.",
-    "link": "https://www.pcgamer.com/games/rpg/13-years-after-it-was-first-teased-and-2-months-after-committing-to-a-2025-release-mewgenics-is-delayed-into-2026/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3KFrhf6GGzWQ3DrSTquwhb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
-  },
-  {
-    "titulo": "Elden Ring Nightreign has an ultra-rare item with a 0.035% chance to drop and players are convinced it's the key to the game's biggest secret",
-    "descricao": "newsYou just need to actually find one before you can test the theories.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-has-an-ultra-rare-item-with-a-0-035-percent-chance-to-drop-and-players-are-convinced-its-the-key-to-the-games-biggest-secret/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/s6tKPmDfGJjHa6QJ3Ha9c7.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Review: Mario Kart World tem charme, mas mundo aberto com potencial inexplorado",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/141548/review/mario-kart-world-tem-charme-e-velocidade-mas-mundo-aberto-com-potencial-inexplorado-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64163/64163_cz75.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Testamos o ROG Xbox Ally X, novo portátil da Asus com a Microsoft | Preview",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-ally/141514/preview/o-poder-de-um-xbox-na-palma-de-suas-maos-testamos-o-rog-xbox-ally-x-novo-portatil-da-asus-com-a-micr",
     "imagem": "https://sm.ign.com/t/ign_br/preview/h/hands-on-w/hands-on-with-the-xbox-ally-x-the-new-gaming-handheld-from-a_fhwd.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Xbox antecipa retorno de Halo em 2026 e tudo indica para um novo remaster de Halo: CE",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/halo-combat-evolved/141483/news/phil-spencer-chefe-do-xbox-antecipa-retorno-de-halo-em-2026-e-tudo-indica-para-um-novo-remaster-de-h",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-boss-/xbox-boss-phil-spencer-teases-return-of-halo-in-2026-and-its_rs5m.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "De geógrafa a game designer, Melina Juraski prova que setor abrange todos os conhecimentos",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141194/feature/percebi-que-tinha-um-espaco-para-entrar-de-geografa-a-game-designer-melina-juraski-prova-que-a-area",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64166/64166_yuj9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Nem pré-venda, nem ficar na fila — jogador compartilha história incrivelmente fofa de como conseguiu o Nintendo Switch 2: \"me sinto muito sortudo\"",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/the-legend-of-zelda-the-wind-waker/141547/news/nem-pre-venda-nem-ficar-na-fila-jogador-compartilha-historia-incrivelmente-fofa-de-como-conseguiu-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ww_adve.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Mesmo sem mostrar novidades no Xbox Showcase, Microsoft mantém promessa de Gears of War: E-Day para 2026",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/gears-of-war-e-day/141508/news/mesmo-sem-mostrar-novidades-no-xbox-showcase-microsoft-mantem-promessa-de-gears-of-war-e-day-para-20",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-didnt-show-gears-of-war-e-day-at-xbox-games-showca_da26.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Há mais de 20 anos isso sempre aconteceu, mas fãs da Nintendo percebem mudança envolvendo Shigeru Miyamoto em Mario Kart World",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/141502/news/ha-mais-de-20-anos-isso-sempre-aconteceu-mas-fas-da-nintendo-percebem-mudanca-envolvendo-shigeru-miy",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-spot-shigeru-miyamoto-missing-from-mario-kart_q8s7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Desenvolvedor de Hollow Knight: Silksong esclarece que game não está atrelado ao lançamento do portátil do Xbox e chegará antes do Natal",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/hollow-knight-silksong/141492/news/desenvolvedor-de-hollow-knight-silksong-esclarece-que-game-nao-esta-atrelado-ao-lancamento-do-portat",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hollow-kni/hollow-knight-silksong-developer-responds-to-release-date-co_emb7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Shinobi: Art of Vengeance brilha com uma gameplay muito responsiva e fluida | Preview",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/shinobi-art-of-vengeance/141522/preview/shinobi-art-of-vengeance-brilha-com-uma-gameplay-muito-responsiva-e-fluida-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fire-ninpo-1_dqqg.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   },
   {
     "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T08:19:20"
+    "timestamp": "2025-06-10T08:32:17"
   }
 ];
