@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/141548/review/mario-kart-world-tem-charme-e-velocidade-mas-mundo-aberto-com-potencial-inexplorado-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64163/64163_cz75.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Testamos o ROG Xbox Ally X, novo portátil da Asus com a Microsoft | Preview",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-ally/141514/preview/o-poder-de-um-xbox-na-palma-de-suas-maos-testamos-o-rog-xbox-ally-x-novo-portatil-da-asus-com-a-micr",
     "imagem": "https://sm.ign.com/t/ign_br/preview/h/hands-on-w/hands-on-with-the-xbox-ally-x-the-new-gaming-handheld-from-a_fhwd.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Xbox antecipa retorno de Halo em 2026 e tudo indica para um novo remaster de Halo: CE",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/halo-combat-evolved/141483/news/phil-spencer-chefe-do-xbox-antecipa-retorno-de-halo-em-2026-e-tudo-indica-para-um-novo-remaster-de-h",
     "imagem": "https://sm.ign.com/t/ign_br/news/x/xbox-boss-/xbox-boss-phil-spencer-teases-return-of-halo-in-2026-and-its_rs5m.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "De geógrafa a game designer, Melina Juraski prova que setor abrange todos os conhecimentos",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141194/feature/percebi-que-tinha-um-espaco-para-entrar-de-geografa-a-game-designer-melina-juraski-prova-que-a-area",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64166/64166_yuj9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Nem pré-venda, nem ficar na fila — jogador compartilha história incrivelmente fofa de como conseguiu o Nintendo Switch 2: \"me sinto muito sortudo\"",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/the-legend-of-zelda-the-wind-waker/141547/news/nem-pre-venda-nem-ficar-na-fila-jogador-compartilha-historia-incrivelmente-fofa-de-como-conseguiu-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ww_adve.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Mesmo sem mostrar novidades no Xbox Showcase, Microsoft mantém promessa de Gears of War: E-Day para 2026",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/gears-of-war-e-day/141508/news/mesmo-sem-mostrar-novidades-no-xbox-showcase-microsoft-mantem-promessa-de-gears-of-war-e-day-para-20",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-didnt-show-gears-of-war-e-day-at-xbox-games-showca_da26.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Há mais de 20 anos isso sempre aconteceu, mas fãs da Nintendo percebem mudança envolvendo Shigeru Miyamoto em Mario Kart World",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/mario-kart-world/141502/news/ha-mais-de-20-anos-isso-sempre-aconteceu-mas-fas-da-nintendo-percebem-mudanca-envolvendo-shigeru-miy",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-f/nintendo-fans-spot-shigeru-miyamoto-missing-from-mario-kart_q8s7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Desenvolvedor de Hollow Knight: Silksong esclarece que game não está atrelado ao lançamento do portátil do Xbox e chegará antes do Natal",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/hollow-knight-silksong/141492/news/desenvolvedor-de-hollow-knight-silksong-esclarece-que-game-nao-esta-atrelado-ao-lancamento-do-portat",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hollow-kni/hollow-knight-silksong-developer-responds-to-release-date-co_emb7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Shinobi: Art of Vengeance brilha com uma gameplay muito responsiva e fluida | Preview",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/shinobi-art-of-vengeance/141522/preview/shinobi-art-of-vengeance-brilha-com-uma-gameplay-muito-responsiva-e-fluida-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fire-ninpo-1_dqqg.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Dying Light: The Beast acerta ao trazer mudanças e novidades muito bem-vindas a franquia | Preview",
@@ -77,7 +77,15 @@ const noticias = [
     "link": "https://br.ign.com/dying-light-the-beast/141440/preview/dying-light-the-beast-acerta-ao-trazer-mudancas-e-novidades-muito-bem-vindas-a-franquia-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dying-light-the-beast-screenshot-20_nuzj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
+  },
+  {
+    "titulo": "Despite its new easy mode, Lies of P will get a 'difficulty reduction' in a future update because too many players are getting wrecked by the DLC",
+    "descricao": "newsThe Overture DLC saw the addition of an easy mode, but it also made the standard difficulty really, really hard.",
+    "link": "https://www.pcgamer.com/games/action/despite-its-new-easy-mode-lies-of-p-will-get-a-difficulty-reduction-in-a-future-update-because-too-many-players-are-getting-wrecked-by-the-dlc/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ETizsYSoavv2AoHcndFrNC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Team Ninja says Ninja Gaiden 4 is all about 'bringing together the stylish qualities of Platinum while retaining that distinct Ninja Gaiden feel'—and the studios 'wouldn't hold back' critiquing each other's work",
@@ -85,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/team-ninja-says-ninja-gaiden-4-is-all-about-bringing-together-the-stylish-qualities-of-platinum-while-retaining-that-distinct-ninja-gaiden-feel-and-the-studios-wouldnt-hold-back-critiquing-each-others-work/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/R8EG9s7qx8DS4AHt6GsQtG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Dune: Awakening live coverage: Server status, launch info, and all the latest news",
@@ -93,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/live/news/dune-awakening-live-coverage-server-status-launch-info-and-all-the-latest-news/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kFf7sej9GiBNnxrnXQRxzH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Embracer CEO who oversaw the staggering $2B blunder that led to studio closures and layoffs is now set to become its executive chair, focusing on 'mergers and acquisitions and capital allocation'",
@@ -101,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/embracer-ceo-who-oversaw-the-staggering-usd2b-blunder-that-led-to-studio-closures-and-layoffs-is-now-set-to-become-its-executive-chair-focusing-on-mergers-and-acquisitions-and-capital-allocation/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TBfDUytJuyd7HuMFTaL2Uf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "'My biggest fear is the direct comparison to Grounded 1': Grounded 2 executive producer opens up about the difficulty of following up an early access game with another early access game",
@@ -109,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/my-biggest-fear-is-the-direct-comparison-to-grounded-1-grounded-2-executive-producer-opens-up-about-the-difficulty-of-following-up-an-early-access-game-with-another-early-access-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XMhW3PodP7hqctyJoh9RqT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Sizzle and Stack is a cooking strategy game which truly captures the chaos of making meals for angry customers like no other",
@@ -117,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/sizzle-and-stack-is-a-cooking-strategy-game-which-truly-captures-the-chaos-of-making-meals-for-angry-customers-like-no-other/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tMycLcE8ER2cPF838ogtMd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "One of our favorite RTX 50-series gaming laptops has $100s knocked off the price already, so it's just down to you to pick the GPU",
@@ -125,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/one-of-our-favorite-rtx-50-series-gaming-laptops-has-usd100s-knocked-off-the-price-already-so-its-just-down-to-you-to-pick-the-gpu/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/D7q8kQJvpNUtrpgggYDeSj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "Japanese book publisher 'urgently' reprints Dante's Divine Comedy because a gacha game where you can summon him has the weebs thirsting for that 14th century epic verse",
@@ -133,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/japanese-book-publisher-urgently-reprints-dantes-divine-comedy-because-a-gacha-game-where-you-can-summon-him-has-the-weebs-thirsting-for-that-14th-century-epic-verse/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YppUFn6YNDgxRrUZBBn5GR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   },
   {
     "titulo": "The Outer Worlds 2 game director says its writing has a 'less silly, darker tone' than the first game",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-outer-worlds-2-game-director-says-its-writing-has-a-less-silly-darker-tone-than-the-first-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DUg2h4U3Z66RGRMhWv9Un.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
-  },
-  {
-    "titulo": "US peripheral maker cites 'global supply chain issues' as the reason for releasing its new gaming mouse everywhere except the US",
-    "descricao": "newsLocally global issues, or should that be globally local...?",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/us-peripheral-maker-cites-global-supply-chain-issues-as-the-reason-for-releasing-its-new-gaming-mouse-everywhere-except-the-us/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dVmKNcYgUpGENgz2vPqdyY.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-10T15:52:53"
+    "timestamp": "2025-06-10T16:10:09"
   }
 ];
