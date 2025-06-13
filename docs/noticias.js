@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/playstation-studios-boss-admits-marathon-response-has-been-varied-but-says-sony-is-taking-steps-to-ensure-its-not-going-to-make-the-same-mistakes-it-did-with-concord/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3VF4uwTrLB4WdrcHVDghc9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Gooner game of the year Stellar Blade's mods are 41% smut, ensuring gamers will never see the light of heaven",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/gooner-game-of-the-year-stellar-blades-mods-are-41-percent-smut-ensuring-gamers-will-never-see-the-light-of-heaven/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wBHoycbbE3vMzDsXXdEA55.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Xbox handheld rumoured to be 'essentially cancelled' but the new Asus Xbox Ally is actually a preview of all future Xbox consoles, not just handhelds",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/xbox-handheld-rumoured-to-be-essentially-cancelled-but-the-new-asus-xbox-ally-is-actually-a-preview-of-all-future-xbox-consoles-not-just-handhelds/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Z4vDy4ZTq3Ez22wJVGnKse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Some RX 9070 XTs are reportedly slightly slower than others thanks to Samsung GDDR6 memory chips",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/some-rx-9070-xts-are-reportedly-slower-than-others-thanks-to-samsung-gddr6-memory-chips/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vjDpNrENjGgFrZ6RkYpRNB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "'No gay, no pay': The RuneScape community is absolutely mauling Jagex's new CEO over his decision to cancel new Pride Month events",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/no-gay-no-pay-the-runescape-community-is-absolutely-mauling-jagexs-new-ceo-over-his-decision-to-cancel-new-pride-month-events/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tKYdvHVQPgr78ehq4ZhuML.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "'Originally it was like, no, we are not interested': It apparently took 5.5 hours of hardcore pitching to get Thanos in Fortnite—and as you know, the rest is history",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/originally-it-was-like-no-we-are-not-interested-it-apparently-took-5-5-hours-of-hardcore-pitching-to-get-thanos-in-fortnite-and-as-you-know-the-rest-is-history/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AaxYWFcLDM3MKddB8xaoVD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Imagine how big Nvidia's GB200 AI superchip is in person. Nope, it's even bigger than that",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/imagine-how-big-nvidias-gb200-ai-superchip-is-in-person-nope-its-even-bigger-than-that/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3se9qfQEu4sh5Fc2iKUnUo.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Intel's mythical Big Battlemage GPU pops up in the MESA Linux driver making a launch later this year that little bit more likely",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/intels-mythical-big-battlemage-gpu-pops-up-in-the-mesa-linux-driver-making-a-launch-later-this-year-that-little-bit-more-likely/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4m4FmdTcxgYiDnhuBkFxnV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "'We have people working on fixing the goomba stomping'—Dune: Awakening's PvP is getting dominated by packs of rabid ornithopter pilots squishing their enemies",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/we-have-people-working-on-fixing-the-goomba-stomping-dune-awakenings-pvp-is-getting-dominated-by-packs-of-rabid-ornithopter-pilots-squishing-their-enemies/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dFPP5VQkNWFecJgNEGrFfa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Konami confirma que Bloober Team agora desenvolve remake do Silent Hill original",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/silent-hill/141729/news/apos-sucesso-de-silent-hill-2-konami-confirma-que-bloober-team-agora-desenvolve-remake-do-silent-hil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64331/64331_geyw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Devil's Drizzle, indie brasileiro, mistura pixel art de SNES e humor de Crash",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/devils-drizzle/141291/feature/e-um-jogo-com-a-pixel-art-do-super-nintendo-e-o-humor-de-crash-diretor-de-devils-drizzle-fala-sobre",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64332/64332_3ekx.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Jogamos: Resident Evil Requiem tem como força imersão em cenário de terror absoluto",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/141525/preview/jogamos-resident-evil-requiem-tem-como-grande-forca-a-imersao-em-um-cenario-de-terror-absoluto-previ",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/re9grace_2646.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Pragmata surpreende com um combate rápido e divertido | Preview Hands-on",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/pragmata/141444/preview/pragmata-surpreende-com-um-combate-rapido-e-divertido-preview",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/pragmata_c5mj.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "\"De coração partido\": responsáveis por MindsEye emitem nota comentando lançamento desastroso em meio a diversos pedidos de reembolso",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/mindseye/141744/news/de-coracao-partido-responsaveis-por-mindseye-emitem-nota-comentando-lancamento-desastroso-em-meio-a",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/mindseye-d/mindseye-dev-heartbroken-amid-troubled-launch-as-players-rep_c87z.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Metal Gear Solid Delta: Snake Eater trará novo modo online de esconde-esconde",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/metal-gear-solid-3-snake-eater-remake/141728/news/metal-gear-solid-delta-snake-eater-trara-novo-modo-online-de-esconde-esconde",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/metal-gear/metal-gear-solid-delta-snake-eater-has-an-online-multiplayer_csrp.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Capcom comemora 42 anos e diz priorizar pessoas acima de tudo para sustentar crescimento, indo contra maré de demissões no mercado ocidental de games",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/capcom/141725/news/capcom-comemora-42-anos-e-diz-priorizar-pessoas-acima-de-tudo-para-sustentar-crescimento-indo-contra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_p1yp.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Time de Mass Effect \"excluiu\" líderes de Dragon Age ao assumir direção de The Veilguard, aponta jornalista em reportagem sobre problemas da BioWare",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/dragon-age-the-veilguard/141711/news/time-de-mass-effect-excluiu-lideres-de-dragon-age-ao-assumir-direcao-de-the-veilguard-aponta-jornali",
     "imagem": "https://sm.ign.com/t/ign_br/photo/d/dragon-age/dragon-age-the-veilguard-director-says-choices-going-back-to_bqnj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
+  },
+  {
+    "titulo": "Earthion, jogo de nave criado para Mega Drive e plataformas atuais, ganha data de lançamento de edição digital",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/earthion/141803/news/earthion-jogo-de-nave-criado-para-mega-drive-e-plataformas-atuais-ganha-data-de-lancamento-de-edicao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/earthion_ybvt.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-13T16:59:28"
   },
   {
     "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível para consumidores locais",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
     "imagem": "https://sm.ign.com/t/ign_br/photo/s/switch-2-h/switch-2-has-to-face-a-problem-the-original-didnt-handheld-g_ndu6.280.gif",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
-  },
-  {
-    "titulo": "O que são VALORANT Points e como obter?",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/valorant/141814/news/o-que-sao-valorant-points-e-como-obter",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/valorant-points-thumb_p4nx.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T16:49:38"
+    "timestamp": "2025-06-13T16:59:28"
   }
 ];
