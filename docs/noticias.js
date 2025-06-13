@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Oil rig horror game Still Wakes the Deep is going underwater in a surprise story expansion that arrives next week",
-    "descricao": "newsSiren's Rest is set 10 years after the events of The Chinese Room's nautical horror game.",
-    "link": "https://www.pcgamer.com/games/horror/oil-rig-horror-game-still-wakes-the-deep-is-going-underwater-in-a-surprise-story-expansion-that-arrives-next-week/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ZNyNBTBmh9rgAeGr8nQ6mZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "GTA Online's Money Fronts update is basically Breaking Bad minus the meth",
-    "descricao": "NewsThe next GTA Online update is getting three new businesses, refining some old missions and adding even more.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-onlines-money-fronts-update-is-basically-breaking-bad-minus-the-meth/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jA4bnistXPNgXY63NiQ6y8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "Sony removes regional restrictions on four of its biggest games on Steam",
-    "descricao": "newsSlowly but surely, Sony seems to be moving toward a more sensible policy on Steam.",
-    "link": "https://www.pcgamer.com/gaming-industry/sony-removes-regional-restrictions-on-four-of-its-biggest-games-on-steam/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ng4e3SackMZpqZwL6GeWsF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "Say goodbye to Overwatch hero Bastion and say hello to next season's Cooler Bastion who will be 10% smaller because he was such a bullet magnet",
-    "descricao": "newsGame balance can take many forms.",
-    "link": "https://www.pcgamer.com/games/fps/say-goodbye-to-overwatch-hero-bastion-and-say-hello-to-next-seasons-cooler-bastion-who-will-be-10-percent-smaller-because-he-was-such-a-bullet-magnet/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/QtdkhqDeWuupQ6TJDVM8yb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "A rumor that Nier: Automata's character designs were censored for Western audiences came from a mistranslation, creators say",
-    "descricao": "newsA mistranslation from a recent live stream caused some confusion.",
-    "link": "https://www.pcgamer.com/games/action/a-rumor-that-nier-automatas-character-designs-were-censored-for-western-audiences-came-from-a-mistranslation-creators-say/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eTceoVV4K4YG2qgZbVPT7H.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "PlayStation Studios boss admits Marathon response has been 'varied' but says Sony is taking steps to ensure it's 'not going to make the same mistakes' it did with Concord",
-    "descricao": "newsHerman Hulst says Sony is giving Bungie's extraction shooter \"the optimal chance of success.\"",
-    "link": "https://www.pcgamer.com/games/fps/playstation-studios-boss-admits-marathon-response-has-been-varied-but-says-sony-is-taking-steps-to-ensure-its-not-going-to-make-the-same-mistakes-it-did-with-concord/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3VF4uwTrLB4WdrcHVDghc9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "Gooner game of the year Stellar Blade's mods are 41% smut, ensuring gamers will never see the light of heaven",
-    "descricao": "NewsIt is, apparently, always possible for there to be less clothing.",
-    "link": "https://www.pcgamer.com/games/action/gooner-game-of-the-year-stellar-blades-mods-are-41-percent-smut-ensuring-gamers-will-never-see-the-light-of-heaven/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wBHoycbbE3vMzDsXXdEA55.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "Xbox handheld rumoured to be 'essentially cancelled' but the new Asus Xbox Ally is actually a preview of all future Xbox consoles, not just handhelds",
-    "descricao": "NewsNo more dedicated Xbox consoles built by Microsoft, so the story goes...",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/xbox-handheld-rumoured-to-be-essentially-cancelled-but-the-new-asus-xbox-ally-is-actually-a-preview-of-all-future-xbox-consoles-not-just-handhelds/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Z4vDy4ZTq3Ez22wJVGnKse.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
-    "titulo": "Some RX 9070 XTs are reportedly slightly slower than others thanks to Samsung GDDR6 memory chips",
-    "descricao": "NewsVery slightly, admittedly.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/some-rx-9070-xts-are-reportedly-slower-than-others-thanks-to-samsung-gddr6-memory-chips/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/vjDpNrENjGgFrZ6RkYpRNB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-13T20:26:37"
-  },
-  {
     "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "Sem estoque e com preços em disparada, Nintendo Switch 2 esgota no Brasil",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141706/news/sem-estoque-e-com-precos-em-disparada-nintendo-switch-2-esgota-em-lancamento-agitado-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64376/64376_v6jg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "Devil's Drizzle, indie brasileiro, mistura pixel art de SNES e humor de Crash",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/devils-drizzle/141291/feature/e-um-jogo-com-a-pixel-art-do-super-nintendo-e-o-humor-de-crash-diretor-de-devils-drizzle-fala-sobre",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64332/64332_3ekx.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "Jogamos: Resident Evil Requiem tem como força imersão em cenário de terror absoluto",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/141525/preview/jogamos-resident-evil-requiem-tem-como-grande-forca-a-imersao-em-um-cenario-de-terror-absoluto-previ",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/re9grace_2646.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "Earthion, jogo de nave criado para Mega Drive e plataformas atuais, ganha data de lançamento de edição digital",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/earthion/141803/news/earthion-jogo-de-nave-criado-para-mega-drive-e-plataformas-atuais-ganha-data-de-lancamento-de-edicao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/earthion_ybvt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "\"Um roubo de dinheiro descarado\": Warhammer 40,000: Space Marine - Master Crafted Edition é detonado por jogadores após lançamento no Steam",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/warhammer-40000-space-marine/141798/news/um-roubo-de-dinheiro-descarado-warhammer-40000-space-marine-master-crafted-edition-e-detonado-por-jo",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/warhammer-/warhammer-40000-space-marine-master-crafted-edition-has-a-mo_gwz4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "\"Daremos ao título a melhor chance de sucesso\": Sony admite feedbacks mistos para Marathon, mas insiste que game não será fracasso como Concord",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/concord/141770/news/daremos-ao-titulo-a-melhor-chance-de-sucesso-sony-admite-feedbacks-mistos-para-marathon-mas-insiste",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-admit/sony-admits-marathon-feedback-has-been-varied-but-insists-it_q5js.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "PS6 vindo aí? De maneira vaga, Sony começa a falar sobre a próxima geração de PlayStation",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-6/141769/news/ps6-vindo-ai-de-maneira-vaga-sony-comeca-a-falar-sobre-a-proxima-geracao-de-playstation",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-is-st/sony-is-starting-to-talk-about-its-next-generation-playstati_7bqc.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "FURIA atropela Virtus Pro e é primeira classificada aos playoffs do Austin Major de Counter-Strike 2",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/esports/141818/news/furia-atropela-virtus-pro-e-e-primeira-classificada-aos-playoffs-do-austin-major-de-counter-strike-2",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/furia-major-austin_t1g2.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
   },
   {
     "titulo": "O que são VALORANT Points e como obter?",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/valorant/141814/news/o-que-sao-valorant-points-e-como-obter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/valorant-points-thumb_p4nx.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-13T20:26:37"
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Oil rig horror game Still Wakes the Deep is going underwater in a surprise story expansion that arrives next week",
+    "descricao": "newsSiren's Rest is set 10 years after the events of The Chinese Room's nautical horror game.",
+    "link": "https://www.pcgamer.com/games/horror/oil-rig-horror-game-still-wakes-the-deep-is-going-underwater-in-a-surprise-story-expansion-that-arrives-next-week/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZNyNBTBmh9rgAeGr8nQ6mZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "GTA Online's Money Fronts update is basically Breaking Bad minus the meth",
+    "descricao": "NewsThe next GTA Online update is getting three new businesses, refining some old missions and adding even more.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-onlines-money-fronts-update-is-basically-breaking-bad-minus-the-meth/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jA4bnistXPNgXY63NiQ6y8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Sony removes regional restrictions on four of its biggest games on Steam",
+    "descricao": "newsSlowly but surely, Sony seems to be moving toward a more sensible policy on Steam.",
+    "link": "https://www.pcgamer.com/gaming-industry/sony-removes-regional-restrictions-on-four-of-its-biggest-games-on-steam/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ng4e3SackMZpqZwL6GeWsF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Say goodbye to Overwatch hero Bastion and say hello to next season's Cooler Bastion who will be 10% smaller because he was such a bullet magnet",
+    "descricao": "newsGame balance can take many forms.",
+    "link": "https://www.pcgamer.com/games/fps/say-goodbye-to-overwatch-hero-bastion-and-say-hello-to-next-seasons-cooler-bastion-who-will-be-10-percent-smaller-because-he-was-such-a-bullet-magnet/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/QtdkhqDeWuupQ6TJDVM8yb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "A rumor that Nier: Automata's character designs were censored for Western audiences came from a mistranslation, creators say",
+    "descricao": "newsA mistranslation from a recent live stream caused some confusion.",
+    "link": "https://www.pcgamer.com/games/action/a-rumor-that-nier-automatas-character-designs-were-censored-for-western-audiences-came-from-a-mistranslation-creators-say/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/eTceoVV4K4YG2qgZbVPT7H.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "PlayStation Studios boss admits Marathon response has been 'varied' but says Sony is taking steps to ensure it's 'not going to make the same mistakes' it did with Concord",
+    "descricao": "newsHerman Hulst says Sony is giving Bungie's extraction shooter \"the optimal chance of success.\"",
+    "link": "https://www.pcgamer.com/games/fps/playstation-studios-boss-admits-marathon-response-has-been-varied-but-says-sony-is-taking-steps-to-ensure-its-not-going-to-make-the-same-mistakes-it-did-with-concord/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/3VF4uwTrLB4WdrcHVDghc9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Gooner game of the year Stellar Blade's mods are 41% smut, ensuring gamers will never see the light of heaven",
+    "descricao": "NewsIt is, apparently, always possible for there to be less clothing.",
+    "link": "https://www.pcgamer.com/games/action/gooner-game-of-the-year-stellar-blades-mods-are-41-percent-smut-ensuring-gamers-will-never-see-the-light-of-heaven/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/wBHoycbbE3vMzDsXXdEA55.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Xbox handheld rumoured to be 'essentially cancelled' but the new Asus Xbox Ally is actually a preview of all future Xbox consoles, not just handhelds",
+    "descricao": "NewsNo more dedicated Xbox consoles built by Microsoft, so the story goes...",
+    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/xbox-handheld-rumoured-to-be-essentially-cancelled-but-the-new-asus-xbox-ally-is-actually-a-preview-of-all-future-xbox-consoles-not-just-handhelds/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Z4vDy4ZTq3Ez22wJVGnKse.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
+  },
+  {
+    "titulo": "Some RX 9070 XTs are reportedly slightly slower than others thanks to Samsung GDDR6 memory chips",
+    "descricao": "NewsVery slightly, admittedly.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/some-rx-9070-xts-are-reportedly-slower-than-others-thanks-to-samsung-gddr6-memory-chips/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/vjDpNrENjGgFrZ6RkYpRNB.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-13T20:41:23"
   }
 ];
