@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "The Witcher 4: CD Projekt está focada no desenvolvimento do jogo para consoles",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-4-1/141831/news/the-witcher-4-cd-projekt-esta-focada-no-desenvolvimento-do-jogo-para-consoles-e-com-um-bom-motivo",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-cd-projekt-is-taking-a-console-first-developme_fwxt.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Nintendo anuncia novo Direct com foco em Donkey Kong Bananza, exclusivo do Switch 2",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza/141827/news/nintendo-anuncia-novo-direct-com-foco-em-donkey-kong-bananza-novo-exclusivo-do-switch-2",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64398/64398_6v6y.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Sonic Racing: CrossWorlds é celebração espetacular da história da Sega em corridas de kart",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/sonic-racing-crossworlds/141845/preview/sonic-racing-crossworlds-e-celebracao-espetacular-da-historia-da-sega-em-corridas-de-kart-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64399/64399_zzrd.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Ratchet e Clank: Em Outra Dimensão tem easter egg tão bem escondido que a desenvolvedora teve que revelá-lo porque ninguém encontrou",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ratchet-clank-rift-apart/141836/news/ratchet-e-clank-em-outra-dimensao-tem-easter-egg-tao-bem-escondido-que-a-desenvolvedora-teve-que-rev",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-2_6v8m.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "\"No DCU, se você morre, acabou\": James Gunn não pretende ressuscitar personagens no reboot do universo cinematográfico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/141828/news/no-dcu-se-voce-morre-acabou-james-gunn-nao-pretende-ressuscitar-personagens-no-reboot-do-universo-ci",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/superman-d/superman-director-james-gunn-says-deaths-will-count-in-the-r_a3yx.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Fatal Fury: City of the Wolves revela data de lançamento de Andy Bogard com trailer de gameplay",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/141789/news/fatal-fury-city-of-the-wolves-revela-data-de-lancamento-de-andy-bogard-com-trailer-de-gameplay",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/andy-bogard_x6g3.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "Além de Mario Kart World: 5 jogos para testar no Nintendo Switch 2",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141800/news/alem-de-mario-kart-world-5-jogos-para-testar-no-nintendo-switch-2",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch-2_hzur.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "\"Acho que nunca disse isso publicamente\": Will Smith revela ter recusado papel principal em filme de Christopher Nolan",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/inception/141832/news/acho-que-nunca-disse-isso-publicamente-will-smith-revela-ter-recusado-papel-principal-em-filme-de-ch",
-    "imagem": "https://sm.ign.com/t/ign_br/news/w/will-smith/will-smith-reveals-he-rejected-christopher-nolans-inception_agnq.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
-  },
-  {
-    "titulo": "\"Onde está a minha 2ª temporada?\": Temuera Morrison revela que está frustrado com sumiço de O Livro de Boba Fett no universo Star Wars",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars-the-mandalorian/141839/news/onde-esta-a-minha-2a-temporada-temuera-morrison-revela-que-esta-frustrado-com-sumico-de-o-livro-de-b",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/temuera-mo/temuera-morrison-says-hes-sad-not-to-have-played-boba-fett-s_2195.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T13:44:39"
+    "titulo": "'Do it fast, do it dirty': The Witcher 4's narrative director discusses the studio's philosophy and what made The Witcher 3 so great",
+    "descricao": "NewsNow that's a GDoc that I'd like to see.",
+    "link": "https://www.pcgamer.com/games/the-witcher/do-it-fast-do-it-dirty-the-witcher-4s-narrative-director-discusses-the-studios-philosophy-and-what-made-the-witcher-3-so-great/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ewdfgs7uaNZqBpTNrR6vv.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "Windows Recall gets an export feature to let non-Microsoft websites and apps use your Copilot PC's snapshots",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/windows-recall-gets-an-export-feature-to-let-non-microsoft-websites-and-apps-use-your-copilot-pcs-snapshots/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PHLGfEo78AkMsZPz5JFuTX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "Josh Sawyer says a hypothetical Pillars of Eternity 3 would be 3D, just like Baldur's Gate 3, with 'environmental mechanics, elevation hazards, and dynamic terrain'",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/josh-sawyer-says-a-hypothetical-pillars-of-eternity-3-would-be-3d-just-like-baldurs-gate-3-with-environmental-mechanics-elevation-hazards-and-dynamic-terrain/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jPJM6uVdrZYLPXgnGtgQph.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "I thought I'd waved goodbye to gaming PC envy then this RTX 5080 and Ryzen 7 9800X3D build threw in a 32-inch monitor for free",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/i-thought-id-waved-goodbye-to-gaming-pc-envy-then-this-rtx-5080-and-ryzen-7-9800x3d-build-threw-in-a-32-inch-monitor-for-free/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yQTfzwd7RN5AoFdaapC2sa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "Both Stellar Blade and Dune: Awakening shot into Steam's top 100 with new concurrent player peaks yesterday",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/both-stellar-blade-and-dune-awakening-shot-into-steams-top-100-with-new-concurrent-player-peaks-yesterday/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PfaXJ3fnWSVg7rbDZXS2J5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "'It didn't exist and I wanted to play it': Phasmophobia's lead dev got tired of trawling around Steam for a co-op horror puzzle game so decided to just make it himself",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/it-didnt-exist-and-i-wanted-to-play-it-phasmophobias-lead-dev-got-tired-of-trawling-around-steam-for-a-co-op-horror-puzzle-game-so-decided-to-just-make-it-himself/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sXYaaztGUCyerdWNmtWxYh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "ChatGPT asked to play an Atari 2600 at chess then 'got absolutely wrecked on the beginner level'",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/chatgpt-asked-to-play-an-atari-2600-at-chess-then-got-absolutely-wrecked-on-the-beginner-level/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dcfppdWrfYUatzVbFh3L9H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "The writer behind Stray and (checks notes) wrestler and actor Dave Bautista are making a game where you get to play as a cat assassin 'in a gritty neo-noir world'",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/the-writer-behind-stray-and-checks-notes-wrestler-and-actor-dave-bautista-are-making-a-game-where-you-get-to-play-as-a-cat-assassin-in-a-gritty-neo-noir-world/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jskxxJoE2KCcviwXzAJkZU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
     "titulo": "Latest beta version of Windows 11 gets the AI agent that Microsoft promised it would add: A search tool that works",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/latest-beta-version-of-windows-11-gets-the-ai-agent-that-microsoft-promised-it-would-add-a-search-tool-that-works/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ovJVPD7xCUoXGVPz9ngmN8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "timestamp": "2025-06-16T13:59:19"
   },
   {
-    "titulo": "The new Windows 11 Insider release has a weird bug where it plays the Windows Vista start-up music instead of the current one",
-    "descricao": "NewsCue memes along the lines of 'But why Vista?'",
-    "link": "https://www.pcgamer.com/software/windows/well-this-is-a-new-one-the-new-windows-11-insider-release-has-a-weird-bug-where-it-plays-the-windows-vista-start-up-music-instead-of-the-current-one/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cWhXAujfvjr6nRrXKUJQTn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T13:44:39"
+    "titulo": "The Witcher 4: CD Projekt está focada no desenvolvimento do jogo para consoles",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-witcher-4-1/141831/news/the-witcher-4-cd-projekt-esta-focada-no-desenvolvimento-do-jogo-para-consoles-e-com-um-bom-motivo",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-cd-projekt-is-taking-a-console-first-developme_fwxt.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Nintendo anuncia novo Direct com foco em Donkey Kong Bananza, exclusivo do Switch 2",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza/141827/news/nintendo-anuncia-novo-direct-com-foco-em-donkey-kong-bananza-novo-exclusivo-do-switch-2",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64398/64398_6v6y.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Sonic Racing: CrossWorlds é celebração espetacular da história da Sega em corridas de kart",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/sonic-racing-crossworlds/141845/preview/sonic-racing-crossworlds-e-celebracao-espetacular-da-historia-da-sega-em-corridas-de-kart-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64399/64399_zzrd.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Ratchet e Clank: Em Outra Dimensão tem easter egg tão bem escondido que a desenvolvedora teve que revelá-lo porque ninguém encontrou",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ratchet-clank-rift-apart/141836/news/ratchet-e-clank-em-outra-dimensao-tem-easter-egg-tao-bem-escondido-que-a-desenvolvedora-teve-que-rev",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-2_6v8m.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "\"No DCU, se você morre, acabou\": James Gunn não pretende ressuscitar personagens no reboot do universo cinematográfico",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/141828/news/no-dcu-se-voce-morre-acabou-james-gunn-nao-pretende-ressuscitar-personagens-no-reboot-do-universo-ci",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/superman-d/superman-director-james-gunn-says-deaths-will-count-in-the-r_a3yx.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Fatal Fury: City of the Wolves revela data de lançamento de Andy Bogard com trailer de gameplay",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/141789/news/fatal-fury-city-of-the-wolves-revela-data-de-lancamento-de-andy-bogard-com-trailer-de-gameplay",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/andy-bogard_x6g3.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Além de Mario Kart World: 5 jogos para testar no Nintendo Switch 2",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141800/news/alem-de-mario-kart-world-5-jogos-para-testar-no-nintendo-switch-2",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch-2_hzur.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Ele tem a força! Nicholas Galitzine revela primeira imagem caracterizado como He-Man em live-action dos Mestres do Universo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/masters-of-the-universe-netflix/141857/news/ele-tem-a-forca-nicholas-galitzine-revela-primeira-imagem-caracterizado-como-he-man-em-live-action-d",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nicholas-g/nicholas-galitzine-reveals-first-look-at-he-man-in-upcoming_hktc.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
+  },
+  {
+    "titulo": "Jogador de Pokémon perde \"mais de mil horas e 20 anos\" de arquivos de jogo durante transferência dados para o Nintendo Switch 2",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/pokemon-legends-arceus/141858/news/jogador-de-pokemon-perde-mais-de-mil-horas-e-20-anos-de-arquivos-de-jogo-durante-transferencia-dados",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/distraught/distraught-pokemon-fan-lost-1000-hours-and-20-years-of-progr_ebpc.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T13:59:19"
   }
 ];
