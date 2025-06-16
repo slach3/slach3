@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "'It didn't exist and I wanted to play it': Phasmophobia's lead dev got tired of trawling around Steam for a co-op horror puzzle game so decided to just make it himself",
-    "descricao": "News\"I got impatient for a game to come out.\"",
-    "link": "https://www.pcgamer.com/games/horror/it-didnt-exist-and-i-wanted-to-play-it-phasmophobias-lead-dev-got-tired-of-trawling-around-steam-for-a-co-op-horror-puzzle-game-so-decided-to-just-make-it-himself/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sXYaaztGUCyerdWNmtWxYh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "ChatGPT asked to play an Atari 2600 at chess then 'got absolutely wrecked on the beginner level'",
-    "descricao": "DeepBlue would be ashamed.",
-    "link": "https://www.pcgamer.com/games/chatgpt-asked-to-play-an-atari-2600-at-chess-then-got-absolutely-wrecked-on-the-beginner-level/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dcfppdWrfYUatzVbFh3L9H.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "The writer behind Stray and (checks notes) wrestler and actor Dave Bautista are making a game where you get to play as a cat assassin 'in a gritty neo-noir world'",
-    "descricao": "NewsSifu? More like Si-mew.",
-    "link": "https://www.pcgamer.com/games/roguelike/the-writer-behind-stray-and-checks-notes-wrestler-and-actor-dave-bautista-are-making-a-game-where-you-get-to-play-as-a-cat-assassin-in-a-gritty-neo-noir-world/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jskxxJoE2KCcviwXzAJkZU.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "Latest beta version of Windows 11 gets the AI agent that Microsoft promised it would add: A search tool that works",
-    "descricao": "NewsJust for Snapdragon X PCs at the moment, though.",
-    "link": "https://www.pcgamer.com/software/windows/latest-beta-version-of-windows-11-gets-the-ai-agent-that-microsoft-promised-it-would-add-a-search-tool-that-works/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ovJVPD7xCUoXGVPz9ngmN8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "The new Windows 11 Insider release has a weird bug where it plays the Windows Vista start-up music instead of the current one",
-    "descricao": "NewsCue memes along the lines of 'But why Vista?'",
-    "link": "https://www.pcgamer.com/software/windows/well-this-is-a-new-one-the-new-windows-11-insider-release-has-a-weird-bug-where-it-plays-the-windows-vista-start-up-music-instead-of-the-current-one/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cWhXAujfvjr6nRrXKUJQTn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "An RTX 3080 Ti 20 GB engineering sample has been spotted on eBay for $2,000, proving Nvidia plays with all the goodies we never get",
-    "descricao": "NewsThough most appear to get chucked in the bin.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/an-rtx-3080-ti-20-gb-engineering-sample-has-been-spotted-on-ebay-for-usd2-000-proving-nvidia-plays-with-all-the-goodies-we-never-get/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/VdhXxMhbxsKcxNR99owbyM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "Elden Ring Nightreign has a new exploit which allows you and your friends to duplicate weapons and talismans until you're just as godly as the Nightlords",
-    "descricao": "NewsIt's about as fair as Adel slamming the floor every other second.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-has-a-new-exploit-which-allows-you-and-your-friends-to-duplicate-weapons-and-talismans-until-youre-just-as-godly-as-the-nightlords/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "Stutters and hitches in Unreal Engine 5 games should become rarer over time due to Epic's continuous updates, but we'll still see them for a while because of the way games are made",
-    "descricao": "NewsYes, I know I sound like a stuck record here, but it's really not the engine that's at fault.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/stutters-and-hitches-in-unreal-engine-5-games-should-become-rarer-over-time-due-to-epics-continuous-updates-but-well-still-see-them-for-a-while-because-of-the-way-games-are-made/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xwGPkdooUJ3AC6ifASTETJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
-    "titulo": "John Marston's actor has 'Exciting news' he's forbidden to tell us, and he practically has steam coming out of his ears trying not to spill the beans",
-    "descricao": "NewsWhat could it be?",
-    "link": "https://www.pcgamer.com/games/action/john-marstons-actor-has-exciting-news-hes-forbidden-to-tell-us-and-he-practically-has-steam-coming-out-of-his-ears-trying-not-to-spill-the-beans/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tHuiVAjRicDChjMoLzG3rb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T11:26:22"
-  },
-  {
     "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "Sem estoque e com preços em disparada, Nintendo Switch 2 esgota no Brasil",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141706/news/sem-estoque-e-com-precos-em-disparada-nintendo-switch-2-esgota-em-lancamento-agitado-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64376/64376_v6jg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "Devil's Drizzle, indie brasileiro, mistura pixel art de SNES e humor de Crash",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/devils-drizzle/141291/feature/e-um-jogo-com-a-pixel-art-do-super-nintendo-e-o-humor-de-crash-diretor-de-devils-drizzle-fala-sobre",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64332/64332_3ekx.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "Jogamos: Resident Evil Requiem tem como força imersão em cenário de terror absoluto",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/141525/preview/jogamos-resident-evil-requiem-tem-como-grande-forca-a-imersao-em-um-cenario-de-terror-absoluto-previ",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/re9grace_2646.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "Earthion, jogo de nave criado para Mega Drive e plataformas atuais, ganha data de lançamento de edição digital",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/earthion/141803/news/earthion-jogo-de-nave-criado-para-mega-drive-e-plataformas-atuais-ganha-data-de-lancamento-de-edicao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/earthion_ybvt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "\"Um roubo de dinheiro descarado\": Warhammer 40,000: Space Marine - Master Crafted Edition é detonado por jogadores após lançamento no Steam",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/warhammer-40000-space-marine/141798/news/um-roubo-de-dinheiro-descarado-warhammer-40000-space-marine-master-crafted-edition-e-detonado-por-jo",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/warhammer-/warhammer-40000-space-marine-master-crafted-edition-has-a-mo_gwz4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "\"Daremos ao título a melhor chance de sucesso\": Sony admite feedbacks mistos para Marathon, mas insiste que game não será fracasso como Concord",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/concord/141770/news/daremos-ao-titulo-a-melhor-chance-de-sucesso-sony-admite-feedbacks-mistos-para-marathon-mas-insiste",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-admit/sony-admits-marathon-feedback-has-been-varied-but-insists-it_q5js.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "PS6 vindo aí? De maneira vaga, Sony começa a falar sobre a próxima geração de PlayStation",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-6/141769/news/ps6-vindo-ai-de-maneira-vaga-sony-comeca-a-falar-sobre-a-proxima-geracao-de-playstation",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-is-st/sony-is-starting-to-talk-about-its-next-generation-playstati_7bqc.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "Ratchet e Clank: Em Outra Dimensão tem easter egg tão bem escondido que a desenvolvedora teve que revelá-lo porque ninguém encontrou",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/ratchet-clank-rift-apart/141836/news/ratchet-e-clank-em-outra-dimensao-tem-easter-egg-tao-bem-escondido-que-a-desenvolvedora-teve-que-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-2_6v8m.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
   },
   {
     "titulo": "\"No DCU, se você morre, acabou\": James Gunn não pretende ressuscitar personagens no reboot do universo cinematográfico",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/141828/news/no-dcu-se-voce-morre-acabou-james-gunn-nao-pretende-ressuscitar-personagens-no-reboot-do-universo-ci",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/superman-d/superman-director-james-gunn-says-deaths-will-count-in-the-r_a3yx.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T11:26:22"
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "'It didn't exist and I wanted to play it': Phasmophobia's lead dev got tired of trawling around Steam for a co-op horror puzzle game so decided to just make it himself",
+    "descricao": "News\"I got impatient for a game to come out.\"",
+    "link": "https://www.pcgamer.com/games/horror/it-didnt-exist-and-i-wanted-to-play-it-phasmophobias-lead-dev-got-tired-of-trawling-around-steam-for-a-co-op-horror-puzzle-game-so-decided-to-just-make-it-himself/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sXYaaztGUCyerdWNmtWxYh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "ChatGPT asked to play an Atari 2600 at chess then 'got absolutely wrecked on the beginner level'",
+    "descricao": "DeepBlue would be ashamed.",
+    "link": "https://www.pcgamer.com/games/chatgpt-asked-to-play-an-atari-2600-at-chess-then-got-absolutely-wrecked-on-the-beginner-level/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dcfppdWrfYUatzVbFh3L9H.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "The writer behind Stray and (checks notes) wrestler and actor Dave Bautista are making a game where you get to play as a cat assassin 'in a gritty neo-noir world'",
+    "descricao": "NewsSifu? More like Si-mew.",
+    "link": "https://www.pcgamer.com/games/roguelike/the-writer-behind-stray-and-checks-notes-wrestler-and-actor-dave-bautista-are-making-a-game-where-you-get-to-play-as-a-cat-assassin-in-a-gritty-neo-noir-world/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/jskxxJoE2KCcviwXzAJkZU.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "Latest beta version of Windows 11 gets the AI agent that Microsoft promised it would add: A search tool that works",
+    "descricao": "NewsJust for Snapdragon X PCs at the moment, though.",
+    "link": "https://www.pcgamer.com/software/windows/latest-beta-version-of-windows-11-gets-the-ai-agent-that-microsoft-promised-it-would-add-a-search-tool-that-works/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ovJVPD7xCUoXGVPz9ngmN8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "The new Windows 11 Insider release has a weird bug where it plays the Windows Vista start-up music instead of the current one",
+    "descricao": "NewsCue memes along the lines of 'But why Vista?'",
+    "link": "https://www.pcgamer.com/software/windows/well-this-is-a-new-one-the-new-windows-11-insider-release-has-a-weird-bug-where-it-plays-the-windows-vista-start-up-music-instead-of-the-current-one/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cWhXAujfvjr6nRrXKUJQTn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "An RTX 3080 Ti 20 GB engineering sample has been spotted on eBay for $2,000, proving Nvidia plays with all the goodies we never get",
+    "descricao": "NewsThough most appear to get chucked in the bin.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/an-rtx-3080-ti-20-gb-engineering-sample-has-been-spotted-on-ebay-for-usd2-000-proving-nvidia-plays-with-all-the-goodies-we-never-get/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/VdhXxMhbxsKcxNR99owbyM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "Elden Ring Nightreign has a new exploit which allows you and your friends to duplicate weapons and talismans until you're just as godly as the Nightlords",
+    "descricao": "NewsIt's about as fair as Adel slamming the floor every other second.",
+    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-has-a-new-exploit-which-allows-you-and-your-friends-to-duplicate-weapons-and-talismans-until-youre-just-as-godly-as-the-nightlords/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2nHHcmD2MWEYAUW6sMXeeW.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "Stutters and hitches in Unreal Engine 5 games should become rarer over time due to Epic's continuous updates, but we'll still see them for a while because of the way games are made",
+    "descricao": "NewsYes, I know I sound like a stuck record here, but it's really not the engine that's at fault.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/stutters-and-hitches-in-unreal-engine-5-games-should-become-rarer-over-time-due-to-epics-continuous-updates-but-well-still-see-them-for-a-while-because-of-the-way-games-are-made/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/xwGPkdooUJ3AC6ifASTETJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
+  },
+  {
+    "titulo": "John Marston's actor has 'Exciting news' he's forbidden to tell us, and he practically has steam coming out of his ears trying not to spill the beans",
+    "descricao": "NewsWhat could it be?",
+    "link": "https://www.pcgamer.com/games/action/john-marstons-actor-has-exciting-news-hes-forbidden-to-tell-us-and-he-practically-has-steam-coming-out-of-his-ears-trying-not-to-spill-the-beans/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tHuiVAjRicDChjMoLzG3rb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-16T11:45:33"
   }
 ];
