@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "Sem estoque e com preços em disparada, Nintendo Switch 2 esgota no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141706/news/sem-estoque-e-com-precos-em-disparada-nintendo-switch-2-esgota-em-lancamento-agitado-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64376/64376_v6jg.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "Devil's Drizzle, indie brasileiro, mistura pixel art de SNES e humor de Crash",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/devils-drizzle/141291/feature/e-um-jogo-com-a-pixel-art-do-super-nintendo-e-o-humor-de-crash-diretor-de-devils-drizzle-fala-sobre",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64332/64332_3ekx.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "Jogamos: Resident Evil Requiem tem como força imersão em cenário de terror absoluto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-requiem/141525/preview/jogamos-resident-evil-requiem-tem-como-grande-forca-a-imersao-em-um-cenario-de-terror-absoluto-previ",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/re9grace_2646.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "Earthion, jogo de nave criado para Mega Drive e plataformas atuais, ganha data de lançamento de edição digital",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/earthion/141803/news/earthion-jogo-de-nave-criado-para-mega-drive-e-plataformas-atuais-ganha-data-de-lancamento-de-edicao",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/earthion_ybvt.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "\"Um roubo de dinheiro descarado\": Warhammer 40,000: Space Marine - Master Crafted Edition é detonado por jogadores após lançamento no Steam",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/warhammer-40000-space-marine/141798/news/um-roubo-de-dinheiro-descarado-warhammer-40000-space-marine-master-crafted-edition-e-detonado-por-jo",
-    "imagem": "https://sm.ign.com/t/ign_br/news/w/warhammer-/warhammer-40000-space-marine-master-crafted-edition-has-a-mo_gwz4.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "\"Daremos ao título a melhor chance de sucesso\": Sony admite feedbacks mistos para Marathon, mas insiste que game não será fracasso como Concord",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/concord/141770/news/daremos-ao-titulo-a-melhor-chance-de-sucesso-sony-admite-feedbacks-mistos-para-marathon-mas-insiste",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-admit/sony-admits-marathon-feedback-has-been-varied-but-insists-it_q5js.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "PS6 vindo aí? De maneira vaga, Sony começa a falar sobre a próxima geração de PlayStation",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-6/141769/news/ps6-vindo-ai-de-maneira-vaga-sony-comeca-a-falar-sobre-a-proxima-geracao-de-playstation",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-is-st/sony-is-starting-to-talk-about-its-next-generation-playstati_7bqc.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "Fatal Fury: City of the Wolves revela data de lançamento de Andy Bogard com trailer de gameplay",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/141789/news/fatal-fury-city-of-the-wolves-revela-data-de-lancamento-de-andy-bogard-com-trailer-de-gameplay",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/andy-bogard_x6g3.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
-    "titulo": "\"Ele era uma farsa\": Linda Hamilton revelou que não botou fé em Arnold Schwarzenegger nas filmagens de O Exterminador do Futuro",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/141751/news/ele-era-uma-farsa-linda-hamilton-revelou-que-nao-botou-fe-em-arnold-schwarzenegger-nas-filmagens-de",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/download_tvc3.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T00:56:48"
-  },
-  {
     "titulo": "Today's Wordle answer for Monday, June 16",
     "descricao": "regular riddleGet all the help you need with today's Wordle.",
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-16-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Hello Games fans enter the early stages of Silksong syndrome after Light No Fire is a Summer Game Fest no-show",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/hello-games-fans-enter-the-early-stages-of-silksong-syndrome-after-light-no-fire-is-a-summer-game-fest-no-show/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HuYngGdhs7aEZmZ9ZZL56V.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Five Nights At Freddy's still going strong: The latest game briefly grappled with Dune over Steam's top seller spot",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/five-nights-at-freddys-still-going-strong-the-latest-game-briefly-grappled-with-dune-over-steams-top-seller-spot/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iXgLh5NP72hsvZ8iuPMPPD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Klei's next game will make a side-scrolling survival crafter out of Oxygen Not Included's detailed fluid and heat physics",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/kleis-next-game-will-make-a-side-scrolling-survival-crafter-out-of-oxygen-not-includeds-detailed-fluid-and-heat-physics/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/g3zCdXNvJsQUBc4EVENsc8.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "One of the world's biggest board game companies has just done the equivalent of Sega selling Sonic to Nintendo",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/board-games/one-of-the-worlds-biggest-board-game-companies-has-just-done-the-equivalent-of-sega-selling-sonic-to-nintendo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uE8FN9ax6aLsop5PQUxwbg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Google is experimenting with AI-generated podcast-like audio summaries at the top of its search results",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/google-is-experimenting-with-ai-generated-podcast-like-audio-summaries-at-the-top-of-its-search-results/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kF5z6JNNJZY5qPJJCxyvLT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "I didn't realize how much Elden Ring Nightreign upgraded its Dark Souls skins until I saw them side-by-side with the originals",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/dark-souls/i-didnt-realize-how-much-elden-ring-nightreign-upgraded-its-dark-souls-skins-until-i-saw-them-side-by-side-with-the-originals/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rsSsfb9hanowQb5zJE2JEJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Amazon taps Star Trek Beyond and Mindhunter writer to helm Mass Effect show",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mass-effect/amazon-taps-star-trek-beyond-and-mindhunter-writer-to-helm-mass-effect-show/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ncQwyMwrdc34veGSVsc8DP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
   },
   {
     "titulo": "Hardcore World War 2 shooter Hell Let Loose is free to play all weekend, and on a 50% discount for the next two weeks",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/hardcore-world-war-2-shooter-hell-let-loose-is-free-to-play-all-weekend-and-on-a-50-percent-discount-for-the-next-two-weeks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AYHdXaoeNscqycfZELegLG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T00:56:48"
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Sem estoque e com preços em disparada, Nintendo Switch 2 esgota no Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141706/news/sem-estoque-e-com-precos-em-disparada-nintendo-switch-2-esgota-em-lancamento-agitado-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64376/64376_v6jg.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Devil's Drizzle, indie brasileiro, mistura pixel art de SNES e humor de Crash",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/devils-drizzle/141291/feature/e-um-jogo-com-a-pixel-art-do-super-nintendo-e-o-humor-de-crash-diretor-de-devils-drizzle-fala-sobre",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64332/64332_3ekx.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Jogamos: Resident Evil Requiem tem como força imersão em cenário de terror absoluto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-requiem/141525/preview/jogamos-resident-evil-requiem-tem-como-grande-forca-a-imersao-em-um-cenario-de-terror-absoluto-previ",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/re9grace_2646.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Earthion, jogo de nave criado para Mega Drive e plataformas atuais, ganha data de lançamento de edição digital",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/earthion/141803/news/earthion-jogo-de-nave-criado-para-mega-drive-e-plataformas-atuais-ganha-data-de-lancamento-de-edicao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/earthion_ybvt.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "\"Um roubo de dinheiro descarado\": Warhammer 40,000: Space Marine - Master Crafted Edition é detonado por jogadores após lançamento no Steam",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/warhammer-40000-space-marine/141798/news/um-roubo-de-dinheiro-descarado-warhammer-40000-space-marine-master-crafted-edition-e-detonado-por-jo",
+    "imagem": "https://sm.ign.com/t/ign_br/news/w/warhammer-/warhammer-40000-space-marine-master-crafted-edition-has-a-mo_gwz4.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "\"Daremos ao título a melhor chance de sucesso\": Sony admite feedbacks mistos para Marathon, mas insiste que game não será fracasso como Concord",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/concord/141770/news/daremos-ao-titulo-a-melhor-chance-de-sucesso-sony-admite-feedbacks-mistos-para-marathon-mas-insiste",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-admit/sony-admits-marathon-feedback-has-been-varied-but-insists-it_q5js.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "PS6 vindo aí? De maneira vaga, Sony começa a falar sobre a próxima geração de PlayStation",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-6/141769/news/ps6-vindo-ai-de-maneira-vaga-sony-comeca-a-falar-sobre-a-proxima-geracao-de-playstation",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-is-st/sony-is-starting-to-talk-about-its-next-generation-playstati_7bqc.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "Fatal Fury: City of the Wolves revela data de lançamento de Andy Bogard com trailer de gameplay",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/141789/news/fatal-fury-city-of-the-wolves-revela-data-de-lancamento-de-andy-bogard-com-trailer-de-gameplay",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/andy-bogard_x6g3.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
+  },
+  {
+    "titulo": "\"Ele era uma farsa\": Linda Hamilton revelou que não botou fé em Arnold Schwarzenegger nas filmagens de O Exterminador do Futuro",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/141751/news/ele-era-uma-farsa-linda-hamilton-revelou-que-nao-botou-fe-em-arnold-schwarzenegger-nas-filmagens-de",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/download_tvc3.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T01:33:57"
   }
 ];
