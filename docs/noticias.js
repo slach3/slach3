@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/josh-sawyer-says-a-hypothetical-pillars-of-eternity-3-would-be-3d-just-like-baldurs-gate-3-with-environmental-mechanics-elevation-hazards-and-dynamic-terrain/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jPJM6uVdrZYLPXgnGtgQph.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "I thought I'd waved goodbye to gaming PC envy then this RTX 5080 and Ryzen 7 9800X3D build threw in a 32-inch monitor for free",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/i-thought-id-waved-goodbye-to-gaming-pc-envy-then-this-rtx-5080-and-ryzen-7-9800x3d-build-threw-in-a-32-inch-monitor-for-free/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yQTfzwd7RN5AoFdaapC2sa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Both Stellar Blade and Dune: Awakening shot into Steam's top 100 with new concurrent player peaks yesterday",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/both-stellar-blade-and-dune-awakening-shot-into-steams-top-100-with-new-concurrent-player-peaks-yesterday/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PfaXJ3fnWSVg7rbDZXS2J5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "'It didn't exist and I wanted to play it': Phasmophobia's lead dev got tired of trawling around Steam for a co-op horror puzzle game so decided to just make it himself",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/it-didnt-exist-and-i-wanted-to-play-it-phasmophobias-lead-dev-got-tired-of-trawling-around-steam-for-a-co-op-horror-puzzle-game-so-decided-to-just-make-it-himself/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sXYaaztGUCyerdWNmtWxYh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "ChatGPT asked to play an Atari 2600 at chess then 'got absolutely wrecked on the beginner level'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/chatgpt-asked-to-play-an-atari-2600-at-chess-then-got-absolutely-wrecked-on-the-beginner-level/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dcfppdWrfYUatzVbFh3L9H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "The writer behind Stray and (checks notes) wrestler and actor Dave Bautista are making a game where you get to play as a cat assassin 'in a gritty neo-noir world'",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/the-writer-behind-stray-and-checks-notes-wrestler-and-actor-dave-bautista-are-making-a-game-where-you-get-to-play-as-a-cat-assassin-in-a-gritty-neo-noir-world/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jskxxJoE2KCcviwXzAJkZU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Latest beta version of Windows 11 gets the AI agent that Microsoft promised it would add: A search tool that works",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/latest-beta-version-of-windows-11-gets-the-ai-agent-that-microsoft-promised-it-would-add-a-search-tool-that-works/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ovJVPD7xCUoXGVPz9ngmN8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "The new Windows 11 Insider release has a weird bug where it plays the Windows Vista start-up music instead of the current one",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/well-this-is-a-new-one-the-new-windows-11-insider-release-has-a-weird-bug-where-it-plays-the-windows-vista-start-up-music-instead-of-the-current-one/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cWhXAujfvjr6nRrXKUJQTn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "An RTX 3080 Ti 20 GB engineering sample has been spotted on eBay for $2,000, proving Nvidia plays with all the goodies we never get",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/an-rtx-3080-ti-20-gb-engineering-sample-has-been-spotted-on-ebay-for-usd2-000-proving-nvidia-plays-with-all-the-goodies-we-never-get/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VdhXxMhbxsKcxNR99owbyM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "The Witcher 4: CD Projekt está focada no desenvolvimento do jogo para consoles",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/the-witcher-4-1/141831/news/the-witcher-4-cd-projekt-esta-focada-no-desenvolvimento-do-jogo-para-consoles-e-com-um-bom-motivo",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-4-cd-projekt-is-taking-a-console-first-developme_fwxt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Nintendo anuncia novo Direct com foco em Donkey Kong Bananza, exclusivo do Switch 2",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/141827/news/nintendo-anuncia-novo-direct-com-foco-em-donkey-kong-bananza-novo-exclusivo-do-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64398/64398_6v6y.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Sonic Racing: CrossWorlds é celebração espetacular da história da Sega em corridas de kart",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/sonic-racing-crossworlds/141845/preview/sonic-racing-crossworlds-e-celebracao-espetacular-da-historia-da-sega-em-corridas-de-kart-preview",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64399/64399_zzrd.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Para Nintendo, preço do Switch 2 no Brasil foi ajustado \"de acordo\" com o possível",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141817/news/para-nintendo-preco-do-switch-2-no-brasil-foi-ajustado-de-acordo-com-o-possivel-para-consumidores-lo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64375/64375_teme.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Ratchet e Clank: Em Outra Dimensão tem easter egg tão bem escondido que a desenvolvedora teve que revelá-lo porque ninguém encontrou",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/ratchet-clank-rift-apart/141836/news/ratchet-e-clank-em-outra-dimensao-tem-easter-egg-tao-bem-escondido-que-a-desenvolvedora-teve-que-rev",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image-2_6v8m.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "\"No DCU, se você morre, acabou\": James Gunn não pretende ressuscitar personagens no reboot do universo cinematográfico",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/141828/news/no-dcu-se-voce-morre-acabou-james-gunn-nao-pretende-ressuscitar-personagens-no-reboot-do-universo-ci",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/superman-d/superman-director-james-gunn-says-deaths-will-count-in-the-r_a3yx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Fatal Fury: City of the Wolves revela data de lançamento de Andy Bogard com trailer de gameplay",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/141789/news/fatal-fury-city-of-the-wolves-revela-data-de-lancamento-de-andy-bogard-com-trailer-de-gameplay",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/andy-bogard_x6g3.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Além de Mario Kart World: 5 jogos para testar no Nintendo Switch 2",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141800/news/alem-de-mario-kart-world-5-jogos-para-testar-no-nintendo-switch-2",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch-2_hzur.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
+  },
+  {
+    "titulo": "Desenvolvedora de Rematch confirma que jogo não terá crossplay no lançamento, mas que é uma das prioridades do time",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/rematch/141840/news/desenvolvedora-de-rematch-confirma-que-jogo-nao-tera-crossplay-no-lancamento-mas-que-e-uma-das-prior",
+    "imagem": "https://sm.ign.com/t/ign_br/news/r/rematch-de/rematch-dev-confirms-no-crossplay-at-launch-just-hours-befor_qc3w.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-16T12:40:28"
   },
   {
     "titulo": "Remake de Corra que a Polícia Vem Aí! com Liam Neeson e Pamela Anderson ganha trailer cheio de tiros e piadas",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/the-naked-gun/141848/news/remake-de-corra-que-a-policia-vem-ai-com-liam-neeson-e-pamela-anderson-ganha-trailer-cheio-de-tiros",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-naked-/the-naked-gun-trailer-shows-liam-neeson-star-off-in-taken-mo_xyvw.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
-  },
-  {
-    "titulo": "\"As pessoas gostaram demais nos primeiros testes\": Hideo Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-tomorrow-pode_61fv.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-16T12:21:05"
+    "timestamp": "2025-06-16T12:40:28"
   }
 ];
