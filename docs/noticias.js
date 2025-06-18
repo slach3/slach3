@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Diretor de Dying Light: The Beast explica o que são as Chimeras | IGN First",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dying-light-the-beast/141903/preview/diretor-de-dying-light-the-beast-explica-o-que-sao-as-chimeras-monstruosas-e-assustadoras-novas-cria",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64443/64443_uvdg.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64444/64444_ps1x.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "\"Acho que sobreviveremos\": fãs do Snyder Cut promovem boicote a novo filme do Superman — e James Gunn não perde oportunidade de rir dos haters",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/141942/news/acho-que-sobreviveremos-fas-do-snyder-cut-promovem-boicote-a-novo-filme-do-superman-e-james-gunn-nao",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Marathon é adiado indefinidamente: \"precisamos de mais tempo\", diz Bungie",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marathon/141925/news/marathon-e-adiado-indefinidamente-precisamos-de-mais-tempo-diz-bungie",
-    "imagem": "https://sm.ign.com/t/ign_br/gallery/m/marathon-g/marathon-gameplay-screenshots_czzf.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Xbox anuncia parceria com AMD para futuros consoles e plataformas \"não conectadas a uma única loja ou aparelho\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/141921/news/xbox-anuncia-parceria-com-amd-para-futuros-consoles-e-plataformas-nao-conectadas-a-uma-unica-loja-ou",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ynz7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Joguei numa TCL C7K de 98 polegadas e agora as outras TVs parecem pequenas | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/141877/preview/joguei-numa-tcl-c7k-de-98-polegadas-e-agora-as-outras-tvs-parecem-pequenas-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_apec.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Mais Death Stranding! Além de um filme, aclamado game de Hideo Kojima ganhará adaptação animada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-1/141990/news/mais-death-stranding-alem-de-um-filme-aclamado-game-de-hideo-kojima-ganhara-adaptacao-animada",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/death-stranding-1648557026557_u3j5.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
-    "titulo": "Novo jogo da franquia Skate terá teste massivo em julho; saiba como participar",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/skate/141971/news/novo-jogo-da-franquia-skate-tera-teste-massivo-em-julho-saiba-como-participar",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ejc9.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T15:52:53"
-  },
-  {
     "titulo": "RuneScape player pulls off a personal Shawshank Redemption: Grinds his way out of one-zone house arrest by grinding a raid 2,000 times over 10,000 hours: 'It was all worth it'",
     "descricao": "NewsMakes the Moon landing look like a walk in the park.",
     "link": "https://www.pcgamer.com/games/mmo/runescape-player-pulls-off-a-personal-shawshank-redemption-grinds-his-way-out-of-one-zone-house-arrest-by-grinding-a-raid-2-000-times-over-10-000-hours-it-was-all-worth-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jcNTdhh7GZ2iutVDKFXB4b.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Intel has joined Nvidia with its own neural texture compression tech but it probably won't rescue your VRAM-starved 8 GB GPU any time soon",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/intel-has-joined-nvidia-with-its-own-neural-texture-compression-tech-but-it-probably-wont-rescue-your-vram-starved-8-gb-gpu-any-time-soon/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFsDctz3rGuymB4N4zSBo5.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Elden Ring movie director reveals how he's getting through his 7th playthrough, 'It's like monkeys and typewriters—you just keep doing it'",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-movie-director-reveals-how-hes-getting-through-his-7th-playthrough-its-like-monkeys-and-typewriters-you-just-keep-doing-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JoYdB3Qqvz7hmrXMQra5zj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Our favorite budget wireless gaming mouse has knocked almost $20 off, making it an even more wallet-friendly option",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/our-favorite-budget-wireless-gaming-mouse-has-knocked-almost-usd20-off-making-it-an-even-more-wallet-friendly-option/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zZ7uw4fbKc8kiKqcm8AgT7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Dune: Awakening patch fixes the ornithopter 'goomba stomp' problem in PvP, just not in the way I expected",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-patch-fixes-the-ornithopter-goomba-stomp-problem-in-pvp-just-not-in-the-way-i-expected/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UyPQPZ3t9oRB5THLtxK2xd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Google AI happens to be really bad at playing Pokémon, repeatedly 'panicking' and taking more than 800 hours to beat the Elite Four",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/google-ai-happens-to-be-really-bad-at-playing-pokemon-repeatedly-panicking-and-taking-more-than-800-hours-to-beat-the-elite-four/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fHnb5TLSFhZwvk42sMd2Q8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "'The winds of change are blowing': After 159 days Marvel Rivals has finally nerfed Storm, albeit not by much",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/the-winds-of-change-are-blowing-after-159-days-marvel-rivals-has-finally-nerfed-storm-albeit-not-by-much/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b44s8hV8RRuLwftHWbopk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "This retro sleeper build hides one of the top mini PCs inside and I wish I had the tools and patience to game like it's the '90s",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/this-retro-sleeper-build-hides-one-of-the-top-mini-pcs-inside-and-i-wish-i-had-the-tools-and-patience-to-game-like-its-the-90s/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/i4rZHaDbkn5RAeD9e6o7Jk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
   },
   {
     "titulo": "Microsoft's exciting multi-year silicon partnership with AMD doesn't actually make it clearer if there's an official Xbox handheld or next-gen console coming",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-exciting-multi-year-silicon-partnership-with-amd-doesnt-actually-make-it-clearer-if-theres-an-official-xbox-handheld-or-next-gen-console-coming/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oD9muGka6BjNUaGSLwWtse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T15:52:53"
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Diretor de Dying Light: The Beast explica o que são as Chimeras | IGN First",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dying-light-the-beast/141903/preview/diretor-de-dying-light-the-beast-explica-o-que-sao-as-chimeras-monstruosas-e-assustadoras-novas-cria",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64443/64443_uvdg.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64444/64444_ps1x.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "\"Acho que sobreviveremos\": fãs do Snyder Cut promovem boicote a novo filme do Superman — e James Gunn não perde oportunidade de rir dos haters",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/141942/news/acho-que-sobreviveremos-fas-do-snyder-cut-promovem-boicote-a-novo-filme-do-superman-e-james-gunn-nao",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Marathon é adiado indefinidamente: \"precisamos de mais tempo\", diz Bungie",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marathon/141925/news/marathon-e-adiado-indefinidamente-precisamos-de-mais-tempo-diz-bungie",
+    "imagem": "https://sm.ign.com/t/ign_br/gallery/m/marathon-g/marathon-gameplay-screenshots_czzf.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Xbox anuncia parceria com AMD para futuros consoles e plataformas \"não conectadas a uma única loja ou aparelho\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/141921/news/xbox-anuncia-parceria-com-amd-para-futuros-consoles-e-plataformas-nao-conectadas-a-uma-unica-loja-ou",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ynz7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Joguei numa TCL C7K de 98 polegadas e agora as outras TVs parecem pequenas | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/141877/preview/joguei-numa-tcl-c7k-de-98-polegadas-e-agora-as-outras-tvs-parecem-pequenas-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_apec.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Desconto insano! Fone JBL de alta qualidade e bateria de 76h está por menos de R$ 260",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141993/news/desconto-insano-fone-jbl-de-alta-qualidade-e-bateria-de-76h-esta-por-menos-de-r-260",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/untitled-2_yx5g.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
+  },
+  {
+    "titulo": "Mais Death Stranding! Além de um filme, aclamado game de Hideo Kojima ganhará adaptação animada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-1/141990/news/mais-death-stranding-alem-de-um-filme-aclamado-game-de-hideo-kojima-ganhara-adaptacao-animada",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/death-stranding-1648557026557_u3j5.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T16:10:23"
   }
 ];
