@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/runescape-player-pulls-off-a-personal-shawshank-redemption-grinds-his-way-out-of-one-zone-house-arrest-by-grinding-a-raid-2-000-times-over-10-000-hours-it-was-all-worth-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jcNTdhh7GZ2iutVDKFXB4b.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Intel has joined Nvidia with its own neural texture compression tech but it probably won't rescue your VRAM-starved 8 GB GPU any time soon",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/intel-has-joined-nvidia-with-its-own-neural-texture-compression-tech-but-it-probably-wont-rescue-your-vram-starved-8-gb-gpu-any-time-soon/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFsDctz3rGuymB4N4zSBo5.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Elden Ring movie director reveals how he's getting through his 7th playthrough, 'It's like monkeys and typewriters—you just keep doing it'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-movie-director-reveals-how-hes-getting-through-his-7th-playthrough-its-like-monkeys-and-typewriters-you-just-keep-doing-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JoYdB3Qqvz7hmrXMQra5zj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Our favorite budget wireless gaming mouse has knocked almost $20 off, making it an even more wallet-friendly option",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/our-favorite-budget-wireless-gaming-mouse-has-knocked-almost-usd20-off-making-it-an-even-more-wallet-friendly-option/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zZ7uw4fbKc8kiKqcm8AgT7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Dune: Awakening patch fixes the ornithopter 'goomba stomp' problem in PvP, just not in the way I expected",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-patch-fixes-the-ornithopter-goomba-stomp-problem-in-pvp-just-not-in-the-way-i-expected/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UyPQPZ3t9oRB5THLtxK2xd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Google AI happens to be really bad at playing Pokémon, repeatedly 'panicking' and taking more than 800 hours to beat the Elite Four",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/google-ai-happens-to-be-really-bad-at-playing-pokemon-repeatedly-panicking-and-taking-more-than-800-hours-to-beat-the-elite-four/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fHnb5TLSFhZwvk42sMd2Q8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "'The winds of change are blowing': After 159 days Marvel Rivals has finally nerfed Storm, albeit not by much",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/the-winds-of-change-are-blowing-after-159-days-marvel-rivals-has-finally-nerfed-storm-albeit-not-by-much/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b44s8hV8RRuLwftHWbopk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "This retro sleeper build hides one of the top mini PCs inside and I wish I had the tools and patience to game like it's the '90s",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/this-retro-sleeper-build-hides-one-of-the-top-mini-pcs-inside-and-i-wish-i-had-the-tools-and-patience-to-game-like-its-the-90s/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/i4rZHaDbkn5RAeD9e6o7Jk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Microsoft's exciting multi-year silicon partnership with AMD doesn't actually make it clearer if there's an official Xbox handheld or next-gen console coming",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-exciting-multi-year-silicon-partnership-with-amd-doesnt-actually-make-it-clearer-if-theres-an-official-xbox-handheld-or-next-gen-console-coming/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oD9muGka6BjNUaGSLwWtse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Diretor de Dying Light: The Beast explica o que são as Chimeras | IGN First",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/dying-light-the-beast/141903/preview/diretor-de-dying-light-the-beast-explica-o-que-sao-as-chimeras-monstruosas-e-assustadoras-novas-cria",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64443/64443_uvdg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64444/64444_ps1x.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "\"Acho que sobreviveremos\": fãs do Snyder Cut promovem boicote a novo filme do Superman — e James Gunn não perde oportunidade de rir dos haters",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/141942/news/acho-que-sobreviveremos-fas-do-snyder-cut-promovem-boicote-a-novo-filme-do-superman-e-james-gunn-nao",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Marathon é adiado indefinidamente: \"precisamos de mais tempo\", diz Bungie",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/marathon/141925/news/marathon-e-adiado-indefinidamente-precisamos-de-mais-tempo-diz-bungie",
     "imagem": "https://sm.ign.com/t/ign_br/gallery/m/marathon-g/marathon-gameplay-screenshots_czzf.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Xbox anuncia parceria com AMD para futuros consoles e plataformas \"não conectadas a uma única loja ou aparelho\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/141921/news/xbox-anuncia-parceria-com-amd-para-futuros-consoles-e-plataformas-nao-conectadas-a-uma-unica-loja-ou",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ynz7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Joguei numa TCL C7K de 98 polegadas e agora as outras TVs parecem pequenas | Preview",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/tech/141877/preview/joguei-numa-tcl-c7k-de-98-polegadas-e-agora-as-outras-tvs-parecem-pequenas-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_apec.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
+  },
+  {
+    "titulo": "Return to Silent Hill, adaptação cinematográfica do segundo jogo da franquia, ganha data de lançamento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/return-to-silent-hill/141984/news/return-to-silent-hill-adaptacao-cinematografica-do-segundo-jogo-da-franquia-ganha-data-de-lancamento",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/silent-hil/silent-hill-sequel-film-return-to-silent-hill-finally-gets-a_gg9j.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T14:27:24"
   },
   {
     "titulo": "Coleção Harry Potter Lego para PlayStation 4 em ótima oferta na Amazon",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/141983/news/colecao-harry-potter-lego-para-playstation-4-em-otima-oferta-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/harry-potter-lego-collection-gameplay_mq8h.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
-  },
-  {
-    "titulo": "Bosque dos Eevees é nova expansão de Pokémon TCG Pocket e chega no fim de junho",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/pokemon-trading-card-game-pocket/141977/news/bosque-dos-eevees-e-nova-expansao-de-pokemon-tcg-pocket-e-chega-no-fim-de-junho",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eevee-grove_amb6.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T14:00:45"
+    "timestamp": "2025-06-18T14:27:24"
   }
 ];
