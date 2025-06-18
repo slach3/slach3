@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Diretor de Dying Light: The Beast explica o que são as Chimeras | IGN First",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dying-light-the-beast/141903/preview/diretor-de-dying-light-the-beast-explica-o-que-sao-as-chimeras-monstruosas-e-assustadoras-novas-cria",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64443/64443_uvdg.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64444/64444_ps1x.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "\"Acho que sobreviveremos\": fãs do Snyder Cut promovem boicote a novo filme do Superman — e James Gunn não perde oportunidade de rir dos haters",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/141942/news/acho-que-sobreviveremos-fas-do-snyder-cut-promovem-boicote-a-novo-filme-do-superman-e-james-gunn-nao",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Marathon é adiado indefinidamente: \"precisamos de mais tempo\", diz Bungie",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marathon/141925/news/marathon-e-adiado-indefinidamente-precisamos-de-mais-tempo-diz-bungie",
-    "imagem": "https://sm.ign.com/t/ign_br/gallery/m/marathon-g/marathon-gameplay-screenshots_czzf.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Xbox anuncia parceria com AMD para futuros consoles e plataformas \"não conectadas a uma única loja ou aparelho\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/141921/news/xbox-anuncia-parceria-com-amd-para-futuros-consoles-e-plataformas-nao-conectadas-a-uma-unica-loja-ou",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ynz7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "Joguei numa TCL C7K de 98 polegadas e agora as outras TVs parecem pequenas | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/141877/preview/joguei-numa-tcl-c7k-de-98-polegadas-e-agora-as-outras-tvs-parecem-pequenas-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_apec.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "WhatsApp lança novos recursos para iPhone e o melhor é que agora você pode usá-los",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/whatsapp/141886/news/whatsapp-lanca-novos-recursos-para-iphone-e-o-melhor-e-que-agora-voce-pode-usa-los",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/shutter-speed-sny85ra68t4-unsplash_uckx.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
-  },
-  {
-    "titulo": "10% de desconto no Gift Card PlayStation Store no Mercado Livre!",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141950/news/10-de-desconto-no-gift-card-playstation-store-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-20_qjz5.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T08:28:36"
+    "titulo": "Become John Nightreign with a 1:1 5KG Wylder helmet which Bandai Namco is currently selling for $190",
+    "descricao": "News\"Now you can feel what it's like to join his quest.\"",
+    "link": "https://www.pcgamer.com/games/rpg/become-john-nightreign-with-a-1-1-5kg-wylder-helmet-which-bandai-namco-is-currently-selling-for-usd190/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "Steam turbo-charges its performance overlay, shows you how many real and framegen frames you're getting and, oh, Proton is enabled on Linux by default now",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/platforms/steam-turbo-charges-its-performance-overlay-shows-you-how-many-real-and-framegen-frames-youre-getting-and-oh-proton-is-enabled-on-linux-by-default-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/R9GbehcWG6p9SkNUvj3Z8P.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "You aren't just imagining things: Elden Ring Nightreign player confirms it's 6x harder to revive someone at 3 bars when compared to 1, because FromSoftware's UI is basically lying to you",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/you-arent-just-imagining-things-elden-ring-nightreign-player-confirms-its-6x-harder-to-revive-someone-at-3-bars-when-compared-to-1-because-fromsoftwares-ui-is-basically-lying-to-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Sz9NB9fb5x7n4hbCwJDpik.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "An ex-Apple Vision Pro engineer turned a Steam Deck into an all-in-one keyboard for XR, and now you can too",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/an-ex-apple-vision-pro-engineer-turned-a-steam-deck-into-an-all-in-one-keyboard-for-xr-and-now-you-can-too/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/aUaYZsxuhmGstzfFkWQaoP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "Today's Wordle answer for Wednesday, June 18",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-18-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "No wonder it took so long to rerelease Final Fantasy Tactics—the source code was lost: 'Keeping that kind of data wasn't a normal thing to do at the time'",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/no-wonder-it-took-so-long-to-rerelease-final-fantasy-tactics-the-source-code-was-lost-keeping-that-kind-of-data-wasnt-a-normal-thing-to-do-at-the-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3JTwMWiHbZK43L9NXuNMYi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "Ball hogs and 'wannabe Messis' are already the heels of the Rematch community: 'Coach should run out onto the field and beat them with a stick'",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/ball-hogs-and-wannabe-messis-are-already-the-heels-of-the-rematch-community-coach-should-run-out-onto-the-field-and-beat-them-with-a-stick/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ffR87krAPFzbZ9skNucri.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "Ubisoft slows free currency gain in Rainbow Six Siege X to a pathetic crawl, then immediately drops its most expensive skin in 10 years",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/ubisoft-slows-free-currency-gain-in-rainbow-six-siege-x-to-a-pathetic-crawl-then-immediately-drops-its-most-expensive-skin-in-10-years/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/E5JKdDs6umQY38b8CmjAwa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
     "titulo": "Just 1 year after raising $340,000 on Kickstarter to make a 'vibrant' new JPRG, Studio Camelia abruptly closes",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/just-1-year-after-raising-usd340-000-on-kickstarter-to-make-a-vibrant-new-jprg-studio-camelia-abruptly-closes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EhRicXoeCxyWBHXKHXgn6G.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "timestamp": "2025-06-18T08:42:00"
   },
   {
-    "titulo": "Hades 2 adds nastier bosses and new weapon variants in its last major update before it leaves early access behind",
-    "descricao": "newsThe Unseen Update also finally gives us a look at Narcissus.",
-    "link": "https://www.pcgamer.com/games/action/hades-2-adds-nastier-bosses-and-new-weapon-variants-in-its-last-major-update-before-it-leaves-early-access-behind/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HUx7UwPNN7mjBbiU5Eh9EA.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T08:28:36"
+    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Diretor de Dying Light: The Beast explica o que são as Chimeras | IGN First",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dying-light-the-beast/141903/preview/diretor-de-dying-light-the-beast-explica-o-que-sao-as-chimeras-monstruosas-e-assustadoras-novas-cria",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64443/64443_uvdg.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Kojima alterou Death Stranding 2 porque não estava \"polarizado o suficiente\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/141837/news/as-pessoas-gostaram-demais-nos-primeiros-testes-hideo-kojima-alterou-death-stranding-2-porque-nao-es",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64444/64444_ps1x.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "\"Acho que sobreviveremos\": fãs do Snyder Cut promovem boicote a novo filme do Superman — e James Gunn não perde oportunidade de rir dos haters",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/141942/news/acho-que-sobreviveremos-fas-do-snyder-cut-promovem-boicote-a-novo-filme-do-superman-e-james-gunn-nao",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Marathon é adiado indefinidamente: \"precisamos de mais tempo\", diz Bungie",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marathon/141925/news/marathon-e-adiado-indefinidamente-precisamos-de-mais-tempo-diz-bungie",
+    "imagem": "https://sm.ign.com/t/ign_br/gallery/m/marathon-g/marathon-gameplay-screenshots_czzf.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Xbox anuncia parceria com AMD para futuros consoles e plataformas \"não conectadas a uma única loja ou aparelho\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/141921/news/xbox-anuncia-parceria-com-amd-para-futuros-consoles-e-plataformas-nao-conectadas-a-uma-unica-loja-ou",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ynz7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "Joguei numa TCL C7K de 98 polegadas e agora as outras TVs parecem pequenas | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/141877/preview/joguei-numa-tcl-c7k-de-98-polegadas-e-agora-as-outras-tvs-parecem-pequenas-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_apec.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "WhatsApp lança novos recursos para iPhone e o melhor é que agora você pode usá-los",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/whatsapp/141886/news/whatsapp-lanca-novos-recursos-para-iphone-e-o-melhor-e-que-agora-voce-pode-usa-los",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/shutter-speed-sny85ra68t4-unsplash_uckx.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
+  },
+  {
+    "titulo": "10% de desconto no Gift Card PlayStation Store no Mercado Livre!",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141950/news/10-de-desconto-no-gift-card-playstation-store-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-20_qjz5.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T08:42:00"
   }
 ];
