@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Netflix não está promovendo muito, mas esta obra pode ser o filme de zumbis mais brutal e visceral que você verá neste inverno",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/141997/feature/netflix-nao-esta-promovendo-muito-mas-esta-obra-pode-ser-o-filme-de-zumbis-mais-brutal-e-visceral-qu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_etum.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
-    "titulo": "Desconto insano! Fone JBL de alta qualidade e bateria de 76h está por menos de R$ 260",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/141993/news/desconto-insano-fone-jbl-de-alta-qualidade-e-bateria-de-76h-esta-por-menos-de-r-260",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/untitled-2_yx5g.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-18T16:58:43"
-  },
-  {
     "titulo": "WhatsApp really is good, so Meta's had enough of that and is now 'monetising the periphery' with new ads that try to make it more like Instagram",
     "descricao": "NewsThis Zucks.",
     "link": "https://www.pcgamer.com/gaming-industry/whatsapp-really-is-good-so-metas-had-enough-of-that-and-is-now-monetising-the-periphery-with-new-ads-that-try-to-make-it-more-like-instagram/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kosxc9FS9y36XgvzSUxzm5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Elon Musk's latest gaming take is ruthlessly mocked by Bioshock fans: 'Probably thinks Andrew Ryan was the hero'",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/elon-musks-latest-gaming-take-is-ruthlessly-mocked-by-bioshock-fans-probably-thinks-andrew-ryan-was-the-hero/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8PAXEYssCGdWCEQCVsJErU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "After 4 years of silence, one of the most disappointing games of 2020 gets a surprise expansion",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/after-4-years-of-silence-one-of-the-most-disappointing-games-of-2020-gets-a-surprise-expansion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/erNJ8eSJVbFAMe4A9XVVoQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Warner Bros Games restructures, all the better to drown us in Batman and Harry Potter games",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/warner-bros-games-restructures-all-the-better-to-drown-us-in-batman-and-harry-potter-games/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9RFdrNTFSdmJ3dUeruTKj5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "RuneScape player pulls off a personal Shawshank Redemption: Grinds his way out of one-zone house arrest by grinding a raid 2,000 times over 10,000 hours: 'It was all worth it'",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/runescape-player-pulls-off-a-personal-shawshank-redemption-grinds-his-way-out-of-one-zone-house-arrest-by-grinding-a-raid-2-000-times-over-10-000-hours-it-was-all-worth-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jcNTdhh7GZ2iutVDKFXB4b.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Intel has joined Nvidia with its own neural texture compression tech but it probably won't rescue your VRAM-starved 8 GB GPU any time soon",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/intel-has-joined-nvidia-with-its-own-neural-texture-compression-tech-but-it-probably-wont-rescue-your-vram-starved-8-gb-gpu-any-time-soon/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFsDctz3rGuymB4N4zSBo5.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Elden Ring movie director reveals how he's getting through his 7th playthrough, 'It's like monkeys and typewriters—you just keep doing it'",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-movie-director-reveals-how-hes-getting-through-his-7th-playthrough-its-like-monkeys-and-typewriters-you-just-keep-doing-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JoYdB3Qqvz7hmrXMQra5zj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Our favorite budget wireless gaming mouse has knocked almost $20 off, making it an even more wallet-friendly option",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/our-favorite-budget-wireless-gaming-mouse-has-knocked-almost-usd20-off-making-it-an-even-more-wallet-friendly-option/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zZ7uw4fbKc8kiKqcm8AgT7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
   },
   {
     "titulo": "Dune: Awakening patch fixes the ornithopter 'goomba stomp' problem in PvP, just not in the way I expected",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-patch-fixes-the-ornithopter-goomba-stomp-problem-in-pvp-just-not-in-the-way-i-expected/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UyPQPZ3t9oRB5THLtxK2xd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-18T16:58:43"
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
+    "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Netflix não está promovendo muito, mas esta obra pode ser o filme de zumbis mais brutal e visceral que você verá neste inverno",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/141997/feature/netflix-nao-esta-promovendo-muito-mas-esta-obra-pode-ser-o-filme-de-zumbis-mais-brutal-e-visceral-qu",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_etum.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
+  },
+  {
+    "titulo": "Desconto insano! Fone JBL de alta qualidade e bateria de 76h está por menos de R$ 260",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/141993/news/desconto-insano-fone-jbl-de-alta-qualidade-e-bateria-de-76h-esta-por-menos-de-r-260",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/untitled-2_yx5g.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-18T17:30:31"
   }
 ];
