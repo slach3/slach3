@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/a-player-made-libra-deals-cheat-sheet-for-elden-ring-nightreign-reveals-when-you-should-and-shouldnt-make-a-deal-with-the-goat-devil/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3An84jaA3VAhRCZ2D6V3n4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "The 50 most-played demos of Steam Next Fest include musical martial arts, a Stalker-inspired MMO, a superhero management sim, and at least 2 games that are basically Sea of Thieves in space",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-50-most-played-demos-of-steam-next-fest-include-musical-martial-arts-a-stalker-inspired-mmo-a-superhero-management-sim-and-at-least-2-games-that-are-basically-sea-of-thieves-in-space/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/c5SxUr7enaFiPAR4PHFzpf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Oh no, I've been playing a tutorial for 55 hours: Elden Ring Nightreign's Everdark Sovereigns aren't just a health and damage boost, the Gaping Jaw's got all-new mechanics to lay us flat",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/oh-no-ive-been-playing-a-tutorial-for-55-hours-elden-ring-nightreigns-everdark-sovereigns-arent-just-a-health-and-damage-boost-the-gaping-jaws-got-all-new-mechanics-to-lay-us-flat/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dRewRMKjwYq2oXi58RpRMZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Fake Minecraft mods that steal all your personal data including crypto wallets are being distributed via GitHub accounts",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/security/fake-minecraft-mods-that-steal-all-your-personal-data-including-crypto-wallets-are-being-distributed-via-github-accounts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WvaWp8fC2nzCgJq2riTPMi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Intel claims 18A, the node Pat bet the company on, is either 25% faster or 38% more efficient than Intel 3. Though that's a node Intel didn't have enough faith in to release for desktops or laptops",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intel-claims-18a-the-node-pat-bet-the-company-on-is-either-25-percent-faster-or-38-percent-more-efficient-than-intel-3-though-thats-a-node-intel-didnt-have-enough-faith-in-to-release-for-desktops-or-laptops/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Return to Silent Hill finally has a release date, and there's not long left to wait now",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/return-to-silent-hill-finally-has-a-release-date-and-theres-not-long-left-to-wait-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BLvkJPQafSCvC9k3QkRgAi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "XCOM 2 is $2.40, and its excellent DLC War of the Chosen ain't far off—making the all-time tactical strategy great cheaper than takeout",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/xcom-2-is-usd2-40-and-its-excellent-dlc-war-of-the-chosen-aint-far-off-making-the-all-time-tactical-strategy-great-cheaper-than-takeout/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CKPynSQvq4gyrfXYNpWERf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "'Couldn't afford a PC so I drew one' says one Redditor after drawing a God-tier cel shaded case mod for his kids to play Minecraft on",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/couldnt-afford-a-pc-so-i-drew-one-says-one-redditor-after-drawing-a-god-tier-cel-shaded-case-mod-for-his-kids-to-play-minecraft-on/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QXuRFU3AbuTZK8HEjBiLmm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "PC Gamer magazine's new issue is on sale now: Painkiller",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gamer-magazines-new-issue-is-on-sale-now-painkiller/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FKz98qgpebugDuYBG9d5TK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
+  },
+  {
+    "titulo": "Scarlett Johansson revela maior desvantagem em estrelar filmes de franquias como o MCU",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/viuva-negra/141895/news/scarlett-johansson-revela-maior-desvantagem-em-estrelar-filmes-de-franquias-como-o-mcu",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/viuva-negra-cosplay_kfed.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T11:41:21"
   },
   {
     "titulo": "Elon Musk defende há anos jornada de 80 horas semanais para funcionários, mas trabalha menos de 40 na Tesla",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/141805/feature/elon-musk-defende-ha-anos-jornada-de-80-horas-semanais-para-funcionarios-mas-trabalha-menos-de-40-na",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/elon-musk-/elon-musk-threatens-to-terminate-deal-to-buy-twitter-if-spam_dr2d.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
-  },
-  {
-    "titulo": "31 anos depois do seu lançamento, engenheiro cria placa-mãe personalizada para PlayStation 1 e dá nova vida ao console",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/141854/news/31-anos-depois-do-seu-lancamento-engenheiro-cria-placa-mae-personalizada-para-playstation-1-e-da-nov",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rtyu.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T11:22:04"
+    "timestamp": "2025-06-19T11:41:21"
   }
 ];
