@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "De brinquedo dos anos 90 a verdadeira joia tecnológica: como Tamagotchi conseguiu se modernizar ao longa das décadas",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142016/news/de-brinquedo-dos-anos-90-a-verdadeira-joia-tecnologica-como-tamagotchi-conseguiu-se-modernizar-ao-lo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h968.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
-    "titulo": "Este personagem tem pouco mais de 50 falas na trilogia de O Senhor dos Anéis e mesmo assim se tornou um ícone da cultura pop",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/o-senhor-dos-aneis/141896/news/este-personagem-tem-pouco-mais-de-50-falas-na-trilogia-de-o-senhor-dos-aneis-e-mesmo-assim-se-tornou",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fellowship1_ghr7.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-19T10:23:29"
-  },
-  {
     "titulo": "Fake Minecraft mods that steal all your personal data including crypto wallets are being distributed via GitHub accounts",
     "descricao": "NewsBe very careful of your mods and tools.",
     "link": "https://www.pcgamer.com/software/security/fake-minecraft-mods-that-steal-all-your-personal-data-including-crypto-wallets-are-being-distributed-via-github-accounts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WvaWp8fC2nzCgJq2riTPMi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "Intel claims 18A, the node Pat bet the company on, is either 25% faster or 38% more efficient than Intel 3. Though that's a node Intel didn't have enough faith in to release for desktops or laptops",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/intel-claims-18a-the-node-pat-bet-the-company-on-is-either-25-percent-faster-or-38-percent-more-efficient-than-intel-3-though-thats-a-node-intel-didnt-have-enough-faith-in-to-release-for-desktops-or-laptops/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "Return to Silent Hill finally has a release date, and there's not long left to wait now",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/return-to-silent-hill-finally-has-a-release-date-and-theres-not-long-left-to-wait-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BLvkJPQafSCvC9k3QkRgAi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "XCOM 2 is $2.40, and its excellent DLC War of the Chosen ain't far off—making the all-time tactical strategy great cheaper than takeout",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/xcom-2-is-usd2-40-and-its-excellent-dlc-war-of-the-chosen-aint-far-off-making-the-all-time-tactical-strategy-great-cheaper-than-takeout/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CKPynSQvq4gyrfXYNpWERf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "'Couldn't afford a PC so I drew one' says one Redditor after drawing a God-tier cel shaded case mod for his kids to play Minecraft on",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/pc-cases/couldnt-afford-a-pc-so-i-drew-one-says-one-redditor-after-drawing-a-god-tier-cel-shaded-case-mod-for-his-kids-to-play-minecraft-on/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QXuRFU3AbuTZK8HEjBiLmm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "PC Gamer magazine's new issue is on sale now: Painkiller",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gamer-magazines-new-issue-is-on-sale-now-painkiller/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FKz98qgpebugDuYBG9d5TK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "Elden Ring Nightreign's first enhanced boss just dropped out of nowhere, and there's an extremely useful new NPC too",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreigns-first-enhanced-boss-just-dropped-out-of-nowhere-and-theres-an-extremely-useful-new-npc-too/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Z2FNeLqdjcC62kWKRdjwTV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, June 19",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-19-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
   },
   {
     "titulo": "PlayStation's attempt to summarize the plot of Death Stranding in six minutes is heroic and doomed",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/playstations-attempt-to-summarize-the-plot-of-death-stranding-in-six-minutes-is-heroic-and-doomed/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/q7LVEuanLysBcLWzxBQWWJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-19T10:23:29"
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
+    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
+    "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "31 anos depois do seu lançamento, engenheiro cria placa-mãe personalizada para PlayStation 1 e dá nova vida ao console",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/141854/news/31-anos-depois-do-seu-lancamento-engenheiro-cria-placa-mae-personalizada-para-playstation-1-e-da-nov",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_rtyu.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
+  },
+  {
+    "titulo": "De brinquedo dos anos 90 a verdadeira joia tecnológica: como Tamagotchi conseguiu se modernizar ao longa das décadas",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142016/news/de-brinquedo-dos-anos-90-a-verdadeira-joia-tecnologica-como-tamagotchi-conseguiu-se-modernizar-ao-lo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_h968.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-19T10:47:13"
   }
 ];
