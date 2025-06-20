@@ -1,11 +1,35 @@
 const noticias = [
   {
+    "titulo": "AMD just mentioned an as yet unreleased Ryzen X3D chip that could become the budget gaming CPU of champions",
+    "descricao": "NewCome on, AMD, let's see this chip on shelves around the world.",
+    "link": "https://www.pcgamer.com/hardware/processors/amd-just-mentioned-an-as-yet-unreleased-ryzen-x3d-chip-that-could-become-the-budget-gaming-cpu-of-champions/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Za5FRQMnXYdcMJJBvwWHgi.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-20T10:07:22"
+  },
+  {
+    "titulo": "Final Fantasy 14 is making it easier to enter its latest dungeon so you can stop spending half an hour playing 'instance gacha'",
+    "descricao": "newsOccult Crescent makes it mighty difficult to get 48 players in one room.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-is-making-it-easier-to-enter-its-latest-dungeon-so-you-can-stop-spending-half-an-hour-playing-instance-gacha/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pUKZtoJvyebZPjpC9y93Nk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-20T10:07:22"
+  },
+  {
+    "titulo": "Despite bankrolling Square Enix, 'cost' is somehow the reason Final Fantasy 14's newest raid (which has only been cleared 400 times in 23 days) wasn't given an easier version",
+    "descricao": "NewsCS3's got its priorities all backwards.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/despite-bankrolling-square-enix-cost-is-somehow-the-reason-final-fantasy-14s-newest-raid-which-has-only-been-cleared-400-times-in-23-days-wasnt-given-an-easier-version/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZNKGQHtQbVv2XgXAE5ksfM.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-20T10:07:22"
+  },
+  {
     "titulo": "GOG says it won't repeat its ill-fated Daggerfall GOG Cut with its new one-click modding program, not least because it can send more than one message a day to modders now",
     "descricao": "newsGOG won't be assuming personal responsibility over updates this time round.",
     "link": "https://www.pcgamer.com/software/platforms/gog-says-it-wont-repeat-its-ill-fated-daggerfall-gog-cut-with-its-new-one-click-modding-program-not-least-because-it-can-send-more-than-one-message-a-day-to-modders-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uCwuE8fLzLXaKATLGTmXD3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "'We just kept geeking out': Skyblivion devs were invited to Bethesda HQ and ended up spending the whole day talking about modding with the team and Todd Howard",
@@ -13,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/we-just-kept-geeking-out-skyblivion-devs-were-invited-to-bethesda-hq-and-ended-up-spending-the-whole-day-talking-about-modding-with-the-team-and-todd-howard/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/W9ozoTDTAMCfESuFHc84bc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Oblivion's dungeons suck, Skyblivion is making them better: 'That's where the power of a proper remake comes from'",
@@ -21,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivions-dungeons-suck-skyblivion-is-making-them-better-thats-where-the-power-of-a-proper-remake-comes-from/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Dqky8wz8757BQxZHAhnEg8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "FF14 'stalker plugin' PlayerScope shut down after creator says they were sent a cease & desist—though that's not quite the end of it",
@@ -29,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/ff14-stalker-plugin-playerscope-shut-down-after-creator-says-they-were-sent-a-cease-and-desist-though-thats-not-quite-the-end-of-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HBHayjV8zsdF299fuWERia.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "A battle over air quality between Musk's xAI and the citizens of Memphis now looks to be heading towards the courts",
@@ -37,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/a-battle-over-air-quality-between-musks-xai-and-the-citizens-of-memphis-now-looks-to-be-heading-towards-the-courts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rysiHbGDAdvFumsMXqsMzb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Today's Wordle answer for Friday, June 20",
@@ -45,31 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-20-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
-  },
-  {
-    "titulo": "Eight minutes of footage from an unfinished open world D&D game has leaked",
-    "descricao": "NewsHidden Path's Project Dante wasn't aiming to be the next Baldur's Gate, but had potential.",
-    "link": "https://www.pcgamer.com/games/rpg/eight-minutes-of-footage-from-an-unfinished-open-world-d-and-d-game-has-leaked/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Erk7THgJAffvQ9mk9Ev6Pk.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
-  },
-  {
-    "titulo": "Stellaris updates are going to start coming more slowly, because new patches are causing new problems and QA testers can't keep up",
-    "descricao": "newsStellaris 4.0 still needs work, but the current pace of fixes is apparently causing trouble.",
-    "link": "https://www.pcgamer.com/games/strategy/stellaris-updates-are-going-to-start-coming-more-slowly-because-new-patches-are-causing-new-problems-and-qa-testers-cant-keep-up/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/S2jNGtWFsDbrEzuNL82CAj.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
-  },
-  {
-    "titulo": "Rematch launched without crossplay because of 'unforeseen technical complexities' and Sloclap is sorry, but it's a hit on Steam anyway",
-    "descricao": "newsSloclap apologized for not admitting the game wouldn't have crossplay at launch until just before it went live.",
-    "link": "https://www.pcgamer.com/games/sports/rematch-launched-without-crossplay-because-of-unforeseen-technical-complexities-and-sloclap-is-sorry-but-its-a-hit-on-steam-anyway/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TTYkQJoexfLGbBKgxS2bJK.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "Novos filmes de Bruce Lee, Jackie Chan e Jet Li? A IA poderá tornar realidade, como planejam estúdios chineses",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/142030/news/novos-filmes-de-bruce-lee-jackie-chan-e-jet-li-a-ia-podera-tornar-realidade-como-planejam-estudios-c",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/chinese-st/chinese-studios-planning-ai-remakes-of-the-classic-kung-fu-f_s3ze.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   },
   {
     "titulo": "\"Sem precedentes em 30 anos\": para o Xbox portátil as equipes da Microsoft estão contando com a força original da empresa",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/rog-xbox-ally/141878/news/sem-precedentes-em-30-anos-para-o-xbox-portatil-as-equipes-da-microsoft-estao-contando-com-a-forca-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_pnjg.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T09:26:22"
+    "timestamp": "2025-06-20T10:07:22"
   }
 ];
