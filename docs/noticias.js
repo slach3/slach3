@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/balatro-creator-gets-a-taste-of-my-own-medicine-as-he-struggles-in-vain-to-score-the-games-hardest-achievement/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wVNrko5VerVGNcXYZwqGRY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Trump extends TikTok sale deadline in the US yet again, leaving the whole situation feeling 'less like a ticking clock and more like a looped ringtone… political Groundhog Day'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/trump-extends-tiktok-sale-deadline-in-the-us-yet-again-leaving-the-whole-situation-feeling-less-like-a-ticking-clock-and-more-like-a-looped-ringtone-political-groundhog-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gjMpPNa5vA24CL2eRyUJjR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Lenovo might have just leaked the more powerful Legion Go 2's release date for September",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/lenovo-might-have-just-leaked-the-more-powerful-legion-go-2s-release-date-for-september/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oYJXEpQCW95RzMs67PRbPN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "No, 16 billion passwords didn't just get exposed in a mega-hack, but you should get with the program and stop reusing passwords anyways",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/security/no-16-billion-passwords-didnt-just-get-exposed-in-a-mega-hack-but-you-probably-should-get-with-the-program-and-stop-reusing-passwords-anyways/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KUHXQp6wFgwEkgvZyJYreU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "AMD just mentioned an as yet unreleased Ryzen X3D chip that could become the budget gaming CPU of champions",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/amd-just-mentioned-an-as-yet-unreleased-ryzen-x3d-chip-that-could-become-the-budget-gaming-cpu-of-champions/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Za5FRQMnXYdcMJJBvwWHgi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Final Fantasy 14 is making it easier to enter its latest dungeon so you can stop spending half an hour playing 'instance gacha'",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-is-making-it-easier-to-enter-its-latest-dungeon-so-you-can-stop-spending-half-an-hour-playing-instance-gacha/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pUKZtoJvyebZPjpC9y93Nk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Despite bankrolling Square Enix, 'cost' is somehow the reason Final Fantasy 14's newest raid (which has only been cleared 400 times in 23 days) wasn't given an easier version",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/despite-bankrolling-square-enix-cost-is-somehow-the-reason-final-fantasy-14s-newest-raid-which-has-only-been-cleared-400-times-in-23-days-wasnt-given-an-easier-version/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZNKGQHtQbVv2XgXAE5ksfM.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "GOG says it won't repeat its ill-fated Daggerfall GOG Cut with its new one-click modding program, not least because it can send more than one message a day to modders now",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/platforms/gog-says-it-wont-repeat-its-ill-fated-daggerfall-gog-cut-with-its-new-one-click-modding-program-not-least-because-it-can-send-more-than-one-message-a-day-to-modders-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uCwuE8fLzLXaKATLGTmXD3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "'We just kept geeking out': Skyblivion devs were invited to Bethesda HQ and ended up spending the whole day talking about modding with the team and Todd Howard",
@@ -69,7 +69,23 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/we-just-kept-geeking-out-skyblivion-devs-were-invited-to-bethesda-hq-and-ended-up-spending-the-whole-day-talking-about-modding-with-the-team-and-todd-howard/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/W9ozoTDTAMCfESuFHc84bc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
+  },
+  {
+    "titulo": "Dune: Awakening é cruel, complexo e viciante | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dune-awakening/142077/review/dune-awakening-e-cruel-complexo-e-viciante-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64529/64529_3nyy.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T15:53:56"
+  },
+  {
+    "titulo": "Um dos feitos mais chocante da Rockstar não tem ligação alguma com GTA ou Red Dead",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/iuadfuihasfuhiuhisfa/141853/feature/um-dos-feitos-mais-surpreendentes-da-rockstar-games-nao-tem-ligacao-alguma-com-gta-ou-red-dead-redem",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64530/64530_kx3r.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
@@ -77,15 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
-  },
-  {
-    "titulo": "Marvel Cosmic Invasion é a pura diversão do beat-em-up com heróis da Marvel | Preview",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-cosmic-invasion/141970/news/marvel-cosmic-invasion-e-a-pura-diversao-do-beat-em-up-com-os-herois-da-marvel-preview",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/nintendoswitch2-marvel-cosmic-invasion-screenshot-3-17436364_t448.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
@@ -93,55 +101,39 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
-    "titulo": "Visualmente lindo, Elio leva a Pixar para as estrelas | Review",
+    "titulo": "GTA 6: Há um detalhe que até hoje ninguém havia reparado nas imagens oficiais do jogo",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elio/141900/review/visualmente-lindo-elio-leva-a-pixar-para-as-estrelas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64442/64442_py83.800.jpg",
+    "link": "https://br.ign.com/grand-theft-auto-vi/142076/news/gta-6-ha-um-detalhe-que-ate-hoje-ninguem-havia-reparado-nas-imagens-oficiais-do-jogo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5xmh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
-    "titulo": "Diretor do filme de Elden Ring está zerando o jogo pela sétima vez e revela o boss mais difícil",
+    "titulo": "Resident Evil Requiem: Teoria aponta possível conexão singela de Grace, nova protagonista da franquia, com Jill Valentine",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/elden-ring/141957/news/diretor-do-filme-de-elden-ring-esta-zerando-o-jogo-pela-setima-vez-e-revela-o-boss-mais-dificil",
-    "imagem": "https://sm.ign.com/t/ign_br/news/e/elden-ring/elden-ring-movie-director-alex-garland-is-on-his-7th-playthr_1amj.320.jpg",
+    "link": "https://br.ign.com/resident-evil-requiem/141850/feature/resident-evil-requiem-teoria-aponta-possivel-conexao-singela-de-grace-nova-protagonista-da-franquia",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/resident-evil-requiem-screenshot-2_vxur.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
-    "titulo": "\"Esse é meu ideal quando estou criando algo\": Hideo Kojima revela que time de desenvolvimento de Clair Obscur: Expedition 33 tem número perfeito de pessoas para a criação de um jogo",
+    "titulo": "Este personagem tem pouco mais de 50 falas na trilogia de O Senhor dos Anéis e mesmo assim se tornou um ícone da cultura pop",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/141962/news/esse-e-meu-ideal-quando-estou-criando-algo-hideo-kojima-revela-que-time-de-desenvolvimento-de-clair",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-94_axmy.320.png",
+    "link": "https://br.ign.com/o-senhor-dos-aneis/141896/news/este-personagem-tem-pouco-mais-de-50-falas-na-trilogia-de-o-senhor-dos-aneis-e-mesmo-assim-se-tornou",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fellowship1_ghr7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
-    "titulo": "\"Jogo do ano\": Direct de Donkey Kong Bananza desperta comparações com Super Mario Odyssey e franquia Zelda",
+    "titulo": "Culinária, moda e mais: 5 jogos de simulação que valem a pena no Nintendo Switch",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/141968/news/jogo-do-ano-direct-de-donkey-kong-bananza-desperta-comparacoes-com-super-mario-odyssey-e-franquia-ze",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mjss.320.jpg",
+    "link": "https://br.ign.com/nintendo-switch/142003/feature/culinaria-moda-e-mais-5-jogos-de-simulacao-que-valem-a-pena-no-nintendo-switch",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch_3d6c.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
-  },
-  {
-    "titulo": "Hades 2 recebe atualização final de conteúdo antes do lançamento completo oficial",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/hades-ii/141960/news/hades-2-recebe-atualizacao-final-de-conteudo-antes-do-lancamento-completo-oficial",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hades-2-ea/hades-2-early-access-patch-2-adds-more-night-time-encounters_ueca.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
-  },
-  {
-    "titulo": "Dune: Awakening é cruel, complexo e viciante | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dune-awakening/142077/review/dune-awakening-e-cruel-complexo-e-viciante-review",
-    "imagem": "https://sm.ign.com/t/ign_br/news/y/yes-you-ca/yes-you-can-ride-sandworms-in-dune-awakening-kinda_2fbk.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
   },
   {
     "titulo": "Round 6: tudo o que você precisa lembrar para entender a 3ª temporada da série da Netflix",
@@ -149,6 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/round-6/141161/feature/round-6-tudo-o-que-voce-precisa-lembrar-para-entender-a-3a-temporada-da-serie-da-netflix",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-05t112612919_17by.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T15:37:17"
+    "timestamp": "2025-06-20T15:53:56"
+  },
+  {
+    "titulo": "Novo RPG de sobrevivência multiplayer acaba de ser lançado no Steam e você pode jogar de graça neste fim de semana",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142072/news/novo-rpg-de-sobrevivencia-multiplayer-acaba-de-ser-lancado-no-steam-e-voce-pode-jogar-de-graca-neste",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/multiplayer-home_sxw7.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T15:53:56"
   }
 ];
