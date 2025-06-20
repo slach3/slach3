@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Dune: Awakening é cruel, complexo e viciante | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dune-awakening/142077/review/dune-awakening-e-cruel-complexo-e-viciante-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64529/64529_3nyy.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Um dos feitos mais chocante da Rockstar não tem ligação alguma com GTA ou Red Dead",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/iuadfuihasfuhiuhisfa/141853/feature/um-dos-feitos-mais-surpreendentes-da-rockstar-games-nao-tem-ligacao-alguma-com-gta-ou-red-dead-redem",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64530/64530_kx3r.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "GTA 6: Há um detalhe que até hoje ninguém havia reparado nas imagens oficiais do jogo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/grand-theft-auto-vi/142076/news/gta-6-ha-um-detalhe-que-ate-hoje-ninguem-havia-reparado-nas-imagens-oficiais-do-jogo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5xmh.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Resident Evil Requiem: Teoria aponta possível conexão singela de Grace, nova protagonista da franquia, com Jill Valentine",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-requiem/141850/feature/resident-evil-requiem-teoria-aponta-possivel-conexao-singela-de-grace-nova-protagonista-da-franquia",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/resident-evil-requiem-screenshot-2_vxur.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Este personagem tem pouco mais de 50 falas na trilogia de O Senhor dos Anéis e mesmo assim se tornou um ícone da cultura pop",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/o-senhor-dos-aneis/141896/news/este-personagem-tem-pouco-mais-de-50-falas-na-trilogia-de-o-senhor-dos-aneis-e-mesmo-assim-se-tornou",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fellowship1_ghr7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Culinária, moda e mais: 5 jogos de simulação que valem a pena no Nintendo Switch",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch/142003/feature/culinaria-moda-e-mais-5-jogos-de-simulacao-que-valem-a-pena-no-nintendo-switch",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch_3d6c.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Jeff Bezos e outros bilionários construíram ilha luxuosa para morar, mas enviam seus dejetos para bairro vizinho",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142086/feature/jeff-bezos-e-outros-bilionarios-construiram-ilha-luxuosa-para-morar-mas-enviam-seus-dejetos-para-bai",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_x4uf.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
-  },
-  {
-    "titulo": "Honda lançou e aterrissou seu primeiro foguete reutilizável, assim como o de Elon Musk",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142085/news/honda-lancou-e-aterrissou-seu-primeiro-foguete-reutilizavel-assim-como-o-de-elon-musk",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_w86j.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-20T18:14:58"
+    "titulo": "Monster Hunter Wilds has been hit by over 2,000 negative Steam reviews in the last week as players lose hope that Capcom will fix its egregious performance issues",
+    "descricao": "newsThe game has dropped to an \"overwhelmingly negative\" rating in the last week.",
+    "link": "https://www.pcgamer.com/games/rpg/monster-hunter-wilds-has-been-hit-by-over-2-000-negative-steam-reviews-in-the-last-week-as-players-lose-hope-that-capcom-will-fix-its-egregious-performance-issues/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/VGM8MLmWR5236UdpQ9j6mX.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "FBC: Firebreak patch aims to improve the game's early hours, which 'do not provide a good experience,' Remedy admits",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/fbc-firebreak-patch-aims-to-improve-the-games-early-hours-which-do-not-provide-a-good-experience-remedy-admits/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ieeiJwZaXBeLadHTtSKSTg.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "Oblivion is a very funny game but the Skyblivion remake may not be, and you can blame the quality of Skyrim's 'streamlined' engine for that",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/oblivion-is-a-very-funny-game-but-the-skyblivion-remake-may-not-be-and-you-can-blame-the-quality-of-skyrims-streamlined-engine-for-that/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uUPvMJAx6tRfig2DWUd2J4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "A Duke Nukem TV series may be coming from the producer of the Devil May Cry and Castlevania animated shows on Netflix",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/a-duke-nukem-tv-series-may-be-coming-from-the-producer-of-the-devil-may-cry-and-castlevania-animated-shows-on-netflix/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U4Shwr3n5JNdKyJyk5afWk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "Balatro creator gets 'a taste of my own medicine' as he struggles in vain to score the game's hardest achievement",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/balatro-creator-gets-a-taste-of-my-own-medicine-as-he-struggles-in-vain-to-score-the-games-hardest-achievement/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wVNrko5VerVGNcXYZwqGRY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "Trump extends TikTok sale deadline in the US yet again, leaving the whole situation feeling 'less like a ticking clock and more like a looped ringtone… political Groundhog Day'",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/trump-extends-tiktok-sale-deadline-in-the-us-yet-again-leaving-the-whole-situation-feeling-less-like-a-ticking-clock-and-more-like-a-looped-ringtone-political-groundhog-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gjMpPNa5vA24CL2eRyUJjR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "Lenovo might have just leaked the more powerful Legion Go 2's release date for September",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/lenovo-might-have-just-leaked-the-more-powerful-legion-go-2s-release-date-for-september/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oYJXEpQCW95RzMs67PRbPN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "No, 16 billion passwords didn't just get exposed in a mega-hack, but you should get with the program and stop reusing passwords anyways",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/security/no-16-billion-passwords-didnt-just-get-exposed-in-a-mega-hack-but-you-probably-should-get-with-the-program-and-stop-reusing-passwords-anyways/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KUHXQp6wFgwEkgvZyJYreU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
     "titulo": "AMD just mentioned an as yet unreleased Ryzen X3D chip that could become the budget gaming CPU of champions",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/amd-just-mentioned-an-as-yet-unreleased-ryzen-x3d-chip-that-could-become-the-budget-gaming-cpu-of-champions/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Za5FRQMnXYdcMJJBvwWHgi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "timestamp": "2025-06-20T18:31:21"
   },
   {
-    "titulo": "Final Fantasy 14 is making it easier to enter its latest dungeon so you can stop spending half an hour playing 'instance gacha'",
-    "descricao": "newsOccult Crescent makes it mighty difficult to get 48 players in one room.",
-    "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-is-making-it-easier-to-enter-its-latest-dungeon-so-you-can-stop-spending-half-an-hour-playing-instance-gacha/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pUKZtoJvyebZPjpC9y93Nk.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-20T18:14:58"
+    "titulo": "Dune: Awakening é cruel, complexo e viciante | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dune-awakening/142077/review/dune-awakening-e-cruel-complexo-e-viciante-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64529/64529_3nyy.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Um dos feitos mais chocante da Rockstar não tem ligação alguma com GTA ou Red Dead",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/iuadfuihasfuhiuhisfa/141853/feature/um-dos-feitos-mais-surpreendentes-da-rockstar-games-nao-tem-ligacao-alguma-com-gta-ou-red-dead-redem",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64530/64530_kx3r.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "GTA 6: Há um detalhe que até hoje ninguém havia reparado nas imagens oficiais do jogo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/grand-theft-auto-vi/142076/news/gta-6-ha-um-detalhe-que-ate-hoje-ninguem-havia-reparado-nas-imagens-oficiais-do-jogo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5xmh.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Resident Evil Requiem: Teoria aponta possível conexão singela de Grace, nova protagonista da franquia, com Jill Valentine",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-requiem/141850/feature/resident-evil-requiem-teoria-aponta-possivel-conexao-singela-de-grace-nova-protagonista-da-franquia",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/resident-evil-requiem-screenshot-2_vxur.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Este personagem tem pouco mais de 50 falas na trilogia de O Senhor dos Anéis e mesmo assim se tornou um ícone da cultura pop",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/o-senhor-dos-aneis/141896/news/este-personagem-tem-pouco-mais-de-50-falas-na-trilogia-de-o-senhor-dos-aneis-e-mesmo-assim-se-tornou",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fellowship1_ghr7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Culinária, moda e mais: 5 jogos de simulação que valem a pena no Nintendo Switch",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch/142003/feature/culinaria-moda-e-mais-5-jogos-de-simulacao-que-valem-a-pena-no-nintendo-switch",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch_3d6c.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Jeff Bezos e outros bilionários construíram ilha luxuosa para morar, mas enviam seus dejetos para bairro vizinho",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142086/feature/jeff-bezos-e-outros-bilionarios-construiram-ilha-luxuosa-para-morar-mas-enviam-seus-dejetos-para-bai",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_x4uf.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
+  },
+  {
+    "titulo": "Honda lançou e aterrissou seu primeiro foguete reutilizável, assim como o de Elon Musk",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142085/news/honda-lancou-e-aterrissou-seu-primeiro-foguete-reutilizavel-assim-como-o-de-elon-musk",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_w86j.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-20T18:31:21"
   }
 ];
