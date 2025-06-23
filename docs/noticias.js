@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/resident-game-industry-weirdo-yoko-taro-laments-that-there-arent-as-many-weird-people-making-videogames-as-there-used-to-be/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9hH4SdoXa7bk8Q5LcAwiP7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Xbox-themed Quest 3S has been spotted ready for release and if you close your eyes and imagine what an Xbox-themed Quest 3S looks like, bingo",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/vr/xbox-themed-quest-3s-has-been-spotted-ready-for-release-and-if-you-close-your-eyes-and-imagine-what-an-xbox-themed-quest-3s-looks-like-bingo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yMpNNUP93wmiZMBuAxRZRn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Stellar Blade's director admits 'the narrative was lacking', but wants to make up for it in the sequel",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/stellar-blades-director-admits-the-narrative-was-lacking-but-wants-to-make-up-for-it-in-the-sequel/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8kNWVx5dENbYujeqhw5bWF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "MindsEye's catastrophic launch to be followed by layoffs at former GTA producer's studio",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/mindseyes-catastrophic-launch-to-be-followed-by-layoffs-at-former-gta-producers-studio/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pKAjwrRZYnYxCZtz5nSjGA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Mario Kart 64 has a native PC port now thanks to the mad lads even Nintendo can't stop, who also ported Zelda and Star Fox",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/mario-kart-64-has-a-native-pc-port-now-thanks-to-the-mad-lads-even-nintendo-cant-stop-who-also-ported-zelda-and-star-fox/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JDT9SXGSp9ihsYnQHKgdzP.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Phasmophobia devs 'don't want to walk into the live service area' with seasonal events, but still have plans to keep the community engaged",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/phasmophobia-devs-dont-want-to-walk-into-the-live-service-area-with-seasonal-events-but-still-have-plans-to-keep-the-community-engaged/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/C32e9u2ujrqs9rvsaudKRG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "One lucky Redditor has managed to snag themselves a mythical AMD Radeon GeForce RTX RX 9070 XT. Yes, you read that right",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/one-lucky-redditor-has-managed-to-snag-themselves-a-mythical-amd-radeon-geforce-rtx-rx-9070-xt-yes-you-read-that-right/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jg8BpP4aQcatZb5pTSBurV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Final Fantasy 14 director Yoshi-P admits 'our quality of service has declined recently' and 'we got used to things a bit too much and got comfortable'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-director-yoshi-p-admits-our-quality-of-service-has-declined-recently-and-we-got-used-to-things-a-bit-too-much-and-got-comfortable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b5RAAiTmx9zZaC8JeqbJ6c.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "REPO devs are planning something diabolical for the upcoming museum map: 'Get ready to Mission: Impossible your way past laser security modules'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/repo-devs-are-planning-something-diabolical-for-the-upcoming-museum-map-get-ready-to-mission-impossible-your-way-past-laser-security-modules/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7rGzXkGFideKrahTG5UPif.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
+  },
+  {
+    "titulo": "Criador de Castlevania e Devil May Cry da Netflix está de olho em nova adaptação da obra de Kentaro Miura",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/berserk/142134/news/criador-de-castlevania-e-devil-may-cry-da-netflix-esta-de-olho-em-nova-adaptacao-da-obra-de-kentaro",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/b1_cgwq.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T14:34:53"
   },
   {
     "titulo": "Uma mansão dentro de um avião? Empresário comprou um Boeing 737 e realizou sonho bizarro",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/142131/news/uma-mansao-dentro-de-um-aviao-empresario-comprou-um-boeing-737-e-realizou-sonho-bizarro",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/captura-de-tela-2025-06-23-120307_8jv4.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
-  },
-  {
-    "titulo": "\"Isso é canônico, está confirmado\": criador de The Walking Dead comenta sobre teoria envolvendo Breaking Bad",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-walking-dead-1/142130/news/isso-e-canonico-esta-confirmado-criador-de-the-walking-dead-comenta-sobre-teoria-envolvendo-breaking",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/twd_5g7n.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T14:10:40"
+    "timestamp": "2025-06-23T14:34:53"
   }
 ];
