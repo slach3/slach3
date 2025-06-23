@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "The Claaaaw: MSI unveils Toy Story gaming PC parts with Buzz GPU, Woody motherboard and Pizza Planet cooler",
+    "descricao": "NewsAnd it'll set you back about $2600.",
+    "link": "https://www.pcgamer.com/hardware/gaming-pcs/the-claaaaw-msi-unveils-toy-story-gaming-pc-parts-with-buzz-gpu-woody-motherboard-and-pizza-planet-cooler/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/VsDpcymLfGfFLyDcqrJTkP.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-23T09:29:16"
+  },
+  {
+    "titulo": "Linus Torvalds has apparently met Bill Gates for the first time in person and before you ask, no he didn't clock him in the face",
+    "descricao": "NewsIt's a far cry from the days when Linux was \"a cancer\" in the eyes of Microsoft.",
+    "link": "https://www.pcgamer.com/software/operating-systems/linus-torvalds-has-apparently-met-bill-gates-for-the-first-time-in-person-and-before-you-ask-no-he-didnt-clock-him-in-the-face/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Z3ZJjfbLXC6jBTn2Ls5KWn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-23T09:29:16"
+  },
+  {
     "titulo": "Final Fantasy 14 is doing what it should have done 6 years ago and fulfilling its promise to let every race wear hats",
     "descricao": "newsHrothgar and Viera are finally getting hat privilege.",
     "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-is-doing-what-it-should-have-done-6-years-ago-and-fulfilling-its-promise-to-let-every-race-wear-hats/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/28p58mAf8TkAq6oWiBUaeU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "'Where did he go?': Blade has gone missing in Marvel Rivals, which has the rumour mill theorising that he'll finally be added to the roster in Season 3",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/where-did-he-go-blade-has-gone-missing-in-marvel-rivals-which-has-the-rumour-mill-theorising-that-hell-finally-be-added-to-the-roster-in-season-3/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zhWbZQLoHLVtzWUQQGEr3E.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Xbox emulator devs shoot down rumours they're in cahoots with Microsoft to bring Xbox games to PC: 'What f****** AI ChatGPT stuff have you been reading?'",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/platforms/xbox-emulator-devs-shoot-down-rumours-theyre-in-cahoots-with-microsoft-to-bring-xbox-games-to-pc-what-f-ai-chatgpt-stuff-have-you-been-reading/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Z4vDy4ZTq3Ez22wJVGnKse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Lies of P: Overture devs actually rewarded for making a solid DLC in rare industry W: Getting a bonus, 2 weeks vacation, and a free Switch 2",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/lies-of-p-overture-devs-actually-rewarded-for-making-a-solid-dlc-in-rare-industry-w-getting-a-bonus-2-weeks-vacation-and-a-free-switch-2/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mugMksxSnUenRRfShuyzWh.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "OpenAI's CEO Sam Altman airs his thoughts on ads in ChatGPT: 'I'm not totally against it...I think ads on Instagram, kinda cool'",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/openais-ceo-sam-altman-airs-his-thoughts-on-ads-in-chatgpt-im-not-totally-against-it-i-think-ads-on-instagram-kinda-cool/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7SgMkpRYD8AxXct7TUfUC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Death Stranding 2 launch times and release date",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/death-stranding-2-launch-times-and-release-date/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFt8qFtWFYkgRoXUr6bcgC.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Grim Dawn's next expansion will be honkin' huge, with 54 new bosses and more than 380 new unique items, it takes up 'approximately 3.55sq. km'",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/grim-dawns-next-expansion-will-be-honkin-huge-with-54-new-bosses-and-more-than-380-new-unique-items-it-takes-up-approximately-3-55sq-km/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZG3Zkm3DLbQDSfnauhPGP.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
-  },
-  {
-    "titulo": "The emulator that lets you play NES games in 3D has left early access on Steam",
-    "descricao": "News3dSen is on sale now. (ROMs not included.)",
-    "link": "https://www.pcgamer.com/software/platforms/the-emulator-that-lets-you-play-nes-games-in-3d-has-left-early-access-on-steam/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/F2NH7SzcU3mJpVwKK2Pm4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
-  },
-  {
-    "titulo": "Today's Wordle answer for Monday, June 23",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-23-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Dune: Awakening é cruel, complexo e viciante | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/dune-awakening/142077/review/dune-awakening-e-cruel-complexo-e-viciante-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64529/64529_3nyy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Um dos feitos mais chocante da Rockstar não tem ligação alguma com GTA ou Red Dead",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/iuadfuihasfuhiuhisfa/141853/feature/um-dos-feitos-mais-surpreendentes-da-rockstar-games-nao-tem-ligacao-alguma-com-gta-ou-red-dead-redem",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64530/64530_kx3r.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Amiibo, história e habilidades: tudo que foi revelado no Donkey Kong Bananza Direct",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/games/141956/news/amiibo-historia-e-habilidades-tudo-que-foi-revelado-no-donkey-kong-bananza-direct",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64485/64485_n8b4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Nintendo Switch 2 prova que empresa ainda tem o necessário para se modernizar | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/141910/review/nintendo-switch-2-prova-que-empresa-ainda-tem-o-necessario-para-se-modernizar",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64441/64441_kue9.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "GTA 6: Há um detalhe que até hoje ninguém havia reparado nas imagens oficiais do jogo",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/grand-theft-auto-vi/142076/news/gta-6-ha-um-detalhe-que-ate-hoje-ninguem-havia-reparado-nas-imagens-oficiais-do-jogo",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5xmh.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Resident Evil Requiem: Teoria aponta possível conexão singela de Grace, nova protagonista da franquia, com Jill Valentine",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/141850/feature/resident-evil-requiem-teoria-aponta-possivel-conexao-singela-de-grace-nova-protagonista-da-franquia",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/resident-evil-requiem-screenshot-2_vxur.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Este personagem tem pouco mais de 50 falas na trilogia de O Senhor dos Anéis e mesmo assim se tornou um ícone da cultura pop",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/o-senhor-dos-aneis/141896/news/este-personagem-tem-pouco-mais-de-50-falas-na-trilogia-de-o-senhor-dos-aneis-e-mesmo-assim-se-tornou",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fellowship1_ghr7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
     "titulo": "Culinária, moda e mais: 5 jogos de simulação que valem a pena no Nintendo Switch",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch/142003/feature/culinaria-moda-e-mais-5-jogos-de-simulacao-que-valem-a-pena-no-nintendo-switch",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/switch_3d6c.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
-    "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
+    "titulo": "Enquanto a Marvel paga milhões para Rei Charles, novas fotos do set de Vingadores: Doomsday no Reino Unido sugere o retorno de um Defensor",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.280.jpg",
+    "link": "https://br.ign.com/avengers-doomsday/142103/news/enquanto-a-marvel-paga-milhoes-para-rei-charles-novas-fotos-do-set-de-vingadores-doomsday-no-reino-u",
+    "imagem": "https://sm.ign.com/t/ign_br/news/a/avengers-d/avengers-doomsday-set-photos-suggest-unexpected-return-of-a_tt7j.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   },
   {
-    "titulo": "Muito barato! Smart TV LG 43\" Full HD por R$1714 no Mercado Livre",
+    "titulo": "Supercomputador de IA da Nvidia custa milhões de dólares e precisa de um switch com 3 quilômetros de cabo para operar",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142102/news/muito-barato-smart-tv-lg-43-full-hd-por-r1714-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-9_fxyt.280.png",
+    "link": "https://br.ign.com/nvidia/142098/news/supercomputador-de-ia-da-nvidia-custa-milhoes-de-dolares-e-precisa-de-um-switch-com-3-quilometros-de",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_4jg8.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T08:53:16"
+    "timestamp": "2025-06-23T09:29:16"
   }
 ];
