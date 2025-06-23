@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "3 bilhões de dólares por ano em uma galáxia muito, muito lucrativa: como Star Wars reinventou a indústria dos brinquedos",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/star-wars/142137/feature/3-bilhoes-de-dolares-por-ano-em-uma-galaxia-muito-muito-lucrativa-como-star-wars-reinventou-a-indust",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_nk8f.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
-    "titulo": "Quantos anos você tinha quando descobriu as funções dos botões vermelho, verde, amarelo e azul no controle remoto da TV?",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142141/news/quantos-anos-voce-tinha-quando-descobriu-as-funcoes-dos-botoes-vermelho-verde-amarelo-e-azul-no-cont",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-23-151647365_nr9u.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-23T15:34:16"
-  },
-  {
     "titulo": "The Blood of Dawnwalker 20-minute gameplay trailer shows off Dishonored-style teleportation and a man getting popped like a zit by an angry vampire boss",
     "descricao": "newsThat had to hurt.",
     "link": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-20-minute-gameplay-trailer-shows-off-dishonored-style-teleportation-and-a-man-getting-popped-like-a-zit-by-an-angry-vampire-boss/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kweRJypFreUnSygySqNF7o.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Dune: Awakening is changing its endgame in response to player complaints: 'Our goal is not to force PvE players to interact with a PvP system that they may have no interest in'",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-changing-its-endgame-in-response-to-player-complaints-our-goal-is-not-to-force-pve-players-to-interact-with-a-pvp-system-that-they-may-have-no-interest-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/P7dyf3MeSVX3FPzgGsVFXf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Resident game industry weirdo Yoko Taro laments that there aren't as many 'weird' people making videogames as there used to be",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/resident-game-industry-weirdo-yoko-taro-laments-that-there-arent-as-many-weird-people-making-videogames-as-there-used-to-be/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9hH4SdoXa7bk8Q5LcAwiP7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Xbox-themed Quest 3S has been spotted ready for release and if you close your eyes and imagine what an Xbox-themed Quest 3S looks like, bingo",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/vr/xbox-themed-quest-3s-has-been-spotted-ready-for-release-and-if-you-close-your-eyes-and-imagine-what-an-xbox-themed-quest-3s-looks-like-bingo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yMpNNUP93wmiZMBuAxRZRn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Stellar Blade's director admits 'the narrative was lacking', but wants to make up for it in the sequel",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/stellar-blades-director-admits-the-narrative-was-lacking-but-wants-to-make-up-for-it-in-the-sequel/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8kNWVx5dENbYujeqhw5bWF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "MindsEye's catastrophic launch to be followed by layoffs at former GTA producer's studio",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/mindseyes-catastrophic-launch-to-be-followed-by-layoffs-at-former-gta-producers-studio/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pKAjwrRZYnYxCZtz5nSjGA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Mario Kart 64 has a native PC port now thanks to the mad lads even Nintendo can't stop, who also ported Zelda and Star Fox",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/mario-kart-64-has-a-native-pc-port-now-thanks-to-the-mad-lads-even-nintendo-cant-stop-who-also-ported-zelda-and-star-fox/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JDT9SXGSp9ihsYnQHKgdzP.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "Phasmophobia devs 'don't want to walk into the live service area' with seasonal events, but still have plans to keep the community engaged",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/phasmophobia-devs-dont-want-to-walk-into-the-live-service-area-with-seasonal-events-but-still-have-plans-to-keep-the-community-engaged/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/C32e9u2ujrqs9rvsaudKRG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
   },
   {
     "titulo": "One lucky Redditor has managed to snag themselves a mythical AMD Radeon GeForce RTX RX 9070 XT. Yes, you read that right",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/one-lucky-redditor-has-managed-to-snag-themselves-a-mythical-amd-radeon-geforce-rtx-rx-9070-xt-yes-you-read-that-right/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jg8BpP4aQcatZb5pTSBurV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-23T15:34:16"
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "VALORANT celebra 5 anos com festa aberta ao público; diretor da marca diz que \"conexão\" do jogo com mundo real movimenta comunidade",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/valorant/142127/news/valorant-celebra-5-anos-com-festa-aberta-ao-publico-diretor-da-marca-diz-que-conexao-do-jogo-com-mun",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/valorant-flashback-1672425553976_kr8e.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
+  },
+  {
+    "titulo": "Novo filme de animação da Netflix é sucesso nas redes sociais e nos charts",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/142142/news/novo-filme-de-animacao-da-netflix-e-sucesso-nas-redes-sociais-e-nos-charts",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_cmqu.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-23T15:54:31"
   }
 ];
