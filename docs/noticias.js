@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
@@ -61,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
+  },
+  {
+    "titulo": "3 jogos para PS4 com 15% de desconto no Mercado Livre",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/142151/news/3-jogos-para-ps4-com-15-de-desconto-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-6_qbh2.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Oferta! Xenoblade Chronicles X Definitive Edition por R$278 no Mercado Livre",
@@ -69,15 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142150/news/oferta-xenoblade-chronicles-x-definitive-edition-por-r278-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/xenoblade-chronicles-x-definitive-edition-preorder-173340736_rfqp.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
-  },
-  {
-    "titulo": "Para evitar trabalhar, funcionária de telemarketing liga mais de 100 vezes para si mesma e acaba na Justiça",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142148/feature/para-evitar-trabalhar-funcionaria-de-telemarketing-liga-mais-de-100-vezes-para-si-mesma-e-acaba-na-j",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_4rkm.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, June 24",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-24-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Bloodlines 2 developer The Chinese Room has laid off employees, but Paradox says the game is still coming in October",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/bloodlines-2-developer-the-chinese-room-has-laid-off-employees-but-paradox-says-the-game-is-still-coming-in-october/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NwmyXRxe3x47P4REKUQWaF.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Death Stranding 2 reviewers say it's a sequel that's 'more Metal Gear Solid than ever,' but it's 'still beautifully odd'",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/death-stranding-2-reviewers-say-its-a-sequel-thats-more-metal-gear-solid-than-ever-but-its-still-beautifully-odd/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G9bzf7PSP2PfyNaDdKXvkm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "After more than 7 years of development with nothing to show for it, Riot cancels the Minecraft-inspired sandbox RPG Hytale and closes the studio making it",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/after-more-than-7-years-of-development-with-nothing-to-show-for-it-riot-cancels-the-minecraft-inspired-sandbox-rpg-hytale-and-closes-the-studio-making-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MeTq8ja3FembYsfnY4XoqP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Top AI firm finds that AIs will choose to merrily asphyxiate humans rather than be shut down: 'My ethical framework permits self-preservation'",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/top-ai-company-finds-that-ais-will-choose-to-merrily-asphyxiate-humans-rather-than-shut-down-my-ethical-framework-permits-self-preservation/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wuxqvy8A3wx23cufxMgNAb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Star Wars Battlefront 2 had over 2200% more Steam players this weekend than it did last June—and it's thanks in part to Kyrie Irving and his level 101 Emperor Palpatine",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/star-wars-battlefront-2-had-over-2200-percent-more-steam-players-this-weekend-than-it-did-last-june-and-its-thanks-in-part-to-kyrie-irving-and-his-level-101-emperor-palpatine/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3Ts24hue8ByZLgYgNPMaXZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "The Blood of Dawnwalker 20-minute gameplay trailer shows off Dishonored-style teleportation and a man getting popped like a zit by an angry vampire boss",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-20-minute-gameplay-trailer-shows-off-dishonored-style-teleportation-and-a-man-getting-popped-like-a-zit-by-an-angry-vampire-boss/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kweRJypFreUnSygySqNF7o.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Dune: Awakening is changing its endgame in response to player complaints: 'Our goal is not to force PvE players to interact with a PvP system that they may have no interest in'",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-changing-its-endgame-in-response-to-player-complaints-our-goal-is-not-to-force-pve-players-to-interact-with-a-pvp-system-that-they-may-have-no-interest-in/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/P7dyf3MeSVX3FPzgGsVFXf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   },
   {
     "titulo": "Resident game industry weirdo Yoko Taro laments that there aren't as many 'weird' people making videogames as there used to be",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/resident-game-industry-weirdo-yoko-taro-laments-that-there-arent-as-many-weird-people-making-videogames-as-there-used-to-be/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/9hH4SdoXa7bk8Q5LcAwiP7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T00:49:46"
+    "timestamp": "2025-06-24T01:18:45"
   }
 ];
