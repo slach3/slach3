@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
@@ -61,23 +61,39 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
-    "titulo": "3 jogos para PS4 com 15% de desconto no Mercado Livre",
+    "titulo": "Mistério de Shanks: Eiichiro Oda conecta passado do personagem com momento mais emblemático do começo de One Piece — e fomenta teoria dos fãs",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142151/news/3-jogos-para-ps4-com-15-de-desconto-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-6_qbh2.280.png",
+    "link": "https://br.ign.com/one-piece-2/142146/news/misterio-de-shanks-eiichiro-oda-conecta-passado-do-personagem-com-momento-mais-emblematico-do-comeco",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/one-piece-shanks-pode-ter-uma-ak_aw8p.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
-    "titulo": "Oferta! Xenoblade Chronicles X Definitive Edition por R$278 no Mercado Livre",
+    "titulo": "Inspirado em God of War e Assassin's Creed, este é um dos games mais belos já vistos; seria esta a mistura perfeita?",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142150/news/oferta-xenoblade-chronicles-x-definitive-edition-por-r278-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/xenoblade-chronicles-x-definitive-edition-preorder-173340736_rfqp.280.jpg",
+    "link": "https://br.ign.com/blood-message/142138/news/inspirado-em-god-of-war-e-assassins-creed-este-e-um-dos-games-mais-belos-ja-vistos-seria-esta-a-mist",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_5cvu.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
+  },
+  {
+    "titulo": "'I'm gonna crash out': New climbing game Peak has sold 1 million copies in less than a week, outperforming its developer's most popular game",
+    "descricao": "News\"Why did this stupid jam game sell more copies.\"",
+    "link": "https://www.pcgamer.com/games/im-gonna-crash-out-new-climbing-game-peak-has-sold-1-million-copies-in-less-than-a-week-outperforming-its-developers-most-popular-game/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/X9XQd6M46xXg67rBPHiTY3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-24T08:15:56"
+  },
+  {
+    "titulo": "Goodbye 12VHPWR meltgate? Asus shows its cable-hiding BTF tech is capable of handling more power than an RTX 5090 will ever use",
+    "descricao": "Mind you, the power cables at 1,300 W do get a tad on the glowy-glowy side",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/goodbye-12vhpwr-meltgate-asus-shows-its-cable-hiding-btf-tech-is-capable-of-handling-more-power-than-an-rtx-5090-will-ever-use/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/PtK9nXrWKvZ939VFa2gFx9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Modders plonk Executor into Elden Ring because if FromSoftware won't give us Sekiro: Shadows Die Twice 2, we'll do it ourselves",
@@ -85,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/modders-plonk-executor-into-elden-ring-because-if-fromsoftware-wont-give-us-sekiro-shadows-die-twice-2-well-do-it-ourselves/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Researchers develop a new technique to bond GaN transistors to a silicon chip, with the ultimate goal of having more powerful and efficient wireless transmitters",
@@ -93,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/researchers-develop-a-new-technique-to-bond-gan-transistors-to-a-silicon-chip-with-the-ultimate-goal-of-having-more-powerful-and-efficient-wireless-transmitters/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dWH6HztFZ6cmcAdPbaKjYX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Windows 11 gets a fresh new Start menu and it's one of the most useful changes to the UI in yonks",
@@ -101,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/windows-11-gets-a-fresh-new-start-menu-and-its-one-of-the-most-useful-changes-to-the-ui-in-yonks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zyVbUadgdCMF66LuN3cMge.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, June 24",
@@ -109,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-24-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Bloodlines 2 developer The Chinese Room has laid off employees, but Paradox says the game is still coming in October",
@@ -117,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/bloodlines-2-developer-the-chinese-room-has-laid-off-employees-but-paradox-says-the-game-is-still-coming-in-october/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NwmyXRxe3x47P4REKUQWaF.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "Death Stranding 2 reviewers say it's a sequel that's 'more Metal Gear Solid than ever,' but it's 'still beautifully odd'",
@@ -125,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/death-stranding-2-reviewers-say-its-a-sequel-thats-more-metal-gear-solid-than-ever-but-its-still-beautifully-odd/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G9bzf7PSP2PfyNaDdKXvkm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   },
   {
     "titulo": "After more than 7 years of development with nothing to show for it, Riot cancels the Minecraft-inspired sandbox RPG Hytale and closes the studio making it",
@@ -133,22 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/after-more-than-7-years-of-development-with-nothing-to-show-for-it-riot-cancels-the-minecraft-inspired-sandbox-rpg-hytale-and-closes-the-studio-making-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MeTq8ja3FembYsfnY4XoqP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
-  },
-  {
-    "titulo": "Top AI firm finds that AIs will choose to merrily asphyxiate humans rather than be shut down: 'My ethical framework permits self-preservation'",
-    "descricao": "NewsI'm sorry, Dave. I'm afraid I can't do that.",
-    "link": "https://www.pcgamer.com/software/ai/top-ai-company-finds-that-ais-will-choose-to-merrily-asphyxiate-humans-rather-than-shut-down-my-ethical-framework-permits-self-preservation/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/wuxqvy8A3wx23cufxMgNAb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
-  },
-  {
-    "titulo": "Star Wars Battlefront 2 had over 2200% more Steam players this weekend than it did last June—and it's thanks in part to Kyrie Irving and his level 101 Emperor Palpatine",
-    "descricao": "NewsThis is where the fun begins. Or began. In 2017.",
-    "link": "https://www.pcgamer.com/games/fps/star-wars-battlefront-2-had-over-2200-percent-more-steam-players-this-weekend-than-it-did-last-june-and-its-thanks-in-part-to-kyrie-irving-and-his-level-101-emperor-palpatine/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3Ts24hue8ByZLgYgNPMaXZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T07:55:01"
+    "timestamp": "2025-06-24T08:15:56"
   }
 ];
