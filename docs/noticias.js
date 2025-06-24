@@ -1,19 +1,27 @@
 const noticias = [
   {
+    "titulo": "'There are big-ass tanky guys': Cronos: The New Dawn devs discuss the gruelling combat and beg players to not let the enemies merge, 'You will suffer'",
+    "descricao": "NewsA fast tanky guy is just what I wanted to see.",
+    "link": "https://www.pcgamer.com/games/horror/there-are-big-ass-tanky-guys-cronos-the-new-dawn-devs-discuss-the-gruelling-combat-and-beg-players-to-not-let-the-enemies-merge-you-will-suffer/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TmHp6EspgQ9GJRJFHEdcEc.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-24T11:46:45"
+  },
+  {
     "titulo": "You might be surprised to learn that while robots and other machines are vital for making a top-end CPU air cooler, there's still a lot of it that's handmade",
     "descricao": "newsIn fact, a great deal of your gaming PC has been made by hundreds of people.",
     "link": "https://www.pcgamer.com/hardware/you-might-be-surprised-to-learn-that-while-robots-and-other-machines-are-vital-for-making-a-top-end-cpu-air-cooler-theres-still-a-lot-of-it-thats-handmade/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XM479yMgfcvWr35gEsLNTA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Just when you thought Intel's branding couldn't get any worse, a report says the company plans to outsource marketing to a consultancy using AI",
-    "descricao": "NewsHard to see how you could better 'Intel Core 9 Ultra 285K'...",
+    "descricao": "NewsHard to see how you could better 'Intel Core Ultra 9 285K'...",
     "link": "https://www.pcgamer.com/hardware/processors/just-when-you-thought-intels-branding-couldnt-get-any-worse-a-report-says-the-company-plans-to-outsource-marketing-to-a-consultancy-using-ai/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3Uo4jMmnBr8Bg2b9PukG6b.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Someone at Valve got their unit prefixes a bit muddled but a quick update for the latest Steam beta has fixed your slower-than-normal CPU reading",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/someone-at-valve-got-their-unit-prefixes-a-bit-muddled-but-a-quick-update-for-the-latest-steam-beta-has-fixed-your-slower-than-normal-cpu-reading/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4WfXoVFQSG7GENKrDsJmvC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Software engineer creates a real-life ad block using Snapchat's AR smart glasses, but ultimately ends up making something far more distracting than ads",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/software-engineer-creates-real-life-ad-block-using-snapchats-ar-smart-glasses-ends-up-creating-something-more-distracting-than-ads/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qk5MgwPNvm5XV8n5WZyPgg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "After about a bazillion user requests, Windows finally lets you move the audio volume pop-up",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/after-about-a-bazillion-user-requests-windows-finally-lets-you-move-the-audio-volume-pop-up/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/sxhudfEEAycJHjWfSj429g.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "You will soon be able to open non-Xbox games from the Xbox app, which could be a great way to further avoid the Epic Games Store",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/you-will-soon-be-able-to-open-non-xbox-games-from-the-xbox-app-which-could-be-a-great-way-to-further-avoid-the-epic-games-store/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/N39rU6fkt4YkFRCjLM8KcV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "I've just wrapped up testing with the best new PC fan I've used in a long time: Noctua's NF-A12x25 G2",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ive-just-wrapped-up-testing-with-the-best-new-pc-fan-ive-used-in-a-long-time-noctuas-nf-a12x25-g2/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/J53feubuqf2iuLLsNTqPu4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "'I'm gonna crash out': New climbing game Peak has sold 1 million copies in less than a week, outperforming its developer's most popular game",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/im-gonna-crash-out-new-climbing-game-peak-has-sold-1-million-copies-in-less-than-a-week-outperforming-its-developers-most-popular-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/X9XQd6M46xXg67rBPHiTY3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
-  },
-  {
-    "titulo": "Goodbye 12VHPWR meltgate? Asus shows its cable-hiding BTF tech is capable of handling more power than an RTX 5090 will ever use",
-    "descricao": "Mind you, the power cables at 1,300 W do get a tad on the glowy-glowy side",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/goodbye-12vhpwr-meltgate-asus-shows-its-cable-hiding-btf-tech-is-capable-of-handling-more-power-than-an-rtx-5090-will-ever-use/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/PtK9nXrWKvZ939VFa2gFx9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Quem é o personagem mais amado de Naruto? Protagonista não está nem no Top 5",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142062/feature/quem-e-o-personagem-mais-amado-de-naruto-fas-decidiram-e-o-protagonista-nao-esta-nem-no-top-5",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64553/64553_hd7e.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Coração de Ferro: Quando estreia a nova série da Marvel no Disney+?",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ironheart/142000/news/coracao-de-ferro-quando-estreia-a-nova-serie-da-marvel-no-disney",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64554/64554_3pvw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Samsung dará dois meses de Game Pass grátis para donos de Smart TVs; confira se a sua é elegível",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142093/news/samsung-dara-dois-meses-de-game-pass-gratis-para-donos-de-smart-tvs-confira-se-a-sua-e-elegivel",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/samsung-gaming-hub-xbox-game-pass-thumb_1yt5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "\"Não me considerava uma escritora\": apesar do grande sucesso, Diários de uma Apotecária nunca deveria ter sido criado, segundo autora",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/142110/news/nao-me-considerava-uma-escritora-apesar-do-grande-sucesso-diarios-de-uma-apotecaria-nunca-deveria-te",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_3ny1.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "\"Fiquei no estúdio só por quatro horas\": Charlie Cox, o Demolidor, se sente uma \"fraude\" quando o parabenizam pelo sucesso de Clair Obscur: Expedition 33",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/142104/news/fiquei-no-estudio-so-por-quatro-horas-charlie-cox-o-demolidor-se-sente-uma-fraude-quando-o-parabeniz",
     "imagem": "https://sm.ign.com/t/ign_br/news/d/daredevil-/daredevil-star-charlie-cox-says-he-feels-like-a-total-fraud_b57a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Não deixe o Nintendo Switch 2 no modo de repouso sem desativar essa configuração",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142028/news/nao-deixe-o-nintendo-switch-2-no-modo-de-repouso-sem-desativar-essa-configuracao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kamil-switalski-m2y8krvgrqi-unsplash_v4d8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
+  },
+  {
+    "titulo": "Xbox terá \"grandes\" cortes de funcionários na próxima semana, indica reportagem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/142170/news/xbox-tera-grandes-cortes-de-funcionarios-na-proxima-semana-indica-reportagem",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_a2kr.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-24T11:46:45"
   },
   {
     "titulo": "Xbox firma parceria com a Meta para lançamento de edição especial do Meta Quest 3S",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/meta-quest-3s/142161/news/xbox-firma-parceria-com-a-meta-para-lancamento-de-edicao-especial-do-meta-quest-3s",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-isnt-making-its-own-vr-headset-but-there-is-the-40_3dda.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
-  },
-  {
-    "titulo": "\"Chorava todos os dias\": este episódio de Supernatural foi uma verdadeira tortura para Jared Padalecki",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142118/news/chorava-todos-os-dias-este-episodio-de-supernatural-foi-uma-verdadeira-tortura-para-jared-padalecki",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_5kqy.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-24T11:27:45"
+    "timestamp": "2025-06-24T11:46:45"
   }
 ];
