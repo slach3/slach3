@@ -1,11 +1,43 @@
 [
   {
-    "titulo": "Karlach's actor knows about the 3,138 'filthy' stories you've written on fanfic sites and still sends all her love to fans for changing her life: 'I don't read it, but I am aware'",
+    "titulo": "WoW snaps up one of FF14's best features by letting players choose how many particle effects they want swamping their screens during raids",
+    "descricao": "NewsI can see clearly now the flames are gone.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-snaps-up-one-of-ff14s-best-features-by-letting-players-choose-how-many-particle-effects-they-want-swamping-their-screens-during-raids/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/F6VuejGCdVBTeYUcznQ6X.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-25T11:41:55"
+  },
+  {
+    "titulo": "Wanna make mods for Stalker 2? That'll be 700 GB of hard drive space, please",
+    "descricao": "NewsHonestly? I'm more impressed than anything.",
+    "link": "https://www.pcgamer.com/games/fps/wanna-make-mods-for-stalker-2-thatll-be-700-gb-of-hard-drive-space-please/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/vfpUeCaQ22HTcF8xJjtQCZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-25T11:41:55"
+  },
+  {
+    "titulo": "Graphics card vendors have started to show off their RTX 5050 models and they're looking ridiculously huge for such a tiny GPU",
+    "descricao": "NewsAnd there are no single-slot options so far, I'm afraid.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-card-vendors-have-started-to-show-off-their-rtx-5050-models-and-theyre-looking-ridiculously-huge-for-such-a-tiny-gpu/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4uC8W2pmySpWJENyDAMDeB.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-25T11:41:55"
+  },
+  {
+    "titulo": "HDMI 2.2 interface finalised with 4K at 480 Hz and 12K at 120 Hz support, but you're going to need a new cable",
+    "descricao": "newsTake that DisplayPort 2.1 and your feeble 80 Gbps.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/hdmi-2-2-interface-finalised-with-4k-at-480-hz-and-12k-at-120-hz-support-but-youre-going-to-need-a-new-cable/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/hrn9rNCwerUzgXda4AeHsN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-25T11:41:55"
+  },
+  {
+    "titulo": "Karlach's actor knows about the 3,138 'filthy' Baldur's Gate 3 stories you've written on fanfic sites and still sends all her love to fans for changing her life: 'I don't read it, but I am aware'",
     "descricao": "NewsThe fandom has Tiefling fever.",
     "link": "https://www.pcgamer.com/games/baldurs-gate/karlachs-actor-knows-about-the-3-138-filthy-stories-youve-written-on-fanfic-sites-and-still-sends-all-her-love-to-fans-for-changing-her-life-i-dont-read-it-but-i-am-aware/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/r4Nxy6H2PwuWQCAFXe3nui.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Sloclap shoots, then scores as Rematch hits 3 million players, proving there's a surprising overlap between sports and fighting game fans",
@@ -13,7 +45,7 @@
     "link": "https://www.pcgamer.com/games/action/sloclap-shoots-then-scores-as-rematch-hits-3-million-players-proving-theres-a-surprising-overlap-between-sports-and-fighting-game-fans/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFkapkXqno6L4ByVbyQ7vJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Nvidia's DLSS AI transformer model is now out of beta so we might see more games get patched to make use of it",
@@ -21,7 +53,7 @@
     "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-dlss-ai-transformer-model-is-now-out-of-beta-so-we-might-see-more-games-get-patched-to-make-use-of-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VNQ8BPoNbPTGnJuQg7gRMm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "This hack that lets you remotely steer and stop a Nissan Leaf makes me almost thankful I'm too broke to ever afford a clever car",
@@ -29,7 +61,7 @@
     "link": "https://www.pcgamer.com/hardware/this-remote-control-nissan-leaf-hack-makes-me-almost-thankful-im-too-broke-to-ever-afford-a-smart-car/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mDtsqH5oCMVbgWXCiGnnDS.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "I turn my back for one second and now Assassin's Creed Shadows has Critical Role in it",
@@ -37,39 +69,7 @@
     "link": "https://www.pcgamer.com/games/assassins-creed/i-turn-my-back-for-one-second-and-now-assassins-creed-shadows-has-critical-role-in-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4Lssms4VdvtB2xwATahrP9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
-  },
-  {
-    "titulo": "The Switch 2's super sluggish LCD screen is 10 times slower than a typical gaming monitor and 100 times slower than an OLED panel according to independent testing",
-    "descricao": "NewsSwitch 2's IPS display probably isn't using overdrive.",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-switch-2s-super-sluggish-lcd-screen-is-10-times-slower-than-a-typical-gaming-monitor-and-100-times-slower-than-an-oled-panel-according-to-independent-testing/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rYqsQ4qCB7SvNdq3BZbznT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
-  },
-  {
-    "titulo": "DDoS attacks continue to grow ever bigger, with Cloudflare recently blocking the largest ever recorded at 37.5 TB over 45 seconds",
-    "descricao": "NewsThat's a little over 260 copies of Baldur's Gate 3 in less than a minute.",
-    "link": "https://www.pcgamer.com/software/security/ddos-attacks-continue-to-grow-ever-bigger-with-cloudflare-recently-blocking-the-largest-ever-recorded-at-37-5-tb-over-45-seconds/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HXaXfqmUT6QkLiXhAhFbRb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
-  },
-  {
-    "titulo": "FromSoftware to make the most brutal boss in Elden Ring Nightreign even harder, as Fulghor gets picked to be the next Everdark Sovereign",
-    "descricao": "NewsDoes this count as bullying?",
-    "link": "https://www.pcgamer.com/games/rpg/fromsoftware-to-make-the-most-brutal-boss-in-elden-ring-nightreign-even-harder-as-fulghor-gets-picked-to-be-the-next-everdark-sovereign/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/RY36kASDfVL9FgpQai78YE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
-  },
-  {
-    "titulo": "'The fans had no influence' on Karlach's improved Baldur's Gate 3 ending, says voice actor Samantha Béart—Larian had to dodge Starfield, but it was 'very much planned'",
-    "descricao": "News\"People were still in the character creator when I got the call.\"",
-    "link": "https://www.pcgamer.com/games/baldurs-gate/the-fans-had-no-influence-on-karlachs-improved-baldurs-gate-3-ending-says-voice-actor-samantha-beart-larian-had-to-dodge-starfield-but-it-was-very-much-planned/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/7ZageLGuFJCufLBwjt67R4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Evento gratuito em SP destacará 35 jogos indies brasileiros; veja datas e horários",
@@ -77,7 +77,7 @@
     "link": "https://br.ign.com/games/142189/news/evento-gratuito-em-sao-paulo-destacara-35-jogos-brasileiros-independentes-veja-data-e-horarios",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64661/64661_bq68.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Temporada 4 de Black Ops 6 e Warzone mostra mistura maluca de conteúdos em CoD",
@@ -85,7 +85,7 @@
     "link": "https://br.ign.com/call-of-duty-black-ops-6/142144/feature/temporada-04-de-black-ops-6-e-warzone-mostra-mistura-maluca-de-conteudos-em-call-of-duty-e-tudo-bem",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64596/64596_8hrt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -93,7 +93,7 @@
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -101,7 +101,7 @@
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "\"Ótima amostra do que vem por aí\": diretor de Pantera Negra diz que Coração de Ferro terá elementos do futuro do MCU, como Vingadores: Doomsday",
@@ -109,7 +109,7 @@
     "link": "https://br.ign.com/coracao-de-ferro/142199/news/uma-otima-amostra-do-que-vem-por-ai-diretor-de-pantera-negra-diz-que-coracao-de-ferro-tera-elementos",
     "imagem": "https://sm.ign.com/t/ign_br/news/b/black-pant/black-panther-director-says-tv-spin-off-ironheart-is-a-great_r9dq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Jogadores usam rosto de Norman Reedus para demonstrar evolução gráfica dos videogames nas últimas gerações",
@@ -117,7 +117,7 @@
     "link": "https://br.ign.com/death-stranding-2/142172/news/jogadores-usam-rosto-de-norman-reedus-para-demonstrar-evolucao-grafica-dos-videogames-nas-ultimas-ge",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-trailer-sam_m51x.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "\"Não sei onde a Marvel está agora\": Mahershala Ali está pronto para ser o Blade do MCU, mas não tem novidades do projeto",
@@ -125,7 +125,7 @@
     "link": "https://br.ign.com/blade-marvel/142169/news/nao-sei-onde-a-marvel-esta-agora-mahershala-ali-esta-pronto-para-ser-o-blade-do-mcu-mas-nao-tem-novi",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/whats-happ/whats-happening-with-the-mcu-blade-movie-mahershala-ali-says_64k7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
     "titulo": "Em menos de uma semana, Rematch alcança 1 milhão de cópias vendidas em todo o mundo",
@@ -133,22 +133,22 @@
     "link": "https://br.ign.com/rematch/142165/news/em-menos-de-uma-semana-rematch-alcanca-1-milhao-de-copias-vendidas-em-todo-o-mundo",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/rematch-thumb-1744074124442_vb1f.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
-    "titulo": "Controle sem fio de PS5 por menos de R$ 360 no Mercado Livre",
+    "titulo": "\"Quando digo que vou escrever algo, eu vou e faço\": criador de The Witcher promete mais de Geralt e garante que fará \"o contrário de George R.R. Martin\"",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142226/news/controle-sem-fio-de-ps5-por-menos-de-r-360-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/capa-12_p3vv.280.png",
+    "link": "https://br.ign.com/the-witcher-temporada-1/142222/news/quando-digo-que-vou-escrever-algo-eu-vou-e-faco-criador-de-the-witcher-promete-mais-de-geralt-e-gara",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-03-07t180614126_4hdk.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   },
   {
-    "titulo": "\"Reafirma minha fé\": Robert Downey Jr. elogia trajetória de Pedro Pascal ao se tornar uma grande estrela de cinema",
+    "titulo": "Diablo 4, The King of Fighters e mais: PlayStation anuncia jogos mensais do PS Plus de julho de 2025",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/avengers-doomsday/142224/news/reafirma-minha-fe-robert-downey-jr-elogia-trajetoria-de-pedro-pascal-ao-se-tornar-uma-grande-estrela",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_dw2m.280.png",
+    "link": "https://br.ign.com/diablo-iv/142223/news/diablo-4-the-king-of-fighters-e-mais-playstation-anuncia-jogos-mensais-do-ps-plus-de-julho-de-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/6a65377174c94f0b981515d6f436ef82_5s7m.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T11:17:19"
+    "timestamp": "2025-06-25T11:41:55"
   }
 ]
