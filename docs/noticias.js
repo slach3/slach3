@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/new-york-city-might-get-its-first-gamer-mayor-years-before-winning-the-democratic-primary-11-year-old-zohran-mamdani-had-his-heart-set-on-simcity-3000/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/z5oxjD93yJZq54T3GT65ya.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Hearthstone's first in-game pet is only available via a gacha mechanic that will cost most players a whopping 158 bucks",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/card-games/hearthstones-first-in-game-pet-is-only-available-via-a-gacha-mechanic-that-will-cost-most-players-a-whopping-158-bucks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wRKzXcx8GshhAFAcGcRkD4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "An AI holds the top slot in a leaderboard that ranks people who hunt for system vulnerabilities used by hackers",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/an-ai-holds-the-top-slot-in-a-leaderboard-that-ranks-people-who-hunt-for-system-vulnerabilities-used-by-hackers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yWtDBKKwdV5uF9DXTMZWrG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Our pick for the best gaming earbuds are a mighty $50 off while dropping to their lowest ever price",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/earbuds-headphones/our-pick-for-the-best-gaming-earbuds-are-a-mighty-usd50-off-while-dropping-to-their-lowest-ever-price/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Thhn6BjX3vvmzVGBVAzMWF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Windows 10 diehards who want security updates for free get a stay of execution, but there's a convoluted catch",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/windows-10-diehards-who-want-security-updates-for-free-get-a-stay-of-execution-but-theres-a-convoluted-catch/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H6fdCdJLpKaeZV44vVzCJY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "US judge rules that Anthropic's use of copyrighted content to train AI was fair use, but pirating books is step too far",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/us-judge-rules-that-anthropics-use-of-copyrighted-content-to-train-ai-was-fair-use-but-pirating-books-is-step-too-far/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Vmhmhycwkn6YrhJ8EMDcK3.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Larian jumped to improve Karlach's ending in Baldur's Gate 3 right away, with voice actor Samantha Béart saying it was nigh-on immediate: 'As soon as it was out, I got a call'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/the-fans-had-no-influence-on-karlachs-improved-baldurs-gate-3-ending-says-voice-actor-samantha-beart-larian-had-to-dodge-starfield-but-it-was-very-much-planned/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7ZageLGuFJCufLBwjt67R4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Stalker 2's 1.5 mega-patch just dropped and GSC says A-Life is back, baby",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/stalker-2s-1-5-mega-patch-just-dropped-and-gsc-says-a-life-is-back-baby/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/R3uxspv55C7WiizjBSRnDa.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "I've spent weeks testing the best little gaming laptops and there's only one they're going to have to prise from my cold, dead hands",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/ive-spent-weeks-testing-the-best-little-gaming-laptops-and-theres-only-one-theyre-going-to-have-to-prise-from-my-cold-dead-hands/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/urVnh9s8ryKwRNmQbczBfK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Evento gratuito em SP destacará 35 jogos indies brasileiros; veja datas e horários",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142189/news/evento-gratuito-em-sao-paulo-destacara-35-jogos-brasileiros-independentes-veja-data-e-horarios",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64661/64661_bq68.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Temporada 4 de Black Ops 6 e Warzone mostra mistura maluca de conteúdos em CoD",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/call-of-duty-black-ops-6/142144/feature/temporada-04-de-black-ops-6-e-warzone-mostra-mistura-maluca-de-conteudos-em-call-of-duty-e-tudo-bem",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64596/64596_8hrt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
     "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "\"Ótima amostra do que vem por aí\": diretor de Pantera Negra diz que Coração de Ferro terá elementos do futuro do MCU, como Vingadores: Doomsday",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142199/news/uma-otima-amostra-do-que-vem-por-ai-diretor-de-pantera-negra-diz-que-coracao-de-ferro-tera-elementos",
     "imagem": "https://sm.ign.com/t/ign_br/news/b/black-pant/black-panther-director-says-tv-spin-off-ironheart-is-a-great_r9dq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Jogadores usam rosto de Norman Reedus para demonstrar evolução gráfica dos videogames nas últimas gerações",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142172/news/jogadores-usam-rosto-de-norman-reedus-para-demonstrar-evolucao-grafica-dos-videogames-nas-ultimas-ge",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-trailer-sam_m51x.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "\"Não sei onde a Marvel está agora\": Mahershala Ali está pronto para ser o Blade do MCU, mas não tem novidades do projeto",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/blade-marvel/142169/news/nao-sei-onde-a-marvel-esta-agora-mahershala-ali-esta-pronto-para-ser-o-blade-do-mcu-mas-nao-tem-novi",
     "imagem": "https://sm.ign.com/t/ign_br/news/w/whats-happ/whats-happening-with-the-mcu-blade-movie-mahershala-ali-says_64k7.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
     "titulo": "Em menos de uma semana, Rematch alcança 1 milhão de cópias vendidas em todo o mundo",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/rematch/142165/news/em-menos-de-uma-semana-rematch-alcanca-1-milhao-de-copias-vendidas-em-todo-o-mundo",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/rematch-thumb-1744074124442_vb1f.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
-    "titulo": "Jack Black estará em Tony Hawk's Pro Skater 3 + 4 como personagem amado entre fãs da franquia",
+    "titulo": "\"A 2ª temporada é muito diferente\": produtor da série de Devil May Cry garante que Dante será mais parecido com os games",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142289/news/jack-black-estara-em-tony-hawks-pro-skater-3-4-como-personagem-amado-entre-fas-da-franquia",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1h97.280.png",
+    "link": "https://br.ign.com/devil-may-cry-1/142285/news/a-2a-temporada-e-muito-diferente-produtor-da-serie-de-devil-may-cry-garante-que-dante-sera-mais-pare",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-25t171755025_4ket.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   },
   {
-    "titulo": "Levou 8 anos para ser produzido e é considerado um dos filmes de ficção científica mais perturbadores de todos os tempos",
+    "titulo": "End of Abyss: o Little Nightmares com armas que ninguém sabia que queria | Preview",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142284/feature/levou-8-anos-para-ser-produzido-e-e-considerado-um-dos-filmes-de-ficcao-cientifica-mais-perturbadore",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_z3yk.280.jpg",
+    "link": "https://br.ign.com/end-of-abyss/142270/preview/end-of-abyss-o-little-nightmares-com-armas-que-ninguem-sabia-que-queria-preview",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/egs-endofabyss-section9interactive-g1a-01-1920x1080-0b584f5b_qs2y.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T17:15:59"
+    "timestamp": "2025-06-25T17:38:51"
   }
 ];
