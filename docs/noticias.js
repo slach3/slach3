@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Evento gratuito em SP destacará 35 jogos indies brasileiros; veja datas e horários",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142189/news/evento-gratuito-em-sao-paulo-destacara-35-jogos-brasileiros-independentes-veja-data-e-horarios",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64661/64661_bq68.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Temporada 4 de Black Ops 6 e Warzone mostra mistura maluca de conteúdos em CoD",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/call-of-duty-black-ops-6/142144/feature/temporada-04-de-black-ops-6-e-warzone-mostra-mistura-maluca-de-conteudos-em-call-of-duty-e-tudo-bem",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64596/64596_8hrt.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
-    "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "\"Ótima amostra do que vem por aí\": diretor de Pantera Negra diz que Coração de Ferro terá elementos do futuro do MCU, como Vingadores: Doomsday",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142199/news/uma-otima-amostra-do-que-vem-por-ai-diretor-de-pantera-negra-diz-que-coracao-de-ferro-tera-elementos",
-    "imagem": "https://sm.ign.com/t/ign_br/news/b/black-pant/black-panther-director-says-tv-spin-off-ironheart-is-a-great_r9dq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Jogadores usam rosto de Norman Reedus para demonstrar evolução gráfica dos videogames nas últimas gerações",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142172/news/jogadores-usam-rosto-de-norman-reedus-para-demonstrar-evolucao-grafica-dos-videogames-nas-ultimas-ge",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-trailer-sam_m51x.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "\"Não sei onde a Marvel está agora\": Mahershala Ali está pronto para ser o Blade do MCU, mas não tem novidades do projeto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/blade-marvel/142169/news/nao-sei-onde-a-marvel-esta-agora-mahershala-ali-esta-pronto-para-ser-o-blade-do-mcu-mas-nao-tem-novi",
-    "imagem": "https://sm.ign.com/t/ign_br/news/w/whats-happ/whats-happening-with-the-mcu-blade-movie-mahershala-ali-says_64k7.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Em menos de uma semana, Rematch alcança 1 milhão de cópias vendidas em todo o mundo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rematch/142165/news/em-menos-de-uma-semana-rematch-alcanca-1-milhao-de-copias-vendidas-em-todo-o-mundo",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/rematch-thumb-1744074124442_vb1f.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "Vem aí? Primeiros episódios de Coração de Ferro dão dicas de personagem que fãs tanto querem ver no MCU",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142241/news/vem-ai-primeiros-episodios-de-coracao-de-ferro-dao-dicas-de-personagem-que-fas-tanto-querem-ver-no-m",
-    "imagem": "https://sm.ign.com/t/ign_br/news/i/ironhearts/ironhearts-first-3-episodes-drop-a-huge-hint-towards-the-mag_sn9m.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
-  },
-  {
-    "titulo": "\"Eu acordava, fumava um baseado e bebia quatro Coca-Colas geladas, sem comer\": Brad Pitt agradece David Fincher por fazê-lo voltar à indústria cinematográfica",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142235/news/eu-acordava-fumava-um-baseado-e-bebia-quatro-coca-colas-geladas-sem-comer-brad-pitt-agradece-david-f",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/download_758q.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-25T12:19:57"
+    "titulo": "I've spent weeks testing the best little gaming laptops and there's only one they're going to have to prise from my cold, dead hands",
+    "descricao": "SharpieRazer's got a fight on its hands to wrestle the new Blade 14 off me.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/ive-spent-weeks-testing-the-best-little-gaming-laptops-and-theres-only-one-theyre-going-to-have-to-prise-from-my-cold-dead-hands/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/urVnh9s8ryKwRNmQbczBfK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Third time's the charm for my new favorite mid-range gaming headset, a jack-of-all-trades and master of some for a very reasonable price",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-headsets/third-times-the-charm-for-my-new-favorite-mid-range-gaming-headset-a-jack-of-all-trades-and-master-of-some-for-a-very-reasonable-price/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dwtLND4JoPs5nXu5wATB8G.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "WoW snaps up one of FF14's best features by letting players choose how many particle effects they want swamping their screens during raids",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-snaps-up-one-of-ff14s-best-features-by-letting-players-choose-how-many-particle-effects-they-want-swamping-their-screens-during-raids/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/F6VuejGCdVBTeYUcznQ6X.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Wanna make mods for Stalker 2? That'll be 700 GB of hard drive space, please",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/wanna-make-mods-for-stalker-2-thatll-be-700-gb-of-hard-drive-space-please/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vfpUeCaQ22HTcF8xJjtQCZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Graphics card vendors have started to show off their RTX 5050 models and they're looking ridiculously huge for such a tiny GPU",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-card-vendors-have-started-to-show-off-their-rtx-5050-models-and-theyre-looking-ridiculously-huge-for-such-a-tiny-gpu/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4uC8W2pmySpWJENyDAMDeB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "HDMI 2.2 interface finalised with 4K at 480 Hz and 12K at 120 Hz support, but you're going to need a new cable",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/hdmi-2-2-interface-finalised-with-4k-at-480-hz-and-12k-at-120-hz-support-but-youre-going-to-need-a-new-cable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hrn9rNCwerUzgXda4AeHsN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Karlach's actor knows about the 3,138 'filthy' Baldur's Gate 3 stories you've written on fanfic sites and still sends all their love to fans for changing their life: 'I don't read it, but I am aware'",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/karlachs-actor-knows-about-the-3-138-filthy-stories-youve-written-on-fanfic-sites-and-still-sends-all-her-love-to-fans-for-changing-her-life-i-dont-read-it-but-i-am-aware/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/r4Nxy6H2PwuWQCAFXe3nui.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Sloclap shoots, then scores as Rematch hits 3 million players, proving there's a surprising overlap between sports and fighting game fans",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/sloclap-shoots-then-scores-as-rematch-hits-3-million-players-proving-theres-a-surprising-overlap-between-sports-and-fighting-game-fans/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hFkapkXqno6L4ByVbyQ7vJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
     "titulo": "Nvidia's DLSS AI transformer model is now out of beta so we might see more games get patched to make use of it",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidias-dlss-ai-transformer-model-is-now-out-of-beta-so-we-might-see-more-games-get-patched-to-make-use-of-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/VNQ8BPoNbPTGnJuQg7gRMm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "timestamp": "2025-06-25T12:40:55"
   },
   {
-    "titulo": "This hack that lets you remotely steer and stop a Nissan Leaf makes me almost thankful I'm too broke to ever afford a clever car",
-    "descricao": "NewsThat's a nice motor you've got there—it'd be a shame if white hat hackers were able to take the wheel.",
-    "link": "https://www.pcgamer.com/hardware/this-remote-control-nissan-leaf-hack-makes-me-almost-thankful-im-too-broke-to-ever-afford-a-smart-car/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/mDtsqH5oCMVbgWXCiGnnDS.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-25T12:19:57"
+    "titulo": "Evento gratuito em SP destacará 35 jogos indies brasileiros; veja datas e horários",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142189/news/evento-gratuito-em-sao-paulo-destacara-35-jogos-brasileiros-independentes-veja-data-e-horarios",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64661/64661_bq68.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Temporada 4 de Black Ops 6 e Warzone mostra mistura maluca de conteúdos em CoD",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/call-of-duty-black-ops-6/142144/feature/temporada-04-de-black-ops-6-e-warzone-mostra-mistura-maluca-de-conteudos-em-call-of-duty-e-tudo-bem",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64596/64596_8hrt.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Nem Death Stranding, nem Metal Gear Solid 3: este é o melhor jogo de Hideo Kojima",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-1/142079/feature/nem-death-stranding-nem-metal-gear-solid-3-este-e-o-melhor-jogo-de-hideo-kojima",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/e/every-hide/every-hideo-kojima-game-ranked_acms.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "\"Ótima amostra do que vem por aí\": diretor de Pantera Negra diz que Coração de Ferro terá elementos do futuro do MCU, como Vingadores: Doomsday",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/coracao-de-ferro/142199/news/uma-otima-amostra-do-que-vem-por-ai-diretor-de-pantera-negra-diz-que-coracao-de-ferro-tera-elementos",
+    "imagem": "https://sm.ign.com/t/ign_br/news/b/black-pant/black-panther-director-says-tv-spin-off-ironheart-is-a-great_r9dq.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Jogadores usam rosto de Norman Reedus para demonstrar evolução gráfica dos videogames nas últimas gerações",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/142172/news/jogadores-usam-rosto-de-norman-reedus-para-demonstrar-evolucao-grafica-dos-videogames-nas-ultimas-ge",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-trailer-sam_m51x.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "\"Não sei onde a Marvel está agora\": Mahershala Ali está pronto para ser o Blade do MCU, mas não tem novidades do projeto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/blade-marvel/142169/news/nao-sei-onde-a-marvel-esta-agora-mahershala-ali-esta-pronto-para-ser-o-blade-do-mcu-mas-nao-tem-novi",
+    "imagem": "https://sm.ign.com/t/ign_br/news/w/whats-happ/whats-happening-with-the-mcu-blade-movie-mahershala-ali-says_64k7.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Em menos de uma semana, Rematch alcança 1 milhão de cópias vendidas em todo o mundo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/rematch/142165/news/em-menos-de-uma-semana-rematch-alcanca-1-milhao-de-copias-vendidas-em-todo-o-mundo",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/rematch-thumb-1744074124442_vb1f.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "Final da temporada de Os Simpsons choca fãs por matar membro da família principal",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/os-simpsons/142244/news/final-da-temporada-de-os-simpsons-choca-fas-por-matar-membro-da-familia-principal",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-simpso/the-simpsons-season-finale-shocks-fans-with-unprecedented-st_efg9.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
+  },
+  {
+    "titulo": "A hora do pau está chegando! Novo trailer de Quarteto Fantástico: Primeiros Passos tem Coisa barbudo e mais de Galactus",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/quarteto-fantastico-mcu/142239/news/a-hora-do-pau-esta-chegando-novo-trailer-de-quarteto-fantastico-primeiros-passos-tem-coisa-barbudo-e",
+    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-trailer-reveals-the-things-ro_w2sd.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-25T12:40:55"
   }
 ];
