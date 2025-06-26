@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Riot decides that allowing sports betting sponsorships in top-tier League of Legends and Valorant esports is a good idea",
+    "descricao": "newsIt is not a good idea.",
+    "link": "https://www.pcgamer.com/gaming-industry/riot-decides-that-allowing-sports-betting-sponsorships-in-top-tier-league-of-legends-and-valorant-esports-is-a-good-idea/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/QHRpds9iQsatz8y4TswwzL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-26T19:37:40"
+  },
+  {
     "titulo": "Lost Records developer Don't Nod Montreal lays off an undisclosed number of employees",
     "descricao": "newsThe cuts come less than a year after Don't Nod paused work on two projects amidst the failure of Jusant and Banishers: Ghosts of New Eden to meet expectations.",
     "link": "https://www.pcgamer.com/gaming-industry/lost-records-developer-dont-nod-montreal-lays-off-an-undisclosed-number-of-employees/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tmwbMtcsVD6cDZyDZxpHc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Dune director Denis Villeneuve will direct the next Bond film for Amazon MGM, despite already being attached to four other upcoming films, including Cleopatra",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/dune-director-denis-villeneuve-will-direct-the-next-bond-film-for-amazon-mgm-despite-already-being-attached-to-four-other-upcoming-films-including-cleopatra/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/id4F5bTYAxVJweRUJi6d6k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Dying Light 2's new Balatro costume may be the most cursed crossover I've ever seen",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/dying-light-2s-new-balatro-costume-may-be-the-most-cursed-crossover-ive-ever-seen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xRvkaHuFwwB7SznV5sj6GQ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "IO Interactive CEO estimates that Hitman 3 only cost a fifth of Hitman 2016's budget because the studio was brave enough to stop making new bathrooms for every game: 'I swore never to do more new toilets'",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/io-interactive-ceo-estimates-that-hitman-3-only-cost-a-fifth-of-hitman-2016s-budget-because-the-studio-was-brave-enough-to-stop-making-new-bathrooms-for-every-game-i-swore-never-to-do-more-new-toilets/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ktGJBYWfNM2ytQ8JcAn5VG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Chris Avellone joins with former Quantic Dream writer to work on a 'dark fantasy' RPG",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/chris-avellone-joins-with-former-quantic-dream-writer-to-work-on-a-dark-fantasy-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zwNVAUDWPo2EKa9hRDcMRc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "It's not just you—Steam is getting absolutely crushed under the Summer Sale",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/its-not-just-you-steam-is-getting-absolutely-crushed-under-the-summer-sale/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QGnMrgQ4ry8pY6RoWCnVvT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Warhammer 40,000: Space Marine 2 gets a horde mode, and one class gets a thunder hammer because the devs thought 'it will be very cool'",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/warhammer-40-000-space-marine-2-gets-a-horde-mode-and-one-class-gets-a-thunder-hammer-because-the-devs-thought-it-will-be-very-cool/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/duSwPxgqqfaTTeFXCiauFX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "The 2025 Steam Summer Sale is live",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/steam-summer-sale-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/RNJKddiuKD9twY8XtHmuxJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
-  },
-  {
-    "titulo": "Intel's next-gen Nova Lake CPUs rumoured to take on AMD's X3D CPUs at last thanks to gaming-friendly cache memory tile",
-    "descricao": "NewsThe devil will be in the ring-bus details.",
-    "link": "https://www.pcgamer.com/hardware/processors/intels-next-gen-nova-lake-cpus-rumoured-to-take-on-amds-x3d-cpus-at-last-thanks-to-gaming-friendly-cache-memory-tile/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3vHiQwFuhypABet4fLgHE8.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Novo capítulo de Frieren e a Jornada para o Além recebe data de lançamento",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/142355/news/apos-longo-hiato-novo-capitulo-de-frieren-e-a-jornada-para-o-alem-recebe-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64736/64736_5cf5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Do nada, Xbox 360 ganha nova atualização — mas não é exatamente o que você imagina",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x-1/142329/news/do-nada-xbox-360-ganha-uma-nova-atualizacao-mas-nao-e-exatamente-o-que-voce-esperaria",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64737/64737_hewa.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Death Stranding 2 tem \"final secreto\" logo no começo que pode passar despercebido",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142190/news/death-stranding-2-tem-final-secreto-logo-no-comeco-do-jogo-que-pode-passar-despercebido",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64738/64738_mkp3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "\"Seria mentira dizer que não houve arrependimentos\": este aclamado ator rejeitou participação em Round 6 duas vezes",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/141059/news/seria-mentira-dizer-que-nao-houve-arrependimentos-este-aclamado-ator-rejeitou-participacao-em-round",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-26t155654512_knty.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "“Meus problemas com Ryan Reynolds eram insolúveis”: diretor de Deadpool revela bastidores do filme de ação",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/deadpool-filme/142365/feature/meus-problemas-com-ryan-reynolds-eram-insoluveis-diretor-de-deadpool-fala-sobre-bastidores-do-filme",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_m917.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Versão aprimorada de Hellblade 2 enfim recebe data para chegar ao PS5 — mas o que esses aprimoramentos são de verdade?",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/senuas-saga-hellblade-ii-enhanced/142334/news/versao-aprimorada-de-hellblade-2-enfim-recebe-data-para-chegar-ao-ps5-mas-o-que-esses-aprimoramentos",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hellblade-/hellblade-2-enhanced-finally-gets-a-ps5-release-date-heres-w_5bjm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Steam implementa sistema avançado de monitoramento de desempenho em seu cliente de testes; veja como ativar",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/tech/142360/news/steam-implementa-sistema-avancado-de-monitoramento-de-desempenho-em-seu-cliente-de-testes-veja-como",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/store-home-share_5k9y.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
+  },
+  {
+    "titulo": "Nintendo pode desenvolver novo Super Smash Bros. para Switch 2, mas ainda negocia com Masahiro Sakurai, diz insider",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/super-smash-bros-ultimate-1/142370/news/nintendo-pode-desenvolver-novo-super-smash-bros-para-switch-2-mas-ainda-negocia-com-masahiro-sakurai",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-switch-2-direct-shared-by-super-smash-bros-creator_cgrv.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-26T19:37:40"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, dei algumas voltas com Rayssa Leal, a Fadinha, e não vejo a hora de ter mais momentos com Tony Hawk's Pro Skater 3 + 4",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
-  },
-  {
-    "titulo": "Mais de 2 mil computadores ficaram parados em um celeiro por 23 anos; agora, o proprietário está mais rico graças ao eBay",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142368/news/mais-de-2-mil-computadores-ficaram-parados-em-um-celeiro-por-23-anos-agora-o-proprietario-esta-mais",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/galpao_g369.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T19:14:34"
+    "timestamp": "2025-06-26T19:37:40"
   }
 ];
