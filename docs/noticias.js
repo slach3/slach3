@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "We've outgrown the need for BioShock, but you can get the whole trilogy plus Mafia 1, 2, and 3 for a mere $18 right now",
+    "descricao": "NewsThis thing of ours: now just under $20.",
+    "link": "https://www.pcgamer.com/games/weve-outgrown-the-need-for-bioshock-but-you-can-get-the-whole-trilogy-plus-mafia-1-2-and-3-for-a-mere-usd18-right-now/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/JSsQgqnSsnbnXgF9j3QsKQ.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-26T07:53:53"
+  },
+  {
+    "titulo": "Rematch players are flopping about like schools of flying fish because—and I tested this—it's actually faster",
+    "descricao": "NewsI foresee a hotfix in Sloclap's future.",
+    "link": "https://www.pcgamer.com/games/sports/rematch-players-are-flopping-about-like-schools-of-flying-fish-because-and-i-tested-this-its-actually-faster/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TTYkQJoexfLGbBKgxS2bJK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-26T07:53:53"
+  },
+  {
     "titulo": "Intel commences mass layoffs with over 100 Californian employees, including around 45 engineers in efforts to shed $500 million in operating costs this year",
     "descricao": "newsAn Intel spokesperson also reiterated the 20% staff reduction number.",
     "link": "https://www.pcgamer.com/hardware/intel-commences-mass-layoffs-with-over-100-californian-employees-including-around-45-engineers-in-efforts-to-shed-usd500-million-in-operating-costs-this-year/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bNqYDWfXBnonLDdAfQkf9Y.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Corsair introduces cheaper PC case fans with 'reverse rotors' which help those LEDs shine without obstruction",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/corsair-introduces-pc-case-fans-with-reverse-rotors-which-apparently-help-those-leds-shine-without-obstruction/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ss2CDefGtJQTBoYrFBUqCK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Netherlands takes Sony to court over digital-only walled garden allegedly costing 1.7m citizens 435 million euros since 2013",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/netherlands-takes-sony-to-court-over-digital-only-walled-garden-callegedly-costing-1-7m-ciitizens-435-million-euros-since-2013/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PtwnLFKfjyUdppGfPnwpXY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, June 26",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-26-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Xbox and Meta officially release limited edition black and green Meta Quest 3S bundle",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/xbox-and-meta-officially-release-limited-edition-black-and-green-meta-quest-3s-bundle/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hhZWKKUJMiezynKF367ynE.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "10 years after it launched, one of the best roguelikes of all time gets a surprise update on Steam with quality of life improvements and a new controls menu",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/roguelike/10-years-after-it-launched-one-of-the-best-roguelikes-of-all-time-gets-a-surprise-update-on-steam-with-quality-of-life-improvements-and-a-new-controls-menu/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zn2V57WDCoMZaUdX9YGNZU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "FTC issues $126 million in Fortnite refunds, gives eligible players an extra 2 weeks to apply for their money back",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/ftc-issues-usd126-million-in-fortnite-refunds-gives-eligible-players-an-extra-2-weeks-to-apply-for-their-money-back/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H63FeTHRi4BZPfpBUt8z39.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
-  },
-  {
-    "titulo": "Bullying works once again: Jurassic World Evolution 3 is ditching its AI-generated scientist portraits after receiving backlash for sparing the wrong expense",
-    "descricao": "NewsLife finds a way.",
-    "link": "https://www.pcgamer.com/games/sim/bullying-works-once-again-jurassic-world-evolution-3-is-ditching-its-ai-generated-scientist-portraits-after-receiving-backlash-for-sparing-the-wrong-expense/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/QzGeqHLfNQwNwmJPAJJk9e.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
-  },
-  {
-    "titulo": "Stalker 2 artist kickstarts the Zone Kit modding scene with a flood of glorious nonsense mods featuring Shrek, CJ, and—you guessed it—Thomas the Tank Engine",
-    "descricao": "newsWe're not completely certain that Stalker 2 architecture artist Aleksandr Silantev is responsible for this spectacular work, but we're hopeful.",
-    "link": "https://www.pcgamer.com/games/fps/stalker-2-artist-kickstarts-the-zone-kit-modding-scene-with-a-flood-of-glorious-nonsense-mods-featuring-shrek-cj-and-you-guessed-it-thomas-the-tank-engine/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/MCr9JmQyfEXVeXTcnbDt7N.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Coração de Ferro desafia fórmulas clássicas e mostra que futuro do MCU já começou | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142084/review/coracao-de-ferro-desafia-formulas-classicas-e-mostra-que-futuro-do-mcu-ja-comecou-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64713/64713_4cjd.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Out of Words: novo jogo publicado pela Epic roubou minhas palavras | Preview",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/out-of-words/142267/preview/out-of-words-novo-jogo-publicado-pela-epic-roubou-minhas-palavras-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/egs-outofwords-kongorangewiredflyandmortensndergaard-g1a-03_ngvm.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Diablo 4 e mais: PlayStation anuncia jogos mensais do PS Plus de julho de 2025",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/diablo-iv/142223/news/diablo-4-the-king-of-fighters-e-mais-playstation-anuncia-jogos-mensais-do-ps-plus-de-julho-de-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64715/64715_t2tt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Após sumiço da Ignis Cup, Riot confirma \"não ter planos\" para trazer Game Changers de LoL ao Brasil; jogadores relembram desafios e destaques da liga inclusiva",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/esports/142273/feature/apos-sumico-da-ignis-cup-riot-confirma-nao-ter-planos-para-trazer-game-changers-de-lol-ao-brasil-jog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_c767.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Acabou o encanto? Marvel Rivals perde 70% de seus jogadores e coleciona críticas negativas",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-rivals/142247/news/acabou-o-encanto-marvel-rivals-perde-70-de-seus-jogadores-e-coleciona-criticas-negativas",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-88342e4a52d65847075da15708fe1f2eed120aff_669s.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Final da temporada de Os Simpsons choca fãs por matar membro da família principal",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/os-simpsons/142244/news/final-da-temporada-de-os-simpsons-choca-fas-por-matar-membro-da-familia-principal",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-simpso/the-simpsons-season-finale-shocks-fans-with-unprecedented-st_efg9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "A hora do pau está chegando! Novo trailer de Quarteto Fantástico: Primeiros Passos tem Coisa barbudo e mais de Galactus",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/quarteto-fantastico-mcu/142239/news/a-hora-do-pau-esta-chegando-novo-trailer-de-quarteto-fantastico-primeiros-passos-tem-coisa-barbudo-e",
     "imagem": "https://sm.ign.com/t/ign_br/news/t/the-fantas/the-fantastic-four-first-steps-trailer-reveals-the-things-ro_w2sd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "NanoCell no precinho! Smart TV LG 65\" UHD Nanocell em oferta na Amazon",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142303/news/nanocell-no-precinho-smart-tv-lg-65-uhd-nanocell-em-oferta-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-9_azxq.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   },
   {
     "titulo": "Menor preço postado! Smart TV TCL 32\" por apenas R$775 no Mercado Livre",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142302/news/menor-preco-postado-smart-tv-tcl-32-por-apenas-r775-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/smart-tv-tcl-32-c3kf_287231_35em.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-26T07:39:03"
+    "timestamp": "2025-06-26T07:53:53"
   }
 ];
