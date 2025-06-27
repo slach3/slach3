@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Novo capítulo de Frieren e a Jornada para o Além recebe data de lançamento",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/142355/news/apos-longo-hiato-novo-capitulo-de-frieren-e-a-jornada-para-o-alem-recebe-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64736/64736_5cf5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Do nada, Xbox 360 ganha nova atualização — mas não é exatamente o que você imagina",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x-1/142329/news/do-nada-xbox-360-ganha-uma-nova-atualizacao-mas-nao-e-exatamente-o-que-voce-esperaria",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64737/64737_hewa.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Death Stranding 2 tem \"final secreto\" logo no começo que pode passar despercebido",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142190/news/death-stranding-2-tem-final-secreto-logo-no-comeco-do-jogo-que-pode-passar-despercebido",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64738/64738_mkp3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "\"Seria mentira dizer que não houve arrependimentos\": este aclamado ator rejeitou participação em Round 6 duas vezes",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/141059/news/seria-mentira-dizer-que-nao-houve-arrependimentos-este-aclamado-ator-rejeitou-participacao-em-round",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-26t155654512_knty.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "“Meus problemas com Ryan Reynolds eram insolúveis”: diretor de Deadpool revela bastidores do filme de ação",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/deadpool-filme/142365/feature/meus-problemas-com-ryan-reynolds-eram-insoluveis-diretor-de-deadpool-fala-sobre-bastidores-do-filme",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_m917.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Versão aprimorada de Hellblade 2 enfim recebe data para chegar ao PS5 — mas o que esses aprimoramentos são de verdade?",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/senuas-saga-hellblade-ii-enhanced/142334/news/versao-aprimorada-de-hellblade-2-enfim-recebe-data-para-chegar-ao-ps5-mas-o-que-esses-aprimoramentos",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hellblade-/hellblade-2-enhanced-finally-gets-a-ps5-release-date-heres-w_5bjm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Steam implementa sistema avançado de monitoramento de desempenho em seu cliente de testes; veja como ativar",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142360/news/steam-implementa-sistema-avancado-de-monitoramento-de-desempenho-em-seu-cliente-de-testes-veja-como",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/store-home-share_5k9y.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Odyssey G5: Monitor Gamer curvo de alto padrão com desconto na Amazon",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142385/news/odyssey-g5-monitor-gamer-curvo-de-alto-padrao-com-desconto-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-2-kzt2_235691_7h1a.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Leve, dobrável e potente: fone sem fio da Philips está com superdesconto",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142383/news/leve-dobravel-e-potente-fone-sem-fio-da-philips-esta-com-superdesconto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dasw_xnqd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Today's Wordle answer for Friday, June 27",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-27-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Rainbow Six Siege X director says free currency gain has been 'buffed' after complaints: 'The goal wasn't to make it a harder grind for players'",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/rainbow-six-siege-x-director-says-free-currency-gain-has-been-buffed-after-complaints-the-goal-wasnt-to-make-it-a-harder-grind-for-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nWWGvkAJzXjmYuiBJnKnt9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Riot decides that allowing sports betting sponsorships in top-tier League of Legends and Valorant esports is a good idea",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/riot-decides-that-allowing-sports-betting-sponsorships-in-top-tier-league-of-legends-and-valorant-esports-is-a-good-idea/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QHRpds9iQsatz8y4TswwzL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Lost Records developer Don't Nod Montreal lays off an undisclosed number of employees",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/lost-records-developer-dont-nod-montreal-lays-off-an-undisclosed-number-of-employees/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tmwbMtcsVD6cDZyDZxpHc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Dune director Denis Villeneuve will direct the next Bond film for Amazon MGM, despite already being attached to four other upcoming films, including Cleopatra",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/dune-director-denis-villeneuve-will-direct-the-next-bond-film-for-amazon-mgm-despite-already-being-attached-to-four-other-upcoming-films-including-cleopatra/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/id4F5bTYAxVJweRUJi6d6k.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Dying Light 2's new Balatro costume may be the most cursed crossover I've ever seen",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/dying-light-2s-new-balatro-costume-may-be-the-most-cursed-crossover-ive-ever-seen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xRvkaHuFwwB7SznV5sj6GQ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "IO Interactive CEO estimates that Hitman 3 only cost a fifth of Hitman 2016's budget because the studio was brave enough to stop making new bathrooms for every game: 'I swore never to do more new toilets'",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/io-interactive-ceo-estimates-that-hitman-3-only-cost-a-fifth-of-hitman-2016s-budget-because-the-studio-was-brave-enough-to-stop-making-new-bathrooms-for-every-game-i-swore-never-to-do-more-new-toilets/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ktGJBYWfNM2ytQ8JcAn5VG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "Chris Avellone joins with former Quantic Dream writer to work on a 'dark fantasy' RPG",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/chris-avellone-joins-with-former-quantic-dream-writer-to-work-on-a-dark-fantasy-rpg/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zwNVAUDWPo2EKa9hRDcMRc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   },
   {
     "titulo": "It's not just you—Steam is getting absolutely crushed under the Summer Sale",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/its-not-just-you-steam-is-getting-absolutely-crushed-under-the-summer-sale/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QGnMrgQ4ry8pY6RoWCnVvT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T01:05:19"
+    "timestamp": "2025-06-27T01:38:40"
   }
 ];
