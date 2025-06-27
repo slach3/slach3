@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/deus-ex-lead-warren-spector-pops-up-to-remind-everyone-he-didnt-make-the-game-alone-in-a-cave-wish-you-a-happy-25th-anniversary-and-get-me-wondering-if-something-deus-ex-related-is-happening-behind-the-scenes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MJJETFQqg3R3MKwupDsN4N.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Want size and speed in your SSD? Micron's new 2600 boasts 'up to 63% faster sequential write and 49% faster random write speeds' than the competition",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ssds/want-size-and-speed-in-your-ssd-microns-new-2600-boasts-up-to-63-percent-faster-sequential-write-and-49-percent-faster-random-write-speeds-than-the-competition/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jPirUQSBaT2eWxZ8EA3Gza.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Elden Ring Nightreign player hits 63,375 damage and keeps going until they're punished for their hubris: 'I was suddenly unable to deal any damage at all'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-player-hits-63-375-damage-and-keeps-going-until-theyre-punished-for-their-hubris-i-was-suddenly-unable-to-deal-any-damage-at-all/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Sz9NB9fb5x7n4hbCwJDpik.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "'No one wants to see Leon scared': Resident Evil 9 Requiem director admits that Leon Kennedy is just too cool to be the protagonist of a horror game",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/horror/no-one-wants-to-see-leon-scared-resident-evil-9-requiem-director-admits-that-leon-kennedy-is-just-too-cool-to-be-the-protagonist-of-a-horror-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6sqbBh4id8f8R4bNERj9UW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Endless Legend 2 will let you play as refugees from the first game's coolest faction: a collection of vampire ghosts trapped in fancy armour",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/endless-legend-2-will-let-you-play-as-refugees-from-the-first-games-coolest-faction-a-collection-of-vampire-ghosts-trapped-in-fancy-armour/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gmxyCe9Vtgz7xdhseuRHAH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Colorful launches quirky Meow series GPUs with a bright orange RTX 5050 covered in cats",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/colorful-launches-quirky-meow-series-gpus-with-a-bright-orange-rtx-5050-covered-in-cats/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DJfYHPvnUiJ6e49VFB4rBA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Getty drops primary claims against Stable Diffusion in AI lawsuit after 'failing to establish a sufficient connection between the infringing acts and the UK jurisdiction for copyright law to bite'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/getty-drops-primary-claims-against-stable-diffusion-in-ai-lawsuit-after-failing-to-establish-a-sufficient-connection-between-the-infringing-acts-and-the-uk-jurisdiction-for-copyright-law-to-bite/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7FJv8BsfCnDuAvZxzU3CPH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Today's Wordle answer for Friday, June 27",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-27-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Rainbow Six Siege X director says free currency gain has been 'buffed' after complaints: 'The goal wasn't to make it a harder grind for players'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/rainbow-six-siege-x-director-says-free-currency-gain-has-been-buffed-after-complaints-the-goal-wasnt-to-make-it-a-harder-grind-for-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nWWGvkAJzXjmYuiBJnKnt9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Novo capítulo de Frieren e a Jornada para o Além recebe data de lançamento",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/142355/news/apos-longo-hiato-novo-capitulo-de-frieren-e-a-jornada-para-o-alem-recebe-data-de-lancamento",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64736/64736_5cf5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Do nada, Xbox 360 ganha nova atualização — mas não é exatamente o que você imagina",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x-1/142329/news/do-nada-xbox-360-ganha-uma-nova-atualizacao-mas-nao-e-exatamente-o-que-voce-esperaria",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64737/64737_hewa.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Death Stranding 2 tem \"final secreto\" logo no começo que pode passar despercebido",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142190/news/death-stranding-2-tem-final-secreto-logo-no-comeco-do-jogo-que-pode-passar-despercebido",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64738/64738_mkp3.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "\"Seria mentira dizer que não houve arrependimentos\": este aclamado ator rejeitou participação em Round 6 duas vezes",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/141059/news/seria-mentira-dizer-que-nao-houve-arrependimentos-este-aclamado-ator-rejeitou-participacao-em-round",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-26t155654512_knty.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "“Meus problemas com Ryan Reynolds eram insolúveis”: diretor de Deadpool revela bastidores do filme de ação",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/deadpool-filme/142365/feature/meus-problemas-com-ryan-reynolds-eram-insoluveis-diretor-de-deadpool-fala-sobre-bastidores-do-filme",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_m917.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Versão aprimorada de Hellblade 2 enfim recebe data para chegar ao PS5 — mas o que esses aprimoramentos são de verdade?",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/senuas-saga-hellblade-ii-enhanced/142334/news/versao-aprimorada-de-hellblade-2-enfim-recebe-data-para-chegar-ao-ps5-mas-o-que-esses-aprimoramentos",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hellblade-/hellblade-2-enhanced-finally-gets-a-ps5-release-date-heres-w_5bjm.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Steam implementa sistema avançado de monitoramento de desempenho em seu cliente de testes; veja como ativar",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/tech/142360/news/steam-implementa-sistema-avancado-de-monitoramento-de-desempenho-em-seu-cliente-de-testes-veja-como",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/store-home-share_5k9y.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "“Vergonhoso”: depois de mais de 1 mil horas em Red Dead Redemption 2, jogador descobre mecânica que muitos talvez não conheçam e o jogo não ensina",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/red-dead-redemption-2/142212/news/vergonhoso-depois-de-mais-de-1-mil-horas-em-red-dead-redemption-2-jogador-descobre-mecanica-que-muit",
     "imagem": "https://sm.ign.com/t/ign_br/blogroll/r/rockstars-/rockstars-vp-of-writing-with-credits-on-gta-5-and-others-rep_m6fz.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   },
   {
     "titulo": "Odyssey G5: Monitor Gamer curvo de alto padrão com desconto na Amazon",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142385/news/odyssey-g5-monitor-gamer-curvo-de-alto-padrao-com-desconto-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/design-sem-nome-2-kzt2_235691_7h1a.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T08:43:09"
+    "timestamp": "2025-06-27T08:53:00"
   }
 ];
