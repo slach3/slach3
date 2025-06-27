@@ -1,11 +1,51 @@
 const noticias = [
   {
+    "titulo": "Inzoi's biggest problems right now are overwhelmingly the fact it's 'lacking simulation content' and its painfully awkward social interactions, player survey reveals",
+    "descricao": "newsPlease, no more talking about the K-Pop industry.",
+    "link": "https://www.pcgamer.com/games/life-sim/inzois-biggest-problems-right-now-are-overwhelmingly-the-fact-its-lacking-simulation-content-and-its-painfully-awkward-social-interactions-player-survey-reveals/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o4SUF7CJPTsTAGsQxgazMf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-27T12:33:27"
+  },
+  {
+    "titulo": "Monster Hunter Wilds second Title Update arrives next week with 2 returning monsters, but I'm more interested in whether its promised performance fixes can help rebuild its reputation",
+    "descricao": "NewsCapcom has left Wilds with an uphill battle to fight.",
+    "link": "https://www.pcgamer.com/games/action/monster-hunter-wilds-second-title-update-arrives-next-week-with-2-returning-monsters-but-im-more-interested-in-whether-its-promised-performance-fixes-can-help-rebuild-its-reputation/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/KN9fyqNfVSmT9josWJfKCE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-27T12:33:27"
+  },
+  {
+    "titulo": "'We are aware': Square Enix president knows golden goose Final Fantasy 14 is losing its lustre",
+    "descricao": "newsTakashi Kiryu reckons stretching Yoshi-P thin is doing the MMO good, actually.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/we-are-aware-square-enix-president-knows-golden-goose-final-fantasy-14-is-losing-its-lustre/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/byi8pPpAtL5YpqFdqnHY23.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-27T12:33:27"
+  },
+  {
+    "titulo": "No more dolphin swimming or flying in Rematch—in a bug fix, Sloclap very seriously explains why levitating soccer players aren't part of its vision for the game",
+    "descricao": "NewsIt's okay, Sloclap. We understand.",
+    "link": "https://www.pcgamer.com/games/sports/no-more-dolphin-swimming-or-flying-in-rematch-in-a-bug-fix-sloclap-very-seriously-explains-why-levitating-soccer-players-arent-part-of-its-vision-for-the-game/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/JvawTjDkVFLgQwUft3ngg8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-27T12:33:27"
+  },
+  {
+    "titulo": "EA's CEO pulled in $5 million more this year than last, while his employees took home the least money they've made since 2022",
+    "descricao": "NewsAndrew Wilson was compensated to the tune of 260 times what the median EA employee took home in FY2025.",
+    "link": "https://www.pcgamer.com/gaming-industry/eas-ceo-pulled-in-usd5-million-more-this-year-than-last-while-his-employees-took-home-the-least-money-theyve-made-since-2022/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o9tP4wjvnzfaShCeWxMMZH.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-27T12:33:27"
+  },
+  {
     "titulo": "Graphics researchers have created a GPU-run procedural algorithm for creating an equivalent 35.6 GB worth of trees, leaves, and brushes from just 52 kB of data",
     "descricao": "NewsProcedural generation has a long history of doing so much with so little.",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-researchers-have-created-a-gpu-run-procedural-algorithm-for-creating-an-equivalent-35-6-gb-worth-of-trees-leaves-and-brushes-from-just-52-kb-of-data/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WSRRTg5A6VH4b7zRdmhPWF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Despite limping on Steam charts with a 24-hour peak of less than 200, FBC: Firebreak hits 1 million players milestone—and, let's face it, it's probably Game Pass",
@@ -13,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/despite-limping-on-steam-charts-with-a-24-hour-peak-of-less-than-200-fbc-firebreak-hits-1-million-players-milestone-and-lets-face-it-its-probably-game-pass/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xJwipG3fPpGmmEoHRa7dVN.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "I screwed up Karlach's ending in Baldur's Gate 3: I thought I'd picked her best outcome but her actor says 'not very much' of her is actually left",
@@ -21,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/baldurs-gate/i-screwed-up-karlachs-ending-in-baldurs-gate-3-i-thought-id-picked-her-best-outcome-but-her-actor-says-not-very-much-of-her-is-actually-left/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2y7vdz2EKbkzA78uC4adYV.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "The new version of Logitech's glorious MX Master makes an appearance in the EU Intellectual Property Office database, pointing to an imminent release",
@@ -29,47 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/the-new-version-of-logitechs-glorious-mx-master-makes-an-appearance-in-the-eu-intellectual-property-office-database-pointing-to-an-imminent-release/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5EbiyCKaeCaaDzDBNhxfcU.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
-  },
-  {
-    "titulo": "Deus Ex lead Warren Spector pops up to remind everyone he didn't make the game alone in a cave, wish you a happy 25th anniversary, and get me wondering if something Deus Ex-related is happening behind the scenes",
-    "descricao": "NewsI said 'lead,' it's fine.",
-    "link": "https://www.pcgamer.com/games/rpg/deus-ex-lead-warren-spector-pops-up-to-remind-everyone-he-didnt-make-the-game-alone-in-a-cave-wish-you-a-happy-25th-anniversary-and-get-me-wondering-if-something-deus-ex-related-is-happening-behind-the-scenes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/MJJETFQqg3R3MKwupDsN4N.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
-  },
-  {
-    "titulo": "Want size and speed in your SSD? Micron's new 2600 boasts 'up to 63% faster sequential write and 49% faster random write speeds' than the competition",
-    "descricao": "NewsDancing the SLC, TLC, and QLC three-way tango.",
-    "link": "https://www.pcgamer.com/hardware/ssds/want-size-and-speed-in-your-ssd-microns-new-2600-boasts-up-to-63-percent-faster-sequential-write-and-49-percent-faster-random-write-speeds-than-the-competition/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jPirUQSBaT2eWxZ8EA3Gza.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
-  },
-  {
-    "titulo": "Elden Ring Nightreign player hits 63,375 damage and keeps going until they're punished for their hubris: 'I was suddenly unable to deal any damage at all'",
-    "descricao": "NewsPowers we were never meant to hold.",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreign-player-hits-63-375-damage-and-keeps-going-until-theyre-punished-for-their-hubris-i-was-suddenly-unable-to-deal-any-damage-at-all/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Sz9NB9fb5x7n4hbCwJDpik.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
-  },
-  {
-    "titulo": "'No one wants to see Leon scared': Resident Evil 9 Requiem director admits that Leon Kennedy is just too cool to be the protagonist of a horror game",
-    "descricao": "NewsLeon would just make a snarky remark and flip out of the way.",
-    "link": "https://www.pcgamer.com/games/horror/no-one-wants-to-see-leon-scared-resident-evil-9-requiem-director-admits-that-leon-kennedy-is-just-too-cool-to-be-the-protagonist-of-a-horror-game/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6sqbBh4id8f8R4bNERj9UW.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
-  },
-  {
-    "titulo": "Endless Legend 2 will let you play as refugees from the first game's coolest faction: a collection of vampire ghosts trapped in fancy armour",
-    "descricao": "newsEndless Legend's dusty aristocrats are back.",
-    "link": "https://www.pcgamer.com/games/strategy/endless-legend-2-will-let-you-play-as-refugees-from-the-first-games-coolest-faction-a-collection-of-vampire-ghosts-trapped-in-fancy-armour/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/gmxyCe9Vtgz7xdhseuRHAH.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Pragmata, Resident Evil Requiem e mais: tudo o que foi anunciado no Capcom Spotlight 2025",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/monster-hunter-wilds/142377/news/pragmata-resident-evil-requiem-e-street-fighter-6-tudo-o-que-foi-anunciado-no-capcom-spotlight-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64780/64780_h93w.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "\"Seria mentira dizer que não houve arrependimentos\": este aclamado ator rejeitou participação em Round 6 duas vezes",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/141059/news/seria-mentira-dizer-que-nao-houve-arrependimentos-este-aclamado-ator-rejeitou-participacao-em-round",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-26t155654512_knty.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "Prático para uso básico e barato: notebook da Lenovo por menos de R$ 2,3 mil",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142407/news/pratico-para-uso-basico-e-barato-notebook-da-lenovo-por-menos-de-r-23-mil",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/lenovo-ideapad-1-82x5000ebr_g75j.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   },
   {
     "titulo": "O retorno de Michael Bay? Rumor sugere que diretor voltará para franquia Transformers após prejuízo de US$ 100 milhões em O Último Cavaleiro",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/transformers-o-ultimo-cavaleiro/142406/news/o-retorno-de-michael-bay-rumor-sugere-que-diretor-voltara-para-franquia-transformers-apos-prejuizo-d",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/t1_1yva.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-27T12:11:23"
+    "timestamp": "2025-06-27T12:33:27"
   }
 ];
