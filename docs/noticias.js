@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Dying Light continues celebrating its 10th anniversary with a big graphical facelift, but don't you dare call it a remaster",
+    "descricao": "NewsThe Retouched update is \"about squeezing out even more from the Dying Light you already love.\"",
+    "link": "https://www.pcgamer.com/games/fps/dying-light-continues-celebrating-its-10th-anniversary-with-a-big-graphical-facelift-but-dont-you-dare-call-it-a-remaster/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Kn2aCCMudBoY2XFQQtNQ5H.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-28T11:24:36"
+  },
+  {
     "titulo": "Two Point Museum's first DLC adds a fantasy flourish to your exhibitions, letting you display mimic chests, a giant d20, and a chicken statue that turns people into poultry",
     "descricao": "NewsFantasy Finds is out this July.",
     "link": "https://www.pcgamer.com/games/strategy/two-point-museums-first-dlc-adds-a-fantasy-flourish-to-your-exhibitions-letting-you-display-mimic-chests-a-giant-d20-and-a-chicken-statue-that-turns-people-into-poultry/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PaQMJdqJu7aAZopzKvzEqH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Atari's reboot of Mad Max-style racer Fatal Run is coming later this year, and its new trailer shows a hefty dose of Burnout in its irradiated DNA",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/ataris-reboot-of-mad-max-style-racer-fatal-run-is-coming-later-this-year-and-its-new-trailer-shows-a-hefty-dose-of-burnout-in-its-irradiated-dna/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eANzGt5TdqtTgBkR6Qndo9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Hellblade 2 is getting an enhanced edition that brings back the fake permadeath system from the first game, but there's every chance it's real this time",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/hellblade-2-is-getting-an-enhanced-edition-that-brings-back-the-fake-permadeath-system-from-the-first-game-but-theres-every-chance-its-real-this-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bBwqJ67YSwctdYeKzdHpZf.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "MrBeast scraps AI YouTube thumbnail generator days after announcing it: 'If creators don't want the tools, no worries'",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/mrbeast-scraps-ai-youtube-thumbnail-generator-days-after-announcing-it-if-creators-dont-want-the-tools-no-worries/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4KaNS4f9s6E7Be6kzCQShT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "This new 'roguelike deckbuilding typing game' is like Mavis Beacon Teaches Balatro, and I'm here for it",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/this-new-roguelike-deckbuilding-typing-game-is-like-mavis-beacon-teaches-balatro-and-im-here-for-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gvUXwWUkyfRPk4Gw8xug85.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "New Vegas lead Josh Sawyer thinks turn-based combat fell off in the 2000s due to a lack of 'tactical variation': Even Fallout 1 would 'get to the point where you're always doing nut shots and eye shots'",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fallout/new-vegas-lead-josh-sawyer-thinks-turn-based-combat-fell-off-in-the-2000s-due-to-a-lack-of-tactical-variation-even-fallout-1-would-get-to-the-point-where-youre-always-doing-nut-shots-and-eye-shots/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eSydbFPHpqUmJgWkCbHHDW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Dave the Diver In the Jungle DLC is delayed, but the free Godzilla Content Pack is back and Ichiban Kasuga has extended his vacation until the end of 2026",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/dave-the-diver-in-the-jungle-dlc-is-delayed-but-the-free-godzilla-content-pack-is-back-and-ichiban-kasuga-has-extended-his-vacation-until-the-end-of-2026/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/F7ctZH2TNoLsYoTpvdsF7j.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "I asked the man in charge of a major live service game if ugly crossover skins are a problem, and I didn't care for his answer",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/i-asked-the-man-in-charge-of-a-major-live-service-game-if-ugly-crossover-skins-are-a-problem-and-i-didnt-care-for-his-answer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MfrgKQEe9bkteKzyquuymg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
-  },
-  {
-    "titulo": "Diablo 4's old and forgotten dungeons will be renovated into loot-packed marathons that culminate with a duel against a familiar boss in its next season",
-    "descricao": "newsNightmare Dungeons might be worth your time again.",
-    "link": "https://www.pcgamer.com/games/rpg/diablo-4s-old-and-forgotten-dungeons-will-be-renovated-into-loot-packed-marathons-that-culminate-with-a-duel-against-a-familiar-boss-in-its-next-season/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/vCZ6zRV6YBNMFzsWRTiwgP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "3ª temporada de Round 6 resgata sua essência em desfecho de tirar o fôlego | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6-t3/142398/review/3a-temporada-de-round-6-resgata-sua-essencia-em-desfecho-de-tirar-o-folego-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64801/64801_n62j.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Digimon Story: Time Stranger brilha com seu mundo vivo, mas derrapa um pouco em seu combate | Preview",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/digimon-story-time-stranger/142410/preview/digimon-story-time-stranger-brilha-com-seu-mundo-vivo-mas-derrapa-um-pouco-em-seu-combate-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-291817cacfffbdd9979b1ee3a6e7be3db70ccbdf_mchb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
+  },
+  {
+    "titulo": "A história completa de Raccoon City em Resident Evil — de cidade pacata ao apocalipse zumbi",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
+    "imagem": "https://sm.ign.com/t/ign_br/feature/r/resident-e/resident-evils-raccoon-city-a-complete-history-from-sleepy-t_9e5u.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-28T11:24:36"
   },
   {
     "titulo": "Fã recria artes de jogos no estilo das capas de Final Fantasy e resultado é impressionante",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-vii-rebirth/142454/news/fa-recria-artes-de-jogos-no-estilo-das-capas-de-final-fantasy-e-resultado-e-impressionante",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault-14_8cg5.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
-  },
-  {
-    "titulo": "Gamer? Além de Fortnite, fãs de Sabrina Carpenter acreditam que cantora usou melodia de The Legend of Zelda na música de sucesso \"Espresso\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-tears-of-the-kingdom/142128/news/gamer-alem-de-fortnite-fas-de-sabrina-carpenter-acreditam-que-cantora-usou-melodia-de-the-legend-of",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/s2_1gkg.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-28T10:59:42"
+    "timestamp": "2025-06-28T11:24:36"
   }
 ];
