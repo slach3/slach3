@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Gloomwood's latest research update adds the most scientific thing of all: headshots",
+    "descricao": "NewsFor science!",
+    "link": "https://www.pcgamer.com/games/horror/gloomwoods-latest-research-update-adds-the-most-scientific-thing-of-all-headshots/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/368Dw8tf6Qxg2Bth3ShWvG.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-29T01:49:37"
+  },
+  {
     "titulo": "Space Marine's underwhelming remaster is getting an extended refund window, and a discount for owners of the original",
     "descricao": "NewsThough only a temporary one.",
     "link": "https://www.pcgamer.com/games/action/space-marines-underwhelming-remaster-is-getting-an-extended-refund-window-and-a-discount-for-owners-of-the-original/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Xr6RTZTUPNimkEQE6QZxEN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "The first true 1:1 test we have shows Steam OS getting better performance than Windows in 10 big games, tying in 2 more, and it's got me salivating for a desktop version of Valve's OS",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-first-true-1-1-test-we-have-shows-steam-os-getting-better-performance-than-windows-in-10-big-games-tying-in-2-more-and-its-got-me-salivating-for-a-desktop-version-of-valves-os/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/h8fxS7CkT8Hi83gRxyEw2i.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Despite always preferring turn-based combat in RPGs, Pillars of Eternity designer Josh Sawyer thinks a lack of experience and opportunity meant the studio couldn't pull off a similar swing to Larian taking Baldur's Gate turn-based",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/despite-always-preferring-turn-based-combat-in-rpgs-pillars-of-eternity-designer-josh-sawyer-thinks-a-lack-of-experience-and-opportunity-meant-the-studio-couldnt-pull-off-a-similar-swing-to-larian-taking-baldurs-gate-turn-based/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zzq2eiqNJyP7zm4qakXurF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Dying Light continues celebrating its 10th anniversary with a big graphical facelift, but don't you dare call it a remaster",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/dying-light-continues-celebrating-its-10th-anniversary-with-a-big-graphical-facelift-but-dont-you-dare-call-it-a-remaster/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kn2aCCMudBoY2XFQQtNQ5H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Two Point Museum's first DLC adds a fantasy flourish to your exhibitions, letting you display mimic chests, a giant d20, and a chicken statue that turns people into poultry",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/two-point-museums-first-dlc-adds-a-fantasy-flourish-to-your-exhibitions-letting-you-display-mimic-chests-a-giant-d20-and-a-chicken-statue-that-turns-people-into-poultry/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PaQMJdqJu7aAZopzKvzEqH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Atari's reboot of Mad Max-style racer Fatal Run is coming later this year, and its new trailer shows a hefty dose of Burnout in its irradiated DNA",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/ataris-reboot-of-mad-max-style-racer-fatal-run-is-coming-later-this-year-and-its-new-trailer-shows-a-hefty-dose-of-burnout-in-its-irradiated-dna/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eANzGt5TdqtTgBkR6Qndo9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Hellblade 2 is getting an enhanced edition that brings back the fake permadeath system from the first game, but there's every chance it's real this time",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/hellblade-2-is-getting-an-enhanced-edition-that-brings-back-the-fake-permadeath-system-from-the-first-game-but-theres-every-chance-its-real-this-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bBwqJ67YSwctdYeKzdHpZf.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "MrBeast scraps AI YouTube thumbnail generator days after announcing it: 'If creators don't want the tools, no worries'",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/mrbeast-scraps-ai-youtube-thumbnail-generator-days-after-announcing-it-if-creators-dont-want-the-tools-no-worries/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4KaNS4f9s6E7Be6kzCQShT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
-  },
-  {
-    "titulo": "This new 'roguelike deckbuilding typing game' is like Mavis Beacon Teaches Balatro, and I'm here for it",
-    "descricao": "NewsIn TypInc. you hammer out paragraphs as quickly and correctly as possible while using perks and multipliers to score big.",
-    "link": "https://www.pcgamer.com/games/action/this-new-roguelike-deckbuilding-typing-game-is-like-mavis-beacon-teaches-balatro-and-im-here-for-it/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/gvUXwWUkyfRPk4Gw8xug85.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "3ª temporada de Round 6 resgata sua essência em desfecho de tirar o fôlego | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6-t3/142398/review/3a-temporada-de-round-6-resgata-sua-essencia-em-desfecho-de-tirar-o-folego-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64801/64801_n62j.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Digimon Story: Time Stranger brilha com seu mundo vivo, mas derrapa um pouco em seu combate | Preview",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/digimon-story-time-stranger/142410/preview/digimon-story-time-stranger-brilha-com-seu-mundo-vivo-mas-derrapa-um-pouco-em-seu-combate-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-291817cacfffbdd9979b1ee3a6e7be3db70ccbdf_mchb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "Transforme qualquer lugar em cinema com este projetor portátil em super promoção",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142470/news/transforme-qualquer-lugar-em-cinema-com-este-projetor-portatil-em-super-promocao",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/projetor_mf1c.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   },
   {
     "titulo": "De acordo com cientistas, seres humanos envelhecem mais rapidamente em dois estágios muito específicos de suas vidas",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/142460/news/de-acordo-com-cientistas-seres-humanos-envelhecem-mais-rapidamente-em-dois-estagios-muito-especifico",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800-2_pnmk.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T01:08:30"
+    "timestamp": "2025-06-29T01:49:37"
   }
 ];
