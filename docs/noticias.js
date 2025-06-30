@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "FF16 para Xbox Series se destaca por FPS estável, mas resolução precisa de melhorias",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-xvi/142409/news/versao-de-final-fantasy-16-para-xbox-series-se-destaca-por-fps-estavel-mas-resolucao-ainda-precisa-d",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-xvi_3tfn.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "O melhor remake live-action da Disney é de um clássico subestimado de 1967",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mowgli/142390/news/nem-lilo-stitch-nem-a-pequena-sereia-o-melhor-remake-live-action-da-disney-e-de-um-classico-subestim",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jb_nh17.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
-    "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "3ª temporada de Round 6 esconde participação especial chocante de uma estrela de Hollywood",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142467/feature/3a-temporada-de-round-6-esconde-participacao-especial-chocante-de-uma-estrela-de-hollywood",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-27t153951051_vr9n.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "Por algum motivo o fandom de Carros continua atualizando vencedores da Copa Pistão mesmo sem um filme da franquia ter sido lançado desde 2017",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cars-3/142436/news/por-algum-motivo-o-fandom-de-carros-continua-atualizando-vencedores-da-copa-pistao-mesmo-sem-um-film",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/c/cars-2-201/cars-2-2011-tomatometer-38_g3ha.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "Dating simulator de mobílias, Date Everything! tem avalanche de ótimas atuações de voz e visuais vibrantes difíceis de ignorar",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/date-everything/142369/news/dating-simulator-de-mobilias-date-everything-tem-avalanche-de-otimas-atuacoes-de-voz-e-visuais-vibra",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_zgd1.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "Estes dois clássicos da franquia Sonic não ganharão remakes ou remasters tão cedo, diz líder do Sonic Team",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/sonic-adventure-2/142505/news/estes-dois-classicos-da-franquia-sonic-nao-ganharao-remakes-ou-remasters-tao-cedo-diz-lider-do-sonic",
-    "imagem": "https://sm.ign.com/t/ign_br/news/w/writer-of-/writer-of-beloved-sonic-the-hedgehog-song-live-and-learn-is_tw2g.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
-    "titulo": "APENAS HOJE! Headset JBL Quantum 910 por menos de R$ 900",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142511/news/apenas-hoje-headset-jbl-quantum-910-por-menos-de-r-900",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/oijihiuhi-1v8y_268164_4cq3.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T12:49:58"
-  },
-  {
     "titulo": "Jamming Windows 95 onto a PS2, goes about as well as you might expect, but the Sisyphean struggle is still compelling viewing",
     "descricao": "NewsFortune favours the brave, as the saying goes. The saying doesn't cover PS2s, unfortunately.",
     "link": "https://www.pcgamer.com/hardware/jamming-windows-95-onto-a-ps2-goes-about-as-well-as-you-might-expect-but-the-sisyphean-struggle-is-still-compelling-viewing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JGWhX4ciZicn3CD8dUR8g.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "The people who brought you the $165 Disco Elysium trash bag now bring you an $800 The Alters tracksuit",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/the-people-who-brought-you-the-usd165-disco-elysium-trash-bag-now-bring-you-an-usd800-the-alters-tracksuit/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/85kXnPicmtLxa5VFgYAo9Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "This $150 27-inch 1440p monitor is practically begging to be thrown alongside a new PC build",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/this-usd150-27-inch-1440p-monitor-is-practically-begging-to-be-thrown-alongside-a-new-pc-build/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ahrRGcksFEh9xbfN5NvXrZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "'Oblivion Remastered with guns' becomes reality as modder jury-rigs a literal Glock into the game and shoots up an Oblivion Tower with it",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-with-guns-becomes-reality-as-modder-jury-rigs-a-literal-glock-into-the-game-and-shoots-up-an-oblivion-tower-with-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b49LwV3a2jB5W8pRQy4uq6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "'The censorship is a step too far': Ready or Not is getting review bombed after developers sanitise the game to adhere to stricter console standards",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-censorship-is-a-step-too-far-ready-or-not-is-getting-review-bombed-after-developers-sanitise-the-game-to-adhere-to-stricter-console-standards/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WdPSPwgpjehJcCo3fBKG9H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "An Intel Nova Lake leak suggests the next generation of Core Ultra chips will have 60% more multi-threaded performance, but the numbers just don't add up",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/processors/an-intel-nova-lake-leak-suggests-the-next-generation-of-core-ultra-chips-will-have-60-percent-more-multi-threaded-performance-but-the-numbers-just-dont-add-up/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3yLpUZWYiRd2sXRskkh8B8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "'Spitting in the face of your international audience': The Alters caught using generative AI for background text and translations, despite not disclosing such on Steam",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/spitting-in-the-face-of-your-international-audience-the-alters-caught-using-generative-ai-for-background-text-and-translations-despite-not-disclosing-such-on-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/853wMLzWxGfH2fcxJmZyg5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "Specs rumours for the Super versions of Nvidia's RTX 5070 cards kick off with more VRAM being the main dish of the day",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/specs-rumours-for-the-super-versions-of-nvidias-rtx-5070-cards-kick-off-with-more-vram-being-the-main-dish-of-the-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kiNP4Zqm7kSKwRzby5xyTf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
   },
   {
     "titulo": "'What's the most chaotic evil thing we can make?': Overwatch 2 devs are seeing just how far they can push Stadium's fights, but will reign it in for the sake of player sanity",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/whats-the-most-chaotic-evil-thing-we-can-make-overwatch-2-devs-are-seeing-just-how-far-they-can-push-stadiums-fights-but-will-reign-it-in-for-the-sake-of-player-sanity/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/K9VhfsmbkUojPJR33ZJmwC.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T12:49:58"
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "FF16 para Xbox Series se destaca por FPS estável, mas resolução precisa de melhorias",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-xvi/142409/news/versao-de-final-fantasy-16-para-xbox-series-se-destaca-por-fps-estavel-mas-resolucao-ainda-precisa-d",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-xvi_3tfn.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "O melhor remake live-action da Disney é de um clássico subestimado de 1967",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mowgli/142390/news/nem-lilo-stitch-nem-a-pequena-sereia-o-melhor-remake-live-action-da-disney-e-de-um-classico-subestim",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jb_nh17.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
+    "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "3ª temporada de Round 6 esconde participação especial chocante de uma estrela de Hollywood",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/142467/feature/3a-temporada-de-round-6-esconde-participacao-especial-chocante-de-uma-estrela-de-hollywood",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-27t153951051_vr9n.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "Por algum motivo o fandom de Carros continua atualizando vencedores da Copa Pistão mesmo sem um filme da franquia ter sido lançado desde 2017",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cars-3/142436/news/por-algum-motivo-o-fandom-de-carros-continua-atualizando-vencedores-da-copa-pistao-mesmo-sem-um-film",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/c/cars-2-201/cars-2-2011-tomatometer-38_g3ha.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "Dating simulator de mobílias, Date Everything! tem avalanche de ótimas atuações de voz e visuais vibrantes difíceis de ignorar",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/date-everything/142369/news/dating-simulator-de-mobilias-date-everything-tem-avalanche-de-otimas-atuacoes-de-voz-e-visuais-vibra",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_zgd1.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "\"Talvez você tenha que zerar mais uma vez\": ator de Assassins's Creed IV: Black Flag pode ter revelado remake do jogo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/assassins-creed-black-flag/142503/news/talvez-voce-tenha-que-zerar-mais-uma-vez-ator-de-assassinss-creed-iv-black-flag-pode-ter-revelado-re",
+    "imagem": "https://sm.ign.com/t/ign_br/news/a/assassins-/assassins-creed-black-flag-star-just-gave-fans-their-biggest_8rjr.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
+  },
+  {
+    "titulo": "Estes dois clássicos da franquia Sonic não ganharão remakes ou remasters tão cedo, diz líder do Sonic Team",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/sonic-adventure-2/142505/news/estes-dois-classicos-da-franquia-sonic-nao-ganharao-remakes-ou-remasters-tao-cedo-diz-lider-do-sonic",
+    "imagem": "https://sm.ign.com/t/ign_br/news/w/writer-of-/writer-of-beloved-sonic-the-hedgehog-song-live-and-learn-is_tw2g.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-06-30T12:59:39"
   }
 ];
