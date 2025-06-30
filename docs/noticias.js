@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/hypixel-studios-founder-says-hell-reach-out-to-riot-about-taking-over-hytale-i-am-even-down-to-put-usd25-million-by-myself-to-finish-hytale-thats-how-much-i-believe-in-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gjQ8ALXN3wnuPQ2JUEY26n.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Counterwatch isn't in the cards for Overwatch 2's Stadium mode: 'No hero swapping has been one of the core foundational pillars'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/counterwatch-isnt-in-the-cards-for-overwatch-2s-stadium-mode-no-hero-swapping-has-been-one-of-the-core-foundational-pillars/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jHDoE6VXq7ynysA3hM2vFR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Psych-rock band The Velvet Sundown racks up well over 400,000 Spotify listens within a month, but very quickly turns out to be AI-generated",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/psych-rock-band-the-velvet-sundown-racks-up-well-over-400-000-spotify-listens-within-a-month-but-turns-out-to-be-ai-generated/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KHmHdUri8APZdojZD2dDuW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "There's still no sign of Star Citizen 1.0, but it did just get a revamped referral program so the die-hards can tempt in even more saps",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/theres-still-no-sign-of-star-citizen-1-0-but-it-did-just-get-a-revamped-referral-program-so-the-die-hards-can-tempt-in-even-more-saps/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zTA3RvCaaXXdKXEmkaCxTP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Rematch devs talk balls—specifically, how to balance the ball's feel with function: 'It's the basic brick of the game, it's like an atomic component'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/rematch-devs-talk-balls-specifically-how-to-balance-the-balls-feel-with-function-its-the-basic-brick-of-the-game-its-like-an-atomic-component/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tLyt8jmLDZoprQBHnQm3n8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Jamming Windows 95 onto a PS2, goes about as well as you might expect, but the Sisyphean struggle is still compelling viewing",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/jamming-windows-95-onto-a-ps2-goes-about-as-well-as-you-might-expect-but-the-sisyphean-struggle-is-still-compelling-viewing/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JGWhX4ciZicn3CD8dUR8g.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "The people who brought you the $165 Disco Elysium trash bag now bring you an $800 The Alters tracksuit",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/the-people-who-brought-you-the-usd165-disco-elysium-trash-bag-now-bring-you-an-usd800-the-alters-tracksuit/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/85kXnPicmtLxa5VFgYAo9Q.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "This $150 27-inch 1440p monitor is practically begging to be thrown alongside a new PC build",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/this-usd150-27-inch-1440p-monitor-is-practically-begging-to-be-thrown-alongside-a-new-pc-build/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ahrRGcksFEh9xbfN5NvXrZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "'Oblivion Remastered with guns' becomes reality as modder jury-rigs a literal Glock into the game and shoots up an Oblivion Tower with it",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/oblivion-remastered-with-guns-becomes-reality-as-modder-jury-rigs-a-literal-glock-into-the-game-and-shoots-up-an-oblivion-tower-with-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/b49LwV3a2jB5W8pRQy4uq6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "FF16 para Xbox Series se destaca por FPS estável, mas resolução precisa de melhorias",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-xvi/142409/news/versao-de-final-fantasy-16-para-xbox-series-se-destaca-por-fps-estavel-mas-resolucao-ainda-precisa-d",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-xvi_3tfn.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "O melhor remake live-action da Disney é de um clássico subestimado de 1967",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/mowgli/142390/news/nem-lilo-stitch-nem-a-pequena-sereia-o-melhor-remake-live-action-da-disney-e-de-um-classico-subestim",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jb_nh17.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
     "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "3ª temporada de Round 6 esconde participação especial chocante de uma estrela de Hollywood",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/142467/feature/3a-temporada-de-round-6-esconde-participacao-especial-chocante-de-uma-estrela-de-hollywood",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-27t153951051_vr9n.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Por algum motivo o fandom de Carros continua atualizando vencedores da Copa Pistão mesmo sem um filme da franquia ter sido lançado desde 2017",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/cars-3/142436/news/por-algum-motivo-o-fandom-de-carros-continua-atualizando-vencedores-da-copa-pistao-mesmo-sem-um-film",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/c/cars-2-201/cars-2-2011-tomatometer-38_g3ha.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
     "titulo": "Dating simulator de mobílias, Date Everything! tem avalanche de ótimas atuações de voz e visuais vibrantes difíceis de ignorar",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/date-everything/142369/news/dating-simulator-de-mobilias-date-everything-tem-avalanche-de-otimas-atuacoes-de-voz-e-visuais-vibra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_zgd1.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
-    "titulo": "Nunca descanse perto de um caixão em Death Stranding 2 caso não queira uma surpresa estranhamente \"romântica\"",
+    "titulo": "A saída de Steve Carell de The Office causou turbulência nas temporadas finais, afirma ator de Dwight",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142508/news/nunca-descanse-perto-de-um-caixao-em-death-stranding-2-caso-nao-queira-uma-surpresa-estranhamente-ro",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-higgs-guitar_cft2.280.jpg",
+    "link": "https://br.ign.com/the-office-us/142539/news/a-saida-de-steve-carell-de-the-office-causou-turbulencia-nas-temporadas-finais-afirma-ator-de-dwight",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/steve-care/steve-carell-departing-the-office-made-continuing-the-show-a_m3jj.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   },
   {
-    "titulo": "Nem nos jogos, nem na série: novo livro de The Witcher mostrará Geralt como nunca vimos antes e que ninguém esperava",
+    "titulo": "Ele pediu demissão aos 40 anos, pesquisou no Google \"como escrever um filme\" e, 5 anos depois, já fez sucesso na Netflix",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-witcher-temporada-1/142523/news/nem-nos-jogos-nem-na-serie-novo-livro-de-the-witcher-mostrara-geralt-como-nunca-vimos-antes-e-que-ni",
-    "imagem": "https://sm.ign.com/t/ign_br/news/t/the-witche/the-witcher-3-official-mod-support-arrives-this-month_jt5a.280.jpg",
+    "link": "https://br.ign.com/cinema-tv/142534/news/ele-pediu-demissao-aos-40-anos-pesquisou-no-google-como-escrever-um-filme-e-5-anos-depois-ja-fez-suc",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/download_hbf1.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T16:49:21"
+    "timestamp": "2025-06-30T16:59:06"
   }
 ];
