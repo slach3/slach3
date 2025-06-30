@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "'Spitting in the face of your international audience': The Alters caught using generative AI for background text and translations, despite not disclosing such on Steam",
+    "descricao": "NewsAI-ters.",
+    "link": "https://www.pcgamer.com/games/adventure/spitting-in-the-face-of-your-international-audience-the-alters-caught-using-generative-ai-for-background-text-and-translations-despite-not-disclosing-such-on-steam/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/853wMLzWxGfH2fcxJmZyg5.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T10:34:10"
+  },
+  {
     "titulo": "Specs rumours for the Super versions of Nvidia's RTX 5070 cards kick off with more VRAM being the main dish of the day",
     "descricao": "NewsIt looks like higher clock speeds will be served, too, but it's not looking like a meal to savour.",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/specs-rumours-for-the-super-versions-of-nvidias-rtx-5070-cards-kick-off-with-more-vram-being-the-main-dish-of-the-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kiNP4Zqm7kSKwRzby5xyTf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "'What's the most chaotic evil thing we can make?': Overwatch 2 devs are seeing just how far they can push Stadium's fights, but will reign it in for the sake of player sanity",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/whats-the-most-chaotic-evil-thing-we-can-make-overwatch-2-devs-are-seeing-just-how-far-they-can-push-stadiums-fights-but-will-reign-it-in-for-the-sake-of-player-sanity/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/K9VhfsmbkUojPJR33ZJmwC.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Crisis averted—Blizzard quickly axes busted Diablo 4 build that turned players into teleporting gods of destruction on the PTR, because it was 'basically eclipsing everything else'",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/crisis-averted-blizzard-quickly-axes-busted-diablo-4-build-that-turned-players-into-teleporting-gods-of-destruction-on-the-ptr-because-it-was-basically-eclipsing-everything-else/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3Vh5Sy25fhumN5CjnNyZwb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Ubisoft can't button its yap about the not-so-secret Black Flag remake—now Edward Kenway's voice actor is telling AC4 fans 'You might have to beat it again'",
@@ -29,15 +37,15 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/assassins-creed/ubisoft-cant-button-its-yap-about-the-not-so-secret-black-flag-remake-now-edward-kenways-voice-actor-is-telling-ac4-fans-you-might-have-to-beat-it-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mFztAfeuKmvxmcVZJBfH5H.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
-    "titulo": "Singapore case of fraudulant AI chip shipments to China in wake of US fears of military use has been adjourned until August",
+    "titulo": "Singapore case of fraudulent AI chip shipments to China in wake of US fears of military use has been adjourned until August",
     "descricao": "newsThe adjournment is to give police more time to review evidence and get international responses.",
     "link": "https://www.pcgamer.com/hardware/singapore-case-of-fraudulant-ai-chip-shipments-to-china-in-wake-of-u-s-fears-of-military-use-has-been-adjounred-until-august/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Denmark to introduce law giving individuals automatic copyright over their own likeness in effort to tackle AI and deepfakes",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/denmark-to-introduce-law-giving-individuals-automatic-copyright-over-their-own-likeness-in-effort-to-tackle-ai-and-deepfakes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/epGyeR5KySogirDMPNJJeC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Apple responds to $570 million in EU fines with new tiered comission and tax for App developers which Epic boss Tim Sweeney says are 'blatantly unlawful in both Europe and the United States'",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/apple-responds-to-usd570-million-in-eu-fines-with-new-tiered-comission-and-tax-for-app-developers-which-epic-boss-tim-sweeney-says-are-blatantly-unlawful-in-both-europe-and-the-united-states/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uvDFU3zQVDKJVUasLwRyDi.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Moza's new flight sim ecosystem features five new pieces of hardware aiming to bring high-end simming to mid-range budgets",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/mozas-new-flight-sim-ecosystem-features-five-new-pieces-of-hardware-aiming-to-bring-high-end-simming-to-mid-range-budgets/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fhGfqHbnVWYCEUt5TDJ5XC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
-  },
-  {
-    "titulo": "Microsoft to change Windows's infamous Blue Screen of Death to something much darker in response to last year's CloudStrike crashes",
-    "descricao": "newsThe bad news is they've ditched the smiley face. The good news is we get to keep the acronym.",
-    "link": "https://www.pcgamer.com/hardware/microsoft-to-change-windowss-infamous-blue-screen-of-death-to-something-much-darker-in-response-to-last-years-cloudstrike-crashes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4joJctuEdHoA4pc5Q3BGPZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "3ª temporada de Round 6 resgata sua essência em desfecho de tirar o fôlego | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6-t3/142398/review/3a-temporada-de-round-6-resgata-sua-essencia-em-desfecho-de-tirar-o-folego-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64801/64801_n62j.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Digimon Story: Time Stranger brilha com seu mundo vivo, mas derrapa um pouco em seu combate | Preview",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/digimon-story-time-stranger/142410/preview/digimon-story-time-stranger-brilha-com-seu-mundo-vivo-mas-derrapa-um-pouco-em-seu-combate-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-291817cacfffbdd9979b1ee3a6e7be3db70ccbdf_mchb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
-    "titulo": "Vin Diesel dá previsão de estreia para Velozes e Furiosos 10 - Parte 2 e o retorno de Paul Walker no último filme da franquia",
+    "titulo": "Este anime acaba de ganhar um Guiness World Record que nenhuma outra produção poderá bater",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/velozes-e-furiosos-10/142491/news/vin-diesel-da-previsao-de-estreia-para-velozes-e-furiosos-10-parte-2-e-o-retorno-de-paul-walker-no-u",
-    "imagem": "https://sm.ign.com/t/ign_br/news/v/vin-diesel/vin-diesel-promises-fast-x-part-2-will-return-to-street-raci_qfk6.280.jpg",
+    "link": "https://br.ign.com/anime/142494/news/este-anime-acaba-de-ganhar-um-guiness-world-record-que-nenhuma-outra-producao-podera-bater",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/a1_7tnk.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   },
   {
-    "titulo": "Momento histórico: é considerada talvez a jogada mais magistral da história de Pokémon e envolve não fazer absolutamente nada",
+    "titulo": "Star Wars: Muitos anos antes de Rebels, George Lucas planejava duelo revanche entre Obi-Wan Kenobi e Darth Maul em produção live-action cancelada",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/pokemon-trading-card-game-live/142490/news/momento-historico-e-considerada-talvez-a-jogada-mais-magistral-da-historia-de-pokemon-e-envolve-nao",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_gxp3.280.jpg",
+    "link": "https://br.ign.com/star-wars-rebels/142493/news/star-wars-muitos-anos-antes-de-rebels-george-lucas-planejava-duelo-revanche-entre-obi-wan-kenobi-e-d",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sw_x1js.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T09:56:26"
+    "timestamp": "2025-06-30T10:34:10"
   }
 ];
