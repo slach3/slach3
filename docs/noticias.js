@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "Moza's new flight sim ecosystem features five new pieces of hardware aiming to bring high-end simming to mid-range budgets",
+    "descricao": "newsWe are yet to see prices and performance to confirm that aim.",
+    "link": "https://www.pcgamer.com/hardware/mozas-new-flight-sim-ecosystem-features-five-new-pieces-of-hardware-aiming-to-bring-high-end-simming-to-mid-range-budgets/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fhGfqHbnVWYCEUt5TDJ5XC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T00:36:53"
+  },
+  {
+    "titulo": "Microsoft to change Windows's infamous Blue Screen of Death to something much darker in response to last year's CloudStrike crashes",
+    "descricao": "newsThe bad news is they've ditched the smiley face. The good news is we get to keep the acronym.",
+    "link": "https://www.pcgamer.com/hardware/microsoft-to-change-windowss-infamous-blue-screen-of-death-to-something-much-darker-in-response-to-last-years-cloudstrike-crashes/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4joJctuEdHoA4pc5Q3BGPZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T00:36:53"
+  },
+  {
     "titulo": "If you're curious about the crazy-ambitious space survival game from the makers of EVE Online, it's got a free trial running through the next week and change",
     "descricao": "newsEVE Frontier 1.0 is a long way away, but now's a good time to check in if you're curious.",
     "link": "https://www.pcgamer.com/games/mmo/if-youre-curious-about-the-crazy-ambitious-space-survival-game-from-the-makers-of-eve-online-its-got-a-free-trial-running-through-the-next-week-and-change/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zcYT9aPZ6RRw6RZrBXB5wa.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Facebook users say they've caught the app analyzing their camera roll with Meta AI⁠ without their knowledge—here's how to make sure it doesn't happen",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/facebook-users-say-theyve-caught-the-app-analyzing-their-camera-roll-with-meta-ai-without-their-knowledge-heres-how-to-make-sure-it-doesnt-happen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2eTUYofy5HmY2qPEu4DuUL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Deltarune's Tenna was first envisioned in 3D almost a decade ago in a delightfully janky prototype",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/deltarunes-tenna-was-first-envisioned-in-3d-almost-a-decade-ago-in-a-delightfully-janky-prototype/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CQpjkU7eiqKSLMX7ynZpQb.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "A rising Peak lifts all boats as climbing sim Cairn breaks 500k demo downloads after endorsement from mountaineering megahit Peak's devs",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/a-rising-peak-lifts-all-boats-as-climbing-sim-cairn-breaks-500k-demo-downloads-after-endorsement-from-mountaineering-megahit-peaks-devs/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/X9XQd6M46xXg67rBPHiTY3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "The best stealth game of the year just released its source code",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-best-stealth-game-of-the-year-just-released-its-source-code/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/riyiRCGJUf9QQ6REqUaUJB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Don't want to switch to Windows 11? There is one last way to stick with Windows 10 a little longer",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/dont-want-to-switch-to-windows-11-there-is-one-last-way-to-stick-with-windows-10-a-little-longer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Re9eSiM6o8LrTf8ANCQQ47.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "The dev behind one of my favorite recent FPSes is making a 'horror game about a trainee metro driver trapped in the dampest subway east of anything that matters' set in a real city that doesn't actually have a subway",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/the-dev-behind-one-of-my-favorite-recent-fpses-is-making-a-horror-game-about-a-trainee-metro-driver-trapped-in-the-dampest-subway-east-of-anything-that-matters-set-in-a-real-city-that-doesnt-actually-have-a-subway/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iT4Ge2DCUckM5ZGQhSj5b9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
-  },
-  {
-    "titulo": "'AI is no longer optional': Microsoft is allegedly pressuring employees to use AI tools through manager evaluations",
-    "descricao": "newsMicrosoft's employees might be required to use AI, according to leaked memo.",
-    "link": "https://www.pcgamer.com/gaming-industry/ai-is-no-longer-optional-microsoft-is-allegedly-pressuring-employees-to-use-ai-tools-through-manager-evaluations/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kc77wf7a29YuNrdx6Ugct9.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
-  },
-  {
-    "titulo": "Our favorite RPG from last year is 40% off in the Steam Summer Sale",
-    "descricao": "newsMetaphor: ReFantazio is a delightful RPG from the creators of the Persona series.",
-    "link": "https://www.pcgamer.com/games/rpg/our-favorite-rpg-from-last-year-is-40-percent-off-in-the-steam-summer-sale/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/yFxEt6bBZiFNSWUi6KzCWC.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "3ª temporada de Round 6 resgata sua essência em desfecho de tirar o fôlego | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6-t3/142398/review/3a-temporada-de-round-6-resgata-sua-essencia-em-desfecho-de-tirar-o-folego-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64801/64801_n62j.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Digimon Story: Time Stranger brilha com seu mundo vivo, mas derrapa um pouco em seu combate | Preview",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/digimon-story-time-stranger/142410/preview/digimon-story-time-stranger-brilha-com-seu-mundo-vivo-mas-derrapa-um-pouco-em-seu-combate-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-291817cacfffbdd9979b1ee3a6e7be3db70ccbdf_mchb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Ele começou a desenvolver o game dos sonhos em seu quarto há 8 anos — agora projeto está finalmente concluído e milhares de fãs comemoram",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/lens-island/142487/news/ele-comecou-a-desenvolver-o-game-dos-sonhos-em-seu-quarto-ha-8-anos-agora-projeto-esta-finalmente-co",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800-2_234k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   },
   {
     "titulo": "Linux se despede de software que permitiu que sistema chegasse ao desktop há 34 anos — e o que está substituindo é muito melhor",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/linux/142486/news/linux-se-despede-de-software-que-permitiu-que-sistema-chegasse-ao-desktop-ha-34-anos-e-o-que-esta-su",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kvum.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-29T23:02:52"
+    "timestamp": "2025-06-30T00:36:53"
   }
 ];
