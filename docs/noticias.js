@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Singapore case of fraudulant AI chip shipments to China in wake of U.S. fears of military use has been adjounred until August",
-    "descricao": "newsThe adjournment is to give police more time to review evidence and get international responses.",
-    "link": "https://www.pcgamer.com/hardware/singapore-case-of-fraudulant-ai-chip-shipments-to-china-in-wake-of-u-s-fears-of-military-use-has-been-adjounred-until-august/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Denmark to introduce law giving individuals automatic copyright over their own likeness in effort to tackle AI and deepfakes",
-    "descricao": "news\"Human beings can be run through the digital copy machine and be misused for all sorts of purposes and I’m not willing to accept that.\"",
-    "link": "https://www.pcgamer.com/hardware/denmark-to-introduce-law-giving-individuals-automatic-copyright-over-their-own-likeness-in-effort-to-tackle-ai-and-deepfakes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/epGyeR5KySogirDMPNJJeC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Apple responds to $570 million in EU fines with new tiered comission and tax for App developers which Epic boss Tim Sweeney says are 'blatantly unlawful in both Europe and the United States'",
-    "descricao": "newsIt doesn't look like the apple has fallen far enough from the tree with these changes.",
-    "link": "https://www.pcgamer.com/hardware/apple-responds-to-usd570-million-in-eu-fines-with-new-tiered-comission-and-tax-for-app-developers-which-epic-boss-tim-sweeney-says-are-blatantly-unlawful-in-both-europe-and-the-united-states/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/uvDFU3zQVDKJVUasLwRyDi.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Moza's new flight sim ecosystem features five new pieces of hardware aiming to bring high-end simming to mid-range budgets",
-    "descricao": "newsWe are yet to see prices and performance to confirm that aim.",
-    "link": "https://www.pcgamer.com/hardware/mozas-new-flight-sim-ecosystem-features-five-new-pieces-of-hardware-aiming-to-bring-high-end-simming-to-mid-range-budgets/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fhGfqHbnVWYCEUt5TDJ5XC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Microsoft to change Windows's infamous Blue Screen of Death to something much darker in response to last year's CloudStrike crashes",
-    "descricao": "newsThe bad news is they've ditched the smiley face. The good news is we get to keep the acronym.",
-    "link": "https://www.pcgamer.com/hardware/microsoft-to-change-windowss-infamous-blue-screen-of-death-to-something-much-darker-in-response-to-last-years-cloudstrike-crashes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4joJctuEdHoA4pc5Q3BGPZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Today's Wordle answer for Monday, June 30",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-30-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "If you're curious about the crazy-ambitious space survival game from the makers of EVE Online, it's got a free trial running through the next week and change",
-    "descricao": "newsEVE Frontier 1.0 is a long way away, but now's a good time to check in if you're curious.",
-    "link": "https://www.pcgamer.com/games/mmo/if-youre-curious-about-the-crazy-ambitious-space-survival-game-from-the-makers-of-eve-online-its-got-a-free-trial-running-through-the-next-week-and-change/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zcYT9aPZ6RRw6RZrBXB5wa.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Facebook users say they've caught the app analyzing their camera roll with Meta AI⁠ without their knowledge—here's how to make sure it doesn't happen",
-    "descricao": "newsYou might want to double-check your Facebook privacy settings.",
-    "link": "https://www.pcgamer.com/gaming-industry/facebook-users-say-theyve-caught-the-app-analyzing-their-camera-roll-with-meta-ai-without-their-knowledge-heres-how-to-make-sure-it-doesnt-happen/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/2eTUYofy5HmY2qPEu4DuUL.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
-    "titulo": "Deltarune's Tenna was first envisioned in 3D almost a decade ago in a delightfully janky prototype",
-    "descricao": "NewsIt was to be animated via an Xbox Kinect.",
-    "link": "https://www.pcgamer.com/games/rpg/deltarunes-tenna-was-first-envisioned-in-3d-almost-a-decade-ago-in-a-delightfully-janky-prototype/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/CQpjkU7eiqKSLMX7ynZpQb.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-06-30T05:22:04"
-  },
-  {
     "titulo": "3ª temporada de Round 6 resgata sua essência em desfecho de tirar o fôlego | Review",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/round-6-t3/142398/review/3a-temporada-de-round-6-resgata-sua-essencia-em-desfecho-de-tirar-o-folego-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64801/64801_n62j.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Leon seria protagonista de Resident Evil Requiem, mas ideia foi descartada",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142382/news/ninguem-quer-ve-lo-assustado-leon-seria-protagonista-de-resident-evil-requiem-mas-ideia-foi-descarta",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64779/64779_qcjq.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Mesmo sem saber andar de skate, não vejo a hora de ter mais momentos com THPS 3 + 4",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/tony-hawks-pro-skater-3-4/142371/feature/mesmo-sem-saber-andar-de-skate-dei-algumas-voltas-com-rayssa-leal-a-fadinha-e-nao-vejo-a-hora-de-ter",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-06-26-185154835_ddrc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Death Stranding 2 é o jogo que mais quero esquecer para jogar como se fosse a primeira vez | Review",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142069/review/death-stranding-2-on-the-beach-e-o-jogo-que-mais-quero-esquecer-para-jogar-como-se-fosse-a-primeira",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64551/64551_xkzc.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Digimon Story: Time Stranger brilha com seu mundo vivo, mas derrapa um pouco em seu combate | Preview",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/digimon-story-time-stranger/142410/preview/digimon-story-time-stranger-brilha-com-seu-mundo-vivo-mas-derrapa-um-pouco-em-seu-combate-preview",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-291817cacfffbdd9979b1ee3a6e7be3db70ccbdf_mchb.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "\"Kojima deve ter feito pacto com diabo\": jogadores não acreditam na capacidade técnica de Death Stranding 2 no PS5",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142396/news/kojima-deve-ter-feito-pacto-com-diabo-jogadores-nao-acreditam-na-capacidade-tecnica-de-death-strandi",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-on-the-beach-20250602194425_uau9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Capcom testou ideias de mundo aberto e online antes de retornar aos rascunhos de Resident Evil: Requiem",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142391/news/capcom-testou-ideias-de-mundo-aberto-e-online-antes-de-retornar-aos-rascunhos-de-resident-evil-requi",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/capcom-exp/capcom-experimented-with-open-world-and-online-resident-evil_esdd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Sony remove seus próprios jogos da PS Plus para \"ajudar as pessoas a encontrar novos jogos\", afirma executivo",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-plus-1/142339/news/sony-remove-seus-proprios-jogos-da-ps-plus-para-ajudar-as-pessoas-a-encontrar-novos-jogos-afirma-exe",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-remov/sony-removes-games-from-ps-plus-even-its-own-games-to-keep-t_jy4c.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Ele começou a desenvolver o game dos sonhos em seu quarto há 8 anos — agora projeto está finalmente concluído e milhares de fãs comemoram",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/lens-island/142487/news/ele-comecou-a-desenvolver-o-game-dos-sonhos-em-seu-quarto-ha-8-anos-agora-projeto-esta-finalmente-co",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800-2_234k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
   },
   {
     "titulo": "Linux se despede de software que permitiu que sistema chegasse ao desktop há 34 anos — e o que está substituindo é muito melhor",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/linux/142486/news/linux-se-despede-de-software-que-permitiu-que-sistema-chegasse-ao-desktop-ha-34-anos-e-o-que-esta-su",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_kvum.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-06-30T05:22:04"
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Singapore case of fraudulant AI chip shipments to China in wake of U.S. fears of military use has been adjounred until August",
+    "descricao": "newsThe adjournment is to give police more time to review evidence and get international responses.",
+    "link": "https://www.pcgamer.com/hardware/singapore-case-of-fraudulant-ai-chip-shipments-to-china-in-wake-of-u-s-fears-of-military-use-has-been-adjounred-until-august/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/xRGwkaooxjxAEyvqicQBXg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Denmark to introduce law giving individuals automatic copyright over their own likeness in effort to tackle AI and deepfakes",
+    "descricao": "news\"Human beings can be run through the digital copy machine and be misused for all sorts of purposes and I’m not willing to accept that.\"",
+    "link": "https://www.pcgamer.com/hardware/denmark-to-introduce-law-giving-individuals-automatic-copyright-over-their-own-likeness-in-effort-to-tackle-ai-and-deepfakes/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/epGyeR5KySogirDMPNJJeC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Apple responds to $570 million in EU fines with new tiered comission and tax for App developers which Epic boss Tim Sweeney says are 'blatantly unlawful in both Europe and the United States'",
+    "descricao": "newsIt doesn't look like the apple has fallen far enough from the tree with these changes.",
+    "link": "https://www.pcgamer.com/hardware/apple-responds-to-usd570-million-in-eu-fines-with-new-tiered-comission-and-tax-for-app-developers-which-epic-boss-tim-sweeney-says-are-blatantly-unlawful-in-both-europe-and-the-united-states/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/uvDFU3zQVDKJVUasLwRyDi.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Moza's new flight sim ecosystem features five new pieces of hardware aiming to bring high-end simming to mid-range budgets",
+    "descricao": "newsWe are yet to see prices and performance to confirm that aim.",
+    "link": "https://www.pcgamer.com/hardware/mozas-new-flight-sim-ecosystem-features-five-new-pieces-of-hardware-aiming-to-bring-high-end-simming-to-mid-range-budgets/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/fhGfqHbnVWYCEUt5TDJ5XC.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Microsoft to change Windows's infamous Blue Screen of Death to something much darker in response to last year's CloudStrike crashes",
+    "descricao": "newsThe bad news is they've ditched the smiley face. The good news is we get to keep the acronym.",
+    "link": "https://www.pcgamer.com/hardware/microsoft-to-change-windowss-infamous-blue-screen-of-death-to-something-much-darker-in-response-to-last-years-cloudstrike-crashes/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4joJctuEdHoA4pc5Q3BGPZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Today's Wordle answer for Monday, June 30",
+    "descricao": "regular riddleGet all the help you need with today's Wordle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-june-30-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "If you're curious about the crazy-ambitious space survival game from the makers of EVE Online, it's got a free trial running through the next week and change",
+    "descricao": "newsEVE Frontier 1.0 is a long way away, but now's a good time to check in if you're curious.",
+    "link": "https://www.pcgamer.com/games/mmo/if-youre-curious-about-the-crazy-ambitious-space-survival-game-from-the-makers-of-eve-online-its-got-a-free-trial-running-through-the-next-week-and-change/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zcYT9aPZ6RRw6RZrBXB5wa.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Facebook users say they've caught the app analyzing their camera roll with Meta AI⁠ without their knowledge—here's how to make sure it doesn't happen",
+    "descricao": "newsYou might want to double-check your Facebook privacy settings.",
+    "link": "https://www.pcgamer.com/gaming-industry/facebook-users-say-theyve-caught-the-app-analyzing-their-camera-roll-with-meta-ai-without-their-knowledge-heres-how-to-make-sure-it-doesnt-happen/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2eTUYofy5HmY2qPEu4DuUL.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
+  },
+  {
+    "titulo": "Deltarune's Tenna was first envisioned in 3D almost a decade ago in a delightfully janky prototype",
+    "descricao": "NewsIt was to be animated via an Xbox Kinect.",
+    "link": "https://www.pcgamer.com/games/rpg/deltarunes-tenna-was-first-envisioned-in-3d-almost-a-decade-ago-in-a-delightfully-janky-prototype/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CQpjkU7eiqKSLMX7ynZpQb.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-06-30T05:47:15"
   }
 ];
