@@ -1,83 +1,19 @@
 const noticias = [
   {
-    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
+    "titulo": "Steam adds an in-game performance monitor so you can brag about hitting 900 FPS in Deus Ex",
+    "descricao": "And promises more tools to help identify performance bottlenecks.",
+    "link": "https://www.pcgamer.com/games/steam-adds-an-in-game-performance-monitor-so-you-can-brag-about-hitting-900-fps-in-deus-ex/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/GMxEZkTgBiWqxWpdeuWULb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
-    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "\"Este é um final melhor\": criador de Round 6 pretendia seguir por um caminho diferente, mas um desenvolvimento específico foi crucial para o atual desfecho da série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/round-6/142536/news/este-e-um-final-melhor-criador-de-round-6-pretendia-seguir-por-um-caminho-diferente-mas-um-desenvolv",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-10_cz8w.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "Nunca descanse perto de um caixão em Death Stranding 2 caso não queira uma surpresa estranhamente \"romântica\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142508/news/nunca-descanse-perto-de-um-caixao-em-death-stranding-2-caso-nao-queira-uma-surpresa-estranhamente-ro",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-higgs-guitar_cft2.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "\"Drenante e gratificante\": ex-devs da Nintendo relembram dificuldades em se destacar na empresa em meio a colegas que eram tão bons em fazer jogos que pareciam \"seres celestiais\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-majoras-mask/142528/news/drenante-e-gratificante-ex-devs-da-nintendo-relembram-dificuldades-em-se-destacar-na-empresa-em-meio",
-    "imagem": "https://sm.ign.com/t/ign_br/news/f/former-nin/former-nintendo-devs-reminisce-about-amazing-colleagues-who_7e5b.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
-    "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "Oferta! Kirby and the Forgotten Land por apenas R$269 no Mercado Livre",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142548/news/oferta-kirby-and-the-forgotten-land-por-apenas-r269-no-mercado-livre",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kirby-and-the-forgotten-land-eq19_230817_4n4y.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
-  },
-  {
-    "titulo": "É possível encontrar o próprio Hideo Kojima em Death Stranding 2, mas para isso você precisa de algo específico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/death-stranding-2/142537/news/e-possivel-encontrar-o-proprio-hideo-kojima-em-death-stranding-2-mas-para-isso-voce-precisa-de-algo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/escavar-fonte-termal-death-stran_tbkv.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T07:17:27"
+    "titulo": "The end is probably nigh for full Windows driver support for GTX 10, 9 and 7 Series graphics cards as Nvidia announces that its next major Linux driver fork will be its last for those GPUs",
+    "descricao": "NewsLooks like the end of the road for most GeForce GTX graphics cards later this year.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/the-end-is-probably-nigh-for-full-windows-driver-support-for-gtx-10-9-and-7-series-graphics-cards-as-nvidia-announces-that-its-next-major-linux-driver-fork-will-be-its-last-for-those-gpus/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yea3M2RvsneSBnxCLMpFM9.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Right to repair bill in Texas has been signed into law after winning by a landslide victory, with not a single vote against it",
@@ -85,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/right-to-repair-bill-in-texas-has-been-signed-into-law-after-winning-by-a-landslide-victory-with-not-a-single-vote-against-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/owKheJSoSajpjKUP6VFgzK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Accused of being AI after racking up well over 400,000 monthly Spotify listens, The Velvet Sundown claims they are 'a real band' and 'never use AI'",
@@ -93,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/psych-rock-band-the-velvet-sundown-racks-up-well-over-400-000-spotify-listens-within-a-month-but-turns-out-to-be-ai-generated/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/KHmHdUri8APZdojZD2dDuW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Incredible neural implant translates neural activity into speech almost instantly by focussing on sound production instead of word choice",
@@ -101,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/incredible-neural-implant-translates-neural-activity-into-speech-almost-instantly-by-focussing-on-sound-production-instead-of-word-choice/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kS2ws9i45ETmPDSdaSW63b.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Massive Ahold Delhaize data breach sees 2.2 million people's data exposed in ransomware attacks against major US food retailer",
@@ -109,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/massive-ahold-delhaize-data-breach-sees-2-2-million-peoples-data-exposed-in-ransomware-attacks-against-major-u-s-food-retailer/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/itPB5tdr3FVmYo46D9zrxV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Trump claims to have found a buyer for TikTok, but won't say who yet: 'I'll tell you in about two weeks'",
@@ -117,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/trump-claims-to-have-found-a-buyer-for-tiktok-but-wont-say-who-yet-ill-tell-you-in-about-two-weeks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gjMpPNa5vA24CL2eRyUJjR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Author's petition requesting publishers swear off AI recieves over 1,000 signatures in first 24 hours",
@@ -125,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/authors-petition-requesting-publishers-swear-off-ai-recieves-over-1-000-signatures-in-first-24-hours/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/K8ifFi3M6vGWXPucFZWYga.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
     "titulo": "Today's Wordle answer for Tuesday, July 1",
@@ -133,22 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-1-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
-    "titulo": "The first autonomous robot football match happened in China and it's like watching drunk toddlers with fewer ethical setbacks",
-    "descricao": "newsJust watch the video.",
-    "link": "https://www.pcgamer.com/hardware/the-first-autonomous-robot-football-match-happened-in-china-and-its-like-watching-drunk-toddlers-with-fewer-ethical-setbacks/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6CHiZWAwdC4NSeBX66gf6o.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
   },
   {
-    "titulo": "Space Marine 2 will celebrate its first anniversary with a 'large-scale update' in September, and another year of free and paid content is on the way",
-    "descricao": "newsA new PvP mode that was planned for the 9.0 update is now set to arrive in the big anniversary update.",
-    "link": "https://www.pcgamer.com/games/third-person-shooter/space-marine-2-will-celebrate-its-first-anniversary-with-a-large-scale-update-in-september-and-another-year-of-free-and-paid-content-is-on-the-way/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ass7pqATDFLGm2LJzr7H7G.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T07:17:27"
+    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "\"Este é um final melhor\": criador de Round 6 pretendia seguir por um caminho diferente, mas um desenvolvimento específico foi crucial para o atual desfecho da série",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/round-6/142536/news/este-e-um-final-melhor-criador-de-round-6-pretendia-seguir-por-um-caminho-diferente-mas-um-desenvolv",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-10_cz8w.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "Nunca descanse perto de um caixão em Death Stranding 2 caso não queira uma surpresa estranhamente \"romântica\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/142508/news/nunca-descanse-perto-de-um-caixao-em-death-stranding-2-caso-nao-queira-uma-surpresa-estranhamente-ro",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-higgs-guitar_cft2.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "\"Drenante e gratificante\": ex-devs da Nintendo relembram dificuldades em se destacar na empresa em meio a colegas que eram tão bons em fazer jogos que pareciam \"seres celestiais\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-legend-of-zelda-majoras-mask/142528/news/drenante-e-gratificante-ex-devs-da-nintendo-relembram-dificuldades-em-se-destacar-na-empresa-em-meio",
+    "imagem": "https://sm.ign.com/t/ign_br/news/f/former-nin/former-nintendo-devs-reminisce-about-amazing-colleagues-who_7e5b.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
+    "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "Oferta! Kirby and the Forgotten Land por apenas R$269 no Mercado Livre",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/142548/news/oferta-kirby-and-the-forgotten-land-por-apenas-r269-no-mercado-livre",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/kirby-and-the-forgotten-land-eq19_230817_4n4y.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
+  },
+  {
+    "titulo": "É possível encontrar o próprio Hideo Kojima em Death Stranding 2, mas para isso você precisa de algo específico",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/death-stranding-2/142537/news/e-possivel-encontrar-o-proprio-hideo-kojima-em-death-stranding-2-mas-para-isso-voce-precisa-de-algo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/escavar-fonte-termal-death-stran_tbkv.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T07:43:17"
   }
 ];
