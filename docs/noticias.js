@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Gratuito para PC e exclusivo nos consoles Xbox Series, este game chega em menos 24 horas e promete dominar o inverno",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mecha-break/142601/news/gratuito-para-pc-e-exclusivo-nos-consoles-xbox-series-este-game-chega-em-menos-24-horas-e-promete-do",
-    "imagem": "https://sm.ign.com/t/ign_br/image/m/mecha-brea/mecha-break-tips-and-tricks_5zkh.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
-    "titulo": "Filme de Street Fighter escolhe ator especialista em vilões para ser M. Bison live-action",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/street-fighter-2026/142600/news/filme-de-street-fighter-escolhe-ator-especialista-em-viloes-para-ser-m-bison-live-action",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-01-180854885_747w.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T20:29:12"
-  },
-  {
     "titulo": "Destiny 2 just got weird: Launch trailer leans hard into time travel and looks more like a Control crossover",
     "descricao": "newsEdge of Fate might be light on new activities, but at least the campaign sets up a cool mystery.",
     "link": "https://www.pcgamer.com/games/fps/destiny-2-just-got-weird-launch-trailer-leans-hard-into-time-travel-and-looks-more-like-a-control-crossover/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EhkHNMMQQkcTYBUbWAPyL3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "A new WoW event boosts ultra-rare item drop rates tenfold, which admittedly isn't a huge difference when the starting number is 0.5%",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/world-of-warcraft/a-new-wow-event-boosts-ultra-rare-item-drop-rates-tenfold-which-admittedly-isnt-a-huge-difference-when-the-starting-number-is-0-5-percent/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cQ6vjk2kxQg9PjYKnYoLVV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "Hideo Kojima goes in hard on AI and is worried we'll all 'be unknowingly led into a predetermined lifestyle'",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/hideo-kojima-goes-in-hard-on-ai-and-says-hes-worried-well-be-unknowingly-led-into-a-predetermined-lifestyle/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LLyogeTttVtExMvHrXnH4m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "'It makes me cringe every time': 25 years after Diablo 2 reshaped the RPG landscape, Diablo creator David Brevik still thinks its stamina bar sucks",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/it-makes-me-cringe-every-time-25-years-after-diablo-2-reshaped-the-rpg-landscape-diablo-creator-david-brevik-still-thinks-its-stamina-bar-sucks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UtaqiCAVHELxAUqySjQb7K.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "A 'big beautiful bill' provision to prevent states from regulating AI for 10 years got nixed by the US Senate",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/a-big-beautiful-bill-provision-to-prevent-states-from-regulating-ai-for-10-years-got-nixed-by-the-us-senate/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dGnQbHxaNLvp95FjVkrRKm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "'Give me more of that': Monster Hunter Wilds players have discovered its returning monsters got hands, and they're thrilled to be getting clobbered",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/give-me-more-of-that-monster-hunter-wilds-players-have-discovered-its-returning-monsters-got-hands-and-theyre-thrilled-to-be-getting-clobbered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ls4Ga6HtGQ88cDVhBz5TKB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "Youtuber PewDiePie is going all in on deGoogling and the Steam Deck is one of the surprising tools that's helping him to 'escape'",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/youtuber-pewdiepie-is-going-all-in-on-degoogling-and-the-steam-deck-is-one-of-the-surprising-tools-thats-helping-him-to-escape/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/THJSoi9B2op3Sv7eyzD5So.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "Randy Pitchford asks fans if they'd swallow future Borderlands exclusivity deals, almost 10,000 people say just put your damn games on Steam",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/randy-pitchford-asks-fans-if-theyd-swallow-future-borderlands-exclusivity-deals-almost-10-000-people-say-just-put-your-damn-games-on-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZhVrndwFTCMik7RBxEhA68.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
   },
   {
     "titulo": "Phoenix and Blade headline the new Marvel Rivals season, and it starts next week",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/phoenix-and-blade-headline-the-new-marvel-rivals-season-and-it-starts-next-week/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ntjboe9mjYCJ7PqcNitNF7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T20:29:12"
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Gratuito para PC e exclusivo nos consoles Xbox Series, este game chega em menos 24 horas e promete dominar o inverno",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mecha-break/142601/news/gratuito-para-pc-e-exclusivo-nos-consoles-xbox-series-este-game-chega-em-menos-24-horas-e-promete-do",
+    "imagem": "https://sm.ign.com/t/ign_br/image/m/mecha-brea/mecha-break-tips-and-tricks_5zkh.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
+  },
+  {
+    "titulo": "Filme de Street Fighter escolhe ator especialista em vilões para ser M. Bison live-action",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/street-fighter-2026/142600/news/filme-de-street-fighter-escolhe-ator-especialista-em-viloes-para-ser-m-bison-live-action",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-01-180854885_747w.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-01T20:43:59"
   }
 ];
