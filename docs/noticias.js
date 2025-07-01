@@ -1,11 +1,27 @@
 const noticias = [
   {
+    "titulo": "A new WoW event boosts ultra-rare item drop rates tenfold, which admittedly isn't a huge difference when the starting number is 0.5%",
+    "descricao": "NewsThe Collector's Bounty event nudges the odds in your favor, but you might still walk away empty-handed.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/a-new-wow-event-boosts-ultra-rare-item-drop-rates-tenfold-which-admittedly-isnt-a-huge-difference-when-the-starting-number-is-0-5-percent/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cQ6vjk2kxQg9PjYKnYoLVV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-01T18:29:38"
+  },
+  {
+    "titulo": "Hideo Kojima goes in hard on AI and is worried we'll all 'be unknowingly led into a predetermined lifestyle'",
+    "descricao": "NewsHard to disagree.",
+    "link": "https://www.pcgamer.com/games/hideo-kojima-goes-in-hard-on-ai-and-says-hes-worried-well-be-unknowingly-led-into-a-predetermined-lifestyle/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/LLyogeTttVtExMvHrXnH4m.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-01T18:29:38"
+  },
+  {
     "titulo": "'It makes me cringe every time': 25 years after Diablo 2 reshaped the RPG landscape, Diablo creator David Brevik still thinks its stamina bar sucks",
     "descricao": "NewsEven classics have flaws.",
     "link": "https://www.pcgamer.com/games/rpg/it-makes-me-cringe-every-time-25-years-after-diablo-2-reshaped-the-rpg-landscape-diablo-creator-david-brevik-still-thinks-its-stamina-bar-sucks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UtaqiCAVHELxAUqySjQb7K.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "A 'big beautiful bill' provision to prevent states from regulating AI for 10 years got nixed by the US Senate",
@@ -13,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/a-big-beautiful-bill-provision-to-prevent-states-from-regulating-ai-for-10-years-got-nixed-by-the-us-senate/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dGnQbHxaNLvp95FjVkrRKm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "'Give me more of that': Monster Hunter Wilds players have discovered its returning monsters got hands, and they're thrilled to be getting clobbered",
@@ -21,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/give-me-more-of-that-monster-hunter-wilds-players-have-discovered-its-returning-monsters-got-hands-and-theyre-thrilled-to-be-getting-clobbered/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ls4Ga6HtGQ88cDVhBz5TKB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Youtuber PewDiePie is going all in on deGoogling and the Steam Deck is one of the surprising tools that's helping him to 'escape'",
@@ -29,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/youtuber-pewdiepie-is-going-all-in-on-degoogling-and-the-steam-deck-is-one-of-the-surprising-tools-thats-helping-him-to-escape/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/THJSoi9B2op3Sv7eyzD5So.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Randy Pitchford asks fans if they'd swallow future Borderlands exclusivity deals, almost 10,000 people say just put your damn games on Steam",
@@ -37,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/randy-pitchford-asks-fans-if-theyd-swallow-future-borderlands-exclusivity-deals-almost-10-000-people-say-just-put-your-damn-games-on-steam/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZhVrndwFTCMik7RBxEhA68.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Phoenix and Blade headline the new Marvel Rivals season, and it starts next week",
@@ -45,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/phoenix-and-blade-headline-the-new-marvel-rivals-season-and-it-starts-next-week/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ntjboe9mjYCJ7PqcNitNF7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "'It took a while to get there, but now we feel we're in a good place': Fatshark's design director talks doing years of repair work on Warhammer 40,000: Darktide",
@@ -53,23 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/it-took-a-while-to-get-there-but-now-we-feel-were-in-a-good-place-fatsharks-design-director-talks-doing-years-of-repair-work-on-warhammer-40-000-darktide/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FXhsk9wTxWvr2E9v7CUUED.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
-  },
-  {
-    "titulo": "Get an entire tabletop role-playing library for the price of one book, thanks to what might be the most impressive bundle of RPGs I've ever seen in my 22 years in the hobby",
-    "descricao": "NEWSGrab $1,227 worth of games for just $40.",
-    "link": "https://www.pcgamer.com/games/rpg/get-an-entire-tabletop-role-playing-library-for-the-price-of-one-book-thanks-to-what-might-be-the-most-impressive-bundle-of-rpgs-ive-ever-seen-in-my-22-years-in-the-hobby/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DBS8RPSAyyjDctNRCf3CwV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
-  },
-  {
-    "titulo": "Nexus Mods will soon require age verification for UK and EU users looking for its treasure trove of adult mods",
-    "descricao": "NewsBut it won't say what that looks like yet.",
-    "link": "https://www.pcgamer.com/games/nexus-mods-will-soon-require-age-verification-for-uk-and-eu-users-looking-for-its-treasure-trove-of-adult-mods/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/5nk7ipcS8wQsbQv5MxLoME.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Resident Evil: A história completa de Raccoon City — de cidade pacata ao apocalipse zumbi",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-requiem/142236/feature/a-historia-completa-de-raccoon-city-em-resident-evil-de-cidade-pacata-ao-apocalipse-zumbi",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64870/64870_gha5.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "\"Este é um final melhor\": criador de Round 6 pretendia seguir por um caminho diferente, mas um desenvolvimento específico foi crucial para o atual desfecho da série",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/142536/news/este-e-um-final-melhor-criador-de-round-6-pretendia-seguir-por-um-caminho-diferente-mas-um-desenvolv",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-10_cz8w.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "Nunca descanse perto de um caixão em Death Stranding 2 caso não queira uma surpresa estranhamente \"romântica\"",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/death-stranding-2/142508/news/nunca-descanse-perto-de-um-caixao-em-death-stranding-2-caso-nao-queira-uma-surpresa-estranhamente-ro",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/death-stranding-2-higgs-guitar_cft2.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "\"Drenante e gratificante\": ex-devs da Nintendo relembram dificuldades em se destacar na empresa em meio a colegas que eram tão bons em fazer jogos que pareciam \"seres celestiais\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/the-legend-of-zelda-majoras-mask/142528/news/drenante-e-gratificante-ex-devs-da-nintendo-relembram-dificuldades-em-se-destacar-na-empresa-em-meio",
     "imagem": "https://sm.ign.com/t/ign_br/news/f/former-nin/former-nintendo-devs-reminisce-about-amazing-colleagues-who_7e5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
     "titulo": "\"Vai ter negatividade não importa o motivo\": após críticas racistas, estrela de Coração de Ferro responde",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142495/news/vai-ter-negatividade-nao-importa-o-motivo-apos-criticas-racistas-estrela-de-coracao-de-ferro-respond",
     "imagem": "https://sm.ign.com/t/ign_br/news/i/ironheart-/ironheart-star-addresses-pre-release-backlash-to-latest-mcu_hnu5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
-    "titulo": "Scooby-Doo, cadê você? Polícia procura assaltante que usou fantasia do cachorro do Salsicha (mas não roubou biscoitos)",
+    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/scooby-doo-theater/142582/news/scooby-doo-cade-voce-policia-procura-assaltante-que-usou-fantasia-do-cachorro-do-salsicha-mas-nao-ro",
-    "imagem": "https://sm.ign.com/t/ign_br/news/p/police-hun/police-hunt-scooby-doo-after-costumed-man-breaks-into-shop-s_b82j.280.jpg",
+    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   },
   {
-    "titulo": "Para surpresa de todos, Rockstar lança novas missões em Red Dead Online e gera mais especulações sobre Red Dead Redemption 2",
+    "titulo": "Filme de Street Fighter escolhe ator especialista em vilões para ser M. Bison live-action",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/red-dead-online/142580/news/para-surpresa-de-todos-rockstar-lanca-novas-missoes-em-red-dead-online-e-gera-mais-especulacoes-sobr",
-    "imagem": "https://sm.ign.com/t/ign_br/news/r/red-dead-o/red-dead-online-fans-react-with-surprise-and-delight-as-rock_tsek.280.jpg",
+    "link": "https://br.ign.com/street-fighter-2026/142600/news/filme-de-street-fighter-escolhe-ator-especialista-em-viloes-para-ser-m-bison-live-action",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-01-180854885_747w.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-01T18:08:47"
+    "timestamp": "2025-07-01T18:29:38"
   }
 ];
