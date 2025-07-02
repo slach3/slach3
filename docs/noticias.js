@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Free-to-play mech brawler Mecha Break has attracted 50,000 players within 10 minutes of launching, proving our appetite for giant robots remains insatiable",
-    "descricao": "NewsArmored Core meets Titanfall meets daily log-in bonuses.",
-    "link": "https://www.pcgamer.com/games/action/free-to-play-mech-brawler-mecha-break-has-attracted-50-000-players-within-10-minutes-of-launching-proving-our-appetite-for-giant-robots-remains-insatiable/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UH89kzMJHkGXYeSoVctfdg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "Today's Wordle answer for Wednesday, July 2",
-    "descricao": "regular riddleToday's Wordle: Help with the daily puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-2-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "Destiny 2 just got weird: Launch trailer leans hard into time travel and looks more like a Control crossover",
-    "descricao": "newsEdge of Fate might be light on new activities, but at least the campaign sets up a cool mystery.",
-    "link": "https://www.pcgamer.com/games/fps/destiny-2-just-got-weird-launch-trailer-leans-hard-into-time-travel-and-looks-more-like-a-control-crossover/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/EhkHNMMQQkcTYBUbWAPyL3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "A new WoW event boosts ultra-rare item drop rates tenfold, which admittedly isn't a huge difference when the starting number is 0.5%",
-    "descricao": "NewsThe Collector's Bounty event nudges the odds in your favor, but you might still walk away empty-handed.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/a-new-wow-event-boosts-ultra-rare-item-drop-rates-tenfold-which-admittedly-isnt-a-huge-difference-when-the-starting-number-is-0-5-percent/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cQ6vjk2kxQg9PjYKnYoLVV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "Hideo Kojima goes in hard on AI and is worried we'll all 'be unknowingly led into a predetermined lifestyle'",
-    "descricao": "NewsHard to disagree.",
-    "link": "https://www.pcgamer.com/games/hideo-kojima-goes-in-hard-on-ai-and-says-hes-worried-well-be-unknowingly-led-into-a-predetermined-lifestyle/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/LLyogeTttVtExMvHrXnH4m.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "'It makes me cringe every time': 25 years after Diablo 2 reshaped the RPG landscape, Diablo creator David Brevik still thinks its stamina bar sucks",
-    "descricao": "NewsEven classics have flaws.",
-    "link": "https://www.pcgamer.com/games/rpg/it-makes-me-cringe-every-time-25-years-after-diablo-2-reshaped-the-rpg-landscape-diablo-creator-david-brevik-still-thinks-its-stamina-bar-sucks/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UtaqiCAVHELxAUqySjQb7K.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "A 'big beautiful bill' provision to prevent states from regulating AI for 10 years got nixed by the US Senate",
-    "descricao": "NewsA revised proposal that changed it to five years was quickly introduced and then abandoned.",
-    "link": "https://www.pcgamer.com/software/ai/a-big-beautiful-bill-provision-to-prevent-states-from-regulating-ai-for-10-years-got-nixed-by-the-us-senate/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dGnQbHxaNLvp95FjVkrRKm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "'Give me more of that': Monster Hunter Wilds players have discovered its returning monsters got hands, and they're thrilled to be getting clobbered",
-    "descricao": "NewsLotta carts rolling around since Monday.",
-    "link": "https://www.pcgamer.com/games/action/give-me-more-of-that-monster-hunter-wilds-players-have-discovered-its-returning-monsters-got-hands-and-theyre-thrilled-to-be-getting-clobbered/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Ls4Ga6HtGQ88cDVhBz5TKB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
-    "titulo": "Youtuber PewDiePie is going all in on deGoogling and the Steam Deck is one of the surprising tools that's helping him to 'escape'",
-    "descricao": "NewsDitch Google, Gmail and Android, add a Deck, Graphene and a Raspberry Pi.",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/youtuber-pewdiepie-is-going-all-in-on-degoogling-and-the-steam-deck-is-one-of-the-surprising-tools-thats-helping-him-to-escape/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/THJSoi9B2op3Sv7eyzD5So.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T05:16:46"
-  },
-  {
     "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Por APENAS R$1.591! Smart TV LG 43\" 4K UHD em oferta no Mercado Livre",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142606/news/por-apenas-r1591-smart-tv-lg-43-4k-uhd-em-oferta-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign_crvh.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
   },
   {
     "titulo": "Quem é Zelma Stanton em Coração de Ferro? Personagem conecta série com Doutor Estranho e Kamar-Taj",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142584/news/quem-e-zelma-stanton-em-coracao-de-ferro-personagem-conecta-serie-com-doutor-estranho-e-kamar-taj",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_7tmy.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T05:16:46"
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "Free-to-play mech brawler Mecha Break has attracted 50,000 players within 10 minutes of launching, proving our appetite for giant robots remains insatiable",
+    "descricao": "NewsArmored Core meets Titanfall meets daily log-in bonuses.",
+    "link": "https://www.pcgamer.com/games/action/free-to-play-mech-brawler-mecha-break-has-attracted-50-000-players-within-10-minutes-of-launching-proving-our-appetite-for-giant-robots-remains-insatiable/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UH89kzMJHkGXYeSoVctfdg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "Today's Wordle answer for Wednesday, July 2",
+    "descricao": "regular riddleToday's Wordle: Help with the daily puzzle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-2-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "Destiny 2 just got weird: Launch trailer leans hard into time travel and looks more like a Control crossover",
+    "descricao": "newsEdge of Fate might be light on new activities, but at least the campaign sets up a cool mystery.",
+    "link": "https://www.pcgamer.com/games/fps/destiny-2-just-got-weird-launch-trailer-leans-hard-into-time-travel-and-looks-more-like-a-control-crossover/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EhkHNMMQQkcTYBUbWAPyL3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "A new WoW event boosts ultra-rare item drop rates tenfold, which admittedly isn't a huge difference when the starting number is 0.5%",
+    "descricao": "NewsThe Collector's Bounty event nudges the odds in your favor, but you might still walk away empty-handed.",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/a-new-wow-event-boosts-ultra-rare-item-drop-rates-tenfold-which-admittedly-isnt-a-huge-difference-when-the-starting-number-is-0-5-percent/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/cQ6vjk2kxQg9PjYKnYoLVV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "Hideo Kojima goes in hard on AI and is worried we'll all 'be unknowingly led into a predetermined lifestyle'",
+    "descricao": "NewsHard to disagree.",
+    "link": "https://www.pcgamer.com/games/hideo-kojima-goes-in-hard-on-ai-and-says-hes-worried-well-be-unknowingly-led-into-a-predetermined-lifestyle/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/LLyogeTttVtExMvHrXnH4m.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "'It makes me cringe every time': 25 years after Diablo 2 reshaped the RPG landscape, Diablo creator David Brevik still thinks its stamina bar sucks",
+    "descricao": "NewsEven classics have flaws.",
+    "link": "https://www.pcgamer.com/games/rpg/it-makes-me-cringe-every-time-25-years-after-diablo-2-reshaped-the-rpg-landscape-diablo-creator-david-brevik-still-thinks-its-stamina-bar-sucks/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/UtaqiCAVHELxAUqySjQb7K.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "A 'big beautiful bill' provision to prevent states from regulating AI for 10 years got nixed by the US Senate",
+    "descricao": "NewsA revised proposal that changed it to five years was quickly introduced and then abandoned.",
+    "link": "https://www.pcgamer.com/software/ai/a-big-beautiful-bill-provision-to-prevent-states-from-regulating-ai-for-10-years-got-nixed-by-the-us-senate/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dGnQbHxaNLvp95FjVkrRKm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "'Give me more of that': Monster Hunter Wilds players have discovered its returning monsters got hands, and they're thrilled to be getting clobbered",
+    "descricao": "NewsLotta carts rolling around since Monday.",
+    "link": "https://www.pcgamer.com/games/action/give-me-more-of-that-monster-hunter-wilds-players-have-discovered-its-returning-monsters-got-hands-and-theyre-thrilled-to-be-getting-clobbered/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Ls4Ga6HtGQ88cDVhBz5TKB.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
+  },
+  {
+    "titulo": "Youtuber PewDiePie is going all in on deGoogling and the Steam Deck is one of the surprising tools that's helping him to 'escape'",
+    "descricao": "NewsDitch Google, Gmail and Android, add a Deck, Graphene and a Raspberry Pi.",
+    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/youtuber-pewdiepie-is-going-all-in-on-degoogling-and-the-steam-deck-is-one-of-the-surprising-tools-thats-helping-him-to-escape/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/THJSoi9B2op3Sv7eyzD5So.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T05:44:48"
   }
 ];
