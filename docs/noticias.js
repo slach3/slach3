@@ -1,11 +1,35 @@
 const noticias = [
   {
+    "titulo": "To the surprise of nobody, sales of the 16 GB RTX 5060 Ti at retailer Mindfactory outstrip the 8 GB version by a factor of 16",
+    "descricao": "NewsIt's a different story when it comes to OEMs and system builders, though.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/to-the-surprise-of-nobody-sales-of-the-16-gb-rtx-5060-ti-at-retailer-mindfactory-outstrip-the-8-gb-version-by-a-factor-of-16/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/DKHZRMRqz55a2w52rZXwEZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T08:23:52"
+  },
+  {
+    "titulo": "Minecraft is bringing back the copper golem from the mob vote graveyard, igniting my hopes for a Moobloom comeback",
+    "descricao": "NewsThis is a big win for little guys everywhere.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/minecraft-is-bringing-back-the-copper-golem-from-the-mob-vote-graveyard-igniting-my-hopes-for-a-moobloom-comeback/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/HrtgxKx8uHmjNfEoVnNzNc.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T08:23:52"
+  },
+  {
+    "titulo": "Subnautica studio leadership gutted by Krafton, which outright says that Subnautica 2 needs 'renewed energy and momentum'",
+    "descricao": "NewsSomething stirs beneath the waves.",
+    "link": "https://www.pcgamer.com/games/subnautica-studio-leadership-gutted-by-krafton-which-outright-says-that-subnautica-2-needs-renewed-energy-and-momentum/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZhW5DecLyCS4rssGWaVJzZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T08:23:52"
+  },
+  {
     "titulo": "Intel's ex-CEO said he bet the company on the 18A node but now a new report claims Intel is pushing customers to next-gen 14A instead",
     "descricao": "News18A lives on for Intel's Panther Lake CPUs, but will that be enough?",
     "link": "https://www.pcgamer.com/hardware/processors/intels-ex-ceo-said-he-bet-the-company-on-the-18a-node-but-now-a-new-report-claims-intel-is-pushing-customers-to-next-gen-14a-instead/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "When Microsoft finally pulls the plug on Windows 10 its successor will be four years old, and for three of those, it was never the OS of choice amongst Steam users",
@@ -13,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/when-microsoft-finally-pulls-the-plug-on-windows-10-its-successor-will-be-four-years-old-and-for-three-of-those-it-was-never-the-os-of-choice-amongst-steam-users/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/atVr5pZqvcw2PzM5VAKwvL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Cloudflare will block AI web crawlers by default, and introduces new Pay Per Crawl scheme that means AI companies will have to fork out for the privilege to scrape",
@@ -21,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/cloudflare-will-block-ai-web-crawlers-by-default-and-introduces-new-pay-per-crawl-scheme-that-means-ai-companies-will-have-to-pay-for-the-privilege-to-scrape/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fXgMJQjow42AE9ocnou5f9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Free-to-play mech brawler Mecha Break has attracted 50,000 players within 10 minutes of launching, proving our appetite for giant robots remains insatiable",
@@ -29,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/free-to-play-mech-brawler-mecha-break-has-attracted-50-000-players-within-10-minutes-of-launching-proving-our-appetite-for-giant-robots-remains-insatiable/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/UH89kzMJHkGXYeSoVctfdg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Today's Wordle answer for Wednesday, July 2",
@@ -37,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-2-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iTKBMBnjrHUU9CGH3Mda93.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Destiny 2 just got weird: Launch trailer leans hard into time travel and looks more like a Control crossover",
@@ -45,31 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/destiny-2-just-got-weird-launch-trailer-leans-hard-into-time-travel-and-looks-more-like-a-control-crossover/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EhkHNMMQQkcTYBUbWAPyL3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
-  },
-  {
-    "titulo": "A new WoW event boosts ultra-rare item drop rates tenfold, which admittedly isn't a huge difference when the starting number is 0.5%",
-    "descricao": "NewsThe Collector's Bounty event nudges the odds in your favor, but you might still walk away empty-handed.",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/a-new-wow-event-boosts-ultra-rare-item-drop-rates-tenfold-which-admittedly-isnt-a-huge-difference-when-the-starting-number-is-0-5-percent/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/cQ6vjk2kxQg9PjYKnYoLVV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
-  },
-  {
-    "titulo": "Hideo Kojima goes in hard on AI and is worried we'll all 'be unknowingly led into a predetermined lifestyle'",
-    "descricao": "NewsHard to disagree.",
-    "link": "https://www.pcgamer.com/games/hideo-kojima-goes-in-hard-on-ai-and-says-hes-worried-well-be-unknowingly-led-into-a-predetermined-lifestyle/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/LLyogeTttVtExMvHrXnH4m.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
-  },
-  {
-    "titulo": "'It makes me cringe every time': 25 years after Diablo 2 reshaped the RPG landscape, Diablo creator David Brevik still thinks its stamina bar sucks",
-    "descricao": "NewsEven classics have flaws.",
-    "link": "https://www.pcgamer.com/games/rpg/it-makes-me-cringe-every-time-25-years-after-diablo-2-reshaped-the-rpg-landscape-diablo-creator-david-brevik-still-thinks-its-stamina-bar-sucks/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/UtaqiCAVHELxAUqySjQb7K.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
+  },
+  {
+    "titulo": "Alguém conectou um PC com Windows XP desprotegido à Internet para ver o que aconteceria e resultado não é surpreendente",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142541/news/alguem-conectou-um-pc-com-windows-xp-desprotegido-a-internet-para-ver-o-que-aconteceria-e-resultado",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ugzs.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T08:23:52"
   },
   {
     "titulo": "Por APENAS R$1.591! Smart TV LG 43\" 4K UHD em oferta no Mercado Livre",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142606/news/por-apenas-r1591-smart-tv-lg-43-4k-uhd-em-oferta-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign_crvh.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
-  },
-  {
-    "titulo": "Quem é Zelma Stanton em Coração de Ferro? Personagem conecta série com Doutor Estranho e Kamar-Taj",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142584/news/quem-e-zelma-stanton-em-coracao-de-ferro-personagem-conecta-serie-com-doutor-estranho-e-kamar-taj",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_7tmy.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T07:59:09"
+    "timestamp": "2025-07-02T08:23:52"
   }
 ];
