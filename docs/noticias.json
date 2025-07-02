@@ -1,83 +1,35 @@
 [
   {
-    "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Deus Ex devs say they honestly weren't thinking about politics when they made one of the most political games of all time: 'What I think is the right future for humanity is irrelevant. It's all about what each player thinks'",
+    "descricao": "NewsA cabal of billionaires unleashing an artificial plague to further immiserate and exploit the underclass, but not in a political way.",
+    "link": "https://www.pcgamer.com/games/rpg/deus-ex-devs-say-they-werent-thinking-about-politics-when-they-made-one-of-the-most-political-games-of-all-time-what-i-think-is-the-right-future-for-humanity-is-irrelevant-its-all-about-what-each-player-thinks/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/MJJETFQqg3R3MKwupDsN4N.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Videogames on the scale of Vampire: The Masquerade - Bloodlines 2 could be on the way for other World of Darkness TTRPGs, including Mage: The Ascension and Changeling: The Dreaming",
+    "descricao": "NEWS\"There's no obstacle or gatekeeping function that would prevent any of these from making it out into a videogame and getting the Bloodlines treatment.\"",
+    "link": "https://www.pcgamer.com/games/rpg/videogames-on-the-scale-of-vampire-the-masquerade-bloodlines-2-could-be-on-the-way-for-other-world-of-darkness-ttrpgs-including-mage-the-ascension-and-changeling-the-dreaming/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/NfDZGrxsk6tegzCiKM83eY.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Fresh zero-day vulnerability in Chrome found to be actively exploited by hackers in the wild",
+    "descricao": "NewsAnd you're not necessarily safe if you don't use Chrome either.",
+    "link": "https://www.pcgamer.com/software/browsers/fresh-zero-day-vulnerability-in-chrome-found-to-be-actively-exploited-by-hackers-in-the-wild/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/9JYf4pN8FUkCnmNXCzASz6.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "O jogo acabou? Criador de Round 6 explica um dos maiores mistérios do final da série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/round-6/142587/news/o-jogo-acabou-criador-de-round-6-explica-um-dos-maiores-misterios-do-final-da-serie",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-28t155543099_62c9.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
-  },
-  {
-    "titulo": "Líderes de desenvolvimento de Subnautica 2 são demitidos e substituídos em tentativa de \"renovar as energias\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/subnautica-2/142613/news/lideres-de-desenvolvimento-de-subnautica-2-sao-demitidos-e-substituidos-em-tentativa-de-renovar-as-e",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/subnautica/subnautica-2-developers-entire-leadership-team-replaced-in-s_4ky5.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Final Fantasy 14 is fast-tracking one of my most-anticipated fixes, releasing an entire month earlier than expected",
+    "descricao": "newsChanges to entering Forked Tower are being implemented this week.",
+    "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-is-fast-tracking-one-of-my-most-anticipated-fixes-releasing-an-entire-month-earlier-than-expected/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/B5cXMveYu4jffTaw5UAiPk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
     "titulo": "Persona 5: The Phantom X has blessed the community with a new sh**posting mascot so corny it eclipses the nuance around the real-world issues he represents",
@@ -85,7 +37,7 @@
     "link": "https://www.pcgamer.com/games/rpg/persona-5-the-phantom-x-has-blessed-the-community-with-a-new-sh-posting-mascot-so-corny-it-eclipses-the-nuance-around-the-real-world-issues-he-represents/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ayYKd96T94PtA8vtjyR2QZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
     "titulo": "'Our platform, hardware, and game roadmap have never looked stronger,' Phil Spencer says, as Microsoft announces another round of mass layoffs at its gaming division",
@@ -93,7 +45,7 @@
     "link": "https://www.pcgamer.com/gaming-industry/our-platform-hardware-and-game-roadmap-have-never-looked-stronger-phil-spencer-says-as-microsoft-announces-another-round-of-mass-layoffs-at-its-gaming-division/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MeLjqeUJVnzTP2qdqH5f9A.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
     "titulo": "'We need to do a better job': FBC Firebreak devs are revamping progression after finding out that just 5% of players own a level 3 perk",
@@ -101,7 +53,7 @@
     "link": "https://www.pcgamer.com/games/fps/we-need-to-do-a-better-job-fbc-firebreak-devs-are-revamping-progression-after-finding-out-that-just-5-percent-of-players-own-a-level-3-perk/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/whK8QyRCSFMFdKh6rvRpgZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
     "titulo": "All change at the top: Corsair's founder and long-running CEO steps down after 31 years as former company president Thi La takes over the reins",
@@ -109,7 +61,7 @@
     "link": "https://www.pcgamer.com/hardware/all-change-at-the-top-corsairs-founder-and-long-running-ceo-steps-down-after-31-years-as-former-company-president-thi-la-takes-over-the-reins/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NmtrtD8G8Y6EcTa4c63jGZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
     "titulo": "Human spirit triumphs as the Croc devs announce they want to remaster Buck Bumble and the greatest main menu theme song of all time",
@@ -117,38 +69,86 @@
     "link": "https://www.pcgamer.com/games/action/human-spirit-triumphs-as-the-croc-devs-announce-they-want-to-remaster-buck-bumble-and-the-greatest-main-menu-theme-song-of-all-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HdJECvgDZM5wcmqKGX7wp4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "The game that would become Deus Ex was originally called Troubleshooter and starred Jake Shooter, supercop",
-    "descricao": "NewsCome on, that's just funny.",
-    "link": "https://www.pcgamer.com/games/the-game-that-would-become-deus-ex-was-originally-called-troubleshooter-and-starred-jake-shooter-supercop/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ELuF7JV5qaGCuyP4z2AENm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "Introducing the PC Gaming Show Tokyo Direct— coming from the Tokyo Game Show",
-    "descricao": "PCGS in TokyoThe PCGS is hitting the road with a special show this September",
-    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/introducing-the-pc-gaming-show-tokyo-direct-coming-from-the-tokyo-game-show/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/vCswa6GZg6r9ztcJ5dVu8L.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "Turns out you can transform your very ordinary car into an actual Mario Kart controller (but you probably shouldn't)",
-    "descricao": "NewsJust about the only way to make a 2016 Renault Clio interesting.",
-    "link": "https://www.pcgamer.com/hardware/turns-out-you-can-transform-your-very-ordinary-car-into-an-actual-mario-kart-controller-but-you-probably-shouldnt/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FzVKVXAT8PuPRdmGs4UbDE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
   },
   {
-    "titulo": "AMD offers an update on Project Amethyst, a Sony collaboration that's already 'delivered smarter, more efficient solutions like Super Resolution in FSR 4'",
-    "descricao": "NewsTech as a team sport.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/amds-jack-huynh-offers-an-update-on-project-amethyst-a-sony-collaboration-thats-already-delivered-smarter-more-efficient-solutions-like-super-resolution-in-fsr-4/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TWHeynt4inoeuVZaRj2tBG.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T11:56:05"
+    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
+    "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
+  },
+  {
+    "titulo": "O jogo acabou? Criador de Round 6 explica um dos maiores mistérios do final da série",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/round-6/142587/news/o-jogo-acabou-criador-de-round-6-explica-um-dos-maiores-misterios-do-final-da-serie",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-28t155543099_62c9.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T12:22:18"
   }
 ]
