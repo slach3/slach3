@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/microsoft-cancels-the-perfect-dark-reboot-that-blew-us-away-last-year-closes-developer-the-initiative/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zSYbPSHQzoGgRF5jg7byhD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "A new MMO in development at Elder Scrolls Online studio ZeniMax has been cancelled as Microsoft puts thousands more people out of work",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/a-new-mmo-in-development-at-elder-scrolls-online-studio-zenimax-has-been-cancelled-as-microsoft-puts-thousands-more-people-out-of-work/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FK7M7aE4TbAggmbz4KvhgJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "Newegg has 13 RTX 5050 models ready for the baby Blackwell's release, but no one in their right mind should be paying $250 for one, let alone $290 for a measly overclock",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/newegg-has-13-rtx-5050-models-ready-for-the-baby-blackwells-release-but-no-one-in-their-right-mind-should-be-paying-usd250-for-one-let-alone-usd290-for-a-measly-overclock/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QWzev6ugDvYCq9D4jKnKPP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "'Instantly lost all desire to even start': Mecha Break's Steam rating lands at an early 'Mixed' as players realize the beta's customization options have been turned into MTX fodder",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/instantly-lost-all-desire-to-even-start-mecha-breaks-steam-rating-lands-at-an-early-mixed-as-players-realize-the-betas-customization-options-have-been-turned-into-mtx-fodder/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/F4mEbJRruqRooXomATRBPX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "Rare's Everwild has been cancelled amidst Microsoft's enormous cuts to staff and studios",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rares-everwild-has-been-cancelled-amidst-microsofts-enormous-cuts-to-staff-and-studios/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Ka3ozLqTWDpRztuhguVvA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "Amazon will soon deploy more bots than it employs people now that it has a million robots",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/amazon-will-soon-deploy-more-bots-than-it-employs-people-now-that-it-has-a-million-robots/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/evvNG3mz2EQZF99frzxXwf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "AT&T says 'um actually' to President Trump after he blames the internet provider for conference call woes",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/at-and-t-says-um-actually-to-president-trump-after-he-blames-the-internet-provider-for-conference-call-woes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zvEUpy6DmT9kXzpjNEPYcm.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "Palworld's Terraria update lands it back in Steam's Top 10 with over 120,000 players coming back, but its community manager is just waiting for people to brand it a 'dead game' again",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/palworlds-terraria-update-lands-it-back-in-steams-top-10-with-over-120-000-players-coming-back-but-its-community-manager-is-just-waiting-for-people-to-brand-it-a-dead-game-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yKsbzvX3xqLXesbWarRBid.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "'It's not like we applied for the award ourselves': Dave the Diver director reminds people that 'there's nothing indie' about his game and the controversial indie nomination was out of his control",
@@ -69,7 +69,31 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/its-not-like-we-applied-for-the-award-ourselves-dave-the-diver-director-reminds-people-that-theres-nothing-indie-about-his-game-and-the-controversial-indie-nomination-was-out-of-his-control/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tswgWvyrfg6vG2gjo6uCJB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
+  },
+  {
+    "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T17:14:18"
+  },
+  {
+    "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T17:14:18"
+  },
+  {
+    "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
@@ -77,63 +101,47 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
-    "titulo": "Jurassic World: Recomeço tem tudo para ser o meteoro da franquia | Review",
+    "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/jurassic-world-4/142546/review/jurassic-world-recomeco-tem-tudo-para-ser-o-meteoro-da-franquia-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64889/64889_5um6.800.jpg",
+    "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
+    "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
-    "titulo": "Entrevista: Elenco de Superman destaca verdadeira força do Homem de Aço",
+    "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142518/news/todos-nos-queriamos-que-existisse-um-superman-em-um-mundo-tao-caotico-quanto-o-nosso-elenco-de-super",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64890/64890_31ej.800.jpg",
+    "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
-    "titulo": "PlayStation surpreende jogadores e aumenta preço de diversos jogos na PSN no Brasil",
+    "titulo": "O jogo acabou? Criador de Round 6 explica um dos maiores mistérios do final da série",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/playstation-5/142500/news/playstation-surpreende-jogadores-e-aumenta-preco-de-diversos-jogos-na-psn-no-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64867/64867_ja87.800.jpg",
+    "link": "https://br.ign.com/round-6/142587/news/o-jogo-acabou-criador-de-round-6-explica-um-dos-maiores-misterios-do-final-da-serie",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-28t155543099_62c9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
-    "titulo": "Este filme do MCU não foi bem nos cinemas, mas renasceu no Disney+ e hoje é um grande sucesso no streaming",
+    "titulo": "Líderes de desenvolvimento de Subnautica 2 são demitidos e substituídos em tentativa de \"renovar as energias\"",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/capitao-america-4/142599/news/este-filme-do-mcu-nao-foi-bem-nos-cinemas-mas-renasceu-no-disney-e-hoje-e-um-grande-sucesso-no-strea",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_11f2.320.png",
+    "link": "https://br.ign.com/subnautica-2/142613/news/lideres-de-desenvolvimento-de-subnautica-2-sao-demitidos-e-substituidos-em-tentativa-de-renovar-as-e",
+    "imagem": "https://sm.ign.com/t/ign_br/news/s/subnautica/subnautica-2-developers-entire-leadership-team-replaced-in-s_4ky5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
-    "titulo": "Blade e Jean Grey com Força Fênix estrelam novo trailer para 3ª temporada de Marvel Rivals",
+    "titulo": "Hideo Kojima deseja ser o Tom Cruise dos games e quer se arriscar no espaço para desenvolver jogo",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-rivals/142572/news/blade-e-jean-grey-com-forca-fenix-estrelam-novo-trailer-para-3a-temporada-de-marvel-rivals",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yvkc.320.jpg",
+    "link": "https://br.ign.com/death-stranding-2/142646/news/hideo-kojima-deseja-ser-o-tom-cruise-dos-games-e-quer-se-arriscar-no-espaco-para-desenvolver-jogo",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_45mt.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
-  },
-  {
-    "titulo": "\"Tivemos que tomar a difícil decisão\": fãs cobram localização de remaster de Final Fantasy Tactics, mas Square Enix não dá esperanças",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-tactics-the-ivalice-chronicles/142559/news/tivemos-que-tomar-a-dificil-decisao-fas-cobram-localizacao-de-remaster-de-final-fantasy-tactics-mas",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/final-fantasy-tactics_51qa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
-  },
-  {
-    "titulo": "Ben Starr, de Clair Obscur: Expedition 33, e Neil Newbon, de Baldur's Gate 3, se juntam em futuro jogo de horror psicológico",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142567/news/ben-starr-de-clair-obscur-expedition-33-e-neil-newbon-de-baldurs-gate-3-se-juntam-em-futuro-jogo-de",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image_an5z.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   },
   {
     "titulo": "\"Não consigo me convencer a ver\": estrela de Vikings revela que não consegue assistir a uma cena de sua personagem",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/vikings/142651/news/nao-consigo-me-convencer-a-ver-estrela-de-vikings-revela-que-nao-consegue-assistir-a-uma-cena-de-sua",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/cast-vikings-thumb_1r4q.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
-  },
-  {
-    "titulo": "Casa do Kame, espaços imersivos, restaurantes e hotéis temáticos: assim será o parque de Dragon Ball na Arábia Saudita",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/anime/142650/news/casa-do-kame-espacos-imersivos-restaurantes-e-hoteis-tematicos-assim-sera-o-parque-de-dragon-ball-na",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bw7e.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-02T16:53:15"
+    "timestamp": "2025-07-02T17:14:18"
   }
 ];
