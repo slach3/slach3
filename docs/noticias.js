@@ -1,11 +1,43 @@
 const noticias = [
   {
+    "titulo": "Rematch's developers expected players to develop new tech fast, but 'not nearly as fast as it is going right now'",
+    "descricao": "NewsTekkers!",
+    "link": "https://www.pcgamer.com/games/sports/rematchs-developers-expected-players-to-develop-new-tech-fast-but-not-nearly-as-fast-as-it-is-going-right-now/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/JvawTjDkVFLgQwUft3ngg8.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-03T13:43:27"
+  },
+  {
+    "titulo": "I've just noticed Zalman is spinning up a new line of circular tower coolers that look a lot like itty-bitty jet engines",
+    "descricao": "NewsI reckon these will take off.",
+    "link": "https://www.pcgamer.com/hardware/ive-just-noticed-zalman-is-spinning-up-a-new-line-of-circular-tower-coolers-that-look-like-itty-bitty-jet-engines/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TeVDfPWK9aKtH3XkYkUJST.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-03T13:43:27"
+  },
+  {
+    "titulo": "Marvel Rivals' updated hero hot list reveals the most-played and highest win-rate characters, and it's good news for Support players",
+    "descricao": "NewsAh yes, the two greatest heroes: AI and the shark.",
+    "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-updated-hero-hot-list-reveals-the-most-played-and-highest-win-rate-characters-and-its-good-news-for-support-players/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/DC997YK2siMmK2Bt2gVefM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-03T13:43:27"
+  },
+  {
+    "titulo": "The European Commission wants Europe to become the world leader in quantum computing within the next five years",
+    "descricao": "NewsThe AI ship has already sailed and the fusion boat is still stuck in the docks, so is this the next best thing?",
+    "link": "https://www.pcgamer.com/hardware/the-european-commission-wants-europe-to-become-the-world-leader-in-quantum-computing-within-the-next-five-years/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o6YRC5MArG5TK7cwJvcow9.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-03T13:43:27"
+  },
+  {
     "titulo": "Romero Games' new shooter loses funding, the studio may be closing, and it looks like Microsoft is to blame",
     "descricao": "newsFunding for Romero Games' new game, \"along with several other unannounced projects at other studios,\" was cut off without warning yesterday.",
     "link": "https://www.pcgamer.com/gaming-industry/romero-games-new-shooter-loses-funding-the-studio-may-be-closing-and-it-looks-like-microsoft-is-to-blame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MeRiG2Yqr8NWux4QmZUkM7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "This whack-a-mole with floppy disks running on an Amiga looks equal parts hilarious and surprisingly difficult",
@@ -13,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/this-whack-a-mole-with-floppy-disks-running-on-an-amiga-looks-equal-parts-hilarious-and-surprisingly-difficult/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/anQibrL2SkRLhAV4XKrA9j.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "No PC gamer actually needs this 3000 W power supply unit but like Gollum and the one ring, I wants it",
@@ -21,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/power-supplies/no-pc-gamer-actually-needs-this-3000-w-power-supply-unit-but-like-gollum-and-the-one-ring-i-wants-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U7vo2iFuAkXqHdSXXUhxQ7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Neil Druckmann leaves The Last of Us HBO, alongside Part 2's co-writer Halley Gross, despite there still being 2 more seasons to go",
@@ -29,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/neil-druckmann-leaves-the-last-of-us-hbo-alongside-part-2s-co-writer-halley-gross-despite-there-still-being-2-more-seasons-to-go/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LKobr8NEB3RS34MRU48MuN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Google Veo 3 users long to immerse themselves in the worlds of their AI-generated videos, seemingly forgetting entire videogame genres already exist",
@@ -37,39 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/google-veo-3-users-long-to-immerse-themselves-in-the-cyberpunk-world-of-their-ai-generated-videos-seemingly-forgetting-entire-videogame-genre-already-exists/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/g6drVVT7Ca5CEfHAXZvutZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
-  },
-  {
-    "titulo": "Peak devs accidentally released a patch that 'made a number of players totally unable to play' so now there's a new public beta Steam branch for everyone to mess around in safely",
-    "descricao": "NewsEntomology enthusiasts are welcome here.",
-    "link": "https://www.pcgamer.com/games/adventure/peak-devs-accidentally-released-a-patch-that-made-a-number-of-players-totally-unable-to-play-so-now-theres-a-new-public-beta-steam-branch-for-everyone-to-mess-around-in-safely/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/X9XQd6M46xXg67rBPHiTY3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
-  },
-  {
-    "titulo": "As fans lose it over sanitised nudity and violence, Ready or Not devs promise they haven't changed their 'creative vision': 'We’ve only made changes where absolutely required'",
-    "descricao": "NewsIt didn't help.",
-    "link": "https://www.pcgamer.com/games/fps/as-fans-lose-it-over-sanitised-nudity-and-violence-ready-or-not-devs-promise-they-havent-changed-their-creative-vision-weve-only-made-changes-where-absolutely-required/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eFQnXhqVBNA5qCT73HENP5.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
-  },
-  {
-    "titulo": "The recently launched Legion Go S SteamOS edition is our new king of handheld PCs and with this deal, you get $50 off already",
-    "descricao": "DealLenovo's Steam Deck-on-steroids is the best handheld gaming PC you can buy right now.",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-recently-launched-legion-go-s-steamos-edition-is-our-new-king-of-handheld-pcs-and-with-this-deal-you-get-usd50-off-already/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/qEFuJo4NLh2VLRaMxtaQHh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
-  },
-  {
-    "titulo": "Elden Ring Nightreign's Sentient Pest is the second Everdark boss to fall short of expectations set by Gaping Jaw: 'There's almost no challenge'",
-    "descricao": "NewsWho left the window open? There's another bug!",
-    "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreigns-sentient-pest-is-the-second-everdark-boss-to-fall-short-of-expectations-set-by-gaping-jaw-theres-almost-no-challenge/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/s6tKPmDfGJjHa6QJ3Ha9c7.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Druida em Diablo Immortal: tudo o que você precisa saber sobre a nova classe",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/diablo-immortal/142691/news/druida-em-diablo-immortal-tudo-o-que-voce-precisa-saber-sobre-a-nova-classe-do-game-ja-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64977/64977_avu8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Novo FPS de John Romero, criador de Doom, perde financiamento devido às demissões na Microsoft e Xbox",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142664/news/novo-fps-de-john-romero-criador-de-doom-perde-financiamento-devido-as-demissoes-na-microsoft-e-xbox",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/doom-co-creator-john-romeros-ent_fcza.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
-    "titulo": "The Sandman retorna com adaptação justa na 2ª temporada e prepara o terreno para desfecho dramático da obra",
+    "titulo": "\"Não tem como o Homem-Aranha saber quem eu sou\": estrela de The Boys ficou surpreso por ser reconhecido por Tom Holland em festa",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-sandman/142687/feature/the-sandman-retorna-com-adaptacao-justa-na-2a-temporada-e-prepara-o-terreno-para-desfecho-dramatico",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/blob_ntqs.280.jpg",
+    "link": "https://br.ign.com/the-boys/142697/news/nao-tem-como-o-homem-aranha-saber-quem-eu-sou-estrela-de-the-boys-ficou-surpreso-por-ser-reconhecido",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pptp.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   },
   {
-    "titulo": "Não vai sair: Microsoft desmente rumores de que Phil Spencer estaria se aposentando",
+    "titulo": "Nova classe, Festa da Pipoca e mais: Ragnarok Online LATAM revela detalhes da atualização de julho",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/142683/news/nao-vai-sair-microsoft-desmente-rumores-de-que-phil-spencer-estaria-se-aposentando",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_7ucn.280.jpg",
+    "link": "https://br.ign.com/ragnarok-online/142692/news/nova-classe-festa-da-pipoca-e-mais-ragnarok-online-latam-revela-detalhes-da-atualizacao-de-julho",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-07-03t124411013_d4nk.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T13:11:47"
+    "timestamp": "2025-07-03T13:43:27"
   }
 ];
