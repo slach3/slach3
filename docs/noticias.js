@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-3-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Today's Dune: Awakening patch notes are as long as a sandworm, with more than 300 changes, bug fixes, and squashed exploits",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/todays-dune-awakening-patch-notes-are-as-long-as-a-sandworm-with-more-than-300-changes-bug-fixes-and-squashed-exploits/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/hKfedgW7Wz3JBJaEgTF9n9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Blizzard ends new content development for Warcraft Rumble and lays off staff: Former employee says 'most' of the team has been let go",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/blizzard-ends-new-content-development-for-warcraft-rumble-and-lays-off-staff-former-employee-says-most-of-the-team-has-been-let-go/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/77VtsqxadZSXkPK9QUEhVG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Phil Spencer retirement rumor is made up, says Microsoft",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/phil-spencer-retirement-rumor-is-made-up-says-microsoft/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wSCsvnB8pJCUBumhw4gxqY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "EA reportedly expects Battlefield 6 to bring in 100 million players, a number that even DICE devs don't think is feasible",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/ea-reportedly-expects-battlefield-6-to-bring-in-100-million-players-a-number-that-even-dice-devs-dont-think-is-feasible/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GjceqTGaKRtYV2Am278RDB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "French court finds 3 former Ubisoft executives guilty of workplace harassment",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/french-court-finds-3-former-ubisoft-executives-guilty-of-workplace-harassment/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dPGyAmVE4Bydx7Bod2ByeL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "The Elder Scrolls Online director Matt Firor, who helped launch ZeniMax Online Studios in 2007, is leaving the company",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/the-elder-scrolls-online-director-matt-firor-who-helped-launch-zenimax-online-studios-in-2007-is-leaving-the-company/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/prwDeDprWNsQQ8aFVCDcH9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Microsoft cancels the Perfect Dark reboot that blew us away last year, closes developer The Initiative",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/microsoft-cancels-the-perfect-dark-reboot-that-blew-us-away-last-year-closes-developer-the-initiative/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zSYbPSHQzoGgRF5jg7byhD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "A new MMO in development at Elder Scrolls Online studio ZeniMax has been cancelled as Microsoft puts thousands more people out of work",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/a-new-mmo-in-development-at-elder-scrolls-online-studio-zenimax-has-been-cancelled-as-microsoft-puts-thousands-more-people-out-of-work/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FK7M7aE4TbAggmbz4KvhgJ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "O jogo acabou? Criador de Round 6 explica um dos maiores mistérios do final da série",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/142587/news/o-jogo-acabou-criador-de-round-6-explica-um-dos-maiores-misterios-do-final-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-28t155543099_62c9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Líderes de desenvolvimento de Subnautica 2 são demitidos e substituídos em tentativa de \"renovar as energias\"",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/subnautica-2/142613/news/lideres-de-desenvolvimento-de-subnautica-2-sao-demitidos-e-substituidos-em-tentativa-de-renovar-as-e",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/subnautica/subnautica-2-developers-entire-leadership-team-replaced-in-s_4ky5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Seu novo iPhone está aqui! iPhone 16e em oferta na Amazon",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142663/news/seu-novo-iphone-esta-aqui-iphone-16e-em-oferta-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_hf3f.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   },
   {
     "titulo": "Menor preço postado! iPad 11ª geração (2025) em oferta imperdível na Amazon",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142662/news/menor-preco-postado-ipad-11a-geracao-2025-em-oferta-imperdivel-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ipad-model-unselect-gallery-1-202503-fmt-whh_5t3r.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T05:58:12"
+    "timestamp": "2025-07-03T06:27:57"
   }
 ];
