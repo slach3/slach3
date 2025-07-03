@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "This whack-a-mole with floppy disks running on an Amiga looks equal parts hilarious and surprisingly difficult",
+    "descricao": "NewsPlease don't use a mallet on the floppy disks, though.",
+    "link": "https://www.pcgamer.com/hardware/this-whack-a-mole-with-floppy-disks-running-on-an-amiga-looks-equal-parts-hilarious-and-surprisingly-difficult/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/anQibrL2SkRLhAV4XKrA9j.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-03T12:51:13"
+  },
+  {
     "titulo": "No PC gamer actually needs this 3000 W power supply unit but like Gollum and the one ring, I wants it",
     "descricao": "NewsMust have the precious.",
     "link": "https://www.pcgamer.com/hardware/power-supplies/no-pc-gamer-actually-needs-this-3000-w-power-supply-unit-but-like-gollum-and-the-one-ring-i-wants-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U7vo2iFuAkXqHdSXXUhxQ7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Neil Druckmann leaves The Last of Us HBO, alongside Part 2's co-writer Halley Gross, despite there still being 2 more seasons to go",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/neil-druckmann-leaves-the-last-of-us-hbo-alongside-part-2s-co-writer-halley-gross-despite-there-still-being-2-more-seasons-to-go/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LKobr8NEB3RS34MRU48MuN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Google Veo 3 users long to immerse themselves in the worlds of their AI-generated videos, seemingly forgetting entire videogame genres already exist",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/google-veo-3-users-long-to-immerse-themselves-in-the-cyberpunk-world-of-their-ai-generated-videos-seemingly-forgetting-entire-videogame-genre-already-exists/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/g6drVVT7Ca5CEfHAXZvutZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Peak devs accidentally released a patch that 'made a number of players totally unable to play' so now there's a new public beta Steam branch for everyone to mess around in safely",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/peak-devs-accidentally-released-a-patch-that-made-a-number-of-players-totally-unable-to-play-so-now-theres-a-new-public-beta-steam-branch-for-everyone-to-mess-around-in-safely/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/X9XQd6M46xXg67rBPHiTY3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "As fans lose it over sanitised nudity and violence, Ready or Not devs promise they haven't changed their 'creative vision': 'We’ve only made changes where absolutely required'",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/as-fans-lose-it-over-sanitised-nudity-and-violence-ready-or-not-devs-promise-they-havent-changed-their-creative-vision-weve-only-made-changes-where-absolutely-required/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eFQnXhqVBNA5qCT73HENP5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "The recently launched Legion Go S SteamOS edition is our new king of handheld PCs and with this deal, you get $50 off already",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-recently-launched-legion-go-s-steamos-edition-is-our-new-king-of-handheld-pcs-and-with-this-deal-you-get-usd50-off-already/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/qEFuJo4NLh2VLRaMxtaQHh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Elden Ring Nightreign's Sentient Pest is the second Everdark boss to fall short of expectations set by Gaping Jaw: 'There's almost no challenge'",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/elden-ring-nightreigns-sentient-pest-is-the-second-everdark-boss-to-fall-short-of-expectations-set-by-gaping-jaw-theres-almost-no-challenge/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/s6tKPmDfGJjHa6QJ3Ha9c7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Capcom's financials show that embracing Steam has paid off handsomely: It now accounts for a third of all the publisher's revenue",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/capcoms-financials-show-that-embracing-steam-has-paid-off-handsomely-it-now-accounts-for-a-third-of-all-the-publishers-revenue/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5ZuQU4Vb4rEbNU6gmY9c4E.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
-  },
-  {
-    "titulo": "Hyte's iconic new Wing Gundam Zero case is going to grab your eyeballs first, but it's these fresh-looking keycaps I really want",
-    "descricao": "NewsThis bad boy is perfect for watching all 25+ Gundam series.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/hytes-iconic-new-wing-gundam-zero-case-is-going-to-grab-your-eyeballs-first-but-its-these-fresh-looking-keycaps-i-really-want/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Va2rJPoxKTJTnVXfUKFEV5.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Donkey Kong Bananza, Wuchang, Ninja Gaiden e mais: os principais lançamentos dos games em julho",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/142570/news/donkey-kong-bananza-wuchang-ninja-gaiden-e-mais-os-principais-lancamentos-dos-games-em-agosto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/dk_j4w9.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "O jogo acabou? Criador de Round 6 explica um dos maiores mistérios do final da série",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/round-6/142587/news/o-jogo-acabou-criador-de-round-6-explica-um-dos-maiores-misterios-do-final-da-serie",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-06-28t155543099_62c9.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
     "titulo": "Líderes de desenvolvimento de Subnautica 2 são demitidos e substituídos em tentativa de \"renovar as energias\"",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/subnautica-2/142613/news/lideres-de-desenvolvimento-de-subnautica-2-sao-demitidos-e-substituidos-em-tentativa-de-renovar-as-e",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/subnautica/subnautica-2-developers-entire-leadership-team-replaced-in-s_4ky5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
-    "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
+    "titulo": "Não vai sair: Microsoft desmente rumores de que Phil Spencer estaria se aposentando",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.280.jpg",
+    "link": "https://br.ign.com/xbox/142683/news/nao-vai-sair-microsoft-desmente-rumores-de-que-phil-spencer-estaria-se-aposentando",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_7ucn.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   },
   {
-    "titulo": "Quase 2/3 da Geração Z do Brasil é aberta à não monogamia, revela novo estudo",
+    "titulo": "Bandai Namco anuncia MY HERO ACADEMIA: All's Justice, jogo de luta 3D ambientado no arco Guerra Final",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142677/news/quase-23-da-geracao-z-do-brasil-e-aberta-a-nao-monogamia-revela-novo-estudo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ndm6.280.jpg",
+    "link": "https://br.ign.com/my-hero-academia-alls-justice/142678/news/bandai-namco-anuncia-my-hero-academia-alls-justice-jogo-de-luta-3d-ambientado-no-arco-guerra-final",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2025-07-03t113920464_y4br.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T12:37:23"
+    "timestamp": "2025-07-03T12:51:13"
   }
 ];
