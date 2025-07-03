@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/diablo-immortal/142691/news/druida-em-diablo-immortal-tudo-o-que-voce-precisa-saber-sobre-a-nova-classe-do-game-ja-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64977/64977_avu8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Novo FPS de John Romero, criador de Doom, perde financiamento devido às demissões na Microsoft e Xbox",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142664/news/novo-fps-de-john-romero-criador-de-doom-perde-financiamento-devido-as-demissoes-na-microsoft-e-xbox",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/doom-co-creator-john-romeros-ent_fcza.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -61,23 +61,23 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
-    "titulo": "Marvel Rivals pode ser lançado no Switch 2, desde que NetEase consiga um DevKit adequado",
+    "titulo": "Oferta do dia: Caixa de som JBL Flip 7 por menos de R$ 650",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/marvel-rivals/142702/news/marvel-rivals-pode-ser-lancado-no-switch-2-desde-que-netease-consiga-um-devkit-adequado",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ss-cc9d63cac270bfc60ff323948475100758d57e01_zxfh.280.jpg",
+    "link": "https://br.ign.com/descontos/142708/news/oferta-do-dia-caixa-de-som-jbl-flip-7-por-menos-de-r-650",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/jbl-capa_bbaq.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
-    "titulo": "Usuários de Android finalmente ganham recurso que donos de iPhone têm há anos",
+    "titulo": "RETROCON 2025 anuncia Yuzo Koshiro, compositor de Streets of Rage e Sonic",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/android-1/142703/news/usuarios-de-android-finalmente-ganham-recurso-que-donos-de-iphone-tem-ha-anos",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_yeet.280.jpg",
+    "link": "https://br.ign.com/games/142705/news/retrocon-2025-anuncia-yuzo-koshiro-compositor-de-streets-of-rage-e-sonic",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_1wzd.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Founder of world's biggest mod site hits back at fans angry about upcoming age verification for NSFW mods: 'The law is the law and Nexus Mods will, and must, follow the law'",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/founder-of-worlds-biggest-mod-site-hits-back-at-fans-angry-about-upcoming-age-verification-for-nsfw-mods-the-law-is-the-law-and-nexus-mods-will-and-must-follow-the-law/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4WSU9UASQJMHGtGW3PKeb4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Rematch's developers expected players to develop new tech fast, but 'not nearly as fast as it is going right now'",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/rematchs-developers-expected-players-to-develop-new-tech-fast-but-not-nearly-as-fast-as-it-is-going-right-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/JvawTjDkVFLgQwUft3ngg8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "I've just noticed Zalman is spinning up a new line of circular tower coolers that look a lot like itty-bitty jet engines",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/ive-just-noticed-zalman-is-spinning-up-a-new-line-of-circular-tower-coolers-that-look-like-itty-bitty-jet-engines/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TeVDfPWK9aKtH3XkYkUJST.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Marvel Rivals' updated hero hot list reveals the most-played and highest win-rate characters, and it's good news for Support players",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-updated-hero-hot-list-reveals-the-most-played-and-highest-win-rate-characters-and-its-good-news-for-support-players/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/DC997YK2siMmK2Bt2gVefM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "The European Commission wants Europe to become the world leader in quantum computing within the next five years",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-european-commission-wants-europe-to-become-the-world-leader-in-quantum-computing-within-the-next-five-years/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/o6YRC5MArG5TK7cwJvcow9.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Romero Games' new shooter loses funding, the studio may be closing, and it looks like Microsoft is to blame",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/romero-games-new-shooter-loses-funding-the-studio-may-be-closing-and-it-looks-like-microsoft-is-to-blame/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MeRiG2Yqr8NWux4QmZUkM7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "This whack-a-mole with floppy disks running on an Amiga looks equal parts hilarious and surprisingly difficult",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/this-whack-a-mole-with-floppy-disks-running-on-an-amiga-looks-equal-parts-hilarious-and-surprisingly-difficult/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/anQibrL2SkRLhAV4XKrA9j.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "No PC gamer actually needs this 3000 W power supply unit but like Gollum and the one ring, I wants it",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/power-supplies/no-pc-gamer-actually-needs-this-3000-w-power-supply-unit-but-like-gollum-and-the-one-ring-i-wants-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/U7vo2iFuAkXqHdSXXUhxQ7.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   },
   {
     "titulo": "Neil Druckmann leaves The Last of Us HBO, alongside Part 2's co-writer Halley Gross, despite there still being 2 more seasons to go",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/neil-druckmann-leaves-the-last-of-us-hbo-alongside-part-2s-co-writer-halley-gross-despite-there-still-being-2-more-seasons-to-go/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LKobr8NEB3RS34MRU48MuN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-03T14:54:04"
+    "timestamp": "2025-07-03T15:21:42"
   }
 ];
