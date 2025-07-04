@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://br.ign.com/diablo-immortal/142691/news/druida-em-diablo-immortal-tudo-o-que-voce-precisa-saber-sobre-a-nova-classe-do-game-ja-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64977/64977_avu8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Novo FPS de John Romero, criador de Doom, perde financiamento devido às demissões na Microsoft e Xbox",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142664/news/novo-fps-de-john-romero-criador-de-doom-perde-financiamento-devido-as-demissoes-na-microsoft-e-xbox",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/doom-co-creator-john-romeros-ent_fcza.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Alguém lembra? Servidores de game multiplayer da EA que foi fiasco em 2019 serão desligados em 2026",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/anthem/142743/news/alguem-lembra-servidores-de-game-multiplayer-da-ea-que-foi-fiasco-em-2019-serao-desligados-em-2026",
     "imagem": "https://sm.ign.com/t/ign_br/news/e/ea-will-sh/ea-will-shut-down-anthem-in-january_9q3y.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Smart TV da Samsung 4K de 43 polegadas em oferta no Mercado Livre",
@@ -77,7 +77,39 @@ const noticias = [
     "link": "https://br.ign.com/descontos/142752/news/smart-tv-da-samsung-4k-de-43-polegadas-em-oferta-no-mercado-livre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem_x3nm.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
+  },
+  {
+    "titulo": "Michael Madsen, the voice of Dishonored's supernatural assassin Daud, has died",
+    "descricao": "newsThe Hollywood tough guy appeared in numerous games, but his turn as the Knife of Dunwall was especially inspired.",
+    "link": "https://www.pcgamer.com/games/michael-madsen-the-voice-of-dishonoreds-supernatural-assassin-daud-has-died/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/CYhm5ZYQd6gQtpE9KeSCPK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-04T13:27:31"
+  },
+  {
+    "titulo": "I don't need 64 GB of RAM but I am tempted when prices are as low as they are right now for genuinely speedy sticks",
+    "descricao": "Prime DayIt wasn't that long ago that you'd consider 32 GB for $150/£150 to be a good deal.",
+    "link": "https://www.pcgamer.com/hardware/memory/i-dont-need-64-gb-of-ram-but-i-am-tempted-when-prices-are-as-low-as-they-are-right-now-for-genuinely-speedy-sticks/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/AVuwWtub9qDrDE37BFbPrY.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-04T13:27:31"
+  },
+  {
+    "titulo": "Marvel Rivals players may soon be able to vote on what heroes they want added: 'We will use them as an important factor in our planning'",
+    "descricao": "NewsThat'll be an enormous voting list.",
+    "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-players-may-soon-be-able-to-vote-on-what-heroes-they-want-added-we-will-use-them-as-an-important-factor-in-our-planning/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/SfLoLk6wRJUM5BB6SgCrSQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-04T13:27:31"
+  },
+  {
+    "titulo": "I may not need a full-blown Logitech streaming light but I'm mighty tempted now that it's 27% off in this early Prime Day deal",
+    "descricao": "Prime DayMore than just a light discount.",
+    "link": "https://www.pcgamer.com/hardware/lighting/i-may-not-need-a-full-blown-logitech-streaming-light-but-im-mighty-tempted-now-that-its-27-percent-off-in-this-early-prime-day-deal/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2uXd2oAJHwPBon4LzVtGLc.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Picking the best GPU of 2025 has been the biggest challenge of my near 20-year PC gaming tech testing career. Now my brain hurts",
@@ -85,7 +117,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/picking-the-best-gpu-of-2025-has-been-the-biggest-challenge-of-my-near-20-year-pc-gaming-tech-testing-career-now-my-brain-hurts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LDJaSsWno9xevvDk6NCNuf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "Move over Nvidia because AMD RX 9060 XT gaming PCs are absolutely killing it for price in the budget segment before Amazon Prime Day",
@@ -93,7 +125,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/move-over-nvidia-because-amd-rx-9060-xt-gaming-pcs-are-absolutely-killing-it-for-price-in-the-budget-segment-before-amazon-prime-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5VRSLrC47KEk4hXt752wLW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "I've kept CPUs cool through the summer with the help of these two affordable coolers: a 360 mm AIO for $90 and Arctic's finest for $38",
@@ -101,7 +133,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/cooling/ive-kept-cpus-cool-through-the-summer-with-the-help-of-these-two-affordable-coolers-a-360-mm-aio-for-usd90-and-arctics-finest-for-usd38/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H6U7bi7gpAWENqERBgEdyM.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "You could buy the worst budget gaming headset I've ever tested for $19, or one of the best for $40 in the early Amazon Prime Day sales",
@@ -109,7 +141,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-headsets/you-could-buy-the-worst-budget-gaming-headset-ive-ever-tested-for-usd19-or-one-of-the-best-for-usd40-in-the-early-amazon-prime-day-sales/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CSi5Wsoge3dvKADbZb6qbD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   },
   {
     "titulo": "The Silksong subreddit is conducting elaborate ritual ban sacrifices in an attempt to cure 'silksanity' and secure the game's release",
@@ -117,38 +149,6 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/the-silksong-subreddit-is-conducting-elaborate-ritual-ban-sacrifices-in-an-attempt-to-cure-silksanity-and-secure-the-games-release/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ThYcoVdoxVUpSu6DUNwyQB.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
-  },
-  {
-    "titulo": "You can buy (almost) my entire gaming accessory setup in the early Amazon Prime Day sales",
-    "descricao": "Prime Day",
-    "link": "https://www.pcgamer.com/hardware/you-can-buy-almost-my-entire-gaming-accessory-setup-in-the-sales-this-amazon-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/DTftcHJbECiXPmT2kCFJpS.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
-  },
-  {
-    "titulo": "Once you're above a certain speed, it's all about CAS latency with your RAM and there are my top early Prime Day picks so far",
-    "descricao": "Prime DayMake your gaming PC responsive and slick with a great set of low-latency DDR5.",
-    "link": "https://www.pcgamer.com/hardware/memory/once-youre-above-a-certain-speed-its-all-about-cas-latency-with-your-ram-and-there-are-my-top-early-prime-day-picks-so-far/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FCianFdjymNnvpPiW5CkhD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
-  },
-  {
-    "titulo": "Valve's reported profit-per-head from Steam commissions is out there, and at $3.5 million per employee it makes Apple and Facebook look like a lemonade stand",
-    "descricao": "NewsNo wonder Gabe Newell can afford all those boats.",
-    "link": "https://www.pcgamer.com/gaming-industry/valves-reported-profit-per-head-from-steam-commissions-is-out-there-and-at-usd3-5-million-per-employee-it-makes-apple-and-facebook-look-like-a-lemonade-stand/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FU5gyFc4ukpXNUPukhjMvD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
-  },
-  {
-    "titulo": "You too can get Miku Hatsune to dance around the inside of your rig for less, with $60 off my favorite CPU cooler with a screen",
-    "descricao": "Prime DayYou could also use it to display your CPU temps—I'm not judging!",
-    "link": "https://www.pcgamer.com/hardware/cooling/you-too-can-get-miku-hatsune-to-dance-around-the-inside-of-your-rig-for-less-with-usd60-off-my-favourite-cpu-cooler-with-a-screen/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/fTAggj9JNb5VdtvQCmVSUG.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T12:56:50"
+    "timestamp": "2025-07-04T13:27:31"
   }
 ];
