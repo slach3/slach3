@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/hideo-kojimas-mysterious-od-reportedly-escapes-the-cancellation-axe-at-microsoft/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/XzNzQ4yJ8pirRM2zfwDgxA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "CWA union derides Microsoft layoffs when ‘the company is prospering’: 'We are living through a moment of profound corporate consolidation and disruption'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/cwa-union-derides-microsoft-layoffs-when-the-company-is-prospering-we-are-living-through-a-moment-of-profound-corporate-consolidation-and-disruption/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kc77wf7a29YuNrdx6Ugct9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Perfect Dark dev shoots down claim the ace-looking reveal was fake: 'It's probably more real than you think'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/perfect-dark-developer-shoots-down-claims-the-ace-looking-reveal-was-fake-its-probably-more-real-than-you-think/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/iX6AVXqZwfR7jQpuyjaH2C.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Fortnite hints at making its hottest new mode permanent by asking fans what they want next",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/battle-royale/fortnite-blitz-royale-permanent-mode-hint/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Tq57rTiHP4EKCkC3jQJwKU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Michael Madsen, the voice of Dishonored's supernatural assassin Daud, has died",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/michael-madsen-the-voice-of-dishonoreds-supernatural-assassin-daud-has-died/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CYhm5ZYQd6gQtpE9KeSCPK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "I don't need 64 GB of RAM but I am tempted when prices are as low as they are right now for genuinely speedy sticks",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/memory/i-dont-need-64-gb-of-ram-but-i-am-tempted-when-prices-are-as-low-as-they-are-right-now-for-genuinely-speedy-sticks/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/AVuwWtub9qDrDE37BFbPrY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Marvel Rivals players may soon be able to vote on what heroes they want added: 'We will use them as an important factor in our planning'",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-players-may-soon-be-able-to-vote-on-what-heroes-they-want-added-we-will-use-them-as-an-important-factor-in-our-planning/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/SfLoLk6wRJUM5BB6SgCrSQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "I may not need a full-blown Logitech streaming light but I'm mighty tempted now that it's 27% off in this early Prime Day deal",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/lighting/i-may-not-need-a-full-blown-logitech-streaming-light-but-im-mighty-tempted-now-that-its-27-percent-off-in-this-early-prime-day-deal/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2uXd2oAJHwPBon4LzVtGLc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Picking the best GPU of 2025 has been the biggest challenge of my near 20-year PC gaming tech testing career. Now my brain hurts",
@@ -69,71 +69,71 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/picking-the-best-gpu-of-2025-has-been-the-biggest-challenge-of-my-near-20-year-pc-gaming-tech-testing-career-now-my-brain-hurts/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LDJaSsWno9xevvDk6NCNuf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Druida em Diablo Immortal: tudo o que você precisa saber sobre a nova classe",
+    "titulo": "Crise da indústria de games ocidental é humana e criativa; culpa é de velho conhecido",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/diablo-immortal/142691/news/druida-em-diablo-immortal-tudo-o-que-voce-precisa-saber-sobre-a-nova-classe-do-game-ja-disponivel",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64977/64977_avu8.800.jpg",
+    "link": "https://br.ign.com/games/142763/feature/a-crise-da-industria-de-games-ocidental-e-humana-e-criativa-mas-muito-disso-e-culpa-de-um-velho-conh",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/bestreviewedgames2024-blogroll-1_bp38.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
+    "titulo": "Franquia Forza Motorsport é encerrada após demissões no Xbox, diz site",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
+    "link": "https://br.ign.com/forza-motorsport/142738/news/franquia-forza-motorsport-e-encerrada-apos-demissoes-no-xbox-aponta-reportagem",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65022/65022_614u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
+    "titulo": "Microsoft garante que games do último Xbox Showcase não foram cancelados",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
+    "link": "https://br.ign.com/xbox/142734/news/apos-demissoes-e-fechamentos-de-estudios-microsoft-garante-que-jogos-apresentados-no-xbox-showcase-d",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-insists-every-game-shown-at-its-xbox-showcase-in-j_pyhw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
+    "titulo": "Jurassic Park: Como assistir a todos os filmes da franquia em ordem cronológica",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
+    "link": "https://br.ign.com/jurassic-park-theater/142087/lists/jurassic-park-como-assistir-a-todos-os-filmes-da-franquia-em-ordem-cronologica",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65024/65024_3fw4.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
+    "titulo": "Desenvolvedor de Perfect Dark afirma que a impressionante demonstração de 2024 \"tinha um pouco de mentira mas boa parte era real\"",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
-    "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.320.jpg",
+    "link": "https://br.ign.com/perfect-dark-1/142732/news/desenvolvedor-de-perfect-dark-afirma-que-a-impressionante-demonstracao-de-2024-tinha-um-pouco-de-men",
+    "imagem": "https://sm.ign.com/t/ign_br/news/p/perfect-da/perfect-dark-developer-says-eye-catching-2024-gameplay-demo_epbd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Novo FPS de John Romero, criador de Doom, perde financiamento devido às demissões na Microsoft e Xbox",
+    "titulo": "Diários de uma Apotecária tem continuação da segunda temporada confirmada",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/142664/news/novo-fps-de-john-romero-criador-de-doom-perde-financiamento-devido-as-demissoes-na-microsoft-e-xbox",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/doom-co-creator-john-romeros-ent_fcza.320.jpg",
+    "link": "https://br.ign.com/cinema-tv/142749/news/diarios-de-uma-apotecaria-tem-continuacao-da-segunda-temporada-confirmada",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2024-09-10t135203603_y7rt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
+    "titulo": "Figurino do novo filme de Blade foi vendido para esta grande e surpreendente produção com Michael B. Jordan e você nem imaginava",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
-    "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
+    "link": "https://br.ign.com/sinners/142740/news/figurino-do-novo-filme-de-blade-foi-vendido-para-esta-grande-e-surpreendente-producao-com-michael-b",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/sinners-blogroll-1744302577057_cjw8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
-    "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
+    "titulo": "\"Quem é você para dizer o que eles devem fazer\": ator de Game of Thrones reflete sobre como personagem \"poderia ter sido muito diferente\" se diretores seguissem descrição dos livros",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
+    "link": "https://br.ign.com/game-of-thrones/142731/news/quem-e-voce-para-dizer-o-que-eles-devem-fazer-ator-de-game-of-thrones-reflete-sobre-como-personagem",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eg_zb94.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Parece filme: astronauta tira foto de momento exato em que um gigantesco fenômeno raro é formado acima das nuvens",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/142778/news/parece-filme-astronauta-tira-foto-de-momento-exato-em-que-um-gigantesco-fenomeno-raro-e-formado-acim",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_9kfu.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   },
   {
     "titulo": "Falta apenas uma coisa para que os humanos consigam viver mais de mil anos, segundo cientista",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/142774/news/falta-apenas-uma-coisa-para-que-os-humanos-consigam-viver-mais-de-mil-anos-segundo-cientista",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_ahhc.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T18:19:36"
+    "timestamp": "2025-07-04T18:34:26"
   }
 ];
