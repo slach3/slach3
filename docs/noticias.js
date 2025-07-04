@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-elder-scrolls/open-source-morrowind-project-just-got-an-update-3-years-in-the-making-that-might-have-me-saying-bye-to-the-vanilla-game-for-good-oh-and-you-can-load-skyrim-in-it-now/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WwtrvEoAoK8MbfQ74TCXqF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Tech billionaires including Palmer Luckey set up dumb new bank for those who didn't get burned enough in the 2022 crypto crash",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/tech-billionaires-including-palmer-luckey-set-up-dumb-new-bank-for-those-who-didnt-get-burned-enough-in-the-2022-crypto-crash/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fN9kVAkiET7t73k4erkrZB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Rematch plans to add an in-game report system, punish own-goal griefers with 3 days in the slammer, and slap cheaters with indefinite bans",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/rematch-plans-to-add-an-in-game-report-system-punish-own-goal-griefers-with-3-days-in-the-slammer-and-cheaters-with-indefinite-bans/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/68uw6irzvyVDq6CpnayeaN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Peak re-releases its next update aimed at improving stability and reassures players 'we don't have any issue with sharing video content, including modded stuff'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/adventure/peak-re-releases-its-next-update-aimed-at-improving-stability-and-reassures-players-we-dont-have-any-issue-with-sharing-video-content-including-modded-stuff/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7Wp773VJ7WFwXxQmp3uAmD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "OLED is the must-have gaming monitor tech and I've got some great early Prime Day deals for you",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/oled-is-the-must-have-gaming-monitor-tech-and-ive-got-some-great-early-prime-day-deals-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wPzZ3wdPCNWGsvLL8oewKo.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Xbox exec suffers bout of terminal LinkedIn brain, suggests folks laid off by Microsoft use AI to 'reduce the emotional and cognitive load that comes with job loss'",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/game-development/xbox-exec-suffers-bout-of-terminal-linkedin-brain-suggests-folks-laid-off-by-microsoft-use-ai-to-reduce-the-emotional-and-cognitive-load-that-comes-with-job-loss/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kosxc9FS9y36XgvzSUxzm5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Steam's Hardware Survey continues to prove gamers don't have much free storage, and I am unfortunately among them",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/steams-hardware-survey-continues-to-prove-gamers-dont-have-much-free-storage-and-i-am-unfortunately-among-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PK2uuTLNTAqJ7Muecv8UU3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Today's Wordle answer for Friday, July 4",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-4-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Surprise! The Anthem servers are still running—but they won't be after January 12",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/surprise-the-anthem-servers-are-still-running-but-they-wont-be-after-january-12/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/q2YNw2pQLVa3f2yvNDmNiW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Druida em Diablo Immortal: tudo o que você precisa saber sobre a nova classe",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/diablo-immortal/142691/news/druida-em-diablo-immortal-tudo-o-que-voce-precisa-saber-sobre-a-nova-classe-do-game-ja-disponivel",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64977/64977_avu8.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Onda de demissões na Microsoft fecha estúdio do novo Perfect Dark e game é cancelado",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142639/news/apos-nova-onda-de-demissoes-na-microsoft-estudio-do-novo-perfect-dark-e-encerrado-e-jogo-cancelado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64933/64933_5smu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Neil Druckmann deixa produção da 3ª temporada de TLOU para focar em games",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/142642/news/neil-druckmann-deixa-producao-da-3a-temporada-de-the-last-of-us-para-focar-em-games-da-naughty-dog",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_2xvr.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Final de Coração de Ferro deixa claro que Marvel não sabe o que fazer com uma parte importante do MCU",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/coracao-de-ferro/142625/feature/final-de-coracao-de-ferro-deixa-claro-que-marvel-nao-sabe-o-que-fazer-com-uma-parte-importante-do-mc",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/64935/64935_2j1t.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Helldivers 2 ganha data de lançamento para Xbox Series X/S e está mais perto do que você imagina",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/helldivers-ii/142675/news/helldivers-2-ganha-data-de-lancamento-para-xbox-series-xs-e-esta-mais-perto-do-que-voce-imagina",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/sony-publi/sony-published-helldivers-2-gets-shock-release-date-on-xbox_vbbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Novo FPS de John Romero, criador de Doom, perde financiamento devido às demissões na Microsoft e Xbox",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142664/news/novo-fps-de-john-romero-criador-de-doom-perde-financiamento-devido-as-demissoes-na-microsoft-e-xbox",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/doom-co-creator-john-romeros-ent_fcza.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Everwild, aguardado jogo da Rare, pode ter sido cancelado após demissões no estúdio, aponta site",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/everwild/142621/news/everwild-aguardado-jogo-da-rare-pode-ter-sido-cancelado-apos-demissoes-no-estudio-aponta-site",
     "imagem": "https://sm.ign.com/t/ign_br/shot/default/everwild-sccreen-1-1573773867973_vt8h.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
     "titulo": "Microsoft promove nova demissão em massa e dispensa mais de 9 mil funcionários; divisão Xbox também é afetada",
@@ -133,22 +133,22 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x/142623/news/microsoft-promove-nova-demissao-em-massa-e-dispensa-mais-de-9-mil-funcionarios-divisao-xbox-tambem-e",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/phil-spencer_vdxz.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
-    "titulo": "\"Quem é você para dizer o que eles devem fazer\": ator de Game of Thrones reflete sobre como personagem \"poderia ter sido muito diferente\" se diretores seguissem descrição dos livros",
+    "titulo": "Quase ninguém percebeu: mais de 500 mil usuários do Spotify estão curtindo uma banda criada por IA",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/game-of-thrones/142731/news/quem-e-voce-para-dizer-o-que-eles-devem-fazer-ator-de-game-of-thrones-reflete-sobre-como-personagem",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eg_zb94.280.png",
+    "link": "https://br.ign.com/tech/142739/news/quase-ninguem-percebeu-mais-de-500-mil-usuarios-do-spotify-estao-curtindo-uma-banda-criada-por-ia",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign_5641.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   },
   {
-    "titulo": "Vem Oscar? Animação da Netflix, Guerreiras do K-Pop enviará \"Golden\" para concorrer a premiações",
+    "titulo": "Após demissões e fechamentos de estúdios, Microsoft garante que jogos apresentados no Xbox Showcase de junho não foram cancelados",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142730/news/vem-oscar-animacao-da-netflix-guerreiras-do-k-pop-enviara-golden-para-concorrer-a-premiacoes",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/k1_qsx6.280.png",
+    "link": "https://br.ign.com/xbox/142734/news/apos-demissoes-e-fechamentos-de-estudios-microsoft-garante-que-jogos-apresentados-no-xbox-showcase-d",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-insists-every-game-shown-at-its-xbox-showcase-in-j_pyhw.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-04T10:44:42"
+    "timestamp": "2025-07-04T10:55:11"
   }
 ];
