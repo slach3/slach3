@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/runaway-city-building-success-manor-lords-is-getting-a-major-overhaul-to-its-systems-its-not-just-a-new-feature-or-two-its-a-full-rework/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EVNrQUUrX4hc3F48YkLVmT.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Chaotic destruction sim Teardown breaks cover on its multiplayer update, revealing 8 player team deathmatch and support for modded servers",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/chaotic-destruction-sim-teardown-breaks-cover-on-its-multiplayer-update-revealing-8-player-team-deathmatch-and-support-for-modded-servers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bt332imMtuUM5URCXWKw4M.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "RoboCop: Rogue City's expansion will let you play as ED-209, but I'm more excited about having some guns I might use instead of the Auto 9",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/robocop-rogue-citys-expansion-will-let-you-play-as-ed-209-but-im-more-excited-about-having-some-guns-i-might-use-instead-of-the-auto-9/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tCitnAPu2EZJqjJJgN2VgC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Here's a mod that puts Halo's multiplayer into Half-Life, which to me feels like putting tea in your coffee",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/heres-a-mod-that-puts-halos-multiplayer-into-half-life-which-to-me-feels-like-putting-tea-in-your-coffee/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ZKXxAEKGoUALYtWypVd7RQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Today's Wordle answer for Saturday, July 5",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-5-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/Kpk2kvGhurFqEY6q22TuQ4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Cyberpunk: Edgerunners, the anime so good it made Cyberpunk 2077 cool again, is getting a sequel",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/cyberpunk-edgerunners-2-announced/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/f4GenPF8ZfRHB2GktecdGf.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Deep Rock Galactic board game Kickstarter pulls in nearly $1 million in 1 day for a trio of new expansions",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/board-games/deep-rock-galactic-board-game-kickstarter-pulls-in-nearly-usd1-million-in-1-day-for-a-trio-of-new-expansions/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mnp2ELVJ5sptrpfoASfVrT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Ratatan, the new rhythm game from the designer of Patapon, delays early access release in response to negative demo feedback",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rhythm/ratatan-the-new-rhythm-game-from-the-designer-of-patapon-delays-early-access-release-in-response-to-negative-demo-feedback/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/HeSsF6KtbzxhVGoKxMyc8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "In the wake of Perfect Dark's cancellation, Joanna Dark's voice actor urges fans to help save the series: 'Agent Dark doesn’t give up and neither should any of you'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/in-the-wake-of-perfect-darks-cancellation-joanna-darks-voice-actor-urges-fans-to-help-save-the-series-agent-dark-doesnt-give-up-and-neither-should-any-of-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zSYbPSHQzoGgRF5jg7byhD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "\"Ainda há muito a ser descoberto em Night City\": Cyberpunk Edgerunners 2 é anunciado",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/cyberpunk-edgerunners/142782/news/ainda-ha-muito-a-ser-descoberto-em-night-city-cyberpunk-edgerunners-2-e-anunciado",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65065/65065_g3vr.800.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Crise da indústria de games ocidental é humana e criativa; culpa é de velho conhecido",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142763/feature/a-crise-da-industria-de-games-ocidental-e-humana-e-criativa-mas-muito-disso-e-culpa-de-um-velho-conh",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/bestreviewedgames2024-blogroll-1_bp38.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Franquia Forza Motorsport é encerrada após demissões no Xbox, diz site",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/forza-motorsport/142738/news/franquia-forza-motorsport-e-encerrada-apos-demissoes-no-xbox-aponta-reportagem",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65022/65022_614u.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Microsoft garante que games do último Xbox Showcase não foram cancelados",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142734/news/apos-demissoes-e-fechamentos-de-estudios-microsoft-garante-que-jogos-apresentados-no-xbox-showcase-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-insists-every-game-shown-at-its-xbox-showcase-in-j_pyhw.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Desenvolvedor de Perfect Dark afirma que a impressionante demonstração de 2024 \"tinha um pouco de mentira mas boa parte era real\"",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/perfect-dark-1/142732/news/desenvolvedor-de-perfect-dark-afirma-que-a-impressionante-demonstracao-de-2024-tinha-um-pouco-de-men",
     "imagem": "https://sm.ign.com/t/ign_br/news/p/perfect-da/perfect-dark-developer-says-eye-catching-2024-gameplay-demo_epbd.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Diários de uma Apotecária tem continuação da segunda temporada confirmada",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/142749/news/diarios-de-uma-apotecaria-tem-continuacao-da-segunda-temporada-confirmada",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2024-09-10t135203603_y7rt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Figurino do novo filme de Blade foi vendido para esta grande e surpreendente produção com Michael B. Jordan e você nem imaginava",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/sinners/142740/news/figurino-do-novo-filme-de-blade-foi-vendido-para-esta-grande-e-surpreendente-producao-com-michael-b",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/sinners-blogroll-1744302577057_cjw8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "\"Quem é você para dizer o que eles devem fazer\": ator de Game of Thrones reflete sobre como personagem \"poderia ter sido muito diferente\" se diretores seguissem descrição dos livros",
@@ -133,7 +133,15 @@ const noticias = [
     "link": "https://br.ign.com/game-of-thrones/142731/news/quem-e-voce-para-dizer-o-que-eles-devem-fazer-ator-de-game-of-thrones-reflete-sobre-como-personagem",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eg_zb94.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
+  },
+  {
+    "titulo": "O menino de Titanic continua sendo pago todo ano por uma única fala do filme inteiro; veja quanto ele recebe",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/142746/news/o-menino-de-titanic-continua-sendo-pago-todo-ano-por-uma-unica-fala-do-filme-inteiro-veja-quanto-ele",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/titanic-menino_5sk8.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T13:42:27"
   },
   {
     "titulo": "Após três anos de hesitação, Netflix acaba de lançar o filme de super-herói mais importante da história da plataforma",
@@ -141,14 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/142717/news/apos-tres-anos-de-hesitacao-netflix-acaba-de-lancar-o-filme-de-super-heroi-mais-importante-da-histor",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_tuvg.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
-  },
-  {
-    "titulo": "Não precisa esperar o final do ano! Deezer anuncia My Deezer Month com retrospectiva mensal para usuários",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142328/feature/nao-precisa-esperar-o-final-do-ano-deezer-anuncia-my-deezer-month-com-retrospectiva-mensal-para-usua",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-17_c8pw.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T13:17:51"
+    "timestamp": "2025-07-05T13:42:27"
   }
 ];
