@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "\"Ainda há muito a ser descoberto em Night City\": Cyberpunk Edgerunners 2 é anunciado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cyberpunk-edgerunners/142782/news/ainda-ha-muito-a-ser-descoberto-em-night-city-cyberpunk-edgerunners-2-e-anunciado",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65065/65065_g3vr.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Crise da indústria de games ocidental é humana e criativa; culpa é de velho conhecido",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142763/feature/a-crise-da-industria-de-games-ocidental-e-humana-e-criativa-mas-muito-disso-e-culpa-de-um-velho-conh",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/bestreviewedgames2024-blogroll-1_bp38.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Franquia Forza Motorsport é encerrada após demissões no Xbox, diz site",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/forza-motorsport/142738/news/franquia-forza-motorsport-e-encerrada-apos-demissoes-no-xbox-aponta-reportagem",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65022/65022_614u.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Microsoft garante que games do último Xbox Showcase não foram cancelados",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/142734/news/apos-demissoes-e-fechamentos-de-estudios-microsoft-garante-que-jogos-apresentados-no-xbox-showcase-d",
-    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-insists-every-game-shown-at-its-xbox-showcase-in-j_pyhw.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Desenvolvedor de Perfect Dark afirma que a impressionante demonstração de 2024 \"tinha um pouco de mentira mas boa parte era real\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/perfect-dark-1/142732/news/desenvolvedor-de-perfect-dark-afirma-que-a-impressionante-demonstracao-de-2024-tinha-um-pouco-de-men",
-    "imagem": "https://sm.ign.com/t/ign_br/news/p/perfect-da/perfect-dark-developer-says-eye-catching-2024-gameplay-demo_epbd.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Diários de uma Apotecária tem continuação da segunda temporada confirmada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cinema-tv/142749/news/diarios-de-uma-apotecaria-tem-continuacao-da-segunda-temporada-confirmada",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2024-09-10t135203603_y7rt.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Figurino do novo filme de Blade foi vendido para esta grande e surpreendente produção com Michael B. Jordan e você nem imaginava",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/sinners/142740/news/figurino-do-novo-filme-de-blade-foi-vendido-para-esta-grande-e-surpreendente-producao-com-michael-b",
-    "imagem": "https://sm.ign.com/t/ign_br/photo/default/sinners-blogroll-1744302577057_cjw8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "\"Quem é você para dizer o que eles devem fazer\": ator de Game of Thrones reflete sobre como personagem \"poderia ter sido muito diferente\" se diretores seguissem descrição dos livros",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/game-of-thrones/142731/news/quem-e-voce-para-dizer-o-que-eles-devem-fazer-ator-de-game-of-thrones-reflete-sobre-como-personagem",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eg_zb94.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Zelda: Jogador abre livro sobre Ocarina of Time 27 anos após o lançamento do jogo e descobre algo que o deixou completamente louco",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-ocarina-of-time/142701/news/zelda-jogador-abre-livro-sobre-ocarina-of-time-27-anos-apos-o-lancamento-do-jogo-e-descobre-algo-que",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ot_pffk.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
-    "titulo": "Se quisermos saber como será o fim do dinheiro, basta olhar para um país que está vivendo isso: a China",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/tech/142660/news/se-quisermos-saber-como-sera-o-fim-do-dinheiro-basta-olhar-para-um-pais-que-esta-vivendo-isso-a-chin",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sergio-kian-g1sxx-buiie-unsplash_shtw.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-05T19:55:55"
-  },
-  {
     "titulo": "Subnautica 2 studio begs rioting fans for benefit of the doubt after leadership axed by owner Krafton: 'The team that has been working on the game day-to-day over the last few years remains completely unchanged'",
     "descricao": "newsI don't think it's enough to win people back.",
     "link": "https://www.pcgamer.com/games/survival-crafting/subnautica-2-studio-begs-rioting-fans-for-benefit-of-the-doubt-after-leadership-axed-by-owner-krafton-the-team-that-has-been-working-on-the-game-day-to-day-over-the-last-few-years-remains-completely-unchanged/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PnDFWtJsMWRUbT6GHvEymH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "Academics critique Farming Simulator's portrayal of 'good farming' and praise modders for agro-ecology add-ons",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/academics-critique-farming-simulators-portrayal-of-good-farming-and-praise-modders-for-agro-ecology-add-ons/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PrutpESqyNrcyehQpysNgn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "European game publisher group responds to Stop Killing Games, claims 'These proposals would curtail developer choice\"",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/european-game-publisher-group-responds-to-stop-killing-games-claims-these-proposals-would-curtail-developer-choice/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/badQ9sPRQwXWz9SFzvHTBR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "Former Forza dev says original Motorsport series died in Microsoft's cuts, but Forza Horizon lives on",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/racing/former-forza-dev-says-original-motorsport-series-died-in-microsofts-cuts-but-forza-horizon-lives-on/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xqX2rFzfBtT5qJjVPZ33BC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "After nearly 4 years, Windows 11 is finally more popular than Windows 10",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/after-nearly-4-years-windows-11-is-finally-more-popular-than-windows-10/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H6fdCdJLpKaeZV44vVzCJY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "Even the beginner zone in Dune: Awakening isn't safe from sandworm-manipulating griefers anymore",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/even-the-beginner-zone-in-dune-awakening-isnt-safe-from-sandworm-manipulating-griefers-anymore/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FnMTGSceCdGAa6ASG8iYgh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "Runaway city-building success Manor Lords is getting a major overhaul to its systems: 'It's not just a new feature or two. It's a full rework'",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/runaway-city-building-success-manor-lords-is-getting-a-major-overhaul-to-its-systems-its-not-just-a-new-feature-or-two-its-a-full-rework/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EVNrQUUrX4hc3F48YkLVmT.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "Chaotic destruction sim Teardown breaks cover on its multiplayer update, revealing 8 player team deathmatch and support for modded servers",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/chaotic-destruction-sim-teardown-breaks-cover-on-its-multiplayer-update-revealing-8-player-team-deathmatch-and-support-for-modded-servers/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bt332imMtuUM5URCXWKw4M.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
   },
   {
     "titulo": "RoboCop: Rogue City's expansion will let you play as ED-209, but I'm more excited about having some guns I might use instead of the Auto 9",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/robocop-rogue-citys-expansion-will-let-you-play-as-ed-209-but-im-more-excited-about-having-some-guns-i-might-use-instead-of-the-auto-9/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tCitnAPu2EZJqjJJgN2VgC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-05T19:55:55"
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "\"Ainda há muito a ser descoberto em Night City\": Cyberpunk Edgerunners 2 é anunciado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cyberpunk-edgerunners/142782/news/ainda-ha-muito-a-ser-descoberto-em-night-city-cyberpunk-edgerunners-2-e-anunciado",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65065/65065_g3vr.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Crise da indústria de games ocidental é humana e criativa; culpa é de velho conhecido",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142763/feature/a-crise-da-industria-de-games-ocidental-e-humana-e-criativa-mas-muito-disso-e-culpa-de-um-velho-conh",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/bestreviewedgames2024-blogroll-1_bp38.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Franquia Forza Motorsport é encerrada após demissões no Xbox, diz site",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/forza-motorsport/142738/news/franquia-forza-motorsport-e-encerrada-apos-demissoes-no-xbox-aponta-reportagem",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65022/65022_614u.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Microsoft garante que games do último Xbox Showcase não foram cancelados",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/142734/news/apos-demissoes-e-fechamentos-de-estudios-microsoft-garante-que-jogos-apresentados-no-xbox-showcase-d",
+    "imagem": "https://sm.ign.com/t/ign_br/news/m/microsoft-/microsoft-insists-every-game-shown-at-its-xbox-showcase-in-j_pyhw.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Desenvolvedor de Perfect Dark afirma que a impressionante demonstração de 2024 \"tinha um pouco de mentira mas boa parte era real\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/perfect-dark-1/142732/news/desenvolvedor-de-perfect-dark-afirma-que-a-impressionante-demonstracao-de-2024-tinha-um-pouco-de-men",
+    "imagem": "https://sm.ign.com/t/ign_br/news/p/perfect-da/perfect-dark-developer-says-eye-catching-2024-gameplay-demo_epbd.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Diários de uma Apotecária tem continuação da segunda temporada confirmada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cinema-tv/142749/news/diarios-de-uma-apotecaria-tem-continuacao-da-segunda-temporada-confirmada",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-2024-09-10t135203603_y7rt.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Figurino do novo filme de Blade foi vendido para esta grande e surpreendente produção com Michael B. Jordan e você nem imaginava",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/sinners/142740/news/figurino-do-novo-filme-de-blade-foi-vendido-para-esta-grande-e-surpreendente-producao-com-michael-b",
+    "imagem": "https://sm.ign.com/t/ign_br/photo/default/sinners-blogroll-1744302577057_cjw8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "\"Quem é você para dizer o que eles devem fazer\": ator de Game of Thrones reflete sobre como personagem \"poderia ter sido muito diferente\" se diretores seguissem descrição dos livros",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/game-of-thrones/142731/news/quem-e-voce-para-dizer-o-que-eles-devem-fazer-ator-de-game-of-thrones-reflete-sobre-como-personagem",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/eg_zb94.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Com uma única configuração você pode melhorar instantaneamente a imagem da sua TV e 99,9% das TVs têm esse recurso",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tech/142767/news/com-uma-unica-configuracao-voce-pode-melhorar-instantaneamente-a-imagem-da-sua-tv-e-999-das-tvs-tem",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_a3a7.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
+  },
+  {
+    "titulo": "Zelda: Jogador abre livro sobre Ocarina of Time 27 anos após o lançamento do jogo e descobre algo que o deixou completamente louco",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-legend-of-zelda-ocarina-of-time/142701/news/zelda-jogador-abre-livro-sobre-ocarina-of-time-27-anos-apos-o-lancamento-do-jogo-e-descobre-algo-que",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ot_pffk.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-05T20:18:35"
   }
 ];
