@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "I'm on a tight budget this year, so join me as I track down the best Amazon Prime Day PC gaming deals under $100",
-    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
-    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "I convinced myself that I could easily win Squid Game, but after putting myself through the Roblox version it's clear that I absolutely would not walk away champion",
-    "descricao": "NewsBecause why wouldn't you want to recreate Netflix's most popular, and most morally questionable show?",
-    "link": "https://www.pcgamer.com/games/survival-crafting/i-convinced-myself-that-i-could-easily-win-squid-game-but-after-putting-myself-through-the-roblox-version-its-clear-that-i-absolutely-would-not-walk-away-champion/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/KHBptKt5RFVuk6E79ENaaj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "I'm using every picosecond of my 20-year PC tech journo career to bring you the best Prime Day PC gaming deals on the internet tubes",
-    "descricao": "LiveIt's all been leading up to this.",
-    "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "Call of Duty: WW2 pulled from PC following reports of remote code exploit trolling players with 'Notepad pop-ups, PC shutdowns' and desktop wallpaper of a lawyer",
-    "descricao": "NewsRCE attacks are among the nastiest out there, though this hacker seems to be in it for the memes.",
-    "link": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-ww2-pulled-from-pc-following-reports-of-remote-code-exploit-trolling-players-with-notepad-pop-ups-pc-shutdowns-and-desktop-wallpaper-of-a-lawyer/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/mup5TDEJTr64bRRgKJeAEg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "Monster Hunter Wilds' poor post-launch reception bubbles up to the surface in shareholder meetings, though Capcom says it's 'committed' to fixing performance and content woes",
-    "descricao": "NewsAs the Steam reviews continue to rage, Capcom's putting out fires.",
-    "link": "https://www.pcgamer.com/games/rpg/monster-hunter-wilds-poor-post-launch-reception-bubbles-up-to-the-surface-in-shareholder-meetings-though-capcom-says-its-committed-to-fixing-performance-and-content-woes/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/K9PBvyHGkjbgU8fedP4Z9b.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "I wouldn't have believed it either, but RTX 50-series gaming laptops are leading the charge in the early Prime Day deals and there's something for almost every budget",
-    "descricao": "Prime DayApart from sub-$1,000. Close, though.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/i-wouldnt-have-believed-it-either-but-rtx-50-series-gaming-laptops-are-leading-the-charge-in-the-early-prime-day-deals-and-theres-something-for-almost-every-budget/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/PA7xJad83eZ9tvWwbRYGsd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "EA Japan exec laments Microsoft's crushing layoffs, and the demands shareholders make for 'short-term results from large-scale investments'",
-    "descricao": "News\"In Japan, 'restructures' are very directly perceived as 'layoffs'.\"",
-    "link": "https://www.pcgamer.com/gaming-industry/ea-japan-exec-laments-microsofts-crushing-layoffs-and-the-demands-shareholders-make-for-short-term-results-from-large-scale-investments/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Wrct44o48FhUXEzUZtKPBE.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "Chinese FMV game about getting 'revenge on gold diggers' plunges the country into online gender tumult",
-    "descricao": "NewsPretty much like we do on the anglophone internet all the time.",
-    "link": "https://www.pcgamer.com/games/adventure/chinese-fmv-game-about-getting-revenge-on-gold-diggers-plunges-the-country-into-online-gender-tumult/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/p6WuwbZ5YaTuSbZuYBuYP4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
-    "titulo": "These three RX 9070 XT gaming PCs show AMD builds really are killing it for value right now",
-    "descricao": "Prime DayPrime Day starts tomorrow—time to step up your game, Nvidia.",
-    "link": "https://www.pcgamer.com/hardware/gaming-pcs/these-three-rx-9070-xt-gaming-pcs-show-amd-builds-really-are-killing-it-for-value-right-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4WqVU6XjKt7zUBUdxKiApd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-07T12:56:52"
-  },
-  {
     "titulo": "James Gunn detalha construção de Superman no filme que marca início da nova era da DC",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/superman-james-gunn/142751/news/se-o-superman-fosse-real-como-seria-sua-presenca-no-mundo-james-gunn-detalha-construcao-do-personage",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65109/65109_c9yh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "25 anos de FF9 e de um dos momentos mais belos da franquia e dos videogames",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-ix/142789/news/25-anos-de-final-fantasy-9-e-de-um-dos-momentos-mais-belos-da-franquia-e-dos-videogames",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65110/65110_pw13.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "Entendendo como o brain rot não é simplesmente um “meme”",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/142771/feature/de-skibidi-toilet-a-tun-tun-tun-sahur-entendendo-como-o-brain-rot-nao-e-simplesmente-um-meme-ou-culp",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65111/65111_ks6x.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "Criados pela mesma pessoa, Westworld e Jurassic Park sofrem do mesmo mal",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/jurassic-world-4/142726/feature/criados-pela-mesma-pessoa-westworld-e-jurassic-park-sofrem-do-mesmo-mal",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65112/65112_h873.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "Call of Duty: WW2 tem servidores de PC desligados em meio a riscos de segurança",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/call-of-duty-wwii/142820/news/call-of-duty-ww2-tem-servidores-de-pc-desligados-em-meio-a-riscos-de-seguranca",
     "imagem": "https://sm.ign.com/t/ign_br/news/c/call-of-du/call-of-duty-wwii-xbox-pc-version-hauled-offline-amid-securi_xae4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "\"Sim, é político\": James Gunn afirma que Superman é sobre um \"imigrante que veio de outro lugar\" tentando navegar um mundo sem \"gentileza\"",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142806/news/sim-e-politico-james-gunn-afirma-que-superman-e-sobre-um-imigrante-que-veio-de-outro-lugar-tentando",
     "imagem": "https://sm.ign.com/t/ign_br/news/s/snydercut-/snydercut-subreddit-issues-statement-after-james-gunn-dismis_uaq6.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "Foi deixado de fora de Clair Obscur: Expedition 33 por escolhas de design, mas agora você pode explorar melhor o RPG graças a um mod",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/142716/news/foi-deixado-de-fora-de-clair-obscur-expedition-33-por-escolhas-de-design-mas-agora-voce-pode-explora",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_p22a.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
     "titulo": "Jurassic Park é cientificamente possível? Um laboratório afirma que o filme é semelhante à sua pesquisa de engenharia genética, mas há um porém",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/jurassic-park-2/142790/news/jurassic-park-e-cientificamente-possivel-um-laboratorio-afirma-que-o-filme-e-semelhante-a-sua-pesqui",
     "imagem": "https://sm.ign.com/t/ign_br/photo/default/jurassic-park-iii-1751326042056_18rk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
-    "titulo": "Mario Kart World com boa oferta na Amazon Brasil",
+    "titulo": "Diários de uma Apotecária: MaoMao tentar cortar o próprio dedo é muito mais simbólico nas light novels e prepara terreno para o que fãs aguardam ansiosamente no anime",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142824/news/mario-kart-world-com-boa-oferta-na-amazon-brasil",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/mario-kart-world-thumb_x124.280.jpg",
+    "link": "https://br.ign.com/anime/142829/news/diarios-de-uma-apotecaria-maomao-tentar-cortar-o-proprio-dedo-e-muito-mais-simbolico-nas-light-novel",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/da_rq6s.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
   },
   {
-    "titulo": "Atores de The Big Bang Theory precisaram subir escadas por 12 anos seguidos e o verdadeiro motivo foi finalmente revelado",
+    "titulo": "Mafia: The Old Country — veja 9 minutos de gameplay exclusiva | IGN First",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-big-bang-theory-1/142823/news/atores-de-the-big-bang-theory-precisaram-subir-escadas-por-12-anos-seguidos-e-o-verdadeiro-motivo-fo",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_68fp.280.jpg",
+    "link": "https://br.ign.com/mafia-the-old-country/142830/preview/mafia-the-old-country-veja-9-minutos-de-gameplay-exclusiva-ign-first",
+    "imagem": "https://sm.ign.com/t/ign_br/preview/m/mafia-the-/mafia-the-old-country-9-minutes-of-exclusive-gameplay-ign-fi_bqg4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-07T12:56:52"
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I'm fed up tightening screws with my wrists like some sort of commoner, so I'm thinking of buying this Worx electric screwdriver set for $30",
+    "descricao": "Prime DayYou spin me right round, baby right round.",
+    "link": "https://www.pcgamer.com/hardware/im-fed-up-tightening-screws-with-my-wrists-like-some-sort-of-commoner-so-im-thinking-of-buying-this-worx-electric-screwdriver-set-for-usd30/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4PiUc8kRLRtusPsDtYTHjX.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "The new Rimworld expansion adds therapy pandas, tameable insect hive queens, nanotech-enhanced alligators, prehistoric beasts, giant toads, flamingos, and something called a 'bog hound'",
+    "descricao": "NEWSOdyssey is packed with animal magic.",
+    "link": "https://www.pcgamer.com/games/sim/the-new-rimworld-expansion-adds-therapy-pandas-tameable-insect-hive-queens-nanotech-enhanced-alligators-prehistoric-beasts-giant-toads-flamingos-and-something-called-a-bog-hound/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Ps96tPYtEMNDorddWepsRj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I'm ashamed to say that this Razer mouse has made me actually take a shine to RGB, and now you can be persuaded too for almost 50% off",
+    "descricao": "Prime DayYes, a snake (Basilisk) got me to try the forbidden fruit of RGB.",
+    "link": "https://www.pcgamer.com/hardware/im-ashamed-to-say-that-this-razer-mouse-has-made-me-actually-take-a-shine-to-rgb-and-now-you-can-be-persuaded-too-for-almost-50-percent-off/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yrqFqXaqYMQPmNT7qZeqYJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I own over 10 smart lights, here are the three I'd actually buy in the early Amazon Prime Day sales",
+    "descricao": "Prime DayLet there be (smart) light.",
+    "link": "https://www.pcgamer.com/hardware/lighting/i-own-over-10-smart-lights-here-are-the-three-id-actually-buy-in-the-early-amazon-prime-day-sales/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ZKkhYUVFYD99XyRxhSMVd7.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "Obsidian stuck to some fantasy conventions for Pillars of Eternity and Avowed because that's what people want: ''I didn't want to completely flip it and say, oh you want to play an elf? F**k you, this isn't your daddy's elf'",
+    "descricao": "NewsAt least the team still gave us orlans.",
+    "link": "https://www.pcgamer.com/games/rpg/obsidian-stuck-to-some-fantasy-conventions-for-pillars-of-eternity-and-avowed-because-thats-what-people-want-i-didnt-want-to-completely-flip-it-and-say-oh-you-want-to-play-an-elf-f-k-you-this-isnt-your-daddys-elf/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/yK8kE6mpxpYQfxHFVo3WtQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I'm on a tight budget this year, so join me as I track down the best Amazon Prime Day PC gaming deals under $100",
+    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
+    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I convinced myself that I could easily win Squid Game, but after putting myself through the Roblox version it's clear that I absolutely would not walk away champion",
+    "descricao": "NewsBecause why wouldn't you want to recreate Netflix's most popular, and most morally questionable show?",
+    "link": "https://www.pcgamer.com/games/survival-crafting/i-convinced-myself-that-i-could-easily-win-squid-game-but-after-putting-myself-through-the-roblox-version-its-clear-that-i-absolutely-would-not-walk-away-champion/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/KHBptKt5RFVuk6E79ENaaj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "I'm using every picosecond of my 20-year PC tech journo career to bring you the best Prime Day PC gaming deals on the internet tubes",
+    "descricao": "LiveIt's all been leading up to this.",
+    "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
+  },
+  {
+    "titulo": "Call of Duty: WW2 pulled from PC following reports of remote code exploit trolling players with 'Notepad pop-ups, PC shutdowns' and desktop wallpaper of a lawyer",
+    "descricao": "NewsRCE attacks are among the nastiest out there, though this hacker seems to be in it for the memes.",
+    "link": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-ww2-pulled-from-pc-following-reports-of-remote-code-exploit-trolling-players-with-notepad-pop-ups-pc-shutdowns-and-desktop-wallpaper-of-a-lawyer/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mup5TDEJTr64bRRgKJeAEg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-07T13:29:50"
   }
 ];
