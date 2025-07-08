@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/amazon-prime-isnt-the-only-place-to-find-killer-deals-today-our-favorite-high-performance-gaming-laptop-is-usd700-off-direct-from-lenovo/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WvrH8n3HMF9K8VXoWD5HEc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "The Pope got gifted one Pokémon card, signed another, and thought it was all a great laugh: 'He began showing it off to the guards'",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-pope-got-gifted-a-pokemon-card-signed-another-and-thought-it-was-all-a-great-laugh-he-began-showing-it-off-to-the-guards/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/squhNWJ9R7UKUgRefHnX2K.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "After 15 years of busted marksdwarves, Dwarf Fortress creator Tarn Adams says archers will finally refill their ammo 'instead of leaping over walls and clubbing people with their crossbows'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/after-15-years-of-busted-marksdwarves-dwarf-fortress-creator-tarn-adams-says-archers-will-finally-refill-their-ammo-instead-of-leaping-over-walls-and-clubbing-people-with-their-crossbows/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wWnEbLR3zpiEZxqDqV6L7Z.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "After 3 years of trying, Lord of the Rings Online's 'Great Hobbit Run' ends in confused success as a mob of low-level players gets lost inside Mount Doom and decides it's close enough: 'Sauron can kiss my butt!'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/after-3-years-of-trying-lord-of-the-rings-onlines-great-hobbit-run-ends-in-confused-success-as-a-mob-of-low-level-players-gets-lost-inside-mount-doom-and-decides-its-close-enough-sauron-can-kiss-my-butt/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/72FNv79QuFx9KeHf7DyN7D.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Blinded by the lights: This dazzling machine is the cheapest RTX 5070 Ti gaming laptop I've seen to date but it really should come with a pair of Prime Day sunglasses",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/blinded-by-the-lights-this-dazzling-machine-is-the-cheapest-rtx-5070-ti-gaming-laptop-ive-seen-to-date-but-it-really-should-come-with-a-pair-of-prime-day-sunglasses/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NzjVJw3jAAv76UgKrcoG5i.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Prime Day deals live: I'm using every picosecond of my 20-year PC tech journo career to bring you the best PC gaming deals on the internet tubes",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "If I needed a gaming chair right now, our favorite budget Corsair choice would be my pick now that it's less than $200",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-chairs/if-i-needed-a-gaming-chair-right-now-our-favorite-budget-corsair-choice-would-be-my-pick-now-that-its-less-than-usd200/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YFQegDgKEWFD3sv4mDsexN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "If you're planning on buying an AM5 upgrade bundle, I've got one for you that's $60 cheaper than Micro Center's in the Prime Day deals",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/if-youre-planning-on-buying-an-am5-upgrade-bundle-ive-got-one-for-you-thats-usd60-cheaper-than-micro-centers-in-the-prime-day-deals/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/H8Y3ip9zQPCkoqQQWGGnD9.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Mafia: The Old Country — veja 9 minutos de gameplay exclusiva | IGN First",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/142830/preview/mafia-the-old-country-veja-9-minutos-de-gameplay-exclusiva-ign-first",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Vem aí: PlayStation anuncia State of Play focado em Ghost of Yōtei; veja data e horário",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/142898/news/playstation-anuncia-state-of-play-focado-em-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65227/65227_7upu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "25 anos de FF9 e de um dos momentos mais belos da franquia e dos videogames",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-ix/142789/news/25-anos-de-final-fantasy-9-e-de-um-dos-momentos-mais-belos-da-franquia-e-dos-videogames",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65110/65110_pw13.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Nova atualização de The Last of Us Part II adiciona modo cronológico para jogar história em ordem",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2/142905/news/nova-atualizacao-de-the-last-of-us-part-ii-adiciona-modo-cronologico-para-jogar-historia-em-ordem",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-01-17-185058177_ck5u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Para Nintendo, riscos para desenvolver jogos aumentaram e solução pode ser \"períodos de desenvolvimento reduzidos\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142892/news/para-nintendo-riscos-para-desenvolver-jogos-aumentaram-e-solucao-pode-ser-periodos-de-desenvolviment",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-game-development-risks-increasing-due-to-highe_kw5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "Ubisoft exige que jogadores destruam todas as cópias de seus jogos caso títulos deixem de ser vendidos",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142889/news/ubisoft-exige-que-jogadores-destruam-todas-as-copias-de-seus-jogos-caso-ele-seja-descontinuado-ou-en",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ubisoft-logo_ywee.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
     "titulo": "\"Por que ninguém fala sobre o elefante na sala?\": após demissões da Xbox, fundador de estúdio de Prey e Dishonored critica Game Pass",
@@ -141,14 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x-1/142874/news/por-que-ninguem-fala-sobre-o-elefante-na-sala-apos-demissoes-da-xbox-fundador-de-estudio-de-prey-e-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/i/in-the-wak/in-the-wake-of-xbox-layoffs-founder-of-dishonored-and-prey-d_abgx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   },
   {
-    "titulo": "Esquenta Prime Day traz iPhone 16e com ótima oferta",
+    "titulo": "Aproveite! iPhone 13 de 128 GB por R$ 3,5 mil no Esquenta Prime Day",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/142929/news/esquenta-prime-day-traz-iphone-16e-com-otima-oferta",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone16e-thumb_gztq.280.jpg",
+    "link": "https://br.ign.com/descontos/142932/news/aproveite-iphone-13-de-128-gb-por-r-35-mil-no-esquenta-prime-day",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/iphone-13-meia-noite-j5sn_287812_z83c.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-08T17:50:33"
+    "timestamp": "2025-07-08T18:00:20"
   }
 ];
