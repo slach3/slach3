@@ -1,115 +1,11 @@
 const noticias = [
   {
-    "titulo": "Mafia: The Old Country — veja 9 minutos de gameplay exclusiva | IGN First",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mafia-the-old-country/142830/preview/mafia-the-old-country-veja-9-minutos-de-gameplay-exclusiva-ign-first",
-    "imagem": null,
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Vem aí: PlayStation anuncia State of Play focado em Ghost of Yōtei; veja data e horário",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ghost-of-yotei/142898/news/playstation-anuncia-state-of-play-focado-em-ghost-of-yotei",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65227/65227_7upu.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "25 anos de FF9 e de um dos momentos mais belos da franquia e dos videogames",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/final-fantasy-ix/142789/news/25-anos-de-final-fantasy-9-e-de-um-dos-momentos-mais-belos-da-franquia-e-dos-videogames",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65110/65110_pw13.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Nova atualização de The Last of Us Part II adiciona modo cronológico para jogar história em ordem",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-2/142905/news/nova-atualizacao-de-the-last-of-us-part-ii-adiciona-modo-cronologico-para-jogar-historia-em-ordem",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-01-17-185058177_ck5u.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Para Nintendo, riscos para desenvolver jogos aumentaram e solução pode ser \"períodos de desenvolvimento reduzidos\"",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo-switch-2/142892/news/para-nintendo-riscos-para-desenvolver-jogos-aumentaram-e-solucao-pode-ser-periodos-de-desenvolviment",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-game-development-risks-increasing-due-to-highe_kw5b.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Ubisoft exige que jogadores destruam todas as cópias de seus jogos caso títulos deixem de ser vendidos",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142889/news/ubisoft-exige-que-jogadores-destruam-todas-as-copias-de-seus-jogos-caso-ele-seja-descontinuado-ou-en",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ubisoft-logo_ywee.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "\"Por que ninguém fala sobre o elefante na sala?\": após demissões da Xbox, fundador de estúdio de Prey e Dishonored critica Game Pass",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox-series-x-1/142874/news/por-que-ninguem-fala-sobre-o-elefante-na-sala-apos-demissoes-da-xbox-fundador-de-estudio-de-prey-e-d",
-    "imagem": "https://sm.ign.com/t/ign_br/news/i/in-the-wak/in-the-wake-of-xbox-layoffs-founder-of-dishonored-and-prey-d_abgx.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Em meio à euforia do Switch 2, Nintendo dá a melhor notícia e garante um futuro mais do que promissor fora dos videogames",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/nintendo/142845/news/em-meio-a-euforia-do-switch-2-nintendo-da-a-melhor-noticia-e-garante-um-futuro-mais-do-que-promissor",
-    "imagem": "https://sm.ign.com/t/ign_br/news/d/disney-det/disney-dethroned-as-highest-grossing-distributor-of-2023-tha_dvfq.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "As unbelievable as this sounds, I've found a bunch of Prime Day graphics cards deals that are either on or under their original MSRP",
-    "descricao": "Prime DayYeah it's almost all of the 8 GB models but two of them aren't.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/as-unbelievable-as-this-sounds-ive-found-a-bunch-of-prime-day-graphics-cards-deals-that-are-either-on-or-under-their-original-msrp/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zKr3kSQBHxq9EYJnnrJWKD.jpg",
+    "titulo": "The quietest gaming keyboard you can buy is also the one I use everyday, and it's enjoying its first major discount this Prime Day",
+    "descricao": "Prime DayTo clack or not to clack—is that really the question?",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/the-quietest-gaming-keyboard-you-can-buy-is-also-the-one-i-use-everyday-and-its-enjoying-its-first-major-discount-this-prime-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sa7NGXuawtBoTUQgUjKfUU.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "FromSoftware scrambles for content to keep Elden Ring Nightreign players interested as it announces the return of the first three Everdark Nightlords",
-    "descricao": "NewsThis isn't what we meant when we asked for duos.",
-    "link": "https://www.pcgamer.com/games/rpg/fromsoftware-scrambles-for-content-to-keep-elden-ring-nightreign-players-interested-as-it-announces-the-return-of-the-first-three-everdark-nightlords/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
-    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
-    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
-  },
-  {
-    "titulo": "The Meta Quest 3S is at a new lowest ever price of $249, making it the perfect entry point into virtual reality this Prime Day",
-    "descricao": "Prime DayYou can pay a bit more for double the storage and one of VR's best games.",
-    "link": "https://www.pcgamer.com/hardware/vr-hardware/the-meta-quest-3s-is-at-a-new-lowest-ever-price-of-usd249-making-it-the-perfect-entry-point-into-virtual-reality-this-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/L7KfpujASpqYtUkkPgUHTf.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "timestamp": "2025-07-09T08:47:26"
   },
   {
     "titulo": "Prime Day deals live: I'm still on the hook, hand-picking the best PC gaming deals as we hit Day 2: The revenge of Jeff",
@@ -117,7 +13,39 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "As unbelievable as this sounds, I've found a bunch of Prime Day graphics cards deals that are either on or under their original MSRP",
+    "descricao": "Prime DayYeah it's almost all of the 8 GB models but two of them aren't.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/as-unbelievable-as-this-sounds-ive-found-a-bunch-of-prime-day-graphics-cards-deals-that-are-either-on-or-under-their-original-msrp/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zKr3kSQBHxq9EYJnnrJWKD.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "FromSoftware scrambles for content to keep Elden Ring Nightreign players interested as it announces the return of the first three Everdark Nightlords",
+    "descricao": "NewsThis isn't what we meant when we asked for duos.",
+    "link": "https://www.pcgamer.com/games/rpg/fromsoftware-scrambles-for-content-to-keep-elden-ring-nightreign-players-interested-as-it-announces-the-return-of-the-first-three-everdark-nightlords/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pvmWwsMyTTuKBcySGkSK7V.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
+    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
+    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "The Meta Quest 3S is at a new lowest ever price of $249, making it the perfect entry point into virtual reality this Prime Day",
+    "descricao": "Prime DayYou can pay a bit more for double the storage and one of VR's best games.",
+    "link": "https://www.pcgamer.com/hardware/vr-hardware/the-meta-quest-3s-is-at-a-new-lowest-ever-price-of-usd249-making-it-the-perfect-entry-point-into-virtual-reality-this-prime-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/L7KfpujASpqYtUkkPgUHTf.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T08:47:26"
   },
   {
     "titulo": "I'm fighting the urge to buy the super-charged upgrade to my favourite mouse ever, down to $115 in Prime Day sales, despite having more mice than I do computers to use them",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-mice/im-fighting-the-urge-to-buy-the-super-charged-upgrade-to-my-favourite-mouse-ever-down-to-usd115-in-prime-day-sales-despite-having-more-mice-than-i-do-computers-to-use-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/2m3seBfAWtd9PBmWCqxN8j.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "timestamp": "2025-07-09T08:47:26"
   },
   {
     "titulo": "With almost $1,000 knocked off this Zotac RTX 5080 rig, it's both better and cheaper than every other Prime Day gaming PC deal I've seen",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/with-almost-usd1-000-knocked-off-this-zotac-rtx-5080-rig-its-both-better-and-cheaper-than-every-other-prime-day-gaming-pc-deal-ive-seen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/B8GG26od5vjZ8NsicHo7pc.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "timestamp": "2025-07-09T08:47:26"
   },
   {
     "titulo": "I can pack up and go home now 'cos I've found the best Prime Day gaming laptop deal: $400 off my absolute favorite Razer Blade 14",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/i-can-pack-up-and-go-home-now-cos-ive-found-the-best-prime-day-gaming-laptop-deal-usd400-off-my-absolute-favorite-razer-blade-14/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/kzFyZmCBBNpqhmCyAtyi9R.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "timestamp": "2025-07-09T08:47:26"
   },
   {
-    "titulo": "Roblox's hot gardening game gets a crack squad dedicated to new events after players kicked up over old ones being 'rushed and not very inspired'",
-    "descricao": "NewsFrom the bad comes the good.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/robloxs-hot-gardening-game-gets-a-crack-squad-dedicated-to-new-events-after-players-kicked-up-over-old-ones-being-rushed-and-not-very-inspired/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/NwLaJjcZmdZikWtxXk6ncM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T08:35:42"
+    "titulo": "Mafia: The Old Country — veja 9 minutos de gameplay exclusiva | IGN First",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/mafia-the-old-country/142830/preview/mafia-the-old-country-veja-9-minutos-de-gameplay-exclusiva-ign-first",
+    "imagem": null,
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Vem aí: PlayStation anuncia State of Play focado em Ghost of Yōtei; veja data e horário",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ghost-of-yotei/142898/news/playstation-anuncia-state-of-play-focado-em-ghost-of-yotei",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65227/65227_7upu.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "25 anos de FF9 e de um dos momentos mais belos da franquia e dos videogames",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/final-fantasy-ix/142789/news/25-anos-de-final-fantasy-9-e-de-um-dos-momentos-mais-belos-da-franquia-e-dos-videogames",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65110/65110_pw13.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Nova atualização de The Last of Us Part II adiciona modo cronológico para jogar história em ordem",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-2/142905/news/nova-atualizacao-de-the-last-of-us-part-ii-adiciona-modo-cronologico-para-jogar-historia-em-ordem",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-01-17-185058177_ck5u.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Para Nintendo, riscos para desenvolver jogos aumentaram e solução pode ser \"períodos de desenvolvimento reduzidos\"",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo-switch-2/142892/news/para-nintendo-riscos-para-desenvolver-jogos-aumentaram-e-solucao-pode-ser-periodos-de-desenvolviment",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-game-development-risks-increasing-due-to-highe_kw5b.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Ubisoft exige que jogadores destruam todas as cópias de seus jogos caso títulos deixem de ser vendidos",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142889/news/ubisoft-exige-que-jogadores-destruam-todas-as-copias-de-seus-jogos-caso-ele-seja-descontinuado-ou-en",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ubisoft-logo_ywee.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "\"Por que ninguém fala sobre o elefante na sala?\": após demissões da Xbox, fundador de estúdio de Prey e Dishonored critica Game Pass",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox-series-x-1/142874/news/por-que-ninguem-fala-sobre-o-elefante-na-sala-apos-demissoes-da-xbox-fundador-de-estudio-de-prey-e-d",
+    "imagem": "https://sm.ign.com/t/ign_br/news/i/in-the-wak/in-the-wake-of-xbox-layoffs-founder-of-dishonored-and-prey-d_abgx.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
+  },
+  {
+    "titulo": "Em meio à euforia do Switch 2, Nintendo dá a melhor notícia e garante um futuro mais do que promissor fora dos videogames",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/nintendo/142845/news/em-meio-a-euforia-do-switch-2-nintendo-da-a-melhor-noticia-e-garante-um-futuro-mais-do-que-promissor",
+    "imagem": "https://sm.ign.com/t/ign_br/news/d/disney-det/disney-dethroned-as-highest-grossing-distributor-of-2023-tha_dvfq.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-09T08:47:26"
   }
 ];
