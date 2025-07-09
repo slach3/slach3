@@ -1,27 +1,11 @@
 const noticias = [
   {
-    "titulo": "Prime Day deals live: I'm still on the hook, hand-picking the best PC gaming deals as we hit Day 2: The revenge of Jeff",
-    "descricao": "LiveIt's Prime Day Day 2 of a four day deals marathon. Thanks, Mr. Bezos.",
-    "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
+    "titulo": "Ready or Not's review bomb campaign may have been short-lived, as player count subsequently doubles on Steam and it tops PlayStation's pre-order list",
+    "descricao": "NewsIt looks like the censorship wasn't all that bad.",
+    "link": "https://www.pcgamer.com/games/fps/ready-or-nots-review-bomb-campaign-may-have-been-short-lived-as-player-count-subsequently-doubles-on-steam-and-it-tops-playstations-pre-order-list/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ksfUXUzZqVFN8jBWHDKzmB.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
-  },
-  {
-    "titulo": "You always need more storage and at under $0.05 per GB these 2 TB Prime Day SSDs are a real bargain",
-    "descricao": "Prime DayYou can't tell me there's ever been a time where you though \"nah, that's enough storage for me.\"",
-    "link": "https://www.pcgamer.com/hardware/ssds/you-always-need-more-storage-and-at-under-usd0-05-per-gb-these-2-tb-prime-day-ssds-are-a-real-bargain/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/7o2R4JBCKA2BAEPti9KcJQ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
-  },
-  {
-    "titulo": "I would take this Prime Day Razer gaming laptop deal over literally any other right now",
-    "descricao": "Prime DayWith $400 knocked off the recently released Blade 14, I think this is the best gaming laptop deal around today.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/i-can-pack-up-and-go-home-now-cos-ive-found-the-best-prime-day-gaming-laptop-deal-usd400-off-my-absolute-favorite-razer-blade-14/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kzFyZmCBBNpqhmCyAtyi9R.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
@@ -29,7 +13,47 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nEAa4w6cdi4tYxM85mPuud.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
+  },
+  {
+    "titulo": "I use both of these earbud sets daily for different things, and now Prime Day discounts have them within spitting distance of each other I don't know which I'd pick",
+    "descricao": "Prime DayOr you could always be a cool dude and use both like me.",
+    "link": "https://www.pcgamer.com/hardware/earbuds-headphones/i-use-both-of-these-earbud-sets-daily-for-different-things-and-now-prime-day-discounts-have-them-within-spitting-distance-of-each-other-i-dont-know-which-id-pick/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/aaaPhwHFVmFxED9BtaaJbK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T10:51:01"
+  },
+  {
+    "titulo": "The Last of Us Part 2 has a 'chronological mode' now, in case you wanted to play through a story with all the finesse of a Wikipedia plot summary",
+    "descricao": "NewsWho is this for?",
+    "link": "https://www.pcgamer.com/games/third-person-shooter/the-last-of-us-part-2-has-a-chronological-mode-now-in-case-you-wanted-to-play-through-a-story-with-all-the-finesse-of-a-wikipedia-plot-summary/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/AU79a5h4Rdbw7oDndU8Sm8.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T10:51:01"
+  },
+  {
+    "titulo": "Prime Day deals live: I'm still on the hook, hand-picking the best PC gaming deals as we hit Day 2: The revenge of Jeff",
+    "descricao": "LiveIt's Prime Day Day 2 of a four day deals marathon. Thanks, Mr. Bezos.",
+    "link": "https://www.pcgamer.com/hardware/live/news/live-prime-day-pc-gaming-deals-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/tFrRnD7U4s6QUNKYzH5K94.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T10:51:01"
+  },
+  {
+    "titulo": "You always need more storage and at under $0.05 per GB these 2 TB Prime Day SSDs are a real bargain",
+    "descricao": "Prime DayYou can't tell me there's ever been a time where you though \"nah, that's enough storage for me.\"",
+    "link": "https://www.pcgamer.com/hardware/ssds/you-always-need-more-storage-and-at-under-usd0-05-per-gb-these-2-tb-prime-day-ssds-are-a-real-bargain/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/7o2R4JBCKA2BAEPti9KcJQ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T10:51:01"
+  },
+  {
+    "titulo": "I would take this Prime Day Razer gaming laptop deal over literally any other right now",
+    "descricao": "Prime DayWith $400 knocked off the recently released Blade 14, I think this is the best gaming laptop deal around today.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/i-can-pack-up-and-go-home-now-cos-ive-found-the-best-prime-day-gaming-laptop-deal-usd400-off-my-absolute-favorite-razer-blade-14/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/kzFyZmCBBNpqhmCyAtyi9R.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "One of the best gaming chairs has just dropped to its lowest ever price at $147: Corsair's TC100 is what Prime Day deals are all about",
@@ -37,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-chairs/im-telling-you-one-of-the-best-gaming-chairs-dropping-down-to-a-stunning-usd147-is-the-best-reason-to-activate-that-free-prime-membership-trial/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/YFQegDgKEWFD3sv4mDsexN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "My favorite rapid trigger keyboard has an OLED screen for game information, and has now hit its lowest ever price this Prime Day",
@@ -45,31 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-keyboards/my-favorite-rapid-trigger-keyboard-has-an-oled-screen-for-game-information-and-has-now-hit-its-lowest-ever-price-this-prime-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/G5EgvEosAfUXGBqc5pXrqD.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
-  },
-  {
-    "titulo": "Wood you look at that, the PC case I've been using every day since it launched is sporting a 19% discount in the Prime Day sales",
-    "descricao": "Prime DayIt's just like me: big, bold, and very classy. I wish.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/wood-you-look-at-that-the-pc-case-ive-been-using-every-day-since-it-launched-is-sporting-a-19-percent-discount-in-the-prime-day-sales/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/jaieoa7uQnxyGXqtpFgMHM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
-  },
-  {
-    "titulo": "The quietest gaming keyboard you can buy is also the one I use everyday, and it's enjoying its first major discount this Prime Day",
-    "descricao": "Prime DayTo clack or not to clack—is that really the question?",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/the-quietest-gaming-keyboard-you-can-buy-is-also-the-one-i-use-everyday-and-its-enjoying-its-first-major-discount-this-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/sa7NGXuawtBoTUQgUjKfUU.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
-  },
-  {
-    "titulo": "As unbelievable as this sounds, I've found a bunch of Prime Day graphics cards deals that are either on or under their original MSRP",
-    "descricao": "Prime DayYeah it's almost all of the 8 GB models but two of them aren't.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/as-unbelievable-as-this-sounds-ive-found-a-bunch-of-prime-day-graphics-cards-deals-that-are-either-on-or-under-their-original-msrp/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zKr3kSQBHxq9EYJnnrJWKD.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Mafia: The Old Country — veja 9 minutos de gameplay exclusiva | IGN First",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/mafia-the-old-country/142830/preview/mafia-the-old-country-veja-9-minutos-de-gameplay-exclusiva-ign-first",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Vem aí: PlayStation anuncia State of Play focado em Ghost of Yōtei; veja data e horário",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/142898/news/playstation-anuncia-state-of-play-focado-em-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65227/65227_7upu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "25 anos de FF9 e de um dos momentos mais belos da franquia e dos videogames",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/final-fantasy-ix/142789/news/25-anos-de-final-fantasy-9-e-de-um-dos-momentos-mais-belos-da-franquia-e-dos-videogames",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65110/65110_pw13.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Nova atualização de The Last of Us Part II adiciona modo cronológico para jogar história em ordem",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-2/142905/news/nova-atualizacao-de-the-last-of-us-part-ii-adiciona-modo-cronologico-para-jogar-historia-em-ordem",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-01-17-185058177_ck5u.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Para Nintendo, riscos para desenvolver jogos aumentaram e solução pode ser \"períodos de desenvolvimento reduzidos\"",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/nintendo-switch-2/142892/news/para-nintendo-riscos-para-desenvolver-jogos-aumentaram-e-solucao-pode-ser-periodos-de-desenvolviment",
     "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-game-development-risks-increasing-due-to-highe_kw5b.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "Ubisoft exige que jogadores destruam todas as cópias de seus jogos caso títulos deixem de ser vendidos",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142889/news/ubisoft-exige-que-jogadores-destruam-todas-as-copias-de-seus-jogos-caso-ele-seja-descontinuado-ou-en",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ubisoft-logo_ywee.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
     "titulo": "\"Por que ninguém fala sobre o elefante na sala?\": após demissões da Xbox, fundador de estúdio de Prey e Dishonored critica Game Pass",
@@ -141,14 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/xbox-series-x-1/142874/news/por-que-ninguem-fala-sobre-o-elefante-na-sala-apos-demissoes-da-xbox-fundador-de-estudio-de-prey-e-d",
     "imagem": "https://sm.ign.com/t/ign_br/news/i/in-the-wak/in-the-wake-of-xbox-layoffs-founder-of-dishonored-and-prey-d_abgx.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   },
   {
-    "titulo": "\"Fiquei surpreso com as semelhanças\": Shigeru Miyamoto aponta como este game de The Legend of Zelda foi inconscientemente inspirado em Princesa Mononoke",
+    "titulo": "One Piece: Strong World é canônico? Eiichiro Oda encerra debate histórico de fãs da franquia sobre filme",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-ocarina-of-time/142819/news/fiquei-surpreso-com-as-semelhancas-shigeru-miyamoto-aponta-como-este-game-de-the-legend-of-zelda-foi",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_zttq.280.png",
+    "link": "https://br.ign.com/one-piece-2/142920/news/one-piece-strong-world-e-canonico-eiichiro-oda-encerra-debate-historico-de-fas-da-franquia-sobre-fil",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mg2x.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-09T10:26:13"
+    "timestamp": "2025-07-09T10:51:01"
   }
 ];
