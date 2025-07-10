@@ -1,123 +1,11 @@
 const noticias = [
   {
-    "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Cada dia mais perto do demônio de Hell's Kitchen! 2ª temporada de Demolidor: Renascido encerra gravações",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/demolidor-renascido/143009/news/cada-dia-mais-perto-do-demonio-de-hells-kitchen-2a-temporada-de-demolidor-renascido-encerra-gravacoe",
-    "imagem": "https://sm.ign.com/t/ign_br/blogroll/d/daredevil-/daredevil-born-again_6tbq.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Nintendo não dirá idade exata de Pauline em Donkey Bananza, mas quer que os jogadores descubram por si sós",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza/143004/news/nintendo-nao-dira-idade-exata-de-pauline-em-donkey-bananza-mas-quer-que-os-jogadores-descubram-por-s",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-w/nintendo-wont-say-why-donkey-kong-bananzas-pauline-is-13-yea_qsjc.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
-    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
-    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
+    "titulo": "The videogame voice actors' strike officially ends as performers ratify agreement between SAG-AFTRA and publishers",
+    "descricao": "newsAI was a huge sticking point, and it looks like SAG-AFTRA won some concessions.",
+    "link": "https://www.pcgamer.com/gaming-industry/the-videogame-voice-actors-strike-officially-ends-as-performers-ratify-agreement-between-sag-aftra-and-publishers/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dy5JNPBmSYKiM6XDNw4gCN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "To celebrate the announcement of the Razer DeathAdder V4 Pro, the old best gaming mouse is now down to its lowest ever price for Prime Day",
-    "descricao": "Prime DayThe king is cheap, hail to the king.",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/to-celebrate-the-announcement-of-the-razer-deathadder-v4-pro-the-old-best-gaming-mouse-is-now-down-to-its-lowest-ever-price-for-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zb5F4g76GBuG672PraWg7V.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "One of these RTX 5070 Ti gaming laptops is even cheaper than it was yesterday, but both are still in stock at surprisingly affordable prices this Prime Day",
-    "descricao": "Prime DayI see a light at the end of the tunnel here.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/one-of-these-rtx-5070-ti-gaming-laptops-is-even-cheaper-than-it-was-yesterday-but-both-are-still-in-stock-at-surprisingly-affordable-prices-this-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pm9bCqHUF8VSDGgBW5FCDJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "My favorite ambidextrous mouse out there has just hit its lowest ever price this Prime Day (but only if you pick the flashy colors)",
-    "descricao": "Prime DayI prefer the pink anyway.",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/my-favorite-ambidextrous-mouse-out-there-has-just-hit-its-lowest-ever-price-this-prime-day-but-only-if-you-pick-the-flashy-colors/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/BnZkMVYqm5Wt9diHhVthPd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
-  },
-  {
-    "titulo": "These Witcher book Prime Day discounts are a great way to pre-order the latest novel or get into the series before The Witcher 4",
-    "descricao": "Prime DayGet a discount on the new Witcher book or buy the whole series for cheap.",
-    "link": "https://www.pcgamer.com/hardware/these-witcher-book-prime-day-discounts-are-a-great-way-to-pre-order-the-latest-novel-or-get-into-the-series-before-the-witcher-4/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/frmWxaKNYGKDXkRhoebggm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
+    "timestamp": "2025-07-10T13:55:21"
   },
   {
     "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
@@ -125,7 +13,55 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Elon Musk claims Grok was 'manipulated' into praising Hitler, then makes wild claims about it discovering 'new technologies' and 'new physics' within the next year: 'Just let that sink in'",
+    "descricao": "NewsI did Nazi that coming!",
+    "link": "https://www.pcgamer.com/software/ai/elon-musk-claims-grok-was-manipulated-into-praising-hitler-then-makes-wild-claims-about-it-discovering-new-technologies-and-new-physics-within-the-next-year-just-let-that-sink-in/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/RYEXTskz9rYHJjUSYAitsF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Prime Day deals live: I'm on a tight budget this year, so join me as I track down the best PC gaming deals under $100",
+    "descricao": "LiveMoney might be too tight to mention, but there are already great deals out there if you know where to look.",
+    "link": "https://www.pcgamer.com/hardware/live/news/im-on-a-tight-budget-this-year-so-join-me-as-i-track-down-the-best-amazon-prime-day-pc-gaming-deals-under-usd100/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "To celebrate the announcement of the Razer DeathAdder V4 Pro, the old best gaming mouse is now down to its lowest ever price for Prime Day",
+    "descricao": "Prime DayThe king is cheap, hail to the king.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/to-celebrate-the-announcement-of-the-razer-deathadder-v4-pro-the-old-best-gaming-mouse-is-now-down-to-its-lowest-ever-price-for-prime-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/zb5F4g76GBuG672PraWg7V.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "One of these RTX 5070 Ti gaming laptops is even cheaper than it was yesterday, but both are still in stock at surprisingly affordable prices this Prime Day",
+    "descricao": "Prime DayI see a light at the end of the tunnel here.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/one-of-these-rtx-5070-ti-gaming-laptops-is-even-cheaper-than-it-was-yesterday-but-both-are-still-in-stock-at-surprisingly-affordable-prices-this-prime-day/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pm9bCqHUF8VSDGgBW5FCDJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "My favorite ambidextrous mouse out there has just hit its lowest ever price this Prime Day (but only if you pick the flashy colors)",
+    "descricao": "Prime DayI prefer the pink anyway.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/my-favorite-ambidextrous-mouse-out-there-has-just-hit-its-lowest-ever-price-this-prime-day-but-only-if-you-pick-the-flashy-colors/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BnZkMVYqm5Wt9diHhVthPd.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "These Witcher book Prime Day discounts are a great way to pre-order the latest novel or get into the series before The Witcher 4",
+    "descricao": "Prime DayGet a discount on the new Witcher book or buy the whole series for cheap.",
+    "link": "https://www.pcgamer.com/hardware/these-witcher-book-prime-day-discounts-are-a-great-way-to-pre-order-the-latest-novel-or-get-into-the-series-before-the-witcher-4/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/frmWxaKNYGKDXkRhoebggm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-10T13:55:21"
   },
   {
     "titulo": "Hearken, competitive gamers, for this is the best mouse pad I've ever used and it's 20% off for Prime Day",
@@ -133,22 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/hearken-competitive-gamers-for-this-is-the-best-mouse-pad-ive-ever-used-and-its-20-percent-off-for-prime-day/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/v9uAsvgxVNLkUCsQ5Vfm53.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
+    "timestamp": "2025-07-10T13:55:21"
   },
   {
-    "titulo": "I only have eyes for this TMR controller—especially now it's less than $50 in the Prime Day sales",
-    "descricao": "Prime DayThe fun colourways help too.",
-    "link": "https://www.pcgamer.com/hardware/controllers/i-only-have-eyes-for-this-tmr-controller-especially-now-its-less-than-usd50-in-the-prime-day-sale/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4gjVTGX9vQuJtbii9bc8mN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
+    "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
   },
   {
-    "titulo": "The best budget AIO liquid cooler is 10% more budget-friendly in the Prime Day sales, making it 10% better than best",
-    "descricao": "Prime DayCooler Master's cooler is even cooler thanks to a cool little discount. Cool.",
-    "link": "https://www.pcgamer.com/hardware/cooling/the-best-budget-aio-liquid-cooler-is-10-percent-more-budget-friendly-in-the-prime-day-sales-making-it-10-percent-better-than-best/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/77NYTsiD59hUX3eZz6JBiJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-10T13:32:45"
+    "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "\"Uma das melhores experiências de terror que já tive”: este jogo tem sido aclamado no Steam com 95% de avaliações positivas; o mais surpreendente é que foi criado por apenas 3 pessoas",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/darkwood/142971/news/uma-das-melhores-experiencias-de-terror-que-ja-tive-este-jogo-tem-sido-aclamado-no-steam-com-95-de-a",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-4_djg1.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
+  },
+  {
+    "titulo": "Sem confirmação da 3ª temporada, produtor de Solo Leveling revela que novos episódios supostamente seriam bem diferentes do restante da série",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/solo-leveling/143010/news/sem-confirmacao-da-3a-temporada-produtor-de-solo-leveling-revela-que-novos-episodios-supostamente-se",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/sl_v3yw.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-10T13:55:21"
   }
 ];
