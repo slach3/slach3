@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-subnautica-2-saga-gets-nastier-with-ousted-leaders-confirming-theyll-sue-krafton-it-continues-to-be-an-explosive-and-surreal-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/PnDFWtJsMWRUbT6GHvEymH.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Today's Wordle answer for Friday, July 11",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-11-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vePXFAJBAFzDfVDZGvGYo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Krafton accuses former Subnautica 2 bosses of abandoning the game in surprising new statement: 'We feel a profound sense of betrayal by their failure to honor the trust placed in them'",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/krafton-accuses-former-subnautica-2-bosses-of-abandoning-the-game-in-surprising-new-statement-we-feel-a-profound-sense-of-betrayal-by-their-failure-to-honor-the-trust-placed-in-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/fNmKPAPwRkwPYLQAqK2oX8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Ghost of Yōtei's big gameplay showcase had new weapons, smoother exploration, and a 'lo-fi beats' mode from Samurai Champloo director Shinichirō Watanabe",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/ghost-of-yoteis-big-gameplay-showcase-had-new-weapons-smoother-exploration-and-a-lo-fi-beats-mode-from-samurai-champloo-director-shinichiro-watanabe/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MZWAB9uWVcZhdATrWtyH9Z.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "This is not the best wireless gaming headset of all time, but it's pretty good and at just $50 that's good enough for me",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-pcs/this-is-not-the-best-wireless-gaming-headset-of-all-time-but-its-pretty-good-and-at-just-usd50-thats-good-enough-for-me/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8WpiEiXwuXEpdPthxncm29.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Yep, Steam is down (update: we're so back)",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/yep-steam-is-down/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ocyiDF76QwDQKRvvKB2hRQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "My favorite crystal clear keyboard is cheaper than ever with even more color options and sizes than back when I bought it",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/my-favorite-crystal-clear-keyboard-is-cheaper-than-ever-with-even-more-color-options-and-sizes-than-back-when-i-bought-it/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uyaGXbR9kEcj7DHXwnWzo3.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "I've been reviewing screens since forever, and the Prime Day gaming monitor deals this year are the best I've ever seen",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-monitors/ive-been-reviewing-screens-since-forever-and-the-prime-day-gaming-monitor-deals-this-year-are-the-best-ive-ever-seen/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/cLSSUTGWpCsgBtyAPkU9LX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "É um pássaro? Um avião? Não! É Tom Welling, o Superman de Smallville, confirmado em evento no Brasil",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/smallville/143034/news/e-um-passaro-um-aviao-nao-e-tom-welling-o-superman-de-smallville-confirmado-em-evento-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-185024922_8jwj.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   },
   {
     "titulo": "A origem perturbadora da nossa amizade com gatos: novo estudo aponta para motivo sombrio de domesticação dos felinos",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/143030/news/a-origem-perturbadora-da-nossa-amizade-com-gatos-novo-estudo-aponta-para-motivo-sombrio-de-domestica",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_u5zv.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T04:48:49"
+    "timestamp": "2025-07-11T04:58:26"
   }
 ];
