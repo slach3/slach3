@@ -1,43 +1,19 @@
 const noticias = [
   {
-    "titulo": "'Coconuts will now bonk scouts': Peak's latest update makes fruit even deadlier but has spared other items from the same treatment",
-    "descricao": "NewsFalling coconuts kill 150 people a year (lie).",
-    "link": "https://www.pcgamer.com/games/adventure/coconuts-will-now-bonk-scouts-peaks-latest-update-makes-fruit-even-deadlier-but-has-spared-other-items-from-the-same-treatment/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ukRMvoCs4NMNNsGzoRfVfJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
-  },
-  {
-    "titulo": "WoW continues to eat FF14's lunch with its housing system on paper—says it'll just make more neighbourhoods if they're full, and you can have private guild ones, too",
-    "descricao": "NewsYou get a house, and you get a house, and you get a house!",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-continues-to-eat-ff14s-lunch-with-its-housing-system-on-paper-says-itll-just-make-more-neighbourhoods-if-theyre-full-and-you-can-have-private-guild-ones-too/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Cm7SYBF2E7JXuUigpaZ3wF.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
-  },
-  {
-    "titulo": "Our top-rated Mini-ITX PC case just went on sale in my favorite color scheme so of course I'm hovering over the buy button",
-    "descricao": "Prime DayWoopsie, finger slipped, got a new case.",
-    "link": "https://www.pcgamer.com/hardware/pc-cases/our-top-rated-mini-itx-pc-case-just-went-on-sale-in-my-favorite-color-scheme-so-of-course-im-hovering-over-the-buy-button/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/dw2UvPnMEdx5eGTdeEKd7d.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
-  },
-  {
     "titulo": "Prime Day deals LIVE: as a lifelong PC gaming expert, I'm handpicking all the best Prime Day deals still live as we enter the final day",
     "descricao": "LiveIt's Prime Day 4: A New Hope, and the end of Bezos' marathon sales event. But the deals continue today and into the weekend with other retailers.",
     "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
-    "titulo": "Rejoice, budget graphics cards are a thing once more and after many hours digging around the Prime Day GPUs deals I've unearthed six of 'em for $300 or less",
-    "descricao": "Prime DayHigh-end model prices are grim, but it's a much nicer affair at the affordable end of the spectrum.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/ive-spent-hours-trawling-through-the-prime-day-gpu-deals-and-these-are-the-six-graphics-cards-you-can-grab-for-usd300-or-less-but-theres-really-only-one-id-buy/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Ft9tLh7TjAZJqPmSbTHTES.jpg",
+    "titulo": "It's time to sort your life out and marathon the finest WW2 real-time tactics games of the early '00s—and for a mere $10, too",
+    "descricao": "NewsWell, early '00s and late '90s.",
+    "link": "https://www.pcgamer.com/games/strategy/its-time-to-sort-your-life-out-and-marathon-the-finest-ww2-real-time-tactics-games-of-the-early-00s-and-for-a-mere-usd10-too/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ynfiz6EA6Ka4xGBdxFj7cZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Prime Day deals live: I'm bringing you the perfect PC gaming impulse buys still available as these Prime Days draw to a close",
@@ -45,7 +21,39 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/live/news/prime-day-deals-impulse-buys-still-live/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
+  },
+  {
+    "titulo": "'Coconuts will now bonk scouts': Peak's latest update makes fruit even deadlier but has spared other items from the same treatment",
+    "descricao": "NewsFalling coconuts kill 150 people a year (lie).",
+    "link": "https://www.pcgamer.com/games/adventure/coconuts-will-now-bonk-scouts-peaks-latest-update-makes-fruit-even-deadlier-but-has-spared-other-items-from-the-same-treatment/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ukRMvoCs4NMNNsGzoRfVfJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T08:31:55"
+  },
+  {
+    "titulo": "WoW continues to eat FF14's lunch with its housing system on paper—says it'll just make more neighbourhoods if they're full, and you can have private guild ones, too",
+    "descricao": "NewsYou get a house, and you get a house, and you get a house!",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-continues-to-eat-ff14s-lunch-with-its-housing-system-on-paper-says-itll-just-make-more-neighbourhoods-if-theyre-full-and-you-can-have-private-guild-ones-too/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Cm7SYBF2E7JXuUigpaZ3wF.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T08:31:55"
+  },
+  {
+    "titulo": "Our top-rated Mini-ITX PC case just went on sale in my favorite color scheme so of course I'm hovering over the buy button",
+    "descricao": "Prime DayWoopsie, finger slipped, got a new case.",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/our-top-rated-mini-itx-pc-case-just-went-on-sale-in-my-favorite-color-scheme-so-of-course-im-hovering-over-the-buy-button/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/dw2UvPnMEdx5eGTdeEKd7d.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T08:31:55"
+  },
+  {
+    "titulo": "Rejoice, budget graphics cards are a thing once more and after many hours digging around the Prime Day GPUs deals I've unearthed six of 'em for $300 or less",
+    "descricao": "Prime DayHigh-end model prices are grim, but it's a much nicer affair at the affordable end of the spectrum.",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/ive-spent-hours-trawling-through-the-prime-day-gpu-deals-and-these-are-the-six-graphics-cards-you-can-grab-for-usd300-or-less-but-theres-really-only-one-id-buy/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Ft9tLh7TjAZJqPmSbTHTES.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "I spend hours every week tracking GPU prices and I've finally found a bunch of Prime Day graphics card deals at or below MSRP. And they're not just the 8 GB models, either",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/graphics-cards/as-unbelievable-as-this-sounds-ive-found-a-bunch-of-prime-day-graphics-cards-deals-that-are-either-on-or-under-their-original-msrp/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rumQXkCiXs9UEjPy6bxWy4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "There is literally no other Prime Day gaming laptop deal that comes close to this unprecedented $1,142 RTX 5080 notebook discount",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/gaming-laptops/ive-been-scanning-prime-day-gaming-laptop-deals-for-days-and-ive-finally-figured-out-how-to-buy-an-rtx-5080-machine-for-under-usd1-800-but-theres-a-knack/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LPBTVAYhDm5K4Y7V2gsD85.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
-  },
-  {
-    "titulo": "This Zotac RTX 5080 rig is still $1,000 off and better and cheaper than every other gaming PC deal I've seen over Prime Day",
-    "descricao": "Prime DayThis is a build I'd be proud to put on my desk.",
-    "link": "https://www.pcgamer.com/hardware/gaming-pcs/with-almost-usd1-000-knocked-off-this-zotac-rtx-5080-rig-its-both-better-and-cheaper-than-every-other-prime-day-gaming-pc-deal-ive-seen/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eDzG3bxzHR9icnepRYLATK.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "Jogadores de No Man's Sky construíram suas próprias estações espaciais, mas a Hello Games nunca as colocou no jogo",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/no-mans-sky/142909/news/jogadores-de-no-mans-sky-construiram-suas-proprias-estacoes-espaciais-mas-a-hello-games-nunca-as-col",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_by24.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   },
   {
     "titulo": "É um pássaro? Um avião? Não! É Tom Welling, o Superman de Smallville, confirmado em evento no Brasil",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/smallville/143034/news/e-um-passaro-um-aviao-nao-e-tom-welling-o-superman-de-smallville-confirmado-em-evento-no-brasil",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-185024922_8jwj.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T08:15:39"
+    "timestamp": "2025-07-11T08:31:55"
   }
 ];
