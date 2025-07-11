@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
-    "descricao": "LiveWe're pushing on through this marathon event, and into Prime Day 3: The Bezos Strikes Back.",
-    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "Prime Day deals live: I'm bringing you the perfect PC gaming impulse buys still available as these Prime Days draw to a close",
-    "descricao": "LiveIf you don't want to spend a ton of cash there are still some great ways to upgrade your PC gaming setup on a budget.",
-    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-deals-impulse-buys-still-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "Playdead's classic minimalist platformers Limbo and Inside are being pulled from GOG next week, so grab 'em while you can",
-    "descricao": "newsNo reason for the removal has been given, but Playdead recently filed a lawsuit against co-founder Dino Patti, escalating their long-running legal dispute.",
-    "link": "https://www.pcgamer.com/games/action/playdeads-classic-minimalist-platformers-limbo-and-inside-are-being-pulled-from-gog-next-week-so-grab-em-while-you-can/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/b5qhMt5x4fdYrmFTN2RPA6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "Stalker Trilogy fixes the issue that made me melt my PC with infinite quicksaves and repairs the blurry textures that have blighted players for months",
-    "descricao": "NewsNicely done, GSC.",
-    "link": "https://www.pcgamer.com/games/fps/stalker-trilogy-fixes-the-issue-that-made-me-melt-my-pc-with-infinite-quicksaves-and-repairs-the-blurry-textures-that-have-blighted-players-for-months/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8Fxj2PhXcJxQboMgkV9WZM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "Umamusume's horse girl lore has grown so out of control that its developer has had to put real-life stable etiquette in place",
-    "descricao": "newsLest we forget horses are very heavy and very sensitive.",
-    "link": "https://www.pcgamer.com/games/sim/umamusumes-horse-girl-lore-has-grown-so-out-of-control-that-its-developer-has-had-to-put-real-life-stable-etiquette-in-place/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/WaTr67GnLLjMrDqRDe5xKJ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "If you're on a tight budget here's an RTX 4060 Prime Day gaming laptop on sale for just $649, but I have to admit there is a catch",
-    "descricao": "Prime DayCan we really call this an RTX 4060?",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/if-youre-on-a-tight-budget-heres-an-rtx-4060-prime-day-gaming-laptop-on-sale-for-just-usd649-but-i-have-to-admit-there-is-a-catch/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ChrYTjsuT4nqZrz6UGMjYB.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "For $60 this Prime Day, you can pick up this wireless Razer MMO mouse with a whopping 19 programmable buttons",
-    "descricao": "Prime DayThat's a lot of buttons.",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/for-usd60-this-prime-day-you-can-pick-up-this-wireless-razer-mmo-mouse-with-a-whopping-19-programmable-buttons/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/Uk5xDCFhoGqRvdMBdhaVk4.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "If you're at all into driving games you should treat yourself to one of these Prime Day racing wheel deals",
-    "descricao": "Prime DayFour virtual wheels and the open monitor, all courtesy of these Prime Day deals.",
-    "link": "https://www.pcgamer.com/hardware/steering-wheels/its-time-to-give-up-trying-to-book-a-driving-test-and-embrace-your-sim-skills-with-these-prime-day-racing-wheel-deals/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/HwUP2fczQQvdWTfgtaZox5.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
-    "titulo": "My bank account isn't exactly overflowing at the moment, so here's the gaming laptop I'd buy with my own money this Prime Day",
-    "descricao": "Prime DayNot too much, not too little. Perfect.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/my-bank-account-isnt-exactly-overflowing-at-the-moment-so-heres-the-gaming-laptop-id-buy-with-my-own-money-this-prime-day/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/kSCeyq7hovQP54XzVKKpiN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T13:14:05"
-  },
-  {
     "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
     "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
@@ -133,22 +61,94 @@ const noticias = [
     "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
-    "titulo": "Bots, duplicações de itens e gacha: jogadores relatam problemas com recém-lançado servidor LATAM de Ragnarok Online; Gravity responde",
+    "titulo": "Tarifas de Trump podem impactar vendas de jogos brasileiros? Entenda como medidas tributárias afetam jogos digitais e físicos",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ragnarok-online/142839/feature/bots-duplicacoes-de-itens-e-gacha-jogadores-relatam-problemas-com-recem-lancado-servidor-latam-de-ra",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qsbk.280.jpg",
+    "link": "https://br.ign.com/games/143045/feature/tarifas-de-trump-podem-impactar-vendas-de-jogos-brasileiros-entenda-como-medidas-tributarias-afetam",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_f6y4.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
   },
   {
-    "titulo": "Combate melhorado, modo lo-fi e mais: tudo o que foi revelado no State of Play de Ghost of Yotei",
+    "titulo": "Falta pouco para ser lançado: novo FPS multiplayer do Steam traz estratégia espacial em combates táticos eletrizantes; veja conteúdo de lançamento e tudo o que você precisa saber",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ghost-of-yotei/143050/news/combate-melhorado-modo-lo-fi-e-mais-tudo-o-que-foi-revelado-no-state-of-play-de-ghost-of-yotei",
-    "imagem": "https://sm.ign.com/t/ign_br/news/g/ghost-of-y/ghost-of-yotei-state-of-play-july-2025-everything-revealed_sjjb.280.jpg",
+    "link": "https://br.ign.com/wildgate/143067/news/falta-pouco-para-ser-lancado-novo-fps-multiplayer-do-steam-traz-estrategia-espacial-em-combates-tati",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_pf72.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T13:14:05"
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
+    "descricao": "LiveWe're pushing on through this marathon event, and into Prime Day 3: The Bezos Strikes Back.",
+    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Prime Day deals live: I'm bringing you the perfect PC gaming impulse buys still available as these Prime Days draw to a close",
+    "descricao": "LiveIf you don't want to spend a ton of cash there are still some great ways to upgrade your PC gaming setup on a budget.",
+    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-deals-impulse-buys-still-live/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "I genuinely can't believe how cheap wireless Hall effect gaming keyboards are, with our pick for the best budget keeb getting a Prime Day price cut",
+    "descricao": "Prime DayBudget gamers are eating good recently.",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/i-genuinely-cant-believe-how-cheap-hall-effect-gaming-keyboards-are-with-our-favorite-wireless-budget-pick-being-just-usd40-right-now/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BGn7hk6i2oVNYy6ccgU9LZ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Stop what you're doing right now and look at this bubblegum pink PC case that's at its lowest ever price in the Amazon Prime Day sale at only $140",
+    "descricao": "Prime DayThere's little you could say to burst my bubble about this one.",
+    "link": "https://www.pcgamer.com/hardware/pc-cases/stop-what-youre-doing-right-now-and-look-at-this-bubblegum-pink-pc-case-thats-at-its-lowest-ever-price-in-the-amazon-prime-day-sale-at-only-usd140/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/sUQdd6eXrSyLZMFacSB2SD.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Playdead's classic minimalist platformers Limbo and Inside are being pulled from GOG next week, so grab 'em while you can",
+    "descricao": "newsNo reason for the removal has been given, but Playdead recently filed a lawsuit against co-founder Dino Patti, escalating their long-running legal dispute.",
+    "link": "https://www.pcgamer.com/games/action/playdeads-classic-minimalist-platformers-limbo-and-inside-are-being-pulled-from-gog-next-week-so-grab-em-while-you-can/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/b5qhMt5x4fdYrmFTN2RPA6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Stalker Trilogy fixes the issue that made me melt my PC with infinite quicksaves and repairs the blurry textures that have blighted players for months",
+    "descricao": "NewsNicely done, GSC.",
+    "link": "https://www.pcgamer.com/games/fps/stalker-trilogy-fixes-the-issue-that-made-me-melt-my-pc-with-infinite-quicksaves-and-repairs-the-blurry-textures-that-have-blighted-players-for-months/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8Fxj2PhXcJxQboMgkV9WZM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "Umamusume's horse girl lore has grown so out of control that its developer has had to put real-life stable etiquette in place",
+    "descricao": "newsLest we forget horses are very heavy and very sensitive.",
+    "link": "https://www.pcgamer.com/games/sim/umamusumes-horse-girl-lore-has-grown-so-out-of-control-that-its-developer-has-had-to-put-real-life-stable-etiquette-in-place/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/WaTr67GnLLjMrDqRDe5xKJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "If you're on a tight budget here's an RTX 4060 Prime Day gaming laptop on sale for just $649, but I have to admit there is a catch",
+    "descricao": "Prime DayCan we really call this an RTX 4060?",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/if-youre-on-a-tight-budget-heres-an-rtx-4060-prime-day-gaming-laptop-on-sale-for-just-usd649-but-i-have-to-admit-there-is-a-catch/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ChrYTjsuT4nqZrz6UGMjYB.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
+  },
+  {
+    "titulo": "For $60 this Prime Day, you can pick up this wireless Razer MMO mouse with a whopping 19 programmable buttons",
+    "descricao": "Prime DayThat's a lot of buttons.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/for-usd60-this-prime-day-you-can-pick-up-this-wireless-razer-mmo-mouse-with-a-whopping-19-programmable-buttons/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/Uk5xDCFhoGqRvdMBdhaVk4.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T13:43:52"
   }
 ];
