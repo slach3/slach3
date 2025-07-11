@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
-    "descricao": "LiveWe're pushing on through this marathon event, and into Prime Day 3: The Bezos Strikes Back.",
-    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "Uberwide 49-inch OLED gaming monitors used to be $2,000, you can still get one for $729 and it might just be the best Prime Day monitor deal around",
-    "descricao": "Prime DayMore screen than you can possibly imagine.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/uberwide-49-inch-oled-gaming-monitors-used-to-be-usd2-000-now-you-can-get-one-for-usd729-and-it-might-just-be-the-best-prime-day-monitor-deal-around/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/QsgjuktiUSyctYVZP4HWyn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "BioShock maestro Ken Levine says Judas is 'very old school' because 'you buy the game and you get the whole thing… no online component, no live service'",
-    "descricao": "NewsThough he doesn't \"blame anyone for trying to make a living.\"",
-    "link": "https://www.pcgamer.com/games/fps/bioshock-maestro-ken-levine-says-judas-is-very-old-school-because-you-buy-the-game-and-you-get-the-whole-thing-no-online-component-no-live-service/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8KFxrYLSpgdyD4YyGPjLbj.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "Capcom celebrates the first anniversary of Kunitsu-Gami: Path of the Goddess by ripping out its Denuvo DRM",
-    "descricao": "NewsHappy birthday!",
-    "link": "https://www.pcgamer.com/games/strategy/capcom-celebrates-the-first-anniversary-of-kunitsu-gami-path-of-the-goddess-by-ripping-out-its-denuvo-drm/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/TmHDf3B3XUYuVyE7MXEdug.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "These five deals have done nothing but drop in price over the Prime Day sales—and they're all still live",
-    "descricao": "Prime DayYou haven't missed out yet.",
-    "link": "https://www.pcgamer.com/hardware/these-five-deals-have-done-nothing-but-drop-in-price-over-the-prime-day-sales-and-theyre-all-still-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/EasCYgWwyHgyNymhYFJ6rM.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "MS Flight Sim 24 is the canary in the coal mine for RAM requirements, so I'm eyeballing these Prime Day deals on 64 GB kits for my next upgrade",
-    "descricao": "Prime DayDo you need 64 GB for every PC game? Not yet, but one sure does right now.",
-    "link": "https://www.pcgamer.com/hardware/memory/ms-flight-sim-24-is-the-canary-in-the-coal-mine-for-ram-requirements-so-im-eyeballing-these-prime-day-deals-on-64-gb-kits-for-my-next-upgrade/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/YLU5xzFmDDENRSmNc828R4.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "Seriously, the cheapest RTX 5060 gaming laptop we've found this Prime Day is an Alienware?! How times have changed",
-    "descricao": "Prime DayIt's not a total powerhouse, but it's still a good deal.",
-    "link": "https://www.pcgamer.com/hardware/gaming-laptops/seriously-the-cheapest-rtx-5060-gaming-laptop-weve-found-so-far-this-prime-day-is-an-alienware-my-how-times-have-changed/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/L3S7YLMJaJS9J5bWPVxDac.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "Prime Day deals live: I'm bringing you the perfect PC gaming impulse buys still available as these Prime Days draw to a close",
-    "descricao": "LiveIf you don't want to spend a ton of cash there are still some great ways to upgrade your PC gaming setup on a budget.",
-    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-deals-impulse-buys-still-live/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/n2JLMKZ9smnFXe2ncVz8nT.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
-    "titulo": "I genuinely can't believe how cheap wireless Hall effect gaming keyboards are, with our pick for the best budget keeb getting a Prime Day price cut",
-    "descricao": "Prime DayBudget gamers are eating good recently.",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/i-genuinely-cant-believe-how-cheap-hall-effect-gaming-keyboards-are-with-our-favorite-wireless-budget-pick-being-just-usd40-right-now/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/BGn7hk6i2oVNYy6ccgU9LZ.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-11T17:29:01"
-  },
-  {
     "titulo": "Devs de Donkey Kong: Bananza revelam easter eggs e como Mario Odyssey inspirou o game",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "20 anos depois, Capcom ainda não consegue escapar da sombra de RE4",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/resident-evil-4/142902/feature/20-anos-depois-capcom-ainda-nao-consegue-escapar-da-sombra-e-legado-de-resident-evil-4",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65226/65226_4s9s.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Boa notícia para os fãs: Marvel’s Blade ainda está vivo — mas jogo pode demorar bem mais que o previsto",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/142982/news/boa-noticia-para-os-fas-marvels-blade-ainda-esta-vivo-mas-jogo-pode-demorar-bem-mais-que-o-previsto",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xgj8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Após 14 anos, Stardew Valey destrona jogo mais bem avaliado do Steam e assume topo da lista",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/games/142977/news/apos-14-anos-stardew-valey-destrona-jogo-mais-bem-avaliado-do-steam-e-assume-topo-da-lista",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/maxresdefault_42pq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Netflix anuncia live-action de Solo Leveling e já tem protagonista escalado",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/solo-leveling/142970/news/netflix-anuncia-live-action-de-solo-leveling-e-ja-tem-protagonista-escalado",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-10-090724080_rpv8.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "15 anos após o sucesso de Fullmetal Alchemist, Studio Bones une forças novamente com criadora para adaptar seu mais recente mangá",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/fullmetal-alchemist-brotherhood-1/142947/news/15-anos-apos-o-sucesso-de-fullmetal-alchemist-studio-bones-une-forcas-novamente-com-criadora-para-ad",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_bpxs.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Monitor gamer curvo de 32” da AOC está com ótimo preço na Amazon",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/descontos/143085/news/monitor-gamer-curvo-de-32-da-aoc-esta-com-otimo-preco-na-amazon",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/monitor-aoc_tthr.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
   },
   {
     "titulo": "Modder famoso exclui conta do Steam após 20 anos e acusa Valve de \"dividir o mercado de PCs\"",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/tech/143089/news/modder-famoso-exclui-conta-do-steam-apos-20-anos-e-acusa-valve-de-dividir-o-mercado-de-pcs",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_wbqq.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-11T17:29:01"
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Pour one out for the stunning RTX 5080 gaming laptop deal that is now merely a good one. I mean, it remains the cheapest RTX 5080 notebook you'll find, but still 🥲",
+    "descricao": "Prime DayHP's Omen Max 16 is the laptop in question and it's still significantly cheaper than any other RTX 5080 gaming notebook.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/ive-been-scanning-prime-day-gaming-laptop-deals-for-days-and-ive-finally-figured-out-how-to-buy-an-rtx-5080-machine-for-under-usd1-800-but-theres-a-knack/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/LPBTVAYhDm5K4Y7V2gsD85.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Final Fantasy producer Yoshi-P says 'there's no clear-cut answer' to whether Final Fantasy will return to turn-based RPGs, because the direction of the next Final Fantasy will be up to the directors of the next Final Fantasy",
+    "descricao": "NewsWeird!",
+    "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-producer-yoshi-p-says-theres-no-clear-cut-answer-to-whether-final-fantasy-will-return-to-turn-based-rpgs-because-the-direction-of-the-next-final-fantasy-will-be-up-to-the-directors-of-the-next-final-fantasy/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/d7tKmSc8QoeUsVH9Ad2VRE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Prime Day gaming deals live: I'm a 20-year PC hardware veteran, and I'm being deployed once more to sniff out the best deals for you",
+    "descricao": "LiveWe're pushing on through this marathon event, and into Prime Day 3: The Bezos Strikes Back.",
+    "link": "https://www.pcgamer.com/hardware/live/news/prime-day-gaming-deals-live-im-a-20-year-pc-hardware-veteran-and-im-being-deployed-once-more-to-sniff-out-the-best-deals-for-you/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/gxynrzCiUyUHJU2uFdxqjh.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Uberwide 49-inch OLED gaming monitors used to be $2,000, you can still get one for $729 and it might just be the best Prime Day monitor deal around",
+    "descricao": "Prime DayMore screen than you can possibly imagine.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/uberwide-49-inch-oled-gaming-monitors-used-to-be-usd2-000-now-you-can-get-one-for-usd729-and-it-might-just-be-the-best-prime-day-monitor-deal-around/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/QsgjuktiUSyctYVZP4HWyn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "BioShock maestro Ken Levine says Judas is 'very old school' because 'you buy the game and you get the whole thing… no online component, no live service'",
+    "descricao": "NewsThough he doesn't \"blame anyone for trying to make a living.\"",
+    "link": "https://www.pcgamer.com/games/fps/bioshock-maestro-ken-levine-says-judas-is-very-old-school-because-you-buy-the-game-and-you-get-the-whole-thing-no-online-component-no-live-service/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8KFxrYLSpgdyD4YyGPjLbj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Capcom celebrates the first anniversary of Kunitsu-Gami: Path of the Goddess by ripping out its Denuvo DRM",
+    "descricao": "NewsHappy birthday!",
+    "link": "https://www.pcgamer.com/games/strategy/capcom-celebrates-the-first-anniversary-of-kunitsu-gami-path-of-the-goddess-by-ripping-out-its-denuvo-drm/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/TmHDf3B3XUYuVyE7MXEdug.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "These five deals have done nothing but drop in price over the Prime Day sales—and they're all still live",
+    "descricao": "Prime DayYou haven't missed out yet.",
+    "link": "https://www.pcgamer.com/hardware/these-five-deals-have-done-nothing-but-drop-in-price-over-the-prime-day-sales-and-theyre-all-still-live/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/EasCYgWwyHgyNymhYFJ6rM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "MS Flight Sim 24 is the canary in the coal mine for RAM requirements, so I'm eyeballing these Prime Day deals on 64 GB kits for my next upgrade",
+    "descricao": "Prime DayDo you need 64 GB for every PC game? Not yet, but one sure does right now.",
+    "link": "https://www.pcgamer.com/hardware/memory/ms-flight-sim-24-is-the-canary-in-the-coal-mine-for-ram-requirements-so-im-eyeballing-these-prime-day-deals-on-64-gb-kits-for-my-next-upgrade/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/YLU5xzFmDDENRSmNc828R4.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
+  },
+  {
+    "titulo": "Seriously, the cheapest RTX 5060 gaming laptop we've found this Prime Day is an Alienware?! How times have changed",
+    "descricao": "Prime DayIt's not a total powerhouse, but it's still a good deal.",
+    "link": "https://www.pcgamer.com/hardware/gaming-laptops/seriously-the-cheapest-rtx-5060-gaming-laptop-weve-found-so-far-this-prime-day-is-an-alienware-my-how-times-have-changed/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/L3S7YLMJaJS9J5bWPVxDac.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-11T17:44:25"
   }
 ];
