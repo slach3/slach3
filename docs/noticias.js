@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/this-wildly-ambitious-yakuza-5-co-op-mod-lets-you-play-together-as-kiryu-and-ichiban-even-folding-like-a-dragons-protagonist-into-the-games-cutscenes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TfguQeccsAo7cZFniAEWH5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "You can now play both campaigns of the original Command & Conquer in 2-player co-op, thanks to one of its best mods",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/you-can-now-play-both-campaigns-of-the-original-command-and-conquer-in-2-player-co-op-thanks-to-one-of-its-best-mods/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FKfLufeByJDYFUimGgU8VX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Warhammer 40k: Rogue Trader just received another 'massive' update, this time directed at its expansion",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-just-received-another-massive-update-this-time-directed-at-its-expansion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, July 13",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-13-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Rockstar support sites let slip that we might be getting current(ish) gen versions of GTA4 and Red Dead Redemption 2—but they probably won't be anything to write home about on PC",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/action/rockstar-support-sites-let-slip-that-we-might-be-getting-current-ish-gen-versions-of-gta4-and-red-dead-redemption-2-but-they-probably-wont-be-anything-to-write-home-about-on-pc/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ojqcey4SrxuUfLWaoS2DgT.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Krafton confirms Subnautica 2 leak showing that the publisher wanted more content for the early access launch, leading to delay and leadership ouster",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/krafton-confirms-subnautica-2-leak-showing-that-the-publisher-wanted-more-content-for-the-early-access-launch-leading-to-delay-and-leadership-ouster/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/mhVLa7oyDV9RiTLB4SpjZg.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "The Steam Summer Sale may be over, but Humble's got a $15 bundle with monster 40K RPG Rogue Trader, one of my favorite soulslikes, and more",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/the-steam-summer-sale-may-be-over-but-humbles-got-a-usd15-bundle-with-monster-40k-rpg-rogue-trader-one-of-my-favorite-soulslikes-and-more/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Black Mirror's creators have left Netflix, leaving the sci-fi anthology's future in question",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/movies-tv/black-mirrors-creators-have-left-netflix-leaving-the-sci-fi-anthologys-future-in-question/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4JQSZ3tr69YR4sjWdqwxAk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Monster Hunter fans are building LEGO models so good they should be official",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/monster-hunter-fans-are-building-lego-models-so-good-they-should-be-official/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BCkAxmNCfZYMqwrmYtUZx.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Combate melhorado, modo lo-fi e mais: tudo o que foi revelado sobre Ghost of Yotei",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/143050/news/combate-melhorado-modo-lo-fi-e-mais-tudo-o-que-foi-revelado-no-state-of-play-de-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65292/65292_cudu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Entrevista: easter eggs e como Mario Odyssey inspirou Donkey Kong Bananza",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Nem Guardiões da Galáxia, nem Esquadrão Suicida: James Gunn elege este filme rejeitado como um dos preferido da sua carreira",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143042/news/nem-guardioes-da-galaxia-nem-esquadrao-suicida-james-gunn-elege-este-filme-rejeitado-como-um-dos-pre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/super-super-gunn-h71v1280_xwka.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Tarifas de Trump podem impactar vendas de jogos brasileiros? Entenda como medidas tributárias afetam jogos digitais e físicos",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/143045/feature/tarifas-de-trump-podem-impactar-vendas-de-jogos-brasileiros-entenda-como-medidas-tributarias-afetam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_f6y4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "\"Foco total na comunidade\": Rainbow Six Mobile trará emoções e tiroteios táticos do Siege para telas dos celulares",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-mobile/142877/feature/foco-total-na-comunidade-rainbow-six-mobile-trara-emocoes-e-tiroteios-taticos-do-siege-para-telas-do",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image2_8teu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Bots, duplicações de itens e gacha: jogadores relatam problemas com recém-lançado servidor LATAM de Ragnarok Online; Gravity responde",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/ragnarok-online/142839/feature/bots-duplicacoes-de-itens-e-gacha-jogadores-relatam-problemas-com-recem-lancado-servidor-latam-de-ra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qsbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Christopher Nolan teria \"matado\" spin-off de O Cavaleiro das Trevas que focaria na história de Robin",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/batman-o-cavaleiro-das-trevas-ressurge/143083/news/christopher-nolan-teria-matado-spin-off-de-o-cavaleiro-das-trevas-que-focaria-na-historia-de-robin",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/c2_2cpf.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   },
   {
     "titulo": "Se a pergunta é quanto dinheiro é preciso para ser rico, a Geração Z é clara: esse valor aumenta a cada ano",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/143071/feature/se-a-pergunta-e-quanto-dinheiro-e-preciso-para-ser-rico-a-geracao-z-e-clara-esse-valor-aumenta-a-cad",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_wbvz.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T10:41:57"
+    "timestamp": "2025-07-13T10:53:08"
   }
 ];
