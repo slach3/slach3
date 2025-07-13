@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/a-game-once-sold-belongs-to-the-customer-prominent-eu-politician-stands-up-for-stop-killing-games/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bYAPvUeB74UhxaVqBfed7m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Ahead of its remaster, GOG added Neverwinter Nights 2 to its preservation program and is also giving owners of the original a 'loyalty discount' on the enhanced edition",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/ahead-of-its-remaster-gog-added-neverwinter-nights-2-to-its-preservation-program-and-is-also-giving-owners-of-the-original-a-loyalty-discount-on-the-enhanced-edition/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ANRnXkvYCgL8a8qK33woR8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "OpenAI is making its own browser, presumably to spite Google and cut out the middleman when collecting user data",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/openai-is-making-its-own-browser-presumably-to-spite-google-and-cut-out-the-middleman-when-collecting-user-data/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3R2ecLjwZNwFEP7tKKPhpC.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "The Expanse RPG's developers are 'humbled' by comparisons to BioWare's heyday, but don't expect it to be a straight Mass Effect clone: 'We make our story a little bit differently'",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/the-expanse-rpgs-developers-are-humbled-by-comparisons-to-biowares-heyday-but-dont-expect-it-to-be-a-straight-mass-effect-clone-we-make-our-story-a-little-bit-differently/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xYtvYGkE95quFiDvwSLs5W.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Total War: Warhammer 3's Tides of Torment DLC is delayed: 'We asked ourselves if this next DLC met the standards that we’ve set in recent releases, and the short answer was no'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/total-war-warhammer-3s-tides-of-torment-dlc-is-delayed-we-asked-ourselves-if-this-next-dlc-met-the-standards-that-weve-set-in-recent-releases-and-the-short-answer-was-no/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/dvbkTpXY2pNp3J9TxNJcZh.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "This wildly ambitious Yakuza 5 co-op mod lets you play together as Kiryu and Ichiban, even folding Like a Dragon's protagonist into the game's cutscenes",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/this-wildly-ambitious-yakuza-5-co-op-mod-lets-you-play-together-as-kiryu-and-ichiban-even-folding-like-a-dragons-protagonist-into-the-games-cutscenes/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/TfguQeccsAo7cZFniAEWH5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "You can now play both campaigns of the original Command & Conquer in 2-player co-op, thanks to one of its best mods",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/strategy/you-can-now-play-both-campaigns-of-the-original-command-and-conquer-in-2-player-co-op-thanks-to-one-of-its-best-mods/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FKfLufeByJDYFUimGgU8VX.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Warhammer 40k: Rogue Trader just received another 'massive' update, this time directed at its expansion",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-just-received-another-massive-update-this-time-directed-at-its-expansion/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Today's Wordle answer for Sunday, July 13",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-13-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Gachiakuta é o novo anime do momento — e estes são alguns dos segredos da autora Kei Urana",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Combate melhorado, modo lo-fi e mais: tudo o que foi revelado sobre Ghost of Yotei",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/143050/news/combate-melhorado-modo-lo-fi-e-mais-tudo-o-que-foi-revelado-no-state-of-play-de-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65292/65292_cudu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Nem Guardiões da Galáxia, nem Esquadrão Suicida: James Gunn elege este filme rejeitado como um dos preferido da sua carreira",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143042/news/nem-guardioes-da-galaxia-nem-esquadrao-suicida-james-gunn-elege-este-filme-rejeitado-como-um-dos-pre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/super-super-gunn-h71v1280_xwka.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Tarifas de Trump podem impactar vendas de jogos brasileiros? Entenda como medidas tributárias afetam jogos digitais e físicos",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/143045/feature/tarifas-de-trump-podem-impactar-vendas-de-jogos-brasileiros-entenda-como-medidas-tributarias-afetam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_f6y4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "\"Foco total na comunidade\": Rainbow Six Mobile trará emoções e tiroteios táticos do Siege para telas dos celulares",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-mobile/142877/feature/foco-total-na-comunidade-rainbow-six-mobile-trara-emocoes-e-tiroteios-taticos-do-siege-para-telas-do",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image2_8teu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Bots, duplicações de itens e gacha: jogadores relatam problemas com recém-lançado servidor LATAM de Ragnarok Online; Gravity responde",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/ragnarok-online/142839/feature/bots-duplicacoes-de-itens-e-gacha-jogadores-relatam-problemas-com-recem-lancado-servidor-latam-de-ra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qsbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "Com uma cabeça achatada e dentes enormes: foi descoberto um predador gigante mais antigo que os dinossauros",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/ciencia/143073/news/com-uma-cabeca-achatada-e-dentes-enormes-foi-descoberto-um-predador-gigante-mais-antigo-que-os-dinos",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_qf4e.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   },
   {
     "titulo": "“Eu não sei nada sobre eles”: maior jogador de League of Legends admite que desconhece completamente o universo do jogo",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/league-of-legends/143086/news/eu-nao-sei-nada-sobre-eles-maior-jogador-de-league-of-legends-admite-que-desconhece-completamente-o",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_jwn3.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T17:42:13"
+    "timestamp": "2025-07-13T17:52:08"
   }
 ];
