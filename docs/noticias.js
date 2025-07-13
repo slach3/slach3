@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Today's Wordle answer for Sunday, July 13",
-    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-13-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Rockstar support sites let slip that we might be getting current(ish) gen versions of GTA4 and Red Dead Redemption 2—but they probably won't be anything to write home about on PC",
-    "descricao": "newsCurrent gen RDR2, last gen GTA4.",
-    "link": "https://www.pcgamer.com/games/action/rockstar-support-sites-let-slip-that-we-might-be-getting-current-ish-gen-versions-of-gta4-and-red-dead-redemption-2-but-they-probably-wont-be-anything-to-write-home-about-on-pc/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ojqcey4SrxuUfLWaoS2DgT.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Krafton confirms Subnautica 2 leak showing that the publisher wanted more content for the early access launch, leading to delay and leadership ouster",
-    "descricao": "newsIt's supporting evidence for Krafton's narrative, but still not definitive.",
-    "link": "https://www.pcgamer.com/games/survival-crafting/krafton-confirms-subnautica-2-leak-showing-that-the-publisher-wanted-more-content-for-the-early-access-launch-leading-to-delay-and-leadership-ouster/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/mhVLa7oyDV9RiTLB4SpjZg.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "The Steam Summer Sale may be over, but Humble's got a $15 bundle with monster 40K RPG Rogue Trader, one of my favorite soulslikes, and more",
-    "descricao": "newsAny one of these games would be a good deal on its own for $14.99.",
-    "link": "https://www.pcgamer.com/games/the-steam-summer-sale-may-be-over-but-humbles-got-a-usd15-bundle-with-monster-40k-rpg-rogue-trader-one-of-my-favorite-soulslikes-and-more/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Black Mirror's creators have left Netflix, leaving the sci-fi anthology's future in question",
-    "descricao": "newsBroke & Bones founders Charlie Brooker and Annabel Jones are leaving their production company behind.",
-    "link": "https://www.pcgamer.com/movies-tv/black-mirrors-creators-have-left-netflix-leaving-the-sci-fi-anthologys-future-in-question/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4JQSZ3tr69YR4sjWdqwxAk.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Monster Hunter fans are building LEGO models so good they should be official",
-    "descricao": "newsForget LEGO Fortnite, the collaboration I want is LEGO Monster Hunter.",
-    "link": "https://www.pcgamer.com/games/monster-hunter-fans-are-building-lego-models-so-good-they-should-be-official/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/BCkAxmNCfZYMqwrmYtUZx.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "After 7 years in development, the most exciting Grand Theft Auto total conversion mod sets its sights on an August showcase",
-    "descricao": "NewsPrepare to throw it back to 1991.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/after-7-years-in-development-the-most-exciting-grand-theft-auto-total-conversion-mod-sets-its-sights-on-an-august-showcase/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/45oQjgjo5A43MZ49pqLWF.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Norland's 'big summer update' is even larger than March's 'damn big update', introducing a politics system, a new economy and more authentically medieval buildings to the Crusader Kings-inspired colony sim",
-    "descricao": "NewsDeveloper Long Jaunt plans to focus on roadmap features going forward.",
-    "link": "https://www.pcgamer.com/games/sim/norlands-big-summer-update-is-even-larger-than-marchs-damn-big-update-introducing-a-politics-system-a-new-economy-and-more-authentically-medieval-buildings-to-the-crusader-kings-inspired-colony-sim/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/SzW4zi27EDXEqUZj3nuFFK.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
-    "titulo": "Two Point Museum's latest update lets you manage a museum atop a massive mountain, and allows all players a taste of its upcoming fantasy-themed DLC",
-    "descricao": "NewsStarter dungeon.",
-    "link": "https://www.pcgamer.com/games/sim/two-point-museums-latest-update-lets-you-manage-a-museum-atop-a-massive-mountain-and-allows-all-players-a-taste-of-its-upcoming-fantasy-themed-dlc/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/PaQMJdqJu7aAZopzKvzEqH.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-13T07:57:44"
-  },
-  {
     "titulo": "Combate melhorado, modo lo-fi e mais: tudo o que foi revelado sobre Ghost of Yotei",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/ghost-of-yotei/143050/news/combate-melhorado-modo-lo-fi-e-mais-tudo-o-que-foi-revelado-no-state-of-play-de-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65292/65292_cudu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Entrevista: easter eggs e como Mario Odyssey inspirou Donkey Kong Bananza",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/142976/feature/esperamos-proporcionar-uma-experiencia-confortavel-para-os-fas-de-longa-data-desenvolvedores-de-donk",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65270/65270_ed4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Nova expansão de The Sims 4 tem visuais deslumbrantes, mas peca em gameplay",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/the-sims-4-game/142765/feature/de-apotecaria-a-assistente-da-mae-natureza-nova-expansao-de-the-sims-4-tem-visuais-deslumbrantes-mas",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65271/65271_8ejg.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Nem Guardiões da Galáxia, nem Esquadrão Suicida: James Gunn elege este filme rejeitado como um dos preferido da sua carreira",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143042/news/nem-guardioes-da-galaxia-nem-esquadrao-suicida-james-gunn-elege-este-filme-rejeitado-como-um-dos-pre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/super-super-gunn-h71v1280_xwka.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Tarifas de Trump podem impactar vendas de jogos brasileiros? Entenda como medidas tributárias afetam jogos digitais e físicos",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/games/143045/feature/tarifas-de-trump-podem-impactar-vendas-de-jogos-brasileiros-entenda-como-medidas-tributarias-afetam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_f6y4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "\"Foco total na comunidade\": Rainbow Six Mobile trará emoções e tiroteios táticos do Siege para telas dos celulares",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-mobile/142877/feature/foco-total-na-comunidade-rainbow-six-mobile-trara-emocoes-e-tiroteios-taticos-do-siege-para-telas-do",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image2_8teu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Bots, duplicações de itens e gacha: jogadores relatam problemas com recém-lançado servidor LATAM de Ragnarok Online; Gravity responde",
@@ -133,7 +61,15 @@ const noticias = [
     "link": "https://br.ign.com/ragnarok-online/142839/feature/bots-duplicacoes-de-itens-e-gacha-jogadores-relatam-problemas-com-recem-lancado-servidor-latam-de-ra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qsbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Diretor de Overwatch 2 revela que Blizzard deseja dar \"segunda chance\" ao conteúdo de história após decepcionar fãs com PvE",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/overwatch-2/143080/news/diretor-de-overwatch-2-revela-que-blizzard-deseja-dar-segunda-chance-ao-conteudo-de-historia-apos-de",
+    "imagem": "https://sm.ign.com/t/ign_br/news/o/overwatch-/overwatch-2-director-says-blizzard-wants-to-get-back-to-stor_cua1.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
     "titulo": "Há uma coisa que não estamos fazendo o suficiente com nossas contas em serviços e que deveríamos fazer para nossa própria segurança",
@@ -141,14 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/tech/143027/news/ha-uma-coisa-que-nao-estamos-fazendo-o-suficiente-com-nossas-contas-em-servicos-e-que-deveriamos-faz",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_9eku.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "timestamp": "2025-07-13T08:19:58"
   },
   {
-    "titulo": "Ken, de Street Fighter, ganha primeiro trailer de gameplay em Fatal Fury: City of the Wolves",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/fatal-fury-city-of-the-wolves/143100/news/ken-de-street-fighter-ganha-primeiro-trailer-de-gameplay-em-fatal-fury-city-of-the-wolves",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ken-fatal-fury_3y71.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-13T07:57:44"
+    "titulo": "Warhammer 40k: Rogue Trader just received another 'massive' update, this time directed at its expansion",
+    "descricao": "NewsUpdate 1.4.1 makes a new party character appear earlier in the game, among many other changes.",
+    "link": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-just-received-another-massive-update-this-time-directed-at-its-expansion/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Today's Wordle answer for Sunday, July 13",
+    "descricao": "regular riddleHelp with solving Sunday's puzzle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-13-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Rockstar support sites let slip that we might be getting current(ish) gen versions of GTA4 and Red Dead Redemption 2—but they probably won't be anything to write home about on PC",
+    "descricao": "newsCurrent gen RDR2, last gen GTA4.",
+    "link": "https://www.pcgamer.com/games/action/rockstar-support-sites-let-slip-that-we-might-be-getting-current-ish-gen-versions-of-gta4-and-red-dead-redemption-2-but-they-probably-wont-be-anything-to-write-home-about-on-pc/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ojqcey4SrxuUfLWaoS2DgT.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Krafton confirms Subnautica 2 leak showing that the publisher wanted more content for the early access launch, leading to delay and leadership ouster",
+    "descricao": "newsIt's supporting evidence for Krafton's narrative, but still not definitive.",
+    "link": "https://www.pcgamer.com/games/survival-crafting/krafton-confirms-subnautica-2-leak-showing-that-the-publisher-wanted-more-content-for-the-early-access-launch-leading-to-delay-and-leadership-ouster/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/mhVLa7oyDV9RiTLB4SpjZg.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "The Steam Summer Sale may be over, but Humble's got a $15 bundle with monster 40K RPG Rogue Trader, one of my favorite soulslikes, and more",
+    "descricao": "newsAny one of these games would be a good deal on its own for $14.99.",
+    "link": "https://www.pcgamer.com/games/the-steam-summer-sale-may-be-over-but-humbles-got-a-usd15-bundle-with-monster-40k-rpg-rogue-trader-one-of-my-favorite-soulslikes-and-more/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/ELuPiMFu3wLZK6bb7iiFuA.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Black Mirror's creators have left Netflix, leaving the sci-fi anthology's future in question",
+    "descricao": "newsBroke & Bones founders Charlie Brooker and Annabel Jones are leaving their production company behind.",
+    "link": "https://www.pcgamer.com/movies-tv/black-mirrors-creators-have-left-netflix-leaving-the-sci-fi-anthologys-future-in-question/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4JQSZ3tr69YR4sjWdqwxAk.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Monster Hunter fans are building LEGO models so good they should be official",
+    "descricao": "newsForget LEGO Fortnite, the collaboration I want is LEGO Monster Hunter.",
+    "link": "https://www.pcgamer.com/games/monster-hunter-fans-are-building-lego-models-so-good-they-should-be-official/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/BCkAxmNCfZYMqwrmYtUZx.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "After 7 years in development, the most exciting Grand Theft Auto total conversion mod sets its sights on an August showcase",
+    "descricao": "NewsPrepare to throw it back to 1991.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/after-7-years-in-development-the-most-exciting-grand-theft-auto-total-conversion-mod-sets-its-sights-on-an-august-showcase/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/45oQjgjo5A43MZ49pqLWF.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
+  },
+  {
+    "titulo": "Norland's 'big summer update' is even larger than March's 'damn big update', introducing a politics system, a new economy and more authentically medieval buildings to the Crusader Kings-inspired colony sim",
+    "descricao": "NewsDeveloper Long Jaunt plans to focus on roadmap features going forward.",
+    "link": "https://www.pcgamer.com/games/sim/norlands-big-summer-update-is-even-larger-than-marchs-damn-big-update-introducing-a-politics-system-a-new-economy-and-more-authentically-medieval-buildings-to-the-crusader-kings-inspired-colony-sim/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/SzW4zi27EDXEqUZj3nuFFK.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-13T08:19:58"
   }
 ];
