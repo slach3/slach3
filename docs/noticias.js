@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Now Prime Day is over, AMD gaming PCs have returned to the top of the value pile, case in point this RX 9070 XT and 9800X3D build",
+    "descricao": "DealA great all-around build for $2,000.",
+    "link": "https://www.pcgamer.com/hardware/gaming-pcs/now-prime-day-is-over-amd-gaming-pcs-have-returned-to-the-top-of-the-value-pile-case-in-point-this-rx-9070-xt-and-9800x3d-build/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/V5nzMJquurwq2aC3vQ6ZcJ.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-14T08:57:31"
+  },
+  {
     "titulo": "This YouTube channel is converting a 3,287-hour FAA-certified flight simulator into a gaming PC-based sim rig and it wants your help",
     "descricao": "NewsA level of sim nerdery I can truly appreciate.",
     "link": "https://www.pcgamer.com/hardware/controllers/this-youtube-channel-is-converting-a-3-287-hour-faa-certified-flight-simulator-into-a-gaming-pc-based-sim-rig-and-it-wants-your-help/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8F2JtP2jQT6sHzbxLiEVLW.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "A fan favourite X-Men hero has just been name-dropped in Marvel Rivals, and while I want her to join the fight, I just don't know if it would be possible",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/third-person-shooter/a-fan-favourite-x-men-hero-has-just-been-name-dropped-in-marvel-rivals-and-while-i-want-her-to-join-the-fight-i-just-dont-know-if-it-would-be-possible/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/rbFkoGJVE8auwbjjtx6cdb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "'We made it too difficult for players to even get into the raid in the first place': Final Fantasy 14 director admits its latest dungeon was 'a misstep in development'",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/final-fantasy/we-made-it-too-difficult-for-players-to-even-get-into-the-raid-in-the-first-place-final-fantasy-14-director-admits-its-latest-dungeon-was-a-misstep-in-development/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/B5cXMveYu4jffTaw5UAiPk.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Today's Wordle answer for Monday, July 14",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-14-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/CPxgbKSs9wG73hXWAtmjr.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Those shadow giants in the distance in Elden Ring Nightreign are over 2 miles tall⁠—almost as big as the Erdtree⁠—and nobody even mentions them in the game",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/those-shadow-giants-in-the-distance-in-elden-ring-nightreign-are-over-2-miles-tall-almost-as-big-as-the-erdtree-and-nobody-even-mentions-them-in-the-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/GjLNFnXMJsmD52sn4wYCA4.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "A new Dark Souls 3 lighting tool is giving modders the power to make next-gen facelifts of the FromSoft classic",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/a-new-dark-souls-3-lighting-tool-is-giving-modders-the-power-to-make-next-gen-facelifts-of-the-fromsoft-classic/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/NUNLd6iU3YSdmLDuDACRd5.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "'A game, once sold, belongs to the customer': Prominent EU politician stands up for Stop Killing Games",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/a-game-once-sold-belongs-to-the-customer-prominent-eu-politician-stands-up-for-stop-killing-games/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/bYAPvUeB74UhxaVqBfed7m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Ahead of its remaster, GOG added Neverwinter Nights 2 to its preservation program and is also giving owners of the original a 'loyalty discount' on the enhanced edition",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/ahead-of-its-remaster-gog-added-neverwinter-nights-2-to-its-preservation-program-and-is-also-giving-owners-of-the-original-a-loyalty-discount-on-the-enhanced-edition/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ANRnXkvYCgL8a8qK33woR8.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
-  },
-  {
-    "titulo": "OpenAI is making its own browser, presumably to spite Google and cut out the middleman when collecting user data",
-    "descricao": "newsIf you want more ChatGPT in your web browsing experience, you're in luck.",
-    "link": "https://www.pcgamer.com/gaming-industry/openai-is-making-its-own-browser-presumably-to-spite-google-and-cut-out-the-middleman-when-collecting-user-data/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/3R2ecLjwZNwFEP7tKKPhpC.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Gachiakuta é o novo anime do momento — e estes são alguns dos segredos da autora Kei Urana",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Combate melhorado, modo lo-fi e mais: tudo o que foi revelado sobre Ghost of Yotei",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/ghost-of-yotei/143050/news/combate-melhorado-modo-lo-fi-e-mais-tudo-o-que-foi-revelado-no-state-of-play-de-ghost-of-yotei",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65292/65292_cudu.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Superman é semente promissora para novo universo cinematográfico da DC | Review",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/142818/review/superman-e-semente-promissora-para-novo-universo-cinematografico-da-dc-review",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65225/65225_gmhy.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Nem Guardiões da Galáxia, nem Esquadrão Suicida: James Gunn elege este filme rejeitado como um dos preferido da sua carreira",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143042/news/nem-guardioes-da-galaxia-nem-esquadrao-suicida-james-gunn-elege-este-filme-rejeitado-como-um-dos-pre",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/super-super-gunn-h71v1280_xwka.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Tarifas de Trump podem impactar vendas de jogos brasileiros? Entenda como medidas tributárias afetam jogos digitais e físicos",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/games/143045/feature/tarifas-de-trump-podem-impactar-vendas-de-jogos-brasileiros-entenda-como-medidas-tributarias-afetam",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_f6y4.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "\"Foco total na comunidade\": Rainbow Six Mobile trará emoções e tiroteios táticos do Siege para telas dos celulares",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/rainbow-six-mobile/142877/feature/foco-total-na-comunidade-rainbow-six-mobile-trara-emocoes-e-tiroteios-taticos-do-siege-para-telas-do",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/image2_8teu.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Bots, duplicações de itens e gacha: jogadores relatam problemas com recém-lançado servidor LATAM de Ragnarok Online; Gravity responde",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/ragnarok-online/142839/feature/bots-duplicacoes-de-itens-e-gacha-jogadores-relatam-problemas-com-recem-lancado-servidor-latam-de-ra",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_qsbk.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "\"Vamos seguir caminhos diferentes\": conflito interno motiva criador do Linux a apagar 10 anos de trabalho de uma só vez",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/linux/143102/news/vamos-seguir-caminhos-diferentes-conflito-interno-motiva-criador-do-linux-a-apagar-10-anos-de-trabal",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_hjyv.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   },
   {
     "titulo": "Jogador descobriu como fazer um NPC de Baldur's Gate 3 cumprir uma promessa esquecida no RPG",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/baldurs-gate-3/142958/news/jogador-descobriu-como-fazer-um-npc-de-baldurs-gate-3-cumprir-uma-promessa-esquecida-no-rpg",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-20_jxbs.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T08:47:44"
+    "timestamp": "2025-07-14T08:57:31"
   }
 ];
