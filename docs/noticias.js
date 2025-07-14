@@ -5,7 +5,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/a-future-has-been-stolen-from-many-of-us-and-our-community-will-never-experience-an-amazing-game-microsoft-mmo-devs-respond-to-cancelation-of-project-phil-spencer-reportedly-loved/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/8eKky2mNSzdMAZR3KhoFVn.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "GTA 4's most famous lighting mod gets its first major update in 11 years, brightening up Liberty City from cloud to ground",
@@ -13,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-4s-most-famous-lighting-mod-gets-its-first-major-update-in-11-years-brightening-up-liberty-city-from-cloud-to-ground/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/FtXA5DpMw4PousnFVCFznR.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Epic publicly humiliates 2 more Fortnite cheaters by forcing them to say sorry and promise to never, ever do it again",
@@ -21,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/epic-publicly-humiliates-2-more-fortnite-cheaters-by-forcing-them-to-say-sorry-and-promise-to-never-ever-do-it-again/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/V3H7v97WYzx3mRMQE4qPvN.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "My most-played game of the last 5 years is 30% off on Steam right now, alongside a ton of other factory games that can absolutely devour your life",
@@ -29,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sim/my-most-played-game-of-the-last-5-years-is-30-percent-off-on-steam-right-now-alongside-a-ton-of-other-factory-games-that-can-absolutely-devour-your-life/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/6Xw3bHydca5Z3B5RNNPaqQ.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Fresh from telling laid-off employees to console themselves with AI, Microsoft doubles down by advertising Xbox jobs with pathetic AI image: 'So tone deaf I hope it is satire'",
@@ -37,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/ai/fresh-from-telling-laid-off-employees-to-console-themselves-with-ai-microsoft-doubles-down-by-advertising-xbox-jobs-with-pathetic-ai-image-so-tone-deaf-i-hope-it-is-satire/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Good news for multitaskers: Microsoft is gradually rolling out taskbar scaling to squeeze in as many icons as possible in the latest Windows 11 Insider build",
@@ -45,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/good-news-for-multitaskers-microsoft-is-gradually-rolling-out-taskbar-scaling-to-squeeze-in-as-many-icons-as-possible-in-the-latest-windows-11-insider-build/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/MYkHhAjRMp3ewDjjUKjdca.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Leaked pricing suggests the ROG Xbox Ally X might be the most expensive Xbox console yet, which probably isn't the award Microsoft is aiming for",
@@ -53,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/leaked-pricing-suggests-the-rog-xbox-ally-x-might-be-the-most-expensive-xbox-console-yet-which-probably-isnt-the-award-microsoft-is-aiming-for/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oD9muGka6BjNUaGSLwWtse.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "One problem with making an Assassin's Creed game in Ancient Greece, says Ubisoft, is that there just weren't enough tall buildings for a 'climbing frame game'",
@@ -61,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/assassins-creed/one-problem-with-making-an-assassins-creed-game-in-ancient-greece-says-ubisoft-is-that-there-just-werent-enough-tall-buildings-for-a-climbing-frame-game/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LpNUFM5knF8ZzgUXAZiG65.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Borderlands 4 is hiding more than 200 collectible Marcus bobbleheads in hard-to-reach places, and Randy Pitchford reckons 'most players will never see any of them'",
@@ -69,7 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/borderlands-4-is-hiding-more-than-200-collectible-marcus-bobbleheads-in-hard-to-reach-places-and-randy-pitchford-reckons-most-players-will-never-see-any-of-them/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/3eT276gxef3R5qo7yCPDNP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid-19, histórias escondidas e como Lost ajudou escritora principal a encontrar estilo de roteiro",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Como Wuchang: Fallen Feathers se diferencia dentro do gênero soulslike",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/wuchang-fallen-feathers/143028/news/queriamos-algo-que-parecesse-acessivel-mas-com-sua-propria-identidade-e-ritmo-diretor-de-wuchang-fal",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65366/65366_ha2z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "O ambicioso jogo da EA com Steven Spielberg que quase revolucionou a indústria",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/steven-spielberg/143077/news/lmno-o-ambicioso-jogo-da-ea-com-steven-spielberg-que-quase-revolucionou-a-relacao-entre-jogador-e-ia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65367/65367_cgjt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Gachiakuta é o novo anime do momento — e estes são os segredos da autora Kei Urana",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "\"Está no nosso radar\": escritora principal de Clair Obscur: Expedition 33 diz que equipe tem estudado melhor formato para ampliar universo",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/143163/news/esta-no-nosso-radar-escritora-principal-de-clair-obscur-expedition-33-diz-que-equipe-tem-estudado-me",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hit-rpg-cl/hit-rpg-clair-obscur-expedition-33-tops-1-million-sales-in-j_hgwr.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Superman acaba de fazer história nos cinemas: filme de James Gunn destrona Zack Snyder do topo da franquia",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/143121/news/superman-acaba-de-fazer-historia-nos-cinemas-filme-de-james-gunn-destrona-zack-snyder-do-topo-da-fra",
     "imagem": "https://sm.ign.com/t/ign_br/news/r/report-rev/report-reveals-new-details-on-james-gunns-dcu-plan-including_fb53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Nem Androide 18, nem Caulifla: esta é a personagem feminina mais forte da história de Dragon Ball, segundo fãs",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/dragon-ball-2/143079/news/nem-androide-18-nem-caulifla-esta-e-a-personagem-feminina-mais-forte-da-historia-de-dragon-ball-segu",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mnkc.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Plano B? Estas seriam as 3 profissões incomuns que Shigeru Miyamoto seguiria se não tivesse entrado na Nintendo",
@@ -141,7 +141,7 @@ const noticias = [
     "link": "https://br.ign.com/shigerumiyamoto/143048/news/plano-b-estas-seriam-as-3-profissoes-incomuns-que-shigeru-miyamoto-seguiria-se-nao-tivesse-entrado-n",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ngvq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   },
   {
     "titulo": "Adeus aos novos recursos do Office: Microsoft usou novo truque na manga para fazer com que usuários abandonem Windows 10",
@@ -149,6 +149,6 @@ const noticias = [
     "link": "https://br.ign.com/tech/143174/news/adeus-aos-novos-recursos-do-office-microsoft-usou-novo-truque-na-manga-para-fazer-com-que-usuarios-a",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_sm5r.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-14T18:44:17"
+    "timestamp": "2025-07-14T18:54:09"
   }
 ];
