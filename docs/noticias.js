@@ -1,83 +1,19 @@
 const noticias = [
   {
-    "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid-19, histórias escondidas e como Lost ajudou escritora principal a encontrar estilo de roteiro",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
-    "imagem": null,
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
+    "titulo": "'We could have, at that point, put out a s*** game': Former Deep Silver comms boss says Dead Island 2 released 8 years late because an earlier version 'would have killed the franchise' if it wasn't binned",
+    "descricao": "NewsDead Island 2's original developers have said the cancellation was \"catastrophic.\"",
+    "link": "https://www.pcgamer.com/games/rpg/we-could-have-at-that-point-put-out-a-s-game-former-deep-silver-comms-boss-says-dead-island-2-released-8-years-late-because-an-earlier-version-would-have-killed-the-franchise-if-it-wasnt-binned/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/o3Xkg8eeMX3F42VwYkvkfM.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
-    "titulo": "Como Wuchang: Fallen Feathers se diferencia dentro do gênero soulslike",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/wuchang-fallen-feathers/143028/news/queriamos-algo-que-parecesse-acessivel-mas-com-sua-propria-identidade-e-ritmo-diretor-de-wuchang-fal",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65366/65366_ha2z.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "O ambicioso jogo da EA com Steven Spielberg que quase revolucionou a indústria",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/steven-spielberg/143077/news/lmno-o-ambicioso-jogo-da-ea-com-steven-spielberg-que-quase-revolucionou-a-relacao-entre-jogador-e-ia",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65367/65367_cgjt.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "Gachiakuta é o novo anime do momento — e estes são os segredos da autora Kei Urana",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "\"Está no nosso radar\": escritora principal de Clair Obscur: Expedition 33 diz que equipe tem estudado melhor formato para ampliar universo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/143163/news/esta-no-nosso-radar-escritora-principal-de-clair-obscur-expedition-33-diz-que-equipe-tem-estudado-me",
-    "imagem": "https://sm.ign.com/t/ign_br/news/h/hit-rpg-cl/hit-rpg-clair-obscur-expedition-33-tops-1-million-sales-in-j_hgwr.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "Superman acaba de fazer história nos cinemas: filme de James Gunn destrona Zack Snyder do topo da franquia",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/superman-james-gunn/143121/news/superman-acaba-de-fazer-historia-nos-cinemas-filme-de-james-gunn-destrona-zack-snyder-do-topo-da-fra",
-    "imagem": "https://sm.ign.com/t/ign_br/news/r/report-rev/report-reveals-new-details-on-james-gunns-dcu-plan-including_fb53.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "Nem Androide 18, nem Caulifla: esta é a personagem feminina mais forte da história de Dragon Ball, segundo fãs",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/dragon-ball-2/143079/news/nem-androide-18-nem-caulifla-esta-e-a-personagem-feminina-mais-forte-da-historia-de-dragon-ball-segu",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mnkc.320.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "Plano B? Estas seriam as 3 profissões incomuns que Shigeru Miyamoto seguiria se não tivesse entrado na Nintendo",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/shigerumiyamoto/143048/news/plano-b-estas-seriam-as-3-profissoes-incomuns-que-shigeru-miyamoto-seguiria-se-nao-tivesse-entrado-n",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ngvq.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
-  },
-  {
-    "titulo": "Convite recebido! Round 6 chega a Free Fire nesta sexta-feira (18) com itens inéditos e jogos clássicos da série",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/free-fire/143219/news/convite-recebido-round-6-chega-a-free-fire-nesta-sexta-feira-18-com-itens-ineditos-e-jogos-classicos",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/fotojet-27_547y.280.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T14:55:35"
+    "titulo": "Intel job losses mount as 4,000 layoffs are reported across multiple sites in California, Oregon, Texas and Arizona",
+    "descricao": "NewsBut there could be much worse to come.",
+    "link": "https://www.pcgamer.com/hardware/processors/intel-job-losses-mount-as-4-000-layoffs-are-reported-across-multiple-sites-in-california-oregon-texas-and-arizona/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/gywvJokCYFrGaCdJJFwopR.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "Minecraft says to hell with it, adds in-game version of Lava Chicken song, which you get by beating a chicken jockey",
@@ -85,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/survival-crafting/minecraft-says-to-hell-with-it-adds-in-game-version-of-lava-chicken-song-which-you-get-by-beating-a-chicken-jockey/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/EC5nDAadKe9bQfK6YfxeYQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "Tony Hawk's Pro Skater 3 + 4 developer is trying to figure out who put the edgy Guitar Hero gag in the game it made, promises to remove it in the next update even though players want it to stay",
@@ -93,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/sports/tony-hawks-pro-skater-3-4-developer-is-trying-to-figure-out-who-put-the-edgy-guitar-hero-gag-in-the-game-it-made-promises-to-remove-it-in-the-next-update-even-though-players-want-it-to-stay/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ffxXUZQfXiKRrHDKEGPZxj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "Microsoft's 200 laid-off King devs are reportedly being replaced by AI they helped build, while its 'absolute 's***show' HR department looks away and whistles",
@@ -101,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/microsofts-200-laid-off-king-devs-are-reportedly-being-replaced-by-ai-they-helped-build-while-its-absolute-s-show-hr-department-looks-away-and-whistles/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/wSCsvnB8pJCUBumhw4gxqY.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "The Nintendo DS had it right all along: Ayaneo launches Flip 1S DS and Flip 1S KB, two new clamshell handheld gaming PCs with prices to make your teeth clench",
@@ -109,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/the-nintendo-ds-had-it-right-all-along-ayaneo-launches-flip-1s-ds-and-flip-1s-kb-two-new-clamshell-handheld-gaming-pcs-with-prices-to-make-your-teeth-clench/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/oskZema5UmRaEWcJLgVQxH.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "Guild Wars 2's sixth expansion is taking players to an island paradise this October, with beachside player housing and a major addition to buildcrafting",
@@ -117,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/mmo/guild-wars-2s-sixth-expansion-is-taking-players-to-an-island-paradise-this-october-with-beachside-player-housing-and-a-major-addition-to-buildcrafting/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/LowFsWNwBiL8YVVqR2EiqQ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "Escape from Tarkov begins to quietly U-turn after last week's hardcore wipe left players penniless and bored to tears with the grind",
@@ -125,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/escape-from-tarkov-begins-to-quietly-u-turn-after-last-weeks-hardcore-wipe-left-players-penniless-and-bored-to-tears-with-the-grind/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/yCvVpTt3ZcgiJjr85uqvaj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
     "titulo": "It might give me the heebie jeebies but I can't help wanting one of these transparent power supplies to soothe my retro-starved mind",
@@ -133,22 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/power-supplies/it-might-give-me-the-heebie-jeebies-but-i-cant-help-wanting-one-of-these-transparent-power-supplies-to-soothe-my-retro-starved-mind/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/WWTPQ9sXaypxYKmP7XfeFL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
-    "titulo": "Meta is expanding its AI capabilities so quickly it's housing data centers in tents, which would make them data tenters, no?",
-    "descricao": "NewsMy editors are going to hate this headline.",
-    "link": "https://www.pcgamer.com/software/ai/meta-is-expanding-its-ai-capabilities-so-quickly-its-housing-data-centers-in-tents-which-would-make-them-data-tenters-no/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/ggq574UZCnbPzwsvaCPdYU.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid-19, histórias escondidas e como Lost ajudou escritora principal a encontrar estilo de roteiro",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
+    "imagem": null,
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
   },
   {
-    "titulo": "As if being worth $4 trillion isn't enough, Nvidia claims the US government says it can start selling AI GPUs to China again",
-    "descricao": "NewsBut still not the really powerful ones.",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/as-if-being-worth-usd4-trillion-isnt-enough-nvidia-claims-the-us-government-says-it-can-start-selling-ai-gpus-to-china-again/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/c3RwNWN8XeDGfgrBXGaR4f.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T14:55:35"
+    "titulo": "Como Wuchang: Fallen Feathers se diferencia dentro do gênero soulslike",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/wuchang-fallen-feathers/143028/news/queriamos-algo-que-parecesse-acessivel-mas-com-sua-propria-identidade-e-ritmo-diretor-de-wuchang-fal",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65366/65366_ha2z.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "O ambicioso jogo da EA com Steven Spielberg que quase revolucionou a indústria",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/steven-spielberg/143077/news/lmno-o-ambicioso-jogo-da-ea-com-steven-spielberg-que-quase-revolucionou-a-relacao-entre-jogador-e-ia",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65367/65367_cgjt.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "Gachiakuta é o novo anime do momento — e estes são os segredos da autora Kei Urana",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "\"Está no nosso radar\": escritora principal de Clair Obscur: Expedition 33 diz que equipe tem estudado melhor formato para ampliar universo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/143163/news/esta-no-nosso-radar-escritora-principal-de-clair-obscur-expedition-33-diz-que-equipe-tem-estudado-me",
+    "imagem": "https://sm.ign.com/t/ign_br/news/h/hit-rpg-cl/hit-rpg-clair-obscur-expedition-33-tops-1-million-sales-in-j_hgwr.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "Superman acaba de fazer história nos cinemas: filme de James Gunn destrona Zack Snyder do topo da franquia",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/superman-james-gunn/143121/news/superman-acaba-de-fazer-historia-nos-cinemas-filme-de-james-gunn-destrona-zack-snyder-do-topo-da-fra",
+    "imagem": "https://sm.ign.com/t/ign_br/news/r/report-rev/report-reveals-new-details-on-james-gunns-dcu-plan-including_fb53.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "Nem Androide 18, nem Caulifla: esta é a personagem feminina mais forte da história de Dragon Ball, segundo fãs",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/dragon-ball-2/143079/news/nem-androide-18-nem-caulifla-esta-e-a-personagem-feminina-mais-forte-da-historia-de-dragon-ball-segu",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mnkc.320.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "Plano B? Estas seriam as 3 profissões incomuns que Shigeru Miyamoto seguiria se não tivesse entrado na Nintendo",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/shigerumiyamoto/143048/news/plano-b-estas-seriam-as-3-profissoes-incomuns-que-shigeru-miyamoto-seguiria-se-nao-tivesse-entrado-n",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ngvq.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
+  },
+  {
+    "titulo": "Já imaginou jogar UNO em um cassino? Mattel levará fãs para Las Vegas em ação promocional",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/tabletop-3/143229/news/ja-imaginou-jogar-uno-em-um-cassino-mattel-levara-fas-para-las-vegas-em-acao-promocional",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ac97854c142c719f8ae843106d43511d_krte.280.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-15T15:30:52"
   }
 ];
