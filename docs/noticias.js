@@ -1,83 +1,11 @@
 const noticias = [
   {
-    "titulo": "Intel's new Nova Lake CPU is reportedly being made on TSMC N2 right now, pointing to a hybric 18A node and late 2026 launch",
-    "descricao": "news\"Sorry, no hints this time.\"",
-    "link": "https://www.pcgamer.com/hardware/intels-new-nova-lake-cpu-is-reportedly-being-made-on-tsmc-n2-right-now-pointing-to-a-hybric-18a-node-and-late-2026-launch/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "Today's Wordle answer for Tuesday, July 15",
-    "descricao": "regular riddleGet all the help you need with today's Wordle.",
-    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-15-2025/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "Less than 6 years after it launched, John Wick Hex is being removed from sale on all storefronts later this week",
-    "descricao": "newsIf you want Bithell Games' excellent Keanu Reeves-starring tactics puzzler, you've got until July 17 to make it happen.",
-    "link": "https://www.pcgamer.com/games/strategy/less-than-6-years-after-it-launched-john-wick-hex-is-being-removed-from-sale-on-all-storefronts-later-this-week/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/5JvgxwHTptv6vqBnhjngg3.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "'A future has been stolen from many of us and our community will never experience an amazing game': Microsoft MMO devs respond to cancelation of project Phil Spencer reportedly loved",
-    "descricao": "newsThe cancellation of ZeniMax Online Studios' new game happened earlier this month as part of Microsoft's latest round of mass layoffs.",
-    "link": "https://www.pcgamer.com/gaming-industry/a-future-has-been-stolen-from-many-of-us-and-our-community-will-never-experience-an-amazing-game-microsoft-mmo-devs-respond-to-cancelation-of-project-phil-spencer-reportedly-loved/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8eKky2mNSzdMAZR3KhoFVn.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "GTA 4's most famous lighting mod gets its first major update in 11 years, brightening up Liberty City from cloud to ground",
-    "descricao": "NewsIf Windows 11 broke your favorite GTA 4 mod, I've got good news.",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-4s-most-famous-lighting-mod-gets-its-first-major-update-in-11-years-brightening-up-liberty-city-from-cloud-to-ground/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/FtXA5DpMw4PousnFVCFznR.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "Epic publicly humiliates 2 more Fortnite cheaters by forcing them to say sorry and promise to never, ever do it again",
-    "descricao": "newsI'm starting to think this might be a good strategy.",
-    "link": "https://www.pcgamer.com/games/epic-publicly-humiliates-2-more-fortnite-cheaters-by-forcing-them-to-say-sorry-and-promise-to-never-ever-do-it-again/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/V3H7v97WYzx3mRMQE4qPvN.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "My most-played game of the last 5 years is 30% off on Steam right now, alongside a ton of other factory games that can absolutely devour your life",
-    "descricao": "NewsSteam's Automation Fest includes our 2024 Sandbox GOTY Satisfactory, as well as one of the PC's all-time great puzzle games.",
-    "link": "https://www.pcgamer.com/games/sim/my-most-played-game-of-the-last-5-years-is-30-percent-off-on-steam-right-now-alongside-a-ton-of-other-factory-games-that-can-absolutely-devour-your-life/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/6Xw3bHydca5Z3B5RNNPaqQ.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "Fresh from telling laid-off employees to console themselves with AI, Microsoft doubles down by advertising Xbox jobs with pathetic AI image: 'So tone deaf I hope it is satire'",
-    "descricao": "News\"What is happening over there?\"",
-    "link": "https://www.pcgamer.com/software/ai/fresh-from-telling-laid-off-employees-to-console-themselves-with-ai-microsoft-doubles-down-by-advertising-xbox-jobs-with-pathetic-ai-image-so-tone-deaf-i-hope-it-is-satire/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
-    "titulo": "Good news for multitaskers: Microsoft is gradually rolling out taskbar scaling to squeeze in as many icons as possible in the latest Windows 11 Insider build",
-    "descricao": "NewsMove over, lads.",
-    "link": "https://www.pcgamer.com/software/windows/good-news-for-multitaskers-microsoft-is-gradually-rolling-out-taskbar-scaling-to-squeeze-in-as-many-icons-as-possible-in-the-latest-windows-11-insider-build/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/MYkHhAjRMp3ewDjjUKjdca.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-15T01:57:24"
-  },
-  {
     "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid-19, histórias escondidas e como Lost ajudou escritora principal a encontrar estilo de roteiro",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
     "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Como Wuchang: Fallen Feathers se diferencia dentro do gênero soulslike",
@@ -85,7 +13,7 @@ const noticias = [
     "link": "https://br.ign.com/wuchang-fallen-feathers/143028/news/queriamos-algo-que-parecesse-acessivel-mas-com-sua-propria-identidade-e-ritmo-diretor-de-wuchang-fal",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65366/65366_ha2z.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "O ambicioso jogo da EA com Steven Spielberg que quase revolucionou a indústria",
@@ -93,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/steven-spielberg/143077/news/lmno-o-ambicioso-jogo-da-ea-com-steven-spielberg-que-quase-revolucionou-a-relacao-entre-jogador-e-ia",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65367/65367_cgjt.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "De Transformers a Perfect Dark: todos os jogos cancelados em 2025",
@@ -101,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/black-panther-ea-game/143087/lists/de-transformers-a-perfect-dark-todos-os-jogos-cancelados-em-2025",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/everycancelledgame2025-deck-3366cc-1752243190510_et2q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Gachiakuta é o novo anime do momento — e estes são os segredos da autora Kei Urana",
@@ -109,7 +37,7 @@ const noticias = [
     "link": "https://br.ign.com/gachiakuta/143068/feature/raiva-e-minha-maior-forca-motriz-gachiakuta-e-o-novo-anime-do-momento-e-estes-sao-alguns-dos-segredo",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/default/gachiakuta_vp6q.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "\"Está no nosso radar\": escritora principal de Clair Obscur: Expedition 33 diz que equipe tem estudado melhor formato para ampliar universo",
@@ -117,7 +45,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/143163/news/esta-no-nosso-radar-escritora-principal-de-clair-obscur-expedition-33-diz-que-equipe-tem-estudado-me",
     "imagem": "https://sm.ign.com/t/ign_br/news/h/hit-rpg-cl/hit-rpg-clair-obscur-expedition-33-tops-1-million-sales-in-j_hgwr.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Superman acaba de fazer história nos cinemas: filme de James Gunn destrona Zack Snyder do topo da franquia",
@@ -125,7 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/superman-james-gunn/143121/news/superman-acaba-de-fazer-historia-nos-cinemas-filme-de-james-gunn-destrona-zack-snyder-do-topo-da-fra",
     "imagem": "https://sm.ign.com/t/ign_br/news/r/report-rev/report-reveals-new-details-on-james-gunns-dcu-plan-including_fb53.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Nem Androide 18, nem Caulifla: esta é a personagem feminina mais forte da história de Dragon Ball, segundo fãs",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/dragon-ball-2/143079/news/nem-androide-18-nem-caulifla-esta-e-a-personagem-feminina-mais-forte-da-historia-de-dragon-ball-segu",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_mnkc.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Plano B? Estas seriam as 3 profissões incomuns que Shigeru Miyamoto seguiria se não tivesse entrado na Nintendo",
@@ -141,7 +69,7 @@ const noticias = [
     "link": "https://br.ign.com/shigerumiyamoto/143048/news/plano-b-estas-seriam-as-3-profissoes-incomuns-que-shigeru-miyamoto-seguiria-se-nao-tivesse-entrado-n",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1200-800_ngvq.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
   },
   {
     "titulo": "Por APENAS R$299! Pro Controller Nintendo Switch em oferta no Prime Day",
@@ -149,6 +77,78 @@ const noticias = [
     "link": "https://br.ign.com/descontos/143183/news/por-apenas-r299-pro-controller-nintendo-switch-em-oferta-no-prime-day",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-9_qj58.280.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-15T01:57:24"
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "AMD partner retailer leaks Threadripper 9000-series preorder details - they start next week with prices looking between $1,600 and $13,000",
+    "descricao": "newsAccording to the leaks, preorders will start at 9:00am ET, Wednesday on July 23.",
+    "link": "https://www.pcgamer.com/hardware/amd-partner-retailer-leaks-threadripper-9000-series-preorder-details-they-start-next-week-with-prices-looking-between-usd1-600-and-usd13-000/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/2b6XabKKJAhM8CE2frs5AE.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "Intel's new Nova Lake CPU is reportedly being made on TSMC N2 right now, pointing to a hybric 18A node and late 2026 launch",
+    "descricao": "news\"Sorry, no hints this time.\"",
+    "link": "https://www.pcgamer.com/hardware/intels-new-nova-lake-cpu-is-reportedly-being-made-on-tsmc-n2-right-now-pointing-to-a-hybric-18a-node-and-late-2026-launch/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/oU6sfoCXqSJpZ5xY4PrhTd.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "Today's Wordle answer for Tuesday, July 15",
+    "descricao": "regular riddleGet all the help you need with today's Wordle.",
+    "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-15-2025/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/YRxEUnLEJxerocrem2ezeV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "Less than 6 years after it launched, John Wick Hex is being removed from sale on all storefronts later this week",
+    "descricao": "newsIf you want Bithell Games' excellent Keanu Reeves-starring tactics puzzler, you've got until July 17 to make it happen.",
+    "link": "https://www.pcgamer.com/games/strategy/less-than-6-years-after-it-launched-john-wick-hex-is-being-removed-from-sale-on-all-storefronts-later-this-week/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/5JvgxwHTptv6vqBnhjngg3.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "'A future has been stolen from many of us and our community will never experience an amazing game': Microsoft MMO devs respond to cancelation of project Phil Spencer reportedly loved",
+    "descricao": "newsThe cancellation of ZeniMax Online Studios' new game happened earlier this month as part of Microsoft's latest round of mass layoffs.",
+    "link": "https://www.pcgamer.com/gaming-industry/a-future-has-been-stolen-from-many-of-us-and-our-community-will-never-experience-an-amazing-game-microsoft-mmo-devs-respond-to-cancelation-of-project-phil-spencer-reportedly-loved/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8eKky2mNSzdMAZR3KhoFVn.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "GTA 4's most famous lighting mod gets its first major update in 11 years, brightening up Liberty City from cloud to ground",
+    "descricao": "NewsIf Windows 11 broke your favorite GTA 4 mod, I've got good news.",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-4s-most-famous-lighting-mod-gets-its-first-major-update-in-11-years-brightening-up-liberty-city-from-cloud-to-ground/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/FtXA5DpMw4PousnFVCFznR.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "Epic publicly humiliates 2 more Fortnite cheaters by forcing them to say sorry and promise to never, ever do it again",
+    "descricao": "newsI'm starting to think this might be a good strategy.",
+    "link": "https://www.pcgamer.com/games/epic-publicly-humiliates-2-more-fortnite-cheaters-by-forcing-them-to-say-sorry-and-promise-to-never-ever-do-it-again/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/V3H7v97WYzx3mRMQE4qPvN.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "My most-played game of the last 5 years is 30% off on Steam right now, alongside a ton of other factory games that can absolutely devour your life",
+    "descricao": "NewsSteam's Automation Fest includes our 2024 Sandbox GOTY Satisfactory, as well as one of the PC's all-time great puzzle games.",
+    "link": "https://www.pcgamer.com/games/sim/my-most-played-game-of-the-last-5-years-is-30-percent-off-on-steam-right-now-alongside-a-ton-of-other-factory-games-that-can-absolutely-devour-your-life/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/6Xw3bHydca5Z3B5RNNPaqQ.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
+  },
+  {
+    "titulo": "Fresh from telling laid-off employees to console themselves with AI, Microsoft doubles down by advertising Xbox jobs with pathetic AI image: 'So tone deaf I hope it is satire'",
+    "descricao": "News\"What is happening over there?\"",
+    "link": "https://www.pcgamer.com/software/ai/fresh-from-telling-laid-off-employees-to-console-themselves-with-ai-microsoft-doubles-down-by-advertising-xbox-jobs-with-pathetic-ai-image-so-tone-deaf-i-hope-it-is-satire/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-15T02:28:14"
   }
 ];
