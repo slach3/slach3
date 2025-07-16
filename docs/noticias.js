@@ -1,83 +1,19 @@
 const noticias = [
   {
-    "titulo": "'I finally managed to make her smile': Umamusume player gives 'the shining star of losers everywhere' her first big win in a race intentionally set up for her to lose",
-    "descricao": "Haru Urara deserves this.",
-    "link": "https://www.pcgamer.com/games/sim/i-finally-managed-to-make-her-smile-umamusume-player-gives-the-shining-star-of-losers-everywhere-her-first-big-win-in-a-race-intentionally-set-up-for-her-to-lose/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/G6U3au4bNFSwKuo2dyDZ3M.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "'All throughout my life I've had to deal with Xfinity's bull****': Frustrated with living in a Comcast-only neighbourhood, two brothers-in-law started their own ISP",
-    "descricao": "NewsGentlemen, I salute you.",
-    "link": "https://www.pcgamer.com/hardware/networking/all-throughout-my-life-ive-had-to-deal-with-xfinitys-bull-frustrated-with-living-in-a-comcast-only-neighbourhood-two-brothers-in-law-started-their-own-isp/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/siLMTB5VoxCcio5bBYr6PF.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "Intel rumoured to be working on a Nova Lake-based CPU with a mega iGPU to take on AMD's Strix Halo",
-    "descricao": "NewsLots and lots of XE3 compute units.",
-    "link": "https://www.pcgamer.com/hardware/processors/intel-rumoured-to-be-working-on-a-nova-lake-based-cpu-with-a-mega-igpu-to-take-on-amds-strix-halo/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/4WXf5z3SZ657wbzMadBm4g.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "PC gamers don't have many options for CPUs and graphics cards but when it comes to gaming mice, we're absolutely spoiled for choice",
-    "descricao": "Rodent revolutionWired or wireless, luxury or budget, there's a perfect gaming mouse for everyone.",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/pc-gamers-dont-have-many-options-for-cpus-and-graphics-cards-but-when-it-comes-to-gaming-mice-were-absolutely-spoiled-for-choice/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/rXmxLHmw62mUYL4VFb47yV.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "Steam's got a new rule that puts the kibosh on 'certain kinds of adult only content' that make Visa and Mastercard sad",
-    "descricao": "The new rule seemingly coincided with a large number of adult games being delisted from the platform.",
-    "link": "https://www.pcgamer.com/software/platforms/steam-introduces-new-rule-prohibiting-certain-kinds-of-adult-content-that-might-make-visa-or-mastercard-unhappy-financial-deplatforming-in-action/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/7eABpzfba9ESSE9QsdxDRm.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "A game I can only describe as 'gooner Fortnite' has an upcoming closed beta test where you can see your own melons for the ultimate immersion",
-    "descricao": "newsFate Trigger certainly has its priorities.",
-    "link": "https://www.pcgamer.com/games/fps/a-game-i-can-only-describe-as-gooner-fortnite-has-an-upcoming-closed-beta-test-where-you-can-see-your-own-melons-for-the-ultimate-immersion/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/J4B3moLxMyiYVqJdhx5Nt8.png",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "MSI releases new all-bright HDR mode update for its QD-OLED gaming monitors but OLED's underlying limitations remain",
-    "descricao": "newsA welcome addition, just be aware it can't make OLED do anything that it inherently isn't capable of.",
-    "link": "https://www.pcgamer.com/hardware/gaming-monitors/msi-releases-new-all-bright-hdr-mode-update-for-its-qd-oled-gaming-monitors-but-oleds-underlying-limitations-remain/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/8jwJorGdF9RFyagTdmfND.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "Japanese researchers achieve 1,020,000,000 Mbps internet speeds over a 1,123 mile line, 3.5 million times faster than the average US connection and a hell of a lot quicker than mine",
-    "descricao": "NewsPlug me in.",
-    "link": "https://www.pcgamer.com/hardware/japanese-researchers-achieve-1-020-000-000-mbps-internet-speeds-over-a-1-123-mile-line-3-5-million-times-faster-than-the-average-us-connection-and-a-hell-of-a-lot-quicker-than-mine/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/zFLSWv5Cyn7zzyFfTSJG6V.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "We might have to wait until next year to see those all-Nvidia laptops with custom Arm processors",
-    "descricao": "NewsDamn, this was probably the piece of hardware I was most looking forward to seeing in 2025.",
-    "link": "https://www.pcgamer.com/hardware/processors/we-might-have-to-wait-until-next-year-to-see-those-all-nvidia-laptops-with-custom-arm-processors/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/hJkLN4Zb3pgAj9NTkYDL6f.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid-19, histórias escondidas e como Lost ajudou escritora principal a encontrar estilo de roteiro",
+    "titulo": "Com universo engenhoso, Donkey Kong Bananza é epítome de jogabilidade divertida e singular | Review",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/143242/review/com-universo-engenhoso-donkey-kong-bananza-e-epitome-de-jogabilidade-divertida-e-singular-review",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "Dupla que interpretará Link e Zelda no live-action de The Legend of Zelda é confirmada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-legend-of-zelda-3/143246/news/dupla-que-interpretara-link-e-zelda-no-live-action-de-the-legend-of-zelda-e-confirmada-por-miyamoto",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65621/65621_ke49.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "Nintendo diz que Donkey Kong Bananza chega para \"simbolizar o Donkey Kong 3D\"",
@@ -85,7 +21,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza/143223/news/nintendo-diz-que-donkey-kong-bananza-chega-para-simbolizar-o-donkey-kong-3d-criando-nova-ramificacao",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65512/65512_rerh.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "Frieren e a Jornada para o Além é muito mais que um anime — é um sentimento",
@@ -93,7 +29,7 @@ const noticias = [
     "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/143198/feature/espero-que-a-essencia-que-ressoa-dentro-das-pessoas-permaneca-frieren-e-a-jornada-para-o-alem-e-muit",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65536/65536_wr4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "Grounded 2, Wuchang e mais: Xbox divulga lista de próximos jogos que chegarão ao Game Pass",
@@ -101,15 +37,15 @@ const noticias = [
     "link": "https://br.ign.com/xbox/143199/news/grounded-2-wuchang-e-mais-xbox-divulga-lista-de-proximos-jogos-que-chegarao-ao-game-pass",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65514/65514_fpdv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
-    "titulo": "Como Wuchang: Fallen Feathers se diferencia dentro do gênero soulslike",
+    "titulo": "3ª temporada de The Last of Us tem previsão de estreia confirmada para 2027",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/wuchang-fallen-feathers/143028/news/queriamos-algo-que-parecesse-acessivel-mas-com-sua-propria-identidade-e-ritmo-diretor-de-wuchang-fal",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65366/65366_ha2z.800.jpg",
+    "link": "https://br.ign.com/the-last-of-us-the-series/143238/news/3a-temporada-de-the-last-of-us-tem-previsao-de-estreia-confirmada-para-2027",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-last-of-us-season-2s-latest_t9m5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "The Pitt, Andor, Arcane, O Estúdio, Ruptura e mais: confira os indicados ao Emmy 2025",
@@ -117,15 +53,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143188/news/the-pitt-andor-arcane-o-estudio-ruptura-e-mais-confira-os-indicados-ao-emmy-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/e1_65gq.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
-  },
-  {
-    "titulo": "Breaking Bad nunca foi pensado para se passar em Albuquerque, mas o Novo México fez uma oferta que os produtores não puderam recusar",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/breaking-bad/143218/news/breaking-bad-nunca-foi-pensado-para-se-passar-em-albuquerque-mas-o-novo-mexico-fez-uma-oferta-que-os",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_hmzy.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "Novo anime da criadora de Inuyasha ganha primeiro trailer com viagem no tempo, combates sobrenaturais e demônios",
@@ -133,7 +61,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/143204/news/novo-anime-da-criadora-de-inuyasha-ganha-primeiro-trailer-com-viagem-no-tempo-combates-sobrenaturais",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-15-125126396_v5dt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
     "titulo": "\"Nossa referência é Zelda\": game brasileiro Gaucho and The Grassland chega amanhã e é muito mais do que um simulador de fazendinha",
@@ -141,14 +69,86 @@ const noticias = [
     "link": "https://br.ign.com/gaucho-and-the-grassland/143176/feature/nossa-referencia-e-zelda-game-brasileiro-gaucho-and-the-grassland-chega-amanha-e-e-muito-mais-do-que",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gaucho_ahd5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
   },
   {
-    "titulo": "Jogo de Rebel Moon é lançado, enquanto Zack Snyder mantém planos para filmes futuros pausados",
+    "titulo": "Dead Take, jogo de terror com Neil Newbon e Ben Starr, tem data de lançamento e elenco confirmados",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/rebel-moon-1/143252/news/jogo-de-rebel-moon-e-lancado-enquanto-zack-snyder-mantem-planos-para-filmes-futuros-pausados",
-    "imagem": "https://sm.ign.com/t/ign_br/news/r/rebel-moon/rebel-moon-video-game-launches-for-netflix-subscribers-as-za_5vrt.280.jpg",
+    "link": "https://br.ign.com/dead-take/143263/news/dead-take-jogo-de-terror-com-neil-newbon-e-ben-starr-tem-data-de-lancamento-e-elenco-confirmados",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_xq7k.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T10:59:37"
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "These gaming earbuds scored a whopping 93% from us only recently and they're already 20% off (if you have Amazon Prime)",
+    "descricao": "DealAnd they're available in some pretty colorways.",
+    "link": "https://www.pcgamer.com/hardware/earbuds-headphones/these-gaming-earbuds-scored-a-whopping-93-percent-from-us-only-recently-and-theyre-already-20-percent-off-if-you-have-amazon-prime/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/i4Bdq7ojDY3SsXeoGH4b7n.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "73-year-old takes the crown in Japan's old-folks-only Tekken 8 tournament, beating out a 93-year-old vet and a sprightly up and comer of 63 years",
+    "descricao": "I reckon Yoshie Murabe could give Arslan Ash a run for his money.",
+    "link": "https://www.pcgamer.com/games/fighting/73-year-old-takes-the-crown-in-japans-old-folks-only-tekken-8-tournament-beating-out-a-93-year-old-vet-and-a-sprightly-up-and-comer-of-63-years/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nfJpy3jMAmWWzYvZCgJBHV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "'I finally managed to make her smile': Umamusume player gives 'the shining star of losers everywhere' her first big win in a race intentionally set up for her to lose",
+    "descricao": "Haru Urara deserves this.",
+    "link": "https://www.pcgamer.com/games/sim/i-finally-managed-to-make-her-smile-umamusume-player-gives-the-shining-star-of-losers-everywhere-her-first-big-win-in-a-race-intentionally-set-up-for-her-to-lose/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/G6U3au4bNFSwKuo2dyDZ3M.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "'All throughout my life I've had to deal with Xfinity's bull****': Frustrated with living in a Comcast-only neighbourhood, two brothers-in-law started their own ISP",
+    "descricao": "NewsGentlemen, I salute you.",
+    "link": "https://www.pcgamer.com/hardware/networking/all-throughout-my-life-ive-had-to-deal-with-xfinitys-bull-frustrated-with-living-in-a-comcast-only-neighbourhood-two-brothers-in-law-started-their-own-isp/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/siLMTB5VoxCcio5bBYr6PF.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "Intel rumoured to be working on a Nova Lake-based CPU with a mega iGPU to take on AMD's Strix Halo",
+    "descricao": "NewsLots and lots of XE3 compute units.",
+    "link": "https://www.pcgamer.com/hardware/processors/intel-rumoured-to-be-working-on-a-nova-lake-based-cpu-with-a-mega-igpu-to-take-on-amds-strix-halo/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/4WXf5z3SZ657wbzMadBm4g.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "PC gamers don't have many options for CPUs and graphics cards but when it comes to gaming mice, we're absolutely spoiled for choice",
+    "descricao": "Rodent revolutionWired or wireless, luxury or budget, there's a perfect gaming mouse for everyone.",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/pc-gamers-dont-have-many-options-for-cpus-and-graphics-cards-but-when-it-comes-to-gaming-mice-were-absolutely-spoiled-for-choice/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/rXmxLHmw62mUYL4VFb47yV.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "Steam's got a new rule that puts the kibosh on 'certain kinds of adult only content' that make Visa and Mastercard sad",
+    "descricao": "The new rule seemingly coincided with a large number of adult games being delisted from the platform.",
+    "link": "https://www.pcgamer.com/software/platforms/steam-introduces-new-rule-prohibiting-certain-kinds-of-adult-content-that-might-make-visa-or-mastercard-unhappy-financial-deplatforming-in-action/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/7eABpzfba9ESSE9QsdxDRm.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "A game I can only describe as 'gooner Fortnite' has an upcoming closed beta test where you can see your own melons for the ultimate immersion",
+    "descricao": "newsFate Trigger certainly has its priorities.",
+    "link": "https://www.pcgamer.com/games/fps/a-game-i-can-only-describe-as-gooner-fortnite-has-an-upcoming-closed-beta-test-where-you-can-see-your-own-melons-for-the-ultimate-immersion/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/J4B3moLxMyiYVqJdhx5Nt8.png",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
+  },
+  {
+    "titulo": "MSI releases new all-bright HDR mode update for its QD-OLED gaming monitors but OLED's underlying limitations remain",
+    "descricao": "newsA welcome addition, just be aware it can't make OLED do anything that it inherently isn't capable of.",
+    "link": "https://www.pcgamer.com/hardware/gaming-monitors/msi-releases-new-all-bright-hdr-mode-update-for-its-qd-oled-gaming-monitors-but-oleds-underlying-limitations-remain/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/8jwJorGdF9RFyagTdmfND.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T11:28:37"
   }
 ];
