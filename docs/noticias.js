@@ -1,11 +1,19 @@
 const noticias = [
   {
+    "titulo": "Unknown Worlds founders' lawsuit accuses Krafton of a 'months-long campaign to delay Subnautica 2' so it wouldn't have to pay $250M earnout",
+    "descricao": "newsLast week, Krafton accused the former heads of Unknown Worlds of abandoning Subnautica 2. This week, they're firing back.",
+    "link": "https://www.pcgamer.com/gaming-industry/unknown-worlds-founders-lawsuit-accuses-krafton-of-a-months-long-campaign-to-delay-subnautica-2-so-it-wouldnt-have-to-pay-usd250m-earnout/",
+    "imagem": "https://cdn.mos.cms.futurecdn.net/nXJZPBxrNQDmchLoaZMpsj.jpg",
+    "fonte": "PC Gamer",
+    "timestamp": "2025-07-16T17:54:52"
+  },
+  {
     "titulo": "Umamusume players are engaging in unhinged summoning rituals to enlist the aid of Egyptian gods and biblically accurate angels for the release of a really good horse card",
     "descricao": "NewsBiblically accurate Kitasan Black isn't real and can't hurt you.",
     "link": "https://www.pcgamer.com/games/sim/umamusume-players-are-engaging-in-unhinged-summoning-rituals-to-enlist-the-aid-of-egyptian-gods-and-biblically-accurate-angels-for-the-release-of-a-really-good-horse-card/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4tdL6k2iKF9T22R4V4Gzna.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Seven months after putting Johnny Silverhand in your car, Cyberpunk 2077's latest update will let you kick him out",
@@ -13,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/seven-months-after-putting-johnny-silverhand-in-your-car-cyberpunk-2077s-latest-update-will-let-you-kick-him-out/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/BYMQEXBdP2XGjEPjRHN5FL.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Microsoft's Copilot AI assistant can now optionally see your entire desktop—maybe it will be able to finally explain what Windows error code 0x8007002c means",
@@ -21,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/windows/microsofts-copilot-ai-assistant-can-now-optionally-see-your-entire-desktop-maybe-it-will-be-able-to-finally-explain-what-windows-error-code-0x8007002c-means/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/7yCxTvV4jWUcV3W59xYqfP.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Reddit just had a meltdown for a moment: 'no content to display' on any subreddits, before deploying a server fix in surely record time",
@@ -29,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/reddit-just-had-a-meltdown-for-a-moment-no-content-to-display-on-any-subreddits-before-deploying-a-server-fix-in-surely-record-time/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5tJnogsMqU5fbnRHns7Qu.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "The US squeezed Nvidia's AI chip export deal with China into negotiations over important rare earth elements, bizarrely claiming 'we put that in the trade deal with the magnets'",
@@ -37,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/the-us-squeezed-nvidias-ai-chip-export-deal-with-china-into-negotiations-over-important-rare-earth-elements-bizarrely-claiming-we-put-that-in-the-trade-deal-with-the-magnets/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/aGCFNHSStWANcbvN3qb9ZG.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "As the Nintendo eShop fails to protect from 'eslop', indie devs reflect on how it affects their work and why Steam is just better: 'Their algorithm will more or less naturally bury AI slop'",
@@ -45,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/software/platforms/as-the-nintendo-eshop-fails-to-protect-from-eslop-indie-devs-reflect-on-how-it-affects-their-work-and-why-steam-is-just-better-their-algorithm-will-more-or-less-naturally-bury-ai-slop/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/QGnMrgQ4ry8pY6RoWCnVvT.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "You can now stream Xbox-only games to your PC if you're an Insider with Game Pass Ultimate",
@@ -53,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/you-can-now-stream-xbox-only-games-to-your-pc-if-youre-an-insider-with-game-pass-ultimate/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/incNTK33fimXdfKZ5DH2SA.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Steam will let you reverse your last 7 days of CS2 (and soon other) trades if you accidentally swap your $10,000 AK-47 for some magic beans",
@@ -61,15 +69,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/fps/steam-will-let-you-reverse-your-last-7-days-of-cs2-and-soon-other-trades-if-you-accidentally-swap-your-usd10-000-ak-47-for-some-magic-beans/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/5Bds8psRiJ9cwQzYjLzG7W.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
-  },
-  {
-    "titulo": "EU-commissioned study on generative AI and copyright suggests overturning the current opt-out approach that 'effectively treats silence as consent'",
-    "descricao": "NewsQuotas for human-authored content, too? I'm in.",
-    "link": "https://www.pcgamer.com/software/ai/eu-commissioned-study-on-generative-ai-and-copyright-suggests-overturning-the-current-opt-out-approach-that-effectively-treats-silence-as-consent/",
-    "imagem": "https://cdn.mos.cms.futurecdn.net/eQ4QvnT5n24R9f4nQNq5MP.jpg",
-    "fonte": "PC Gamer",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Com universo engenhoso, Donkey Kong Bananza é epítome de jogabilidade divertida e singular | Review",
@@ -77,7 +77,7 @@ const noticias = [
     "link": "https://br.ign.com/donkey-kong-bananza-1/143242/review/com-universo-engenhoso-donkey-kong-bananza-e-epitome-de-jogabilidade-divertida-e-singular-review",
     "imagem": null,
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Dupla que interpretará Link e Zelda no live-action de The Legend of Zelda é confirmada",
@@ -85,7 +85,7 @@ const noticias = [
     "link": "https://br.ign.com/the-legend-of-zelda-3/143246/news/dupla-que-interpretara-link-e-zelda-no-live-action-de-the-legend-of-zelda-e-confirmada-por-miyamoto",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65621/65621_ke49.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Frieren e a Jornada para o Além é muito mais que um anime — é um sentimento",
@@ -93,7 +93,7 @@ const noticias = [
     "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/143198/feature/espero-que-a-essencia-que-ressoa-dentro-das-pessoas-permaneca-frieren-e-a-jornada-para-o-alem-e-muit",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65536/65536_wr4v.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Grounded 2, Wuchang e mais: Xbox divulga lista de próximos jogos que chegarão ao Game Pass",
@@ -101,7 +101,7 @@ const noticias = [
     "link": "https://br.ign.com/xbox/143199/news/grounded-2-wuchang-e-mais-xbox-divulga-lista-de-proximos-jogos-que-chegarao-ao-game-pass",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65514/65514_fpdv.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid, histórias escondidas e mais",
@@ -109,7 +109,7 @@ const noticias = [
     "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
     "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65647/65647_1p34.800.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "3ª temporada de The Last of Us tem previsão de estreia confirmada para 2027",
@@ -117,7 +117,7 @@ const noticias = [
     "link": "https://br.ign.com/the-last-of-us-the-series/143238/news/3a-temporada-de-the-last-of-us-tem-previsao-de-estreia-confirmada-para-2027",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-last-of-us-season-2s-latest_t9m5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "The Pitt, Andor, Arcane, O Estúdio, Ruptura e mais: confira os indicados ao Emmy 2025",
@@ -125,7 +125,7 @@ const noticias = [
     "link": "https://br.ign.com/cinema-tv/143188/news/the-pitt-andor-arcane-o-estudio-ruptura-e-mais-confira-os-indicados-ao-emmy-2025",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/e1_65gq.320.png",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "Novo anime da criadora de Inuyasha ganha primeiro trailer com viagem no tempo, combates sobrenaturais e demônios",
@@ -133,7 +133,7 @@ const noticias = [
     "link": "https://br.ign.com/anime/143204/news/novo-anime-da-criadora-de-inuyasha-ganha-primeiro-trailer-com-viagem-no-tempo-combates-sobrenaturais",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2025-07-15-125126396_v5dt.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
     "titulo": "\"Nossa referência é Zelda\": game brasileiro Gaucho and The Grassland chega amanhã e é muito mais do que um simulador de fazendinha",
@@ -141,14 +141,14 @@ const noticias = [
     "link": "https://br.ign.com/gaucho-and-the-grassland/143176/feature/nossa-referencia-e-zelda-game-brasileiro-gaucho-and-the-grassland-chega-amanha-e-e-muito-mais-do-que",
     "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/gaucho_ahd5.320.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   },
   {
-    "titulo": "Enquanto trailer de Mortal Kombat 2 não chega, Uncaged Fury ganha \"prévia\" que mostra Karl Urban como Johnny Cage",
+    "titulo": "Últimas horas do Prime Day 2025: produtos que você não pode deixar passar",
     "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/mortal-kombat-2-1/143294/news/enquanto-trailer-de-mortal-kombat-2-nao-chega-uncaged-fury-ganha-previa-que-mostra-karl-urban-como-j",
-    "imagem": "https://sm.ign.com/t/ign_br/news/u/uncaged-fu/uncaged-fury-enjoy-this-fake-movie-trailer-starring-mortal-k_zp1k.280.jpg",
+    "link": "https://br.ign.com/descontos/143293/news/ultimas-horas-do-prime-day-2025-produtos-que-voce-nao-pode-deixar-passar",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/prime-day-thumb_6vmt.280.jpg",
     "fonte": "IGN Brasil",
-    "timestamp": "2025-07-16T17:41:04"
+    "timestamp": "2025-07-16T17:54:52"
   }
 ];
