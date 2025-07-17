@@ -1,91 +1,11 @@
 const noticias = [
   {
-    "titulo": "Com universo engenhoso, Donkey Kong Bananza é epítome de jogabilidade divertida e singular | Review",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/143242/review/com-universo-engenhoso-donkey-kong-bananza-e-epitome-de-jogabilidade-divertida-e-singular-review",
-    "imagem": null,
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Os destaques de games brasileiros lançados para Steam em junho de 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/games/143268/news/emmas-umbrella-metahorror-therapy-session-e-mais-destaques-de-games-brasileiros-lancados-para-steam",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_gsjh.800.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Dupla que interpretará Link e Zelda no live-action de The Legend of Zelda é confirmada",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-legend-of-zelda-3/143246/news/dupla-que-interpretara-link-e-zelda-no-live-action-de-the-legend-of-zelda-e-confirmada-por-miyamoto",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65621/65621_ke49.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Frieren e a Jornada para o Além é muito mais que um anime — é um sentimento",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/143198/feature/espero-que-a-essencia-que-ressoa-dentro-das-pessoas-permaneca-frieren-e-a-jornada-para-o-alem-e-muit",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65536/65536_wr4v.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid, histórias escondidas e mais",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
-    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65647/65647_1p34.800.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Com novos modos competitivo e realista, EA divulga primeiro trailer de EA Sports FC 26",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/ea-sports-fc-26/143277/news/com-novos-modos-competitivo-e-realista-ea-divulga-primeiro-trailer-de-ea-sports-fc-26",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea-sports-fc-26-900x503jpg_pb5f.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Atualização de Cyberpunk 2077 adiciona missões, veículos, serviço de direção automática e mais",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/cyberpunk-2077/143276/news/atualizacao-de-cyberpunk-2077-adiciona-missoes-veiculos-servico-de-direcao-automatica-e-mais",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_u8vw.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "Donkey Kong Bananza estreia com média 90 do Metacritic e já figura entre jogos mais bem avaliados de 2025",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/donkey-kong-bananza-1/143275/news/donkey-kong-bananza-estreia-com-media-90-do-metacritic-e-ja-figura-entre-jogos-mais-bem-avaliados-de",
-    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-donkey-kong-bananza-will-come-to-symbolise-3d_ynaa.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "3ª temporada de The Last of Us tem previsão de estreia confirmada para 2027",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/the-last-of-us-the-series/143238/news/3a-temporada-de-the-last-of-us-tem-previsao-de-estreia-confirmada-para-2027",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-last-of-us-season-2s-latest_t9m5.320.jpg",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
-    "titulo": "6 jogos para PS5 com 15% de desconto no Amazon Prime Day. Aproveite!",
-    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
-    "link": "https://br.ign.com/descontos/143309/news/6-jogos-para-ps5-com-15-de-desconto-no-amazon-prime-day-aproveite",
-    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_bhfd.280.png",
-    "fonte": "IGN Brasil",
-    "timestamp": "2025-07-17T06:12:16"
-  },
-  {
     "titulo": "8BitDo's newest Pro 3 Controller has magnetic swappable face buttons for Switch and Xbox configurations",
     "descricao": "newsX been given to ya, now you choose where to put it.",
     "link": "https://www.pcgamer.com/hardware/8bitdos-newest-pro-3-controller-has-magnetic-swappable-face-buttons-for-switch-and-xbox-configurations/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/jxz3CHESP5xmZbuSn3SWAZ.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "PC Gamer magazine's new issue is on sale now: Dying Light: The Beast",
@@ -93,7 +13,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/pc-gamer-magazines-new-issue-is-on-sale-now-dying-light-the-beast/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/vMCuZbVC83amA33vcBR2ti.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "'Listening to gamers is at the heart of what we do' says company that are putting out a hand shaped gaming keyboard with a thumbstick",
@@ -101,7 +21,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/listening-to-gamers-is-at-the-heart-of-what-we-do-says-company-that-are-putting-out-a-hand-shaped-gaming-keyboard-with-a-thumbstick/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/xccC6TCkkBpyJNYZAtWdVB.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "Secretlab to offer 'a modern, ergonomic twist to the classic lounge chair' with a footrest",
@@ -109,7 +29,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/hardware/secretlab-to-offer-a-modern-ergonomic-twist-to-the-classic-lounge-chair-with-a-footrest/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/g2WpHWz9WR7eUnmuXFknXV.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "Oblivion Remastered studio is reportedly laying off 300 people",
@@ -117,7 +37,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/oblivion-remastered-studio-is-reportedly-laying-off-300-people/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/4VxRiVfDYM6nCDBeAkajdF.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "Today's Wordle answer for Thursday, July 17",
@@ -125,7 +45,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-july-17-2025/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/eRKhm7pMEv9Hc4HNQCEoEK.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "After leaving Ubisoft to launch an anime avatar AI/NFT startup, Yves Guillemot's son returns to take charge of its new Tencent-backed Assassin's Creed, Far Cry, and Rainbow 6 subsidiary",
@@ -133,7 +53,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/after-leaving-ubisoft-to-launch-an-anime-avatar-ai-nft-startup-yves-guillemots-son-returns-to-take-charge-of-its-new-tencent-backed-assassins-creed-far-cry-and-rainbow-6-subsidiary/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/ArjA7hd2Nc5KGriiPGak5m.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "An absolute Elden Ring madlad just soloed Nightreign's most-hated boss at level 1 with the power of Sekiro parries",
@@ -141,7 +61,7 @@ const noticias = [
     "link": "https://www.pcgamer.com/games/rpg/an-absolute-elden-ring-madlad-just-soloed-nightreigns-most-hated-boss-at-level-1-with-the-power-of-sekiro-parries/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/zKYkfZsrGZGmTrPUnYeJ5e.png",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
   },
   {
     "titulo": "Unknown Worlds founders' lawsuit accuses Krafton of a 'months-long campaign to delay Subnautica 2' so it wouldn't have to pay $250M earnout",
@@ -149,6 +69,86 @@ const noticias = [
     "link": "https://www.pcgamer.com/gaming-industry/unknown-worlds-founders-lawsuit-accuses-krafton-of-a-months-long-campaign-to-delay-subnautica-2-so-it-wouldnt-have-to-pay-usd250m-earnout/",
     "imagem": "https://cdn.mos.cms.futurecdn.net/nXJZPBxrNQDmchLoaZMpsj.jpg",
     "fonte": "PC Gamer",
-    "timestamp": "2025-07-17T06:12:16"
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Com universo engenhoso, Donkey Kong Bananza é epítome de jogabilidade divertida e singular | Review",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/143242/review/com-universo-engenhoso-donkey-kong-bananza-e-epitome-de-jogabilidade-divertida-e-singular-review",
+    "imagem": null,
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Os destaques de games brasileiros lançados para Steam em junho de 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/games/143268/news/emmas-umbrella-metahorror-therapy-session-e-mais-destaques-de-games-brasileiros-lancados-para-steam",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/1_gsjh.800.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Dupla que interpretará Link e Zelda no live-action de The Legend of Zelda é confirmada",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-legend-of-zelda-3/143246/news/dupla-que-interpretara-link-e-zelda-no-live-action-de-the-legend-of-zelda-e-confirmada-por-miyamoto",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65621/65621_ke49.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Frieren e a Jornada para o Além é muito mais que um anime — é um sentimento",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/frieren-e-a-jornada-para-o-alem/143198/feature/espero-que-a-essencia-que-ressoa-dentro-das-pessoas-permaneca-frieren-e-a-jornada-para-o-alem-e-muit",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65536/65536_wr4v.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "As letras miúdas de Clair Obscur: Expedition 33 — impacto da Covid, histórias escondidas e mais",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/clair-obscur-expedition-33/143075/feature/as-letras-miudas-de-clair-obscur-expedition-33-impacto-da-covid-19-historias-escondidas-e-como-lost",
+    "imagem": "https://sm.ign.com/t/ign_br/slotter/6/65647/65647_1p34.800.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Com novos modos competitivo e realista, EA divulga primeiro trailer de EA Sports FC 26",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/ea-sports-fc-26/143277/news/com-novos-modos-competitivo-e-realista-ea-divulga-primeiro-trailer-de-ea-sports-fc-26",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ea-sports-fc-26-900x503jpg_pb5f.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Atualização de Cyberpunk 2077 adiciona missões, veículos, serviço de direção automática e mais",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/cyberpunk-2077/143276/news/atualizacao-de-cyberpunk-2077-adiciona-missoes-veiculos-servico-de-direcao-automatica-e-mais",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/blob_u8vw.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "Donkey Kong Bananza estreia com média 90 do Metacritic e já figura entre jogos mais bem avaliados de 2025",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/donkey-kong-bananza-1/143275/news/donkey-kong-bananza-estreia-com-media-90-do-metacritic-e-ja-figura-entre-jogos-mais-bem-avaliados-de",
+    "imagem": "https://sm.ign.com/t/ign_br/news/n/nintendo-s/nintendo-says-donkey-kong-bananza-will-come-to-symbolise-3d_ynaa.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "3ª temporada de The Last of Us tem previsão de estreia confirmada para 2027",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/the-last-of-us-the-series/143238/news/3a-temporada-de-the-last-of-us-tem-previsao-de-estreia-confirmada-para-2027",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/the-last-of-us-season-2s-latest_t9m5.320.jpg",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
+  },
+  {
+    "titulo": "6 jogos para PS5 com 15% de desconto no Amazon Prime Day. Aproveite!",
+    "descricao": "Clique para ler a notícia completa na IGN Brasil.",
+    "link": "https://br.ign.com/descontos/143309/news/6-jogos-para-ps5-com-15-de-desconto-no-amazon-prime-day-aproveite",
+    "imagem": "https://sm.ign.com/t/ign_br/screenshot/default/ign-1_bhfd.280.png",
+    "fonte": "IGN Brasil",
+    "timestamp": "2025-07-17T06:39:33"
   }
 ];
